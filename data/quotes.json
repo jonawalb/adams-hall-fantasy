@@ -1,0 +1,32 @@
+{
+  "note": "SAMPLE DATA — replace with real league quotes. Will live in Supabase once auth is wired up.",
+  "quotes": [
+    {
+      "id": 1,
+      "text": "I'm not saying I threw the week, I'm saying the week threw me.",
+      "attributedTo": "Sample Member",
+      "submittedBy": "Sample Member",
+      "context": "After benching his QB1 for a bye-week player",
+      "date": "2025-11-12",
+      "reactions": { "😂": 6, "💀": 3, "🐐": 1 }
+    },
+    {
+      "id": 2,
+      "text": "Trade deadline is a social construct.",
+      "attributedTo": "Sample Member",
+      "submittedBy": "Sample Member",
+      "context": "Attempting a trade 4 minutes after the deadline",
+      "date": "2025-11-20",
+      "reactions": { "😂": 4, "🤝": 2 }
+    },
+    {
+      "id": 3,
+      "text": "My kicker outscored your whole bench and honestly that's on you.",
+      "attributedTo": "Sample Member",
+      "submittedBy": "Sample Member",
+      "context": "Group chat, Monday night",
+      "date": "2025-12-02",
+      "reactions": { "😂": 8, "💀": 5, "🔥": 2 }
+    }
+  ]
+}
