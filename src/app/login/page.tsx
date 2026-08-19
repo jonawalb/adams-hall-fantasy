@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 import { getSupabase } from "@/lib/supabase";
 
 export default function LoginPage() {
@@ -10,6 +11,7 @@ export default function LoginPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState<string | null>(null);
+  const [notice, setNotice] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
 
   async function signIn(e: React.FormEvent) {
@@ -17,15 +19,42 @@ export default function LoginPage() {
     if (!supabase) return;
     setBusy(true);
     setError(null);
+    setNotice(null);
     const { error } = await supabase.auth.signInWithPassword({ email, password });
     setBusy(false);
     if (error) setError(error.message);
     else router.replace("/");
   }
 
+  async function forgotPassword() {
+    if (!supabase) return;
+    setError(null);
+    setNotice(null);
+    if (!email) {
+      setError("Enter your email above first, then tap Forgot password.");
+      return;
+    }
+    setBusy(true);
+    const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+    const { error } = await supabase.auth.resetPasswordForEmail(email, {
+      redirectTo: `${window.location.origin}${base}/welcome/`,
+    });
+    setBusy(false);
+    if (error) setError(error.message);
+    else setNotice("Reset link sent — check your email.");
+  }
+
   return (
     <div className="mx-auto max-w-md space-y-6 pt-10">
       <header className="rise text-center">
+        <Image
+          src="/crest.png"
+          alt="Adams Hall Fantasy League crest"
+          width={160}
+          height={160}
+          className="mx-auto mb-4 drop-shadow-[0_0_28px_rgba(216,161,63,0.3)]"
+          priority
+        />
         <p className="kicker">Members Only</p>
         <h1 className="font-display mt-2 text-3xl text-gold-bright">SIGN IN</h1>
       </header>
@@ -58,12 +87,21 @@ export default function LoginPage() {
             />
           </div>
           {error && <p className="text-sm text-blood">{error}</p>}
+          {notice && <p className="text-sm text-gold">{notice}</p>}
           <button
             type="submit"
             disabled={!supabase || busy}
             className="font-head w-full rounded-sm bg-gold py-2.5 font-bold uppercase tracking-widest text-felt-deep transition-opacity hover:bg-gold-bright disabled:cursor-not-allowed disabled:opacity-60"
           >
             {busy ? "Checking…" : "Enter the clubhouse"}
+          </button>
+          <button
+            type="button"
+            disabled={!supabase || busy}
+            onClick={forgotPassword}
+            className="w-full text-center text-xs text-cream-dim underline-offset-4 hover:text-cream hover:underline disabled:cursor-not-allowed"
+          >
+            Forgot password?
           </button>
         </form>
         <p className="mt-4 border-t border-line pt-4 text-center text-xs text-cream-dim">

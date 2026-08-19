@@ -78,6 +78,32 @@ create policy "own reactions insert"
 create policy "own reactions delete"
   on quote_reactions for delete using (member_id = auth.uid());
 
+-- Members may fix their own display name (set on the /welcome page).
+create policy "own member row update"
+  on members for update
+  using (id = auth.uid())
+  with check (id = auth.uid());
+
+-- Auto-provision the members row when an invited account is created.
+-- Invite metadata comes from scripts/invite-members.mjs.
+create or replace function handle_new_user() returns trigger
+language plpgsql security definer set search_path = public as $$
+begin
+  insert into members (id, display_name, espn_owner_id, is_commissioner)
+  values (
+    new.id,
+    coalesce(new.raw_user_meta_data->>'display_name', new.email),
+    new.raw_user_meta_data->>'espn_owner_id',
+    coalesce((new.raw_user_meta_data->>'is_commissioner')::boolean, false)
+  )
+  on conflict (id) do nothing;
+  return new;
+end $$;
+
+drop trigger if exists on_auth_user_created on auth.users;
+create trigger on_auth_user_created after insert on auth.users
+  for each row execute function handle_new_user();
+
 -- Keep picks.updated_at fresh.
 create or replace function touch_updated_at() returns trigger
 language plpgsql as $$

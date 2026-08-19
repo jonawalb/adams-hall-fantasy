@@ -30,11 +30,14 @@ export default function AuthGate({ children }: { children: React.ReactNode }) {
   }, [supabase]);
 
   const isLogin = pathname?.startsWith("/login");
+  // /welcome must stay reachable without a session (invite links land there
+  // with the auth token in the URL hash) AND with one (to set the password).
+  const isPublic = isLogin || pathname?.startsWith("/welcome");
 
   useEffect(() => {
-    if (state === "out" && !isLogin) router.replace("/login");
+    if (state === "out" && !isPublic) router.replace("/login");
     if (state === "in" && isLogin) router.replace("/");
-  }, [state, isLogin, router]);
+  }, [state, isPublic, isLogin, router]);
 
   if (state === "preview") {
     return (
@@ -49,7 +52,7 @@ export default function AuthGate({ children }: { children: React.ReactNode }) {
     );
   }
 
-  if (state === "in" || (state === "out" && isLogin)) return <>{children}</>;
+  if (state === "in" || (state === "out" && isPublic)) return <>{children}</>;
 
   return (
     <div className="flex min-h-[60vh] items-center justify-center">
