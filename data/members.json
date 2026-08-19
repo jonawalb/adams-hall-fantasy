@@ -1,0 +1,12 @@
+[
+  { "display_name": "Jonathan Walberg", "email": "Jonathanwalberg@gmail.com", "espn_owner_id": "{75AC5FD8-6722-43E4-B41D-B5D51FD8E9E7}", "is_commissioner": true },
+  { "display_name": "Ethan Connell", "email": "", "espn_owner_id": "{63997D52-0196-4BC4-B322-161E7342C352}", "is_commissioner": false },
+  { "display_name": "Colin McAulay", "email": "", "espn_owner_id": "{3AEDC062-A4DB-4A7D-9F19-C255055B2C61}", "is_commissioner": false },
+  { "display_name": "Collin Thomas", "email": "", "espn_owner_id": "{CB00D46F-AFC1-4AD4-83BF-F5FAF71897CF}", "is_commissioner": false },
+  { "display_name": "Junul Smith", "email": "", "espn_owner_id": "{294E9BB0-3CB9-4B62-BE44-BD0420CAD9C4}", "is_commissioner": false },
+  { "display_name": "Jorge Velasco", "email": "", "espn_owner_id": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}", "is_commissioner": false },
+  { "display_name": "Dylan Morse", "email": "", "espn_owner_id": "{533F11EF-71ED-46D1-839D-67A3199CFA89}", "is_commissioner": false },
+  { "display_name": "Aarush Jambunathan", "email": "", "espn_owner_id": "{671FD9E7-237D-4D4E-9B4E-F8873DE729CA}", "is_commissioner": false },
+  { "display_name": "Nishok Chitvel", "email": "", "espn_owner_id": "{C2489537-0A8B-4E67-9914-7A2C71341A12}", "is_commissioner": false },
+  { "display_name": "David Roulley", "email": "", "espn_owner_id": "{DD52DE43-FADF-409D-809E-6E6707F0216F}", "is_commissioner": false }
+]
