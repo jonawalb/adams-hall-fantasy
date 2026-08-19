@@ -24,10 +24,14 @@ export default function PickemBoard({ games }: { games: PickemGame[] }) {
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
+    // localStorage is unavailable during prerender, so picks must load
+    // post-hydration; the `loaded` flag stops the save effect from
+    // clobbering stored picks with the initial empty state.
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
       if (raw) setPicks(JSON.parse(raw));
     } catch {}
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setLoaded(true);
   }, []);
 
