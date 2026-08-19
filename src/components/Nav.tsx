@@ -6,6 +6,9 @@ import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 import { getSupabase } from "@/lib/supabase";
 
+// next/image with `unoptimized` uses src verbatim — prepend basePath ourselves.
+const CREST = `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/crest.png`;
+
 const LINKS = [
   { href: "/", label: "Clubhouse" },
   { href: "/standings", label: "Standings" },
@@ -43,7 +46,7 @@ export default function Nav() {
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
         <Link href="/" className="group flex items-center gap-3">
           <Image
-            src="/crest.png"
+            src={CREST}
             alt=""
             width={36}
             height={36}

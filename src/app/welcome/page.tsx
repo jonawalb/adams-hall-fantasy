@@ -5,6 +5,9 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { getSupabase } from "@/lib/supabase";
 
+// next/image with `unoptimized` uses src verbatim — prepend basePath ourselves.
+const CREST = `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/crest.png`;
+
 type State = "waiting" | "ready" | "expired" | "saving";
 
 /**
@@ -82,7 +85,7 @@ export default function WelcomePage() {
     <div className="mx-auto max-w-md space-y-6 pt-10">
       <header className="rise text-center">
         <Image
-          src="/crest.png"
+          src={CREST}
           alt="Adams Hall Fantasy League crest"
           width={128}
           height={128}
