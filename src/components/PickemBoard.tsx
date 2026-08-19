@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState, useSyncExternalStore } from "react";
 
 interface TeamSide {
   abbr: string;
@@ -19,28 +19,34 @@ export interface PickemGame {
 
 const STORAGE_KEY = "ahfl-pickem-2026-wk1";
 
+type Picks = Record<string, "home" | "away">;
+
+function loadStoredPicks(): Picks {
+  if (typeof window === "undefined") return {};
+  try {
+    return JSON.parse(localStorage.getItem(STORAGE_KEY) ?? "{}");
+  } catch {
+    return {};
+  }
+}
+
+const noopSubscribe = () => () => {};
+
 export default function PickemBoard({ games }: { games: PickemGame[] }) {
-  const [picks, setPicks] = useState<Record<string, "home" | "away">>({});
-  const [loaded, setLoaded] = useState(false);
-
-  useEffect(() => {
-    // localStorage is unavailable during prerender, so picks must load
-    // post-hydration; the `loaded` flag stops the save effect from
-    // clobbering stored picks with the initial empty state.
-    try {
-      const raw = localStorage.getItem(STORAGE_KEY);
-      if (raw) setPicks(JSON.parse(raw));
-    } catch {}
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setLoaded(true);
-  }, []);
-
-  useEffect(() => {
-    if (loaded) localStorage.setItem(STORAGE_KEY, JSON.stringify(picks));
-  }, [picks, loaded]);
+  // Prerendered HTML has no picks, so render empty until hydration completes,
+  // then reveal the localStorage-backed state (avoids a hydration mismatch).
+  const hydrated = useSyncExternalStore(noopSubscribe, () => true, () => false);
+  const [storedPicks, setStoredPicks] = useState<Picks>(loadStoredPicks);
+  const picks = hydrated ? storedPicks : {};
 
   const pick = (gameId: string, side: "home" | "away") =>
-    setPicks((p) => ({ ...p, [gameId]: side }));
+    setStoredPicks((p) => {
+      const next = { ...p, [gameId]: side };
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
+      } catch {}
+      return next;
+    });
 
   const made = Object.keys(picks).length;
 
