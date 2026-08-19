@@ -1,11 +1,11 @@
-import { loadSeason } from "@/lib/espn";
+import { availableSeasons, loadSeason } from "@/lib/espn";
 import { h2hMatrix } from "@/lib/stats";
 
 export default function RivalriesPage() {
-  const seasons = [loadSeason(2025)!, loadSeason(2026)!];
+  const seasons = availableSeasons().map((y) => loadSeason(y)!);
   const cells = h2hMatrix(seasons);
   // Owner roster from the newest season (franchises are permanent).
-  const owners = seasons[1].teams.map((t) => ({
+  const owners = seasons[seasons.length - 1].teams.map((t) => ({
     id: t.ownerId,
     first: t.ownerFirst,
     team: t.name,
@@ -27,11 +27,11 @@ export default function RivalriesPage() {
   return (
     <div className="space-y-8">
       <header className="rise">
-        <p className="kicker">Head-to-Head · All synced seasons (2025–present)</p>
+        <p className="kicker">Head-to-Head · All seasons (2021–present)</p>
         <h1 className="font-display mt-2 text-3xl text-gold-bright sm:text-4xl">RIVALRIES</h1>
         <p className="mt-2 max-w-2xl text-sm text-cream-dim">
-          Read across: the row owner&rsquo;s record against each column. 2021–2024 join the grid once
-          historical seasons are synced — then the real grudges surface.
+          Read across: the row owner&rsquo;s record against each column. Five full seasons of
+          grudges, counted from the 2021 founding.
         </p>
       </header>
 

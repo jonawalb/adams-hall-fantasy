@@ -1,8 +1,8 @@
-import { loadSeason } from "@/lib/espn";
+import { availableSeasons, loadSeason } from "@/lib/espn";
 import { recordBook } from "@/lib/stats";
 
 export default function RecordsPage() {
-  const seasons = [loadSeason(2025)!, loadSeason(2026)!];
+  const seasons = availableSeasons().map((y) => loadSeason(y)!);
   const records = recordBook(seasons);
   const glory = records.filter((r) => !r.shame);
   const shame = records.filter((r) => r.shame);
@@ -10,7 +10,7 @@ export default function RecordsPage() {
   return (
     <div className="space-y-10">
       <header className="rise">
-        <p className="kicker">Etched in Brass · 2025–present (2021–2024 pending sync)</p>
+        <p className="kicker">Etched in Brass · 2021–present · All-time</p>
         <h1 className="font-display mt-2 text-3xl text-gold-bright sm:text-4xl">THE RECORD BOOK</h1>
       </header>
 
