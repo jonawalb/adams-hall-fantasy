@@ -4,8 +4,13 @@ on:
   push:
     branches: [main]
   schedule:
-    # Refresh ESPN data + rebuild daily at 09:00 UTC (tighten on gamedays later)
+    # Refresh ESPN data + rebuild daily at 09:00 UTC
     - cron: "0 9 * * *"
+    # NFL results: Thursday night, Sunday (every 3h), Monday night, Tuesday morning (UTC)
+    - cron: "0 4,7 * * 5"
+    - cron: "0 20,23 * * 0"
+    - cron: "0 2,5,8 * * 1"
+    - cron: "0 4,7,12 * * 2"
   workflow_dispatch:
 
 permissions:
@@ -33,6 +38,9 @@ jobs:
           ESPN_S2: ${{ secrets.ESPN_S2 }}
           SWID: ${{ secrets.SWID }}
         continue-on-error: true # a flaky ESPN response shouldn't block deploys; committed snapshots remain
+      - name: Refresh NFL pick'em slate
+        run: node scripts/fetch-nfl.mjs
+        continue-on-error: true
       - name: Build static site
         run: npm run build
         env:
