@@ -1,9 +1,15 @@
 import { availableSeasons, loadSeason } from "@/lib/espn";
 import { h2hMatrix } from "@/lib/stats";
+import { allSeries, currentOwners, ownerCards } from "@/lib/rivalry";
+import RivalryCards from "@/components/RivalryCards";
+import SeriesPicker from "@/components/SeriesPicker";
 
 export default function RivalriesPage() {
   const seasons = availableSeasons().map((y) => loadSeason(y)!);
   const cells = h2hMatrix(seasons);
+  const rivalryOwners = currentOwners(seasons);
+  const everySeries = allSeries(seasons, rivalryOwners);
+  const cards = ownerCards(everySeries, rivalryOwners);
   // Owner roster from the newest season (franchises are permanent).
   const owners = seasons[seasons.length - 1].teams.map((t) => ({
     id: t.ownerId,
@@ -105,6 +111,9 @@ export default function RivalriesPage() {
           </tbody>
         </table>
       </section>
+
+      <RivalryCards cards={cards} />
+      <SeriesPicker owners={rivalryOwners} all={everySeries} />
     </div>
   );
 }
