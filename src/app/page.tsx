@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { loadSeason } from "@/lib/espn";
 import { champion, recordBook, standings, weeklyAwards } from "@/lib/stats";
-import quotesData from "../../data/quotes.json";
+import LatestQuote from "@/components/LatestQuote";
 
 const fmt = (n: number) => n.toFixed(1);
 
@@ -13,7 +13,6 @@ export default function Clubhouse() {
   const robbed = [...lines2025].sort((a, b) => a.luck - b.luck)[0];
   const finalWeekAwards = weeklyAwards(s2025, s2025.regSeasonWeeks);
   const records = recordBook([s2025]).slice(0, 3);
-  const quote = quotesData.quotes[quotesData.quotes.length - 1];
 
   return (
     <div className="space-y-10">
@@ -91,14 +90,7 @@ export default function Clubhouse() {
         </div>
 
         <div className="space-y-4 lg:col-span-2">
-          <div className="panel p-5">
-            <h2 className="kicker">Quote of the Week</h2>
-            <blockquote className="mt-3 text-lg leading-snug">&ldquo;{quote.text}&rdquo;</blockquote>
-            <p className="mt-2 text-sm text-cream-dim">— {quote.attributedTo} · {quote.context}</p>
-            <Link href="/quotes" className="font-head mt-3 inline-block text-sm uppercase tracking-wider text-gold hover:text-gold-bright">
-              The wall →
-            </Link>
-          </div>
+          <LatestQuote />
           <Link
             href="/pickem"
             className="block rounded border border-gold-deep bg-gradient-to-br from-raised to-felt p-5 transition-colors hover:border-gold"

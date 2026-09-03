@@ -1,0 +1,381 @@
+{
+ "season": 2026,
+ "currentWeek": 1,
+ "weeks": {
+  "1": {
+   "season": 2026,
+   "week": 1,
+   "games": [
+    {
+     "id": "401872656",
+     "date": "2026-09-10T00:20Z",
+     "name": "NE @ SEA",
+     "state": "pre",
+     "completed": false,
+     "winner": null,
+     "detail": "9/9 - 8:20 PM EDT",
+     "home": {
+      "abbr": "SEA",
+      "name": "Seattle Seahawks",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
+      "color": "002a5c",
+      "score": 0
+     },
+     "away": {
+      "abbr": "NE",
+      "name": "New England Patriots",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+      "color": "002a5c",
+      "score": 0
+     }
+    },
+    {
+     "id": "401872657",
+     "date": "2026-09-11T00:35Z",
+     "name": "SF VS LAR",
+     "state": "pre",
+     "completed": false,
+     "winner": null,
+     "detail": "9/10 - 8:35 PM EDT",
+     "home": {
+      "abbr": "LAR",
+      "name": "Los Angeles Rams",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+      "color": "003594",
+      "score": 0
+     },
+     "away": {
+      "abbr": "SF",
+      "name": "San Francisco 49ers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
+      "color": "aa0000",
+      "score": 0
+     }
+    },
+    {
+     "id": "401872925",
+     "date": "2026-09-13T17:00Z",
+     "name": "TB @ CIN",
+     "state": "pre",
+     "completed": false,
+     "winner": null,
+     "detail": "9/13 - 1:00 PM EDT",
+     "home": {
+      "abbr": "CIN",
+      "name": "Cincinnati Bengals",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+      "color": "fb4f14",
+      "score": 0
+     },
+     "away": {
+      "abbr": "TB",
+      "name": "Tampa Bay Buccaneers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+      "color": "bd1c36",
+      "score": 0
+     }
+    },
+    {
+     "id": "401872923",
+     "date": "2026-09-13T17:00Z",
+     "name": "NO @ DET",
+     "state": "pre",
+     "completed": false,
+     "winner": null,
+     "detail": "9/13 - 1:00 PM EDT",
+     "home": {
+      "abbr": "DET",
+      "name": "Detroit Lions",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
+      "color": "0076b6",
+      "score": 0
+     },
+     "away": {
+      "abbr": "NO",
+      "name": "New Orleans Saints",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+      "color": "d3bc8d",
+      "score": 0
+     }
+    },
+    {
+     "id": "401872924",
+     "date": "2026-09-13T17:00Z",
+     "name": "NYJ @ TEN",
+     "state": "pre",
+     "completed": false,
+     "winner": null,
+     "detail": "9/13 - 1:00 PM EDT",
+     "home": {
+      "abbr": "TEN",
+      "name": "Tennessee Titans",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
+      "color": "4495d2",
+      "score": 0
+     },
+     "away": {
+      "abbr": "NYJ",
+      "name": "New York Jets",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+      "color": "115740",
+      "score": 0
+     }
+    },
+    {
+     "id": "401872659",
+     "date": "2026-09-13T17:00Z",
+     "name": "BAL @ IND",
+     "state": "pre",
+     "completed": false,
+     "winner": null,
+     "detail": "9/13 - 1:00 PM EDT",
+     "home": {
+      "abbr": "IND",
+      "name": "Indianapolis Colts",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+      "color": "003b75",
+      "score": 0
+     },
+     "away": {
+      "abbr": "BAL",
+      "name": "Baltimore Ravens",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
+      "color": "29126f",
+      "score": 0
+     }
+    },
+    {
+     "id": "401872658",
+     "date": "2026-09-13T17:00Z",
+     "name": "ATL @ PIT",
+     "state": "pre",
+     "completed": false,
+     "winner": null,
+     "detail": "9/13 - 1:00 PM EDT",
+     "home": {
+      "abbr": "PIT",
+      "name": "Pittsburgh Steelers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+      "color": "000000",
+      "score": 0
+     },
+     "away": {
+      "abbr": "ATL",
+      "name": "Atlanta Falcons",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+      "color": "a71930",
+      "score": 0
+     }
+    },
+    {
+     "id": "401872661",
+     "date": "2026-09-13T17:00Z",
+     "name": "CHI @ CAR",
+     "state": "pre",
+     "completed": false,
+     "winner": null,
+     "detail": "9/13 - 1:00 PM EDT",
+     "home": {
+      "abbr": "CAR",
+      "name": "Carolina Panthers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
+      "color": "0085ca",
+      "score": 0
+     },
+     "away": {
+      "abbr": "CHI",
+      "name": "Chicago Bears",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+      "color": "0b1c3a",
+      "score": 0
+     }
+    },
+    {
+     "id": "401872922",
+     "date": "2026-09-13T17:00Z",
+     "name": "CLE @ JAX",
+     "state": "pre",
+     "completed": false,
+     "winner": null,
+     "detail": "9/13 - 1:00 PM EDT",
+     "home": {
+      "abbr": "JAX",
+      "name": "Jacksonville Jaguars",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+      "color": "007487",
+      "score": 0
+     },
+     "away": {
+      "abbr": "CLE",
+      "name": "Cleveland Browns",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+      "color": "472a08",
+      "score": 0
+     }
+    },
+    {
+     "id": "401872660",
+     "date": "2026-09-13T17:00Z",
+     "name": "BUF @ HOU",
+     "state": "pre",
+     "completed": false,
+     "winner": null,
+     "detail": "9/13 - 1:00 PM EDT",
+     "home": {
+      "abbr": "HOU",
+      "name": "Houston Texans",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+      "color": "021018",
+      "score": 0
+     },
+     "away": {
+      "abbr": "BUF",
+      "name": "Buffalo Bills",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
+      "color": "00338d",
+      "score": 0
+     }
+    },
+    {
+     "id": "401872928",
+     "date": "2026-09-13T20:25Z",
+     "name": "MIA @ LV",
+     "state": "pre",
+     "completed": false,
+     "winner": null,
+     "detail": "9/13 - 4:25 PM EDT",
+     "home": {
+      "abbr": "LV",
+      "name": "Las Vegas Raiders",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+      "color": "000000",
+      "score": 0
+     },
+     "away": {
+      "abbr": "MIA",
+      "name": "Miami Dolphins",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
+      "color": "008e97",
+      "score": 0
+     }
+    },
+    {
+     "id": "401872927",
+     "date": "2026-09-13T20:25Z",
+     "name": "GB @ MIN",
+     "state": "pre",
+     "completed": false,
+     "winner": null,
+     "detail": "9/13 - 4:25 PM EDT",
+     "home": {
+      "abbr": "MIN",
+      "name": "Minnesota Vikings",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+      "color": "4f2683",
+      "score": 0
+     },
+     "away": {
+      "abbr": "GB",
+      "name": "Green Bay Packers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+      "color": "204e32",
+      "score": 0
+     }
+    },
+    {
+     "id": "401872929",
+     "date": "2026-09-13T20:25Z",
+     "name": "WSH @ PHI",
+     "state": "pre",
+     "completed": false,
+     "winner": null,
+     "detail": "9/13 - 4:25 PM EDT",
+     "home": {
+      "abbr": "PHI",
+      "name": "Philadelphia Eagles",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+      "color": "06424d",
+      "score": 0
+     },
+     "away": {
+      "abbr": "WSH",
+      "name": "Washington Commanders",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+      "color": "5a1414",
+      "score": 0
+     }
+    },
+    {
+     "id": "401872926",
+     "date": "2026-09-13T20:25Z",
+     "name": "ARI @ LAC",
+     "state": "pre",
+     "completed": false,
+     "winner": null,
+     "detail": "9/13 - 4:25 PM EDT",
+     "home": {
+      "abbr": "LAC",
+      "name": "Los Angeles Chargers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+      "color": "0080c6",
+      "score": 0
+     },
+     "away": {
+      "abbr": "ARI",
+      "name": "Arizona Cardinals",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+      "color": "a40227",
+      "score": 0
+     }
+    },
+    {
+     "id": "401872930",
+     "date": "2026-09-14T00:20Z",
+     "name": "DAL @ NYG",
+     "state": "pre",
+     "completed": false,
+     "winner": null,
+     "detail": "9/13 - 8:20 PM EDT",
+     "home": {
+      "abbr": "NYG",
+      "name": "New York Giants",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+      "color": "003c7f",
+      "score": 0
+     },
+     "away": {
+      "abbr": "DAL",
+      "name": "Dallas Cowboys",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+      "color": "002a5c",
+      "score": 0
+     }
+    },
+    {
+     "id": "401872931",
+     "date": "2026-09-15T00:15Z",
+     "name": "DEN @ KC",
+     "state": "pre",
+     "completed": false,
+     "winner": null,
+     "detail": "9/14 - 8:15 PM EDT",
+     "home": {
+      "abbr": "KC",
+      "name": "Kansas City Chiefs",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+      "color": "e31837",
+      "score": 0
+     },
+     "away": {
+      "abbr": "DEN",
+      "name": "Denver Broncos",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+      "color": "0a2343",
+      "score": 0
+     }
+    }
+   ]
+  }
+ },
+ "fetchedAt": "2026-09-03T03:25:48.462Z"
+}
