@@ -41,6 +41,11 @@ export interface Season {
 
 const DATA_DIR = path.join(process.cwd(), "data", "espn");
 
+/** Display-name overrides by current owner GUID (the league's choice, not ESPN's). */
+const OWNER_NAME_OVERRIDES: Record<string, string> = {
+  "{DD52DE43-FADF-409D-809E-6E6707F0216F}": "Bitch Boy",
+};
+
 /**
  * Members who changed ESPN accounts mid-history. Old GUID → current GUID, so
  * head-to-head and career stats follow the person, not the login.
@@ -74,7 +79,8 @@ export function loadSeason(year: number): Season | null {
     const rec = t.record?.overall ?? {};
     const rawOwnerId: string = t.owners?.[0] ?? "";
     const ownerId = OWNER_ALIASES[rawOwnerId] ?? rawOwnerId;
-    const ownerName = memberNames.get(rawOwnerId) ?? memberNames.get(ownerId) ?? "Unknown";
+    const override = OWNER_NAME_OVERRIDES[ownerId];
+    const ownerName = override ?? memberNames.get(rawOwnerId) ?? memberNames.get(ownerId) ?? "Unknown";
     return {
       id: t.id,
       name: (t.name ?? `${t.location ?? ""} ${t.nickname ?? ""}`).trim(),
@@ -82,7 +88,7 @@ export function loadSeason(year: number): Season | null {
       logo: t.logo ?? null,
       ownerId,
       ownerName,
-      ownerFirst: ownerName.split(" ")[0],
+      ownerFirst: override ? ownerName : ownerName.split(" ")[0],
       wins: rec.wins ?? 0,
       losses: rec.losses ?? 0,
       ties: rec.ties ?? 0,
