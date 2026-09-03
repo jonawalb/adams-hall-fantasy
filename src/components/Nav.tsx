@@ -19,8 +19,24 @@ const LINKS = [
   { href: "/clubhouse", label: "Clubhouse", stats: true },
   { href: "/standings", label: "Standings", stats: true },
   { href: "/matchups", label: "Matchups", stats: true },
-  { href: "/rivalries", label: "Rivalries", stats: true },
-  { href: "/records", label: "Record Book", stats: true },
+  {
+    href: "/rivalries",
+    label: "Rivalries",
+    stats: true,
+    children: [
+      { href: "/rivalries/regular", label: "Regular Season" },
+      { href: "/rivalries/playoffs", label: "Playoffs" },
+    ],
+  },
+  {
+    href: "/records",
+    label: "Record Book",
+    stats: true,
+    children: [
+      { href: "/records/regular", label: "Regular Season" },
+      { href: "/records/playoffs", label: "Playoffs" },
+    ],
+  },
   { href: "/history", label: "History", stats: true },
 ];
 
@@ -29,6 +45,7 @@ export default function Nav() {
   const router = useRouter();
   const supabase = getSupabase();
   const [signedIn, setSignedIn] = useState(false);
+  const [open, setOpen] = useState<string | null>(null);
 
   useEffect(() => {
     if (!supabase) return;
@@ -70,24 +87,55 @@ export default function Nav() {
         {showTabs && (
           <nav className="flex items-center gap-1 overflow-x-auto">
             {LINKS.map((l, i) => {
-              const active = pathname === l.href || pathname === `${l.href}/`;
+              const active = pathname === l.href || pathname === `${l.href}/` || pathname?.startsWith(`${l.href}/`);
               const firstStat = l.stats && !LINKS[i - 1]?.stats;
+              const cls = `font-head whitespace-nowrap rounded-sm px-2 py-1.5 text-[0.8rem] font-semibold uppercase tracking-wider transition-colors lg:text-sm ${
+                active ? "bg-gold text-felt-deep" : l.stats ? "text-cream-dim/70 hover:bg-raised hover:text-cream" : "text-cream-dim hover:bg-raised hover:text-cream"
+              }`;
+              if (!l.children)
+                return (
+                  <Link key={l.href} href={l.href} className={`${cls} ${firstStat ? "ml-3 border-l border-line-strong pl-4" : ""}`}>
+                    {l.label}
+                  </Link>
+                );
+              const isOpen = open === l.href;
               return (
-                <Link
+                <div
                   key={l.href}
-                  href={l.href}
-                  className={`font-head whitespace-nowrap rounded-sm px-2 py-1.5 text-[0.8rem] font-semibold uppercase tracking-wider transition-colors lg:text-sm ${
-                    firstStat ? "ml-3 border-l border-line-strong pl-4" : ""
-                  } ${
-                    active
-                      ? "bg-gold text-felt-deep"
-                      : l.stats
-                        ? "text-cream-dim/70 hover:bg-raised hover:text-cream"
-                        : "text-cream-dim hover:bg-raised hover:text-cream"
-                  }`}
+                  className={`group relative ${firstStat ? "ml-3 border-l border-line-strong pl-4" : ""}`}
+                  onMouseEnter={() => setOpen(l.href)}
+                  onMouseLeave={() => setOpen((o) => (o === l.href ? null : o))}
                 >
-                  {l.label}
-                </Link>
+                  <span className="flex items-center">
+                    <Link href={l.href} className={cls}>
+                      {l.label}
+                    </Link>
+                    <button
+                      type="button"
+                      aria-label={`${l.label} menu`}
+                      onClick={() => setOpen(isOpen ? null : l.href)}
+                      className="px-1 text-xs text-cream-dim hover:text-gold"
+                    >
+                      ▾
+                    </button>
+                  </span>
+                  {isOpen && (
+                    <div className="absolute left-0 top-full z-50 min-w-40 rounded-sm border border-line-strong bg-felt-deep p-1 shadow-lg">
+                      {l.children.map((c) => (
+                        <Link
+                          key={c.href}
+                          href={c.href}
+                          onClick={() => setOpen(null)}
+                          className={`font-head block whitespace-nowrap rounded-sm px-3 py-1.5 text-sm font-semibold uppercase tracking-wider ${
+                            pathname === c.href || pathname === `${c.href}/` ? "bg-gold text-felt-deep" : "text-cream-dim hover:bg-raised hover:text-cream"
+                          }`}
+                        >
+                          {c.label}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                </div>
               );
             })}
             {signedIn && (

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useSyncExternalStore } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { getSupabase } from "@/lib/supabase";
@@ -11,6 +11,20 @@ const CREST = `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/crest.png`;
 type State = "waiting" | "ready" | "expired" | "saving";
 
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
+// Supabase sends used/expired links back with #error=...; read it once, before
+// the client strips the hash, and keep it stable for useSyncExternalStore.
+let hashErrorCache: string | null | undefined;
+const noopSubscribe = () => () => {};
+function readHashError(): string | null {
+  if (hashErrorCache === undefined) {
+    const hash = new URLSearchParams(window.location.hash.replace(/^#/, ""));
+    hashErrorCache = hash.get("error")
+      ? (hash.get("error_description")?.replace(/\+/g, " ") ?? "This link is invalid or has expired.")
+      : null;
+  }
+  return hashErrorCache;
+}
 
 /**
  * Landing page for invitation + password-recovery emails. Supabase puts a
@@ -25,21 +39,14 @@ export default function WelcomePage() {
   const [password, setPassword] = useState("");
   const [confirm, setConfirm] = useState("");
   const [error, setError] = useState<string | null>(null);
-  const [linkError, setLinkError] = useState<string | null>(null);
+  const linkError = useSyncExternalStore(noopSubscribe, readHashError, () => null);
   const [email, setEmail] = useState("");
   const [resent, setResent] = useState(false);
 
   useEffect(() => {
     if (!supabase) return;
+    if (linkError) return;
     let cancelled = false;
-    // Supabase sends used/expired links back with #error=...; read it before
-    // the client strips the hash.
-    const hash = new URLSearchParams(window.location.hash.replace(/^#/, ""));
-    if (hash.get("error")) {
-      setLinkError(hash.get("error_description")?.replace(/\+/g, " ") ?? "This link is invalid or has expired.");
-      setState("expired");
-      return;
-    }
     const adopt = (name?: string) => {
       if (cancelled) return;
       setDisplayName((cur) => cur || name || "");
@@ -60,7 +67,9 @@ export default function WelcomePage() {
       clearTimeout(timer);
       sub.subscription.unsubscribe();
     };
-  }, [supabase]);
+  }, [supabase, linkError]);
+
+  const view: State = linkError ? "expired" : state;
 
   async function resend(e: React.FormEvent) {
     e.preventDefault();
@@ -129,13 +138,13 @@ export default function WelcomePage() {
         </div>
       )}
 
-      {supabase && state === "waiting" && (
+      {supabase && view === "waiting" && (
         <div className="flex min-h-[20vh] items-center justify-center">
           <p className="kicker live-dot">Checking your invitation…</p>
         </div>
       )}
 
-      {supabase && state === "expired" && (
+      {supabase && view === "expired" && (
         <div className="panel rise p-6 text-center">
           <p className="text-cream">
             {linkError ? "This link has already been used or has expired." : "This invitation link is invalid or has expired."}
@@ -168,7 +177,7 @@ export default function WelcomePage() {
         </div>
       )}
 
-      {supabase && (state === "ready" || state === "saving") && (
+      {supabase && (view === "ready" || view === "saving") && (
         <div className="panel panel-gold rise p-6" style={{ animationDelay: "100ms" }}>
           <form className="space-y-4" onSubmit={save}>
             <div>
