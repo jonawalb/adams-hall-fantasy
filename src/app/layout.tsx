@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 // Supabase invite / recovery links land on the Site URL with the token in the
 // hash. Send them to /welcome (which sets the password) before React loads.
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
-const AUTH_REDIRECT = `(function(){var h=location.hash;if(!h||location.pathname.indexOf("/welcome")!==-1)return;if(/type=(invite|recovery|magiclink|signup)/.test(h))location.replace("${BASE}/welcome/"+h);})();`;
+const AUTH_REDIRECT = `(function(){var h=location.hash;if(!h||location.pathname.indexOf("/welcome")!==-1)return;if(/type=(invite|recovery|magiclink|signup)|error=/.test(h))location.replace("${BASE}/welcome/"+h);})();`;
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

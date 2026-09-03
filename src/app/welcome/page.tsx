@@ -10,6 +10,8 @@ const CREST = `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/crest.png`;
 
 type State = "waiting" | "ready" | "expired" | "saving";
 
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 /**
  * Landing page for invitation + password-recovery emails. Supabase puts a
  * session in the URL hash; once detected, the member sets their display
@@ -23,10 +25,21 @@ export default function WelcomePage() {
   const [password, setPassword] = useState("");
   const [confirm, setConfirm] = useState("");
   const [error, setError] = useState<string | null>(null);
+  const [linkError, setLinkError] = useState<string | null>(null);
+  const [email, setEmail] = useState("");
+  const [resent, setResent] = useState(false);
 
   useEffect(() => {
     if (!supabase) return;
     let cancelled = false;
+    // Supabase sends used/expired links back with #error=...; read it before
+    // the client strips the hash.
+    const hash = new URLSearchParams(window.location.hash.replace(/^#/, ""));
+    if (hash.get("error")) {
+      setLinkError(hash.get("error_description")?.replace(/\+/g, " ") ?? "This link is invalid or has expired.");
+      setState("expired");
+      return;
+    }
     const adopt = (name?: string) => {
       if (cancelled) return;
       setDisplayName((cur) => cur || name || "");
@@ -48,6 +61,17 @@ export default function WelcomePage() {
       sub.subscription.unsubscribe();
     };
   }, [supabase]);
+
+  async function resend(e: React.FormEvent) {
+    e.preventDefault();
+    if (!supabase || !email) return;
+    setError(null);
+    const { error: err } = await supabase.auth.resetPasswordForEmail(email, {
+      redirectTo: `${window.location.origin}${BASE}/welcome/`,
+    });
+    if (err) setError(err.message);
+    else setResent(true);
+  }
 
   async function save(e: React.FormEvent) {
     e.preventDefault();
@@ -114,13 +138,33 @@ export default function WelcomePage() {
       {supabase && state === "expired" && (
         <div className="panel rise p-6 text-center">
           <p className="text-cream">
-            This invitation link is invalid or has expired.
+            {linkError ? "This link has already been used or has expired." : "This invitation link is invalid or has expired."}
           </p>
           <p className="mt-2 text-sm text-cream-dim">
-            Ask the commissioner to send a fresh invite, or use
-            &ldquo;Forgot password&rdquo; on the sign-in page if you already
-            have an account.
+            Links only work once. Enter your email and we&rsquo;ll send a fresh one that brings you
+            straight back here to set your password.
           </p>
+          {resent ? (
+            <p className="mt-4 text-sm text-gold">Sent. Check your inbox (and spam), then tap the newest link once.</p>
+          ) : (
+            <form onSubmit={resend} className="mt-4 flex flex-col gap-2 sm:flex-row">
+              <input
+                type="email"
+                required
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="you@adamshall.league"
+                className="w-full rounded-sm border border-line bg-felt-deep/60 px-3 py-2.5 text-cream placeholder:text-cream-dim/50 focus:border-gold focus:outline-none"
+              />
+              <button
+                type="submit"
+                className="font-head shrink-0 rounded-sm bg-gold px-4 py-2.5 text-sm font-bold uppercase tracking-widest text-felt-deep hover:bg-gold-bright"
+              >
+                Send a fresh link
+              </button>
+            </form>
+          )}
+          {error && <p className="mt-2 text-sm text-blood">{error}</p>}
         </div>
       )}
 
