@@ -139,6 +139,16 @@ export default function Nav() {
               );
             })}
             {signedIn && (
+              <Link
+                href="/account"
+                className={`font-head ml-2 whitespace-nowrap rounded-sm px-2 py-1.5 text-[0.8rem] font-semibold uppercase tracking-wider lg:text-sm ${
+                  pathname?.startsWith("/account") ? "bg-gold text-felt-deep" : "text-cream-dim hover:bg-raised hover:text-cream"
+                }`}
+              >
+                Account
+              </Link>
+            )}
+            {signedIn && (
               <button
                 onClick={signOut}
                 className="font-head ml-2 whitespace-nowrap rounded-sm border border-gold-deep px-2.5 py-1.5 text-sm font-semibold uppercase tracking-wider text-gold hover:bg-gold hover:text-felt-deep"
