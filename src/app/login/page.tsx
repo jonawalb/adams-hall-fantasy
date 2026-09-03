@@ -15,6 +15,21 @@ export default function LoginPage() {
   const [password, setPassword] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
+  const [sent, setSent] = useState(false);
+
+  async function forgot() {
+    if (!supabase || !email) {
+      setError("Enter your email first, then tap forgot password.");
+      return;
+    }
+    setBusy(true);
+    setError(null);
+    const base = `${window.location.origin}${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}`;
+    const { error } = await supabase.auth.resetPasswordForEmail(email, { redirectTo: `${base}/welcome/` });
+    setBusy(false);
+    if (error) setError(error.message);
+    else setSent(true);
+  }
 
   async function signIn(e: React.FormEvent) {
     e.preventDefault();
@@ -70,12 +85,21 @@ export default function LoginPage() {
             />
           </div>
           {error && <p className="text-sm text-blood">{error}</p>}
+          {sent && <p className="text-sm text-gold">Reset link sent. Check your inbox (and spam).</p>}
           <button
             type="submit"
             disabled={!supabase || busy}
             className="font-head w-full rounded-sm bg-gold py-2.5 font-bold uppercase tracking-widest text-felt-deep transition-opacity hover:bg-gold-bright disabled:cursor-not-allowed disabled:opacity-60"
           >
             {busy ? "Checking…" : "Enter the clubhouse"}
+          </button>
+          <button
+            type="button"
+            onClick={forgot}
+            disabled={!supabase || busy}
+            className="font-head w-full text-center text-xs uppercase tracking-wider text-cream-dim hover:text-gold"
+          >
+            Forgot password
           </button>
         </form>
       </div>

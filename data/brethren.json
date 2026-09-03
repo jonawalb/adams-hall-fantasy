@@ -1,0 +1,13 @@
+{
+  "_note": "Bios and photos for the Brethren page, keyed by ESPN owner GUID. Photo = path under public/brethren/ (e.g. \"/brethren/ethan.jpg\"). Leave bio empty for the placeholder.",
+  "{75AC5FD8-6722-43E4-B41D-B5D51FD8E9E7}": { "bio": "", "photo": "" },
+  "{63997D52-0196-4BC4-B322-161E7342C352}": { "bio": "", "photo": "" },
+  "{3AEDC062-A4DB-4A7D-9F19-C255055B2C61}": { "bio": "", "photo": "" },
+  "{CB00D46F-AFC1-4AD4-83BF-F5FAF71897CF}": { "bio": "", "photo": "" },
+  "{294E9BB0-3CB9-4B62-BE44-BD0420CAD9C4}": { "bio": "", "photo": "" },
+  "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}": { "bio": "", "photo": "" },
+  "{533F11EF-71ED-46D1-839D-67A3199CFA89}": { "bio": "", "photo": "" },
+  "{671FD9E7-237D-4D4E-9B4E-F8873DE729CA}": { "bio": "", "photo": "" },
+  "{C2489537-0A8B-4E67-9914-7A2C71341A12}": { "bio": "", "photo": "" },
+  "{DD52DE43-FADF-409D-809E-6E6707F0216F}": { "bio": "", "photo": "" }
+}

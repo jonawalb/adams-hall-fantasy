@@ -43,6 +43,9 @@ jobs:
       - name: Refresh NFL pick'em slate
         run: node scripts/fetch-nfl.mjs
         continue-on-error: true
+      - name: Refresh college football snapshot
+        run: node scripts/fetch-cfb.mjs
+        continue-on-error: true
       - name: Archive ESPN transactions, draft, activity, lineups
         run: node scripts/archive-espn.mjs
         continue-on-error: true
