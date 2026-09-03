@@ -41,6 +41,15 @@ export interface Season {
 
 const DATA_DIR = path.join(process.cwd(), "data", "espn");
 
+/**
+ * Members who changed ESPN accounts mid-history. Old GUID → current GUID, so
+ * head-to-head and career stats follow the person, not the login.
+ */
+const OWNER_ALIASES: Record<string, string> = {
+  // Junul Smith: 2021–2023 account → 2024+ account
+  "{94DF2E22-DA25-4A27-A696-3BA15055F177}": "{294E9BB0-3CB9-4B62-BE44-BD0420CAD9C4}",
+};
+
 function titleCase(s: string): string {
   return s
     .trim()
@@ -63,8 +72,9 @@ export function loadSeason(year: number): Season | null {
 
   const teams: Team[] = (raw.teams ?? []).map((t: any) => {
     const rec = t.record?.overall ?? {};
-    const ownerId: string = t.owners?.[0] ?? "";
-    const ownerName = memberNames.get(ownerId) ?? "Unknown";
+    const rawOwnerId: string = t.owners?.[0] ?? "";
+    const ownerId = OWNER_ALIASES[rawOwnerId] ?? rawOwnerId;
+    const ownerName = memberNames.get(rawOwnerId) ?? memberNames.get(ownerId) ?? "Unknown";
     return {
       id: t.id,
       name: (t.name ?? `${t.location ?? ""} ${t.nickname ?? ""}`).trim(),
