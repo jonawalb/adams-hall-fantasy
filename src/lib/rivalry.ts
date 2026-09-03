@@ -113,34 +113,3 @@ export function allSeries(seasons: Season[], owners: Owner[]): Series[] {
     }
   return out;
 }
-
-export interface OwnerCard {
-  owner: Owner;
-  nemesis: { owner: Owner; wins: number; losses: number } | null; // worst record against (min 3 games)
-  victim: { owner: Owner; wins: number; losses: number } | null; // best record against (min 3 games)
-  mostPlayed: { owner: Owner; games: number; wins: number; losses: number } | null;
-}
-
-export function ownerCards(all: Series[], owners: Owner[]): OwnerCard[] {
-  return owners.map((owner) => {
-    const mine = all
-      .filter((s) => s.a.id === owner.id || s.b.id === owner.id)
-      .map((s) => {
-        const me = s.a.id === owner.id;
-        return {
-          owner: me ? s.b : s.a,
-          wins: me ? s.aWins : s.bWins,
-          losses: me ? s.bWins : s.aWins,
-          games: s.meetings.length,
-        };
-      });
-    const eligible = mine.filter((x) => x.games >= 3);
-    const pct = (x: { wins: number; losses: number }) => x.wins / Math.max(1, x.wins + x.losses);
-    const byWorst = [...eligible].sort((x, y) => pct(x) - pct(y) || y.games - x.games);
-    const byBest = [...eligible].sort((x, y) => pct(y) - pct(x) || y.games - x.games);
-    const byGames = [...mine].sort((x, y) => y.games - x.games);
-    const nemesis = byWorst[0] && pct(byWorst[0]) < 0.5 ? byWorst[0] : null;
-    const victim = byBest[0] && pct(byBest[0]) > 0.5 ? byBest[0] : null;
-    return { owner, nemesis, victim, mostPlayed: byGames[0] ?? null };
-  });
-}
