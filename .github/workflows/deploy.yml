@@ -4,8 +4,8 @@ on:
   push:
     branches: [main]
   schedule:
-    # Refresh ESPN data + rebuild daily at 09:00 UTC
-    - cron: "0 9 * * *"
+    # Nightly archive at 06:00 UTC = 2am EDT (1am EST): commits ESPN data to the repo
+    - cron: "0 6 * * *"
     # NFL results: Thursday night, Sunday (every 3h), Monday night, Tuesday morning (UTC)
     - cron: "0 4,7 * * 5"
     - cron: "0 20,23 * * 0"
@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write # nightly archive commits data/ back to main
   pages: write
   id-token: write
 
@@ -27,6 +27,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -41,6 +43,23 @@ jobs:
       - name: Refresh NFL pick'em slate
         run: node scripts/fetch-nfl.mjs
         continue-on-error: true
+      - name: Archive ESPN transactions, draft, activity, lineups
+        run: node scripts/archive-espn.mjs
+        continue-on-error: true
+      - name: Commit archived data
+        # Only on scheduled/manual runs; pushes from GITHUB_TOKEN don't retrigger this workflow.
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "ahfl-archive[bot]"
+          git config user.email "archive@adamshall.league"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "chore(data): nightly ESPN archive $(date -u +%Y-%m-%d)"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
       - name: Build static site
         run: npm run build
         env:

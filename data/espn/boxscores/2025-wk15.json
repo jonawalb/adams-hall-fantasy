@@ -1,0 +1,1017 @@
+{
+ "season": 2025,
+ "scoringPeriodId": 15,
+ "archivedAt": "2026-09-03T04:09:43.831Z",
+ "matchups": [
+  {
+   "id": 72,
+   "matchupPeriodId": 15,
+   "tier": "WINNERS_BRACKET",
+   "winner": "AWAY",
+   "home": {
+    "teamId": 10,
+    "points": 149.86,
+    "lineup": [
+     {
+      "playerId": 4241389,
+      "name": "CeeDee Lamb",
+      "pos": "WR",
+      "slot": "FLEX",
+      "points": 17.1
+     },
+     {
+      "playerId": 4258173,
+      "name": "Nico Collins",
+      "pos": "WR",
+      "slot": "WR",
+      "points": 23.5
+     },
+     {
+      "playerId": 4362238,
+      "name": "Chase Brown",
+      "pos": "RB",
+      "slot": "RB",
+      "points": 16
+     },
+     {
+      "playerId": 3040151,
+      "name": "George Kittle",
+      "pos": "TE",
+      "slot": "TE",
+      "points": 22.8
+     },
+     {
+      "playerId": 4432710,
+      "name": "TreVeyon Henderson",
+      "pos": "RB",
+      "slot": "RB",
+      "points": 30.1
+     },
+     {
+      "playerId": 4685472,
+      "name": "Tetairoa McMillan",
+      "pos": "WR",
+      "slot": "BE",
+      "points": 4.5
+     },
+     {
+      "playerId": 4426388,
+      "name": "Jameson Williams",
+      "pos": "WR",
+      "slot": "BE",
+      "points": 26.4
+     },
+     {
+      "playerId": 4567750,
+      "name": "Emeka Egbuka",
+      "pos": "WR",
+      "slot": "BE",
+      "points": 10.4
+     },
+     {
+      "playerId": 4431459,
+      "name": "Tyler Warren",
+      "pos": "TE",
+      "slot": "BE",
+      "points": 4.9
+     },
+     {
+      "playerId": 4429275,
+      "name": "Trey Benson",
+      "pos": "RB",
+      "slot": "IR",
+      "points": 0
+     },
+     {
+      "playerId": 4569587,
+      "name": "Wan'Dale Robinson",
+      "pos": "WR",
+      "slot": "WR",
+      "points": 16.4
+     },
+     {
+      "playerId": 2577417,
+      "name": "Dak Prescott",
+      "pos": "QB",
+      "slot": "QB",
+      "points": 11.959999999999999
+     },
+     {
+      "playerId": 4686361,
+      "name": "Cam Little",
+      "pos": "K",
+      "slot": "K",
+      "points": 12
+     },
+     {
+      "playerId": -16014,
+      "name": "Rams D/ST",
+      "pos": "D/ST",
+      "slot": "BE",
+      "points": -1
+     },
+     {
+      "playerId": 4682745,
+      "name": "Jaylen Wright",
+      "pos": "RB",
+      "slot": "BE",
+      "points": 2.1
+     },
+     {
+      "playerId": 4429096,
+      "name": "Blake Corum",
+      "pos": "RB",
+      "slot": "BE",
+      "points": 13.100000000000001
+     },
+     {
+      "playerId": -16025,
+      "name": "49ers D/ST",
+      "pos": "D/ST",
+      "slot": "D/ST",
+      "points": 0
+     }
+    ]
+   },
+   "away": {
+    "teamId": 7,
+    "points": 186.02,
+    "lineup": [
+     {
+      "playerId": 4374302,
+      "name": "Amon-Ra St. Brown",
+      "pos": "WR",
+      "slot": "WR",
+      "points": 41.400000000000006
+     },
+     {
+      "playerId": 4429160,
+      "name": "De'Von Achane",
+      "pos": "RB",
+      "slot": "RB",
+      "points": 18.7
+     },
+     {
+      "playerId": 4361307,
+      "name": "Trey McBride",
+      "pos": "TE",
+      "slot": "TE",
+      "points": 37.4
+     },
+     {
+      "playerId": 4426348,
+      "name": "Jayden Daniels",
+      "pos": "QB",
+      "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 4432708,
+      "name": "Marvin Harrison Jr.",
+      "pos": "WR",
+      "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 4047650,
+      "name": "DK Metcalf",
+      "pos": "WR",
+      "slot": "WR",
+      "points": 14.5
+     },
+     {
+      "playerId": 3116385,
+      "name": "Joe Mixon",
+      "pos": "RB",
+      "slot": "IR",
+      "points": 0
+     },
+     {
+      "playerId": 3116165,
+      "name": "Chris Godwin Jr.",
+      "pos": "WR",
+      "slot": "BE",
+      "points": 14
+     },
+     {
+      "playerId": 4429205,
+      "name": "Jordan Addison",
+      "pos": "WR",
+      "slot": "FLEX",
+      "points": 8.600000000000001
+     },
+     {
+      "playerId": 4239996,
+      "name": "Travis Etienne Jr.",
+      "pos": "RB",
+      "slot": "RB",
+      "points": 31.5
+     },
+     {
+      "playerId": 4385690,
+      "name": "Dalton Kincaid",
+      "pos": "TE",
+      "slot": "BE",
+      "points": 6.4
+     },
+     {
+      "playerId": 12483,
+      "name": "Matthew Stafford",
+      "pos": "QB",
+      "slot": "QB",
+      "points": 20.92
+     },
+     {
+      "playerId": 4689114,
+      "name": "Jaxson Dart",
+      "pos": "QB",
+      "slot": "BE",
+      "points": 22.14
+     },
+     {
+      "playerId": 2971573,
+      "name": "Ka'imi Fairbairn",
+      "pos": "K",
+      "slot": "BE",
+      "points": 17
+     },
+     {
+      "playerId": 4608686,
+      "name": "Kyle Monangai",
+      "pos": "RB",
+      "slot": "BE",
+      "points": 3.3000000000000003
+     },
+     {
+      "playerId": 4362081,
+      "name": "Cameron Dicker",
+      "pos": "K",
+      "slot": "K",
+      "points": 12
+     },
+     {
+      "playerId": -16006,
+      "name": "Cowboys D/ST",
+      "pos": "D/ST",
+      "slot": "D/ST",
+      "points": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": 73,
+   "matchupPeriodId": 15,
+   "tier": "WINNERS_BRACKET",
+   "winner": "AWAY",
+   "home": {
+    "teamId": 9,
+    "points": 116,
+    "lineup": [
+     {
+      "playerId": 4426515,
+      "name": "Puka Nacua",
+      "pos": "WR",
+      "slot": "WR",
+      "points": 27.900000000000002
+     },
+     {
+      "playerId": 3043078,
+      "name": "Derrick Henry",
+      "pos": "RB",
+      "slot": "RB",
+      "points": 10
+     },
+     {
+      "playerId": 3054850,
+      "name": "Alvin Kamara",
+      "pos": "RB",
+      "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 16737,
+      "name": "Mike Evans",
+      "pos": "WR",
+      "slot": "IR",
+      "points": 19.200000000000003
+     },
+     {
+      "playerId": 3916148,
+      "name": "Tony Pollard",
+      "pos": "RB",
+      "slot": "RB",
+      "points": 18.2
+     },
+     {
+      "playerId": 4241478,
+      "name": "DeVonta Smith",
+      "pos": "WR",
+      "slot": "FLEX",
+      "points": 7
+     },
+     {
+      "playerId": 4428331,
+      "name": "Rashee Rice",
+      "pos": "WR",
+      "slot": "WR",
+      "points": 12.100000000000001
+     },
+     {
+      "playerId": 4428209,
+      "name": "Ricky Pearsall",
+      "pos": "WR",
+      "slot": "BE",
+      "points": 15.600000000000001
+     },
+     {
+      "playerId": 4689936,
+      "name": "Jake Bates",
+      "pos": "K",
+      "slot": "K",
+      "points": 10
+     },
+     {
+      "playerId": 4242355,
+      "name": "Jake Ferguson",
+      "pos": "TE",
+      "slot": "TE",
+      "points": 3.6
+     },
+     {
+      "playerId": -16011,
+      "name": "Colts D/ST",
+      "pos": "D/ST",
+      "slot": "D/ST",
+      "points": 1
+     },
+     {
+      "playerId": 4431611,
+      "name": "Caleb Williams",
+      "pos": "QB",
+      "slot": "BE",
+      "points": 18.98
+     },
+     {
+      "playerId": 3059915,
+      "name": "Kareem Hunt",
+      "pos": "RB",
+      "slot": "BE",
+      "points": 3
+     },
+     {
+      "playerId": 3117256,
+      "name": "Dalton Schultz",
+      "pos": "TE",
+      "slot": "BE",
+      "points": 21.6
+     },
+     {
+      "playerId": -16001,
+      "name": "Falcons D/ST",
+      "pos": "D/ST",
+      "slot": "BE",
+      "points": 6
+     },
+     {
+      "playerId": 4361741,
+      "name": "Brock Purdy",
+      "pos": "QB",
+      "slot": "QB",
+      "points": 26.200000000000003
+     }
+    ]
+   },
+   "away": {
+    "teamId": 6,
+    "points": 131.42,
+    "lineup": [
+     {
+      "playerId": 4429795,
+      "name": "Jahmyr Gibbs",
+      "pos": "RB",
+      "slot": "RB",
+      "points": 9.8
+     },
+     {
+      "playerId": 4430737,
+      "name": "Kyren Williams",
+      "pos": "RB",
+      "slot": "RB",
+      "points": 21.8
+     },
+     {
+      "playerId": 4239993,
+      "name": "Tee Higgins",
+      "pos": "WR",
+      "slot": "IR",
+      "points": 0
+     },
+     {
+      "playerId": 4372016,
+      "name": "Jaylen Waddle",
+      "pos": "WR",
+      "slot": "WR",
+      "points": 4.6
+     },
+     {
+      "playerId": 3126486,
+      "name": "Deebo Samuel",
+      "pos": "WR",
+      "slot": "WR",
+      "points": 7.3
+     },
+     {
+      "playerId": 2473037,
+      "name": "Jason Myers",
+      "pos": "K",
+      "slot": "K",
+      "points": 24
+     },
+     {
+      "playerId": 4426385,
+      "name": "Zach Charbonnet",
+      "pos": "RB",
+      "slot": "BE",
+      "points": 3.1
+     },
+     {
+      "playerId": 3918298,
+      "name": "Josh Allen",
+      "pos": "QB",
+      "slot": "QB",
+      "points": 24.52
+     },
+     {
+      "playerId": 4361432,
+      "name": "Romeo Doubs",
+      "pos": "WR",
+      "slot": "BE",
+      "points": 5.6
+     },
+     {
+      "playerId": 4428557,
+      "name": "Tyjae Spears",
+      "pos": "RB",
+      "slot": "BE",
+      "points": 5.6000000000000005
+     },
+     {
+      "playerId": -16008,
+      "name": "Lions D/ST",
+      "pos": "D/ST",
+      "slot": "BE",
+      "points": -5
+     },
+     {
+      "playerId": 3886598,
+      "name": "Jauan Jennings",
+      "pos": "WR",
+      "slot": "BE",
+      "points": 18.7
+     },
+     {
+      "playerId": 5083076,
+      "name": "Harold Fannin Jr.",
+      "pos": "TE",
+      "slot": "TE",
+      "points": 12
+     },
+     {
+      "playerId": 4360761,
+      "name": "Michael Wilson",
+      "pos": "WR",
+      "slot": "FLEX",
+      "points": 16.4
+     },
+     {
+      "playerId": 4362249,
+      "name": "Jayden Reed",
+      "pos": "WR",
+      "slot": "BE",
+      "points": 10.5
+     },
+     {
+      "playerId": -16030,
+      "name": "Jaguars D/ST",
+      "pos": "D/ST",
+      "slot": "D/ST",
+      "points": 11
+     },
+     {
+      "playerId": 4040761,
+      "name": "Devin Singletary",
+      "pos": "RB",
+      "slot": "BE",
+      "points": 2.4
+     }
+    ]
+   }
+  },
+  {
+   "id": 75,
+   "matchupPeriodId": 15,
+   "tier": "LOSERS_CONSOLATION_LADDER",
+   "winner": "AWAY",
+   "home": {
+    "teamId": 2,
+    "points": 114.82,
+    "lineup": [
+     {
+      "playerId": 4262921,
+      "name": "Justin Jefferson",
+      "pos": "WR",
+      "slot": "WR",
+      "points": 4.2
+     },
+     {
+      "playerId": 4242335,
+      "name": "Jonathan Taylor",
+      "pos": "RB",
+      "slot": "RB",
+      "points": 13.100000000000001
+     },
+     {
+      "playerId": 4047365,
+      "name": "Josh Jacobs",
+      "pos": "RB",
+      "slot": "FLEX",
+      "points": 23.2
+     },
+     {
+      "playerId": 4241416,
+      "name": "Chuba Hubbard",
+      "pos": "RB",
+      "slot": "BE",
+      "points": 4.800000000000001
+     },
+     {
+      "playerId": 4683062,
+      "name": "Xavier Worthy",
+      "pos": "WR",
+      "slot": "BE",
+      "points": 5.5
+     },
+     {
+      "playerId": 4036133,
+      "name": "T.J. Hockenson",
+      "pos": "TE",
+      "slot": "TE",
+      "points": 10.600000000000001
+     },
+     {
+      "playerId": 3139477,
+      "name": "Patrick Mahomes",
+      "pos": "QB",
+      "slot": "BE",
+      "points": 13.06
+     },
+     {
+      "playerId": 3916433,
+      "name": "Jakobi Meyers",
+      "pos": "WR",
+      "slot": "BE",
+      "points": 12.100000000000001
+     },
+     {
+      "playerId": 4569987,
+      "name": "Jaylen Warren",
+      "pos": "RB",
+      "slot": "BE",
+      "points": 7.800000000000001
+     },
+     {
+      "playerId": 4361370,
+      "name": "Chris Olave",
+      "pos": "WR",
+      "slot": "WR",
+      "points": 20.5
+     },
+     {
+      "playerId": 3124679,
+      "name": "Jason Sanders",
+      "pos": "K",
+      "slot": "IR",
+      "points": 0
+     },
+     {
+      "playerId": 17372,
+      "name": "Chris Boswell",
+      "pos": "K",
+      "slot": "K",
+      "points": 4
+     },
+     {
+      "playerId": 4685702,
+      "name": "Quinshon Judkins",
+      "pos": "RB",
+      "slot": "RB",
+      "points": 4.699999999999999
+     },
+     {
+      "playerId": 10621,
+      "name": "Nick Folk",
+      "pos": "K",
+      "slot": "BE",
+      "points": 11
+     },
+     {
+      "playerId": -16023,
+      "name": "Steelers D/ST",
+      "pos": "D/ST",
+      "slot": "D/ST",
+      "points": 9
+     },
+     {
+      "playerId": 3046779,
+      "name": "Jared Goff",
+      "pos": "QB",
+      "slot": "QB",
+      "points": 25.52
+     },
+     {
+      "playerId": 3046439,
+      "name": "Hunter Henry",
+      "pos": "TE",
+      "slot": "BE",
+      "points": 2.8
+     }
+    ]
+   },
+   "away": {
+    "teamId": 12,
+    "points": 141.5,
+    "lineup": [
+     {
+      "playerId": 3121422,
+      "name": "Terry McLaurin",
+      "pos": "WR",
+      "slot": "WR",
+      "points": 15.9
+     },
+     {
+      "playerId": 3128429,
+      "name": "Courtland Sutton",
+      "pos": "WR",
+      "slot": "BE",
+      "points": 24.3
+     },
+     {
+      "playerId": 4035538,
+      "name": "David Montgomery",
+      "pos": "RB",
+      "slot": "BE",
+      "points": 9.2
+     },
+     {
+      "playerId": 2976212,
+      "name": "Stefon Diggs",
+      "pos": "WR",
+      "slot": "BE",
+      "points": 5.6
+     },
+     {
+      "playerId": 4361579,
+      "name": "Javonte Williams",
+      "pos": "RB",
+      "slot": "RB",
+      "points": 15.1
+     },
+     {
+      "playerId": 4038815,
+      "name": "Rico Dowdle",
+      "pos": "RB",
+      "slot": "BE",
+      "points": 12.4
+     },
+     {
+      "playerId": 4362628,
+      "name": "Ja'Marr Chase",
+      "pos": "WR",
+      "slot": "WR",
+      "points": 23.200000000000003
+     },
+     {
+      "playerId": 4595342,
+      "name": "Oronde Gadsden",
+      "pos": "TE",
+      "slot": "BE",
+      "points": 10.100000000000001
+     },
+     {
+      "playerId": 3915511,
+      "name": "Joe Burrow",
+      "pos": "QB",
+      "slot": "BE",
+      "points": 5.5
+     },
+     {
+      "playerId": 4430807,
+      "name": "Bijan Robinson",
+      "pos": "RB",
+      "slot": "RB",
+      "points": 29.5
+     },
+     {
+      "playerId": 4248528,
+      "name": "Christian Watson",
+      "pos": "WR",
+      "slot": "FLEX",
+      "points": 5.9
+     },
+     {
+      "playerId": 4360310,
+      "name": "Trevor Lawrence",
+      "pos": "QB",
+      "slot": "QB",
+      "points": 44.300000000000004
+     },
+     {
+      "playerId": -16027,
+      "name": "Buccaneers D/ST",
+      "pos": "D/ST",
+      "slot": "D/ST",
+      "points": -3
+     },
+     {
+      "playerId": 4430539,
+      "name": "Brenton Strange",
+      "pos": "TE",
+      "slot": "TE",
+      "points": 3.6
+     },
+     {
+      "playerId": 3050478,
+      "name": "Jake Elliott",
+      "pos": "K",
+      "slot": "K",
+      "points": 7
+     },
+     {
+      "playerId": 4036419,
+      "name": "Skylar Thompson",
+      "pos": "QB",
+      "slot": "IR",
+      "points": 0
+     },
+     {
+      "playerId": 4569559,
+      "name": "Devaughn Vele",
+      "pos": "WR",
+      "slot": "BE",
+      "points": 11.9
+     }
+    ]
+   }
+  },
+  {
+   "id": 76,
+   "matchupPeriodId": 15,
+   "tier": "LOSERS_CONSOLATION_LADDER",
+   "winner": "HOME",
+   "home": {
+    "teamId": 1,
+    "points": 144.08,
+    "lineup": [
+     {
+      "playerId": 4432773,
+      "name": "Brian Thomas Jr.",
+      "pos": "WR",
+      "slot": "BE",
+      "points": 17.1
+     },
+     {
+      "playerId": 4379399,
+      "name": "James Cook III",
+      "pos": "RB",
+      "slot": "RB",
+      "points": 31.1
+     },
+     {
+      "playerId": 4567048,
+      "name": "Kenneth Walker III",
+      "pos": "RB",
+      "slot": "BE",
+      "points": 2.9000000000000004
+     },
+     {
+      "playerId": 3052587,
+      "name": "Baker Mayfield",
+      "pos": "QB",
+      "slot": "QB",
+      "points": 19.18
+     },
+     {
+      "playerId": 4568490,
+      "name": "RJ Harvey",
+      "pos": "RB",
+      "slot": "FLEX",
+      "points": 10.5
+     },
+     {
+      "playerId": 3953687,
+      "name": "Brandon Aubrey",
+      "pos": "K",
+      "slot": "K",
+      "points": 14.6
+     },
+     {
+      "playerId": 4569173,
+      "name": "Rhamondre Stevenson",
+      "pos": "RB",
+      "slot": "BE",
+      "points": 10.7
+     },
+     {
+      "playerId": 4360248,
+      "name": "Kyle Pitts Sr.",
+      "pos": "TE",
+      "slot": "TE",
+      "points": 45.6
+     },
+     {
+      "playerId": -16026,
+      "name": "Seahawks D/ST",
+      "pos": "D/ST",
+      "slot": "D/ST",
+      "points": 6
+     },
+     {
+      "playerId": 4612826,
+      "name": "Ladd McConkey",
+      "pos": "WR",
+      "slot": "WR",
+      "points": 4
+     },
+     {
+      "playerId": 4596448,
+      "name": "Bucky Irving",
+      "pos": "RB",
+      "slot": "RB",
+      "points": 8.1
+     },
+     {
+      "playerId": -16007,
+      "name": "Broncos D/ST",
+      "pos": "D/ST",
+      "slot": "BE",
+      "points": 6
+     },
+     {
+      "playerId": 4430968,
+      "name": "Kimani Vidal",
+      "pos": "RB",
+      "slot": "BE",
+      "points": 5.800000000000001
+     },
+     {
+      "playerId": 4360078,
+      "name": "Alec Pierce",
+      "pos": "WR",
+      "slot": "BE",
+      "points": 2.6
+     },
+     {
+      "playerId": 4431268,
+      "name": "Chimere Dike",
+      "pos": "WR",
+      "slot": "WR",
+      "points": 5
+     },
+     {
+      "playerId": 5529,
+      "name": "Philip Rivers",
+      "pos": "QB",
+      "slot": "BE",
+      "points": 6.8
+     }
+    ]
+   },
+   "away": {
+    "teamId": 8,
+    "points": 92.9,
+    "lineup": [
+     {
+      "playerId": 4890973,
+      "name": "Ashton Jeanty",
+      "pos": "RB",
+      "slot": "RB",
+      "points": 8.2
+     },
+     {
+      "playerId": 4685382,
+      "name": "Omarion Hampton",
+      "pos": "RB",
+      "slot": "BE",
+      "points": 7.500000000000001
+     },
+     {
+      "playerId": 4569618,
+      "name": "Garrett Wilson",
+      "pos": "WR",
+      "slot": "IR",
+      "points": 0
+     },
+     {
+      "playerId": 3915416,
+      "name": "DJ Moore",
+      "pos": "WR",
+      "slot": "BE",
+      "points": 22.9
+     },
+     {
+      "playerId": 4426354,
+      "name": "George Pickens",
+      "pos": "WR",
+      "slot": "WR",
+      "points": 6.300000000000001
+     },
+     {
+      "playerId": 4429025,
+      "name": "Quentin Johnston",
+      "pos": "WR",
+      "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 4429059,
+      "name": "Woody Marks",
+      "pos": "RB",
+      "slot": "RB",
+      "points": 10.8
+     },
+     {
+      "playerId": 4431452,
+      "name": "Drake Maye",
+      "pos": "QB",
+      "slot": "QB",
+      "points": 20.5
+     },
+     {
+      "playerId": 4047646,
+      "name": "A.J. Brown",
+      "pos": "WR",
+      "slot": "WR",
+      "points": 12.100000000000001
+     },
+     {
+      "playerId": 4360516,
+      "name": "Tyrone Tracy Jr.",
+      "pos": "RB",
+      "slot": "BE",
+      "points": 24.7
+     },
+     {
+      "playerId": 3116365,
+      "name": "Mark Andrews",
+      "pos": "TE",
+      "slot": "TE",
+      "points": 3.8
+     },
+     {
+      "playerId": 4682652,
+      "name": "Devin Neal",
+      "pos": "RB",
+      "slot": "FLEX",
+      "points": 10.200000000000001
+     },
+     {
+      "playerId": 4373626,
+      "name": "Tyler Allgeier",
+      "pos": "RB",
+      "slot": "BE",
+      "points": 1.8
+     },
+     {
+      "playerId": -16021,
+      "name": "Eagles D/ST",
+      "pos": "D/ST",
+      "slot": "D/ST",
+      "points": 16
+     },
+     {
+      "playerId": 11122,
+      "name": "Matt Prater",
+      "pos": "K",
+      "slot": "K",
+      "points": 5
+     },
+     {
+      "playerId": 4241463,
+      "name": "Jerry Jeudy",
+      "pos": "WR",
+      "slot": "BE",
+      "points": 4.2
+     },
+     {
+      "playerId": 4241474,
+      "name": "Brian Robinson Jr.",
+      "pos": "RB",
+      "slot": "BE",
+      "points": 2.1
+     }
+    ]
+   }
+  }
+ ]
+}
