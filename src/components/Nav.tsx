@@ -18,6 +18,7 @@ const LINKS = [
   { href: "/history", label: "History" },
   { href: "/pickem", label: "Pick'Em" },
   { href: "/quotes", label: "Quote Wall" },
+  { href: "/south-star", label: "South Star" },
 ];
 
 export default function Nav() {

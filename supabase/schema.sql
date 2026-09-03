@@ -115,3 +115,30 @@ end $$;
 drop trigger if exists picks_touch on picks;
 create trigger picks_touch before update on picks
   for each row execute function touch_updated_at();
+
+-- ---------------------------------------------------------------------------
+-- Added 2026-09-02 (see supabase/migrations/ for the deltas applied to the
+-- live project).
+
+-- Other members' picks stay hidden until kickoff.
+drop policy if exists "picks readable by members" on picks;
+create policy "picks readable by members"
+  on picks for select
+  using (auth.uid() is not null and (member_id = auth.uid() or kickoff <= now()));
+
+-- The South Star Narrative: member-written blog posts.
+create table if not exists posts (
+  id bigint generated always as identity primary key,
+  title text not null,
+  byline text not null,
+  body text not null,
+  author uuid not null references members (id) on delete cascade,
+  created_at timestamptz not null default now()
+);
+alter table posts enable row level security;
+create policy "posts readable by members"
+  on posts for select using (auth.uid() is not null);
+create policy "posts insert by members"
+  on posts for insert with check (author = auth.uid());
+create policy "own posts delete"
+  on posts for delete using (author = auth.uid());
