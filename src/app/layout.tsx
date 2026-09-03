@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Graduate, Barlow, Barlow_Condensed, IBM_Plex_Mono } from "next/font/google";
 import Nav from "@/components/Nav";
 import AuthGate from "@/components/AuthGate";
@@ -18,9 +19,17 @@ export const metadata: Metadata = {
   description: "The clubhouse. Est. 2021. Members only.",
 };
 
+// Supabase invite / recovery links land on the Site URL with the token in the
+// hash. Send them to /welcome (which sets the password) before React loads.
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+const AUTH_REDIRECT = `(function(){var h=location.hash;if(!h||location.pathname.indexOf("/welcome")!==-1)return;if(/type=(invite|recovery|magiclink|signup)/.test(h))location.replace("${BASE}/welcome/"+h);})();`;
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        <Script id="auth-redirect" strategy="beforeInteractive">{AUTH_REDIRECT}</Script>
+      </head>
       <body
         className={`${graduate.variable} ${barlow.variable} ${barlowCondensed.variable} ${plexMono.variable} antialiased`}
       >
