@@ -14,9 +14,29 @@ const barlowCondensed = Barlow_Condensed({
 });
 const plexMono = IBM_Plex_Mono({ weight: ["500", "600"], subsets: ["latin"], variable: "--font-plex-mono" });
 
+const SITE_URL = "https://adamshallfantasyleague.com";
+const SITE_TITLE = "Adams Hall Fantasy League";
+const SITE_DESC = "The clubhouse. Est. 2021. Members only.";
+
+// Link previews (iMessage, WhatsApp, Slack, Twitter) read these tags.
 export const metadata: Metadata = {
-  title: "Adams Hall Fantasy League",
-  description: "The clubhouse. Est. 2021. Members only.",
+  metadataBase: new URL(SITE_URL),
+  title: SITE_TITLE,
+  description: SITE_DESC,
+  openGraph: {
+    type: "website",
+    siteName: SITE_TITLE,
+    title: SITE_TITLE,
+    description: SITE_DESC,
+    url: SITE_URL,
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Adams Hall Fantasy League crest" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: SITE_TITLE,
+    description: SITE_DESC,
+    images: ["/og.png"],
+  },
 };
 
 // Supabase invite / recovery links land on the Site URL with the token in the
