@@ -1,9 +1,12 @@
 import slateData from "../../../data/nfl/slate.json";
 import PickemBoard from "@/components/PickemBoard";
 import type { Slate } from "@/lib/pickem";
+import { availableSeasons, loadSeason } from "@/lib/espn";
 
 export default function PickemPage() {
   const slate = slateData as unknown as Slate;
+  const years = availableSeasons();
+  const owners = loadSeason(years[years.length - 1])!.teams.map((t) => ({ ownerId: t.ownerId, name: t.ownerName }));
   return (
     <div className="space-y-8">
       <header className="rise">
@@ -15,7 +18,7 @@ export default function PickemPage() {
           score.
         </p>
       </header>
-      <PickemBoard slate={slate} />
+      <PickemBoard slate={slate} owners={owners} />
     </div>
   );
 }

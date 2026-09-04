@@ -9,6 +9,7 @@ export default function MatchupPickemPage() {
   const season = loadSeason(years[years.length - 1])!;
   const slate = slateData as unknown as Slate;
   const weeks = pickemWeeks(season, slate.season === season.year ? slate : null);
+  const owners = season.teams.map((t) => ({ ownerId: t.ownerId, name: t.ownerName }));
   const currentWeek = Math.min(Math.max(season.currentMatchupPeriod, 1), weeks.length ? weeks[weeks.length - 1].week : 1);
   return (
     <div className="space-y-8">
@@ -21,7 +22,7 @@ export default function MatchupPickemPage() {
           first NFL kickoff.
         </p>
       </header>
-      <MatchupPickem season={season.year} weeks={weeks} currentWeek={currentWeek} />
+      <MatchupPickem season={season.year} weeks={weeks} currentWeek={currentWeek} owners={owners} />
     </div>
   );
 }
