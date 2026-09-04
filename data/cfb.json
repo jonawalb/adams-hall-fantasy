@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 1,
  "poll": "AP Top 25",
- "fetchedAt": "2026-09-04T22:31:28.017Z",
+ "fetchedAt": "2026-09-04T22:39:32.541Z",
  "rankings": [
   {
    "rank": 1,
@@ -1013,13 +1013,13 @@
    "id": "401864495",
    "date": "2026-09-04T22:30Z",
    "name": "SJSU @ EMU",
-   "state": "pre",
+   "state": "in",
    "completed": false,
-   "detail": "9/4 - 6:30 PM EDT",
+   "detail": "12:02 - 1st",
    "venue": "Rynearson Stadium",
    "broadcast": "ESPN+",
-   "spread": "EMU -1.5",
-   "overUnder": 55.5,
+   "spread": null,
+   "overUnder": null,
    "headline": null,
    "home": {
     "abbr": "EMU",
@@ -1277,7 +1277,7 @@
    "detail": "9/4 - 9:00 PM EDT",
    "venue": "Los Angeles Memorial Coliseum",
    "broadcast": "FOX",
-   "spread": "USC -22.5",
+   "spread": "USC -21.5",
    "overUnder": 51.5,
    "headline": null,
    "home": {
@@ -2055,7 +2055,7 @@
    "venue": "Beaver Stadium",
    "broadcast": "FS1",
    "spread": "PSU -23.5",
-   "overUnder": 52.5,
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "PSU",
