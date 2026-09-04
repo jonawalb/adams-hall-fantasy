@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 1,
  "poll": "AP Top 25",
- "fetchedAt": "2026-09-04T20:29:31.420Z",
+ "fetchedAt": "2026-09-04T21:06:48.169Z",
  "rankings": [
   {
    "rank": 1,
@@ -1203,7 +1203,7 @@
    "detail": "9/4 - 8:00 PM EDT",
    "venue": "Spartan Stadium",
    "broadcast": "FS1",
-   "spread": "MSU -10",
+   "spread": "MSU -9.5",
    "overUnder": 48.5,
    "headline": null,
    "home": {
