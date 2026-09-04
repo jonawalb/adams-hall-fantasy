@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 1,
  "poll": "AP Top 25",
- "fetchedAt": "2026-09-03T18:26:01.479Z",
+ "fetchedAt": "2026-09-04T08:19:05.054Z",
  "rankings": [
   {
    "rank": 1,
@@ -606,14 +606,14 @@
    "id": "401858423",
    "date": "2026-09-03T22:00Z",
    "name": "MASS @ RUTG",
-   "state": "pre",
-   "completed": false,
-   "detail": "9/3 - 6:00 PM EDT",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "SHI Stadium",
    "broadcast": "BTN",
-   "spread": "RUTG -29.5",
-   "overUnder": 53.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "UMass ends its 16-game losing streak with a 37-21 win over Rutgers",
    "home": {
     "abbr": "RUTG",
     "name": "Rutgers Scarlet Knights",
@@ -621,8 +621,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/164.png",
     "color": "ce0e2d",
     "rank": null,
-    "score": 0,
-    "record": "0-0",
+    "score": 21,
+    "record": "0-1",
     "conferenceId": "5",
     "winner": false
    },
@@ -633,23 +633,23 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/113.png",
     "color": "881c1c",
     "rank": null,
-    "score": 0,
-    "record": "0-0",
+    "score": 37,
+    "record": "1-0",
     "conferenceId": "15",
-    "winner": false
+    "winner": true
    }
   },
   {
    "id": "401856767",
    "date": "2026-09-03T23:00Z",
    "name": "BCU @ UCF",
-   "state": "pre",
-   "completed": false,
-   "detail": "9/3 - 7:00 PM EDT",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Acrisure Bounce House",
    "broadcast": "ESPN+",
-   "spread": "UCF -42.5",
-   "overUnder": 58.5,
+   "spread": null,
+   "overUnder": null,
    "headline": null,
    "home": {
     "abbr": "UCF",
@@ -658,10 +658,10 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png",
     "color": "000000",
     "rank": null,
-    "score": 0,
-    "record": "0-0",
+    "score": 73,
+    "record": "1-0",
     "conferenceId": "4",
-    "winner": false
+    "winner": true
    },
    "away": {
     "abbr": "BCU",
@@ -670,8 +670,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2065.png",
     "color": "7b1831",
     "rank": null,
-    "score": 0,
-    "record": "0-0",
+    "score": 6,
+    "record": "0-1",
     "conferenceId": "31",
     "winner": false
    }
@@ -680,14 +680,14 @@
    "id": "401858204",
    "date": "2026-09-03T23:00Z",
    "name": "AKR @ WAKE",
-   "state": "pre",
-   "completed": false,
-   "detail": "9/3 - 7:00 PM EDT",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Allegacy Federal Credit Union Stadium",
    "broadcast": "ACC Network",
-   "spread": "WAKE -26.5",
-   "overUnder": 50.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Lopez, Wake Forest get off to a fast offensive start in 38-16 win against Akron to open the season",
    "home": {
     "abbr": "WAKE",
     "name": "Wake Forest Demon Deacons",
@@ -695,10 +695,10 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
     "color": "ceb888",
     "rank": null,
-    "score": 0,
-    "record": "0-0",
+    "score": 38,
+    "record": "1-0",
     "conferenceId": "1",
-    "winner": false
+    "winner": true
    },
    "away": {
     "abbr": "AKR",
@@ -707,8 +707,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2006.png",
     "color": "041e42",
     "rank": null,
-    "score": 0,
-    "record": "0-0",
+    "score": 16,
+    "record": "0-1",
     "conferenceId": "15",
     "winner": false
    }
@@ -717,14 +717,14 @@
    "id": "401864424",
    "date": "2026-09-03T23:00Z",
    "name": "MRMK @ DEL",
-   "state": "pre",
-   "completed": false,
-   "detail": "9/3 - 7:00 PM EDT",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Delaware Stadium",
    "broadcast": "ESPN+",
-   "spread": "DEL -31.5",
-   "overUnder": 56.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Nick Minicucci leads Delaware to 42-7 romp over FCS member Merrimack in season opener",
    "home": {
     "abbr": "DEL",
     "name": "Delaware Blue Hens",
@@ -732,10 +732,10 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/48.png",
     "color": "00539f",
     "rank": null,
-    "score": 0,
-    "record": "0-0",
+    "score": 42,
+    "record": "1-0",
     "conferenceId": "12",
-    "winner": false
+    "winner": true
    },
    "away": {
     "abbr": "MRMK",
@@ -744,8 +744,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2771.png",
     "color": "000000",
     "rank": null,
-    "score": 0,
-    "record": "0-1",
+    "score": 7,
+    "record": "0-2",
     "conferenceId": "32",
     "winner": false
    }
@@ -754,14 +754,14 @@
    "id": "401864425",
    "date": "2026-09-03T23:00Z",
    "name": "WES @ KENN",
-   "state": "pre",
-   "completed": false,
-   "detail": "9/3 - 7:00 PM EDT",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Walens Family Field at Fifth Third Stadium",
    "broadcast": "ESPN+",
-   "spread": "KENN -22.5",
-   "overUnder": 50.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Collins, Murrell lead Kennesaw State's offensive eruption in 47-0 win over West Georgia",
    "home": {
     "abbr": "KENN",
     "name": "Kennesaw State Owls",
@@ -769,10 +769,10 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/338.png",
     "color": "fdbb30",
     "rank": null,
-    "score": 0,
-    "record": "0-0",
+    "score": 47,
+    "record": "1-0",
     "conferenceId": "12",
-    "winner": false
+    "winner": true
    },
    "away": {
     "abbr": "WES",
@@ -782,7 +782,7 @@
     "color": "0033a1",
     "rank": null,
     "score": 0,
-    "record": "0-1",
+    "record": "0-2",
     "conferenceId": "177",
     "winner": false
    }
@@ -791,14 +791,14 @@
    "id": "401866409",
    "date": "2026-09-03T23:00Z",
    "name": "ALB @ BUFF",
-   "state": "pre",
-   "completed": false,
-   "detail": "9/3 - 7:00 PM EDT",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Broadview Stadium",
    "broadcast": "ESPN+",
-   "spread": "BUF -18.5",
-   "overUnder": 47.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Holmes throws 3 TD passes to Morrow, Buffalo makes late goal-line stand, beats Albany 21-17",
    "home": {
     "abbr": "BUFF",
     "name": "Buffalo Bulls",
@@ -806,10 +806,10 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png",
     "color": "005bbb",
     "rank": null,
-    "score": 0,
-    "record": "0-0",
+    "score": 21,
+    "record": "1-0",
     "conferenceId": "15",
-    "winner": false
+    "winner": true
    },
    "away": {
     "abbr": "ALB",
@@ -818,8 +818,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/399.png",
     "color": "3D2777",
     "rank": null,
-    "score": 0,
-    "record": "1-0",
+    "score": 17,
+    "record": "1-1",
     "conferenceId": "48",
     "winner": false
    }
@@ -828,14 +828,14 @@
    "id": "401856663",
    "date": "2026-09-04T00:00Z",
    "name": "UAPB @ MIZ",
-   "state": "pre",
-   "completed": false,
-   "detail": "9/3 - 8:00 PM EDT",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Memorial Stadium",
    "broadcast": "SEC Network",
-   "spread": "MIZ -55.5",
-   "overUnder": 61.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Simmons throws 4 TD passes in debut as No. 25 Missouri beats Arkansas-Pine Bluff 54-14",
    "home": {
     "abbr": "MIZ",
     "name": "Missouri Tigers",
@@ -843,10 +843,10 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
     "color": "f1b82d",
     "rank": 25,
-    "score": 0,
-    "record": "0-0",
+    "score": 54,
+    "record": "1-0",
     "conferenceId": "8",
-    "winner": false
+    "winner": true
    },
    "away": {
     "abbr": "UAPB",
@@ -855,8 +855,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2029.png",
     "color": "e0aa0f",
     "rank": null,
-    "score": 0,
-    "record": "1-0",
+    "score": 14,
+    "record": "1-1",
     "conferenceId": "31",
     "winner": false
    }
@@ -865,14 +865,14 @@
    "id": "401856776",
    "date": "2026-09-04T00:00Z",
    "name": "COLO @ GT",
-   "state": "pre",
-   "completed": false,
-   "detail": "9/3 - 8:00 PM EDT",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Bobby Dodd Stadium",
    "broadcast": "ESPN",
-   "spread": "GT -6.5",
-   "overUnder": 51.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Colorado QB Julian Lewis leads touchdown drive with 42 seconds left in 14-13 win over Georgia Tech",
    "home": {
     "abbr": "GT",
     "name": "Georgia Tech Yellow Jackets",
@@ -880,8 +880,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
     "color": "b3a369",
     "rank": null,
-    "score": 0,
-    "record": "0-0",
+    "score": 13,
+    "record": "0-1",
     "conferenceId": "1",
     "winner": false
    },
@@ -892,24 +892,24 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/38.png",
     "color": "cfb87c",
     "rank": null,
-    "score": 0,
-    "record": "0-0",
+    "score": 14,
+    "record": "1-0",
     "conferenceId": "4",
-    "winner": false
+    "winner": true
    }
   },
   {
    "id": "401858422",
    "date": "2026-09-04T00:00Z",
    "name": "EIU @ MINN",
-   "state": "pre",
-   "completed": false,
-   "detail": "9/3 - 8:00 PM EDT",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Huntington Bank Stadium",
    "broadcast": "Peacock",
-   "spread": "MINN -42.5",
-   "overUnder": 52.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Minnesota breezes by Eastern Illinois 59-7 in the opener behind Javon Tracy's two punt return TDs",
    "home": {
     "abbr": "MINN",
     "name": "Minnesota Golden Gophers",
@@ -917,10 +917,10 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/135.png",
     "color": "5e0a2f",
     "rank": null,
-    "score": 0,
-    "record": "0-0",
+    "score": 59,
+    "record": "1-0",
     "conferenceId": "5",
-    "winner": false
+    "winner": true
    },
    "away": {
     "abbr": "EIU",
@@ -929,8 +929,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2197.png",
     "color": "000000",
     "rank": null,
-    "score": 0,
-    "record": "1-0",
+    "score": 7,
+    "record": "0-1",
     "conferenceId": "179",
     "winner": false
    }
@@ -939,14 +939,14 @@
    "id": "401856768",
    "date": "2026-09-04T01:00Z",
    "name": "IDHO @ UTAH",
-   "state": "pre",
-   "completed": false,
-   "detail": "9/3 - 9:00 PM EDT",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Rice-Eccles Stadium",
    "broadcast": "ESPNU",
-   "spread": "UTAH -36.5",
-   "overUnder": 59.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Dampier and Parker star in No. 21 Utah's first opener without Whittingham in 21 years",
    "home": {
     "abbr": "UTAH",
     "name": "Utah Utes",
@@ -954,10 +954,10 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
     "color": "be0000",
     "rank": 21,
-    "score": 0,
-    "record": "0-0",
+    "score": 66,
+    "record": "1-0",
     "conferenceId": "4",
-    "winner": false
+    "winner": true
    },
    "away": {
     "abbr": "IDHO",
@@ -966,8 +966,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/70.png",
     "color": "000000",
     "rank": null,
-    "score": 0,
-    "record": "0-1",
+    "score": 14,
+    "record": "0-2",
     "conferenceId": "20",
     "winner": false
    }
@@ -976,14 +976,14 @@
    "id": "401858424",
    "date": "2026-09-04T01:00Z",
    "name": "UAB @ ILL",
-   "state": "pre",
-   "completed": false,
-   "detail": "9/3 - 9:00 PM EDT",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Gies Memorial Stadium",
    "broadcast": "BTN",
-   "spread": "ILL -27.5",
-   "overUnder": 54.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Katin Houser throws 3 TD passes and runs for a score as Illinois beats UAB 42-23 in season opener",
    "home": {
     "abbr": "ILL",
     "name": "Illinois Fighting Illini",
@@ -991,10 +991,10 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
     "color": "ff5f05",
     "rank": null,
-    "score": 0,
-    "record": "0-0",
+    "score": 42,
+    "record": "1-0",
     "conferenceId": "5",
-    "winner": false
+    "winner": true
    },
    "away": {
     "abbr": "UAB",
@@ -1003,8 +1003,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/5.png",
     "color": "1a5632",
     "rank": null,
-    "score": 0,
-    "record": "0-0",
+    "score": 23,
+    "record": "0-1",
     "conferenceId": "151",
     "winner": false
    }
@@ -1092,7 +1092,7 @@
    "detail": "9/4 - 7:00 PM EDT",
    "venue": "Center Parc Stadium",
    "broadcast": "ESPN+",
-   "spread": "GAST -28.5",
+   "spread": "GAST -29.5",
    "overUnder": 62.5,
    "headline": null,
    "home": {
@@ -1167,7 +1167,7 @@
    "venue": "David Booth Kansas Memorial Stadium",
    "broadcast": "ESPNU",
    "spread": "KU -41.5",
-   "overUnder": 53.5,
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "KU",
@@ -1463,7 +1463,7 @@
    "venue": "JMA Wireless Dome",
    "broadcast": "ACC Network",
    "spread": "SYR -33.5",
-   "overUnder": 55.5,
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "SYR",
@@ -1611,7 +1611,7 @@
    "venue": "Doyt L. Perry Stadium",
    "broadcast": "ESPN+",
    "spread": "BGSU -2.5",
-   "overUnder": 47.5,
+   "overUnder": 48.5,
    "headline": null,
    "home": {
     "abbr": "BGSU",
@@ -1685,7 +1685,7 @@
    "venue": "Ohio Stadium",
    "broadcast": "BTN",
    "spread": "OSU -50.5",
-   "overUnder": 56.5,
+   "overUnder": 55.5,
    "headline": null,
    "home": {
     "abbr": "OSU",
@@ -1870,7 +1870,7 @@
    "venue": "Falcon Stadium",
    "broadcast": "MW+",
    "spread": "AF -28.5",
-   "overUnder": 58.5,
+   "overUnder": 57.5,
    "headline": null,
    "home": {
     "abbr": "AFA",
@@ -2091,7 +2091,7 @@
    "detail": "9/5 - 3:30 PM EDT",
    "venue": "Neyland Stadium",
    "broadcast": "SECN+",
-   "spread": "TENN -46.5",
+   "spread": "TENN -47.5",
    "overUnder": 66.5,
    "headline": null,
    "home": {
@@ -2129,7 +2129,7 @@
    "venue": "Mercedes-Benz Stadium",
    "broadcast": "ABC",
    "spread": "AUB -7.5",
-   "overUnder": 58.5,
+   "overUnder": 59.5,
    "headline": null,
    "home": {
     "abbr": "AUB",
@@ -2166,7 +2166,7 @@
    "venue": "Nippert Stadium",
    "broadcast": "FOX",
    "spread": "CIN -7.5",
-   "overUnder": 49.5,
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "CIN",
@@ -2965,7 +2965,7 @@
     "color": "002148",
     "rank": null,
     "score": 0,
-    "record": "0-1",
+    "record": "0-0",
     "conferenceId": "21",
     "winner": false
    }
@@ -2980,7 +2980,7 @@
    "venue": "AmFirst Stadium",
    "broadcast": "ESPN+",
    "spread": "JXST -20.5",
-   "overUnder": 54.5,
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "JVST",
@@ -3239,7 +3239,7 @@
    "venue": "Lane Stadium",
    "broadcast": "ACC Network",
    "spread": "VT -55.5",
-   "overUnder": 61.5,
+   "overUnder": 62.5,
    "headline": null,
    "home": {
     "abbr": "VT",
@@ -3423,7 +3423,7 @@
    "detail": "9/5 - 8:00 PM EDT",
    "venue": "Northwestern Medicine Field at Martin Stadium",
    "broadcast": "BTN",
-   "spread": "NU -13.5",
+   "spread": "NU -12.5",
    "overUnder": 46.5,
    "headline": null,
    "home": {
@@ -3683,7 +3683,7 @@
    "venue": "University Stadium (NM)",
    "broadcast": "FS1",
    "spread": "UNM -10.5",
-   "overUnder": 46.5,
+   "overUnder": 45.5,
    "headline": null,
    "home": {
     "abbr": "UNM",
