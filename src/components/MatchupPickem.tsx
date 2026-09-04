@@ -5,7 +5,7 @@ import { getSupabase } from "@/lib/supabase";
 import { useUser } from "@/lib/useUser";
 import type { PickemMatchup, PickemWeek } from "@/lib/matchups";
 import type { Member } from "@/lib/pickem";
-import StillToPick from "@/components/StillToPick";
+import GambleYouWuss, { Owner } from "@/components/StillToPick";
 
 const PREVIEW_ID = "preview";
 const PREVIEW_MEMBERS: Member[] = [{ id: PREVIEW_ID, display_name: "You (preview)" }];
@@ -23,12 +23,13 @@ interface Props {
   season: number;
   weeks: PickemWeek[];
   currentWeek: number;
+  owners: Owner[];
 }
 
 const fmtLock = (iso: string) =>
   new Date(iso).toLocaleString("en-US", { weekday: "short", month: "short", day: "numeric", hour: "numeric", minute: "2-digit", timeZone: "America/New_York" });
 
-export default function MatchupPickem({ season, weeks, currentWeek }: Props) {
+export default function MatchupPickem({ season, weeks, currentWeek, owners }: Props) {
   const supabase = getSupabase();
   const user = useUser();
   const myId = supabase ? user?.id ?? null : PREVIEW_ID;
@@ -50,7 +51,7 @@ export default function MatchupPickem({ season, weeks, currentWeek }: Props) {
   useEffect(() => {
     if (!supabase) return;
     Promise.all([
-      supabase.from("members").select("id, display_name").order("display_name"),
+      supabase.from("members").select("id, display_name, espn_owner_id").order("display_name"),
       supabase.from("matchup_picks").select("member_id, season, week, matchup_id, pick_team_id").eq("season", season),
     ]).then(([m, p]) => {
       if (m.error || p.error) setError((m.error ?? p.error)?.message ?? "Load failed");
@@ -165,7 +166,7 @@ export default function MatchupPickem({ season, weeks, currentWeek }: Props) {
         </span>
       </div>
       {error && <p className="rounded-sm border border-blood/60 bg-blood/10 px-3 py-2 text-sm">{error}</p>}
-      <StillToPick members={members} counts={weekCounts} total={wk.matchups.length} locked={locked} label={`Week ${wk.week} matchups`} />
+      <GambleYouWuss owners={owners} members={members} counts={weekCounts} locked={locked} />
 
       <div className="space-y-3">
         {wk.matchups.map((m, i) => {

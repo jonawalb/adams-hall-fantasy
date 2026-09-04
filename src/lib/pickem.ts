@@ -46,6 +46,7 @@ export interface PickRow {
 export interface Member {
   id: string;
   display_name: string;
+  espn_owner_id?: string | null;
 }
 
 export function hasKickedOff(game: Game, now: Date = new Date()): boolean {

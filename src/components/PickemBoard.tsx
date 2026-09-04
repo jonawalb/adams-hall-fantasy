@@ -13,13 +13,13 @@ import {
   hasKickedOff,
 } from "@/lib/pickem";
 import PickemLeaderboard from "@/components/PickemLeaderboard";
-import StillToPick from "@/components/StillToPick";
+import GambleYouWuss, { Owner } from "@/components/StillToPick";
 
 const PREVIEW_ID = "preview";
 const PREVIEW_MEMBERS: Member[] = [{ id: PREVIEW_ID, display_name: "You (preview)" }];
 const noopSubscribe = () => () => {};
 
-export default function PickemBoard({ slate }: { slate: Slate }) {
+export default function PickemBoard({ slate, owners }: { slate: Slate; owners: Owner[] }) {
   const supabase = getSupabase();
   const user = useUser();
   const myId = supabase ? user?.id ?? null : PREVIEW_ID;
@@ -50,7 +50,7 @@ export default function PickemBoard({ slate }: { slate: Slate }) {
   useEffect(() => {
     if (!supabase) return;
     Promise.all([
-      supabase.from("members").select("id, display_name").order("display_name"),
+      supabase.from("members").select("id, display_name, espn_owner_id").order("display_name"),
       supabase
         .from("picks")
         .select("member_id, season, week, game_id, pick")
@@ -149,7 +149,7 @@ export default function PickemBoard({ slate }: { slate: Slate }) {
       {error && <p className="rounded-sm border border-blood/60 bg-blood/10 px-3 py-2 text-sm">{error}</p>}
       {!loaded && <p className="kicker live-dot">Loading picks…</p>}
       {loaded && (
-        <StillToPick members={members} counts={weekCounts} total={games.length} locked={openGames === 0} label={`NFL Week ${week}`} />
+        <GambleYouWuss owners={owners} members={members} counts={weekCounts} locked={openGames === 0} />
       )}
 
       <div className="grid gap-3 sm:grid-cols-2">
