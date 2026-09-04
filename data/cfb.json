@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 1,
  "poll": "AP Top 25",
- "fetchedAt": "2026-09-04T20:27:44.062Z",
+ "fetchedAt": "2026-09-04T20:29:31.420Z",
  "rankings": [
   {
    "rank": 1,
@@ -3091,7 +3091,7 @@
    "venue": "Veterans Memorial Stadium (AL)",
    "broadcast": "ESPN+",
    "spread": "TROY -16.5",
-   "overUnder": 55.5,
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "TROY",
