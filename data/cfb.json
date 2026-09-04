@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 1,
  "poll": "AP Top 25",
- "fetchedAt": "2026-09-04T21:50:07.701Z",
+ "fetchedAt": "2026-09-04T22:31:28.017Z",
  "rankings": [
   {
    "rank": 1,
@@ -1203,7 +1203,7 @@
    "detail": "9/4 - 8:00 PM EDT",
    "venue": "Spartan Stadium",
    "broadcast": "FS1",
-   "spread": "MSU -9.5",
+   "spread": "MSU -10",
    "overUnder": 48.5,
    "headline": null,
    "home": {
@@ -1610,7 +1610,7 @@
    "detail": "9/5 - 12:00 PM EDT",
    "venue": "Doyt L. Perry Stadium",
    "broadcast": "ESPN+",
-   "spread": "BGSU -2.5",
+   "spread": "BGSU -1.5",
    "overUnder": 48.5,
    "headline": null,
    "home": {
@@ -3793,7 +3793,7 @@
    "detail": "9/5 - 10:30 PM EDT",
    "venue": "Mackay Stadium",
    "broadcast": "CBSSN",
-   "spread": "WKU -1.5",
+   "spread": "NEV -1.5",
    "overUnder": 52.5,
    "headline": null,
    "home": {
