@@ -40,7 +40,7 @@ export default function StandingsPage() {
                     <th className="pb-2 text-right">PF</th>
                     <th className="pb-2 text-right">PA</th>
                     <th className="pb-2 text-right">All-Play</th>
-                    <th className="pb-2 text-right">Luck</th>
+                    <th className="pb-2 text-right">Luck*</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -69,6 +69,21 @@ export default function StandingsPage() {
           </section>
         );
       })}
+
+      <footer className="panel p-5 text-sm">
+        <p className="kicker">* For Jorge, who can&rsquo;t read</p>
+        <p className="mt-2 max-w-3xl text-cream-dim">
+          Luck is your actual win rate minus your all-play win rate. All-play is the record you would
+          have if you played every other team every single week, so it measures how good your scores
+          actually were with the schedule removed. If you went 9–5 but your scores would only have
+          beaten the field 45% of the time, you were lucky. The schedule handed you wins. If you
+          scored like a 70% team and went 6–8, you were robbed, and everyone should feel bad for you.
+          Nobody will.
+        </p>
+        <p className="font-mono-num mt-2 text-xs text-cream-dim">
+          luck = wins ÷ games played − all-play wins ÷ all-play games
+        </p>
+      </footer>
     </div>
   );
 }

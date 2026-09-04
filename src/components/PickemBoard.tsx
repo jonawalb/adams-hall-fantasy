@@ -32,6 +32,8 @@ export default function PickemBoard({ slate }: { slate: Slate }) {
   const isCurrent = week === slate.currentWeek;
 
   const [picks, setPicks] = useState<PickRow[]>([]);
+  const [draft, setDraft] = useState<Record<string, Side>>({});
+  const [saving, setSaving] = useState(false);
   const [members, setMembers] = useState<Member[]>(() => (supabase ? [] : PREVIEW_MEMBERS));
   const [loaded, setLoaded] = useState(!supabase);
   const [error, setError] = useState<string | null>(null);
@@ -63,24 +65,42 @@ export default function PickemBoard({ slate }: { slate: Slate }) {
   const myPicks = useMemo(() => {
     const map = new Map<string, Side>();
     for (const p of picks) if (p.member_id === myId && p.week === week) map.set(p.game_id, p.pick);
+    if (week === slate.currentWeek) for (const [gid, side] of Object.entries(draft)) map.set(gid, side);
     return map;
-  }, [picks, myId, week]);
+  }, [picks, myId, week, draft, slate.currentWeek]);
 
-  async function choose(game: Game, side: Side) {
+  function choose(game: Game, side: Side) {
     if (!myId || !isCurrent || (now && hasKickedOff(game, now))) return;
-    const row: PickRow = { member_id: myId, season: slate.season, week, game_id: game.id, pick: side };
-    const previous = picks;
-    setPicks((all) => [...all.filter((p) => !(p.member_id === myId && p.game_id === game.id)), row]);
-    if (!supabase) return;
-    const { error: err } = await supabase
-      .from("picks")
-      .upsert({ ...row, kickoff: game.date }, { onConflict: "member_id,season,week,game_id" });
-    if (err) {
-      setPicks(previous);
-      setError(err.message.includes("policy") ? "That game has locked." : err.message);
-    } else {
+    setDraft((d) => ({ ...d, [game.id]: side }));
+  }
+
+  const draftCount = Object.keys(draft).length;
+
+  async function submit() {
+    if (!myId || !draftCount) return;
+    const rows = Object.entries(draft).map(([game_id, pick]) => ({
+      member_id: myId,
+      season: slate.season,
+      week,
+      game_id,
+      pick,
+      kickoff: games.find((g) => g.id === game_id)?.date ?? new Date().toISOString(),
+    }));
+    const merged: PickRow[] = rows.map(({ member_id, season, week: w, game_id, pick }) => ({ member_id, season, week: w, game_id, pick }));
+    const apply = () => {
+      setPicks((all) => [...all.filter((p) => !(p.member_id === myId && p.week === week && draft[p.game_id])), ...merged]);
+      setDraft({});
       setError(null);
+    };
+    if (!supabase) return apply();
+    setSaving(true);
+    const { error: err } = await supabase.from("picks").upsert(rows, { onConflict: "member_id,season,week,game_id" });
+    setSaving(false);
+    if (err) {
+      setError(err.message.includes("policy") ? "One of those games has already kicked off. Change that pick and resubmit." : err.message);
+      return;
     }
+    apply();
   }
 
   const nameOf = (id: string) => members.find((m) => m.id === id)?.display_name ?? "?";
@@ -115,6 +135,7 @@ export default function PickemBoard({ slate }: { slate: Slate }) {
           {isCurrent && openGames < games.length && (
             <span className="ml-3 text-xs text-cream-dim">{games.length - openGames} locked</span>
           )}
+          {draftCount > 0 && <span className="ml-3 text-xs text-gold">{draftCount} unsaved</span>}
         </span>
       </div>
 
@@ -183,6 +204,17 @@ export default function PickemBoard({ slate }: { slate: Slate }) {
           );
         })}
       </div>
+
+      {isCurrent && (
+        <button
+          type="button"
+          disabled={!draftCount || saving || !myId}
+          onClick={submit}
+          className="font-head w-full rounded-sm bg-gold py-3 text-base font-bold uppercase tracking-widest text-felt-deep transition-opacity disabled:cursor-not-allowed disabled:opacity-30"
+        >
+          {saving ? "Saving…" : draftCount ? `Submit ${draftCount} pick${draftCount === 1 ? "" : "s"}` : made === games.length ? "All picks submitted" : `${games.length - made} still to pick`}
+        </button>
+      )}
 
       <PickemLeaderboard slate={slate} week={week} picks={picks} members={members} myId={myId} />
     </div>

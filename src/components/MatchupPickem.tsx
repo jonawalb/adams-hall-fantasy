@@ -34,6 +34,8 @@ export default function MatchupPickem({ season, weeks, currentWeek }: Props) {
 
   const [week, setWeek] = useState(currentWeek);
   const [picks, setPicks] = useState<Row[]>([]);
+  const [draft, setDraft] = useState<Record<string, number>>({});
+  const [saving, setSaving] = useState(false);
   const [members, setMembers] = useState<Member[]>(() => (supabase ? [] : PREVIEW_MEMBERS));
   const [error, setError] = useState<string | null>(null);
   const hydrated = useSyncExternalStore(noopSubscribe, () => true, () => false);
@@ -61,19 +63,32 @@ export default function MatchupPickem({ season, weeks, currentWeek }: Props) {
   const nameOf = (id: string) => members.find((m) => m.id === id)?.display_name ?? "?";
   const first = (id: string) => nameOf(id).split(" ")[0];
 
-  async function choose(m: PickemMatchup, teamId: number) {
+  function choose(m: PickemMatchup, teamId: number) {
     if (!myId || locked) return;
-    const row: Row = { member_id: myId, season, week: m.week, matchup_id: m.id, pick_team_id: teamId };
-    const previous = picks;
-    setPicks((all) => [...all.filter((p) => !(p.member_id === myId && p.matchup_id === m.id)), row]);
-    if (!supabase) return;
+    setDraft((d) => ({ ...d, [m.id]: teamId }));
+  }
+
+  const draftCount = Object.keys(draft).length;
+
+  async function submit() {
+    if (!myId || !draftCount) return;
+    const rows: Row[] = Object.entries(draft).map(([matchup_id, pick_team_id]) => ({ member_id: myId, season, week: wk.week, matchup_id, pick_team_id }));
+    const apply = () => {
+      setPicks((all) => [...all.filter((p) => !(p.member_id === myId && draft[p.matchup_id])), ...rows]);
+      setDraft({});
+      setError(null);
+    };
+    if (!supabase) return apply();
+    setSaving(true);
     const { error: err } = await supabase
       .from("matchup_picks")
-      .upsert({ ...row, lock_at: wk.lockAt }, { onConflict: "member_id,season,week,matchup_id" });
+      .upsert(rows.map((r) => ({ ...r, lock_at: wk.lockAt })), { onConflict: "member_id,season,week,matchup_id" });
+    setSaving(false);
     if (err) {
-      setPicks(previous);
       setError(err.message.includes("policy") ? "This week has locked." : err.message);
-    } else setError(null);
+      return;
+    }
+    apply();
   }
 
   // Scoring + fun stats across every decided matchup this season.
@@ -140,6 +155,7 @@ export default function MatchupPickem({ season, weeks, currentWeek }: Props) {
         </span>
         <span className="text-xs text-cream-dim">
           {locked ? "Locked" : wk.lockAt ? `Locks ${fmtLock(wk.lockAt)} ET` : "Open"} · {picks.filter((p) => p.week === wk.week).length} picks in
+          {draftCount > 0 && <span className="ml-2 text-gold">· {draftCount} unsaved</span>}
         </span>
       </div>
       {error && <p className="rounded-sm border border-blood/60 bg-blood/10 px-3 py-2 text-sm">{error}</p>}
@@ -147,7 +163,7 @@ export default function MatchupPickem({ season, weeks, currentWeek }: Props) {
       <div className="space-y-3">
         {wk.matchups.map((m, i) => {
           const votes = picks.filter((p) => p.matchup_id === m.id);
-          const mine = votes.find((p) => p.member_id === myId)?.pick_team_id;
+          const mine = draft[m.id] ?? votes.find((p) => p.member_id === myId)?.pick_team_id;
           return (
             <div key={m.id} className="panel rise p-4" style={{ animationDelay: `${i * 50}ms` }}>
               <div className="grid grid-cols-2 gap-3">
@@ -198,6 +214,17 @@ export default function MatchupPickem({ season, weeks, currentWeek }: Props) {
           );
         })}
       </div>
+
+      {!locked && (
+        <button
+          type="button"
+          disabled={!draftCount || saving || !myId}
+          onClick={submit}
+          className="font-head w-full rounded-sm bg-gold py-3 text-base font-bold uppercase tracking-widest text-felt-deep transition-opacity disabled:cursor-not-allowed disabled:opacity-30"
+        >
+          {saving ? "Saving…" : draftCount ? `Submit ${draftCount} pick${draftCount === 1 ? "" : "s"}` : "Picks submitted"}
+        </button>
+      )}
 
       <section className="grid gap-4 lg:grid-cols-3">
         <div className="panel p-4">

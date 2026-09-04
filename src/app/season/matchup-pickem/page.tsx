@@ -16,8 +16,9 @@ export default function MatchupPickemPage() {
         <p className="kicker">{season.year} · League Matchups · Everyone&rsquo;s picks are public</p>
         <h1 className="font-display mt-2 text-3xl text-gold-bright sm:text-4xl">MATCHUP PICK&rsquo;EM</h1>
         <p className="mt-2 max-w-2xl text-sm text-cream-dim">
-          Pick the winner of every league matchup. Picks show the moment they&rsquo;re made, so the
-          whole league can see exactly who bet against whom. Locks at the week&rsquo;s first NFL kickoff.
+          Pick the winner of every league matchup and hit Submit. Submitted picks are public right
+          away, so the whole league can see exactly who bet against whom. Locks at the week&rsquo;s
+          first NFL kickoff.
         </p>
       </header>
       <MatchupPickem season={season.year} weeks={weeks} currentWeek={currentWeek} />
