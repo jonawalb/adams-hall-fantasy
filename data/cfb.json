@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 1,
  "poll": "AP Top 25",
- "fetchedAt": "2026-09-04T08:19:05.054Z",
+ "fetchedAt": "2026-09-04T10:25:47.248Z",
  "rankings": [
   {
    "rank": 1,
@@ -1351,7 +1351,7 @@
    "detail": "9/5 - 12:00 PM EDT",
    "venue": "Bryant-Denny Stadium",
    "broadcast": "ABC",
-   "spread": "ALA -28.5",
+   "spread": "ALA -27.5",
    "overUnder": 52.5,
    "headline": null,
    "home": {
@@ -1685,7 +1685,7 @@
    "venue": "Ohio Stadium",
    "broadcast": "BTN",
    "spread": "OSU -50.5",
-   "overUnder": 55.5,
+   "overUnder": 56.5,
    "headline": null,
    "home": {
     "abbr": "OSU",
@@ -3683,7 +3683,7 @@
    "venue": "University Stadium (NM)",
    "broadcast": "FS1",
    "spread": "UNM -10.5",
-   "overUnder": 45.5,
+   "overUnder": 46.5,
    "headline": null,
    "home": {
     "abbr": "UNM",
@@ -3756,7 +3756,7 @@
    "detail": "9/5 - 10:30 PM EDT",
    "venue": "California Memorial Stadium",
    "broadcast": "ESPN",
-   "spread": "UCLA -1.5",
+   "spread": "UCLA -2.5",
    "overUnder": 53.5,
    "headline": null,
    "home": {
