@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 1,
- "archivedAt": "2026-09-03T10:31:38.459Z",
+ "archivedAt": "2026-09-04T08:19:06.113Z",
  "matchups": [
   {
    "id": 1,
@@ -100,7 +100,7 @@
       "playerId": -16025,
       "name": "49ers D/ST",
       "pos": "D/ST",
-      "slot": "D/ST",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -122,6 +122,13 @@
       "name": "Tank Dell",
       "pos": "WR",
       "slot": "IR",
+      "points": 0
+     },
+     {
+      "playerId": -16003,
+      "name": "Bears D/ST",
+      "pos": "D/ST",
+      "slot": "D/ST",
       "points": 0
      }
     ]
