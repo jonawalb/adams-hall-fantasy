@@ -40,6 +40,7 @@ const GROUPS: Group[] = [
       },
     ],
   },
+  { label: "Talk Your Shit", href: "/talk-your-shit" },
   { label: "Bonk Bracket", href: "/quotes" },
   { label: "Halls", href: "/halls" },
   {

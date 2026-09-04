@@ -55,7 +55,7 @@ export default function HallsPage() {
 
       <section className="space-y-4">
         <header className="rise">
-          <p className="kicker text-blood">Dead last. Every year. Forever on record.</p>
+          <p className="kicker text-blood">Worst regular-season record. Every year. Forever on record.</p>
           <h2 className="font-display mt-2 text-3xl text-blood sm:text-4xl">HALL OF SHAME</h2>
         </header>
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
@@ -67,7 +67,7 @@ export default function HallsPage() {
                   <p className="font-head mt-3 text-xl font-semibold">{r.lastPlace.name}</p>
                   <p className="text-sm text-cream-dim">{r.lastPlace.ownerName}</p>
                   <p className="font-mono-num mt-2 text-sm text-blood">
-                    {r.lastPlace.wins}–{r.lastPlace.losses} · {f1(r.lastPlace.pointsFor)} PF · {r.teams}th of {r.teams}
+                    {r.lastPlace.wins}–{r.lastPlace.losses} · {f1(r.lastPlace.pointsFor)} PF · last of {r.teams}
                   </p>
                 </>
               ) : (

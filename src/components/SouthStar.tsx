@@ -28,10 +28,27 @@ const PREVIEW_POSTS: Post[] = [
   },
 ];
 
+const PREVIEW_TRASH: Post[] = [
+  {
+    id: 1,
+    title: "Jorge's roster is a cry for help",
+    byline: "Preview",
+    body: "Three tight ends. Three. Nobody asked for this.",
+    author: PREVIEW_ID,
+    created_at: "2026-09-02T12:00:00Z",
+    poster: { display_name: "Preview" },
+  },
+];
+
 const fmtDate = (iso: string) =>
   new Date(iso).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
 
-export default function SouthStar() {
+interface BoardProps {
+  board?: "south-star" | "trash";
+}
+
+export default function SouthStar({ board = "south-star" }: BoardProps) {
+  const forum = board === "trash";
   const supabase = getSupabase();
   const user = useUser();
   const myId = supabase ? user?.id ?? null : PREVIEW_ID;
@@ -46,7 +63,7 @@ export default function SouthStar() {
       .then(({ data }) => setMyName(data?.display_name ?? ""));
   }, [supabase, user]);
 
-  const [posts, setPosts] = useState<Post[]>(() => (supabase ? [] : PREVIEW_POSTS));
+  const [posts, setPosts] = useState<Post[]>(() => (supabase ? [] : board === "trash" ? PREVIEW_TRASH : PREVIEW_POSTS));
   const [open, setOpen] = useState<number | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
@@ -61,12 +78,13 @@ export default function SouthStar() {
     supabase
       .from("posts")
       .select("id, title, byline, body, author, created_at, poster:members(display_name)")
+      .eq("board", board)
       .order("created_at", { ascending: false })
       .then(({ data, error: err }) => {
         if (err) setError(err.message);
         setPosts((data as unknown as Post[]) ?? []);
       });
-  }, [supabase, version]);
+  }, [supabase, version, board]);
 
   async function submit(e: FormEvent) {
     e.preventDefault();
@@ -74,9 +92,10 @@ export default function SouthStar() {
     setBusy(true);
     const row = {
       title: form.title.trim(),
-      byline: form.byline.trim() || myName || "Anonymous Vermonter",
+      byline: forum ? myName || "Anonymous" : form.byline.trim() || myName || "Anonymous Vermonter",
       body: form.body.trim(),
       author: myId,
+      board,
     };
     if (!supabase) {
       setPosts((ps) => [{ id: Date.now(), created_at: new Date().toISOString(), poster: { display_name: "Preview" }, ...row }, ...ps]);
@@ -107,26 +126,28 @@ export default function SouthStar() {
   return (
     <div className="space-y-8">
       <div className="flex flex-wrap items-center gap-3">
-        <button
-          type="button"
-          onClick={() => setSubscribed(true)}
-          className="font-head rounded-sm bg-gold px-4 py-2 text-sm font-bold uppercase tracking-widest text-felt-deep"
-        >
-          {subscribed ? "Subscribed. Nothing will happen." : "Subscribe — free, unfortunately"}
-        </button>
+        {!forum && (
+          <button
+            type="button"
+            onClick={() => setSubscribed(true)}
+            className="font-head rounded-sm bg-gold px-4 py-2 text-sm font-bold uppercase tracking-widest text-felt-deep"
+          >
+            {subscribed ? "Subscribed. Nothing will happen." : "Subscribe — free, unfortunately"}
+          </button>
+        )}
         <button
           type="button"
           onClick={() => setWriting((w) => !w)}
           disabled={!myId}
           className="font-head rounded-sm border border-gold-deep px-4 py-2 text-sm font-bold uppercase tracking-widest text-gold hover:bg-gold hover:text-felt-deep disabled:opacity-40"
         >
-          {writing ? "Never mind" : "Write a post"}
+          {writing ? "Never mind" : forum ? "Talk your shit" : "Write a post"}
         </button>
       </div>
 
       {writing && (
         <form onSubmit={submit} className="panel-gold rise grid gap-3 p-5">
-          <p className="kicker">New dispatch</p>
+          <p className="kicker">{forum ? "New thread" : "New dispatch"}</p>
           <input
             required
             placeholder="Headline"
@@ -134,16 +155,18 @@ export default function SouthStar() {
             onChange={(e) => setForm({ ...form, title: e.target.value })}
             className={`${input} font-display text-xl`}
           />
-          <input
-            placeholder={`Byline (defaults to ${myName || "your name"}) — write as anyone you like`}
-            value={form.byline}
-            onChange={(e) => setForm({ ...form, byline: e.target.value })}
-            className={input}
-          />
+          {!forum && (
+            <input
+              placeholder={`Byline (defaults to ${myName || "your name"}) — write as anyone you like`}
+              value={form.byline}
+              onChange={(e) => setForm({ ...form, byline: e.target.value })}
+              className={input}
+            />
+          )}
           <textarea
             required
             rows={10}
-            placeholder="A deep dive into the issues that matter least. Blank lines make paragraphs."
+            placeholder={forum ? "Say it. Blank lines make paragraphs." : "A deep dive into the issues that matter least. Blank lines make paragraphs."}
             value={form.body}
             onChange={(e) => setForm({ ...form, body: e.target.value })}
             className={input}
@@ -152,7 +175,7 @@ export default function SouthStar() {
             disabled={busy}
             className="font-head rounded-sm bg-gold px-4 py-2 text-sm font-bold uppercase tracking-widest text-felt-deep disabled:opacity-40"
           >
-            Publish
+            {forum ? "Post it" : "Publish"}
           </button>
         </form>
       )}
@@ -171,7 +194,7 @@ export default function SouthStar() {
                   <span className="font-head font-semibold uppercase tracking-wider">By {p.byline}</span>
                   <span className="text-cream-dim"> · {fmtDate(p.created_at)}</span>
                 </p>
-                {p.poster?.display_name && (
+                {!forum && p.poster?.display_name && (
                   <p className="mt-0.5 text-[0.65rem] uppercase tracking-wider text-cream-dim/70">
                     posted by {p.poster.display_name}
                   </p>
@@ -193,7 +216,7 @@ export default function SouthStar() {
                 </button>
                 {p.author === myId && (
                   <button type="button" onClick={() => remove(p)} className="hover:text-blood">
-                    Retract
+                    {forum ? "Delete" : "Retract"}
                   </button>
                 )}
               </div>

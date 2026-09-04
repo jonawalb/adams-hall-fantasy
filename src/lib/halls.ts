@@ -1,6 +1,12 @@
 // Hall of Champions / Hall of Shame, straight from ESPN final ranks.
 import { Season, Team } from "./espn";
 
+/** Last place = worst regular-season record (fewest wins, then most losses, then fewest points). */
+export function lastPlaceTeam(season: Season): Team | null {
+  if (!season.teams.length) return null;
+  return [...season.teams].sort((a, b) => a.wins - b.wins || b.losses - a.losses || a.pointsFor - b.pointsFor)[0];
+}
+
 export interface HallRow {
   year: number;
   champion: Team | null;
@@ -13,13 +19,11 @@ export function hallRows(seasons: Season[]): HallRow[] {
   return seasons
     .filter((s) => s.isCompleted)
     .map((s) => {
-      const ranked = s.teams.filter((t) => t.finalRank);
-      const worst = ranked.length ? Math.max(...ranked.map((t) => t.finalRank!)) : 0;
       return {
         year: s.year,
         champion: s.teams.find((t) => t.finalRank === 1) ?? null,
         runnerUp: s.teams.find((t) => t.finalRank === 2) ?? null,
-        lastPlace: worst ? s.teams.find((t) => t.finalRank === worst) ?? null : null,
+        lastPlace: lastPlaceTeam(s),
         teams: s.teams.length,
       };
     })

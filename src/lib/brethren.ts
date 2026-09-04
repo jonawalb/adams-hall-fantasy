@@ -1,5 +1,6 @@
 // Career lines for the Brethren page, from ESPN season snapshots.
 import { Season } from "./espn";
+import { lastPlaceTeam } from "./halls";
 
 export interface Career {
   ownerId: string;
@@ -47,9 +48,8 @@ export function careers(seasons: Season[]): Career[] {
       c.ties += t.ties;
       c.pointsFor += t.pointsFor;
       if (!s.isCompleted) continue;
-      const worst = Math.max(...s.teams.map((x) => x.finalRank ?? 0));
       if (t.finalRank === 1) c.titles.push(s.year);
-      if (worst && t.finalRank === worst) c.sackos.push(s.year);
+      if (lastPlaceTeam(s)?.id === t.id) c.sackos.push(s.year);
       if (t.playoffSeed && t.playoffSeed <= s.playoffTeamCount) c.playoffs++;
     }
     return c;
