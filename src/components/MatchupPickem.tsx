@@ -5,6 +5,7 @@ import { getSupabase } from "@/lib/supabase";
 import { useUser } from "@/lib/useUser";
 import type { PickemMatchup, PickemWeek } from "@/lib/matchups";
 import type { Member } from "@/lib/pickem";
+import StillToPick from "@/components/StillToPick";
 
 const PREVIEW_ID = "preview";
 const PREVIEW_MEMBERS: Member[] = [{ id: PREVIEW_ID, display_name: "You (preview)" }];
@@ -59,6 +60,11 @@ export default function MatchupPickem({ season, weeks, currentWeek }: Props) {
   }, [supabase, season]);
 
   const wk = weeks.find((w) => w.week === week) ?? weeks[0];
+  const weekCounts = useMemo(() => {
+    const c = new Map<string, number>();
+    for (const p of picks) if (p.week === wk.week) c.set(p.member_id, (c.get(p.member_id) ?? 0) + 1);
+    return c;
+  }, [picks, wk.week]);
   const locked = Boolean(now && wk.lockAt && new Date(wk.lockAt) <= now);
   const nameOf = (id: string) => members.find((m) => m.id === id)?.display_name ?? "?";
   const first = (id: string) => nameOf(id).split(" ")[0];
@@ -159,6 +165,7 @@ export default function MatchupPickem({ season, weeks, currentWeek }: Props) {
         </span>
       </div>
       {error && <p className="rounded-sm border border-blood/60 bg-blood/10 px-3 py-2 text-sm">{error}</p>}
+      <StillToPick members={members} counts={weekCounts} total={wk.matchups.length} locked={locked} label={`Week ${wk.week} matchups`} />
 
       <div className="space-y-3">
         {wk.matchups.map((m, i) => {

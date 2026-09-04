@@ -13,6 +13,7 @@ import {
   hasKickedOff,
 } from "@/lib/pickem";
 import PickemLeaderboard from "@/components/PickemLeaderboard";
+import StillToPick from "@/components/StillToPick";
 
 const PREVIEW_ID = "preview";
 const PREVIEW_MEMBERS: Member[] = [{ id: PREVIEW_ID, display_name: "You (preview)" }];
@@ -28,7 +29,7 @@ export default function PickemBoard({ slate }: { slate: Slate }) {
     [slate.weeks],
   );
   const [week, setWeek] = useState(slate.currentWeek);
-  const games = slate.weeks[week]?.games ?? [];
+  const games = useMemo(() => slate.weeks[week]?.games ?? [], [slate.weeks, week]);
   const isCurrent = week === slate.currentWeek;
 
   const [picks, setPicks] = useState<PickRow[]>([]);
@@ -104,6 +105,12 @@ export default function PickemBoard({ slate }: { slate: Slate }) {
   }
 
   const nameOf = (id: string) => members.find((m) => m.id === id)?.display_name ?? "?";
+  const weekCounts = useMemo(() => {
+    const ids = new Set(games.map((g) => g.id));
+    const c = new Map<string, number>();
+    for (const p of picks) if (p.week === week && ids.has(p.game_id)) c.set(p.member_id, (c.get(p.member_id) ?? 0) + 1);
+    return c;
+  }, [picks, games, week]);
   const made = games.filter((g) => myPicks.has(g.id)).length;
   const openGames = games.filter((g) => !(now && hasKickedOff(g, now))).length;
 
@@ -141,6 +148,9 @@ export default function PickemBoard({ slate }: { slate: Slate }) {
 
       {error && <p className="rounded-sm border border-blood/60 bg-blood/10 px-3 py-2 text-sm">{error}</p>}
       {!loaded && <p className="kicker live-dot">Loading picks…</p>}
+      {loaded && (
+        <StillToPick members={members} counts={weekCounts} total={games.length} locked={openGames === 0} label={`NFL Week ${week}`} />
+      )}
 
       <div className="grid gap-3 sm:grid-cols-2">
         {games.map((g, i) => {
