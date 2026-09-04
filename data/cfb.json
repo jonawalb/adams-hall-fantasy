@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 1,
  "poll": "AP Top 25",
- "fetchedAt": "2026-09-04T21:06:48.169Z",
+ "fetchedAt": "2026-09-04T21:50:07.701Z",
  "rankings": [
   {
    "rank": 1,
@@ -1018,8 +1018,8 @@
    "detail": "9/4 - 6:30 PM EDT",
    "venue": "Rynearson Stadium",
    "broadcast": "ESPN+",
-   "spread": "EMU -2.5",
-   "overUnder": 54.5,
+   "spread": "EMU -1.5",
+   "overUnder": 55.5,
    "headline": null,
    "home": {
     "abbr": "EMU",
@@ -1426,7 +1426,7 @@
    "venue": "Milan Puskar Stadium",
    "broadcast": "TNT",
    "spread": "WVU -21",
-   "overUnder": 55.5,
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "WVU",
