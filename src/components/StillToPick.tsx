@@ -20,7 +20,7 @@ export default function GambleYouWuss({ owners, members, counts, locked }: Props
   const wusses = owners.filter((o) => !submitted.has(o.ownerId));
   return (
     <div className={`panel px-4 py-3 ${wusses.length ? "border-blood/50" : "border-gold/40"}`}>
-      <p className={`kicker ${wusses.length ? "text-blood" : ""}`}>Gamble, you wuss</p>
+      <p className={`kicker ${wusses.length ? "text-blood" : ""}`}>Pick, you fucking wuss</p>
       {wusses.length ? (
         <>
           <p className="font-head mt-1.5 flex flex-wrap gap-x-4 gap-y-1 text-lg font-semibold">

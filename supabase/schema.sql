@@ -204,3 +204,10 @@ create trigger matchup_picks_touch before update on matchup_picks
 -- Boards share the posts table: 'south-star' (parody blog) and 'trash' (Talk Your Shit forum).
 alter table posts add column if not exists board text not null default 'south-star';
 create index if not exists posts_board_created_idx on posts (board, created_at desc);
+returns table (member_id uuid, picks bigint)
+language sql stable security definer set search_path = public as $$
+  select member_id, count(*)
+  from picks
+  where season = p_season and week = p_week and auth.uid() is not null
+  group by member_id;
+$$;

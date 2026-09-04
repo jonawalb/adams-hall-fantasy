@@ -33,6 +33,8 @@ export default function PickemBoard({ slate, owners }: { slate: Slate; owners: O
   const isCurrent = week === slate.currentWeek;
 
   const [picks, setPicks] = useState<PickRow[]>([]);
+  const [serverCounts, setServerCounts] = useState<Map<string, number> | null>(null);
+  const [countsVersion, setCountsVersion] = useState(0);
   const [draft, setDraft] = useState<Record<string, Side>>({});
   const [saving, setSaving] = useState(false);
   const [members, setMembers] = useState<Member[]>(() => (supabase ? [] : PREVIEW_MEMBERS));
@@ -46,6 +48,17 @@ export default function PickemBoard({ slate, owners }: { slate: Slate; owners: O
     return () => clearInterval(t);
   }, []);
   const now = hydrated ? clock : null;
+
+  useEffect(() => {
+    if (!supabase) return;
+    supabase
+      .rpc("pick_counts", { p_season: slate.season, p_week: slate.currentWeek })
+      .then(({ data }) => {
+        const m = new Map<string, number>();
+        for (const r of (data as { member_id: string; picks: number }[] | null) ?? []) m.set(r.member_id, Number(r.picks));
+        setServerCounts(m);
+      });
+  }, [supabase, slate.season, slate.currentWeek, countsVersion]);
 
   useEffect(() => {
     if (!supabase) return;
@@ -92,6 +105,7 @@ export default function PickemBoard({ slate, owners }: { slate: Slate; owners: O
       setPicks((all) => [...all.filter((p) => !(p.member_id === myId && p.week === week && draft[p.game_id])), ...merged]);
       setDraft({});
       setError(null);
+      setCountsVersion((v) => v + 1);
     };
     if (!supabase) return apply();
     setSaving(true);
@@ -106,11 +120,12 @@ export default function PickemBoard({ slate, owners }: { slate: Slate; owners: O
 
   const nameOf = (id: string) => members.find((m) => m.id === id)?.display_name ?? "?";
   const weekCounts = useMemo(() => {
+    if (serverCounts && week === slate.currentWeek) return serverCounts;
     const ids = new Set(games.map((g) => g.id));
     const c = new Map<string, number>();
     for (const p of picks) if (p.week === week && ids.has(p.game_id)) c.set(p.member_id, (c.get(p.member_id) ?? 0) + 1);
     return c;
-  }, [picks, games, week]);
+  }, [picks, games, week, serverCounts, slate.currentWeek]);
   const made = games.filter((g) => myPicks.has(g.id)).length;
   const openGames = games.filter((g) => !(now && hasKickedOff(g, now))).length;
 
