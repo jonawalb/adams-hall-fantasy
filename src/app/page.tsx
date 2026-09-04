@@ -2,6 +2,7 @@ import brethrenData from "../../data/brethren.json";
 import { availableSeasons, loadSeason } from "@/lib/espn";
 import { careers } from "@/lib/brethren";
 import TuesdayTape from "@/components/TuesdayTape";
+import RecapCard from "@/components/RecapCard";
 
 const f1 = (n: number) => n.toFixed(1);
 type Extra = { bio: string; photo: string };
@@ -14,7 +15,10 @@ export default function BrethrenPage() {
 
   return (
     <div className="space-y-12">
-      <TuesdayTape />
+      <div className="grid gap-8 lg:grid-cols-2">
+        <TuesdayTape />
+        <RecapCard />
+      </div>
 
       <section className="space-y-4">
         <header className="rise">

@@ -36,6 +36,8 @@ const GROUPS: Group[] = [
           { href: "/matchups", label: "Matchups" },
           { href: "/clubhouse", label: "Dashboard" },
           { href: "/season/bad-decisions", label: "Bad Decisions" },
+          { href: "/season/recap", label: "Weekly Recap" },
+          { href: "/season/archive", label: "Recaps & Tapes" },
         ],
       },
     ],
