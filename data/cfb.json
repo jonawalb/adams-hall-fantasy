@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 1,
  "poll": "AP Top 25",
- "fetchedAt": "2026-09-04T22:39:32.541Z",
+ "fetchedAt": "2026-09-05T09:48:31.236Z",
  "rankings": [
   {
    "rank": 1,
@@ -1013,14 +1013,14 @@
    "id": "401864495",
    "date": "2026-09-04T22:30Z",
    "name": "SJSU @ EMU",
-   "state": "in",
-   "completed": false,
-   "detail": "12:02 - 1st",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Rynearson Stadium",
    "broadcast": "ESPN+",
    "spread": null,
    "overUnder": null,
-   "headline": null,
+   "headline": "Luke Weaver's third touchdown pass lifts San Jose State over Eastern Michigan 27-21",
    "home": {
     "abbr": "EMU",
     "name": "Eastern Michigan Eagles",
@@ -1028,8 +1028,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png",
     "color": "006938",
     "rank": null,
-    "score": 0,
-    "record": "1-0",
+    "score": 21,
+    "record": "1-1",
     "conferenceId": "15",
     "winner": false
    },
@@ -1040,24 +1040,24 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/23.png",
     "color": "0038a8",
     "rank": null,
-    "score": 0,
-    "record": "0-1",
+    "score": 27,
+    "record": "1-1",
     "conferenceId": "17",
-    "winner": false
+    "winner": true
    }
   },
   {
    "id": "401858435",
    "date": "2026-09-04T23:00Z",
    "name": "INST @ PUR",
-   "state": "pre",
-   "completed": false,
-   "detail": "9/4 - 7:00 PM EDT",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Ross-Ade Stadium",
    "broadcast": "BTN",
-   "spread": "PUR -34.5",
-   "overUnder": 55.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Ryan Browne leads Purdue past Indiana State 44-19 in Boilermakers' season opener",
    "home": {
     "abbr": "PUR",
     "name": "Purdue Boilermakers",
@@ -1065,10 +1065,10 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png",
     "color": "ceb888",
     "rank": null,
-    "score": 0,
-    "record": "0-0",
+    "score": 44,
+    "record": "1-0",
     "conferenceId": "5",
-    "winner": false
+    "winner": true
    },
    "away": {
     "abbr": "INST",
@@ -1077,8 +1077,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/282.png",
     "color": "00669a",
     "rank": null,
-    "score": 0,
-    "record": "0-1",
+    "score": 19,
+    "record": "0-2",
     "conferenceId": "21",
     "winner": false
    }
@@ -1087,14 +1087,14 @@
    "id": "401866623",
    "date": "2026-09-04T23:00Z",
    "name": "NCAT @ GAST",
-   "state": "pre",
-   "completed": false,
-   "detail": "9/4 - 7:00 PM EDT",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Center Parc Stadium",
    "broadcast": "ESPN+",
-   "spread": "GAST -28.5",
-   "overUnder": 58.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Cameran Brown throws for 2 touchdowns, Georgia State adds 6 on the ground in 59-10 rout of NC A&T",
    "home": {
     "abbr": "GAST",
     "name": "Georgia State Panthers",
@@ -1102,10 +1102,10 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
     "color": "0039a6",
     "rank": null,
-    "score": 0,
-    "record": "0-0",
+    "score": 59,
+    "record": "1-0",
     "conferenceId": "37",
-    "winner": false
+    "winner": true
    },
    "away": {
     "abbr": "NCAT",
@@ -1114,8 +1114,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2448.png",
     "color": "0505aa",
     "rank": null,
-    "score": 0,
-    "record": "0-1",
+    "score": 10,
+    "record": "0-2",
     "conferenceId": "48",
     "winner": false
    }
@@ -1124,13 +1124,13 @@
    "id": "401856664",
    "date": "2026-09-05T00:00Z",
    "name": "UTEP @ OU",
-   "state": "pre",
-   "completed": false,
-   "detail": "9/4 - 8:00 PM EDT",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Memorial Stadium (Norman, OK)",
    "broadcast": "SECN+",
-   "spread": "OU -40.5",
-   "overUnder": 51.5,
+   "spread": null,
+   "overUnder": null,
    "headline": null,
    "home": {
     "abbr": "OU",
@@ -1139,10 +1139,10 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
     "color": "990000",
     "rank": 10,
-    "score": 0,
-    "record": "0-0",
+    "score": 51,
+    "record": "1-0",
     "conferenceId": "8",
-    "winner": false
+    "winner": true
    },
    "away": {
     "abbr": "UTEP",
@@ -1152,7 +1152,7 @@
     "color": "ff8200",
     "rank": null,
     "score": 0,
-    "record": "0-0",
+    "record": "0-1",
     "conferenceId": "17",
     "winner": false
    }
@@ -1161,14 +1161,14 @@
    "id": "401856769",
    "date": "2026-09-05T00:00Z",
    "name": "LIU @ KU",
-   "state": "pre",
-   "completed": false,
-   "detail": "9/4 - 8:00 PM EDT",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "David Booth Kansas Memorial Stadium",
    "broadcast": "ESPNU",
-   "spread": "KU -43.5",
-   "overUnder": 56.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Kansas shakes off sluggish start, crushes LIU 51-6 in its opener ahead of Border War with Missouri",
    "home": {
     "abbr": "KU",
     "name": "Kansas Jayhawks",
@@ -1176,10 +1176,10 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
     "color": "0051ba",
     "rank": null,
-    "score": 0,
-    "record": "0-0",
+    "score": 51,
+    "record": "1-0",
     "conferenceId": "4",
-    "winner": false
+    "winner": true
    },
    "away": {
     "abbr": "LIU",
@@ -1188,8 +1188,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2341.png",
     "color": null,
     "rank": null,
-    "score": 0,
-    "record": "0-1",
+    "score": 6,
+    "record": "0-2",
     "conferenceId": "25",
     "winner": false
    }
@@ -1198,13 +1198,13 @@
    "id": "401858429",
    "date": "2026-09-05T00:00Z",
    "name": "TOL @ MSU",
-   "state": "pre",
-   "completed": false,
-   "detail": "9/4 - 8:00 PM EDT",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Spartan Stadium",
    "broadcast": "FS1",
-   "spread": "MSU -10",
-   "overUnder": 48.5,
+   "spread": null,
+   "overUnder": null,
    "headline": null,
    "home": {
     "abbr": "MSU",
@@ -1213,10 +1213,10 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
     "color": "173f35",
     "rank": null,
-    "score": 0,
-    "record": "0-0",
+    "score": 30,
+    "record": "1-0",
     "conferenceId": "5",
-    "winner": false
+    "winner": true
    },
    "away": {
     "abbr": "TOL",
@@ -1225,8 +1225,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png",
     "color": "0b2240",
     "rank": null,
-    "score": 0,
-    "record": "0-0",
+    "score": 20,
+    "record": "0-1",
     "conferenceId": "15",
     "winner": false
    }
@@ -1235,14 +1235,14 @@
    "id": "401858206",
    "date": "2026-09-05T01:00Z",
    "name": "MIA @ STAN",
-   "state": "pre",
-   "completed": false,
-   "detail": "9/4 - 9:00 PM EDT",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Stanford Stadium",
    "broadcast": "ESPN",
-   "spread": "MIA -24.5",
-   "overUnder": 46.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Mensah throws 5 TD passes, Toney sets record in No. 7 Miami's 45-6 win over Stanford",
    "home": {
     "abbr": "STAN",
     "name": "Stanford Cardinal",
@@ -1250,8 +1250,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
     "color": "8c1515",
     "rank": null,
-    "score": 0,
-    "record": "1-0",
+    "score": 6,
+    "record": "1-1",
     "conferenceId": "1",
     "winner": false
    },
@@ -1262,24 +1262,24 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
     "color": "f47423",
     "rank": 7,
-    "score": 0,
-    "record": "0-0",
+    "score": 45,
+    "record": "1-0",
     "conferenceId": "1",
-    "winner": false
+    "winner": true
    }
   },
   {
    "id": "401858436",
    "date": "2026-09-05T01:00Z",
    "name": "FRES @ USC",
-   "state": "pre",
-   "completed": false,
-   "detail": "9/4 - 9:00 PM EDT",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Los Angeles Memorial Coliseum",
    "broadcast": "FOX",
-   "spread": "USC -21.5",
-   "overUnder": 51.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Maiava passes for 349 yards, hits frosh Mosley for 2 TDs in No. 14 USC's 39-0 rout of Fresno State",
    "home": {
     "abbr": "USC",
     "name": "USC Trojans",
@@ -1287,10 +1287,10 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
     "color": "9d2235",
     "rank": 14,
-    "score": 0,
-    "record": "1-0",
+    "score": 39,
+    "record": "2-0",
     "conferenceId": "5",
-    "winner": false
+    "winner": true
    },
    "away": {
     "abbr": "FRES",
@@ -1300,7 +1300,7 @@
     "color": "b1102b",
     "rank": null,
     "score": 0,
-    "record": "0-0",
+    "record": "0-1",
     "conferenceId": "9",
     "winner": false
    }
@@ -1573,7 +1573,7 @@
    "detail": "9/5 - 12:00 PM EDT",
    "venue": "Michie Stadium",
    "broadcast": "CBSSN",
-   "spread": "ARMY -36.5",
+   "spread": "ARMY -37.5",
    "overUnder": 50.5,
    "headline": null,
    "home": {
@@ -1611,7 +1611,7 @@
    "venue": "Doyt L. Perry Stadium",
    "broadcast": "ESPN+",
    "spread": "BGSU -1.5",
-   "overUnder": 48.5,
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "BGSU",
@@ -1943,7 +1943,7 @@
    "detail": "9/5 - 3:00 PM EDT",
    "venue": "Sanford Stadium",
    "broadcast": "SECN+",
-   "spread": "UGA -47.5",
+   "spread": "UGA -46.5",
    "overUnder": 54.5,
    "headline": null,
    "home": {
@@ -2055,7 +2055,7 @@
    "venue": "Beaver Stadium",
    "broadcast": "FS1",
    "spread": "PSU -23.5",
-   "overUnder": 51.5,
+   "overUnder": 52.5,
    "headline": null,
    "home": {
     "abbr": "PSU",
@@ -2535,7 +2535,7 @@
    "detail": "9/5 - 5:00 PM EDT",
    "venue": "M. M. Roberts Stadium",
    "broadcast": "ESPN+",
-   "spread": "USM -19.5",
+   "spread": "USM -18.5",
    "overUnder": 50.5,
    "headline": null,
    "home": {
@@ -2757,7 +2757,7 @@
    "detail": "9/5 - 7:00 PM EDT",
    "venue": "Bill Snyder Family Stadium",
    "broadcast": "ESPN+",
-   "spread": "KSU -40.5",
+   "spread": "KSU -41.5",
    "overUnder": 54.5,
    "headline": null,
    "home": {
@@ -2831,8 +2831,8 @@
    "detail": "9/5 - 7:00 PM EDT",
    "venue": "Simmons Bank Liberty Stadium",
    "broadcast": "ESPN+",
-   "spread": "MEM -10.5",
-   "overUnder": 52.5,
+   "spread": "MEM -11.5",
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "MEM",
@@ -3572,7 +3572,7 @@
    "venue": "Snapdragon Stadium",
    "broadcast": "USA Net",
    "spread": "SDSU -40.5",
-   "overUnder": 61.5,
+   "overUnder": 62.5,
    "headline": null,
    "home": {
     "abbr": "SDSU",
@@ -3793,8 +3793,8 @@
    "detail": "9/5 - 10:30 PM EDT",
    "venue": "Mackay Stadium",
    "broadcast": "CBSSN",
-   "spread": "NEV -1.5",
-   "overUnder": 52.5,
+   "spread": "WKU -1.5",
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "NEV",
@@ -3905,7 +3905,7 @@
    "venue": "Nissan Stadium",
    "broadcast": "ABC",
    "spread": "MISS -6.5",
-   "overUnder": 55.5,
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "MISS",
