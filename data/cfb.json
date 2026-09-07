@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 1,
  "poll": "AP Top 25",
- "fetchedAt": "2026-09-07T07:11:19.168Z",
+ "fetchedAt": "2026-09-07T11:18:16.873Z",
  "rankings": [
   {
    "rank": 1,
@@ -3832,7 +3832,7 @@
    "broadcast": "NBC",
    "spread": null,
    "overUnder": null,
-   "headline": null,
+   "headline": "No. 17 Washington struggles on offense but pulls out 24-10 Apple Cup win over Washington State",
    "home": {
     "abbr": "WASH",
     "name": "Washington Huskies",
