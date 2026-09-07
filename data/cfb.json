@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 1,
  "poll": "AP Top 25",
- "fetchedAt": "2026-09-07T00:27:23.579Z",
+ "fetchedAt": "2026-09-07T07:11:19.168Z",
  "rankings": [
   {
    "rank": 1,
@@ -1723,7 +1723,7 @@
    "broadcast": "CW",
    "spread": null,
    "overUnder": null,
-   "headline": null,
+   "headline": "Heintschel throws 7 touchdown passes, ties school record in lopsided 59-14 Pitt win",
    "home": {
     "abbr": "PITT",
     "name": "Pittsburgh Panthers",
@@ -3862,14 +3862,14 @@
    "id": "401858438",
    "date": "2026-09-06T23:30Z",
    "name": "WIS VS ND",
-   "state": "in",
-   "completed": false,
-   "detail": "1:28 - 1st",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Lambeau Field",
    "broadcast": "NBC",
    "spread": null,
    "overUnder": null,
-   "headline": null,
+   "headline": "No. 4 Notre Dame overcomes sluggish start to beat Wisconsin 41-13 at Lambeau Field",
    "home": {
     "abbr": "ND",
     "name": "Notre Dame Fighting Irish",
@@ -3877,10 +3877,10 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
     "color": "062340",
     "rank": 4,
-    "score": 3,
-    "record": "0-0",
+    "score": 41,
+    "record": "1-0",
     "conferenceId": "18",
-    "winner": false
+    "winner": true
    },
    "away": {
     "abbr": "WIS",
@@ -3889,8 +3889,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
     "color": "a00000",
     "rank": null,
-    "score": 3,
-    "record": "0-0",
+    "score": 13,
+    "record": "0-1",
     "conferenceId": "5",
     "winner": false
    }
@@ -3899,14 +3899,14 @@
    "id": "401856661",
    "date": "2026-09-06T23:30Z",
    "name": "LOU VS MISS",
-   "state": "in",
-   "completed": false,
-   "detail": "15:00 - 2nd",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Nissan Stadium",
    "broadcast": "ABC",
    "spread": null,
    "overUnder": null,
-   "headline": null,
+   "headline": "Wild 2nd half ends with Carneiro’s 48-yard winner for No. 9 Ole Miss over No. 24 Louisville",
    "home": {
     "abbr": "MISS",
     "name": "Ole Miss Rebels",
@@ -3914,10 +3914,10 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
     "color": "13294b",
     "rank": 9,
-    "score": 0,
-    "record": "0-0",
+    "score": 41,
+    "record": "1-0",
     "conferenceId": "8",
-    "winner": false
+    "winner": true
    },
    "away": {
     "abbr": "LOU",
@@ -3926,8 +3926,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
     "color": "c9001f",
     "rank": 24,
-    "score": 3,
-    "record": "0-0",
+    "score": 38,
+    "record": "0-1",
     "conferenceId": "1",
     "winner": false
    }
@@ -3942,7 +3942,7 @@
    "venue": "Doak Campbell Stadium",
    "broadcast": "ESPN",
    "spread": "SMU -3",
-   "overUnder": 52.5,
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "FSU",
