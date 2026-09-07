@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 1,
- "archivedAt": "2026-09-07T00:27:24.307Z",
+ "archivedAt": "2026-09-07T07:11:20.008Z",
  "matchups": [
   {
    "id": 1,
@@ -1012,7 +1012,7 @@
       "playerId": 4567048,
       "name": "Kenneth Walker III",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -1040,14 +1040,14 @@
       "playerId": 4426348,
       "name": "Jayden Daniels",
       "pos": "QB",
-      "slot": "BE",
+      "slot": "QB",
       "points": 0
      },
      {
       "playerId": 4431299,
       "name": "Rome Odunze",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -1061,7 +1061,7 @@
       "playerId": 4569987,
       "name": "Jaylen Warren",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "RB",
       "points": 0
      },
      {
@@ -1110,7 +1110,7 @@
       "playerId": 2577417,
       "name": "Dak Prescott",
       "pos": "QB",
-      "slot": "QB",
+      "slot": "BE",
       "points": 0
      },
      {
