@@ -54,7 +54,6 @@ const GROUPS: Group[] = [
     ],
   },
   { label: "Talk Your Shit", href: "/talk-your-shit" },
-  { label: "Bonk Bracket", href: "/quotes" },
   { label: "Halls", href: "/halls" },
   {
     label: "Archives",
@@ -90,6 +89,7 @@ const GROUPS: Group[] = [
       {
         items: [
           { href: "/south-star", label: "South Star Narrative" },
+          { href: "/quotes", label: "Bonk Bracket" },
           { href: "/cfb", label: "College Football" },
         ],
       },
