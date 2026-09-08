@@ -46,6 +46,9 @@ jobs:
       - name: Refresh college football snapshot
         run: node scripts/fetch-cfb.mjs
         continue-on-error: true
+      - name: Refresh Palantir stock prices
+        run: node scripts/fetch-pltr.mjs
+        continue-on-error: true
       - name: Archive ESPN transactions, draft, activity, lineups
         run: node scripts/archive-espn.mjs
         continue-on-error: true

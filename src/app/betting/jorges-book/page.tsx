@@ -1,5 +1,6 @@
 import BetBook from "@/components/BetBook";
 import { JORGE } from "@/lib/bettors";
+import pltrData from "../../../../data/pltr.json";
 
 export default function JorgesBookPage() {
   return (
@@ -11,7 +12,7 @@ export default function JorgesBookPage() {
           Every FanDuel bet, logged for the record. No hiding. No deleting. Just receipts.
         </p>
       </header>
-      <BetBook bettor={JORGE} tag="jorge" />
+      <BetBook bettor={JORGE} tag="jorge" pltr={pltrData} />
     </div>
   );
 }
