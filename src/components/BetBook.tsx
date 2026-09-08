@@ -173,8 +173,8 @@ function Stats({ bets, cfg }: { bets: Bet[]; cfg: BettorConfig }) {
   }
   const streakLabel = streakType === "won" ? `${streak}W` : streakType === "lost" ? `${streak}L` : "—";
 
-  let totalWagered = 0;
-  let totalProfit = 0;
+  let totalWon = 0;
+  let totalLost = 0;
   let biggestWin = 0;
   let biggestWinDesc = "";
   let worstLoss = 0;
@@ -186,13 +186,12 @@ function Stats({ bets, cfg }: { bets: Bet[]; cfg: BettorConfig }) {
     const odds = parseOdds(b.odds);
     if (!stake) continue;
     if (b.result && b.result !== "pending") {
-      totalWagered += stake;
       if (b.result === "won" && odds) {
         const payout = calcPayout(stake, odds);
-        totalProfit += payout;
+        totalWon += payout;
         if (payout > biggestWin) { biggestWin = payout; biggestWinDesc = b.description; }
       } else if (b.result === "lost") {
-        totalProfit -= stake;
+        totalLost += stake;
         if (stake > worstLoss) { worstLoss = stake; worstLossDesc = b.description; }
       }
     } else {
@@ -200,17 +199,18 @@ function Stats({ bets, cfg }: { bets: Bet[]; cfg: BettorConfig }) {
     }
   }
 
-  const roi = totalWagered > 0 ? ((totalProfit / totalWagered) * 100).toFixed(1) : "—";
-  const profitColor = totalProfit >= 0 ? "text-emerald-400" : "text-blood";
+  const net = totalWon - totalLost;
+  const netColor = net >= 0 ? "text-emerald-400" : "text-blood";
+  const netLabel = net >= 0 ? "UP" : "DOWN";
 
   return (
     <div className="space-y-3">
-      <div className="grid grid-cols-2 gap-3 sm:grid-cols-5">
+      {/* Row 1: Record stats */}
+      <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
         {[
           { label: "Record", value: `${wins.length}-${losses.length}${pushes ? `-${pushes}` : ""}` },
           { label: "Win %", value: total > 0 ? `${pct}%` : "—" },
           { label: "Streak", value: streakLabel },
-          { label: "Pending", value: String(pending.length) },
           { label: "Total Bets", value: String(bets.length) },
         ].map((s) => (
           <div key={s.label} className="panel p-3 text-center">
@@ -219,25 +219,40 @@ function Stats({ bets, cfg }: { bets: Bet[]; cfg: BettorConfig }) {
           </div>
         ))}
       </div>
-      {totalWagered > 0 && (
+
+      {/* Row 2: Money stats */}
+      <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+        <div className="panel p-3 text-center">
+          <p className="kicker">Won</p>
+          <p className="font-display mt-1 text-xl text-emerald-400">{totalWon > 0 ? `$${totalWon.toFixed(0)}` : "—"}</p>
+        </div>
+        <div className="panel p-3 text-center">
+          <p className="kicker">Lost</p>
+          <p className="font-display mt-1 text-xl text-blood">{totalLost > 0 ? `$${totalLost.toFixed(0)}` : "—"}</p>
+        </div>
+        <div className="panel p-3 text-center">
+          <p className="kicker">At Stake</p>
+          <p className="font-display mt-1 text-xl text-gold">{pendingRisk > 0 ? `$${pendingRisk.toFixed(0)}` : "—"}</p>
+        </div>
+        <div className={`panel border-2 p-3 text-center ${net >= 0 ? "border-emerald-500/40" : "border-blood/40"}`}>
+          <p className="kicker">{netLabel}</p>
+          <p className={`font-display mt-1 text-xl ${netColor}`}>
+            {totalWon > 0 || totalLost > 0 ? `${net >= 0 ? "+" : "-"}$${Math.abs(net).toFixed(0)}` : "—"}
+          </p>
+        </div>
+      </div>
+
+      {/* Damage Report details */}
+      {(biggestWinDesc || worstLossDesc) && (
         <div className="panel p-4">
-          <p className="kicker mb-3">The Damage Report</p>
-          <div className="grid grid-cols-2 gap-x-6 gap-y-2 text-sm sm:grid-cols-4">
-            <div><p className="text-xs text-cream-dim">Total Wagered</p><p className="font-head font-semibold">${totalWagered.toFixed(2)}</p></div>
-            <div><p className="text-xs text-cream-dim">Net P&L</p><p className={`font-head font-semibold ${profitColor}`}>{fmtMoney(totalProfit)}</p></div>
-            <div><p className="text-xs text-cream-dim">ROI</p><p className={`font-head font-semibold ${profitColor}`}>{roi === "—" ? roi : `${roi}%`}</p></div>
-            <div><p className="text-xs text-cream-dim">At Risk</p><p className="font-head font-semibold text-gold">${pendingRisk.toFixed(2)}</p></div>
+          <div className="grid gap-2 sm:grid-cols-2">
+            {biggestWinDesc && (
+              <div><p className="text-xs text-cream-dim">Biggest Win</p><p className="text-sm"><span className="font-head font-semibold text-emerald-400">+${biggestWin.toFixed(2)}</span><span className="ml-1.5 text-cream-dim">— {biggestWinDesc}</span></p></div>
+            )}
+            {worstLossDesc && (
+              <div><p className="text-xs text-cream-dim">Worst Loss</p><p className="text-sm"><span className="font-head font-semibold text-blood">-${worstLoss.toFixed(2)}</span><span className="ml-1.5 text-cream-dim">— {worstLossDesc}</span></p></div>
+            )}
           </div>
-          {(biggestWinDesc || worstLossDesc) && (
-            <div className="mt-3 grid gap-2 border-t border-line pt-3 sm:grid-cols-2">
-              {biggestWinDesc && (
-                <div><p className="text-xs text-cream-dim">Biggest Win</p><p className="text-sm"><span className="font-head font-semibold text-emerald-400">+${biggestWin.toFixed(2)}</span><span className="ml-1.5 text-cream-dim">— {biggestWinDesc}</span></p></div>
-              )}
-              {worstLossDesc && (
-                <div><p className="text-xs text-cream-dim">Worst Loss</p><p className="text-sm"><span className="font-head font-semibold text-blood">-${worstLoss.toFixed(2)}</span><span className="ml-1.5 text-cream-dim">— {worstLossDesc}</span></p></div>
-              )}
-            </div>
-          )}
           {streakType === "lost" && streak >= 3 && (
             <p className="mt-3 rounded-sm border border-blood/30 bg-blood/10 px-3 py-2 text-center text-xs text-blood">
               {cfg.roasts.streakBanner.replace("{n}", String(streak))}
