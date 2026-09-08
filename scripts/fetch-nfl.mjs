@@ -27,6 +27,20 @@ function side(competitor) {
   };
 }
 
+// DraftKings line as ESPN publishes it on the scoreboard. Moneylines are
+// strings like "-170" / "+142" so the sign survives.
+function odds(c) {
+  const o = c.odds?.[0];
+  if (!o) return undefined;
+  const ml = (side) => o.moneyline?.[side]?.close?.odds ?? o.moneyline?.[side]?.open?.odds ?? null;
+  return {
+    provider: o.provider?.displayName ?? null,
+    details: o.details ?? null, // e.g. "SEA -3"
+    overUnder: o.overUnder ?? null,
+    moneyline: { home: ml("home"), away: ml("away") },
+  };
+}
+
 function normalize(json) {
   const games = (json.events ?? []).map((e) => {
     const c = e.competitions[0];
@@ -48,6 +62,7 @@ function normalize(json) {
       detail: c.status?.type?.shortDetail ?? "",
       home: side(home),
       away: side(away),
+      odds: odds(c),
     };
   });
   games.sort((a, b) => a.date.localeCompare(b.date));
@@ -63,8 +78,20 @@ async function fetchWeek(season, week) {
   return normalize(await res.json());
 }
 
+// ESPN drops the line once a game is final; keep the last one we saw.
+function keepOdds(slate, week) {
+  const prior = slate.weeks[week.week]?.games ?? [];
+  for (const g of week.games) {
+    if (!g.odds) {
+      const old = prior.find((p) => p.id === g.id);
+      if (old?.odds) g.odds = old.odds;
+    }
+  }
+  return week;
+}
+
 const slate = loadExisting();
-const current = await fetchWeek();
+const current = keepOdds(slate, await fetchWeek());
 slate.season = current.season;
 slate.currentWeek = current.week;
 slate.fetchedAt = new Date().toISOString();
@@ -72,7 +99,7 @@ slate.weeks[current.week] = current;
 console.log(`week ${current.week}: ${current.games.length} games (current)`);
 
 if (current.week > 1) {
-  const prev = await fetchWeek(current.season, current.week - 1);
+  const prev = keepOdds(slate, await fetchWeek(current.season, current.week - 1));
   slate.weeks[prev.week] = prev;
   console.log(`week ${prev.week}: ${prev.games.length} games (refreshed)`);
 }

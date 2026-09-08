@@ -174,13 +174,26 @@ export default function PickemBoard({ slate, owners }: { slate: Slate; owners: O
           return (
             <div key={g.id} className="panel rise p-4" style={{ animationDelay: `${i * 40}ms` }}>
               <div className="flex items-center justify-between text-xs text-cream-dim">
-                <span>{formatKickoff(g.date)} ET</span>
+                <span>
+                  <span className="font-head text-sm font-semibold text-cream">
+                    {g.away.abbr} @ {g.home.abbr}
+                  </span>
+                  <span className="ml-2">{formatKickoff(g.date)} ET</span>
+                </span>
                 {locked && (
                   <span className={g.state === "in" ? "live-dot text-gold" : ""}>
                     {g.completed ? "Final" : g.state === "in" ? "Live" : "Locked"}
                   </span>
                 )}
               </div>
+              {g.odds && (g.odds.details || g.odds.overUnder != null) && (
+                <p className="mt-0.5 text-[0.65rem] uppercase tracking-wider text-cream-dim">
+                  {g.odds.details}
+                  {g.odds.details && g.odds.overUnder != null ? " · " : ""}
+                  {g.odds.overUnder != null ? `O/U ${g.odds.overUnder}` : ""}
+                  {g.odds.provider ? ` · ${g.odds.provider}` : ""}
+                </p>
+              )}
               <div className="mt-2 grid grid-cols-2 gap-2">
                 {(["away", "home"] as const).map((side) => {
                   const t = g[side];
@@ -214,6 +227,12 @@ export default function PickemBoard({ slate, owners }: { slate: Slate; owners: O
                           <span className={`ml-2 text-xs ${g.completed ? (won ? "text-gold-bright" : "text-blood") : ""}`}>
                             {g.completed ? (won ? "✓" : "✗") : "you"}
                           </span>
+                        )}
+                      </span>
+                      <span className="mt-1 flex items-center justify-between text-[0.65rem] uppercase tracking-wider text-cream-dim">
+                        <span>{side}</span>
+                        {g.odds?.moneyline[side] && (
+                          <span className="font-mono-num text-xs normal-case tracking-normal">{g.odds.moneyline[side]}</span>
                         )}
                       </span>
                       {pickers.length > 0 && (

@@ -10,6 +10,15 @@ export interface TeamSide {
   score: number;
 }
 
+export interface GameOdds {
+  provider: string | null;
+  /** Spread as the book prints it, e.g. "SEA -3". */
+  details: string | null;
+  overUnder: number | null;
+  /** American moneylines with sign, e.g. "-170" / "+142". */
+  moneyline: { home: string | null; away: string | null };
+}
+
 export interface Game {
   id: string;
   date: string;
@@ -20,6 +29,7 @@ export interface Game {
   detail: string;
   home: TeamSide;
   away: TeamSide;
+  odds?: GameOdds;
 }
 
 export interface WeekSlate {
