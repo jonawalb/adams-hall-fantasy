@@ -291,6 +291,39 @@ function BetCard({ bet, canEdit, roast, onUpdate, onRemove }: {
   );
 }
 
+/**
+ * Parse a natural-language bet string like "Chiefs ML +150 $25" into parts.
+ * Extracts odds ([+-]\d+) and stake ($\d+) from anywhere in the string;
+ * everything else becomes the description.
+ */
+function smartParse(raw: string): { description: string; odds: string | null; stake: string | null } {
+  let text = raw.trim();
+  let odds: string | null = null;
+  let stake: string | null = null;
+
+  const stakeMatch = text.match(/\$\s?(\d+(?:\.\d{1,2})?)/);
+  if (stakeMatch) {
+    stake = `$${stakeMatch[1]}`;
+    text = text.replace(stakeMatch[0], "");
+  }
+
+  const oddsMatch = text.match(/(?:^|\s)([+-]\d{3,})\b/);
+  if (oddsMatch) {
+    odds = oddsMatch[1];
+    text = text.replace(oddsMatch[0], "");
+  }
+  if (!oddsMatch) {
+    const shortOdds = text.match(/(?:^|\s)(-\d{2,3})\b/);
+    if (shortOdds) {
+      odds = shortOdds[1];
+      text = text.replace(shortOdds[0], "");
+    }
+  }
+
+  const description = text.replace(/\s{2,}/g, " ").trim();
+  return { description, odds, stake };
+}
+
 export default function BetBook({ bettor, tag }: { bettor: BettorConfig; tag: string }) {
   const supabase = getSupabase();
   const user = useUser();
@@ -301,9 +334,14 @@ export default function BetBook({ bettor, tag }: { bettor: BettorConfig; tag: st
   const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
   const [showForm, setShowForm] = useState(false);
-  const [form, setForm] = useState({ description: "", share_url: "", odds: "", stake: "", note: "" });
+  const [quickText, setQuickText] = useState("");
+  const [shareUrl, setShareUrl] = useState("");
+  const [note, setNote] = useState("");
   const [version, setVersion] = useState(0);
   const reload = () => setVersion((v) => v + 1);
+
+  const parsed = smartParse(quickText);
+  const preview = quickText.trim().length > 0;
 
   useEffect(() => {
     if (!supabase) return;
@@ -324,15 +362,15 @@ export default function BetBook({ bettor, tag }: { bettor: BettorConfig; tag: st
 
   async function submit(e: FormEvent) {
     e.preventDefault();
-    if (!myId || !form.description.trim()) return;
+    if (!myId || !parsed.description) return;
     setBusy(true);
     setError(null);
     const row = {
-      description: form.description.trim(),
-      share_url: form.share_url.trim() || null,
-      odds: form.odds.trim() || null,
-      stake: form.stake.trim() || null,
-      note: form.note.trim() || null,
+      description: parsed.description,
+      share_url: shareUrl.trim() || null,
+      odds: parsed.odds,
+      stake: parsed.stake,
+      note: note.trim() || null,
       result: "pending" as const,
       posted_by: myId,
       bettor_tag: tag,
@@ -344,7 +382,9 @@ export default function BetBook({ bettor, tag }: { bettor: BettorConfig; tag: st
       if (err) setError(err.message);
       else reload();
     }
-    setForm({ description: "", share_url: "", odds: "", stake: "", note: "" });
+    setQuickText("");
+    setShareUrl("");
+    setNote("");
     setShowForm(false);
     setBusy(false);
   }
@@ -377,17 +417,37 @@ export default function BetBook({ bettor, tag }: { bettor: BettorConfig; tag: st
         </button>
       )}
       {canPost && showForm && (
-        <form onSubmit={submit} className="panel grid gap-3 p-4 sm:grid-cols-2">
-          <p className="kicker sm:col-span-2">New bet</p>
-          <input required placeholder="What's the bet? (e.g. Chiefs ML, Mahomes 300+ yds parlay)" value={form.description} onChange={(e) => setForm({ ...form, description: e.target.value })} className={`${input} sm:col-span-2`} />
-          <input placeholder="FanDuel share link (optional)" value={form.share_url} onChange={(e) => setForm({ ...form, share_url: e.target.value })} className={`${input} sm:col-span-2`} />
-          <input placeholder="Odds (e.g. +150, -110)" value={form.odds} onChange={(e) => setForm({ ...form, odds: e.target.value })} className={input} />
-          <input placeholder="Stake (e.g. $25)" value={form.stake} onChange={(e) => setForm({ ...form, stake: e.target.value })} className={input} />
-          <input placeholder="Trash talk / notes (optional)" value={form.note} onChange={(e) => setForm({ ...form, note: e.target.value })} className={`${input} sm:col-span-2`} />
-          {error && <p className="text-sm text-blood sm:col-span-2">{error}</p>}
-          <div className="flex gap-2 sm:col-span-2">
-            <button disabled={busy} className="font-head flex-1 rounded-sm bg-gold px-4 py-2 text-sm font-bold uppercase tracking-widest text-felt-deep disabled:opacity-40">Lock it in</button>
-            <button type="button" onClick={() => setShowForm(false)} className="font-head rounded-sm border border-line px-4 py-2 text-sm uppercase tracking-wider text-cream-dim hover:text-cream">Cancel</button>
+        <form onSubmit={submit} className="panel space-y-3 p-4">
+          <p className="kicker">Quick log</p>
+          <input
+            required
+            autoFocus
+            placeholder="Chiefs ML +150 $25  (type the bet — odds & stake auto-detect)"
+            value={quickText}
+            onChange={(e) => setQuickText(e.target.value)}
+            className={`${input} text-base`}
+          />
+          {preview && (
+            <div className="flex flex-wrap gap-x-4 gap-y-1 rounded-sm border border-line bg-felt-deep/40 px-3 py-2 text-xs">
+              <span>Bet: <span className="font-semibold text-cream">{parsed.description || "…"}</span></span>
+              <span>Odds: <span className={`font-semibold ${parsed.odds ? "text-cream" : "text-cream-dim"}`}>{parsed.odds ?? "none"}</span></span>
+              <span>Stake: <span className={`font-semibold ${parsed.stake ? "text-cream" : "text-cream-dim"}`}>{parsed.stake ?? "none"}</span></span>
+              {parsed.odds && parsed.stake && (() => {
+                const s = parseDollars(parsed.stake);
+                const o = parseOdds(parsed.odds);
+                const p = s && o ? calcPayout(s, o) : null;
+                return p ? <span>To win: <span className="font-semibold text-gold">${p.toFixed(2)}</span></span> : null;
+              })()}
+            </div>
+          )}
+          <div className="grid gap-3 sm:grid-cols-2">
+            <input placeholder="FanDuel link (optional)" value={shareUrl} onChange={(e) => setShareUrl(e.target.value)} className={input} />
+            <input placeholder="Trash talk (optional)" value={note} onChange={(e) => setNote(e.target.value)} className={input} />
+          </div>
+          {error && <p className="text-sm text-blood">{error}</p>}
+          <div className="flex gap-2">
+            <button disabled={busy || !parsed.description} className="font-head flex-1 rounded-sm bg-gold px-4 py-2 text-sm font-bold uppercase tracking-widest text-felt-deep disabled:opacity-40">Lock it in</button>
+            <button type="button" onClick={() => { setShowForm(false); setQuickText(""); setShareUrl(""); setNote(""); }} className="font-head rounded-sm border border-line px-4 py-2 text-sm uppercase tracking-wider text-cream-dim hover:text-cream">Cancel</button>
           </div>
         </form>
       )}
