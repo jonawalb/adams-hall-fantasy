@@ -1,4 +1,5 @@
-import JorgesBook from "@/components/JorgesBook";
+import BetBook from "@/components/BetBook";
+import { JORGE } from "@/lib/bettors";
 
 export default function JorgesBookPage() {
   return (
@@ -10,7 +11,7 @@ export default function JorgesBookPage() {
           Every FanDuel bet, logged for the record. No hiding. No deleting. Just receipts.
         </p>
       </header>
-      <JorgesBook />
+      <BetBook bettor={JORGE} tag="jorge" />
     </div>
   );
 }
