@@ -38,7 +38,6 @@ const GROUPS: Group[] = [
           { href: "/season/bad-decisions", label: "Bad Decisions" },
           { href: "/season/recap", label: "Weekly Recap" },
           { href: "/season/archive", label: "Recaps & Tapes" },
-          { href: "/season/archive/cameos", label: "Cameos" },
         ],
       },
     ],
@@ -65,7 +64,13 @@ const GROUPS: Group[] = [
           { href: "/rivalries/playoffs", label: "Playoffs" },
         ],
       },
-      { title: "History", items: [{ href: "/history", label: "Season by season" }] },
+      {
+        title: "History",
+        items: [
+          { href: "/history", label: "Season by season" },
+          { href: "/season/archive/cameos", label: "Cameos" },
+        ],
+      },
     ],
   },
   {
