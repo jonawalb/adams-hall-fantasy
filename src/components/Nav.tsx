@@ -29,15 +29,26 @@ const GROUPS: Group[] = [
     label: "2026 Season",
     sections: [
       {
+        title: "Pick'Em",
         items: [
           { href: "/pickem", label: "NFL Pick'Em" },
           { href: "/season/matchup-pickem", label: "Matchup Pick'Em" },
+        ],
+      },
+      {
+        title: "Current Season",
+        items: [
           { href: "/standings", label: "Standings" },
           { href: "/matchups", label: "Matchups" },
           { href: "/clubhouse", label: "Dashboard" },
-          { href: "/season/bad-decisions", label: "Bad Decisions" },
+        ],
+      },
+      {
+        title: "Recaps & Tapes",
+        items: [
           { href: "/season/recap", label: "Weekly Recap" },
           { href: "/season/archive", label: "Recaps & Tapes" },
+          { href: "/season/bad-decisions", label: "Bad Decisions" },
         ],
       },
     ],
