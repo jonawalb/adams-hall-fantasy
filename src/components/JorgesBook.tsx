@@ -49,14 +49,137 @@ function isFanDuelLink(url: string): boolean {
   return /fanduel\.com/i.test(url);
 }
 
+function parseDollars(s: string | null): number | null {
+  if (!s) return null;
+  const n = parseFloat(s.replace(/[^0-9.\-]/g, ""));
+  return isNaN(n) ? null : n;
+}
+
+function parseOdds(s: string | null): number | null {
+  if (!s) return null;
+  const n = parseFloat(s.replace(/[^0-9.\-+]/g, ""));
+  return isNaN(n) ? null : n;
+}
+
+function calcPayout(stake: number, odds: number): number {
+  if (odds > 0) return stake * (odds / 100);
+  if (odds < 0) return stake * (100 / Math.abs(odds));
+  return 0;
+}
+
+function fmtMoney(n: number): string {
+  const sign = n >= 0 ? "+" : "";
+  return `${sign}$${Math.abs(n).toFixed(2)}`;
+}
+
+function isParlay(desc: string): boolean {
+  return /parlay|leg|sgp|same.?game/i.test(desc);
+}
+
+function isLongshot(odds: string | null): boolean {
+  const o = parseOdds(odds);
+  return o !== null && o >= 300;
+}
+
+// --- Roast engine ---
+
+const LOSS_ROASTS = [
+  "Imagine thinking this was a good idea.",
+  "FanDuel thanks you for your donation.",
+  "That money is gone and it's not coming back.",
+  "This is why you can't have nice things.",
+  "The house always wins. Especially against Jorge.",
+  "Bold strategy. Didn't work.",
+  "Another day, another L for the books.",
+  "Your bookie just bought a boat.",
+  "Somewhere a Vegas exec is smiling.",
+  "Pain.",
+];
+
+const STREAK_ROASTS = [
+  "Jorge is on a heater... in the wrong direction.",
+  "At this rate, Jorge will owe FanDuel his firstborn.",
+  "Someone take his phone away.",
+  "The cold streak continues. Nature is healing.",
+  "Maybe try flipping a coin next time?",
+];
+
+const PARLAY_ROASTS = [
+  "A parlay? Jorge woke up and chose violence.",
+  "Parlays: for when losing one bet at a time isn't fast enough.",
+  "Jorge really thought all these legs were hitting lmao.",
+  "SGP = Surely Gonna Perish.",
+];
+
+const LONGSHOT_ROASTS = [
+  "Jorge saw those odds and said 'I like those chances' LMAOOO.",
+  "This man bet on a +{odds} like it was a sure thing.",
+  "The confidence to take this line... delusional.",
+  "Brother those odds exist for a reason.",
+];
+
+const WIN_ROASTS = [
+  "Even a broken clock is right twice a day.",
+  "Don't let this fool you into thinking he knows what he's doing.",
+  "Congrats, you're slightly less broke now.",
+  "A win! Screenshot it, it won't happen often.",
+];
+
+const BIG_WIN_REACTIONS = [
+  "OK fine, respect on this one.",
+  "Even we have to admit... that was nasty.",
+  "Jorge actually cooked here.",
+];
+
+function pickRoast(arr: string[], seed: number): string {
+  return arr[Math.abs(seed) % arr.length];
+}
+
+function getRoast(bet: Bet, lossStreak: number): string | null {
+  const seed = bet.id;
+  if (bet.result === "lost") {
+    if (isParlay(bet.description)) return pickRoast(PARLAY_ROASTS, seed);
+    if (isLongshot(bet.odds)) {
+      const o = parseOdds(bet.odds);
+      return pickRoast(LONGSHOT_ROASTS, seed).replace("{odds}", String(o ?? ""));
+    }
+    if (lossStreak >= 3) return pickRoast(STREAK_ROASTS, seed);
+    return pickRoast(LOSS_ROASTS, seed);
+  }
+  if (bet.result === "won") {
+    const stake = parseDollars(bet.stake);
+    const odds = parseOdds(bet.odds);
+    if (stake && odds && calcPayout(stake, odds) >= 100) return pickRoast(BIG_WIN_REACTIONS, seed);
+    return pickRoast(WIN_ROASTS, seed);
+  }
+  if (bet.result === "pending" && isParlay(bet.description)) {
+    return "Another parlay. Jorge never learns.";
+  }
+  if (bet.result === "pending" && isLongshot(bet.odds)) {
+    return "This is not hitting and we all know it.";
+  }
+  return null;
+}
+
+function computeLossStreakAt(bets: Bet[], idx: number): number {
+  let count = 0;
+  for (let i = idx; i < bets.length; i++) {
+    if (bets[i].result === "lost") count++;
+    else break;
+  }
+  return count;
+}
+
+// --- Stats ---
+
 function Stats({ bets }: { bets: Bet[] }) {
   const resolved = bets.filter((b) => b.result && b.result !== "pending");
-  const wins = resolved.filter((b) => b.result === "won").length;
-  const losses = resolved.filter((b) => b.result === "lost").length;
+  const wins = resolved.filter((b) => b.result === "won");
+  const losses = resolved.filter((b) => b.result === "lost");
   const pushes = resolved.filter((b) => b.result === "push").length;
-  const pending = bets.filter((b) => !b.result || b.result === "pending").length;
+  const pending = bets.filter((b) => !b.result || b.result === "pending");
   const total = resolved.length;
-  const pct = total > 0 ? ((wins / total) * 100).toFixed(0) : "—";
+  const pct = total > 0 ? ((wins.length / total) * 100).toFixed(0) : "—";
 
   let streak = 0;
   let streakType: "won" | "lost" | null = null;
@@ -72,36 +195,141 @@ function Stats({ bets }: { bets: Bet[] }) {
   }
   const streakLabel = streakType === "won" ? `${streak}W` : streakType === "lost" ? `${streak}L` : "—";
 
+  let totalWagered = 0;
+  let totalProfit = 0;
+  let biggestWin = 0;
+  let biggestWinDesc = "";
+  let worstLoss = 0;
+  let worstLossDesc = "";
+  let pendingRisk = 0;
+
+  for (const b of bets) {
+    const stake = parseDollars(b.stake);
+    const odds = parseOdds(b.odds);
+    if (!stake) continue;
+
+    if (b.result && b.result !== "pending") {
+      totalWagered += stake;
+      if (b.result === "won" && odds) {
+        const payout = calcPayout(stake, odds);
+        totalProfit += payout;
+        if (payout > biggestWin) {
+          biggestWin = payout;
+          biggestWinDesc = b.description;
+        }
+      } else if (b.result === "lost") {
+        totalProfit -= stake;
+        if (stake > worstLoss) {
+          worstLoss = stake;
+          worstLossDesc = b.description;
+        }
+      }
+    } else {
+      pendingRisk += stake;
+    }
+  }
+
+  const roi = totalWagered > 0 ? ((totalProfit / totalWagered) * 100).toFixed(1) : "—";
+  const profitColor = totalProfit >= 0 ? "text-emerald-400" : "text-blood";
+
+  const topStats = [
+    { label: "Record", value: `${wins.length}-${losses.length}${pushes ? `-${pushes}` : ""}` },
+    { label: "Win %", value: total > 0 ? `${pct}%` : "—" },
+    { label: "Streak", value: streakLabel },
+    { label: "Pending", value: String(pending.length) },
+    { label: "Total Bets", value: String(bets.length) },
+  ];
+
   return (
-    <div className="grid grid-cols-2 gap-3 sm:grid-cols-5">
-      {[
-        { label: "Record", value: `${wins}-${losses}${pushes ? `-${pushes}` : ""}` },
-        { label: "Win %", value: `${pct}%` },
-        { label: "Streak", value: streakLabel },
-        { label: "Pending", value: String(pending) },
-        { label: "Total", value: String(bets.length) },
-      ].map((s) => (
-        <div key={s.label} className="panel p-3 text-center">
-          <p className="kicker">{s.label}</p>
-          <p className="font-display mt-1 text-xl text-gold-bright">{s.value}</p>
+    <div className="space-y-3">
+      <div className="grid grid-cols-2 gap-3 sm:grid-cols-5">
+        {topStats.map((s) => (
+          <div key={s.label} className="panel p-3 text-center">
+            <p className="kicker">{s.label}</p>
+            <p className="font-display mt-1 text-xl text-gold-bright">{s.value}</p>
+          </div>
+        ))}
+      </div>
+
+      {totalWagered > 0 && (
+        <div className="panel p-4">
+          <p className="kicker mb-3">The Damage Report</p>
+          <div className="grid grid-cols-2 gap-x-6 gap-y-2 text-sm sm:grid-cols-4">
+            <div>
+              <p className="text-xs text-cream-dim">Total Wagered</p>
+              <p className="font-head font-semibold">${totalWagered.toFixed(2)}</p>
+            </div>
+            <div>
+              <p className="text-xs text-cream-dim">Net P&L</p>
+              <p className={`font-head font-semibold ${profitColor}`}>{fmtMoney(totalProfit)}</p>
+            </div>
+            <div>
+              <p className="text-xs text-cream-dim">ROI</p>
+              <p className={`font-head font-semibold ${profitColor}`}>{roi === "—" ? roi : `${roi}%`}</p>
+            </div>
+            <div>
+              <p className="text-xs text-cream-dim">At Risk</p>
+              <p className="font-head font-semibold text-gold">${pendingRisk.toFixed(2)}</p>
+            </div>
+          </div>
+          {(biggestWinDesc || worstLossDesc) && (
+            <div className="mt-3 grid gap-2 border-t border-line pt-3 sm:grid-cols-2">
+              {biggestWinDesc && (
+                <div>
+                  <p className="text-xs text-cream-dim">Biggest Win</p>
+                  <p className="text-sm">
+                    <span className="font-head font-semibold text-emerald-400">+${biggestWin.toFixed(2)}</span>
+                    <span className="ml-1.5 text-cream-dim">— {biggestWinDesc}</span>
+                  </p>
+                </div>
+              )}
+              {worstLossDesc && (
+                <div>
+                  <p className="text-xs text-cream-dim">Worst Loss</p>
+                  <p className="text-sm">
+                    <span className="font-head font-semibold text-blood">-${worstLoss.toFixed(2)}</span>
+                    <span className="ml-1.5 text-cream-dim">— {worstLossDesc}</span>
+                  </p>
+                </div>
+              )}
+            </div>
+          )}
+          {streakType === "lost" && streak >= 3 && (
+            <p className="mt-3 rounded-sm border border-blood/30 bg-blood/10 px-3 py-2 text-center text-xs text-blood">
+              Jorge is on a {streak}-bet losing streak. Somebody check on this man.
+            </p>
+          )}
+          {streakType === "won" && streak >= 3 && (
+            <p className="mt-3 rounded-sm border border-emerald-500/30 bg-emerald-500/10 px-3 py-2 text-center text-xs text-emerald-400">
+              {streak}-bet win streak. Don&rsquo;t worry, he&rsquo;ll give it all back.
+            </p>
+          )}
         </div>
-      ))}
+      )}
     </div>
   );
 }
 
+// --- Bet Card ---
+
 function BetCard({
   bet,
   canEdit,
+  roast,
   onUpdate,
   onRemove,
 }: {
   bet: Bet;
   canEdit: boolean;
+  roast: string | null;
   onUpdate: (id: number, result: Result) => void;
   onRemove: (id: number) => void;
 }) {
   const result = bet.result ?? "pending";
+  const stake = parseDollars(bet.stake);
+  const odds = parseOdds(bet.odds);
+  const payout = stake && odds ? calcPayout(stake, odds) : null;
+
   return (
     <div className="panel flex gap-3 p-4">
       <div
@@ -119,6 +347,15 @@ function BetCard({
         <div className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-cream-dim">
           {bet.odds && <span>Odds: <span className="text-cream">{bet.odds}</span></span>}
           {bet.stake && <span>Stake: <span className="text-cream">{bet.stake}</span></span>}
+          {payout !== null && result === "pending" && (
+            <span>To win: <span className="text-gold">${payout.toFixed(2)}</span></span>
+          )}
+          {payout !== null && result === "won" && (
+            <span>Won: <span className="text-emerald-400">+${payout.toFixed(2)}</span></span>
+          )}
+          {stake !== null && result === "lost" && (
+            <span>Lost: <span className="text-blood">-${stake.toFixed(2)}</span></span>
+          )}
           {bet.share_url && (
             <a
               href={bet.share_url}
@@ -131,6 +368,11 @@ function BetCard({
           )}
         </div>
         {bet.note && <p className="mt-1.5 text-xs italic text-cream-dim">&ldquo;{bet.note}&rdquo;</p>}
+        {roast && (
+          <p className={`mt-1.5 text-xs font-semibold ${result === "lost" ? "text-blood/80" : result === "won" ? "text-emerald-400/80" : "text-cream-dim/80"}`}>
+            {roast}
+          </p>
+        )}
         {canEdit && (
           <div className="mt-2 flex flex-wrap gap-1.5">
             {(["won", "lost", "push", "cashout", "pending"] as Result[]).map((r) => (
@@ -160,6 +402,8 @@ function BetCard({
     </div>
   );
 }
+
+// --- Main ---
 
 export default function JorgesBook() {
   const supabase = getSupabase();
@@ -320,8 +564,15 @@ export default function JorgesBook() {
       {pending.length > 0 && (
         <div className="space-y-2">
           <p className="kicker">Live bets · {pending.length}</p>
-          {pending.map((b) => (
-            <BetCard key={b.id} bet={b} canEdit={canPost} onUpdate={updateResult} onRemove={removeBet} />
+          {pending.map((b, i) => (
+            <BetCard
+              key={b.id}
+              bet={b}
+              canEdit={canPost}
+              roast={getRoast(b, 0)}
+              onUpdate={updateResult}
+              onRemove={removeBet}
+            />
           ))}
         </div>
       )}
@@ -329,8 +580,15 @@ export default function JorgesBook() {
       {resolved.length > 0 && (
         <div className="space-y-2">
           <p className="kicker">Settled · {resolved.length}</p>
-          {resolved.map((b) => (
-            <BetCard key={b.id} bet={b} canEdit={canPost} onUpdate={updateResult} onRemove={removeBet} />
+          {resolved.map((b, i) => (
+            <BetCard
+              key={b.id}
+              bet={b}
+              canEdit={canPost}
+              roast={getRoast(b, computeLossStreakAt(resolved, i))}
+              onUpdate={updateResult}
+              onRemove={removeBet}
+            />
           ))}
         </div>
       )}
