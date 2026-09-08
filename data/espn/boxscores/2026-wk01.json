@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 1,
- "archivedAt": "2026-09-07T14:07:25.029Z",
+ "archivedAt": "2026-09-08T08:35:58.442Z",
  "matchups": [
   {
    "id": 1,
@@ -851,13 +851,6 @@
       "points": 0
      },
      {
-      "playerId": 3052587,
-      "name": "Baker Mayfield",
-      "pos": "QB",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 3116165,
       "name": "Chris Godwin Jr.",
       "pos": "WR",
@@ -868,6 +861,13 @@
       "playerId": 3929645,
       "name": "Juwan Johnson",
       "pos": "TE",
+      "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 4682648,
+      "name": "Malachi Fields",
+      "pos": "WR",
       "slot": "BE",
       "points": 0
      }
@@ -1040,7 +1040,7 @@
       "playerId": 4426348,
       "name": "Jayden Daniels",
       "pos": "QB",
-      "slot": "QB",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -1075,7 +1075,7 @@
       "playerId": 4360310,
       "name": "Trevor Lawrence",
       "pos": "QB",
-      "slot": "BE",
+      "slot": "QB",
       "points": 0
      },
      {
