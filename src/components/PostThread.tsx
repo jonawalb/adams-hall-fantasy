@@ -8,14 +8,16 @@ const QUICK_EMOJIS = ["🔥", "💀", "🤡", "💯", "🤮", "😂"];
 
 interface Reaction {
   id: number;
-  post_id: number;
+  target_type: string;
+  target_id: number;
   member_id: string;
   emoji: string;
 }
 
 interface Comment {
   id: number;
-  post_id: number;
+  target_type: string;
+  target_id: number;
   parent_id: number | null;
   author: string;
   body: string;
@@ -73,7 +75,14 @@ function CommentItem({
   );
 }
 
-export default function PostThread({ postId }: { postId: number }) {
+interface ThreadProps {
+  targetType: string;
+  targetId: number;
+  ownerId?: string | null;
+  ownerTitle?: string;
+}
+
+export default function PostThread({ targetType, targetId, ownerId, ownerTitle }: ThreadProps) {
   const supabase = getSupabase();
   const user = useUser();
   const myId = supabase ? user?.id ?? null : null;
@@ -87,24 +96,25 @@ export default function PostThread({ postId }: { postId: number }) {
 
   useEffect(() => {
     if (!supabase) return;
-    supabase.from("post_reactions").select("*").eq("post_id", postId)
+    supabase.from("reactions").select("*")
+      .eq("target_type", targetType).eq("target_id", targetId)
       .then(({ data }) => setReactions((data as Reaction[]) ?? []));
-    supabase.from("post_comments")
-      .select("id, post_id, parent_id, author, body, created_at, commenter:members(display_name)")
-      .eq("post_id", postId)
+    supabase.from("comments")
+      .select("id, target_type, target_id, parent_id, author, body, created_at, commenter:members(display_name)")
+      .eq("target_type", targetType).eq("target_id", targetId)
       .order("created_at", { ascending: true })
       .then(({ data }) => setComments((data as unknown as Comment[]) ?? []));
-  }, [supabase, postId]);
+  }, [supabase, targetType, targetId]);
 
   async function toggleReaction(emoji: string) {
     if (!supabase || !myId) return;
     const existing = reactions.find((r) => r.member_id === myId && r.emoji === emoji);
     if (existing) {
       setReactions((rs) => rs.filter((r) => r.id !== existing.id));
-      await supabase.from("post_reactions").delete().eq("id", existing.id);
+      await supabase.from("reactions").delete().eq("id", existing.id);
     } else {
-      const { data, error } = await supabase.from("post_reactions")
-        .insert({ post_id: postId, member_id: myId, emoji })
+      const { data, error } = await supabase.from("reactions")
+        .insert({ target_type: targetType, target_id: targetId, member_id: myId, emoji })
         .select()
         .single();
       if (data && !error) setReactions((rs) => [...rs, data as Reaction]);
@@ -115,11 +125,38 @@ export default function PostThread({ postId }: { postId: number }) {
     e.preventDefault();
     if (!supabase || !myId || !commentText.trim()) return;
     setBusy(true);
-    const { data, error } = await supabase.from("post_comments")
-      .insert({ post_id: postId, parent_id: replyTo, author: myId, body: commentText.trim() })
-      .select("id, post_id, parent_id, author, body, created_at, commenter:members(display_name)")
+    const { data, error } = await supabase.from("comments")
+      .insert({ target_type: targetType, target_id: targetId, parent_id: replyTo, author: myId, body: commentText.trim() })
+      .select("id, target_type, target_id, parent_id, author, body, created_at, commenter:members(display_name)")
       .single();
-    if (data && !error) setComments((cs) => [...cs, data as unknown as Comment]);
+    if (data && !error) {
+      setComments((cs) => [...cs, data as unknown as Comment]);
+      if (ownerId && ownerId !== myId) {
+        await supabase.from("notifications").insert({
+          recipient: ownerId,
+          actor: myId,
+          kind: replyTo ? "reply" : "comment",
+          target_type: targetType,
+          target_id: targetId,
+          target_title: ownerTitle ?? null,
+          body: commentText.trim().slice(0, 200),
+        });
+      }
+      if (replyTo) {
+        const parent = comments.find((c) => c.id === replyTo);
+        if (parent && parent.author !== myId && parent.author !== ownerId) {
+          await supabase.from("notifications").insert({
+            recipient: parent.author,
+            actor: myId,
+            kind: "reply",
+            target_type: targetType,
+            target_id: targetId,
+            target_title: ownerTitle ?? null,
+            body: commentText.trim().slice(0, 200),
+          });
+        }
+      }
+    }
     setCommentText("");
     setReplyTo(null);
     setBusy(false);
@@ -128,7 +165,7 @@ export default function PostThread({ postId }: { postId: number }) {
   async function deleteComment(id: number) {
     if (!supabase) return;
     setComments((cs) => cs.filter((c) => c.id !== id && c.parent_id !== id));
-    await supabase.from("post_comments").delete().eq("id", id);
+    await supabase.from("comments").delete().eq("id", id);
   }
 
   const grouped: Record<string, { count: number; mine: boolean }> = {};
@@ -140,12 +177,10 @@ export default function PostThread({ postId }: { postId: number }) {
 
   const topLevel = comments.filter((c) => !c.parent_id);
   const repliesFor = (parentId: number) => comments.filter((c) => c.parent_id === parentId);
-
   const replyingTo = replyTo ? comments.find((c) => c.id === replyTo) : null;
 
   return (
     <div className="mt-3 space-y-3 border-t border-line pt-3">
-      {/* Reactions */}
       <div className="flex flex-wrap items-center gap-1.5">
         {QUICK_EMOJIS.map((emoji) => {
           const g = grouped[emoji];
@@ -167,7 +202,6 @@ export default function PostThread({ postId }: { postId: number }) {
         })}
       </div>
 
-      {/* Comment toggle */}
       <button
         type="button"
         onClick={() => setShowComments((s) => !s)}
@@ -178,7 +212,6 @@ export default function PostThread({ postId }: { postId: number }) {
           : showComments ? "Hide ▴" : "Comment ▾"}
       </button>
 
-      {/* Comments */}
       {showComments && (
         <div className="space-y-3">
           {topLevel.map((c) => (
@@ -192,7 +225,6 @@ export default function PostThread({ postId }: { postId: number }) {
             />
           ))}
 
-          {/* Comment form */}
           {myId && (
             <form onSubmit={submitComment} className="flex gap-2">
               <div className="min-w-0 flex-1">

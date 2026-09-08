@@ -221,7 +221,7 @@ export default function SouthStar({ board = "south-star" }: BoardProps) {
                   </button>
                 )}
               </div>
-              {supabase && <PostThread postId={p.id} />}
+              {supabase && <PostThread targetType="post" targetId={p.id} ownerId={p.author} ownerTitle={p.title} />}
             </article>
           );
         })}

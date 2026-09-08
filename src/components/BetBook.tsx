@@ -3,6 +3,7 @@
 import { FormEvent, useEffect, useState } from "react";
 import { getSupabase } from "@/lib/supabase";
 import { useUser } from "@/lib/useUser";
+import PostThread from "@/components/PostThread";
 
 const PREVIEW_ID = "preview";
 
@@ -286,6 +287,7 @@ function BetCard({ bet, canEdit, roast, onUpdate, onRemove }: {
             <button type="button" onClick={() => onRemove(bet.id)} className="ml-auto text-xs text-cream-dim hover:text-blood">delete</button>
           </div>
         )}
+        <PostThread targetType="bet" targetId={bet.id} ownerId={bet.posted_by} ownerTitle={bet.description} />
       </div>
     </div>
   );

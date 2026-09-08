@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 import { getSupabase } from "@/lib/supabase";
+import NotificationBell from "@/components/NotificationBell";
 
 // next/image with `unoptimized` uses src verbatim — prepend basePath ourselves.
 const CREST = `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/crest.png`;
@@ -185,7 +186,8 @@ export default function Nav() {
               )}
               {signedIn && (
                 <>
-                  <Link href="/account" className={`ml-2 ${tab(isActive(pathname, "/account"))}`}>
+                  <NotificationBell />
+                  <Link href="/account" className={`ml-1 ${tab(isActive(pathname, "/account"))}`}>
                     Account
                   </Link>
                   <button
