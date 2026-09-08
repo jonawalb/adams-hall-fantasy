@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 2,
  "poll": "AP Top 25",
- "fetchedAt": "2026-09-08T08:35:57.495Z",
+ "fetchedAt": "2026-09-08T10:25:20.955Z",
  "rankings": [
   {
    "rank": 1,
@@ -1425,7 +1425,7 @@
    "detail": "9/12 - 3:30 PM EDT",
    "venue": "JMA Wireless Dome",
    "broadcast": "ACC Network",
-   "spread": "SYR -3.5",
+   "spread": "SYR -3",
    "overUnder": 56.5,
    "headline": null,
    "home": {
@@ -1610,7 +1610,7 @@
    "detail": "9/12 - 3:30 PM EDT",
    "venue": "Protective Stadium",
    "broadcast": "ESPN+",
-   "spread": "UAB -10.5",
+   "spread": "UAB -10",
    "overUnder": 55.5,
    "headline": null,
    "home": {
@@ -2128,7 +2128,7 @@
    "detail": "9/12 - 6:00 PM EDT",
    "venue": "Peden Stadium",
    "broadcast": "ESPN+",
-   "spread": "OHIO -2.5",
+   "spread": "OHIO -3",
    "overUnder": 51.5,
    "headline": null,
    "home": {
@@ -3312,7 +3312,7 @@
    "detail": "9/12 - 10:15 PM EDT",
    "venue": "Rice-Eccles Stadium",
    "broadcast": "ESPN",
-   "spread": "UTAH -12.5",
+   "spread": "UTAH -11.5",
    "overUnder": 56.5,
    "headline": null,
    "home": {
