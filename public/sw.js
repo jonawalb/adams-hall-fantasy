@@ -19,9 +19,11 @@ self.addEventListener("activate", (e) => {
 });
 
 self.addEventListener("fetch", (e) => {
-  // Network-first: try the network, fall back to cache for the app shell.
+  // Only cache-fallback same-origin GET requests (the app shell).
+  // Let API calls, POST requests, and cross-origin fetches pass through untouched.
+  if (e.request.method !== "GET" || !e.request.url.startsWith(self.location.origin)) return;
   e.respondWith(
-    fetch(e.request).catch(() => caches.match(e.request))
+    fetch(e.request).catch(() => caches.match(e.request).then((r) => r || fetch(e.request)))
   );
 });
 
