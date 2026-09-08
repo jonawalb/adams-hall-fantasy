@@ -266,19 +266,16 @@ create trigger recaps_touch before update on recaps
   for each row execute function touch_updated_at();
 
 -- ---------------------------------------------------------------------------
--- Added 2026-09-08: Push notifications (APNs for iOS app, Web Push fallback).
+-- Added 2026-09-08: Push notification subscriptions for the PWA.
 -- ---------------------------------------------------------------------------
 
 create table if not exists push_subscriptions (
   id bigint generated always as identity primary key,
   member_id uuid not null references members (id) on delete cascade,
-  platform text not null default 'apns' check (platform in ('apns', 'web')),
-  device_token text,
-  endpoint text,
-  keys_p256dh text,
-  keys_auth text,
+  endpoint text not null,
+  keys_p256dh text not null,
+  keys_auth text not null,
   created_at timestamptz not null default now(),
-  unique (member_id, device_token),
   unique (member_id, endpoint)
 );
 

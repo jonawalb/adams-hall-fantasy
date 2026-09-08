@@ -3,6 +3,7 @@ import Script from "next/script";
 import { Graduate, Barlow, Barlow_Condensed, IBM_Plex_Mono } from "next/font/google";
 import Nav from "@/components/Nav";
 import AuthGate from "@/components/AuthGate";
+import NotificationPrompt from "@/components/NotificationPrompt";
 import "./globals.css";
 
 const graduate = Graduate({ weight: "400", subsets: ["latin"], variable: "--font-graduate" });
@@ -23,6 +24,12 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: SITE_TITLE,
   description: SITE_DESC,
+  manifest: "/manifest.json",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
+    title: "AHFL",
+  },
   openGraph: {
     type: "website",
     siteName: SITE_TITLE,
@@ -49,6 +56,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <head>
         <Script id="auth-redirect" strategy="beforeInteractive">{AUTH_REDIRECT}</Script>
+        <link rel="apple-touch-icon" href="/icons/icon-180.png" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="theme-color" content="#0f1e17" />
       </head>
       <body
         className={`${graduate.variable} ${barlow.variable} ${barlowCondensed.variable} ${plexMono.variable} antialiased`}
@@ -56,7 +67,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <AuthGate>
           <Nav />
           <main className="mx-auto w-full max-w-6xl px-4 pb-24 pt-8 sm:px-6">{children}</main>
+          <NotificationPrompt />
         </AuthGate>
+        <Script id="sw-register" strategy="afterInteractive">{`
+          if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js');
+        `}</Script>
         <footer className="border-t border-line py-8 text-center">
           <p className="kicker">Adams Hall Fantasy League · Est. 2021 · Members Only</p>
           <p className="mt-2 text-xs text-cream-dim">

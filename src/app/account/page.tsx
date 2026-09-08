@@ -3,6 +3,8 @@
 import { FormEvent, useEffect, useState } from "react";
 import { getSupabase } from "@/lib/supabase";
 import { useUser } from "@/lib/useUser";
+import NotificationToggle from "@/components/NotificationToggle";
+import SendNotification from "@/components/SendNotification";
 
 const input =
   "w-full rounded-sm border border-line bg-felt-deep/60 px-3 py-2.5 text-cream placeholder:text-cream-dim/50 focus:border-gold focus:outline-none";
@@ -89,6 +91,10 @@ export default function AccountPage() {
           Save name
         </button>
       </form>
+
+      <NotificationToggle />
+
+      <SendNotification />
 
       <form onSubmit={savePassword} className="panel space-y-3 p-5">
         <label htmlFor="password" className="kicker block">New password</label>
