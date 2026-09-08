@@ -42,6 +42,7 @@ const GROUPS: Group[] = [
       },
     ],
   },
+  { label: "Jorge's Book", href: "/jorges-book" },
   { label: "Talk Your Shit", href: "/talk-your-shit" },
   { label: "Bonk Bracket", href: "/quotes" },
   { label: "Halls", href: "/halls" },
