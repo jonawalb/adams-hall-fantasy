@@ -37,7 +37,7 @@ Deno.serve(async (req) => {
     }
   }
 
-  const { title, body, url } = await req.json();
+  const { title, body, url, member_ids } = await req.json();
   if (!body) return new Response("Missing body", { status: 400 });
 
   // Configure web-push VAPID.
@@ -45,9 +45,13 @@ Deno.serve(async (req) => {
   const vapidSubject = Deno.env.get("VAPID_SUBJECT") ?? "mailto:admin@adamshallfantasyleague.com";
   webpush.setVapidDetails(vapidSubject, VAPID_PUBLIC_KEY, vapidPrivate);
 
-  // Read all subscriptions with service_role (bypasses RLS).
+  // Read subscriptions — filtered by member_ids when provided (targeted notifications).
   const admin = createClient(supabaseUrl, serviceRoleKey);
-  const { data: subs } = await admin.from("push_subscriptions").select("*");
+  let query = admin.from("push_subscriptions").select("*");
+  if (member_ids && Array.isArray(member_ids) && member_ids.length > 0) {
+    query = query.in("member_id", member_ids);
+  }
+  const { data: subs } = await query;
 
   if (!subs || subs.length === 0) {
     return Response.json({ sent: 0, failed: 0 });
