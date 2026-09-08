@@ -27,6 +27,15 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
       "color": "002a5c",
       "score": 0
+     },
+     "odds": {
+      "provider": "Draft Kings",
+      "details": "SEA -3",
+      "overUnder": 44.5,
+      "moneyline": {
+       "home": "-170",
+       "away": "+142"
+      }
      }
     },
     {
@@ -50,6 +59,15 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
       "color": "aa0000",
       "score": 0
+     },
+     "odds": {
+      "provider": null,
+      "details": "LAR -3.5",
+      "overUnder": 48.5,
+      "moneyline": {
+       "home": "-198",
+       "away": "+164"
+      }
      }
     },
     {
@@ -73,6 +91,15 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
       "color": "bd1c36",
       "score": 0
+     },
+     "odds": {
+      "provider": null,
+      "details": "CIN -3.5",
+      "overUnder": 50.5,
+      "moneyline": {
+       "home": "-198",
+       "away": "+164"
+      }
      }
     },
     {
@@ -96,6 +123,15 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
       "color": "d3bc8d",
       "score": 0
+     },
+     "odds": {
+      "provider": null,
+      "details": "DET -7",
+      "overUnder": 49.5,
+      "moneyline": {
+       "home": "-305",
+       "away": "+245"
+      }
      }
     },
     {
@@ -119,6 +155,15 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
       "color": "115740",
       "score": 0
+     },
+     "odds": {
+      "provider": null,
+      "details": "TEN -1.5",
+      "overUnder": 39.5,
+      "moneyline": {
+       "home": "-125",
+       "away": "+105"
+      }
      }
     },
     {
@@ -142,6 +187,15 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
       "color": "29126f",
       "score": 0
+     },
+     "odds": {
+      "provider": null,
+      "details": "BAL -3.5",
+      "overUnder": 47.5,
+      "moneyline": {
+       "home": "+145",
+       "away": "-175"
+      }
      }
     },
     {
@@ -165,6 +219,15 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
       "color": "a71930",
       "score": 0
+     },
+     "odds": {
+      "provider": null,
+      "details": "PIT -3.5",
+      "overUnder": 42.5,
+      "moneyline": {
+       "home": "-185",
+       "away": "+154"
+      }
      }
     },
     {
@@ -188,6 +251,15 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
       "color": "0b1c3a",
       "score": 0
+     },
+     "odds": {
+      "provider": null,
+      "details": "CHI -3",
+      "overUnder": 47.5,
+      "moneyline": {
+       "home": "+130",
+       "away": "-155"
+      }
      }
     },
     {
@@ -211,6 +283,15 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
       "color": "472a08",
       "score": 0
+     },
+     "odds": {
+      "provider": null,
+      "details": "JAX -8.5",
+      "overUnder": 40.5,
+      "moneyline": {
+       "home": "-455",
+       "away": "+350"
+      }
      }
     },
     {
@@ -234,6 +315,15 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
       "color": "00338d",
       "score": 0
+     },
+     "odds": {
+      "provider": null,
+      "details": "BUF -1.5",
+      "overUnder": 44.5,
+      "moneyline": {
+       "home": "-105",
+       "away": "-115"
+      }
      }
     },
     {
@@ -257,6 +347,15 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
       "color": "008e97",
       "score": 0
+     },
+     "odds": {
+      "provider": null,
+      "details": "LV -3.5",
+      "overUnder": 41.5,
+      "moneyline": {
+       "home": "-185",
+       "away": "+154"
+      }
      }
     },
     {
@@ -280,6 +379,15 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
       "color": "204e32",
       "score": 0
+     },
+     "odds": {
+      "provider": null,
+      "details": "MIN -1.5",
+      "overUnder": 46.5,
+      "moneyline": {
+       "home": "-122",
+       "away": "+102"
+      }
      }
     },
     {
@@ -303,6 +411,15 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
       "color": "5a1414",
       "score": 0
+     },
+     "odds": {
+      "provider": null,
+      "details": "PHI -5.5",
+      "overUnder": 44.5,
+      "moneyline": {
+       "home": "-218",
+       "away": "+180"
+      }
      }
     },
     {
@@ -326,6 +443,15 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
       "color": "a40227",
       "score": 0
+     },
+     "odds": {
+      "provider": null,
+      "details": "LAC -9.5",
+      "overUnder": 47.5,
+      "moneyline": {
+       "home": "-485",
+       "away": "+370"
+      }
      }
     },
     {
@@ -349,6 +475,15 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
       "color": "002a5c",
       "score": 0
+     },
+     "odds": {
+      "provider": null,
+      "details": "DAL -3",
+      "overUnder": 48.5,
+      "moneyline": {
+       "home": "+136",
+       "away": "-162"
+      }
      }
     },
     {
@@ -372,10 +507,19 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
       "color": "0a2343",
       "score": 0
+     },
+     "odds": {
+      "provider": null,
+      "details": "KC -3",
+      "overUnder": 43.5,
+      "moneyline": {
+       "home": "-148",
+       "away": "+124"
+      }
      }
     }
    ]
   }
  },
- "fetchedAt": "2026-09-08T15:58:09.377Z"
+ "fetchedAt": "2026-09-08T17:43:46.209Z"
 }

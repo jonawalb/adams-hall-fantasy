@@ -6,6 +6,7 @@ import { useUser } from "@/lib/useUser";
 import type { PickemMatchup, PickemWeek } from "@/lib/matchups";
 import type { Member } from "@/lib/pickem";
 import GambleYouWuss, { Owner } from "@/components/StillToPick";
+import { ahflLine, isBitchBoy } from "@/lib/ahfl-odds";
 
 const PREVIEW_ID = "preview";
 const PREVIEW_MEMBERS: Member[] = [{ id: PREVIEW_ID, display_name: "You (preview)" }];
@@ -213,6 +214,24 @@ export default function MatchupPickem({ season, weeks, currentWeek, owners }: Pr
                   );
                 })}
               </div>
+              {(() => {
+                const bb = [m.home, m.away].find((s) => isBitchBoy(s.ownerId, s.owner));
+                const opp = bb === m.home ? m.away : m.home;
+                if (!bb) return null;
+                const line = ahflLine(m.week);
+                return (
+                  <div className="mt-3 flex flex-wrap items-baseline gap-x-3 gap-y-1 rounded-sm border border-gold/40 bg-gold/5 px-3 py-2 text-xs">
+                    <span className="kicker">{line.book}</span>
+                    <span className="font-mono-num">
+                      {opp.owner} <span className="text-gold-bright">{line.favorite}</span>
+                    </span>
+                    <span className="font-mono-num">
+                      {bb.owner} <span className="text-blood">{line.underdog}</span>
+                    </span>
+                    <span className="w-full italic text-cream-dim">{line.note}</span>
+                  </div>
+                );
+              })()}
               {votes.length > 0 && votes.every((p) => p.pick_team_id === votes[0].pick_team_id) && votes.length >= 3 && (
                 <p className="mt-2 text-xs text-gold">
                   Unanimous: {votes.length} against {votes[0].pick_team_id === m.home.teamId ? m.away.owner : m.home.owner}.
