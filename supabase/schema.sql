@@ -360,10 +360,14 @@ $$;
 
 create policy "bets insert by bettor"
   on bets for insert with check (posted_by = auth.uid() and is_bettor());
-create policy "bets update by bettor"
-  on bets for update using (posted_by = auth.uid() and is_bettor());
-create policy "bets delete by bettor"
-  on bets for delete using (posted_by = auth.uid() and is_bettor());
+create policy "bets update by bettor or commissioner"
+  on bets for update using (
+    (posted_by = auth.uid() and is_bettor()) or is_commissioner()
+  );
+create policy "bets delete by bettor or commissioner"
+  on bets for delete using (
+    (posted_by = auth.uid() and is_bettor()) or is_commissioner()
+  );
 
 -- ---------------------------------------------------------------------------
 -- Added 2026-09-08: Push notification subscriptions for the PWA.

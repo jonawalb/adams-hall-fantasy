@@ -333,6 +333,7 @@ export default function BetBook({ bettor, tag }: { bettor: BettorConfig; tag: st
 
   const [bets, setBets] = useState<Bet[]>([]);
   const [canPost, setCanPost] = useState(!supabase);
+  const [canAdmin, setCanAdmin] = useState(!supabase);
   const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
   const [showForm, setShowForm] = useState(false);
@@ -357,9 +358,12 @@ export default function BetBook({ bettor, tag }: { bettor: BettorConfig; tag: st
   useEffect(() => {
     if (!supabase || !user) return;
     supabase.from("members").select("is_commissioner, espn_owner_id").eq("id", user.id).maybeSingle()
-      .then(({ data }) =>
-        setCanPost(Boolean(data?.is_commissioner || bettor.espnOwnerIds.includes(data?.espn_owner_id ?? ""))),
-      );
+      .then(({ data }) => {
+        const isBettor = bettor.espnOwnerIds.includes(data?.espn_owner_id ?? "");
+        const isComm = Boolean(data?.is_commissioner);
+        setCanPost(isBettor || isComm);
+        setCanAdmin(isComm);
+      });
   }, [supabase, user, bettor.espnOwnerIds]);
 
   async function submit(e: FormEvent) {
@@ -457,13 +461,13 @@ export default function BetBook({ bettor, tag }: { bettor: BettorConfig; tag: st
       {pending.length > 0 && (
         <div className="space-y-2">
           <p className="kicker">Live bets · {pending.length}</p>
-          {pending.map((b) => <BetCard key={b.id} bet={b} canEdit={canPost} roast={getRoast(b, 0, bettor)} onUpdate={updateResult} onRemove={removeBet} />)}
+          {pending.map((b) => <BetCard key={b.id} bet={b} canEdit={canPost || canAdmin} roast={getRoast(b, 0, bettor)} onUpdate={updateResult} onRemove={removeBet} />)}
         </div>
       )}
       {resolved.length > 0 && (
         <div className="space-y-2">
           <p className="kicker">Settled · {resolved.length}</p>
-          {resolved.map((b, i) => <BetCard key={b.id} bet={b} canEdit={canPost} roast={getRoast(b, computeLossStreakAt(resolved, i), bettor)} onUpdate={updateResult} onRemove={removeBet} />)}
+          {resolved.map((b, i) => <BetCard key={b.id} bet={b} canEdit={canPost || canAdmin} roast={getRoast(b, computeLossStreakAt(resolved, i), bettor)} onUpdate={updateResult} onRemove={removeBet} />)}
         </div>
       )}
       {bets.length === 0 && !error && (
