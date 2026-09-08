@@ -266,7 +266,7 @@ create trigger recaps_touch before update on recaps
   for each row execute function touch_updated_at();
 
 -- ---------------------------------------------------------------------------
--- Jorge's Book: FanDuel bet tracker.
+-- Betting: FanDuel bet tracker (Jorge, Ethan, etc.).
 -- ---------------------------------------------------------------------------
 create table if not exists bets (
   id bigint generated always as identity primary key,
@@ -277,6 +277,7 @@ create table if not exists bets (
   stake text,
   result text check (result is null or result in ('pending', 'won', 'lost', 'push', 'cashout')),
   note text,
+  bettor_tag text not null default 'jorge',
   created_at timestamptz not null default now()
 );
 alter table bets enable row level security;
@@ -284,21 +285,25 @@ alter table bets enable row level security;
 create policy "bets readable by members"
   on bets for select using (auth.uid() is not null);
 
-create or replace function is_jorge() returns boolean
+create or replace function is_bettor() returns boolean
 language sql stable security definer set search_path = public as $$
   select exists (
     select 1 from members
     where id = auth.uid()
-      and (is_commissioner or espn_owner_id = '{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}')
+      and (
+        is_commissioner
+        or espn_owner_id = '{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}'
+        or espn_owner_id = '{63997D52-0196-4BC4-B322-161E7342C352}'
+      )
   );
 $$;
 
-create policy "bets insert by jorge"
-  on bets for insert with check (posted_by = auth.uid() and is_jorge());
-create policy "bets update by jorge"
-  on bets for update using (posted_by = auth.uid() and is_jorge());
-create policy "bets delete by jorge"
-  on bets for delete using (posted_by = auth.uid() and is_jorge());
+create policy "bets insert by bettor"
+  on bets for insert with check (posted_by = auth.uid() and is_bettor());
+create policy "bets update by bettor"
+  on bets for update using (posted_by = auth.uid() and is_bettor());
+create policy "bets delete by bettor"
+  on bets for delete using (posted_by = auth.uid() and is_bettor());
 
 -- ---------------------------------------------------------------------------
 -- Added 2026-09-08: Push notification subscriptions for the PWA.

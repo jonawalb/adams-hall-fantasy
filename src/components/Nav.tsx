@@ -41,7 +41,17 @@ const GROUPS: Group[] = [
       },
     ],
   },
-  { label: "Jorge's Book", href: "/jorges-book" },
+  {
+    label: "Betting",
+    sections: [
+      {
+        items: [
+          { href: "/betting/jorges-book", label: "Jorge's Book" },
+          { href: "/betting/ethans-book", label: "Ethan's Book" },
+        ],
+      },
+    ],
+  },
   { label: "Talk Your Shit", href: "/talk-your-shit" },
   { label: "Bonk Bracket", href: "/quotes" },
   { label: "Halls", href: "/halls" },
