@@ -24,7 +24,6 @@ interface Group {
 }
 
 const GROUPS: Group[] = [
-  { label: "Brethren", href: "/" },
   {
     label: "2026 Season",
     sections: [
