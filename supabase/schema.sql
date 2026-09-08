@@ -266,39 +266,64 @@ create trigger recaps_touch before update on recaps
   for each row execute function touch_updated_at();
 
 -- ---------------------------------------------------------------------------
--- Post interactions: reactions and threaded comments.
+-- Generic reactions, comments, and notifications (posts, bets, etc.).
 -- ---------------------------------------------------------------------------
-create table if not exists post_reactions (
+create table if not exists reactions (
   id bigint generated always as identity primary key,
-  post_id bigint not null references posts (id) on delete cascade,
+  target_type text not null,
+  target_id bigint not null,
   member_id uuid not null references members (id) on delete cascade,
   emoji text not null,
   created_at timestamptz not null default now(),
-  unique (post_id, member_id, emoji)
+  unique (target_type, target_id, member_id, emoji)
 );
-alter table post_reactions enable row level security;
-create policy "post reactions readable by members"
-  on post_reactions for select using (auth.uid() is not null);
-create policy "own post reactions insert"
-  on post_reactions for insert with check (member_id = auth.uid());
-create policy "own post reactions delete"
-  on post_reactions for delete using (member_id = auth.uid());
+alter table reactions enable row level security;
+create policy "reactions readable by members"
+  on reactions for select using (auth.uid() is not null);
+create policy "own reactions insert"
+  on reactions for insert with check (member_id = auth.uid());
+create policy "own reactions delete"
+  on reactions for delete using (member_id = auth.uid());
+create index reactions_target_idx on reactions (target_type, target_id);
 
-create table if not exists post_comments (
+create table if not exists comments (
   id bigint generated always as identity primary key,
-  post_id bigint not null references posts (id) on delete cascade,
-  parent_id bigint references post_comments (id) on delete cascade,
+  target_type text not null,
+  target_id bigint not null,
+  parent_id bigint references comments (id) on delete cascade,
   author uuid not null references members (id) on delete cascade,
   body text not null,
   created_at timestamptz not null default now()
 );
-alter table post_comments enable row level security;
-create policy "post comments readable by members"
-  on post_comments for select using (auth.uid() is not null);
-create policy "post comments insert by members"
-  on post_comments for insert with check (author = auth.uid());
-create policy "own post comments delete"
-  on post_comments for delete using (author = auth.uid());
+alter table comments enable row level security;
+create policy "comments readable by members"
+  on comments for select using (auth.uid() is not null);
+create policy "comments insert by members"
+  on comments for insert with check (author = auth.uid());
+create policy "own comments delete"
+  on comments for delete using (author = auth.uid());
+create index comments_target_idx on comments (target_type, target_id);
+
+create table if not exists notifications (
+  id bigint generated always as identity primary key,
+  recipient uuid not null references members (id) on delete cascade,
+  actor uuid not null references members (id) on delete cascade,
+  kind text not null check (kind in ('comment', 'reply', 'reaction')),
+  target_type text not null,
+  target_id bigint not null,
+  target_title text,
+  body text,
+  read boolean not null default false,
+  created_at timestamptz not null default now()
+);
+alter table notifications enable row level security;
+create policy "own notifications readable"
+  on notifications for select using (recipient = auth.uid());
+create policy "notifications insert by members"
+  on notifications for insert with check (actor = auth.uid());
+create policy "own notifications update"
+  on notifications for update using (recipient = auth.uid());
+create index notifications_recipient_idx on notifications (recipient, read, created_at desc);
 
 -- ---------------------------------------------------------------------------
 -- Betting: FanDuel bet tracker (Jorge, Ethan, etc.).
