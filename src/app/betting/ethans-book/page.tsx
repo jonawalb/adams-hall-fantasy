@@ -1,5 +1,6 @@
 import BetBook from "@/components/BetBook";
 import { ETHAN } from "@/lib/bettors";
+import pltrData from "../../../../data/pltr.json";
 
 export default function EthansBookPage() {
   return (
@@ -11,7 +12,7 @@ export default function EthansBookPage() {
           The commissioner puts his money where his mouth is. Every bet. Every receipt. Every L.
         </p>
       </header>
-      <BetBook bettor={ETHAN} tag="ethan" />
+      <BetBook bettor={ETHAN} tag="ethan" pltr={pltrData} />
     </div>
   );
 }

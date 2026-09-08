@@ -150,7 +150,23 @@ function computeLossStreakAt(bets: Bet[], idx: number): number {
   return count;
 }
 
-function Stats({ bets, cfg }: { bets: Bet[]; cfg: BettorConfig }) {
+interface PltrData {
+  symbol: string;
+  current: number;
+  prices: Record<string, number>;
+}
+
+function getPltrPriceOnDate(pltr: PltrData, dateStr: string): number | null {
+  const target = dateStr.slice(0, 10);
+  if (pltr.prices[target]) return pltr.prices[target];
+  const dates = Object.keys(pltr.prices).sort();
+  for (let i = dates.length - 1; i >= 0; i--) {
+    if (dates[i] <= target) return pltr.prices[dates[i]];
+  }
+  return dates.length > 0 ? pltr.prices[dates[0]] : null;
+}
+
+function Stats({ bets, cfg, pltr }: { bets: Bet[]; cfg: BettorConfig; pltr?: PltrData }) {
   const resolved = bets.filter((b) => b.result && b.result !== "pending");
   const wins = resolved.filter((b) => b.result === "won");
   const losses = resolved.filter((b) => b.result === "lost");
@@ -203,6 +219,22 @@ function Stats({ bets, cfg }: { bets: Bet[]; cfg: BettorConfig }) {
   const netColor = net >= 0 ? "text-emerald-400" : "text-blood";
   const netLabel = net >= 0 ? "UP" : "DOWN";
 
+  let pltrValue = 0;
+  if (pltr) {
+    for (const b of bets) {
+      const stake = parseDollars(b.stake);
+      if (!stake) continue;
+      const priceAtBet = getPltrPriceOnDate(pltr, b.created_at);
+      if (priceAtBet && priceAtBet > 0) {
+        const shares = stake / priceAtBet;
+        pltrValue += shares * pltr.current;
+      }
+    }
+  }
+  const totalBetMoney = totalWon + totalLost + pendingRisk;
+  const pltrDiff = pltrValue - totalBetMoney;
+  const pltrBetter = pltrValue > 0 && pltrDiff > net;
+
   return (
     <div className="space-y-3">
       {/* Row 1: Record stats */}
@@ -221,7 +253,7 @@ function Stats({ bets, cfg }: { bets: Bet[]; cfg: BettorConfig }) {
       </div>
 
       {/* Row 2: Money stats */}
-      <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+      <div className="grid grid-cols-2 gap-3 sm:grid-cols-5">
         <div className="panel p-3 text-center">
           <p className="kicker">Won</p>
           <p className="font-display mt-1 text-xl text-emerald-400">{totalWon > 0 ? `$${totalWon.toFixed(0)}` : "—"}</p>
@@ -239,6 +271,17 @@ function Stats({ bets, cfg }: { bets: Bet[]; cfg: BettorConfig }) {
           <p className={`font-display mt-1 text-xl ${netColor}`}>
             {totalWon > 0 || totalLost > 0 ? `${net >= 0 ? "+" : "-"}$${Math.abs(net).toFixed(0)}` : "—"}
           </p>
+        </div>
+        <div className={`panel border-2 p-3 text-center ${pltrBetter ? "border-emerald-500/40" : "border-line"}`}>
+          <p className="kicker">If PLTR</p>
+          <p className={`font-display mt-1 text-xl ${pltrBetter ? "text-emerald-400" : "text-cream-dim"}`}>
+            {pltrValue > 0 ? `$${pltrValue.toFixed(0)}` : "—"}
+          </p>
+          {pltrValue > 0 && (
+            <p className={`mt-0.5 text-[0.6rem] font-semibold ${pltrBetter ? "text-emerald-400/70" : "text-cream-dim/60"}`}>
+              {pltrBetter ? `+$${pltrDiff.toFixed(0)} vs betting` : "betting was better"}
+            </p>
+          )}
         </div>
       </div>
 
@@ -361,7 +404,7 @@ function BetCard({ bet, canEdit, canVerify, roast, betLegs, onUpdate, onRemove, 
   );
 }
 
-export default function BetBook({ bettor, tag }: { bettor: BettorConfig; tag: string }) {
+export default function BetBook({ bettor, tag, pltr }: { bettor: BettorConfig; tag: string; pltr?: PltrData }) {
   const supabase = getSupabase();
   const user = useUser();
   const myId = supabase ? user?.id ?? null : PREVIEW_ID;
@@ -504,7 +547,7 @@ export default function BetBook({ bettor, tag }: { bettor: BettorConfig; tag: st
 
   return (
     <section className="space-y-6">
-      <Stats bets={bets} cfg={bettor} />
+      <Stats bets={bets} cfg={bettor} pltr={pltr} />
       {canPost && !showForm && (
         <button type="button" onClick={() => setShowForm(true)}
           className="font-head w-full rounded-sm border border-dashed border-gold-deep px-4 py-3 text-sm font-bold uppercase tracking-widest text-gold hover:border-gold hover:bg-gold/10">

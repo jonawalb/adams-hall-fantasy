@@ -137,30 +137,20 @@ export default function PostThread({ targetType, targetId, ownerId, ownerTitle }
       .single();
     if (data && !error) {
       setComments((cs) => [...cs, data as unknown as Comment]);
-      if (ownerId && ownerId !== myId) {
-        await supabase.from("notifications").insert({
-          recipient: ownerId,
-          actor: myId,
-          kind: replyTo ? "reply" : "comment",
-          target_type: targetType,
-          target_id: targetId,
-          target_title: ownerTitle ?? null,
-          body: commentText.trim().slice(0, 200),
-        });
-      }
-      if (replyTo) {
-        const parent = comments.find((c) => c.id === replyTo);
-        if (parent && parent.author !== myId && parent.author !== ownerId) {
-          await supabase.from("notifications").insert({
-            recipient: parent.author,
+      const { data: allMembers } = await supabase.from("members").select("id");
+      if (allMembers) {
+        const notifs = allMembers
+          .filter((m: { id: string }) => m.id !== myId)
+          .map((m: { id: string }) => ({
+            recipient: m.id,
             actor: myId,
-            kind: "reply",
+            kind: replyTo ? "reply" as const : "comment" as const,
             target_type: targetType,
             target_id: targetId,
             target_title: ownerTitle ?? null,
             body: commentText.trim().slice(0, 200),
-          });
-        }
+          }));
+        if (notifs.length > 0) await supabase.from("notifications").insert(notifs);
       }
     }
     setCommentText("");
