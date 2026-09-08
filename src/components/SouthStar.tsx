@@ -3,6 +3,7 @@
 import { FormEvent, useEffect, useState } from "react";
 import { getSupabase } from "@/lib/supabase";
 import { useUser } from "@/lib/useUser";
+import PostThread from "@/components/PostThread";
 
 const PREVIEW_ID = "preview";
 
@@ -220,6 +221,7 @@ export default function SouthStar({ board = "south-star" }: BoardProps) {
                   </button>
                 )}
               </div>
+              {supabase && <PostThread postId={p.id} />}
             </article>
           );
         })}
