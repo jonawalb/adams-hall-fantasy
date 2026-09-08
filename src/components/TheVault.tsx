@@ -34,6 +34,7 @@ export default function TheVault() {
     supabase
       .from("videos")
       .select("id, title, url, storage_path, created_at, poster:members(display_name)")
+      .eq("category", "tape")
       .order("created_at", { ascending: false })
       .then(async ({ data }) => {
         const list = (data as unknown as Video[]) ?? [];

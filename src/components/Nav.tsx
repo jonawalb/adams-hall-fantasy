@@ -38,6 +38,7 @@ const GROUPS: Group[] = [
           { href: "/season/bad-decisions", label: "Bad Decisions" },
           { href: "/season/recap", label: "Weekly Recap" },
           { href: "/season/archive", label: "Recaps & Tapes" },
+          { href: "/season/archive/cameos", label: "Cameos" },
         ],
       },
     ],

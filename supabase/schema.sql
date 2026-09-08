@@ -148,6 +148,7 @@ create table if not exists videos (
   url text,
   storage_path text,
   posted_by uuid not null references members (id) on delete cascade,
+  category text not null default 'tape' check (category in ('tape', 'cameo')),
   created_at timestamptz not null default now(),
   check (url is not null or storage_path is not null)
 );
@@ -162,10 +163,29 @@ language sql stable security definer set search_path = public as $$
   );
 $$;
 
+create or replace function is_cameo_crew() returns boolean
+language sql stable security definer set search_path = public as $$
+  select exists (
+    select 1 from members
+    where id = auth.uid()
+      and (
+        is_commissioner
+        or espn_owner_id = '{C2489537-0A8B-4E67-9914-7A2C71341A12}'
+        or espn_owner_id = '{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}'
+      )
+  );
+$$;
+
 create policy "videos readable by members"
   on videos for select using (auth.uid() is not null);
-create policy "videos insert by tape crew"
-  on videos for insert with check (posted_by = auth.uid() and is_tape_crew());
+create policy "videos insert by authorized posters"
+  on videos for insert with check (
+    posted_by = auth.uid()
+    and (
+      (category = 'tape' and is_tape_crew())
+      or (category = 'cameo' and is_cameo_crew())
+    )
+  );
 create policy "own videos delete"
   on videos for delete using (posted_by = auth.uid());
 
@@ -175,8 +195,11 @@ on conflict (id) do nothing;
 
 create policy "videos bucket read by members"
   on storage.objects for select using (bucket_id = 'videos' and auth.uid() is not null);
-create policy "videos bucket upload by tape crew"
-  on storage.objects for insert with check (bucket_id = 'videos' and is_tape_crew());
+create policy "videos bucket upload by poster"
+  on storage.objects for insert with check (
+    bucket_id = 'videos'
+    and (is_tape_crew() or is_cameo_crew())
+  );
 create policy "videos bucket delete own"
   on storage.objects for delete using (bucket_id = 'videos' and owner = auth.uid());
   id bigint generated always as identity primary key,
@@ -241,3 +264,31 @@ create policy "recaps commissioner delete"
 drop trigger if exists recaps_touch on recaps;
 create trigger recaps_touch before update on recaps
   for each row execute function touch_updated_at();
+
+-- ---------------------------------------------------------------------------
+-- Added 2026-09-08: Push notifications (APNs for iOS app, Web Push fallback).
+-- ---------------------------------------------------------------------------
+
+create table if not exists push_subscriptions (
+  id bigint generated always as identity primary key,
+  member_id uuid not null references members (id) on delete cascade,
+  platform text not null default 'apns' check (platform in ('apns', 'web')),
+  device_token text,
+  endpoint text,
+  keys_p256dh text,
+  keys_auth text,
+  created_at timestamptz not null default now(),
+  unique (member_id, device_token),
+  unique (member_id, endpoint)
+);
+
+alter table push_subscriptions enable row level security;
+
+create policy "own subs readable"
+  on push_subscriptions for select using (member_id = auth.uid());
+create policy "own subs insert"
+  on push_subscriptions for insert with check (member_id = auth.uid());
+create policy "own subs delete"
+  on push_subscriptions for delete using (member_id = auth.uid());
+create policy "own subs update"
+  on push_subscriptions for update using (member_id = auth.uid());
