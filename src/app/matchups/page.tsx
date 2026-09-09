@@ -2,7 +2,7 @@ import { loadSeason, teamById } from "@/lib/espn";
 import MatchupBrowser, { MatchupView } from "@/components/MatchupBrowser";
 
 export default function MatchupsPage() {
-  const season = loadSeason(2025)!;
+  const season = loadSeason(2026)!;
 
   const matchups: MatchupView[] = season.games
     .filter((g) => g.winner !== "UNDECIDED")
@@ -24,7 +24,7 @@ export default function MatchupsPage() {
   return (
     <div className="space-y-8">
       <header className="rise">
-        <p className="kicker">2025 Season · Live 2026 scores land here in-season</p>
+        <p className="kicker">2026 Season</p>
         <h1 className="font-display mt-2 text-3xl text-gold-bright sm:text-4xl">MATCHUPS</h1>
       </header>
       <MatchupBrowser matchups={matchups} />

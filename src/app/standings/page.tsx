@@ -5,7 +5,7 @@ const fmt = (n: number) => n.toFixed(1);
 const pct = (n: number) => `${n >= 0 ? "+" : ""}${(n * 100).toFixed(0)}%`;
 
 export default function StandingsPage() {
-  const seasons = [loadSeason(2026)!, loadSeason(2025)!];
+  const seasons = [loadSeason(2026)!];
 
   return (
     <div className="space-y-10">
@@ -50,7 +50,7 @@ export default function StandingsPage() {
                       <td className="py-2.5">
                         <span className="font-head text-base font-semibold">{l.team.name}</span>
                         <span className="ml-2 text-xs text-cream-dim">{l.team.ownerFirst}</span>
-                        {i === 0 && season.isCompleted && <span className="ml-2">🏆</span>}
+                        {l.team.finalRank === 1 && season.isCompleted && <span className="ml-2">🏆</span>}
                       </td>
                       <td className="font-mono-num py-2.5 text-right">{l.wins}–{l.losses}</td>
                       <td className="font-mono-num py-2.5 text-right">{fmt(l.pointsFor)}</td>
