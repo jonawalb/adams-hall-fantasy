@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 1,
- "archivedAt": "2026-09-08T15:58:10.504Z",
+ "archivedAt": "2026-09-09T10:34:55.585Z",
  "matchups": [
   {
    "id": 1,
@@ -370,6 +370,13 @@
       "playerId": 4912218,
       "name": "Cyrus Allen",
       "pos": "WR",
+      "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 4373626,
+      "name": "Tyler Allgeier",
+      "pos": "RB",
       "slot": "BE",
       "points": 0
      }
@@ -770,14 +777,14 @@
       "playerId": 4595348,
       "name": "Malik Nabers",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "FLEX",
       "points": 0
      },
      {
       "playerId": 4241478,
       "name": "DeVonta Smith",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "WR",
       "points": 0
      },
      {
@@ -1012,7 +1019,7 @@
       "playerId": 4567048,
       "name": "Kenneth Walker III",
       "pos": "RB",
-      "slot": "FLEX",
+      "slot": "RB",
       "points": 0
      },
      {
@@ -1061,7 +1068,7 @@
       "playerId": 4569987,
       "name": "Jaylen Warren",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "FLEX",
       "points": 0
      },
      {
