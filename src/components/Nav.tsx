@@ -118,6 +118,7 @@ export default function Nav() {
   const [signedIn, setSignedIn] = useState(false);
   const [open, setOpen] = useState<string | null>(null);
   const [mobile, setMobile] = useState(false);
+  const [expanded, setExpanded] = useState<Set<string>>(new Set());
 
   useEffect(() => {
     if (!supabase) return;
@@ -226,28 +227,46 @@ export default function Nav() {
 
       {showTabs && mobile && (
         <nav className="border-t border-line bg-felt-deep px-4 pb-4 pt-2 md:hidden">
-          {GROUPS.map((g) => (
-            <div key={g.label} className="py-1.5">
-              {g.href ? (
-                <Link href={g.href} onClick={() => setMobile(false)} className={`block ${tab(groupActive(g))}`}>
-                  {g.label}
-                </Link>
-              ) : (
-                <>
-                  <p className="kicker px-2.5 pb-1">{g.label}</p>
-                  <div className="grid grid-cols-2 gap-1">
-                    {g.sections!.flatMap((s) =>
-                      s.items.map((it) => (
-                        <Link key={it.href} href={it.href} onClick={() => setMobile(false)} className={`block ${tab(isActive(pathname, it.href))}`}>
-                          {s.title && s.title !== "History" ? `${s.title}: ${it.label}` : it.label}
-                        </Link>
-                      )),
+          {GROUPS.map((g) => {
+            const isExp = expanded.has(g.label);
+            const toggle = () => setExpanded((prev) => {
+              const next = new Set(prev);
+              next.has(g.label) ? next.delete(g.label) : next.add(g.label);
+              return next;
+            });
+            return (
+              <div key={g.label} className="border-b border-line/50 last:border-0">
+                {g.href ? (
+                  <Link href={g.href} onClick={() => setMobile(false)} className={`block py-3 ${tab(groupActive(g))}`}>
+                    {g.label}
+                  </Link>
+                ) : (
+                  <>
+                    <button type="button" onClick={toggle} className={`flex w-full items-center justify-between py-3 ${tab(groupActive(g))}`}>
+                      {g.label}
+                      <span className={`text-xs text-cream-dim transition-transform ${isExp ? "rotate-180" : ""}`}>▾</span>
+                    </button>
+                    {isExp && (
+                      <div className="pb-3 pl-2">
+                        {g.sections!.map((s, si) => (
+                          <div key={si} className={si > 0 ? "mt-2" : ""}>
+                            {s.title && <p className="kicker px-2.5 pb-1 !text-[0.6rem]">{s.title}</p>}
+                            <div className="grid grid-cols-2 gap-1">
+                              {s.items.map((it) => (
+                                <Link key={it.href} href={it.href} onClick={() => setMobile(false)} className={`block ${tab(isActive(pathname, it.href))}`}>
+                                  {it.label}
+                                </Link>
+                              ))}
+                            </div>
+                          </div>
+                        ))}
+                      </div>
                     )}
-                  </div>
-                </>
-              )}
-            </div>
-          ))}
+                  </>
+                )}
+              </div>
+            );
+          })}
           {signedIn && (
             <div className="mt-2 flex gap-2 border-t border-line pt-3">
               <Link href="/account" onClick={() => setMobile(false)} className={tab(isActive(pathname, "/account"))}>
