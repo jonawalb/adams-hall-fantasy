@@ -348,8 +348,8 @@ function LegList({ betLegs, canVerify, onResolveLeg }: {
   );
 }
 
-function BetCard({ bet, canEdit, canVerify, canConfirm, roast, betLegs, onUpdate, onRemove, onResolveLeg }: {
-  bet: Bet; canEdit: boolean; canVerify: boolean; canConfirm: boolean; roast: string | null; betLegs: Leg[];
+function BetCard({ bet, canEdit, canVerify, roast, betLegs, onUpdate, onRemove, onResolveLeg }: {
+  bet: Bet; canEdit: boolean; canVerify: boolean; roast: string | null; betLegs: Leg[];
   onUpdate: (id: number, result: Result) => void; onRemove: (id: number) => void;
   onResolveLeg: (legId: number, result: string) => void;
 }) {
@@ -381,20 +381,6 @@ function BetCard({ bet, canEdit, canVerify, canConfirm, roast, betLegs, onUpdate
             </a>
           )}
         </div>
-        {result !== "pending" && !bet.verified_by && (
-          <div className="mt-1.5 flex items-center gap-2">
-            <span className="rounded-sm bg-gold-deep/30 px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-gold">Unverified</span>
-            {canConfirm && (
-              <button type="button" onClick={() => onUpdate(bet.id, result as Result)}
-                className="rounded-sm border border-emerald-500/40 bg-emerald-500/10 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-emerald-400 hover:bg-emerald-500/20">
-                Confirm {result}
-              </button>
-            )}
-          </div>
-        )}
-        {result !== "pending" && bet.verified_by && (
-          <span className="mt-1.5 inline-block rounded-sm bg-emerald-500/15 px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-emerald-400">Verified</span>
-        )}
         {bet.note && <p className="mt-1.5 text-xs italic text-cream-dim">&ldquo;{bet.note}&rdquo;</p>}
         <LegList betLegs={betLegs} canVerify={canVerify} onResolveLeg={onResolveLeg} />
         {roast && (
@@ -428,7 +414,6 @@ export default function BetBook({ bettor, tag, pltr }: { bettor: BettorConfig; t
   const [legs, setLegs] = useState<Leg[]>([]);
   const [canPost, setCanPost] = useState(!supabase);
   const [canAdmin, setCanAdmin] = useState(!supabase);
-  const [canVerifyResults, setCanVerifyResults] = useState(!supabase);
   const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
   const [showForm, setShowForm] = useState(false);
@@ -456,18 +441,10 @@ export default function BetBook({ bettor, tag, pltr }: { bettor: BettorConfig; t
     if (!supabase || !user) return;
     supabase.from("members").select("is_commissioner, espn_owner_id").eq("id", user.id).maybeSingle()
       .then(({ data }) => {
-        const ownerId = data?.espn_owner_id ?? "";
-        const isBettor = bettor.espnOwnerIds.includes(ownerId);
+        const isBettor = bettor.espnOwnerIds.includes(data?.espn_owner_id ?? "");
         const isComm = Boolean(data?.is_commissioner);
-        const VERIFIER_IDS = [
-          "{C2489537-0A8B-4E67-9914-7A2C71341A12}",
-          "{3AEDC062-A4DB-4A7D-9F19-C255055B2C61}",
-          "{533F11EF-71ED-46D1-839D-67A3199CFA89}",
-        ];
-        const isVerifier = isComm || VERIFIER_IDS.includes(ownerId);
         setCanPost(isBettor || isComm);
         setCanAdmin(isComm);
-        setCanVerifyResults(isVerifier);
       });
   }, [supabase, user, bettor.espnOwnerIds]);
 
@@ -543,43 +520,9 @@ export default function BetBook({ bettor, tag, pltr }: { bettor: BettorConfig; t
 
   async function updateResult(id: number, result: Result) {
     if (!supabase || !myId) return;
-    const bet = bets.find((b) => b.id === id);
-    const isSelfReport = bet && bet.posted_by === myId && !canVerifyResults;
-    const update: Record<string, unknown> = { result };
-    if (canVerifyResults) {
-      update.verified_by = myId;
-    } else {
-      update.verified_by = null;
-    }
-    const { error: err } = await supabase.from("bets").update(update).eq("id", id);
-    if (err) { setError(err.message); return; }
-    setBets((bs) => bs.map((b) => (b.id === id ? { ...b, result, verified_by: (update.verified_by as string) ?? null } : b)));
-    if (isSelfReport && bet) {
-      const VERIFIER_OWNER_IDS = [
-        "{75AC5FD8-6722-43E4-B41D-B5D51FD8E9E7}",
-        "{C2489537-0A8B-4E67-9914-7A2C71341A12}",
-        "{3AEDC062-A4DB-4A7D-9F19-C255055B2C61}",
-        "{533F11EF-71ED-46D1-839D-67A3199CFA89}",
-      ];
-      const { data: verifiers } = await supabase
-        .from("members")
-        .select("id, espn_owner_id")
-        .in("espn_owner_id", VERIFIER_OWNER_IDS);
-      if (verifiers) {
-        const notifs = verifiers
-          .filter((v: { id: string }) => v.id !== myId)
-          .map((v: { id: string }) => ({
-            recipient: v.id,
-            actor: myId,
-            kind: "comment" as const,
-            target_type: "bet",
-            target_id: id,
-            target_title: bet.description,
-            body: `Marked as ${result} — needs verification`,
-          }));
-        if (notifs.length > 0) await supabase.from("notifications").insert(notifs);
-      }
-    }
+    const { error: err } = await supabase.from("bets").update({ result }).eq("id", id);
+    if (err) setError(err.message);
+    else setBets((bs) => bs.map((b) => (b.id === id ? { ...b, result } : b)));
   }
 
   async function resolveLeg(legId: number, result: string) {
@@ -665,7 +608,7 @@ export default function BetBook({ bettor, tag, pltr }: { bettor: BettorConfig; t
         <div className="space-y-2">
           <p className="kicker">Live bets · {pending.length}</p>
           {pending.map((b) => (
-            <BetCard key={b.id} bet={b} canEdit={canPost || canAdmin} canVerify={Boolean(user) && b.posted_by !== myId} canConfirm={canVerifyResults}
+            <BetCard key={b.id} bet={b} canEdit={canPost || canAdmin} canVerify={Boolean(user) && b.posted_by !== myId}
               betLegs={legs.filter((l) => l.bet_id === b.id)} roast={getRoast(b, 0, bettor)}
               onUpdate={updateResult} onRemove={removeBet} onResolveLeg={resolveLeg} />
           ))}
@@ -675,7 +618,7 @@ export default function BetBook({ bettor, tag, pltr }: { bettor: BettorConfig; t
         <div className="space-y-2">
           <p className="kicker">Settled · {resolved.length}</p>
           {resolved.map((b, i) => (
-            <BetCard key={b.id} bet={b} canEdit={canPost || canAdmin} canVerify={Boolean(user) && b.posted_by !== myId} canConfirm={canVerifyResults}
+            <BetCard key={b.id} bet={b} canEdit={canPost || canAdmin} canVerify={Boolean(user) && b.posted_by !== myId}
               betLegs={legs.filter((l) => l.bet_id === b.id)} roast={getRoast(b, computeLossStreakAt(resolved, i), bettor)}
               onUpdate={updateResult} onRemove={removeBet} onResolveLeg={resolveLeg} />
           ))}
