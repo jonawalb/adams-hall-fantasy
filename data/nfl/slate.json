@@ -29,7 +29,7 @@
       "score": 0
      },
      "odds": {
-      "provider": "Draft Kings",
+      "provider": "DraftKings",
       "details": "SEA -3",
       "overUnder": 44.5,
       "moneyline": {
@@ -97,8 +97,8 @@
       "details": "CIN -3.5",
       "overUnder": 50.5,
       "moneyline": {
-       "home": "-198",
-       "away": "+164"
+       "home": "-205",
+       "away": "+170"
       }
      }
     },
@@ -129,8 +129,8 @@
       "details": "DET -7",
       "overUnder": 49.5,
       "moneyline": {
-       "home": "-305",
-       "away": "+245"
+       "home": "-310",
+       "away": "+250"
       }
      }
     },
@@ -161,8 +161,8 @@
       "details": "TEN -1.5",
       "overUnder": 39.5,
       "moneyline": {
-       "home": "-125",
-       "away": "+105"
+       "home": "-122",
+       "away": "+102"
       }
      }
     },
@@ -255,10 +255,10 @@
      "odds": {
       "provider": null,
       "details": "CHI -3",
-      "overUnder": 47.5,
+      "overUnder": 46.5,
       "moneyline": {
-       "home": "+130",
-       "away": "-155"
+       "home": "+140",
+       "away": "-166"
       }
      }
     },
@@ -289,8 +289,8 @@
       "details": "JAX -8.5",
       "overUnder": 40.5,
       "moneyline": {
-       "home": "-455",
-       "away": "+350"
+       "home": "-470",
+       "away": "+360"
       }
      }
     },
@@ -321,8 +321,8 @@
       "details": "BUF -1.5",
       "overUnder": 44.5,
       "moneyline": {
-       "home": "-105",
-       "away": "-115"
+       "home": "-102",
+       "away": "-118"
       }
      }
     },
@@ -351,7 +351,7 @@
      "odds": {
       "provider": null,
       "details": "LV -3.5",
-      "overUnder": 41.5,
+      "overUnder": 40.5,
       "moneyline": {
        "home": "-185",
        "away": "+154"
@@ -449,8 +449,8 @@
       "details": "LAC -9.5",
       "overUnder": 47.5,
       "moneyline": {
-       "home": "-485",
-       "away": "+370"
+       "home": "-520",
+       "away": "+390"
       }
      }
     },
@@ -510,16 +510,16 @@
      },
      "odds": {
       "provider": null,
-      "details": "KC -3",
+      "details": "KC -2.5",
       "overUnder": 43.5,
       "moneyline": {
-       "home": "-148",
-       "away": "+124"
+       "home": "-155",
+       "away": "+130"
       }
      }
     }
    ]
   }
  },
- "fetchedAt": "2026-09-08T17:43:46.209Z"
+ "fetchedAt": "2026-09-09T10:34:53.846Z"
 }
