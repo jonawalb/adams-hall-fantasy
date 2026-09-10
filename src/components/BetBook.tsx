@@ -313,43 +313,63 @@ function Stats({ bets, cfg, pltr }: { bets: Bet[]; cfg: BettorConfig; pltr?: Plt
   );
 }
 
-function LegList({ betLegs, canVerify, onResolveLeg }: {
+function LegList({ betLegs, canVerify, canAdmin, onResolveLeg }: {
   betLegs: Leg[];
   canVerify: boolean;
+  canAdmin: boolean;
   onResolveLeg: (legId: number, result: string) => void;
 }) {
   if (betLegs.length <= 1) return null;
   return (
     <div className="mt-2 space-y-1.5 border-t border-line pt-2">
-      {betLegs.map((leg) => (
-        <div key={leg.id} className="flex items-center gap-2 text-xs">
-          <span className={`w-4 text-center ${
-            leg.result === "won" ? "text-emerald-400" : leg.result === "lost" ? "text-blood" : "text-gold"
-          }`}>
-            {leg.result === "won" ? "✓" : leg.result === "lost" ? "✗" : "●"}
-          </span>
-          <span className={`flex-1 ${leg.result === "lost" ? "line-through text-cream-dim" : ""}`}>
-            {leg.description}
-          </span>
-          {leg.odds && <span className="text-cream-dim">{leg.odds}</span>}
-          {canVerify && (!leg.result || leg.result === "pending") && (
-            <div className="flex gap-1">
-              {(["won", "lost", "push"] as const).map((r) => (
-                <button key={r} type="button" onClick={() => onResolveLeg(leg.id, r)}
-                  className="rounded-sm border border-line px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-cream-dim hover:border-gold hover:text-cream">
-                  {r === "won" ? "W" : r === "lost" ? "L" : "P"}
+      {betLegs.map((leg) => {
+        const isPending = !leg.result || leg.result === "pending";
+        const showGrade = canVerify && isPending;
+        const showRegrade = canAdmin && !isPending;
+        return (
+          <div key={leg.id} className="flex items-center gap-2 text-xs">
+            <span className={`w-4 text-center ${
+              leg.result === "won" ? "text-emerald-400" : leg.result === "lost" ? "text-blood" : "text-gold"
+            }`}>
+              {leg.result === "won" ? "✓" : leg.result === "lost" ? "✗" : "●"}
+            </span>
+            <span className={`flex-1 ${leg.result === "lost" ? "line-through text-cream-dim" : ""}`}>
+              {leg.description}
+            </span>
+            {leg.odds && <span className="text-cream-dim">{leg.odds}</span>}
+            {showGrade && (
+              <div className="flex gap-1">
+                {(["won", "lost", "push"] as const).map((r) => (
+                  <button key={r} type="button" onClick={() => onResolveLeg(leg.id, r)}
+                    className="rounded-sm border border-line px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-cream-dim hover:border-gold hover:text-cream">
+                    {r === "won" ? "W" : r === "lost" ? "L" : "P"}
+                  </button>
+                ))}
+              </div>
+            )}
+            {showRegrade && (
+              <div className="flex gap-1">
+                {(["won", "lost", "push"] as const).filter((r) => r !== leg.result).map((r) => (
+                  <button key={r} type="button" onClick={() => onResolveLeg(leg.id, r)}
+                    className="rounded-sm border border-line px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-cream-dim hover:border-gold hover:text-cream">
+                    {r === "won" ? "W" : r === "lost" ? "L" : "P"}
+                  </button>
+                ))}
+                <button type="button" onClick={() => onResolveLeg(leg.id, "pending")}
+                  className="rounded-sm border border-gold-deep/60 px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-gold hover:border-gold hover:text-gold-bright">
+                  UNDO
                 </button>
-              ))}
-            </div>
-          )}
-        </div>
-      ))}
+              </div>
+            )}
+          </div>
+        );
+      })}
     </div>
   );
 }
 
-function BetCard({ bet, canEdit, canVerify, roast, betLegs, onUpdate, onRemove, onResolveLeg }: {
-  bet: Bet; canEdit: boolean; canVerify: boolean; roast: string | null; betLegs: Leg[];
+function BetCard({ bet, canEdit, canVerify, canAdmin, roast, betLegs, onUpdate, onRemove, onResolveLeg }: {
+  bet: Bet; canEdit: boolean; canVerify: boolean; canAdmin: boolean; roast: string | null; betLegs: Leg[];
   onUpdate: (id: number, result: Result) => void; onRemove: (id: number) => void;
   onResolveLeg: (legId: number, result: string) => void;
 }) {
@@ -382,7 +402,7 @@ function BetCard({ bet, canEdit, canVerify, roast, betLegs, onUpdate, onRemove, 
           )}
         </div>
         {bet.note && <p className="mt-1.5 text-xs italic text-cream-dim">&ldquo;{bet.note}&rdquo;</p>}
-        <LegList betLegs={betLegs} canVerify={canVerify} onResolveLeg={onResolveLeg} />
+        <LegList betLegs={betLegs} canVerify={canVerify} canAdmin={canAdmin} onResolveLeg={onResolveLeg} />
         {roast && (
           <p className={`mt-1.5 text-xs font-semibold ${result === "lost" ? "text-blood/80" : result === "won" ? "text-emerald-400/80" : "text-cream-dim/80"}`}>
             {roast}
@@ -390,7 +410,7 @@ function BetCard({ bet, canEdit, canVerify, roast, betLegs, onUpdate, onRemove, 
         )}
         {canEdit && (
           <div className="mt-2 flex flex-wrap gap-1.5">
-            {!isParlay && (["won", "lost", "push", "cashout", "pending"] as Result[]).map((r) => (
+            {(["won", "lost", "push", "cashout", "pending"] as Result[]).map((r) => (
               <button key={r} type="button" onClick={() => onUpdate(bet.id, r)}
                 className={`rounded-sm border px-2 py-0.5 text-xs font-bold uppercase tracking-wider transition-colors ${result === r ? RESULT_STYLES[r] : "border-line text-cream-dim hover:border-gold hover:text-cream"}`}>
                 {r}
@@ -441,10 +461,13 @@ export default function BetBook({ bettor, tag, pltr }: { bettor: BettorConfig; t
     if (!supabase || !user) return;
     supabase.from("members").select("is_commissioner, espn_owner_id").eq("id", user.id).maybeSingle()
       .then(({ data }) => {
-        const isBettor = bettor.espnOwnerIds.includes(data?.espn_owner_id ?? "");
+        const ownerId = data?.espn_owner_id ?? "";
+        const isBettor = bettor.espnOwnerIds.includes(ownerId);
         const isComm = Boolean(data?.is_commissioner);
+        const isEthan = ownerId === "{63997D52-0196-4BC4-B322-161E7342C352}";
+        const isNishok = ownerId === "{C2489537-0A8B-4E67-9914-7A2C71341A12}";
         setCanPost(isBettor || isComm);
-        setCanAdmin(isComm);
+        setCanAdmin(isComm || isEthan || isNishok);
       });
   }, [supabase, user, bettor.espnOwnerIds]);
 
@@ -527,13 +550,18 @@ export default function BetBook({ bettor, tag, pltr }: { bettor: BettorConfig; t
 
   async function resolveLeg(legId: number, result: string) {
     if (!supabase || !user) return;
+    const isUndo = result === "pending";
     const { error: err } = await supabase
       .from("bet_legs")
-      .update({ result, resolved_by: user.id, resolved_at: new Date().toISOString() })
+      .update({
+        result: isUndo ? null : result,
+        resolved_by: isUndo ? null : user.id,
+        resolved_at: isUndo ? null : new Date().toISOString(),
+      })
       .eq("id", legId);
     if (err) { setError(err.message); return; }
-    setLegs((ls) => ls.map((l) => (l.id === legId ? { ...l, result, resolved_by: user.id } : l)));
-    reload(); // re-fetch bets to pick up any settle_bet() side effects
+    setLegs((ls) => ls.map((l) => (l.id === legId ? { ...l, result: isUndo ? null : result, resolved_by: isUndo ? null : user.id } : l)));
+    reload();
   }
 
   async function removeBet(id: number) {
@@ -608,7 +636,7 @@ export default function BetBook({ bettor, tag, pltr }: { bettor: BettorConfig; t
         <div className="space-y-2">
           <p className="kicker">Live bets · {pending.length}</p>
           {pending.map((b) => (
-            <BetCard key={b.id} bet={b} canEdit={canPost || canAdmin} canVerify={Boolean(user) && b.posted_by !== myId}
+            <BetCard key={b.id} bet={b} canEdit={canPost || canAdmin} canVerify={Boolean(user) && b.posted_by !== myId} canAdmin={canAdmin}
               betLegs={legs.filter((l) => l.bet_id === b.id)} roast={getRoast(b, 0, bettor)}
               onUpdate={updateResult} onRemove={removeBet} onResolveLeg={resolveLeg} />
           ))}
@@ -618,7 +646,7 @@ export default function BetBook({ bettor, tag, pltr }: { bettor: BettorConfig; t
         <div className="space-y-2">
           <p className="kicker">Settled · {resolved.length}</p>
           {resolved.map((b, i) => (
-            <BetCard key={b.id} bet={b} canEdit={canPost || canAdmin} canVerify={Boolean(user) && b.posted_by !== myId}
+            <BetCard key={b.id} bet={b} canEdit={canPost || canAdmin} canVerify={Boolean(user) && b.posted_by !== myId} canAdmin={canAdmin}
               betLegs={legs.filter((l) => l.bet_id === b.id)} roast={getRoast(b, computeLossStreakAt(resolved, i), bettor)}
               onUpdate={updateResult} onRemove={removeBet} onResolveLeg={resolveLeg} />
           ))}
