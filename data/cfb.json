@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 2,
  "poll": "AP Top 25",
- "fetchedAt": "2026-09-09T10:34:54.431Z",
+ "fetchedAt": "2026-09-10T10:23:40.933Z",
  "rankings": [
   {
    "rank": 1,
@@ -315,8 +315,8 @@
    "detail": "9/10 - 8:00 PM EDT",
    "venue": "Hard Rock Stadium",
    "broadcast": "ACC Network",
-   "spread": "MIA -56.5",
-   "overUnder": 62.5,
+   "spread": "MIA -57.5",
+   "overUnder": 63.5,
    "headline": null,
    "home": {
     "abbr": "MIA",
@@ -463,7 +463,7 @@
    "detail": "9/11 - 7:30 PM EDT",
    "venue": "Alumni Stadium (Chestnut Hill, MA)",
    "broadcast": "ESPN2",
-   "spread": "BC -3",
+   "spread": "BC -3.5",
    "overUnder": 54.5,
    "headline": null,
    "home": {
@@ -574,7 +574,7 @@
    "detail": "9/12 - 12:00 PM EDT",
    "venue": "Boone Pickens Stadium",
    "broadcast": "ESPN",
-   "spread": "ORE -22.5",
+   "spread": "ORE -23.5",
    "overUnder": 57.5,
    "headline": null,
    "home": {
@@ -685,7 +685,7 @@
    "detail": "9/12 - 12:00 PM EDT",
    "venue": "Lincoln Financial Field",
    "broadcast": "ESPN2",
-   "spread": "PSU -24.5",
+   "spread": "PSU -23.5",
    "overUnder": 49.5,
    "headline": null,
    "home": {
@@ -722,7 +722,7 @@
    "detail": "9/12 - 12:00 PM EDT",
    "venue": "Bill Snyder Family Stadium",
    "broadcast": "TNT",
-   "spread": "KSU -19.5",
+   "spread": "KSU -18.5",
    "overUnder": 48.5,
    "headline": null,
    "home": {
@@ -759,8 +759,8 @@
    "detail": "9/12 - 12:00 PM EDT",
    "venue": "Kenan Stadium",
    "broadcast": "ACC Network",
-   "spread": null,
-   "overUnder": null,
+   "spread": "UNC -34.5",
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "UNC",
@@ -797,7 +797,7 @@
    "venue": "Lane Stadium",
    "broadcast": "CW",
    "spread": "VT -19.5",
-   "overUnder": 50.5,
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "VT",
@@ -907,7 +907,7 @@
    "detail": "9/12 - 12:00 PM EDT",
    "venue": "Dowdy-Ficklen Stadium",
    "broadcast": "ESPNU",
-   "spread": "ECU -7",
+   "spread": "ECU -7.5",
    "overUnder": 56.5,
    "headline": null,
    "home": {
@@ -944,8 +944,8 @@
    "detail": "9/12 - 12:00 PM EDT",
    "venue": "Zoeller Field at Dix Stadium",
    "broadcast": "ESPN+",
-   "spread": null,
-   "overUnder": null,
+   "spread": "KENT -11.5",
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "KENT",
@@ -981,7 +981,7 @@
    "detail": "9/12 - 12:45 PM EDT",
    "venue": "Sanford Stadium",
    "broadcast": "SEC Network",
-   "spread": "UGA -41.5",
+   "spread": "UGA -40.5",
    "overUnder": 55.5,
    "headline": null,
    "home": {
@@ -1018,8 +1018,8 @@
    "detail": "9/12 - 1:00 PM EDT",
    "venue": "Milan Puskar Stadium",
    "broadcast": "ESPN+",
-   "spread": null,
-   "overUnder": null,
+   "spread": "WVU -41.5",
+   "overUnder": 55.5,
    "headline": null,
    "home": {
     "abbr": "WVU",
@@ -1055,8 +1055,8 @@
    "detail": "9/12 - 1:00 PM EDT",
    "venue": "Kelly/Shorts Stadium",
    "broadcast": "ESPN+",
-   "spread": null,
-   "overUnder": null,
+   "spread": "CMU -23.5",
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "CMU",
@@ -1092,8 +1092,8 @@
    "detail": "9/12 - 1:00 PM EDT",
    "venue": "Yager Stadium",
    "broadcast": "ESPN+",
-   "spread": null,
-   "overUnder": null,
+   "spread": "M-OH -30.5",
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "M-OH",
@@ -1129,8 +1129,8 @@
    "detail": "9/12 - 2:00 PM EDT",
    "venue": "Scheumann Stadium",
    "broadcast": "ESPN+",
-   "spread": null,
-   "overUnder": null,
+   "spread": "BALL -14.5",
+   "overUnder": 57.5,
    "headline": null,
    "home": {
     "abbr": "BALL",
@@ -1351,8 +1351,8 @@
    "detail": "9/12 - 3:30 PM EDT",
    "venue": "Folsom Field",
    "broadcast": "ESPN+",
-   "spread": null,
-   "overUnder": null,
+   "spread": "COLO -33.5",
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "COLO",
@@ -1647,8 +1647,8 @@
    "detail": "9/12 - 3:30 PM EDT",
    "venue": "InfoCision Stadium",
    "broadcast": "ESPN+",
-   "spread": null,
-   "overUnder": null,
+   "spread": "AKR -27.5",
+   "overUnder": 41.5,
    "headline": null,
    "home": {
     "abbr": "AKR",
@@ -1684,8 +1684,8 @@
    "detail": "9/12 - 3:30 PM EDT",
    "venue": "Glass Bowl",
    "broadcast": "ESPN+",
-   "spread": null,
-   "overUnder": null,
+   "spread": "TOL -33.5",
+   "overUnder": 55.5,
    "headline": null,
    "home": {
     "abbr": "TOL",
@@ -1721,8 +1721,8 @@
    "detail": "9/12 - 3:30 PM EDT",
    "venue": "Warren McGuirk Alumni Stadium",
    "broadcast": "ESPN+",
-   "spread": null,
-   "overUnder": null,
+   "spread": "MASS -23.5",
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "MASS",
@@ -1758,8 +1758,8 @@
    "detail": "9/12 - 3:30 PM EDT",
    "venue": "Bridgeforth Stadium",
    "broadcast": "ESPN+",
-   "spread": null,
-   "overUnder": null,
+   "spread": "JMU -45.5",
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "JMU",
@@ -1795,7 +1795,7 @@
    "detail": "9/12 - 3:45 PM EDT",
    "venue": "DATCU Stadium",
    "broadcast": "ESPNU",
-   "spread": "UNLV -3.5",
+   "spread": "UNLV -3",
    "overUnder": 56.5,
    "headline": null,
    "home": {
@@ -1832,7 +1832,7 @@
    "detail": "9/12 - 4:00 PM EDT",
    "venue": "Gerald J. Ford Stadium",
    "broadcast": "ACCNX",
-   "spread": "SMU -24.5",
+   "spread": "SMU -25.5",
    "overUnder": 58.5,
    "headline": null,
    "home": {
@@ -1869,8 +1869,8 @@
    "detail": "9/12 - 4:00 PM EDT",
    "venue": "War Memorial Stadium",
    "broadcast": "MW+",
-   "spread": null,
-   "overUnder": null,
+   "spread": "WYO -22.5",
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "WYO",
@@ -1906,8 +1906,8 @@
    "detail": "9/12 - 4:00 PM EDT",
    "venue": "University Stadium (NM)",
    "broadcast": "MW+",
-   "spread": null,
-   "overUnder": null,
+   "spread": "UNM -40.5",
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "UNM",
@@ -1944,7 +1944,7 @@
    "venue": "Veterans Memorial Stadium (AL)",
    "broadcast": "ESPN+",
    "spread": null,
-   "overUnder": null,
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "TROY",
@@ -1980,7 +1980,7 @@
    "detail": "9/12 - 4:15 PM EDT",
    "venue": "FirstBank Stadium",
    "broadcast": "SEC Network",
-   "spread": "VAN -20.5",
+   "spread": "VAN -21",
    "overUnder": 54.5,
    "headline": null,
    "home": {
@@ -2017,8 +2017,8 @@
    "detail": "9/12 - 5:30 PM EDT",
    "venue": "Ben Hill Griffin Stadium",
    "broadcast": "SECN+",
-   "spread": null,
-   "overUnder": null,
+   "spread": "FLA -49.5",
+   "overUnder": 65.5,
    "headline": null,
    "home": {
     "abbr": "FLA",
@@ -2128,7 +2128,7 @@
    "detail": "9/12 - 6:00 PM EDT",
    "venue": "Peden Stadium",
    "broadcast": "ESPN+",
-   "spread": "OHIO -3",
+   "spread": "OHIO -2.5",
    "overUnder": 50.5,
    "headline": null,
    "home": {
@@ -2165,8 +2165,8 @@
    "detail": "9/12 - 6:00 PM EDT",
    "venue": "Williams Stadium (VA)",
    "broadcast": "ESPN+",
-   "spread": null,
-   "overUnder": null,
+   "spread": "LIB -26.5",
+   "overUnder": 55.5,
    "headline": null,
    "home": {
     "abbr": "LIB",
@@ -2202,8 +2202,8 @@
    "detail": "9/12 - 6:30 PM EDT",
    "venue": "Waldo Stadium",
    "broadcast": "ESPN+",
-   "spread": null,
-   "overUnder": null,
+   "spread": "WMU -25.5",
+   "overUnder": 52.5,
    "headline": null,
    "home": {
     "abbr": "WMU",
@@ -2313,8 +2313,8 @@
    "detail": "9/12 - 7:00 PM EDT",
    "venue": "Williams-Brice Stadium",
    "broadcast": "SECN+",
-   "spread": null,
-   "overUnder": null,
+   "spread": "SC -43.5",
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "SC",
@@ -2387,7 +2387,7 @@
    "detail": "9/12 - 7:00 PM EDT",
    "venue": "Memorial Stadium (Lincoln, NE)",
    "broadcast": "FS1",
-   "spread": "NEB -28.5",
+   "spread": "NEB -29.5",
    "overUnder": 51.5,
    "headline": null,
    "home": {
@@ -2424,8 +2424,8 @@
    "detail": "9/12 - 7:00 PM EDT",
    "venue": "Canvas Stadium",
    "broadcast": "CBSSN",
-   "spread": null,
-   "overUnder": null,
+   "spread": "CSU -20.5",
+   "overUnder": 56.5,
    "headline": null,
    "home": {
     "abbr": "CSU",
@@ -2461,7 +2461,7 @@
    "detail": "9/12 - 7:00 PM EDT",
    "venue": "Elliott T. Bowers Stadium",
    "broadcast": "ESPN+",
-   "spread": "TLSA -14",
+   "spread": "TLSA -13.5",
    "overUnder": 51.5,
    "headline": null,
    "home": {
@@ -2498,8 +2498,8 @@
    "detail": "9/12 - 7:00 PM EDT",
    "venue": "Huskie Stadium",
    "broadcast": "MW+",
-   "spread": null,
-   "overUnder": null,
+   "spread": "ILST -4.5",
+   "overUnder": 48.5,
    "headline": null,
    "home": {
     "abbr": "NIU",
@@ -2647,7 +2647,7 @@
    "venue": "Joan C. Edwards Stadium",
    "broadcast": "ESPN+",
    "spread": "MRSH -13.5",
-   "overUnder": 57.5,
+   "overUnder": 56.5,
    "headline": null,
    "home": {
     "abbr": "MRSH",
@@ -2683,8 +2683,8 @@
    "detail": "9/12 - 7:00 PM EDT",
    "venue": "Robert W. Plaster Stadium",
    "broadcast": "ESPN+",
-   "spread": null,
-   "overUnder": null,
+   "spread": "MOST -19.5",
+   "overUnder": 52.5,
    "headline": null,
    "home": {
     "abbr": "MOST",
@@ -2720,8 +2720,8 @@
    "detail": "9/12 - 7:15 PM EDT",
    "venue": "Rose Bowl",
    "broadcast": "BTN",
-   "spread": "UCLA -11.5",
-   "overUnder": 55.5,
+   "spread": "UCLA -12.5",
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "UCLA",
@@ -2757,8 +2757,8 @@
    "detail": "9/12 - 7:15 PM EDT",
    "venue": "Camp Randall Stadium",
    "broadcast": "BTN",
-   "spread": null,
-   "overUnder": null,
+   "spread": "WIS -38.5",
+   "overUnder": 48.5,
    "headline": null,
    "home": {
     "abbr": "WIS",
@@ -2979,7 +2979,7 @@
    "detail": "9/12 - 7:30 PM EDT",
    "venue": "Flagler Credit Union Stadium",
    "broadcast": "ESPNU",
-   "spread": "NAVY -4.5",
+   "spread": "NAVY -5.5",
    "overUnder": 58.5,
    "headline": null,
    "home": {
@@ -3016,8 +3016,8 @@
    "detail": "9/12 - 7:30 PM EDT",
    "venue": "Brooks Stadium (SC)",
    "broadcast": "ESPN+",
-   "spread": null,
-   "overUnder": null,
+   "spread": "CCU -33.5",
+   "overUnder": 52.5,
    "headline": null,
    "home": {
     "abbr": "CCU",
@@ -3090,8 +3090,8 @@
    "detail": "9/12 - 7:45 PM EDT",
    "venue": "Jordan-Hare Stadium",
    "broadcast": "SEC Network",
-   "spread": "AUB -32.5",
-   "overUnder": 57.5,
+   "spread": "AUB -33.5",
+   "overUnder": 56.5,
    "headline": null,
    "home": {
     "abbr": "AUB",
@@ -3127,8 +3127,8 @@
    "detail": "9/12 - 8:00 PM EDT",
    "venue": "Amon G. Carter Stadium",
    "broadcast": "ESPN+",
-   "spread": null,
-   "overUnder": null,
+   "spread": "TCU -43.5",
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "TCU",
@@ -3164,8 +3164,8 @@
    "detail": "9/12 - 8:08 PM EDT",
    "venue": "McLane Stadium",
    "broadcast": "ESPN+",
-   "spread": null,
-   "overUnder": null,
+   "spread": "BAY -38.5",
+   "overUnder": 56.5,
    "headline": null,
    "home": {
     "abbr": "BAY",
@@ -3201,8 +3201,8 @@
    "detail": "9/12 - 9:00 PM EDT",
    "venue": "CEFCU Stadium",
    "broadcast": "MW+",
-   "spread": null,
-   "overUnder": null,
+   "spread": "SJSU -20.5",
+   "overUnder": 56.5,
    "headline": null,
    "home": {
     "abbr": "SJSU",
@@ -3238,8 +3238,8 @@
    "detail": "9/12 - 9:00 PM EDT",
    "venue": "Sun Bowl",
    "broadcast": "MW+",
-   "spread": null,
-   "overUnder": null,
+   "spread": "UTEP -25.5",
+   "overUnder": 52.5,
    "headline": null,
    "home": {
     "abbr": "UTEP",
@@ -3313,7 +3313,7 @@
    "venue": "Rice-Eccles Stadium",
    "broadcast": "ESPN",
    "spread": "UTAH -12.5",
-   "overUnder": 54.5,
+   "overUnder": 55.5,
    "headline": null,
    "home": {
     "abbr": "UTAH",
@@ -3386,7 +3386,7 @@
    "detail": "9/12 - 10:30 PM EDT",
    "venue": "Mackay Stadium",
    "broadcast": "CW",
-   "spread": "MTST -4.5",
+   "spread": "MTST -3.5",
    "overUnder": 49.5,
    "headline": null,
    "home": {
@@ -3424,7 +3424,7 @@
    "venue": "Los Angeles Memorial Coliseum",
    "broadcast": "BTN",
    "spread": "USC -30.5",
-   "overUnder": 59.5,
+   "overUnder": 60.5,
    "headline": null,
    "home": {
     "abbr": "USC",
@@ -3460,7 +3460,7 @@
    "detail": "9/12 - 11:59 PM EDT",
    "venue": "Clarence T.C. Ching Athletics Complex",
    "broadcast": "MW+",
-   "spread": "HAW -7",
+   "spread": "HAW -7.5",
    "overUnder": 49.5,
    "headline": null,
    "home": {
