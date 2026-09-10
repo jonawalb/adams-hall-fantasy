@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 1,
- "archivedAt": "2026-09-09T10:34:55.585Z",
+ "archivedAt": "2026-09-10T10:23:42.241Z",
  "matchups": [
   {
    "id": 1,
@@ -108,7 +108,7 @@
       "name": "Rashid Shaheed",
       "pos": "WR",
       "slot": "BE",
-      "points": 0
+      "points": 1.4
      },
      {
       "playerId": 4360635,
@@ -191,7 +191,7 @@
       "name": "Jadarian Price",
       "pos": "RB",
       "slot": "BE",
-      "points": 0
+      "points": 7.800000000000001
      },
      {
       "playerId": 4432620,
@@ -232,7 +232,7 @@
       "playerId": 4385690,
       "name": "Dalton Kincaid",
       "pos": "TE",
-      "slot": "TE",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -273,7 +273,7 @@
       "name": "Jaxon Smith-Njigba",
       "pos": "WR",
       "slot": "WR",
-      "points": 0
+      "points": 26.200000000000003
      },
      {
       "playerId": 4362238,
@@ -287,7 +287,7 @@
       "name": "A.J. Brown",
       "pos": "WR",
       "slot": "WR",
-      "points": 0
+      "points": 5.6
      },
      {
       "playerId": 4372016,
@@ -564,7 +564,7 @@
       "name": "Rhamondre Stevenson",
       "pos": "RB",
       "slot": "RB",
-      "points": 0
+      "points": 14.500000000000002
      },
      {
       "playerId": 4701936,
@@ -653,7 +653,7 @@
       "playerId": 4870808,
       "name": "Jeremiyah Love",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -688,14 +688,14 @@
       "playerId": 3128429,
       "name": "Courtland Sutton",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0
      },
      {
       "playerId": 3042519,
       "name": "Aaron Jones Sr.",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "RB",
       "points": 0
      },
      {
@@ -917,7 +917,7 @@
       "name": "Drake Maye",
       "pos": "QB",
       "slot": "BE",
-      "points": 0
+      "points": 9.82
      },
      {
       "playerId": 4259545,
@@ -987,7 +987,7 @@
       "name": "Hunter Henry",
       "pos": "TE",
       "slot": "BE",
-      "points": 0
+      "points": 5.6
      },
      {
       "playerId": 4241474,
@@ -1019,7 +1019,7 @@
       "playerId": 4567048,
       "name": "Kenneth Walker III",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -1040,7 +1040,7 @@
       "playerId": 4431459,
       "name": "Tyler Warren",
       "pos": "TE",
-      "slot": "IR",
+      "slot": "TE",
       "points": 0
      },
      {
@@ -1068,14 +1068,7 @@
       "playerId": 4569987,
       "name": "Jaylen Warren",
       "pos": "RB",
-      "slot": "FLEX",
-      "points": 0
-     },
-     {
-      "playerId": 3916433,
-      "name": "Jakobi Meyers",
-      "pos": "WR",
-      "slot": "BE",
+      "slot": "RB",
       "points": 0
      },
      {
@@ -1097,14 +1090,14 @@
       "name": "Jason Myers",
       "pos": "K",
       "slot": "K",
-      "points": 0
+      "points": 7
      },
      {
       "playerId": -16026,
       "name": "Seahawks D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
-      "points": 0
+      "points": 14
      },
      {
       "playerId": 4870653,
@@ -1124,7 +1117,7 @@
       "playerId": 3116365,
       "name": "Mark Andrews",
       "pos": "TE",
-      "slot": "TE",
+      "slot": "BE",
       "points": 0
      }
     ]
@@ -1151,7 +1144,7 @@
       "playerId": 4432665,
       "name": "Brock Bowers",
       "pos": "TE",
-      "slot": "TE",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -1228,7 +1221,7 @@
       "playerId": 4242355,
       "name": "Jake Ferguson",
       "pos": "TE",
-      "slot": "BE",
+      "slot": "TE",
       "points": 0
      },
      {
