@@ -5,6 +5,7 @@ import { getSupabase } from "@/lib/supabase";
 import { useUser } from "@/lib/useUser";
 import PostThread from "@/components/PostThread";
 import { parseBetInput } from "@/lib/parlayParser";
+import { findGameForBet, findGameForLeg, type GameContext, type NflSlate, type CfbData, type RosterLookup } from "@/lib/gameContext";
 
 const PREVIEW_ID = "preview";
 
@@ -313,10 +314,19 @@ function Stats({ bets, cfg, pltr }: { bets: Bet[]; cfg: BettorConfig; pltr?: Plt
   );
 }
 
-function LegList({ betLegs, canVerify, canAdmin, onResolveLeg }: {
+function LegGameTag({ ctx }: { ctx: GameContext }) {
+  return (
+    <span className="text-[10px] text-cream-dim/60">
+      {ctx.awayAbbr} @ {ctx.homeAbbr} · {ctx.completed ? "Final" : ctx.state === "in" ? "Live" : new Date(ctx.gameTime).toLocaleString("en-US", { weekday: "short", hour: "numeric", minute: "2-digit", timeZone: "America/New_York" })}
+    </span>
+  );
+}
+
+function LegList({ betLegs, canVerify, canAdmin, legContexts, onResolveLeg }: {
   betLegs: Leg[];
   canVerify: boolean;
   canAdmin: boolean;
+  legContexts: Map<number, GameContext>;
   onResolveLeg: (legId: number, result: string) => void;
 }) {
   if (betLegs.length <= 1) return null;
@@ -326,39 +336,47 @@ function LegList({ betLegs, canVerify, canAdmin, onResolveLeg }: {
         const isPending = !leg.result || leg.result === "pending";
         const showGrade = canVerify && isPending;
         const showRegrade = canAdmin && !isPending;
+        const legCtx = legContexts.get(leg.id);
         return (
-          <div key={leg.id} className="flex items-center gap-2 text-xs">
-            <span className={`w-4 text-center ${
-              leg.result === "won" ? "text-emerald-400" : leg.result === "lost" ? "text-blood" : "text-gold"
-            }`}>
-              {leg.result === "won" ? "✓" : leg.result === "lost" ? "✗" : "●"}
-            </span>
-            <span className={`flex-1 ${leg.result === "lost" ? "line-through text-cream-dim" : ""}`}>
-              {leg.description}
-            </span>
-            {leg.odds && <span className="text-cream-dim">{leg.odds}</span>}
-            {showGrade && (
-              <div className="flex gap-1">
-                {(["won", "lost", "push"] as const).map((r) => (
-                  <button key={r} type="button" onClick={() => onResolveLeg(leg.id, r)}
-                    className="rounded-sm border border-line px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-cream-dim hover:border-gold hover:text-cream">
-                    {r === "won" ? "W" : r === "lost" ? "L" : "P"}
+          <div key={leg.id} className="space-y-0.5">
+            <div className="flex items-center gap-2 text-xs">
+              <span className={`w-4 text-center ${
+                leg.result === "won" ? "text-emerald-400" : leg.result === "lost" ? "text-blood" : "text-gold"
+              }`}>
+                {leg.result === "won" ? "✓" : leg.result === "lost" ? "✗" : "●"}
+              </span>
+              <span className={`flex-1 ${leg.result === "lost" ? "line-through text-cream-dim" : ""}`}>
+                {leg.description}
+              </span>
+              {leg.odds && <span className="text-cream-dim">{leg.odds}</span>}
+              {showGrade && (
+                <div className="flex gap-1">
+                  {(["won", "lost", "push"] as const).map((r) => (
+                    <button key={r} type="button" onClick={() => onResolveLeg(leg.id, r)}
+                      className="rounded-sm border border-line px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-cream-dim hover:border-gold hover:text-cream">
+                      {r === "won" ? "W" : r === "lost" ? "L" : "P"}
+                    </button>
+                  ))}
+                </div>
+              )}
+              {showRegrade && (
+                <div className="flex gap-1">
+                  {(["won", "lost", "push"] as const).filter((r) => r !== leg.result).map((r) => (
+                    <button key={r} type="button" onClick={() => onResolveLeg(leg.id, r)}
+                      className="rounded-sm border border-line px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-cream-dim hover:border-gold hover:text-cream">
+                      {r === "won" ? "W" : r === "lost" ? "L" : "P"}
+                    </button>
+                  ))}
+                  <button type="button" onClick={() => onResolveLeg(leg.id, "pending")}
+                    className="rounded-sm border border-gold-deep/60 px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-gold hover:border-gold hover:text-gold-bright">
+                    UNDO
                   </button>
-                ))}
-              </div>
-            )}
-            {showRegrade && (
-              <div className="flex gap-1">
-                {(["won", "lost", "push"] as const).filter((r) => r !== leg.result).map((r) => (
-                  <button key={r} type="button" onClick={() => onResolveLeg(leg.id, r)}
-                    className="rounded-sm border border-line px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-cream-dim hover:border-gold hover:text-cream">
-                    {r === "won" ? "W" : r === "lost" ? "L" : "P"}
-                  </button>
-                ))}
-                <button type="button" onClick={() => onResolveLeg(leg.id, "pending")}
-                  className="rounded-sm border border-gold-deep/60 px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-gold hover:border-gold hover:text-gold-bright">
-                  UNDO
-                </button>
+                </div>
+              )}
+            </div>
+            {legCtx && (
+              <div className="ml-6">
+                <LegGameTag ctx={legCtx} />
               </div>
             )}
           </div>
@@ -368,8 +386,26 @@ function LegList({ betLegs, canVerify, canAdmin, onResolveLeg }: {
   );
 }
 
-function BetCard({ bet, canEdit, canVerify, canAdmin, roast, betLegs, onUpdate, onRemove, onResolveLeg }: {
+function GameBadge({ ctx }: { ctx: GameContext }) {
+  const stateColor = ctx.completed
+    ? "text-cream-dim"
+    : ctx.state === "in"
+      ? "text-gold-bright"
+      : "text-cream-dim/80";
+  return (
+    <div className={`mt-1.5 flex items-center gap-1.5 rounded-sm border border-line/60 bg-felt-deep/40 px-2 py-1 text-[11px] ${stateColor}`}>
+      <span className="font-bold uppercase tracking-wider opacity-60">{ctx.sport}</span>
+      <span className="opacity-40">·</span>
+      <span className="font-semibold text-cream">{ctx.awayAbbr} @ {ctx.homeAbbr}</span>
+      <span className="opacity-40">·</span>
+      <span>{ctx.completed ? "Final" : ctx.state === "in" ? "In Progress" : new Date(ctx.gameTime).toLocaleString("en-US", { weekday: "short", hour: "numeric", minute: "2-digit", timeZone: "America/New_York" })}</span>
+    </div>
+  );
+}
+
+function BetCard({ bet, canEdit, canVerify, canAdmin, roast, betLegs, gameCtx, legContexts, onUpdate, onRemove, onResolveLeg }: {
   bet: Bet; canEdit: boolean; canVerify: boolean; canAdmin: boolean; roast: string | null; betLegs: Leg[];
+  gameCtx: GameContext | null; legContexts: Map<number, GameContext>;
   onUpdate: (id: number, result: Result) => void; onRemove: (id: number) => void;
   onResolveLeg: (legId: number, result: string) => void;
 }) {
@@ -389,6 +425,7 @@ function BetCard({ bet, canEdit, canVerify, canAdmin, roast, betLegs, onUpdate, 
           <p className="font-head text-sm font-semibold leading-tight">{bet.description}</p>
           <p className="shrink-0 text-xs text-cream-dim">{fmtDate(bet.created_at)} · {fmtTime(bet.created_at)}</p>
         </div>
+        {gameCtx && !isParlay && <GameBadge ctx={gameCtx} />}
         <div className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-cream-dim">
           {bet.odds && <span>Odds: <span className="text-cream">{bet.odds}</span></span>}
           {bet.stake && <span>Stake: <span className="text-cream">{bet.stake}</span></span>}
@@ -402,7 +439,7 @@ function BetCard({ bet, canEdit, canVerify, canAdmin, roast, betLegs, onUpdate, 
           )}
         </div>
         {bet.note && <p className="mt-1.5 text-xs italic text-cream-dim">&ldquo;{bet.note}&rdquo;</p>}
-        <LegList betLegs={betLegs} canVerify={canVerify} canAdmin={canAdmin} onResolveLeg={onResolveLeg} />
+        <LegList betLegs={betLegs} canVerify={canVerify} canAdmin={canAdmin} legContexts={legContexts} onResolveLeg={onResolveLeg} />
         {roast && (
           <p className={`mt-1.5 text-xs font-semibold ${result === "lost" ? "text-blood/80" : result === "won" ? "text-emerald-400/80" : "text-cream-dim/80"}`}>
             {roast}
@@ -425,7 +462,7 @@ function BetCard({ bet, canEdit, canVerify, canAdmin, roast, betLegs, onUpdate, 
   );
 }
 
-export default function BetBook({ bettor, tag, pltr }: { bettor: BettorConfig; tag: string; pltr?: PltrData }) {
+export default function BetBook({ bettor, tag, pltr, nflSlate, cfbData, rosters }: { bettor: BettorConfig; tag: string; pltr?: PltrData; nflSlate?: NflSlate; cfbData?: CfbData; rosters?: RosterLookup }) {
   const supabase = getSupabase();
   const user = useUser();
   const myId = supabase ? user?.id ?? null : PREVIEW_ID;
@@ -575,6 +612,31 @@ export default function BetBook({ bettor, tag, pltr }: { bettor: BettorConfig; t
   const pending = bets.filter((b) => !b.result || b.result === "pending");
   const resolved = bets.filter((b) => b.result && b.result !== "pending");
 
+  const defaultSlate: NflSlate = { season: 0, currentWeek: 0, weeks: {} };
+  const defaultCfb: CfbData = { season: 0, week: 0, thisWeek: [], lastWeek: [] };
+  const defaultRosters: RosterLookup = { players: {} };
+  const sl = nflSlate ?? defaultSlate;
+  const cf = cfbData ?? defaultCfb;
+  const rs = rosters ?? defaultRosters;
+
+  function getGameCtx(bet: Bet): GameContext | null {
+    const betLegs = legs.filter((l) => l.bet_id === bet.id);
+    return findGameForBet(
+      { description: bet.description, created_at: bet.created_at },
+      betLegs.map((l) => ({ description: l.description, team_abbr: l.team_abbr })),
+      sl, cf, rs,
+    );
+  }
+
+  function getLegContexts(betLegs: Leg[], betDate: string): Map<number, GameContext> {
+    const map = new Map<number, GameContext>();
+    for (const leg of betLegs) {
+      const ctx = findGameForLeg(leg.description, leg.team_abbr, sl, cf, rs, betDate);
+      if (ctx) map.set(leg.id, ctx);
+    }
+    return map;
+  }
+
   return (
     <section className="space-y-6">
       <Stats bets={bets} cfg={bettor} pltr={pltr} />
@@ -635,21 +697,29 @@ export default function BetBook({ bettor, tag, pltr }: { bettor: BettorConfig; t
       {pending.length > 0 && (
         <div className="space-y-2">
           <p className="kicker">Live bets · {pending.length}</p>
-          {pending.map((b) => (
-            <BetCard key={b.id} bet={b} canEdit={canPost || canAdmin} canVerify={Boolean(user) && b.posted_by !== myId} canAdmin={canAdmin}
-              betLegs={legs.filter((l) => l.bet_id === b.id)} roast={getRoast(b, 0, bettor)}
-              onUpdate={updateResult} onRemove={removeBet} onResolveLeg={resolveLeg} />
-          ))}
+          {pending.map((b) => {
+            const bl = legs.filter((l) => l.bet_id === b.id);
+            return (
+              <BetCard key={b.id} bet={b} canEdit={canPost || canAdmin} canVerify={Boolean(user) && b.posted_by !== myId} canAdmin={canAdmin}
+                betLegs={bl} roast={getRoast(b, 0, bettor)} gameCtx={getGameCtx(b)}
+                legContexts={getLegContexts(bl, b.created_at)}
+                onUpdate={updateResult} onRemove={removeBet} onResolveLeg={resolveLeg} />
+            );
+          })}
         </div>
       )}
       {resolved.length > 0 && (
         <div className="space-y-2">
           <p className="kicker">Settled · {resolved.length}</p>
-          {resolved.map((b, i) => (
-            <BetCard key={b.id} bet={b} canEdit={canPost || canAdmin} canVerify={Boolean(user) && b.posted_by !== myId} canAdmin={canAdmin}
-              betLegs={legs.filter((l) => l.bet_id === b.id)} roast={getRoast(b, computeLossStreakAt(resolved, i), bettor)}
-              onUpdate={updateResult} onRemove={removeBet} onResolveLeg={resolveLeg} />
-          ))}
+          {resolved.map((b, i) => {
+            const bl = legs.filter((l) => l.bet_id === b.id);
+            return (
+              <BetCard key={b.id} bet={b} canEdit={canPost || canAdmin} canVerify={Boolean(user) && b.posted_by !== myId} canAdmin={canAdmin}
+                betLegs={bl} roast={getRoast(b, computeLossStreakAt(resolved, i), bettor)} gameCtx={getGameCtx(b)}
+                legContexts={getLegContexts(bl, b.created_at)}
+                onUpdate={updateResult} onRemove={removeBet} onResolveLeg={resolveLeg} />
+            );
+          })}
         </div>
       )}
       {bets.length === 0 && !error && (
