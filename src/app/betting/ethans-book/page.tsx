@@ -1,6 +1,9 @@
 import BetBook from "@/components/BetBook";
 import { ETHAN } from "@/lib/bettors";
 import pltrData from "../../../../data/pltr.json";
+import nflSlate from "../../../../data/nfl/slate.json";
+import nflRosters from "../../../../data/nfl/rosters.json";
+import cfbData from "../../../../data/cfb.json";
 
 export default function EthansBookPage() {
   return (
@@ -12,7 +15,7 @@ export default function EthansBookPage() {
           The commissioner puts his money where his mouth is. Every bet. Every receipt. Every L.
         </p>
       </header>
-      <BetBook bettor={ETHAN} tag="ethan" pltr={pltrData} />
+      <BetBook bettor={ETHAN} tag="ethan" pltr={pltrData} nflSlate={nflSlate} cfbData={cfbData} rosters={nflRosters} />
     </div>
   );
 }
