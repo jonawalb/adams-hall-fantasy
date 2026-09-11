@@ -479,7 +479,7 @@
      "odds": {
       "provider": null,
       "details": "DAL -3",
-      "overUnder": 48.5,
+      "overUnder": 47.5,
       "moneyline": {
        "home": "+136",
        "away": "-162"
@@ -521,5 +521,5 @@
    ]
   }
  },
- "fetchedAt": "2026-09-11T08:23:19.213Z"
+ "fetchedAt": "2026-09-11T10:24:47.938Z"
 }
