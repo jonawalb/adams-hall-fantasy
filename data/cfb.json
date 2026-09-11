@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 2,
  "poll": "AP Top 25",
- "fetchedAt": "2026-09-11T08:23:19.649Z",
+ "fetchedAt": "2026-09-11T10:24:48.239Z",
  "rankings": [
   {
    "rank": 1,
@@ -390,7 +390,7 @@
    "venue": "Scott Stadium",
    "broadcast": "ACCNX",
    "spread": "UVA -45.5",
-   "overUnder": 55.5,
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "UVA",
@@ -426,7 +426,7 @@
    "detail": "9/11 - 7:00 PM EDT",
    "venue": "Carter-Finley Stadium",
    "broadcast": "ESPNU",
-   "spread": "NCSU -31.5",
+   "spread": "NCSU -32.5",
    "overUnder": 50.5,
    "headline": null,
    "home": {
