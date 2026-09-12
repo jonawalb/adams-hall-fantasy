@@ -97,8 +97,8 @@
       "details": "CIN -3.5",
       "overUnder": 50.5,
       "moneyline": {
-       "home": "-198",
-       "away": "+164"
+       "home": "-205",
+       "away": "+170"
       }
      }
     },
@@ -129,8 +129,8 @@
       "details": "DET -7",
       "overUnder": 49.5,
       "moneyline": {
-       "home": "-310",
-       "away": "+250"
+       "home": "-340",
+       "away": "+270"
       }
      }
     },
@@ -161,8 +161,8 @@
       "details": "TEN -1.5",
       "overUnder": 38.5,
       "moneyline": {
-       "home": "-125",
-       "away": "+105"
+       "home": "-122",
+       "away": "+102"
       }
      }
     },
@@ -222,11 +222,11 @@
      },
      "odds": {
       "provider": null,
-      "details": "PIT -5.5",
+      "details": "PIT -6",
       "overUnder": 41.5,
       "moneyline": {
-       "home": "-230",
-       "away": "+190"
+       "home": "-265",
+       "away": "+215"
       }
      }
     },
@@ -255,10 +255,10 @@
      "odds": {
       "provider": null,
       "details": "CHI -3",
-      "overUnder": 46.5,
+      "overUnder": 47.5,
       "moneyline": {
-       "home": "+136",
-       "away": "-162"
+       "home": "+140",
+       "away": "-166"
       }
      }
     },
@@ -289,8 +289,8 @@
       "details": "JAX -8.5",
       "overUnder": 39.5,
       "moneyline": {
-       "home": "-470",
-       "away": "+360"
+       "home": "-455",
+       "away": "+350"
       }
      }
     },
@@ -321,8 +321,8 @@
       "details": "BUF -1.5",
       "overUnder": 44.5,
       "moneyline": {
-       "home": "+102",
-       "away": "-122"
+       "home": "-102",
+       "away": "-118"
       }
      }
     },
@@ -353,8 +353,8 @@
       "details": "LV -3",
       "overUnder": 40.5,
       "moneyline": {
-       "home": "-166",
-       "away": "+140"
+       "home": "-170",
+       "away": "+142"
       }
      }
     },
@@ -385,8 +385,8 @@
       "details": "MIN -1.5",
       "overUnder": 46.5,
       "moneyline": {
-       "home": "-122",
-       "away": "+102"
+       "home": "-125",
+       "away": "+105"
       }
      }
     },
@@ -417,8 +417,8 @@
       "details": "PHI -6",
       "overUnder": 44.5,
       "moneyline": {
-       "home": "-238",
-       "away": "+195"
+       "home": "-250",
+       "away": "+205"
       }
      }
     },
@@ -479,7 +479,7 @@
      "odds": {
       "provider": null,
       "details": "DAL -3",
-      "overUnder": 47.5,
+      "overUnder": 48.5,
       "moneyline": {
        "home": "+136",
        "away": "-162"
@@ -521,5 +521,5 @@
    ]
   }
  },
- "fetchedAt": "2026-09-11T10:24:47.938Z"
+ "fetchedAt": "2026-09-12T09:55:12.935Z"
 }

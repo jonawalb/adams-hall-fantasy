@@ -3339,7 +3339,7 @@
   "id": 4373030,
   "name": "Ben Sims",
   "pos": "TE",
-  "proTeamId": 15
+  "proTeamId": 0
  },
  "4373266": {
   "id": 4373266,
@@ -3387,7 +3387,7 @@
   "id": 4374033,
   "name": "Jermar Jefferson",
   "pos": "RB",
-  "proTeamId": 16
+  "proTeamId": 0
  },
  "4374045": {
   "id": 4374045,
@@ -3801,7 +3801,7 @@
   "id": 4428678,
   "name": "Jamari Thrash",
   "pos": "WR",
-  "proTeamId": 5
+  "proTeamId": 0
  },
  "4428718": {
   "id": 4428718,
@@ -4984,6 +4984,12 @@
   "name": "Mitchell Evans",
   "pos": "TE",
   "proTeamId": 29
+ },
+ "4683308": {
+  "id": 4683308,
+  "name": "Tanner Arkin",
+  "pos": "TE",
+  "proTeamId": 17
  },
  "4683423": {
   "id": 4683423,
