@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 1,
- "archivedAt": "2026-09-12T09:55:16.876Z",
+ "archivedAt": "2026-09-13T10:55:10.964Z",
  "matchups": [
   {
    "id": 1,
@@ -148,7 +148,7 @@
       "playerId": 4890973,
       "name": "Ashton Jeanty",
       "pos": "RB",
-      "slot": "FLEX",
+      "slot": "RB",
       "points": 0
      },
      {
@@ -162,7 +162,7 @@
       "playerId": 4361579,
       "name": "Javonte Williams",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -243,8 +243,8 @@
       "points": 0
      },
      {
-      "playerId": 4697745,
-      "name": "Tyler Loop",
+      "playerId": 17372,
+      "name": "Chris Boswell",
       "pos": "K",
       "slot": "K",
       "points": 0
@@ -770,7 +770,7 @@
       "playerId": 4595348,
       "name": "Malik Nabers",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -798,7 +798,7 @@
       "playerId": 4035538,
       "name": "David Montgomery",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0
      },
      {
