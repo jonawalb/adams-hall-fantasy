@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 3,
  "poll": "AP Top 25",
- "fetchedAt": "2026-09-14T11:27:55.734Z",
+ "fetchedAt": "2026-09-14T14:53:54.042Z",
  "rankings": [
   {
    "rank": 1,
@@ -352,7 +352,7 @@
    "detail": "9/18 - 7:30 PM EDT",
    "venue": "Allegacy Federal Credit Union Stadium",
    "broadcast": "ESPN",
-   "spread": "MIA -21.5",
+   "spread": "MIA -20.5",
    "overUnder": 55.5,
    "headline": null,
    "home": {
@@ -463,7 +463,7 @@
    "detail": "9/19 - 11:30 AM EDT",
    "venue": "Delaware Stadium",
    "broadcast": "CBSSN",
-   "spread": "DEL -4.5",
+   "spread": "DEL -5.5",
    "overUnder": 57.5,
    "headline": null,
    "home": {
@@ -797,7 +797,7 @@
    "venue": "Huntington Bank Stadium",
    "broadcast": "BTN",
    "spread": "MINN -24.5",
-   "overUnder": 48.5,
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "MINN",
@@ -1315,7 +1315,7 @@
    "venue": "TQL Stadium",
    "broadcast": "ESPN+",
    "spread": "CIN -14.5",
-   "overUnder": 50.5,
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "CIN",
@@ -1943,8 +1943,8 @@
    "detail": "9/19 - 7:00 PM EDT",
    "venue": "Acrisure Bounce House",
    "broadcast": "ESPN+",
-   "spread": "UCF -20.5",
-   "overUnder": 52.5,
+   "spread": "UCF -18.5",
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "UCF",
@@ -2572,7 +2572,7 @@
    "detail": "9/19 - 7:30 PM EDT",
    "venue": "Northwestern Medicine Field at Martin Stadium",
    "broadcast": null,
-   "spread": "NU -4",
+   "spread": "NU -4.5",
    "overUnder": 48.5,
    "headline": null,
    "home": {
