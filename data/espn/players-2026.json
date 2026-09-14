@@ -1097,6 +1097,12 @@
   "pos": "WR",
   "proTeamId": 0
  },
+ "3138744": {
+  "id": 3138744,
+  "name": "Chris Myarick",
+  "pos": "TE",
+  "proTeamId": 13
+ },
  "3139033": {
   "id": 3139033,
   "name": "Mike Boone",
@@ -4217,6 +4223,12 @@
   "pos": "WR",
   "proTeamId": 0
  },
+ "4431346": {
+  "id": 4431346,
+  "name": "Mark Redman",
+  "pos": "TE",
+  "proTeamId": 9
+ },
  "4431353": {
   "id": 4431353,
   "name": "Xavier Restrepo",
@@ -5020,6 +5032,12 @@
   "name": "Anthony Smith",
   "pos": "WR",
   "proTeamId": 0
+ },
+ "4685116": {
+  "id": 4685116,
+  "name": "DJ Herman",
+  "pos": "RB",
+  "proTeamId": 15
  },
  "4685201": {
   "id": 4685201,
