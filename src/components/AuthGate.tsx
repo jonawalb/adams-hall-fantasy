@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { getSupabase } from "@/lib/supabase";
 
-type State = "checking" | "in" | "out" | "preview";
+type State = "checking" | "in" | "out" | "preview" | "error";
 
 /**
  * Client-side auth gate for the static export. With Supabase configured,
@@ -20,18 +20,35 @@ export default function AuthGate({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     if (!supabase) return;
-    supabase.auth.getSession().then(({ data }) => {
+
+    let timer: ReturnType<typeof setTimeout>;
+
+    supabase.auth.getSession().then(({ data, error }) => {
+      if (error) {
+        setState("error");
+        return;
+      }
       setState(data.session ? "in" : "out");
+    }).catch(() => {
+      setState("error");
     });
+
     const { data: sub } = supabase.auth.onAuthStateChange((_e, session) => {
       setState(session ? "in" : "out");
     });
-    return () => sub.subscription.unsubscribe();
+
+    // Safety: don't let "checking" hang forever — bounce to login after 5s.
+    timer = setTimeout(() => {
+      setState((s) => (s === "checking" ? "out" : s));
+    }, 5000);
+
+    return () => {
+      sub.subscription.unsubscribe();
+      clearTimeout(timer);
+    };
   }, [supabase]);
 
   const isLogin = pathname?.startsWith("/login");
-  // /welcome must stay reachable without a session (invite links land there
-  // with the auth token in the URL hash) AND with one (to set the password).
   const isPublic = isLogin || pathname?.startsWith("/welcome");
 
   useEffect(() => {
@@ -49,6 +66,25 @@ export default function AuthGate({ children }: { children: React.ReactNode }) {
         </div>
         {children}
       </>
+    );
+  }
+
+  if (state === "error" && !isPublic) {
+    return (
+      <div className="flex min-h-[60vh] flex-col items-center justify-center gap-4 px-4 text-center">
+        <p className="font-head text-lg text-gold-bright">Session expired</p>
+        <p className="text-sm text-cream-dim">
+          Your login session couldn&rsquo;t be restored. This can happen in private
+          browsing or if cookies are blocked.
+        </p>
+        <button
+          type="button"
+          onClick={() => router.replace("/login")}
+          className="font-head rounded-sm bg-gold px-6 py-2.5 text-sm font-bold uppercase tracking-widest text-felt-deep hover:bg-gold-bright"
+        >
+          Sign in again
+        </button>
+      </div>
     );
   }
 
