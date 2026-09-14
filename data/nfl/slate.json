@@ -458,23 +458,23 @@
      "id": "401872930",
      "date": "2026-09-14T00:20Z",
      "name": "DAL @ NYG",
-     "state": "in",
-     "completed": false,
-     "winner": null,
-     "detail": "12:53 - 1st",
+     "state": "post",
+     "completed": true,
+     "winner": "home",
+     "detail": "Final",
      "home": {
       "abbr": "NYG",
       "name": "New York Giants",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
       "color": "003c7f",
-      "score": 0
+      "score": 28
      },
      "away": {
       "abbr": "DAL",
       "name": "Dallas Cowboys",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
       "color": "002a5c",
-      "score": 0
+      "score": 20
      },
      "odds": {
       "provider": "Draft Kings",
@@ -509,7 +509,7 @@
       "score": 0
      },
      "odds": {
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "details": "KC -2.5",
       "overUnder": 43.5,
       "moneyline": {
@@ -521,5 +521,5 @@
    ]
   }
  },
- "fetchedAt": "2026-09-14T00:31:38.902Z"
+ "fetchedAt": "2026-09-14T07:45:12.605Z"
 }

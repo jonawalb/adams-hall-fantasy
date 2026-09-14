@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 1,
- "archivedAt": "2026-09-14T00:31:44.451Z",
+ "archivedAt": "2026-09-14T07:45:17.852Z",
  "matchups": [
   {
    "id": 1,
@@ -45,7 +45,7 @@
       "name": "Cam Skattebo",
       "pos": "RB",
       "slot": "FLEX",
-      "points": 0.5
+      "points": 14.1
      },
      {
       "playerId": 4572680,
@@ -59,7 +59,7 @@
       "name": "Jaxson Dart",
       "pos": "QB",
       "slot": "QB",
-      "points": 0
+      "points": 26.6
      },
      {
       "playerId": 16737,
@@ -163,7 +163,7 @@
       "name": "Javonte Williams",
       "pos": "RB",
       "slot": "FLEX",
-      "points": 0.1
+      "points": 24.200000000000003
      },
      {
       "playerId": 4429615,
@@ -308,7 +308,7 @@
       "name": "Brandon Aubrey",
       "pos": "K",
       "slot": "K",
-      "points": 0
+      "points": 2
      },
      {
       "playerId": 5083076,
@@ -343,7 +343,7 @@
       "name": "Isaiah Likely",
       "pos": "TE",
       "slot": "TE",
-      "points": 0
+      "points": 27.8
      },
      {
       "playerId": 3917792,
@@ -757,7 +757,7 @@
       "name": "CeeDee Lamb",
       "pos": "WR",
       "slot": "WR",
-      "points": 0
+      "points": 15.4
      },
      {
       "playerId": 4379399,
@@ -771,7 +771,7 @@
       "name": "Malik Nabers",
       "pos": "WR",
       "slot": "BE",
-      "points": 0
+      "points": 12.9
      },
      {
       "playerId": 4241478,
@@ -869,7 +869,7 @@
       "name": "Malachi Fields",
       "pos": "WR",
       "slot": "BE",
-      "points": 0
+      "points": 4.5
      }
     ]
    },
@@ -896,7 +896,7 @@
       "name": "George Pickens",
       "pos": "WR",
       "slot": "WR",
-      "points": 1.8
+      "points": 5.800000000000001
      },
      {
       "playerId": 4239996,
@@ -1104,7 +1104,7 @@
       "name": "Dak Prescott",
       "pos": "QB",
       "slot": "BE",
-      "points": 0.32
+      "points": 14.4
      },
      {
       "playerId": 3116365,
@@ -1215,7 +1215,7 @@
       "name": "Jake Ferguson",
       "pos": "TE",
       "slot": "TE",
-      "points": 0
+      "points": 2.6
      },
      {
       "playerId": 4574716,
