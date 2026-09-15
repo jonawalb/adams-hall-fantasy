@@ -162,7 +162,7 @@ export default function TuesdayTape() {
     <section className="space-y-4">
       <header className="flex flex-wrap items-end justify-between gap-3">
         <div>
-          <p className="kicker">Nishok&rsquo;s Tuesday Tape</p>
+          <p className="kicker">Nishok&rsquo;s Meme Deck</p>
           <h2 className="font-display mt-1 text-2xl text-gold-bright">THE WEEKLY TAPE</h2>
         </div>
         {latest && <p className="text-xs text-cream-dim">Latest: {fmtDate(latest.created_at)}</p>}

@@ -1,44 +1,38 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
 import { getSupabase } from "@/lib/supabase";
-import { useIsCommissioner } from "@/lib/useIsCommissioner";
-import { RECAP_FIELDS, Recap, fmtDate } from "@/lib/recaps";
 
 interface Video {
   id: number;
   title: string;
   url: string | null;
   storage_path: string | null;
+  category: string;
   created_at: string;
   poster?: { display_name: string } | null;
 }
 
-/** Archive of every recap and every Tuesday Tape. */
+const fmtDate = (iso: string) =>
+  new Date(iso).toLocaleDateString("en-US", { weekday: "long", month: "short", day: "numeric" });
+
 export default function TheVault() {
   const supabase = getSupabase();
-  const isCommissioner = useIsCommissioner();
-  const [recaps, setRecaps] = useState<Recap[]>([]);
-  const [videos, setVideos] = useState<Video[]>([]);
+  const [recaps, setRecaps] = useState<Video[]>([]);
+  const [tapes, setTapes] = useState<Video[]>([]);
   const [signed, setSigned] = useState<Record<number, string>>({});
 
   useEffect(() => {
     if (!supabase) return;
     supabase
-      .from("recaps")
-      .select(RECAP_FIELDS)
-      .order("season", { ascending: false })
-      .order("week", { ascending: false })
-      .then(({ data }) => setRecaps((data as Recap[]) ?? []));
-    supabase
       .from("videos")
-      .select("id, title, url, storage_path, created_at, poster:members(display_name)")
-      .eq("category", "tape")
+      .select("id, title, url, storage_path, category, created_at, poster:members(display_name)")
+      .in("category", ["recap", "tape"])
       .order("created_at", { ascending: false })
       .then(async ({ data }) => {
         const list = (data as unknown as Video[]) ?? [];
-        setVideos(list);
+        setRecaps(list.filter((v) => v.category === "recap"));
+        setTapes(list.filter((v) => v.category === "tape"));
         const urls: Record<number, string> = {};
         for (const v of list.filter((x) => x.storage_path)) {
           const { data: s } = await supabase.storage.from("videos").createSignedUrl(v.storage_path!, 3600);
@@ -52,35 +46,43 @@ export default function TheVault() {
     <div className="grid gap-8 lg:grid-cols-2">
       <section className="space-y-3">
         <header>
-          <p className="kicker">Every Tuesday Morning Paper</p>
-          <h2 className="font-display mt-1 text-2xl text-gold-bright">RECAPS</h2>
+          <p className="kicker">Jorge&rsquo;s Weekly Recap</p>
+          <h2 className="font-display mt-1 text-2xl text-gold-bright">TUESDAY MORNING RECAP</h2>
         </header>
-        {recaps.length === 0 && <p className="text-sm text-cream-dim">{supabase ? "Nothing filed yet." : "Preview mode."}</p>}
+        {recaps.length === 0 && <p className="text-sm text-cream-dim">{supabase ? "No recaps yet." : "Preview mode."}</p>}
         {recaps.map((r) => (
-          <Link key={r.id} href={r.status === "published" ? `/season/recap/?id=${r.id}` : `/season/recap/edit/?id=${r.id}`} className="panel block p-4 hover:border-gold-deep">
-            <p className="kicker">
-              {r.season} · Week {r.week}
-              {r.status === "draft" && <span className="ml-2 rounded-sm bg-blood/30 px-1.5 text-cream">DRAFT</span>}
-            </p>
-            <p className="font-display mt-1 text-xl leading-tight text-gold-bright">{r.title}</p>
-            {r.teaser && <p className="mt-1 text-sm text-cream-dim">{r.teaser}</p>}
-            <p className="mt-2 text-xs text-cream-dim">{fmtDate(r.published_at ?? r.created_at)}</p>
-          </Link>
+          <div key={r.id} className="panel flex items-center justify-between gap-3 p-4">
+            <div className="flex items-center gap-3">
+              <span className="text-xl">🎙️</span>
+              <div>
+                <p className="font-head font-semibold">{r.title}</p>
+                <p className="text-xs text-cream-dim">
+                  {fmtDate(r.created_at)}
+                  {r.poster?.display_name ? ` · ${r.poster.display_name}` : ""}
+                </p>
+              </div>
+            </div>
+            {r.storage_path && signed[r.id] && (
+              <a href={signed[r.id]} target="_blank" rel="noreferrer" className="font-head text-xs uppercase tracking-wider text-gold hover:text-gold-bright">
+                Listen ↗
+              </a>
+            )}
+            {r.url && (
+              <a href={r.url} target="_blank" rel="noreferrer" className="font-head text-xs uppercase tracking-wider text-gold hover:text-gold-bright">
+                Listen ↗
+              </a>
+            )}
+          </div>
         ))}
-        {isCommissioner && supabase && (
-          <Link href="/season/recap/edit/" className="font-head inline-block rounded-sm border border-line px-3 py-1.5 text-xs uppercase tracking-wider text-cream-dim hover:text-cream">
-            New recap
-          </Link>
-        )}
       </section>
 
       <section className="space-y-3">
         <header>
-          <p className="kicker">Every Tuesday Tape</p>
-          <h2 className="font-display mt-1 text-2xl text-gold-bright">NISHOK&rsquo;S VAULT</h2>
+          <p className="kicker">Nishok&rsquo;s Meme Deck</p>
+          <h2 className="font-display mt-1 text-2xl text-gold-bright">THE WEEKLY TAPE</h2>
         </header>
-        {videos.length === 0 && <p className="text-sm text-cream-dim">{supabase ? "No tape yet." : "Preview mode."}</p>}
-        {videos.map((v) => (
+        {tapes.length === 0 && <p className="text-sm text-cream-dim">{supabase ? "No tape yet." : "Preview mode."}</p>}
+        {tapes.map((v) => (
           <div key={v.id} className="panel flex items-center justify-between gap-3 p-4">
             <div>
               <p className="font-head font-semibold">{v.title}</p>
