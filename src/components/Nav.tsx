@@ -88,7 +88,6 @@ const GROUPS: Group[] = [
         title: "History",
         items: [
           { href: "/history", label: "Season by season" },
-          { href: "/season/archive/cameos", label: "Cameos" },
         ],
       },
     ],
@@ -101,6 +100,7 @@ const GROUPS: Group[] = [
           { href: "/south-star", label: "South Star Narrative" },
           { href: "/quotes", label: "Bonk Bracket" },
           { href: "/cfb", label: "College Football" },
+          { href: "/season/archive/cameos", label: "Cameos" },
         ],
       },
     ],
