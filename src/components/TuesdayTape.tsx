@@ -122,7 +122,14 @@ export default function TuesdayTape() {
       setProgress("Uploading…");
       const ext = file.name.split(".").pop() ?? "mp4";
       storage_path = `${new Date().toISOString().slice(0, 10)}-${Math.random().toString(36).slice(2, 8)}.${ext}`;
-      const { error: upErr } = await supabase.storage.from("videos").upload(storage_path, file, { contentType: file.type });
+      const { data: signedData, error: signErr } = await supabase.storage.from("videos").createSignedUploadUrl(storage_path);
+      if (signErr || !signedData) {
+        setError(signErr?.message ?? "Failed to create upload URL");
+        setBusy(false);
+        setProgress(null);
+        return;
+      }
+      const { error: upErr } = await supabase.storage.from("videos").uploadToSignedUrl(storage_path, signedData.token, file, { contentType: file.type, upsert: true });
       if (upErr) {
         setError(upErr.message);
         setBusy(false);
