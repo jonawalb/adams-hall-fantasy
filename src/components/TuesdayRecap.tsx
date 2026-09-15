@@ -3,6 +3,7 @@
 import { FormEvent, useEffect, useState } from "react";
 import { getSupabase } from "@/lib/supabase";
 import { useUser } from "@/lib/useUser";
+import CommentThread from "@/components/CommentThread";
 
 const MAX_BYTES = 50 * 1024 * 1024;
 const JORGE_OWNER = "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}";
@@ -219,6 +220,8 @@ export default function TuesdayRecap() {
           </ul>
         </details>
       )}
+
+      <CommentThread board="recap-comments" />
     </section>
   );
 }

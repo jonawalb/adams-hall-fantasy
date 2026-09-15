@@ -3,6 +3,7 @@
 import { FormEvent, useEffect, useState } from "react";
 import { getSupabase } from "@/lib/supabase";
 import { useUser } from "@/lib/useUser";
+import CommentThread from "@/components/CommentThread";
 
 const PREVIEW_ID = "preview";
 const MAX_BYTES = 50 * 1024 * 1024;
@@ -239,6 +240,8 @@ export default function TuesdayTape() {
           </ul>
         </details>
       )}
+
+      <CommentThread board="tape-comments" />
     </section>
   );
 }
