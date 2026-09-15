@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 2,
- "archivedAt": "2026-09-15T10:50:05.839Z",
+ "archivedAt": "2026-09-15T16:13:42.293Z",
  "matchups": [
   {
    "id": 6,
@@ -44,14 +44,14 @@
       "playerId": 3121422,
       "name": "Terry McLaurin",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "FLEX",
       "points": 0
      },
      {
       "playerId": 3915416,
       "name": "DJ Moore",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0
      },
      {
@@ -65,7 +65,7 @@
       "playerId": 3916148,
       "name": "Tony Pollard",
       "pos": "RB",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -107,7 +107,7 @@
       "playerId": 3054850,
       "name": "Alvin Kamara",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "IR",
       "points": 0
      },
      {

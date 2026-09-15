@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 3,
  "poll": "AP Top 25",
- "fetchedAt": "2026-09-15T10:50:01.794Z",
+ "fetchedAt": "2026-09-15T16:13:39.165Z",
  "rankings": [
   {
    "rank": 1,
@@ -353,7 +353,7 @@
    "venue": "Allegacy Federal Credit Union Stadium",
    "broadcast": "ESPN",
    "spread": "MIA -20.5",
-   "overUnder": 55.5,
+   "overUnder": 56.5,
    "headline": null,
    "home": {
     "abbr": "WAKE",
@@ -463,7 +463,7 @@
    "detail": "9/19 - 11:30 AM EDT",
    "venue": "Delaware Stadium",
    "broadcast": "CBSSN",
-   "spread": "DEL -5.5",
+   "spread": "DEL -4.5",
    "overUnder": 57.5,
    "headline": null,
    "home": {
@@ -500,7 +500,7 @@
    "detail": "9/19 - 12:00 PM EDT",
    "venue": "Donald W. Reynolds Razorback Stadium",
    "broadcast": "ABC",
-   "spread": "UGA -25.5",
+   "spread": "UGA -24.5",
    "overUnder": 54.5,
    "headline": null,
    "home": {
@@ -574,8 +574,8 @@
    "detail": "9/19 - 12:00 PM EDT",
    "venue": "Beaver Stadium",
    "broadcast": "BTN",
-   "spread": "PSU -39.5",
-   "overUnder": 48.5,
+   "spread": "PSU -40.5",
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "PSU",
@@ -649,7 +649,7 @@
    "venue": "Jack Trice Stadium",
    "broadcast": "ESPNU",
    "spread": "ISU -23.5",
-   "overUnder": 44.5,
+   "overUnder": 43.5,
    "headline": null,
    "home": {
     "abbr": "ISU",
@@ -685,8 +685,8 @@
    "detail": "9/19 - 12:00 PM EDT",
    "venue": "Wembley Stadium",
    "broadcast": "FS1",
-   "spread": "ASU -6",
-   "overUnder": 51.5,
+   "spread": "ASU -5.5",
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "KU",
@@ -760,7 +760,7 @@
    "venue": "Memorial Stadium (Clemson, SC)",
    "broadcast": "ESPN",
    "spread": "CLEM -3.5",
-   "overUnder": 44.5,
+   "overUnder": 43.5,
    "headline": null,
    "home": {
     "abbr": "CLEM",
@@ -908,7 +908,7 @@
    "venue": "FirstBank Stadium",
    "broadcast": "SEC Network",
    "spread": "VAN -3.5",
-   "overUnder": 51.5,
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "VAN",
@@ -1130,7 +1130,7 @@
    "venue": "Bryant-Denny Stadium",
    "broadcast": "ABC",
    "spread": "ALA -19.5",
-   "overUnder": 49.5,
+   "overUnder": 48.5,
    "headline": null,
    "home": {
     "abbr": "ALA",
@@ -1315,7 +1315,7 @@
    "venue": "TQL Stadium",
    "broadcast": "ESPN+",
    "spread": "CIN -14.5",
-   "overUnder": 50.5,
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "CIN",
@@ -1537,7 +1537,7 @@
    "venue": "Wallace Wade Stadium",
    "broadcast": "CW",
    "spread": "DUKE -9.5",
-   "overUnder": 51.5,
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "DUKE",
@@ -1648,7 +1648,7 @@
    "venue": "Williams-Brice Stadium",
    "broadcast": "SEC Network",
    "spread": "SC -4",
-   "overUnder": 59.5,
+   "overUnder": 58.5,
    "headline": null,
    "home": {
     "abbr": "SC",
@@ -1944,7 +1944,7 @@
    "venue": "Acrisure Bounce House",
    "broadcast": "ESPN+",
    "spread": "UCF -18.5",
-   "overUnder": 51.5,
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "UCF",
@@ -2202,7 +2202,7 @@
    "detail": "9/19 - 7:00 PM EDT",
    "venue": "Hancock Whitney Stadium",
    "broadcast": "ESPN+",
-   "spread": "USA -4.5",
+   "spread": "USA -5.5",
    "overUnder": 51.5,
    "headline": null,
    "home": {
@@ -2388,7 +2388,7 @@
    "venue": "Notre Dame Stadium",
    "broadcast": "NBC",
    "spread": "ND -29.5",
-   "overUnder": 52.5,
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "ND",
@@ -2425,7 +2425,7 @@
    "venue": "Vaught-Hemingway Stadium",
    "broadcast": "ABC",
    "spread": "LSU -3",
-   "overUnder": 58.5,
+   "overUnder": 59.5,
    "headline": null,
    "home": {
     "abbr": "MISS",
@@ -2721,7 +2721,7 @@
    "venue": "Amon G. Carter Stadium",
    "broadcast": "ESPNU",
    "spread": "TCU -20.5",
-   "overUnder": 55.5,
+   "overUnder": 56.5,
    "headline": null,
    "home": {
     "abbr": "TCU",
@@ -2943,7 +2943,7 @@
    "venue": "Hornet Stadium",
    "broadcast": "ESPN",
    "spread": "NDSU -27.5",
-   "overUnder": 52.5,
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "SAC",
