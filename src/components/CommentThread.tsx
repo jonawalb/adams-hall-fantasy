@@ -111,17 +111,25 @@ function SingleComment({
   );
 }
 
+const BOARD_TITLE: Record<string, string> = { "recap-comments": "Jorge's Recap", "tape-comments": "Nishok's Tape" };
+
 export default function CommentThread({ board }: { board: "recap-comments" | "tape-comments" }) {
   const supabase = getSupabase();
   const user = useUser();
   const userId = user?.id ?? null;
 
   const [comments, setComments] = useState<Comment[]>([]);
+  const [members, setMembers] = useState<string[]>([]);
   const [body, setBody] = useState("");
   const [replyTo, setReplyTo] = useState<number | null>(null);
   const [busy, setBusy] = useState(false);
   const [version, setVersion] = useState(0);
   const reload = () => setVersion((v) => v + 1);
+
+  useEffect(() => {
+    if (!supabase) return;
+    supabase.from("members").select("id").then(({ data }) => setMembers((data ?? []).map((m: { id: string }) => m.id)));
+  }, [supabase]);
 
   useEffect(() => {
     if (!supabase) return;
@@ -156,7 +164,21 @@ export default function CommentThread({ board }: { board: "recap-comments" | "ta
     e.preventDefault();
     if (!supabase || !userId || !body.trim()) return;
     setBusy(true);
-    await supabase.from("comments").insert({ board, body: body.trim(), author: userId, parent_id: replyTo });
+    const { data: inserted } = await supabase.from("comments").insert({ board, body: body.trim(), author: userId, parent_id: replyTo }).select("id").single();
+    if (inserted) {
+      const title = BOARD_TITLE[board] ?? board;
+      if (replyTo) {
+        const parent = comments.flatMap(function flat(c): Comment[] { return [c, ...c.replies.flatMap(flat)]; }).find((c) => c.id === replyTo);
+        if (parent && parent.author !== userId) {
+          await supabase.from("notifications").insert({ recipient: parent.author, actor: userId, kind: "reply", target_type: "comment", target_id: inserted.id, target_title: title, body: body.trim().slice(0, 200) });
+        }
+      } else {
+        const others = members.filter((m) => m !== userId);
+        if (others.length) {
+          await supabase.from("notifications").insert(others.map((r) => ({ recipient: r, actor: userId, kind: "comment", target_type: "comment", target_id: inserted.id, target_title: title, body: body.trim().slice(0, 200) })));
+        }
+      }
+    }
     setBody("");
     setReplyTo(null);
     setBusy(false);
@@ -171,14 +193,16 @@ export default function CommentThread({ board }: { board: "recap-comments" | "ta
 
   async function toggleReaction(commentId: number, emoji: string) {
     if (!supabase || !userId) return;
-    const existing = comments
-      .flatMap(function flat(c): Comment[] { return [c, ...c.replies.flatMap(flat)]; })
-      .find((c) => c.id === commentId)
-      ?.reactions.find((r) => r.emoji === emoji && r.reactor === userId);
+    const allFlat = comments.flatMap(function flat(c): Comment[] { return [c, ...c.replies.flatMap(flat)]; });
+    const target = allFlat.find((c) => c.id === commentId);
+    const existing = target?.reactions.find((r) => r.emoji === emoji && r.reactor === userId);
     if (existing) {
       await supabase.from("comment_reactions").delete().eq("id", existing.id);
     } else {
       await supabase.from("comment_reactions").insert({ comment_id: commentId, emoji, reactor: userId });
+      if (target && target.author !== userId) {
+        await supabase.from("notifications").insert({ recipient: target.author, actor: userId, kind: "reaction", target_type: "comment", target_id: commentId, target_title: BOARD_TITLE[board] ?? board, body: emoji });
+      }
     }
     reload();
   }
