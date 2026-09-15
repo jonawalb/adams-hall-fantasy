@@ -63,6 +63,88 @@ function titleCase(s: string): string {
     .join(" ");
 }
 
+const BENCH_SLOTS = new Set(["BE", "IR"]);
+
+interface BoxLineup {
+  playerId: number;
+  name: string | null;
+  pos: string | null;
+  slot: string;
+  points: number;
+}
+interface BoxSide {
+  teamId: number;
+  points: number;
+  lineup: BoxLineup[];
+}
+interface BoxFile {
+  season: number;
+  scoringPeriodId: number;
+  matchups: { id: number; matchupPeriodId: number; home: BoxSide; away: BoxSide }[];
+}
+
+function starterPoints(lineup: BoxLineup[]): number {
+  return Math.round(lineup.filter((e) => !BENCH_SLOTS.has(e.slot)).reduce((s, e) => s + e.points, 0) * 10) / 10;
+}
+
+function patchFromBoxscores(year: number, games: Game[], teams: Team[]): void {
+  const undecided = games.filter((g) => g.winner === "UNDECIDED" && g.homePts === 0 && g.awayPts === 0);
+  if (!undecided.length) return;
+
+  const boxDir = path.join(DATA_DIR, "boxscores");
+  if (!fs.existsSync(boxDir)) return;
+
+  const files = fs.readdirSync(boxDir).filter((f) => f.startsWith(`${year}-wk`));
+  const boxes: BoxFile[] = files.map((f) => JSON.parse(fs.readFileSync(path.join(boxDir, f), "utf8")));
+
+  const lookup = new Map<string, { homePts: number; awayPts: number }>();
+  for (const box of boxes) {
+    for (const m of box.matchups) {
+      const hp = m.home.points || starterPoints(m.home.lineup);
+      const ap = m.away.points || starterPoints(m.away.lineup);
+      if (hp > 0 || ap > 0) {
+        lookup.set(`${m.matchupPeriodId}-${m.home.teamId}-${m.away.teamId}`, { homePts: hp, awayPts: ap });
+      }
+    }
+  }
+
+  const pf = new Map<number, number>();
+  const pa = new Map<number, number>();
+  const wins = new Map<number, number>();
+  const losses = new Map<number, number>();
+
+  for (const g of undecided) {
+    const key = `${g.week}-${g.homeId}-${g.awayId}`;
+    const pts = lookup.get(key);
+    if (!pts) continue;
+    g.homePts = pts.homePts;
+    g.awayPts = pts.awayPts;
+    g.winner = pts.homePts > pts.awayPts ? "HOME" : pts.awayPts > pts.homePts ? "AWAY" : "TIE";
+
+    pf.set(g.homeId, (pf.get(g.homeId) ?? 0) + pts.homePts);
+    pf.set(g.awayId, (pf.get(g.awayId) ?? 0) + pts.awayPts);
+    pa.set(g.homeId, (pa.get(g.homeId) ?? 0) + pts.awayPts);
+    pa.set(g.awayId, (pa.get(g.awayId) ?? 0) + pts.homePts);
+
+    if (g.winner === "HOME") {
+      wins.set(g.homeId, (wins.get(g.homeId) ?? 0) + 1);
+      losses.set(g.awayId, (losses.get(g.awayId) ?? 0) + 1);
+    } else if (g.winner === "AWAY") {
+      wins.set(g.awayId, (wins.get(g.awayId) ?? 0) + 1);
+      losses.set(g.homeId, (losses.get(g.homeId) ?? 0) + 1);
+    }
+  }
+
+  for (const t of teams) {
+    if (t.pointsFor === 0 && pf.has(t.id)) {
+      t.pointsFor += pf.get(t.id)!;
+      t.pointsAgainst += pa.get(t.id) ?? 0;
+      t.wins += wins.get(t.id) ?? 0;
+      t.losses += losses.get(t.id) ?? 0;
+    }
+  }
+}
+
 /* eslint-disable @typescript-eslint/no-explicit-any */
 export function loadSeason(year: number): Season | null {
   const file = path.join(DATA_DIR, `season-${year}.json`);
@@ -110,6 +192,9 @@ export function loadSeason(year: number): Season | null {
       awayPts: g.away.totalPoints ?? 0,
       winner: g.winner ?? "UNDECIDED",
     }));
+
+  // Patch UNDECIDED games with scores computed from boxscore lineups
+  patchFromBoxscores(year, games, teams);
 
   const settings = raw.settings ?? {};
   const status = raw.status ?? {};

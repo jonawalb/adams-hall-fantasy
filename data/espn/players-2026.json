@@ -1497,7 +1497,7 @@
   "id": 3929914,
   "name": "Adam Prentice",
   "pos": "RB",
-  "proTeamId": 0
+  "proTeamId": 7
  },
  "3930066": {
   "id": 3930066,
@@ -1827,7 +1827,7 @@
   "id": 4039057,
   "name": "Lil'Jordan Humphrey",
   "pos": "WR",
-  "proTeamId": 7
+  "proTeamId": 0
  },
  "4039160": {
   "id": 4039160,
@@ -3285,7 +3285,7 @@
   "id": 4372070,
   "name": "Ben VanSumeren",
   "pos": "RB",
-  "proTeamId": 0
+  "proTeamId": 12
  },
  "4372071": {
   "id": 4372071,

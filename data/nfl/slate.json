@@ -490,23 +490,23 @@
      "id": "401872931",
      "date": "2026-09-15T00:15Z",
      "name": "DEN @ KC",
-     "state": "pre",
-     "completed": false,
-     "winner": null,
-     "detail": "9/14 - 8:15 PM EDT",
+     "state": "post",
+     "completed": true,
+     "winner": "home",
+     "detail": "Final",
      "home": {
       "abbr": "KC",
       "name": "Kansas City Chiefs",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
       "color": "e31837",
-      "score": 0
+      "score": 31
      },
      "away": {
       "abbr": "DEN",
       "name": "Denver Broncos",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
       "color": "0a2343",
-      "score": 0
+      "score": 10
      },
      "odds": {
       "provider": "Draft Kings",
@@ -521,5 +521,5 @@
    ]
   }
  },
- "fetchedAt": "2026-09-14T14:53:53.678Z"
+ "fetchedAt": "2026-09-15T03:35:03.623Z"
 }

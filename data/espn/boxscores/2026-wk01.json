@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 1,
- "archivedAt": "2026-09-14T14:53:56.920Z",
+ "archivedAt": "2026-09-15T03:34:59.244Z",
  "matchups": [
   {
    "id": 1,
@@ -24,7 +24,7 @@
       "name": "Rashee Rice",
       "pos": "WR",
       "slot": "WR",
-      "points": 0
+      "points": 9.9
      },
      {
       "playerId": 4430737,
@@ -287,7 +287,7 @@
       "name": "Jaylen Waddle",
       "pos": "WR",
       "slot": "FLEX",
-      "points": 0
+      "points": 1.2
      },
      {
       "playerId": 4882093,
@@ -454,7 +454,7 @@
       "name": "RJ Harvey",
       "pos": "RB",
       "slot": "BE",
-      "points": 0
+      "points": 8.1
      },
      {
       "playerId": 4362249,
@@ -468,7 +468,7 @@
       "name": "Xavier Worthy",
       "pos": "WR",
       "slot": "BE",
-      "points": 0
+      "points": 4.8
      },
      {
       "playerId": 3054850,
@@ -482,7 +482,7 @@
       "name": "Harrison Butker",
       "pos": "K",
       "slot": "K",
-      "points": 0
+      "points": 7
      },
      {
       "playerId": -16024,
@@ -571,7 +571,7 @@
       "name": "J.K. Dobbins",
       "pos": "RB",
       "slot": "BE",
-      "points": 0
+      "points": 3.6
      },
      {
       "playerId": 4362081,
@@ -606,7 +606,7 @@
       "name": "Patrick Mahomes",
       "pos": "QB",
       "slot": "BE",
-      "points": 0
+      "points": 21.66
      },
      {
       "playerId": 4428557,
@@ -682,7 +682,7 @@
       "name": "Courtland Sutton",
       "pos": "WR",
       "slot": "BE",
-      "points": 0
+      "points": 3.1
      },
      {
       "playerId": 3042519,
@@ -703,7 +703,7 @@
       "name": "Travis Kelce",
       "pos": "TE",
       "slot": "BE",
-      "points": 0
+      "points": 10.100000000000001
      },
      {
       "playerId": 4429205,
@@ -945,7 +945,7 @@
       "name": "Broncos D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
-      "points": 0
+      "points": 2
      },
      {
       "playerId": 4371733,
@@ -1013,7 +1013,7 @@
       "name": "Kenneth Walker III",
       "pos": "RB",
       "slot": "FLEX",
-      "points": 0
+      "points": 34.099999999999994
      },
      {
       "playerId": 4426502,
@@ -1173,7 +1173,7 @@
       "name": "Bo Nix",
       "pos": "QB",
       "slot": "QB",
-      "points": 0
+      "points": 5.44
      },
      {
       "playerId": 4248528,
