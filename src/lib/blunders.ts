@@ -107,7 +107,8 @@ export function seasonBlunders(season: Season): WeekBlunders[] {
   for (const f of files) {
     const box: BoxFile = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"));
     const sides = box.matchups.flatMap((m) => [m.home, m.away]);
-    if (!sides.length || sides.every((s) => s.points === 0)) continue; // week not played
+    const hasLineupPts = sides.some((s) => s.lineup?.some((e) => e.points > 0));
+    if (!sides.length || (!hasLineupPts && sides.every((s) => s.points === 0))) continue;
     const bench: BenchBlunder[] = sides
       .map((s) => {
         const t = teamName(s.teamId);
