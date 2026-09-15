@@ -6,7 +6,7 @@ import { useUser } from "@/lib/useUser";
 import CommentThread from "@/components/CommentThread";
 
 const PREVIEW_ID = "preview";
-const MAX_BYTES = 50 * 1024 * 1024;
+const MAX_BYTES = 250 * 1024 * 1024;
 // Members allowed to post: the commissioner plus this ESPN owner (Nishok).
 const TAPE_CREW_OWNER = "{C2489537-0A8B-4E67-9914-7A2C71341A12}";
 
@@ -112,7 +112,7 @@ export default function TuesdayTape() {
     e.preventDefault();
     if (!myId || !form.title.trim() || (!form.url.trim() && !file)) return;
     if (file && file.size > MAX_BYTES) {
-      setError("That file is over 50MB. Upload it to YouTube (unlisted) or Drive and paste the link instead.");
+      setError("That file is over 250MB. Upload it to YouTube (unlisted) or Drive and paste the link instead.");
       return;
     }
     setBusy(true);
@@ -197,7 +197,7 @@ export default function TuesdayTape() {
           <input required placeholder="Title (e.g. Week 3: everyone is a fraud)" value={form.title} onChange={(e) => setForm({ ...form, title: e.target.value })} className={`${input} sm:col-span-2`} />
           <input placeholder="Paste a YouTube / Drive / Streamable link" value={form.url} onChange={(e) => setForm({ ...form, url: e.target.value })} className={input} />
           <label className={`${input} cursor-pointer text-cream-dim`}>
-            {file ? `${file.name} (${(file.size / 1048576).toFixed(1)} MB)` : "…or upload a file under 50MB"}
+            {file ? `${file.name} (${(file.size / 1048576).toFixed(1)} MB)` : "…or upload a file under 250MB"}
             <input type="file" accept="video/mp4,video/quicktime,video/webm,image/gif" className="hidden" onChange={(e) => setFile(e.target.files?.[0] ?? null)} />
           </label>
           {error && <p className="text-sm text-blood sm:col-span-2">{error}</p>}
