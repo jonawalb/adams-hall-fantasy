@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 3,
  "poll": "AP Top 25",
- "fetchedAt": "2026-09-14T14:53:54.042Z",
+ "fetchedAt": "2026-09-15T09:11:19.663Z",
  "rankings": [
   {
    "rank": 1,
@@ -500,7 +500,7 @@
    "detail": "9/19 - 12:00 PM EDT",
    "venue": "Donald W. Reynolds Razorback Stadium",
    "broadcast": "ABC",
-   "spread": "UGA -24.5",
+   "spread": "UGA -25.5",
    "overUnder": 54.5,
    "headline": null,
    "home": {
@@ -538,7 +538,7 @@
    "venue": "Ohio Stadium",
    "broadcast": "FOX",
    "spread": "OSU -52.5",
-   "overUnder": 58.5,
+   "overUnder": 59.5,
    "headline": null,
    "home": {
     "abbr": "OSU",
@@ -574,8 +574,8 @@
    "detail": "9/19 - 12:00 PM EDT",
    "venue": "Beaver Stadium",
    "broadcast": "BTN",
-   "spread": "PSU -38.5",
-   "overUnder": 47.5,
+   "spread": "PSU -39.5",
+   "overUnder": 48.5,
    "headline": null,
    "home": {
     "abbr": "PSU",
@@ -649,7 +649,7 @@
    "venue": "Jack Trice Stadium",
    "broadcast": "ESPNU",
    "spread": "ISU -23.5",
-   "overUnder": 45.5,
+   "overUnder": 44.5,
    "headline": null,
    "home": {
     "abbr": "ISU",
@@ -685,8 +685,8 @@
    "detail": "9/19 - 12:00 PM EDT",
    "venue": "Wembley Stadium",
    "broadcast": "FS1",
-   "spread": "ASU -5.5",
-   "overUnder": 52.5,
+   "spread": "ASU -6",
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "KU",
@@ -759,7 +759,7 @@
    "detail": "9/19 - 12:00 PM EDT",
    "venue": "Memorial Stadium (Clemson, SC)",
    "broadcast": "ESPN",
-   "spread": "CLEM -3",
+   "spread": "CLEM -3.5",
    "overUnder": 44.5,
    "headline": null,
    "home": {
@@ -870,7 +870,7 @@
    "detail": "9/19 - 12:30 PM EDT",
    "venue": "Camp Randall Stadium",
    "broadcast": "Peacock",
-   "spread": "WIS -24.5",
+   "spread": "WIS -23.5",
    "overUnder": 45.5,
    "headline": null,
    "home": {
@@ -908,7 +908,7 @@
    "venue": "FirstBank Stadium",
    "broadcast": "SEC Network",
    "spread": "VAN -3.5",
-   "overUnder": 52.5,
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "VAN",
@@ -1056,7 +1056,7 @@
    "venue": "Glass Bowl",
    "broadcast": "CBSSN",
    "spread": "TOL -5.5",
-   "overUnder": 51.5,
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "TOL",
@@ -1093,7 +1093,7 @@
    "venue": "Kyle Field",
    "broadcast": "ESPN",
    "spread": "TA&M -16.5",
-   "overUnder": 49.5,
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "TA&M",
@@ -1129,7 +1129,7 @@
    "detail": "9/19 - 3:30 PM EDT",
    "venue": "Bryant-Denny Stadium",
    "broadcast": "ABC",
-   "spread": "ALA -20.5",
+   "spread": "ALA -19.5",
    "overUnder": 49.5,
    "headline": null,
    "home": {
@@ -1166,8 +1166,8 @@
    "detail": "9/19 - 3:30 PM EDT",
    "venue": "SHI Stadium",
    "broadcast": "CBS",
-   "spread": "USC -24.5",
-   "overUnder": 58.5,
+   "spread": "USC -23.5",
+   "overUnder": 59.5,
    "headline": null,
    "home": {
     "abbr": "RUTG",
@@ -1315,7 +1315,7 @@
    "venue": "TQL Stadium",
    "broadcast": "ESPN+",
    "spread": "CIN -14.5",
-   "overUnder": 51.5,
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "CIN",
@@ -1573,7 +1573,7 @@
    "detail": "9/19 - 4:00 PM EDT",
    "venue": "Williams Stadium (VA)",
    "broadcast": "ESPN+",
-   "spread": "LIB -14",
+   "spread": "LIB -14.5",
    "overUnder": 49.5,
    "headline": null,
    "home": {
@@ -1610,7 +1610,7 @@
    "detail": "9/19 - 4:00 PM EDT",
    "venue": "McLane Stadium",
    "broadcast": "ESPNU",
-   "spread": "BAY -17.5",
+   "spread": "BAY -19.5",
    "overUnder": 53.5,
    "headline": null,
    "home": {
@@ -1647,8 +1647,8 @@
    "detail": "9/19 - 4:15 PM EDT",
    "venue": "Williams-Brice Stadium",
    "broadcast": "SEC Network",
-   "spread": "SC -3.5",
-   "overUnder": 58.5,
+   "spread": "SC -4",
+   "overUnder": 59.5,
    "headline": null,
    "home": {
     "abbr": "SC",
@@ -1758,7 +1758,7 @@
    "detail": "9/19 - 6:00 PM EDT",
    "venue": "Flagler Credit Union Stadium",
    "broadcast": "ESPN+",
-   "spread": "FAU -6.5",
+   "spread": "FAU -7",
    "overUnder": 62.5,
    "headline": null,
    "home": {
@@ -1795,7 +1795,7 @@
    "detail": "9/19 - 6:00 PM EDT",
    "venue": "Kidd Brewer Stadium",
    "broadcast": "ESPN+",
-   "spread": "APP -19.5",
+   "spread": "APP -17.5",
    "overUnder": 51.5,
    "headline": null,
    "home": {
@@ -1869,8 +1869,8 @@
    "detail": "9/19 - 7:00 PM EDT",
    "venue": "Memorial Stadium",
    "broadcast": "SECN+",
-   "spread": "MIZ -27.5",
-   "overUnder": 49.5,
+   "spread": "MIZ -26.5",
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "MIZ",
@@ -1907,7 +1907,7 @@
    "venue": "Jordan-Hare Stadium",
    "broadcast": "ESPN",
    "spread": "FLA -2.5",
-   "overUnder": 52.5,
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "AUB",
@@ -2017,8 +2017,8 @@
    "detail": "9/19 - 7:00 PM EDT",
    "venue": "M. M. Roberts Stadium",
    "broadcast": "ESPN+",
-   "spread": "CONN -3.5",
-   "overUnder": 55.5,
+   "spread": "CONN -3",
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "USM",
@@ -2165,8 +2165,8 @@
    "detail": "9/19 - 7:00 PM EDT",
    "venue": "Johnny \"Red\" Floyd Stadium",
    "broadcast": "ESPN+",
-   "spread": "NEV -5.5",
-   "overUnder": 51.5,
+   "spread": "NEV -3.5",
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "MTSU",
@@ -2203,7 +2203,7 @@
    "venue": "Hancock Whitney Stadium",
    "broadcast": "ESPN+",
    "spread": "USA -4.5",
-   "overUnder": 52.5,
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "USA",
@@ -2239,8 +2239,8 @@
    "detail": "9/19 - 7:00 PM EDT",
    "venue": "AmFirst Stadium",
    "broadcast": "ESPN+",
-   "spread": "JXST -3.5",
-   "overUnder": 53.5,
+   "spread": "JXST -3",
+   "overUnder": 52.5,
    "headline": null,
    "home": {
     "abbr": "JVST",
@@ -2499,7 +2499,7 @@
    "venue": "Memorial Stadium (Norman, OK)",
    "broadcast": "ESPN2",
    "spread": "OU -22.5",
-   "overUnder": 47.5,
+   "overUnder": 46.5,
    "headline": null,
    "home": {
     "abbr": "OU",
@@ -2571,8 +2571,8 @@
    "completed": false,
    "detail": "9/19 - 7:30 PM EDT",
    "venue": "Northwestern Medicine Field at Martin Stadium",
-   "broadcast": null,
-   "spread": "NU -4.5",
+   "broadcast": "FOX",
+   "spread": "NU -3.5",
    "overUnder": 48.5,
    "headline": null,
    "home": {
@@ -2608,7 +2608,7 @@
    "completed": false,
    "detail": "9/19 - 7:30 PM EDT",
    "venue": "SECU Stadium",
-   "broadcast": null,
+   "broadcast": "FS1",
    "spread": "VT -3",
    "overUnder": 53.5,
    "headline": null,
@@ -2647,7 +2647,7 @@
    "venue": "Neyland Stadium",
    "broadcast": "SEC Network",
    "spread": "TENN -35.5",
-   "overUnder": 60.5,
+   "overUnder": 59.5,
    "headline": null,
    "home": {
     "abbr": "TENN",
@@ -2683,7 +2683,7 @@
    "detail": "9/19 - 8:00 PM EDT",
    "venue": "DKR-Texas Memorial Stadium",
    "broadcast": "SECN+",
-   "spread": "TEX -29.5",
+   "spread": "TEX -30.5",
    "overUnder": 58.5,
    "headline": null,
    "home": {
@@ -2721,7 +2721,7 @@
    "venue": "Amon G. Carter Stadium",
    "broadcast": "ESPNU",
    "spread": "TCU -20.5",
-   "overUnder": 57.5,
+   "overUnder": 55.5,
    "headline": null,
    "home": {
     "abbr": "TCU",
@@ -2943,7 +2943,7 @@
    "venue": "Hornet Stadium",
    "broadcast": "ESPN",
    "spread": "NDSU -27.5",
-   "overUnder": 53.5,
+   "overUnder": 52.5,
    "headline": null,
    "home": {
     "abbr": "SAC",
