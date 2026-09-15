@@ -5,7 +5,7 @@ import { getSupabase } from "@/lib/supabase";
 import { useUser } from "@/lib/useUser";
 import CommentThread from "@/components/CommentThread";
 
-const MAX_BYTES = 250 * 1024 * 1024;
+const MAX_BYTES = 400 * 1024 * 1024;
 const JORGE_OWNER = "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}";
 
 interface Recap {
@@ -89,7 +89,7 @@ export default function TuesdayRecap() {
     e.preventDefault();
     if (!myId || !form.title.trim() || (!form.url.trim() && !file)) return;
     if (file && file.size > MAX_BYTES) {
-      setError("File is over 250MB. Compress the audio or upload to a hosting service and paste the link.");
+      setError("File is over 400MB. Compress the audio or upload to a hosting service and paste the link.");
       return;
     }
     setBusy(true);
@@ -177,7 +177,7 @@ export default function TuesdayRecap() {
           <input required placeholder="Title (e.g. Week 1: Cookies, Crumbs, and 0.8 Points)" value={form.title} onChange={(e) => setForm({ ...form, title: e.target.value })} className={`${input} sm:col-span-2`} />
           <input placeholder="Paste a link (YouTube, Drive, etc.)" value={form.url} onChange={(e) => setForm({ ...form, url: e.target.value })} className={input} />
           <label className={`${input} cursor-pointer text-cream-dim`}>
-            {file ? `${file.name} (${(file.size / 1048576).toFixed(1)} MB)` : "…or upload audio/video under 250MB"}
+            {file ? `${file.name} (${(file.size / 1048576).toFixed(1)} MB)` : "…or upload audio/video under 400MB"}
             <input type="file" accept="audio/mpeg,audio/mp4,audio/x-m4a,audio/wav,audio/webm,video/mp4,video/quicktime" className="hidden" onChange={(e) => setFile(e.target.files?.[0] ?? null)} />
           </label>
           {error && <p className="text-sm text-blood sm:col-span-2">{error}</p>}

@@ -4,7 +4,7 @@ import { FormEvent, useEffect, useState } from "react";
 import { getSupabase } from "@/lib/supabase";
 import { useUser } from "@/lib/useUser";
 
-const MAX_BYTES = 250 * 1024 * 1024;
+const MAX_BYTES = 400 * 1024 * 1024;
 const JORGE_OWNER = "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}";
 const NISHOK_OWNER = "{C2489537-0A8B-4E67-9914-7A2C71341A12}";
 
@@ -55,7 +55,7 @@ function UploadForm({ category, onDone, canPost }: { category: "recap" | "tape";
     e.preventDefault();
     if (!myId || !form.title.trim() || (!form.url.trim() && !file) || !supabase) return;
     if (file && file.size > MAX_BYTES) {
-      setError("File is over 250MB.");
+      setError("File is over 400MB.");
       return;
     }
     setBusy(true);
@@ -95,7 +95,7 @@ function UploadForm({ category, onDone, canPost }: { category: "recap" | "tape";
       <input required placeholder={isRecap ? "Title (e.g. Week 3 Recap)" : "Title (e.g. Week 3 Meme Deck)"} value={form.title} onChange={(e) => setForm({ ...form, title: e.target.value })} className={`${input} sm:col-span-2`} />
       <input placeholder="Paste a link (optional)" value={form.url} onChange={(e) => setForm({ ...form, url: e.target.value })} className={input} />
       <label className={`${input} cursor-pointer text-cream-dim`}>
-        {file ? `${file.name} (${(file.size / 1048576).toFixed(1)} MB)` : isRecap ? "…or upload audio under 250MB" : "…or upload video under 250MB"}
+        {file ? `${file.name} (${(file.size / 1048576).toFixed(1)} MB)` : isRecap ? "…or upload audio under 400MB" : "…or upload video under 400MB"}
         <input type="file" accept={isRecap ? "audio/mpeg,audio/mp4,audio/x-m4a,audio/wav,audio/webm,video/mp4,video/quicktime" : "video/mp4,video/quicktime,video/webm,image/gif"} className="hidden" onChange={(e) => setFile(e.target.files?.[0] ?? null)} />
       </label>
       {error && <p className="text-sm text-blood sm:col-span-2">{error}</p>}
