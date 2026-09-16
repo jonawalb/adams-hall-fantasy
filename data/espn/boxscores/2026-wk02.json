@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 2,
- "archivedAt": "2026-09-15T16:13:42.293Z",
+ "archivedAt": "2026-09-16T10:39:05.091Z",
  "matchups": [
   {
    "id": 6,
@@ -122,6 +122,13 @@
       "name": "Chargers D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
+      "points": 0
+     },
+     {
+      "playerId": 5083315,
+      "name": "Kenyon Sadiq",
+      "pos": "TE",
+      "slot": "BE",
       "points": 0
      }
     ]
@@ -464,13 +471,6 @@
       "points": 0
      },
      {
-      "playerId": 4032473,
-      "name": "Rashid Shaheed",
-      "pos": "WR",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 4366031,
       "name": "Tank Dell",
       "pos": "WR",
@@ -488,6 +488,13 @@
       "playerId": 4429086,
       "name": "Michael Mayer",
       "pos": "TE",
+      "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 4695883,
+      "name": "Jalen Coker",
+      "pos": "WR",
       "slot": "BE",
       "points": 0
      }
@@ -660,7 +667,7 @@
       "playerId": 4429615,
       "name": "Zay Flowers",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0
      },
      {
@@ -688,7 +695,7 @@
       "playerId": 4432620,
       "name": "Parker Washington",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -727,17 +734,17 @@
       "points": 0
      },
      {
-      "playerId": 4710714,
-      "name": "De'Zhaun Stribling",
-      "pos": "WR",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 17372,
       "name": "Chris Boswell",
       "pos": "K",
       "slot": "K",
+      "points": 0
+     },
+     {
+      "playerId": 4385690,
+      "name": "Dalton Kincaid",
+      "pos": "TE",
+      "slot": "BE",
       "points": 0
      }
     ]
@@ -830,20 +837,6 @@
       "points": 0
      },
      {
-      "playerId": -16014,
-      "name": "Rams D/ST",
-      "pos": "D/ST",
-      "slot": "D/ST",
-      "points": 0
-     },
-     {
-      "playerId": 4429059,
-      "name": "Woody Marks",
-      "pos": "RB",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 4689936,
       "name": "Jake Bates",
       "pos": "K",
@@ -865,8 +858,22 @@
       "points": 0
      },
      {
-      "playerId": 4682648,
-      "name": "Malachi Fields",
+      "playerId": -16027,
+      "name": "Buccaneers D/ST",
+      "pos": "D/ST",
+      "slot": "D/ST",
+      "points": 0
+     },
+     {
+      "playerId": 4696044,
+      "name": "Kaelon Black",
+      "pos": "RB",
+      "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 4869645,
+      "name": "Caleb Douglas",
       "pos": "WR",
       "slot": "BE",
       "points": 0

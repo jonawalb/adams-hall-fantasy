@@ -1827,7 +1827,7 @@
   "id": 4039057,
   "name": "Lil'Jordan Humphrey",
   "pos": "WR",
-  "proTeamId": 0
+  "proTeamId": 7
  },
  "4039160": {
   "id": 4039160,
@@ -2715,7 +2715,7 @@
   "id": 4360290,
   "name": "Brayden Willis",
   "pos": "TE",
-  "proTeamId": 0
+  "proTeamId": 25
  },
  "4360294": {
   "id": 4360294,
@@ -3141,7 +3141,7 @@
   "id": 4362748,
   "name": "Tyler Badie",
   "pos": "RB",
-  "proTeamId": 7
+  "proTeamId": 0
  },
  "4362887": {
   "id": 4362887,
@@ -3957,7 +3957,7 @@
   "id": 4429202,
   "name": "Israel Abanikanda",
   "pos": "RB",
-  "proTeamId": 6
+  "proTeamId": 0
  },
  "4429205": {
   "id": 4429205,
@@ -4017,7 +4017,7 @@
   "id": 4429676,
   "name": "Tyler Goodson",
   "pos": "RB",
-  "proTeamId": 0
+  "proTeamId": 6
  },
  "4429684": {
   "id": 4429684,
@@ -4125,7 +4125,7 @@
   "id": 4430723,
   "name": "Jared Wiley",
   "pos": "TE",
-  "proTeamId": 12
+  "proTeamId": 0
  },
  "4430737": {
   "id": 4430737,
@@ -4527,7 +4527,7 @@
   "id": 4567747,
   "name": "Garrett Nussmeier",
   "pos": "QB",
-  "proTeamId": 12
+  "proTeamId": 0
  },
  "4567750": {
   "id": 4567750,
@@ -5487,7 +5487,7 @@
   "id": 4708486,
   "name": "Jimmy Horn Jr.",
   "pos": "WR",
-  "proTeamId": 29
+  "proTeamId": 0
  },
  "4710341": {
   "id": 4710341,
@@ -5541,7 +5541,7 @@
   "id": 4722893,
   "name": "Jaleel McLaughlin",
   "pos": "RB",
-  "proTeamId": 0
+  "proTeamId": 5
  },
  "4722908": {
   "id": 4722908,
@@ -6021,7 +6021,7 @@
   "id": 5159802,
   "name": "Dallen Bentley",
   "pos": "TE",
-  "proTeamId": 7
+  "proTeamId": 0
  },
  "5160110": {
   "id": 5160110,
