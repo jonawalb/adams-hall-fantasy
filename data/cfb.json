@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 3,
  "poll": "AP Top 25",
- "fetchedAt": "2026-09-16T10:39:02.931Z",
+ "fetchedAt": "2026-09-17T10:48:00.871Z",
  "rankings": [
   {
    "rank": 1,
@@ -352,8 +352,8 @@
    "detail": "9/18 - 7:30 PM EDT",
    "venue": "Allegacy Federal Credit Union Stadium",
    "broadcast": "ESPN",
-   "spread": "MIA -20.5",
-   "overUnder": 55.5,
+   "spread": "MIA -21",
+   "overUnder": 56.5,
    "headline": null,
    "home": {
     "abbr": "WAKE",
@@ -390,7 +390,7 @@
    "venue": "Galaxy Stadium",
    "broadcast": "FOX",
    "spread": "TTU -7.5",
-   "overUnder": null,
+   "overUnder": 52.5,
    "headline": null,
    "home": {
     "abbr": "TTU",
@@ -538,7 +538,7 @@
    "venue": "Ohio Stadium",
    "broadcast": "FOX",
    "spread": "OSU -52.5",
-   "overUnder": 59.5,
+   "overUnder": 58.5,
    "headline": null,
    "home": {
     "abbr": "OSU",
@@ -574,7 +574,7 @@
    "detail": "9/19 - 12:00 PM EDT",
    "venue": "Beaver Stadium",
    "broadcast": "BTN",
-   "spread": "PSU -40.5",
+   "spread": "PSU -41.5",
    "overUnder": 50.5,
    "headline": null,
    "home": {
@@ -649,7 +649,7 @@
    "venue": "Jack Trice Stadium",
    "broadcast": "ESPNU",
    "spread": "ISU -23.5",
-   "overUnder": 44.5,
+   "overUnder": 43.5,
    "headline": null,
    "home": {
     "abbr": "ISU",
@@ -759,7 +759,7 @@
    "detail": "9/19 - 12:00 PM EDT",
    "venue": "Memorial Stadium (Clemson, SC)",
    "broadcast": "ESPN",
-   "spread": "CLEM -3.5",
+   "spread": "CLEM -3",
    "overUnder": 43.5,
    "headline": null,
    "home": {
@@ -833,8 +833,8 @@
    "detail": "9/19 - 12:00 PM EDT",
    "venue": "UFCU Stadium",
    "broadcast": "USA Net",
-   "spread": "TXST -3",
-   "overUnder": 63.5,
+   "spread": "TXST -2.5",
+   "overUnder": 62.5,
    "headline": null,
    "home": {
     "abbr": "TXST",
@@ -870,7 +870,7 @@
    "detail": "9/19 - 12:30 PM EDT",
    "venue": "Camp Randall Stadium",
    "broadcast": "Peacock",
-   "spread": "WIS -24.5",
+   "spread": "WIS -23.5",
    "overUnder": 45.5,
    "headline": null,
    "home": {
@@ -907,7 +907,7 @@
    "detail": "9/19 - 12:45 PM EDT",
    "venue": "FirstBank Stadium",
    "broadcast": "SEC Network",
-   "spread": "VAN -3.5",
+   "spread": "VAN -3",
    "overUnder": 50.5,
    "headline": null,
    "home": {
@@ -945,7 +945,7 @@
    "venue": "Kelly/Shorts Stadium",
    "broadcast": "ESPN+",
    "spread": "CMU -1.5",
-   "overUnder": 39.5,
+   "overUnder": 38.5,
    "headline": null,
    "home": {
     "abbr": "CMU",
@@ -1018,7 +1018,7 @@
    "detail": "9/19 - 2:00 PM EDT",
    "venue": "Gies Memorial Stadium",
    "broadcast": "Peacock",
-   "spread": "ILL -41.5",
+   "spread": "ILL -38.5",
    "overUnder": 54.5,
    "headline": null,
    "home": {
@@ -1166,7 +1166,7 @@
    "detail": "9/19 - 3:30 PM EDT",
    "venue": "SHI Stadium",
    "broadcast": "CBS",
-   "spread": "USC -23.5",
+   "spread": "USC -22.5",
    "overUnder": 59.5,
    "headline": null,
    "home": {
@@ -1277,8 +1277,8 @@
    "detail": "9/19 - 3:30 PM EDT",
    "venue": "Michigan Stadium",
    "broadcast": "BTN",
-   "spread": "MICH -35.5",
-   "overUnder": 49.5,
+   "spread": "MICH -34.5",
+   "overUnder": 48.5,
    "headline": null,
    "home": {
     "abbr": "MICH",
@@ -1314,7 +1314,7 @@
    "detail": "9/19 - 3:30 PM EDT",
    "venue": "TQL Stadium",
    "broadcast": "ESPN+",
-   "spread": "CIN -14.5",
+   "spread": "CIN -16.5",
    "overUnder": 49.5,
    "headline": null,
    "home": {
@@ -1536,7 +1536,7 @@
    "detail": "9/19 - 4:00 PM EDT",
    "venue": "Wallace Wade Stadium",
    "broadcast": "CW",
-   "spread": "DUKE -9.5",
+   "spread": "DUKE -10",
    "overUnder": 50.5,
    "headline": null,
    "home": {
@@ -1573,7 +1573,7 @@
    "detail": "9/19 - 4:00 PM EDT",
    "venue": "Williams Stadium (VA)",
    "broadcast": "ESPN+",
-   "spread": "LIB -14.5",
+   "spread": "LIB -14",
    "overUnder": 49.5,
    "headline": null,
    "home": {
@@ -1869,7 +1869,7 @@
    "detail": "9/19 - 7:00 PM EDT",
    "venue": "Memorial Stadium",
    "broadcast": "SECN+",
-   "spread": "MIZ -26.5",
+   "spread": "MIZ -27.5",
    "overUnder": 50.5,
    "headline": null,
    "home": {
@@ -1943,7 +1943,7 @@
    "detail": "9/19 - 7:00 PM EDT",
    "venue": "Acrisure Bounce House",
    "broadcast": "ESPN+",
-   "spread": "UCF -18.5",
+   "spread": "UCF -17.5",
    "overUnder": 50.5,
    "headline": null,
    "home": {
@@ -2240,7 +2240,7 @@
    "venue": "AmFirst Stadium",
    "broadcast": "ESPN+",
    "spread": "JXST -3",
-   "overUnder": 52.5,
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "JVST",
@@ -2388,7 +2388,7 @@
    "venue": "Notre Dame Stadium",
    "broadcast": "NBC",
    "spread": "ND -29.5",
-   "overUnder": 52.5,
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "ND",
@@ -2424,8 +2424,8 @@
    "detail": "9/19 - 7:30 PM EDT",
    "venue": "Vaught-Hemingway Stadium",
    "broadcast": "ABC",
-   "spread": "LSU -3",
-   "overUnder": 58.5,
+   "spread": "LSU -2.5",
+   "overUnder": 57.5,
    "headline": null,
    "home": {
     "abbr": "MISS",
@@ -2498,7 +2498,7 @@
    "detail": "9/19 - 7:30 PM EDT",
    "venue": "Memorial Stadium (Norman, OK)",
    "broadcast": "ESPN2",
-   "spread": "OU -22.5",
+   "spread": "OU -21.5",
    "overUnder": 46.5,
    "headline": null,
    "home": {
@@ -2573,7 +2573,7 @@
    "venue": "Northwestern Medicine Field at Martin Stadium",
    "broadcast": "FOX",
    "spread": "NU -3.5",
-   "overUnder": 48.5,
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "NU",
@@ -2646,7 +2646,7 @@
    "detail": "9/19 - 7:45 PM EDT",
    "venue": "Neyland Stadium",
    "broadcast": "SEC Network",
-   "spread": "TENN -35.5",
+   "spread": "TENN -34.5",
    "overUnder": 59.5,
    "headline": null,
    "home": {
@@ -2720,7 +2720,7 @@
    "detail": "9/19 - 8:00 PM EDT",
    "venue": "Amon G. Carter Stadium",
    "broadcast": "ESPNU",
-   "spread": "TCU -19.5",
+   "spread": "TCU -20.5",
    "overUnder": 56.5,
    "headline": null,
    "home": {
@@ -2832,7 +2832,7 @@
    "venue": "Albertsons Stadium",
    "broadcast": "CBSSN",
    "spread": "BOIS -23.5",
-   "overUnder": 54.5,
+   "overUnder": 56.5,
    "headline": null,
    "home": {
     "abbr": "BOIS",
@@ -2868,7 +2868,7 @@
    "detail": "9/19 - 10:00 PM EDT",
    "venue": "Snapdragon Stadium",
    "broadcast": "CW",
-   "spread": "SDSU -2.5",
+   "spread": "SDSU -1.5",
    "overUnder": 46.5,
    "headline": null,
    "home": {
@@ -2905,8 +2905,8 @@
    "detail": "9/19 - 10:30 PM EDT",
    "venue": "Casino Del Sol Stadium",
    "broadcast": "TNT",
-   "spread": "ARIZ -34.5",
-   "overUnder": 49.5,
+   "spread": "ARIZ -33.5",
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "ARIZ",
@@ -2943,7 +2943,7 @@
    "venue": "Hornet Stadium",
    "broadcast": "ESPN",
    "spread": "NDSU -27.5",
-   "overUnder": 51.5,
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "SAC",
@@ -2980,7 +2980,7 @@
    "venue": "Rose Bowl",
    "broadcast": "BTN",
    "spread": "UCLA -14",
-   "overUnder": 53.5,
+   "overUnder": 52.5,
    "headline": null,
    "home": {
     "abbr": "UCLA",
@@ -3054,7 +3054,7 @@
    "venue": "CEFCU Stadium",
    "broadcast": "FS1",
    "spread": "FRES -6.5",
-   "overUnder": 50.5,
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "SJSU",
