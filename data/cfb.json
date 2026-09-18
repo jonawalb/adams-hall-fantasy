@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 3,
  "poll": "AP Top 25",
- "fetchedAt": "2026-09-17T10:48:00.871Z",
+ "fetchedAt": "2026-09-18T08:34:41.783Z",
  "rankings": [
   {
    "rank": 1,
@@ -310,14 +310,14 @@
    "id": "401858225",
    "date": "2026-09-17T23:30Z",
    "name": "SYR @ PITT",
-   "state": "pre",
-   "completed": false,
-   "detail": "9/17 - 7:30 PM EDT",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Acrisure Stadium",
    "broadcast": "ESPN",
-   "spread": "PITT -10.5",
-   "overUnder": 51.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Pitt stays perfect, improves to 3-0 by grinding its way to a 27-13 win over sloppy Syracuse",
    "home": {
     "abbr": "PITT",
     "name": "Pittsburgh Panthers",
@@ -325,10 +325,10 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/221.png",
     "color": "003594",
     "rank": null,
-    "score": 0,
-    "record": "2-0",
+    "score": 27,
+    "record": "3-0",
     "conferenceId": "1",
-    "winner": false
+    "winner": true
    },
    "away": {
     "abbr": "SYR",
@@ -337,8 +337,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
     "color": "000e54",
     "rank": null,
-    "score": 0,
-    "record": "1-1",
+    "score": 13,
+    "record": "1-2",
     "conferenceId": "1",
     "winner": false
    }
@@ -352,8 +352,8 @@
    "detail": "9/18 - 7:30 PM EDT",
    "venue": "Allegacy Federal Credit Union Stadium",
    "broadcast": "ESPN",
-   "spread": "MIA -21",
-   "overUnder": 56.5,
+   "spread": "MIA -20.5",
+   "overUnder": 55.5,
    "headline": null,
    "home": {
     "abbr": "WAKE",
@@ -574,8 +574,8 @@
    "detail": "9/19 - 12:00 PM EDT",
    "venue": "Beaver Stadium",
    "broadcast": "BTN",
-   "spread": "PSU -41.5",
-   "overUnder": 50.5,
+   "spread": "PSU -40.5",
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "PSU",
@@ -648,7 +648,7 @@
    "detail": "9/19 - 12:00 PM EDT",
    "venue": "Jack Trice Stadium",
    "broadcast": "ESPNU",
-   "spread": "ISU -23.5",
+   "spread": "ISU -24.5",
    "overUnder": 43.5,
    "headline": null,
    "home": {
@@ -760,7 +760,7 @@
    "venue": "Memorial Stadium (Clemson, SC)",
    "broadcast": "ESPN",
    "spread": "CLEM -3",
-   "overUnder": 43.5,
+   "overUnder": 44.5,
    "headline": null,
    "home": {
     "abbr": "CLEM",
@@ -944,7 +944,7 @@
    "detail": "9/19 - 1:00 PM EDT",
    "venue": "Kelly/Shorts Stadium",
    "broadcast": "ESPN+",
-   "spread": "CMU -1.5",
+   "spread": "WYO -1.5",
    "overUnder": 38.5,
    "headline": null,
    "home": {
@@ -1056,7 +1056,7 @@
    "venue": "Glass Bowl",
    "broadcast": "CBSSN",
    "spread": "TOL -6",
-   "overUnder": 50.5,
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "TOL",
@@ -1092,7 +1092,7 @@
    "detail": "9/19 - 3:30 PM EDT",
    "venue": "Kyle Field",
    "broadcast": "ESPN",
-   "spread": "TA&M -16.5",
+   "spread": "TA&M -17.5",
    "overUnder": 49.5,
    "headline": null,
    "home": {
@@ -1166,8 +1166,8 @@
    "detail": "9/19 - 3:30 PM EDT",
    "venue": "SHI Stadium",
    "broadcast": "CBS",
-   "spread": "USC -22.5",
-   "overUnder": 59.5,
+   "spread": "USC -21.5",
+   "overUnder": 58.5,
    "headline": null,
    "home": {
     "abbr": "RUTG",
@@ -1204,7 +1204,7 @@
    "venue": "L&N Federal Credit Union Stadium",
    "broadcast": "ESPN2",
    "spread": "LOU -1.5",
-   "overUnder": 59.5,
+   "overUnder": 58.5,
    "headline": null,
    "home": {
     "abbr": "LOU",
@@ -1314,7 +1314,7 @@
    "detail": "9/19 - 3:30 PM EDT",
    "venue": "TQL Stadium",
    "broadcast": "ESPN+",
-   "spread": "CIN -16.5",
+   "spread": "CIN -15.5",
    "overUnder": 49.5,
    "headline": null,
    "home": {
@@ -1573,7 +1573,7 @@
    "detail": "9/19 - 4:00 PM EDT",
    "venue": "Williams Stadium (VA)",
    "broadcast": "ESPN+",
-   "spread": "LIB -14",
+   "spread": "LIB -14.5",
    "overUnder": 49.5,
    "headline": null,
    "home": {
@@ -1610,8 +1610,8 @@
    "detail": "9/19 - 4:00 PM EDT",
    "venue": "McLane Stadium",
    "broadcast": "ESPNU",
-   "spread": "BAY -19.5",
-   "overUnder": 53.5,
+   "spread": "BAY -20.5",
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "BAY",
@@ -1758,7 +1758,7 @@
    "detail": "9/19 - 6:00 PM EDT",
    "venue": "Flagler Credit Union Stadium",
    "broadcast": "ESPN+",
-   "spread": "FAU -7",
+   "spread": "FAU -6.5",
    "overUnder": 62.5,
    "headline": null,
    "home": {
@@ -1833,7 +1833,7 @@
    "venue": "Robert W. Plaster Stadium",
    "broadcast": "CBSSN",
    "spread": "MRSH -4",
-   "overUnder": 52.5,
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "MOST",
@@ -1944,7 +1944,7 @@
    "venue": "Acrisure Bounce House",
    "broadcast": "ESPN+",
    "spread": "UCF -17.5",
-   "overUnder": 50.5,
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "UCF",
@@ -2233,17 +2233,17 @@
   {
    "id": "401869948",
    "date": "2026-09-19T23:00Z",
-   "name": "GASO @ JVST",
+   "name": "GASO @ JXST",
    "state": "pre",
    "completed": false,
    "detail": "9/19 - 7:00 PM EDT",
    "venue": "AmFirst Stadium",
    "broadcast": "ESPN+",
-   "spread": "JXST -3",
-   "overUnder": 53.5,
+   "spread": "JXST -3.5",
+   "overUnder": 52.5,
    "headline": null,
    "home": {
-    "abbr": "JVST",
+    "abbr": "JXST",
     "name": "Jacksonville State Gamecocks",
     "short": "Jax State",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
@@ -2424,8 +2424,8 @@
    "detail": "9/19 - 7:30 PM EDT",
    "venue": "Vaught-Hemingway Stadium",
    "broadcast": "ABC",
-   "spread": "LSU -2.5",
-   "overUnder": 57.5,
+   "spread": "LSU -3",
+   "overUnder": 58.5,
    "headline": null,
    "home": {
     "abbr": "MISS",
@@ -2462,7 +2462,7 @@
    "venue": "Canvas Stadium",
    "broadcast": "CBS",
    "spread": "BYU -17.5",
-   "overUnder": 52.5,
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "CSU",
@@ -2499,7 +2499,7 @@
    "venue": "Memorial Stadium (Norman, OK)",
    "broadcast": "ESPN2",
    "spread": "OU -21.5",
-   "overUnder": 46.5,
+   "overUnder": 44.5,
    "headline": null,
    "home": {
     "abbr": "OU",
@@ -2646,8 +2646,8 @@
    "detail": "9/19 - 7:45 PM EDT",
    "venue": "Neyland Stadium",
    "broadcast": "SEC Network",
-   "spread": "TENN -34.5",
-   "overUnder": 59.5,
+   "spread": "TENN -35.5",
+   "overUnder": 60.5,
    "headline": null,
    "home": {
     "abbr": "TENN",
@@ -2720,8 +2720,8 @@
    "detail": "9/19 - 8:00 PM EDT",
    "venue": "Amon G. Carter Stadium",
    "broadcast": "ESPNU",
-   "spread": "TCU -20.5",
-   "overUnder": 56.5,
+   "spread": "TCU -18.5",
+   "overUnder": 55.5,
    "headline": null,
    "home": {
     "abbr": "TCU",
@@ -2795,7 +2795,7 @@
    "venue": "Our Lady of Lourdes Stadium",
    "broadcast": "ESPN+",
    "spread": "UL -7.5",
-   "overUnder": 56.5,
+   "overUnder": 55.5,
    "headline": null,
    "home": {
     "abbr": "UL",
@@ -3054,7 +3054,7 @@
    "venue": "CEFCU Stadium",
    "broadcast": "FS1",
    "spread": "FRES -6.5",
-   "overUnder": 49.5,
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "SJSU",
@@ -4936,7 +4936,7 @@
   {
    "id": "401866418",
    "date": "2026-09-12T22:00Z",
-   "name": "JVST @ OHIO",
+   "name": "JXST @ OHIO",
    "state": "post",
    "completed": true,
    "detail": "Final/4OT",
@@ -4958,7 +4958,7 @@
     "winner": true
    },
    "away": {
-    "abbr": "JVST",
+    "abbr": "JXST",
     "name": "Jacksonville State Gamecocks",
     "short": "Jax State",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
