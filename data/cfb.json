@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 3,
  "poll": "AP Top 25",
- "fetchedAt": "2026-09-18T08:34:41.783Z",
+ "fetchedAt": "2026-09-18T10:23:32.273Z",
  "rankings": [
   {
    "rank": 1,
@@ -2462,7 +2462,7 @@
    "venue": "Canvas Stadium",
    "broadcast": "CBS",
    "spread": "BYU -17.5",
-   "overUnder": 53.5,
+   "overUnder": 52.5,
    "headline": null,
    "home": {
     "abbr": "CSU",
@@ -2721,7 +2721,7 @@
    "venue": "Amon G. Carter Stadium",
    "broadcast": "ESPNU",
    "spread": "TCU -18.5",
-   "overUnder": 55.5,
+   "overUnder": 56.5,
    "headline": null,
    "home": {
     "abbr": "TCU",
