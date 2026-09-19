@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 2,
- "archivedAt": "2026-09-18T10:23:36.708Z",
+ "archivedAt": "2026-09-19T10:07:06.191Z",
  "matchups": [
   {
    "id": 6,
@@ -653,7 +653,7 @@
       "playerId": 4258173,
       "name": "Nico Collins",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "IR",
       "points": 0
      },
      {
@@ -667,14 +667,14 @@
       "playerId": 4429615,
       "name": "Zay Flowers",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
       "playerId": 4239993,
       "name": "Tee Higgins",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0
      },
      {
@@ -695,7 +695,7 @@
       "playerId": 4432620,
       "name": "Parker Washington",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0
      },
      {
@@ -746,6 +746,13 @@
       "pos": "TE",
       "slot": "TE",
       "points": 22.5
+     },
+     {
+      "playerId": 4361741,
+      "name": "Brock Purdy",
+      "pos": "QB",
+      "slot": "BE",
+      "points": 0
      }
     ]
    }

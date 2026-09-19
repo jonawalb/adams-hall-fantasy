@@ -579,12 +579,12 @@
       "score": 0
      },
      "odds": {
-      "provider": "Draft Kings",
+      "provider": "DraftKings",
       "details": "CAR -2.5",
       "overUnder": 43.5,
       "moneyline": {
-       "home": "+136",
-       "away": "-162"
+       "home": "+124",
+       "away": "-148"
       }
      }
     },
@@ -615,8 +615,8 @@
       "details": "CHI -4.5",
       "overUnder": 48.5,
       "moneyline": {
-       "home": "-198",
-       "away": "+164"
+       "home": "-205",
+       "away": "+170"
       }
      }
     },
@@ -647,8 +647,8 @@
       "details": "PHI -7",
       "overUnder": 39.5,
       "moneyline": {
-       "home": "+250",
-       "away": "-310"
+       "home": "+260",
+       "away": "-325"
       }
      }
     },
@@ -711,8 +711,8 @@
       "details": "GB -3.5",
       "overUnder": 44.5,
       "moneyline": {
-       "home": "+164",
-       "away": "-198"
+       "home": "+170",
+       "away": "-205"
       }
      }
     },
@@ -772,7 +772,7 @@
      },
      "odds": {
       "provider": null,
-      "details": "BAL -7.5",
+      "details": "BAL -8.5",
       "overUnder": 46.5,
       "moneyline": {
        "home": "-395",
@@ -805,10 +805,10 @@
      "odds": {
       "provider": null,
       "details": "HOU -2.5",
-      "overUnder": 46.5,
+      "overUnder": 45.5,
       "moneyline": {
-       "home": "-142",
-       "away": "+120"
+       "home": "-135",
+       "away": "+114"
       }
      }
     },
@@ -871,8 +871,8 @@
       "details": "LAC -6.5",
       "overUnder": 43.5,
       "moneyline": {
-       "home": "-305",
-       "away": "+245"
+       "home": "-298",
+       "away": "+240"
       }
      }
     },
@@ -935,8 +935,8 @@
       "details": "SEA -3.5",
       "overUnder": 40.5,
       "moneyline": {
-       "home": "+180",
-       "away": "-218"
+       "home": "+170",
+       "away": "-205"
       }
      }
     },
@@ -1031,13 +1031,13 @@
       "details": "LAR -7",
       "overUnder": 48.5,
       "moneyline": {
-       "home": "-375",
-       "away": "+295"
+       "home": "-360",
+       "away": "+285"
       }
      }
     }
    ]
   }
  },
- "fetchedAt": "2026-09-18T10:23:31.554Z"
+ "fetchedAt": "2026-09-19T10:07:03.700Z"
 }
