@@ -39,7 +39,7 @@
   "id": 11394,
   "name": "Josh Johnson",
   "pos": "QB",
-  "proTeamId": 0
+  "proTeamId": 4
  },
  "12460": {
   "id": 12460,
@@ -1779,7 +1779,7 @@
   "id": 4037457,
   "name": "Travis Homer",
   "pos": "RB",
-  "proTeamId": 0
+  "proTeamId": 23
  },
  "4038441": {
   "id": 4038441,
@@ -4023,7 +4023,7 @@
   "id": 4429684,
   "name": "Anthony Gould",
   "pos": "WR",
-  "proTeamId": 0
+  "proTeamId": 11
  },
  "4429795": {
   "id": 4429795,
@@ -4995,7 +4995,7 @@
   "id": 4683159,
   "name": "Lewis Bond",
   "pos": "WR",
-  "proTeamId": 0
+  "proTeamId": 34
  },
  "4683243": {
   "id": 4683243,
