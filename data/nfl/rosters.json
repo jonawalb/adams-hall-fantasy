@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-09-20T10:25:47.445Z",
+ "fetchedAt": "2026-09-20T22:01:13.351Z",
  "players": {
   "Isaiah Adams": "ARI",
   "Tyler Allgeier": "ARI",
@@ -701,6 +701,7 @@
   "Laken Tomlinson": "DAL",
   "Michael Trigg": "DAL",
   "Nate Adkins": "DEN",
+  "Tyler Badie": "DEN",
   "Garett Bolles": "DEN",
   "Pat Bryant": "DEN",
   "Jonah Coleman": "DEN",
@@ -901,7 +902,6 @@
   "Kristian Welch": "GB",
   "Evan Williams": "GB",
   "Devonte Wyatt": "GB",
-  "Scott Daly": "GB",
   "Matt Orzech": "GB",
   "Trey Smack": "GB",
   "Daniel Whelan": "GB",
@@ -1756,6 +1756,7 @@
   "Colby Wooden": "NO",
   "Chase Young": "NO",
   "Daniel Carlson": "NO",
+  "Scott Daly": "NO",
   "Ryan Wright": "NO",
   "Bryan Bresee": "NO",
   "Ty Chandler": "NO",
