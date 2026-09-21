@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 2,
- "archivedAt": "2026-09-21T00:37:18.806Z",
+ "archivedAt": "2026-09-21T07:49:06.793Z",
  "matchups": [
   {
    "id": 6,
@@ -101,7 +101,7 @@
       "name": "Xavier Worthy",
       "pos": "WR",
       "slot": "BE",
-      "points": 2.6
+      "points": 13.5
      },
      {
       "playerId": 3054850,
@@ -115,7 +115,7 @@
       "name": "Harrison Butker",
       "pos": "K",
       "slot": "K",
-      "points": 0
+      "points": 16
      },
      {
       "playerId": -16024,
@@ -212,7 +212,7 @@
       "name": "Travis Kelce",
       "pos": "TE",
       "slot": "BE",
-      "points": 0
+      "points": 25.1
      },
      {
       "playerId": 4429205,
@@ -391,7 +391,7 @@
       "name": "Rashee Rice",
       "pos": "WR",
       "slot": "WR",
-      "points": 0
+      "points": 12.3
      },
      {
       "playerId": 4430737,
@@ -640,7 +640,7 @@
       "name": "Jonathan Taylor",
       "pos": "RB",
       "slot": "RB",
-      "points": 2.2
+      "points": 29.200000000000003
      },
      {
       "playerId": 4890973,
@@ -959,7 +959,7 @@
       "name": "Josh Downs",
       "pos": "WR",
       "slot": "BE",
-      "points": 2.1
+      "points": 14.2
      },
      {
       "playerId": 4360689,
@@ -980,7 +980,7 @@
       "name": "Daniel Jones",
       "pos": "QB",
       "slot": "BE",
-      "points": 5.32
+      "points": 11.4
      },
      {
       "playerId": -16008,
@@ -1001,7 +1001,7 @@
       "name": "Chiefs D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
-      "points": 8
+      "points": 1
      },
      {
       "playerId": 4569559,
@@ -1034,7 +1034,7 @@
       "name": "Kenneth Walker III",
       "pos": "RB",
       "slot": "RB",
-      "points": 1.9000000000000001
+      "points": 23.800000000000004
      },
      {
       "playerId": 4426502,
@@ -1055,7 +1055,7 @@
       "name": "Tyler Warren",
       "pos": "TE",
       "slot": "TE",
-      "points": 7.3999999999999995
+      "points": 14.4
      },
      {
       "playerId": 4426348,
@@ -1243,7 +1243,7 @@
       "name": "Patrick Mahomes",
       "pos": "QB",
       "slot": "BE",
-      "points": 0.64
+      "points": 28.98
      },
      {
       "playerId": 3149687,
