@@ -557,38 +557,6 @@
      }
     },
     {
-     "id": "401872935",
-     "date": "2026-09-20T17:00Z",
-     "name": "CLE @ TB",
-     "state": "in",
-     "completed": false,
-     "winner": null,
-     "detail": "Delayed",
-     "home": {
-      "abbr": "TB",
-      "name": "Tampa Bay Buccaneers",
-      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
-      "color": "bd1c36",
-      "score": 19
-     },
-     "away": {
-      "abbr": "CLE",
-      "name": "Cleveland Browns",
-      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
-      "color": "472a08",
-      "score": 23
-     },
-     "odds": {
-      "provider": null,
-      "details": "TB -7.5",
-      "overUnder": 41.5,
-      "moneyline": {
-       "home": "-440",
-       "away": "+340"
-      }
-     }
-    },
-    {
      "id": "401872933",
      "date": "2026-09-20T17:00Z",
      "name": "CAR @ ATL",
@@ -749,6 +717,38 @@
      }
     },
     {
+     "id": "401872935",
+     "date": "2026-09-20T17:00Z",
+     "name": "CLE @ TB",
+     "state": "post",
+     "completed": true,
+     "winner": "away",
+     "detail": "Final",
+     "home": {
+      "abbr": "TB",
+      "name": "Tampa Bay Buccaneers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+      "color": "bd1c36",
+      "score": 19
+     },
+     "away": {
+      "abbr": "CLE",
+      "name": "Cleveland Browns",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+      "color": "472a08",
+      "score": 23
+     },
+     "odds": {
+      "provider": null,
+      "details": "TB -7.5",
+      "overUnder": 41.5,
+      "moneyline": {
+       "home": "-440",
+       "away": "+340"
+      }
+     }
+    },
+    {
      "id": "401872938",
      "date": "2026-09-20T17:00Z",
      "name": "NO @ BAL",
@@ -816,16 +816,16 @@
      "id": "401872940",
      "date": "2026-09-20T20:05Z",
      "name": "JAX @ DEN",
-     "state": "in",
-     "completed": false,
-     "winner": null,
-     "detail": "4:58 - 3rd",
+     "state": "post",
+     "completed": true,
+     "winner": "home",
+     "detail": "Final",
      "home": {
       "abbr": "DEN",
       "name": "Denver Broncos",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
       "color": "0a2343",
-      "score": 6
+      "score": 20
      },
      "away": {
       "abbr": "JAX",
@@ -848,10 +848,10 @@
      "id": "401872941",
      "date": "2026-09-20T20:05Z",
      "name": "LV @ LAC",
-     "state": "in",
-     "completed": false,
-     "winner": null,
-     "detail": "8:21 - 3rd",
+     "state": "post",
+     "completed": true,
+     "winner": "away",
+     "detail": "Final",
      "home": {
       "abbr": "LAC",
       "name": "Los Angeles Chargers",
@@ -864,7 +864,7 @@
       "name": "Las Vegas Raiders",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
       "color": "000000",
-      "score": 10
+      "score": 26
      },
      "odds": {
       "provider": null,
@@ -880,23 +880,23 @@
      "id": "401872944",
      "date": "2026-09-20T20:25Z",
      "name": "WSH @ DAL",
-     "state": "in",
-     "completed": false,
-     "winner": null,
-     "detail": "Halftime",
+     "state": "post",
+     "completed": true,
+     "winner": "home",
+     "detail": "Final",
      "home": {
       "abbr": "DAL",
       "name": "Dallas Cowboys",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
       "color": "002a5c",
-      "score": 17
+      "score": 37
      },
      "away": {
       "abbr": "WSH",
       "name": "Washington Commanders",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
       "color": "5a1414",
-      "score": 10
+      "score": 20
      },
      "odds": {
       "provider": null,
@@ -912,10 +912,10 @@
      "id": "401872943",
      "date": "2026-09-20T20:25Z",
      "name": "SEA @ ARI",
-     "state": "in",
-     "completed": false,
-     "winner": null,
-     "detail": "Halftime",
+     "state": "post",
+     "completed": true,
+     "winner": "away",
+     "detail": "Final",
      "home": {
       "abbr": "ARI",
       "name": "Arizona Cardinals",
@@ -928,7 +928,7 @@
       "name": "Seattle Seahawks",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
       "color": "002a5c",
-      "score": 7
+      "score": 31
      },
      "odds": {
       "provider": null,
@@ -944,23 +944,23 @@
      "id": "401872942",
      "date": "2026-09-20T20:25Z",
      "name": "MIA @ SF",
-     "state": "in",
-     "completed": false,
-     "winner": null,
-     "detail": "10:49 - 3rd",
+     "state": "post",
+     "completed": true,
+     "winner": "home",
+     "detail": "Final",
      "home": {
       "abbr": "SF",
       "name": "San Francisco 49ers",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
       "color": "aa0000",
-      "score": 21
+      "score": 35
      },
      "away": {
       "abbr": "MIA",
       "name": "Miami Dolphins",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
       "color": "008e97",
-      "score": 6
+      "score": 13
      },
      "odds": {
       "provider": null,
@@ -976,10 +976,10 @@
      "id": "401872945",
      "date": "2026-09-21T00:20Z",
      "name": "IND @ KC",
-     "state": "pre",
+     "state": "in",
      "completed": false,
      "winner": null,
-     "detail": "9/20 - 8:20 PM EDT",
+     "detail": "7:01 - 1st",
      "home": {
       "abbr": "KC",
       "name": "Kansas City Chiefs",
@@ -992,7 +992,7 @@
       "name": "Indianapolis Colts",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
       "color": "003b75",
-      "score": 0
+      "score": 7
      },
      "odds": {
       "provider": "DraftKings",
@@ -1027,7 +1027,7 @@
       "score": 0
      },
      "odds": {
-      "provider": null,
+      "provider": "DraftKings",
       "details": "LAR -6.5",
       "overUnder": 47.5,
       "moneyline": {
@@ -1039,5 +1039,5 @@
    ]
   }
  },
- "fetchedAt": "2026-09-20T22:00:51.210Z"
+ "fetchedAt": "2026-09-21T00:37:14.797Z"
 }
