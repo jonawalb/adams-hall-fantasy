@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 4,
  "poll": "AP Top 25",
- "fetchedAt": "2026-09-21T11:42:04.565Z",
+ "fetchedAt": "2026-09-21T14:58:47.625Z",
  "rankings": [
   {
    "rank": 1,
@@ -316,7 +316,7 @@
    "venue": "Brooks Stadium (SC)",
    "broadcast": "ESPN",
    "spread": "LIB -2.5",
-   "overUnder": 51.5,
+   "overUnder": 52.5,
    "headline": null,
    "home": {
     "abbr": "CCU",
@@ -537,7 +537,7 @@
    "detail": "9/26 - 12:00 PM EDT",
    "venue": "Neyland Stadium",
    "broadcast": "ABC",
-   "spread": "TEX -3.5",
+   "spread": "TEX -4.5",
    "overUnder": 56.5,
    "headline": null,
    "home": {
@@ -759,8 +759,8 @@
    "detail": "9/26 - 12:00 PM EDT",
    "venue": "Alumni Stadium (Chestnut Hill, MA)",
    "broadcast": "ACC Network",
-   "spread": "VT -14.5",
-   "overUnder": 52.5,
+   "spread": "VT -14",
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "BC",
@@ -834,7 +834,7 @@
    "venue": "Alamodome",
    "broadcast": "ESPNU",
    "spread": "UTSA -12.5",
-   "overUnder": 57.5,
+   "overUnder": 58.5,
    "headline": null,
    "home": {
     "abbr": "UTSA",
@@ -907,7 +907,7 @@
    "detail": "9/26 - 12:00 PM EDT",
    "venue": "Zoeller Field at Dix Stadium",
    "broadcast": "ESPN+",
-   "spread": "KENT -3.5",
+   "spread": "KENT -3",
    "overUnder": 49.5,
    "headline": null,
    "home": {
@@ -1018,7 +1018,7 @@
    "detail": "9/26 - 1:30 PM EDT",
    "venue": "SECU Stadium",
    "broadcast": "BTN",
-   "spread": "UCLA -2.5",
+   "spread": "UCLA -1.5",
    "overUnder": 57.5,
    "headline": null,
    "home": {
@@ -1092,7 +1092,7 @@
    "detail": "9/26 - 2:00 PM EDT",
    "venue": "Center Parc Stadium",
    "broadcast": "ESPN+",
-   "spread": "GAST -9.5",
+   "spread": "GAST -10",
    "overUnder": 55.5,
    "headline": null,
    "home": {
@@ -1314,8 +1314,8 @@
    "detail": "9/26 - 3:30 PM EDT",
    "venue": "Michigan Stadium",
    "broadcast": "CBS",
-   "spread": "MICH -4.5",
-   "overUnder": 37.5,
+   "spread": "MICH -5.5",
+   "overUnder": 38.5,
    "headline": null,
    "home": {
     "abbr": "MICH",
@@ -1722,7 +1722,7 @@
    "venue": "Jordan-Hare Stadium",
    "broadcast": "SEC Network",
    "spread": "AUB -9.5",
-   "overUnder": 54.5,
+   "overUnder": 55.5,
    "headline": null,
    "home": {
     "abbr": "AUB",
@@ -1869,8 +1869,8 @@
    "detail": "9/26 - 6:00 PM EDT",
    "venue": "Scott Stadium",
    "broadcast": "ACC Network",
-   "spread": "UVA -20.5",
-   "overUnder": 52.5,
+   "spread": "UVA -19.5",
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "UVA",
@@ -1980,7 +1980,7 @@
    "detail": "9/26 - 6:00 PM EDT",
    "venue": "S.B. Ballard Stadium",
    "broadcast": "ESPN+",
-   "spread": "JMU -5.5",
+   "spread": "JMU -6",
    "overUnder": 47.5,
    "headline": null,
    "home": {
@@ -2054,8 +2054,8 @@
    "detail": "9/26 - 6:30 PM EDT",
    "venue": "Jerry Richardson Stadium",
    "broadcast": "ESPN+",
-   "spread": "UL -10.5",
-   "overUnder": 50.5,
+   "spread": "UL -10",
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "CLT",
@@ -2129,7 +2129,7 @@
    "venue": "Nippert Stadium",
    "broadcast": "ESPN2",
    "spread": "KSU -6.5",
-   "overUnder": 53.5,
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "CIN",
@@ -2313,7 +2313,7 @@
    "detail": "9/26 - 7:00 PM EDT",
    "venue": "AmFirst Stadium",
    "broadcast": "ESPN+",
-   "spread": "JXST -8.5",
+   "spread": "JXST -7.5",
    "overUnder": 51.5,
    "headline": null,
    "home": {
@@ -2387,7 +2387,7 @@
    "detail": "9/26 - 7:30 PM EDT",
    "venue": "Los Angeles Memorial Coliseum",
    "broadcast": "NBC",
-   "spread": "ORE -2.5",
+   "spread": "ORE -3",
    "overUnder": 62.5,
    "headline": null,
    "home": {
@@ -2424,7 +2424,7 @@
    "detail": "9/26 - 7:30 PM EDT",
    "venue": "Martin Stadium",
    "broadcast": "CBS",
-   "spread": "ARIZ -10.5",
+   "spread": "ARIZ -10",
    "overUnder": 47.5,
    "headline": null,
    "home": {
@@ -2461,7 +2461,7 @@
    "detail": "9/26 - 7:30 PM EDT",
    "venue": "Maverik Stadium",
    "broadcast": "CBSSN",
-   "spread": "USU -2.5",
+   "spread": "USU -3",
    "overUnder": 49.5,
    "headline": null,
    "home": {
@@ -2535,8 +2535,8 @@
    "detail": "9/26 - 7:30 PM EDT",
    "venue": "Carter-Finley Stadium",
    "broadcast": "ESPNU",
-   "spread": "NCSU -13.5",
-   "overUnder": 55.5,
+   "spread": "NCSU -14",
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "NCSU",
@@ -2572,8 +2572,8 @@
    "detail": "9/26 - 7:45 PM EDT",
    "venue": "Davis Wade Stadium",
    "broadcast": "SEC Network",
-   "spread": "MSST -6",
-   "overUnder": 59.5,
+   "spread": "MSST -6.5",
+   "overUnder": 58.5,
    "headline": null,
    "home": {
     "abbr": "MSST",
@@ -2720,7 +2720,7 @@
    "detail": "9/26 - 9:00 PM EDT",
    "venue": "Sun Bowl",
    "broadcast": "MW+",
-   "spread": "ORST -11.5",
+   "spread": "ORST -10.5",
    "overUnder": 53.5,
    "headline": null,
    "home": {
@@ -2905,7 +2905,7 @@
    "detail": "9/26 - 11:00 PM EDT",
    "venue": "Husky Stadium",
    "broadcast": "FOX",
-   "spread": "WASH -8.5",
+   "spread": "WASH -10",
    "overUnder": 45.5,
    "headline": null,
    "home": {
