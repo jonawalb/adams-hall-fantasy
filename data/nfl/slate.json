@@ -1027,17 +1027,17 @@
       "score": 0
      },
      "odds": {
-      "provider": "DraftKings",
-      "details": "LAR -7",
+      "provider": "Draft Kings",
+      "details": "LAR -6.5",
       "overUnder": 47.5,
       "moneyline": {
-       "home": "-305",
-       "away": "+245"
+       "home": "-285",
+       "away": "+230"
       }
      }
     }
    ]
   }
  },
- "fetchedAt": "2026-09-21T07:49:00.605Z"
+ "fetchedAt": "2026-09-21T11:42:03.865Z"
 }

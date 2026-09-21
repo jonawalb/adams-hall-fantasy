@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 4,
  "poll": "AP Top 25",
- "fetchedAt": "2026-09-21T07:49:01.135Z",
+ "fetchedAt": "2026-09-21T11:42:04.565Z",
  "rankings": [
   {
    "rank": 1,
@@ -2055,7 +2055,7 @@
    "venue": "Jerry Richardson Stadium",
    "broadcast": "ESPN+",
    "spread": "UL -10.5",
-   "overUnder": 49.5,
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "CLT",
@@ -2721,7 +2721,7 @@
    "venue": "Sun Bowl",
    "broadcast": "MW+",
    "spread": "ORST -11.5",
-   "overUnder": 54.5,
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "UTEP",
@@ -2869,7 +2869,7 @@
    "venue": "Mackay Stadium",
    "broadcast": "FS1",
    "spread": "AF -4",
-   "overUnder": 48.5,
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "NEV",
