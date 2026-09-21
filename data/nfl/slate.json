@@ -976,23 +976,23 @@
      "id": "401872945",
      "date": "2026-09-21T00:20Z",
      "name": "IND @ KC",
-     "state": "in",
-     "completed": false,
-     "winner": null,
-     "detail": "7:01 - 1st",
+     "state": "post",
+     "completed": true,
+     "winner": "home",
+     "detail": "Final/OT",
      "home": {
       "abbr": "KC",
       "name": "Kansas City Chiefs",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
       "color": "e31837",
-      "score": 0
+      "score": 33
      },
      "away": {
       "abbr": "IND",
       "name": "Indianapolis Colts",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
       "color": "003b75",
-      "score": 7
+      "score": 30
      },
      "odds": {
       "provider": "DraftKings",
@@ -1028,16 +1028,16 @@
      },
      "odds": {
       "provider": "DraftKings",
-      "details": "LAR -6.5",
+      "details": "LAR -7",
       "overUnder": 47.5,
       "moneyline": {
-       "home": "-285",
-       "away": "+230"
+       "home": "-305",
+       "away": "+245"
       }
      }
     }
    ]
   }
  },
- "fetchedAt": "2026-09-21T00:37:14.797Z"
+ "fetchedAt": "2026-09-21T07:49:00.605Z"
 }
