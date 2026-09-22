@@ -1008,23 +1008,23 @@
      "id": "401872947",
      "date": "2026-09-22T00:15Z",
      "name": "NYG @ LAR",
-     "state": "pre",
-     "completed": false,
-     "winner": null,
-     "detail": "9/21 - 8:15 PM EDT",
+     "state": "post",
+     "completed": true,
+     "winner": "home",
+     "detail": "Final",
      "home": {
       "abbr": "LAR",
       "name": "Los Angeles Rams",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
       "color": "003594",
-      "score": 0
+      "score": 28
      },
      "away": {
       "abbr": "NYG",
       "name": "New York Giants",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
       "color": "003c7f",
-      "score": 0
+      "score": 6
      },
      "odds": {
       "provider": "Draft Kings",
@@ -1039,5 +1039,5 @@
    ]
   }
  },
- "fetchedAt": "2026-09-21T14:58:47.157Z"
+ "fetchedAt": "2026-09-22T09:00:08.789Z"
 }
