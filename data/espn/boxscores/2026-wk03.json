@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 3,
- "archivedAt": "2026-09-22T10:45:55.953Z",
+ "archivedAt": "2026-09-22T16:15:29.214Z",
  "matchups": [
   {
    "id": 11,
@@ -162,7 +162,7 @@
       "playerId": 4612826,
       "name": "Ladd McConkey",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "WR",
       "points": 0
      },
      {
@@ -190,7 +190,7 @@
       "playerId": 4248528,
       "name": "Christian Watson",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -293,14 +293,14 @@
       "playerId": 3121422,
       "name": "Terry McLaurin",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "WR",
       "points": 0
      },
      {
       "playerId": 3915416,
       "name": "DJ Moore",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -335,7 +335,7 @@
       "playerId": 4568490,
       "name": "RJ Harvey",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "IR",
       "points": 0
      },
      {
@@ -356,7 +356,7 @@
       "playerId": 3054850,
       "name": "Alvin Kamara",
       "pos": "RB",
-      "slot": "IR",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -404,7 +404,7 @@
       "playerId": 4595348,
       "name": "Malik Nabers",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -432,7 +432,7 @@
       "playerId": 4035538,
       "name": "David Montgomery",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -453,7 +453,7 @@
       "playerId": 3121023,
       "name": "Dallas Goedert",
       "pos": "TE",
-      "slot": "TE",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -481,7 +481,7 @@
       "playerId": 3929645,
       "name": "Juwan Johnson",
       "pos": "TE",
-      "slot": "BE",
+      "slot": "TE",
       "points": 0
      },
      {
@@ -1221,7 +1221,7 @@
       "playerId": -16023,
       "name": "Steelers D/ST",
       "pos": "D/ST",
-      "slot": "BE",
+      "slot": "D/ST",
       "points": 0
      },
      {
@@ -1256,7 +1256,7 @@
       "playerId": -16017,
       "name": "Patriots D/ST",
       "pos": "D/ST",
-      "slot": "D/ST",
+      "slot": "BE",
       "points": 0
      }
     ]

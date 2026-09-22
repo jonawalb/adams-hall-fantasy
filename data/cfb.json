@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 4,
  "poll": "AP Top 25",
- "fetchedAt": "2026-09-22T10:45:53.001Z",
+ "fetchedAt": "2026-09-22T16:15:25.101Z",
  "rankings": [
   {
    "rank": 1,
@@ -316,7 +316,7 @@
    "venue": "Brooks Stadium (SC)",
    "broadcast": "ESPN",
    "spread": "LIB -2.5",
-   "overUnder": 52.5,
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "CCU",
@@ -500,7 +500,7 @@
    "detail": "9/25 - 10:30 PM EDT",
    "venue": "California Memorial Stadium",
    "broadcast": "ESPN",
-   "spread": "CLEM -1.5",
+   "spread": "CAL -1.5",
    "overUnder": 50.5,
    "headline": null,
    "home": {
@@ -612,7 +612,7 @@
    "venue": "Galaxy Stadium",
    "broadcast": "TNT",
    "spread": "TTU -34.5",
-   "overUnder": 54.5,
+   "overUnder": 55.5,
    "headline": null,
    "home": {
     "abbr": "TTU",
@@ -797,7 +797,7 @@
    "venue": "Glass Bowl",
    "broadcast": "CBSSN",
    "spread": "TOL -3",
-   "overUnder": 51.5,
+   "overUnder": 52.5,
    "headline": null,
    "home": {
     "abbr": "TOL",
@@ -1019,7 +1019,7 @@
    "venue": "SECU Stadium",
    "broadcast": "BTN",
    "spread": "UCLA -1.5",
-   "overUnder": 57.5,
+   "overUnder": 56.5,
    "headline": null,
    "home": {
     "abbr": "MD",
@@ -1204,7 +1204,7 @@
    "venue": "Sanford Stadium",
    "broadcast": "ESPN",
    "spread": "UGA -14",
-   "overUnder": 43.5,
+   "overUnder": 44.5,
    "headline": null,
    "home": {
     "abbr": "UGA",
@@ -1241,7 +1241,7 @@
    "venue": "Ben Hill Griffin Stadium",
    "broadcast": "ABC",
    "spread": "FLA -3.5",
-   "overUnder": 60.5,
+   "overUnder": 58.5,
    "headline": null,
    "home": {
     "abbr": "FLA",
@@ -1426,7 +1426,7 @@
    "venue": "Waldo Stadium",
    "broadcast": "ESPN2",
    "spread": "BOIS -7",
-   "overUnder": 48.5,
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "WMU",
@@ -2092,7 +2092,7 @@
    "venue": "Bryant-Denny Stadium",
    "broadcast": "ESPN",
    "spread": "ALA -12.5",
-   "overUnder": 54.5,
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "ALA",
@@ -2166,7 +2166,7 @@
    "venue": "Milan Puskar Stadium",
    "broadcast": "FS1",
    "spread": "WVU -1.5",
-   "overUnder": 59.5,
+   "overUnder": 60.5,
    "headline": null,
    "home": {
     "abbr": "WVU",
@@ -2203,7 +2203,7 @@
    "venue": "Yulman Stadium",
    "broadcast": "ESPN+",
    "spread": "TULN -18.5",
-   "overUnder": 51.5,
+   "overUnder": 52.5,
    "headline": null,
    "home": {
     "abbr": "TULN",
@@ -2239,7 +2239,7 @@
    "detail": "9/26 - 7:00 PM EDT",
    "venue": "Centennial Bank Stadium",
    "broadcast": "ESPN+",
-   "spread": "ARST -5.5",
+   "spread": "ARST -6",
    "overUnder": 52.5,
    "headline": null,
    "home": {
@@ -2351,7 +2351,7 @@
    "venue": "Tiger Stadium (LA)",
    "broadcast": "ABC",
    "spread": "LSU -8.5",
-   "overUnder": 52.5,
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "LSU",
@@ -2425,7 +2425,7 @@
    "venue": "Martin Stadium",
    "broadcast": "CBS",
    "spread": "ARIZ -10",
-   "overUnder": 47.5,
+   "overUnder": 48.5,
    "headline": null,
    "home": {
     "abbr": "WSU",
@@ -2610,7 +2610,7 @@
    "venue": "Donald W. Reynolds Razorback Stadium",
    "broadcast": "SECN+",
    "spread": "ARK -7",
-   "overUnder": 51.5,
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "ARK",
@@ -2721,7 +2721,7 @@
    "venue": "Sun Bowl",
    "broadcast": "MW+",
    "spread": "ORST -10.5",
-   "overUnder": 54.5,
+   "overUnder": 55.5,
    "headline": null,
    "home": {
     "abbr": "UTEP",
