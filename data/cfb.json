@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 4,
  "poll": "AP Top 25",
- "fetchedAt": "2026-09-22T16:15:25.101Z",
+ "fetchedAt": "2026-09-23T10:36:09.983Z",
  "rankings": [
   {
    "rank": 1,
@@ -537,7 +537,7 @@
    "detail": "9/26 - 12:00 PM EDT",
    "venue": "Neyland Stadium",
    "broadcast": "ABC",
-   "spread": "TEX -5.5",
+   "spread": "TEX -4.5",
    "overUnder": 55.5,
    "headline": null,
    "home": {
@@ -575,7 +575,7 @@
    "venue": "Ohio Stadium",
    "broadcast": "FOX",
    "spread": "OSU -27.5",
-   "overUnder": 53.5,
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "OSU",
@@ -908,7 +908,7 @@
    "venue": "Zoeller Field at Dix Stadium",
    "broadcast": "ESPN+",
    "spread": "KENT -3.5",
-   "overUnder": 50.5,
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "KENT",
@@ -1056,7 +1056,7 @@
    "venue": "Ross-Ade Stadium",
    "broadcast": "Peacock",
    "spread": "ND -27.5",
-   "overUnder": 57.5,
+   "overUnder": 58.5,
    "headline": null,
    "home": {
     "abbr": "PUR",
@@ -1092,8 +1092,8 @@
    "detail": "9/26 - 2:00 PM EDT",
    "venue": "Center Parc Stadium",
    "broadcast": "ESPN+",
-   "spread": "GAST -10",
-   "overUnder": 56.5,
+   "spread": "GAST -10.5",
+   "overUnder": 55.5,
    "headline": null,
    "home": {
     "abbr": "GAST",
@@ -1277,7 +1277,7 @@
    "detail": "9/26 - 3:30 PM EDT",
    "venue": "Jack Trice Stadium",
    "broadcast": "FOX",
-   "spread": "UTAH -7.5",
+   "spread": "UTAH -8.5",
    "overUnder": 48.5,
    "headline": null,
    "home": {
@@ -1426,7 +1426,7 @@
    "venue": "Waldo Stadium",
    "broadcast": "ESPN2",
    "spread": "BOIS -7",
-   "overUnder": 49.5,
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "WMU",
@@ -1722,7 +1722,7 @@
    "venue": "Jordan-Hare Stadium",
    "broadcast": "SEC Network",
    "spread": "AUB -9.5",
-   "overUnder": 55.5,
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "AUB",
@@ -1758,7 +1758,7 @@
    "detail": "9/26 - 5:00 PM EDT",
    "venue": "Beaver Stadium",
    "broadcast": "Peacock",
-   "spread": "PSU -9.5",
+   "spread": "PSU -10",
    "overUnder": 44.5,
    "headline": null,
    "home": {
@@ -2239,7 +2239,7 @@
    "detail": "9/26 - 7:00 PM EDT",
    "venue": "Centennial Bank Stadium",
    "broadcast": "ESPN+",
-   "spread": "ARST -6",
+   "spread": "ARST -6.5",
    "overUnder": 52.5,
    "headline": null,
    "home": {
@@ -2462,7 +2462,7 @@
    "venue": "Maverik Stadium",
    "broadcast": "CBSSN",
    "spread": "USU -3",
-   "overUnder": 48.5,
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "USU",
@@ -2906,7 +2906,7 @@
    "venue": "Husky Stadium",
    "broadcast": "FOX",
    "spread": "WASH -10",
-   "overUnder": 46.5,
+   "overUnder": 45.5,
    "headline": null,
    "home": {
     "abbr": "WASH",

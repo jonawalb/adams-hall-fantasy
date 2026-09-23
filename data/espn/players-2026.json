@@ -1299,7 +1299,7 @@
   "id": 3916071,
   "name": "Gary Jennings",
   "pos": "WR",
-  "proTeamId": 24
+  "proTeamId": 0
  },
  "3916148": {
   "id": 3916148,
@@ -1359,7 +1359,7 @@
   "id": 3916945,
   "name": "Darius Slayton",
   "pos": "WR",
-  "proTeamId": 0
+  "proTeamId": 11
  },
  "3917232": {
   "id": 3917232,
@@ -2931,7 +2931,7 @@
   "id": 4361418,
   "name": "Will Levis",
   "pos": "QB",
-  "proTeamId": 0
+  "proTeamId": 20
  },
  "4361426": {
   "id": 4361426,
@@ -3789,7 +3789,7 @@
   "id": 4428396,
   "name": "Hayden Rucci",
   "pos": "TE",
-  "proTeamId": 0
+  "proTeamId": 24
  },
  "4428512": {
   "id": 4428512,
@@ -4629,7 +4629,7 @@
   "id": 4569682,
   "name": "Audric Estime",
   "pos": "RB",
-  "proTeamId": 18
+  "proTeamId": 0
  },
  "4569923": {
   "id": 4569923,
