@@ -216,7 +216,11 @@ export default function SouthStar({ board = "south-star" }: BoardProps) {
                 </div>
               )}
               <div className="mt-4 flex items-center gap-4 text-xs text-cream-dim">
-                <button type="button" onClick={() => setOpen(isOpen ? null : p.id)} className="hover:text-gold">
+                <button
+                  type="button"
+                  onClick={() => setOpen(isOpen ? null : p.id)}
+                  className={isOpen ? "text-xs hover:text-gold" : "text-sm font-bold underline border border-cream-dim/40 rounded-sm px-3 py-1 hover:text-gold hover:border-gold"}
+                >
                   {isOpen ? "Collapse" : "Click here to read more you bitch"}
                 </button>
                 {p.author === myId && (
