@@ -1,0 +1,320 @@
+{
+  "source": "leaguelegacy.io",
+  "league": "Adams Hall Fantasy League",
+  "seasons": 5,
+  "members_count": 10,
+  "last_updated": "2026-09-22",
+
+  "all_time_standings": [
+    { "rank": 1, "name": "Zach Gentry", "seasons": "2021-2025", "num_seasons": 5, "record": "43-27", "wins": 43, "losses": 27, "win_pct": 0.614, "all_play_record": "371-287", "all_play_win_pct": 0.564, "league_rating": 1640, "trophies": { "champion": 1, "runner_up": 2, "third": 1 } },
+    { "rank": 2, "name": "Colin McAulay", "seasons": "2021-2025", "num_seasons": 5, "record": "38-32", "wins": 38, "losses": 32, "win_pct": 0.543, "all_play_record": "383-275", "all_play_win_pct": 0.582, "league_rating": 1633, "trophies": { "champion": 1, "runner_up": 1 } },
+    { "rank": 3, "name": "Jonathan Walberg", "seasons": "2024-2025", "num_seasons": 2, "record": "16-12", "wins": 16, "losses": 12, "win_pct": 0.571, "all_play_record": "141-111", "all_play_win_pct": 0.560, "league_rating": 1603, "trophies": { "runner_up": 1, "third": 1 } },
+    { "rank": 4, "name": "Junul Smith", "seasons": "2021-2025", "num_seasons": 5, "record": "36-34", "wins": 36, "losses": 34, "win_pct": 0.514, "all_play_record": "304-354", "all_play_win_pct": 0.462, "league_rating": 1602, "trophies": { "champion": 1 } },
+    { "rank": 5, "name": "Collin Thomas", "seasons": "2023-2025", "num_seasons": 3, "record": "23-19", "wins": 23, "losses": 19, "win_pct": 0.548, "all_play_record": "219-159", "all_play_win_pct": 0.579, "league_rating": 1564, "trophies": {} },
+    { "rank": 6, "name": "Dylan Morse", "seasons": "2021-2025", "num_seasons": 5, "record": "38-32", "wins": 38, "losses": 32, "win_pct": 0.543, "all_play_record": "374-284", "all_play_win_pct": 0.568, "league_rating": 1546, "trophies": { "champion": 1, "runner_up": 1, "third": 1 } },
+    { "rank": 7, "name": "Ethan Connell", "seasons": "2021-2025", "num_seasons": 5, "record": "30-40", "wins": 30, "losses": 40, "win_pct": 0.429, "all_play_record": "298-360", "all_play_win_pct": 0.453, "league_rating": 1414, "trophies": {} },
+    { "rank": 8, "name": "Jorge Velasco", "seasons": "2021-2025", "num_seasons": 5, "record": "32-38", "wins": 32, "losses": 38, "win_pct": 0.457, "all_play_record": "331-327", "all_play_win_pct": 0.503, "league_rating": 1384, "trophies": { "champion": 1, "runner_up": 1 } },
+    { "rank": 9, "name": "Nishok Chitvel", "seasons": "2021-2025", "num_seasons": 5, "record": "26-44", "wins": 26, "losses": 44, "win_pct": 0.371, "all_play_record": "250-408", "all_play_win_pct": 0.380, "league_rating": 1364, "trophies": {} },
+    { "rank": 10, "name": "Aarush Jambunathan", "seasons": "2021-2025", "num_seasons": 5, "record": "26-44", "wins": 26, "losses": 44, "win_pct": 0.371, "all_play_record": "250-408", "all_play_win_pct": 0.380, "league_rating": 1278, "trophies": {} }
+  ],
+
+  "playoff_standings": [
+    { "rank": 1, "name": "Zach Gentry", "playoff_appearances": "2021-2024", "num_appearances": 4, "record": "7-3", "win_pct": 0.700, "medals": 4, "medal_score": 25, "trophies": { "champion": 1, "runner_up": 2, "third": 1 } },
+    { "rank": 2, "name": "Dylan Morse", "playoff_appearances": "2021, 2023, 2025", "num_appearances": 3, "record": "5-2", "win_pct": 0.714, "medals": 3, "medal_score": 19, "trophies": { "champion": 1, "runner_up": 1, "third": 1 } },
+    { "rank": 3, "name": "Colin McAulay", "playoff_appearances": "2021, 2024-2025", "num_appearances": 3, "record": "6-2", "win_pct": 0.750, "medals": 2, "medal_score": 17, "trophies": { "champion": 1, "runner_up": 1 } },
+    { "rank": 4, "name": "Junul Smith", "playoff_appearances": "2021-2023, 2025", "num_appearances": 4, "record": "7-5", "win_pct": 0.583, "medals": 1, "medal_score": 13, "trophies": { "champion": 1 } },
+    { "rank": 5, "name": "Jorge Velasco", "playoff_appearances": "2022-2023", "num_appearances": 2, "record": "3-1", "win_pct": 0.750, "medals": 2, "medal_score": 13, "trophies": { "champion": 1, "runner_up": 1 } },
+    { "rank": 6, "name": "Jonathan Walberg", "playoff_appearances": "2024-2025", "num_appearances": 2, "record": "3-2", "win_pct": 0.600, "medals": 2, "medal_score": 9, "trophies": { "runner_up": 1, "third": 1 } },
+    { "rank": 7, "name": "Ethan Connell", "playoff_appearances": "2021, 2023-2024", "num_appearances": 3, "record": "4-5", "win_pct": 0.444, "medals": 0, "medal_score": 3, "trophies": {} },
+    { "rank": 8, "name": "Nishok Chitvel", "playoff_appearances": "2022, 2025", "num_appearances": 2, "record": "1-5", "win_pct": 0.167, "medals": 0, "medal_score": 2, "trophies": {} },
+    { "rank": 9, "name": "Collin Thomas", "playoff_appearances": "2024-2025", "num_appearances": 2, "record": "0-5", "win_pct": 0.000, "medals": 0, "medal_score": 2, "trophies": {} },
+    { "rank": 10, "name": "Aarush Jambunathan", "playoff_appearances": "2024", "num_appearances": 1, "record": "1-2", "win_pct": 0.333, "medals": 0, "medal_score": 1, "trophies": {} }
+  ],
+
+  "advanced_standings": [
+    { "rank": 1, "name": "Zach Gentry", "draft_rank": "8th", "manager_rank": "6th", "coach_rank": "10th", "top_score_pct": 0.5571, "records_held": 52, "achievements": 46, "points_share_avg": 0.1044, "avg_season_score": 85.64 },
+    { "rank": 2, "name": "Jonathan Walberg", "draft_rank": "10th", "manager_rank": "4th", "coach_rank": "9th", "top_score_pct": 0.5357, "records_held": 15, "achievements": 9, "points_share_avg": 0.1032, "avg_season_score": 85.60 },
+    { "rank": 3, "name": "Colin McAulay", "draft_rank": "4th", "manager_rank": "5th", "coach_rank": "7th", "top_score_pct": 0.6429, "records_held": 56, "achievements": 50, "points_share_avg": 0.1045, "avg_season_score": 80.43 },
+    { "rank": 4, "name": "Dylan Morse", "draft_rank": "7th", "manager_rank": "4th", "coach_rank": "6th", "top_score_pct": 0.5857, "records_held": 43, "achievements": 45, "points_share_avg": 0.1045, "avg_season_score": 79.27 },
+    { "rank": 5, "name": "Collin Thomas", "draft_rank": "6th", "manager_rank": null, "coach_rank": "8th", "top_score_pct": 0.6190, "records_held": 25, "achievements": 27, "points_share_avg": 0.1041, "avg_season_score": 78.27 },
+    { "rank": 6, "name": "Junul Smith", "draft_rank": "8th", "manager_rank": null, "coach_rank": "8th", "top_score_pct": 0.3571, "records_held": 19, "achievements": 37, "points_share_avg": 0.0995, "avg_season_score": 77.96 },
+    { "rank": 7, "name": "Jorge Velasco", "draft_rank": "10th", "manager_rank": null, "coach_rank": "7th", "top_score_pct": 0.5714, "records_held": 27, "achievements": 41, "points_share_avg": 0.0990, "avg_season_score": 74.37 },
+    { "rank": 8, "name": "Ethan Connell", "draft_rank": "9th", "manager_rank": "5th", "coach_rank": "5th", "top_score_pct": 0.4429, "records_held": 37, "achievements": 42, "points_share_avg": 0.0975, "avg_season_score": 74.14 },
+    { "rank": 9, "name": "Nishok Chitvel", "draft_rank": "5th", "manager_rank": "9th", "coach_rank": "10th", "top_score_pct": 0.3143, "records_held": 48, "achievements": 41, "points_share_avg": 0.0933, "avg_season_score": 69.24 },
+    { "rank": 10, "name": "Aarush Jambunathan", "draft_rank": "5th", "manager_rank": "7th", "coach_rank": "9th", "top_score_pct": 0.3714, "records_held": 42, "achievements": 41, "points_share_avg": 0.0919, "avg_season_score": 68.18 }
+  ],
+
+  "season_champions": [
+    { "year": 2025, "champion": "Colin McAulay", "runner_up": "Jonathan Walberg", "third": "Dylan Morse", "in_season_champ": "Collin Thomas", "points_champ": "Collin Thomas", "all_play_champ": "Collin Thomas" },
+    { "year": 2024, "champion": "Zach Gentry", "runner_up": "Colin McAulay", "third": "Jonathan Walberg", "in_season_champ": "Zach Gentry", "points_champ": "Colin McAulay", "all_play_champ": "Colin McAulay" },
+    { "year": 2023, "champion": "Jorge Velasco", "runner_up": "Dylan Morse", "third": "Zach Gentry", "in_season_champ": "Dylan Morse", "points_champ": "Dylan Morse", "all_play_champ": "Dylan Morse" },
+    { "year": 2022, "champion": "Junul Smith", "runner_up": "Zach Gentry", "third": "Jorge Velasco", "in_season_champ": "Zach Gentry", "points_champ": "Zach Gentry", "all_play_champ": "Zach Gentry" },
+    { "year": 2021, "champion": "Dylan Morse", "runner_up": "Zach Gentry", "third": "Aidan Halloran", "in_season_champ": "Aidan Halloran", "points_champ": "Dylan Morse", "all_play_champ": "Aidan Halloran" }
+  ],
+
+  "championship_history": {
+    "2025": {
+      "champion": "Colin McAulay",
+      "regular_season": { "record": "8-6", "standing": 4, "avg_ppg": 125.8, "all_play": "70-56" },
+      "playoff_run": { "total_pts": 417.5, "avg_ppg": 139.2, "avg_margin": 20.5 },
+      "rounds": [
+        { "round": "Quarterfinal", "week": 15, "opponent": "Nishok Chitvel", "score": "186.02-149.86", "margin": 36.16 },
+        { "round": "Semifinal", "week": 16, "opponent": "Collin Thomas", "score": "127.18-111.6", "margin": 15.58 },
+        { "round": "Championship", "week": 17, "opponent": "Jonathan Walberg", "score": "104.26-94.38", "margin": 9.88 }
+      ]
+    }
+  },
+
+  "playoff_records": {
+    "most_playoff_appearances": { "value": 4, "holder": "Zach Gentry" },
+    "highest_playoff_score": { "value": 186.02, "holder": "Colin McAulay", "year": 2025 },
+    "lowest_playoff_score": { "value": 70.92, "holder": "Ethan Connell", "year": 2021 },
+    "biggest_blowout": { "value": 107.84, "holder": "Dylan Morse", "year": 2021 },
+    "closest_game": { "value": 4.44, "holder": "Dylan Morse", "year": 2023 },
+    "closest_game_ever": { "description": "Ethan Connell def. Junul Smith 121.28-121.26 (+0.02)" }
+  },
+
+  "playoff_scoring": [
+    { "name": "Junul Smith", "total_pts": 1475.46, "avg_per_season": 368.87 },
+    { "name": "Zach Gentry", "total_pts": 1356.58, "avg_per_season": 339.15 },
+    { "name": "Ethan Connell", "total_pts": 1032.24, "avg_per_season": 344.08 },
+    { "name": "Colin McAulay", "total_pts": 994.84, "avg_per_season": 331.61 },
+    { "name": "Dylan Morse", "total_pts": 931.48, "avg_per_season": 310.49 },
+    { "name": "Nishok Chitvel", "total_pts": 752.12, "avg_per_season": 376.06 },
+    { "name": "Jonathan Walberg", "total_pts": 657.40, "avg_per_season": 328.70 },
+    { "name": "Collin Thomas", "total_pts": 623.22, "avg_per_season": 311.61 },
+    { "name": "Jorge Velasco", "total_pts": 451.26, "avg_per_season": 225.63 },
+    { "name": "Aarush Jambunathan", "total_pts": 346.54, "avg_per_season": 346.54 }
+  ],
+
+  "playoff_expected_wins": [
+    { "name": "Colin McAulay", "actual_w": 6, "expected_w": 4.1, "diff": 1.9 },
+    { "name": "Zach Gentry", "actual_w": 7, "expected_w": 5.4, "diff": 1.6 },
+    { "name": "Dylan Morse", "actual_w": 5, "expected_w": 3.7, "diff": 1.3 },
+    { "name": "Jorge Velasco", "actual_w": 3, "expected_w": 2.0, "diff": 1.0 },
+    { "name": "Junul Smith", "actual_w": 7, "expected_w": 6.4, "diff": 0.6 },
+    { "name": "Jonathan Walberg", "actual_w": 3, "expected_w": 2.8, "diff": 0.2 },
+    { "name": "Ethan Connell", "actual_w": 4, "expected_w": 4.3, "diff": -0.3 },
+    { "name": "Aarush Jambunathan", "actual_w": 1, "expected_w": 1.3, "diff": -0.3 },
+    { "name": "Nishok Chitvel", "actual_w": 1, "expected_w": 2.7, "diff": -1.7 },
+    { "name": "Collin Thomas", "actual_w": 0, "expected_w": 2.4, "diff": -2.4 }
+  ],
+
+  "head_to_head": {
+    "Aarush Jambunathan": { "Colin McAulay": "3-5", "Collin Thomas": "2-1", "Dylan Morse": "5-4", "Ethan Connell": "2-5", "Jonathan Walberg": "3-1", "Jorge Velasco": "0-6", "Junul Smith": "2-5", "Nishok Chitvel": "4-4", "Zach Gentry": "2-7" },
+    "Colin McAulay": { "Aarush Jambunathan": "5-3", "Collin Thomas": "3-3", "Dylan Morse": "4-3", "Ethan Connell": "4-4", "Jonathan Walberg": "1-1", "Jorge Velasco": "6-2", "Junul Smith": "4-5", "Nishok Chitvel": "1-4", "Zach Gentry": "4-3" },
+    "Collin Thomas": { "Aarush Jambunathan": "1-2", "Colin McAulay": "3-3", "Dylan Morse": "2-1", "Ethan Connell": "4-2", "Jonathan Walberg": "2-0", "Jorge Velasco": "3-3", "Junul Smith": "3-3", "Nishok Chitvel": "4-2", "Zach Gentry": "1-2" },
+    "Dylan Morse": { "Aarush Jambunathan": "4-5", "Colin McAulay": "3-4", "Collin Thomas": "1-2", "Ethan Connell": "4-2", "Jonathan Walberg": "2-2", "Jorge Velasco": "4-5", "Junul Smith": "3-3", "Nishok Chitvel": "5-3", "Zach Gentry": "5-3" },
+    "Ethan Connell": { "Aarush Jambunathan": "5-2", "Colin McAulay": "4-4", "Collin Thomas": "2-4", "Dylan Morse": "2-4", "Jonathan Walberg": "1-3", "Jorge Velasco": "5-3", "Junul Smith": "3-5", "Nishok Chitvel": "4-3", "Zach Gentry": "2-4" },
+    "Jonathan Walberg": { "Aarush Jambunathan": "1-3", "Colin McAulay": "1-1", "Collin Thomas": "0-2", "Dylan Morse": "2-2", "Ethan Connell": "3-1", "Jorge Velasco": "2-0", "Junul Smith": "2-0", "Nishok Chitvel": "4-0", "Zach Gentry": "1-3" },
+    "Jorge Velasco": { "Aarush Jambunathan": "6-0", "Colin McAulay": "2-6", "Collin Thomas": "3-3", "Dylan Morse": "5-4", "Ethan Connell": "3-5", "Jonathan Walberg": "0-2", "Junul Smith": "4-6", "Nishok Chitvel": "4-2", "Zach Gentry": "1-4" },
+    "Junul Smith": { "Aarush Jambunathan": "5-2", "Colin McAulay": "5-4", "Collin Thomas": "3-3", "Dylan Morse": "3-3", "Ethan Connell": "5-3", "Jonathan Walberg": "0-2", "Jorge Velasco": "6-4", "Nishok Chitvel": "5-2", "Zach Gentry": "3-5" },
+    "Nishok Chitvel": { "Aarush Jambunathan": "4-4", "Colin McAulay": "4-1", "Collin Thomas": "2-4", "Dylan Morse": "3-5", "Ethan Connell": "3-4", "Jonathan Walberg": "0-4", "Jorge Velasco": "2-4", "Junul Smith": "2-5", "Zach Gentry": "4-5" },
+    "Zach Gentry": { "Aarush Jambunathan": "7-2", "Colin McAulay": "3-4", "Collin Thomas": "2-1", "Dylan Morse": "3-5", "Ethan Connell": "4-2", "Jonathan Walberg": "3-1", "Jorge Velasco": "4-1", "Junul Smith": "5-3", "Nishok Chitvel": "5-4" }
+  },
+
+  "versus_records": {
+    "closest_long_running_series": "Aarush Jambunathan vs Dylan Morse (Series score: 8.0)",
+    "most_contested": "Junul Smith vs Collin Thomas (3-3)",
+    "longest_active_streak": "Aarush Jambunathan L6 vs Jorge Velasco",
+    "highest_scoring_game": "Nishok Chitvel vs Zach Gentry (211.12-130.82, 341.9 combined)",
+    "biggest_blowout": "Junul Smith def. Nishok Chitvel (183.22-62.3, +120.92)",
+    "most_matchups": "Junul Smith vs Jorge Velasco (10 meetings)",
+    "closest_game_ever": "Ethan Connell def. Junul Smith (121.28-121.26, +0.02)",
+    "most_lopsided_rivalry": "Zach Gentry owns Jorge Velasco (4-1, 80% win rate)"
+  },
+
+  "draft_rankings": [
+    { "rank": 1, "name": "Jonathan Walberg", "value": 2.37 },
+    { "rank": 2, "name": "Zach Gentry", "value": 1.31 },
+    { "rank": 3, "name": "Collin Thomas", "value": 1.21 },
+    { "rank": 4, "name": "Colin McAulay", "value": 0.74 },
+    { "rank": 5, "name": "Aarush Jambunathan", "value": 0.33 },
+    { "rank": 5, "name": "Nishok Chitvel", "value": 0.33 },
+    { "rank": 7, "name": "Dylan Morse", "value": -0.12 },
+    { "rank": 8, "name": "Junul Smith", "value": -0.53 },
+    { "rank": 9, "name": "Ethan Connell", "value": -0.70 },
+    { "rank": 10, "name": "Jorge Velasco", "value": -0.90 }
+  ],
+
+  "draft_records": {
+    "avg_pick_value": 0.24,
+    "avg_team_value": 3.67,
+    "avg_season_value": 33,
+    "top_picks_all_time": [
+      { "player": "Jaxon Smith-Njigba", "position": "WR", "team": "SEA", "year": 2025, "round_pick": "5.3", "value": 28.16, "franchise": "Hanging with Hernandez" },
+      { "player": "Mark Andrews", "position": "TE", "team": "BAL", "year": 2021, "round_pick": "6.5", "value": 26.80, "franchise": "Turn Your Head And Goff" },
+      { "player": "Lamar Jackson", "position": "QB", "team": "BAL", "year": 2024, "round_pick": "5.8", "value": 26.47, "franchise": "Taliban's Ski Resorts" },
+      { "player": "Josh Jacobs", "position": "RB", "team": "LV", "year": 2022, "round_pick": "5.7", "value": 26.01, "franchise": "OJ's Legal Team" },
+      { "player": "Brock Bowers", "position": "TE", "team": "LV", "year": 2024, "round_pick": "12.3", "value": 25.21, "franchise": "Taliban's Ski Resorts" }
+    ],
+    "worst_picks_all_time": [
+      { "player": "Aaron Rodgers", "position": "QB", "team": "NYJ", "year": 2023, "round_pick": "7.3", "value": -20.99, "franchise": "Taliban's Ski Resorts" },
+      { "player": "Nick Chubb", "position": "RB", "team": "CLE", "year": 2023, "round_pick": "2.5", "value": -15.96, "franchise": "Aman-Ra Dog" },
+      { "player": "Kyler Murray", "position": "QB", "team": "ARI", "year": 2025, "round_pick": "8.4", "value": -15.90, "franchise": ". Duh Mentchuh" },
+      { "player": "Trey Lance", "position": "QB", "team": "SF", "year": 2022, "round_pick": "11.7", "value": -15.65, "franchise": "OJ's Legal Team" },
+      { "player": "Jayden Daniels", "position": "QB", "team": "WAS", "year": 2025, "round_pick": "4.1", "value": -15.51, "franchise": "Taliban Ski Resorts" }
+    ]
+  },
+
+  "transaction_stats": {
+    "total_waiver_moves": 1201,
+    "total_trades": 41,
+    "total_transactions": 1242,
+    "waiver_rankings": [
+      { "rank": 1, "name": "Ethan Connell", "value": 80.43 },
+      { "rank": 2, "name": "Junul Smith", "value": 52.09 },
+      { "rank": 3, "name": "Jorge Velasco", "value": 33.06 },
+      { "rank": 4, "name": "Dylan Morse", "value": 27.11 },
+      { "rank": 5, "name": "Jonathan Walberg", "value": 24.37 },
+      { "rank": 6, "name": "Colin McAulay", "value": 21.85 },
+      { "rank": 7, "name": "Collin Thomas", "value": 18.72 },
+      { "rank": 8, "name": "Nishok Chitvel", "value": 16.71 },
+      { "rank": 9, "name": "Aarush Jambunathan", "value": 8.08 },
+      { "rank": 10, "name": "Zach Gentry", "value": -9.69 }
+    ],
+    "manager_rankings": [
+      { "rank": 1, "name": "Jorge Velasco", "value": 138.80 },
+      { "rank": 2, "name": "Colin McAulay", "value": 83.89 },
+      { "rank": 3, "name": "Junul Smith", "value": 73.82 },
+      { "rank": 4, "name": "Dylan Morse", "value": 65.03 },
+      { "rank": 5, "name": "Ethan Connell", "value": 45.03 },
+      { "rank": 6, "name": "Collin Thomas", "value": 36.51 },
+      { "rank": 7, "name": "Aarush Jambunathan", "value": 28.30 },
+      { "rank": 8, "name": "Zach Gentry", "value": -29.74 },
+      { "rank": 9, "name": "Nishok Chitvel", "value": -29.99 },
+      { "rank": 10, "name": "Jonathan Walberg", "value": -60.04 }
+    ]
+  },
+
+  "achievements_summary": [
+    { "name": "Colin McAulay", "achievements": 34, "achievements_total": 46, "blunders": 16, "blunders_total": 21, "total_unique": 50, "total_badges": 67 },
+    { "name": "Zach Gentry", "achievements": 26, "achievements_total": 32, "blunders": 20, "blunders_total": 20, "total_unique": 46, "total_badges": 52 },
+    { "name": "Dylan Morse", "achievements": 28, "achievements_total": 39, "blunders": 17, "blunders_total": 20, "total_unique": 45, "total_badges": 59 },
+    { "name": "Ethan Connell", "achievements": 21, "achievements_total": 24, "blunders": 21, "blunders_total": 24, "total_unique": 42, "total_badges": 48 },
+    { "name": "Aarush Jambunathan", "achievements": 17, "achievements_total": 18, "blunders": 24, "blunders_total": 32, "total_unique": 41, "total_badges": 50 },
+    { "name": "Nishok Chitvel", "achievements": 13, "achievements_total": 15, "blunders": 28, "blunders_total": 40, "total_unique": 41, "total_badges": 55 },
+    { "name": "Jorge Velasco", "achievements": 20, "achievements_total": 33, "blunders": 21, "blunders_total": 23, "total_unique": 41, "total_badges": 56 },
+    { "name": "Junul Smith", "achievements": 18, "achievements_total": 23, "blunders": 19, "blunders_total": 20, "total_unique": 37, "total_badges": 43 },
+    { "name": "Collin Thomas", "achievements": 14, "achievements_total": 14, "blunders": 13, "blunders_total": 16, "total_unique": 27, "total_badges": 30 },
+    { "name": "Jonathan Walberg", "achievements": 6, "achievements_total": 6, "blunders": 3, "blunders_total": 3, "total_unique": 9, "total_badges": 9 }
+  ],
+
+  "record_book_holders": [
+    { "rank": 1, "name": "Colin McAulay", "positive_held": 45, "positive_top25": 426, "negative_held": 11, "negative_top25": 203, "total_held": 56, "total_top25": 629 },
+    { "rank": 2, "name": "Zach Gentry", "positive_held": 40, "positive_top25": 427, "negative_held": 12, "negative_top25": 195, "total_held": 52, "total_top25": 622 },
+    { "rank": 3, "name": "Nishok Chitvel", "positive_held": 12, "positive_top25": 291, "negative_held": 36, "negative_top25": 245, "total_held": 48, "total_top25": 536 },
+    { "rank": 4, "name": "Dylan Morse", "positive_held": 37, "positive_top25": 415, "negative_held": 6, "negative_top25": 219, "total_held": 43, "total_top25": 634 },
+    { "rank": 5, "name": "Aarush Jambunathan", "positive_held": 14, "positive_top25": 307, "negative_held": 28, "negative_top25": 233, "total_held": 42, "total_top25": 540 },
+    { "rank": 6, "name": "Ethan Connell", "positive_held": 20, "positive_top25": 319, "negative_held": 17, "negative_top25": 239, "total_held": 37, "total_top25": 558 },
+    { "rank": 7, "name": "Jorge Velasco", "positive_held": 15, "positive_top25": 342, "negative_held": 12, "negative_top25": 227, "total_held": 27, "total_top25": 569 },
+    { "rank": 8, "name": "Collin Thomas", "positive_held": 21, "positive_top25": 258, "negative_held": 4, "negative_top25": 113, "total_held": 25, "total_top25": 371 },
+    { "rank": 9, "name": "Junul Smith", "positive_held": 14, "positive_top25": 260, "negative_held": 5, "negative_top25": 180, "total_held": 19, "total_top25": 440 },
+    { "rank": 10, "name": "Jonathan Walberg", "positive_held": 13, "positive_top25": 179, "negative_held": 2, "negative_top25": 89, "total_held": 15, "total_top25": 268 }
+  ],
+
+  "player_records": {
+    "top_scorer_all_time": { "player": "Josh Allen", "position": "QB", "points": 1660.88 },
+    "best_avg_started": { "player": "Jerick McKinnon", "avg": 23.20 },
+    "best_single_week": { "player": "Ja'Marr Chase", "points": 55.40 },
+    "most_drafted": { "player": "Josh Allen", "times": 5 },
+    "most_added": { "team": "Los Angeles Chargers", "times": 17 },
+    "top_scorers": [
+      { "rank": 1, "player": "Josh Allen", "position": "QB", "points": 1660.88 },
+      { "rank": 2, "player": "Jalen Hurts", "position": "QB", "points": 1374.82 },
+      { "rank": 3, "player": "Lamar Jackson", "position": "QB", "points": 1296.56 },
+      { "rank": 4, "player": "Davante Adams", "position": "WR", "points": 1251.80 },
+      { "rank": 5, "player": "CeeDee Lamb", "position": "WR", "points": 1239.00 },
+      { "rank": 6, "player": "Ja'Marr Chase", "position": "WR", "points": 1210.70 },
+      { "rank": 7, "player": "Derrick Henry", "position": "RB", "points": 1205.52 },
+      { "rank": 8, "player": "Christian McCaffrey", "position": "RB", "points": 1204.96 },
+      { "rank": 9, "player": "Justin Jefferson", "position": "WR", "points": 1186.64 },
+      { "rank": 10, "player": "Amon-Ra St. Brown", "position": "WR", "points": 1149.98 }
+    ]
+  },
+
+  "all_pro_teams": {
+    "2025": {
+      "first_team": [
+        { "player": "Josh Allen", "position": "QB", "points": 364.62 },
+        { "player": "Christian McCaffrey", "position": "RB", "points": 389.20 },
+        { "player": "Puka Nacua", "position": "WR", "points": 349.00 },
+        { "player": "Trey McBride", "position": "TE", "points": 302.40 },
+        { "player": "Cameron Dicker", "position": "K", "points": 151.00 },
+        { "player": "Houston Texans", "position": "DEF", "points": 156.00 }
+      ],
+      "second_team": [
+        { "player": "Patrick Mahomes", "position": "QB", "points": 266.32 },
+        { "player": "Jahmyr Gibbs", "position": "RB", "points": 346.60 },
+        { "player": "Jaxon Smith-Njigba", "position": "WR", "points": 327.20 },
+        { "player": "Travis Kelce", "position": "TE", "points": 175.00 },
+        { "player": "Brandon Aubrey", "position": "K", "points": 145.00 },
+        { "player": "New England Patriots", "position": "DEF", "points": 90.00 }
+      ]
+    }
+  },
+
+  "franchise_team_names": {
+    "note": "Team names by season collected from draft and transaction data",
+    "known_names": {
+      "Jonathan Walberg": ["Hanging with Hernandez"],
+      "Colin McAulay": ["Taliban's Ski Resorts", "Taliban Ski Resorts", "Taliban's Ski Resorts"],
+      "Dylan Morse": ["Turn Your Head And Goff", "Patrick MaHamas", "Patrick Mahamas"],
+      "Ethan Connell": ["OJ's Legal Team", "Aching Bones"],
+      "Junul Smith": ["Chiefin Keef"],
+      "Nishok Chitvel": [". Duh Mentchuh", "Aman-Ra Dog"],
+      "Aarush Jambunathan": ["Aarushs Noose emporium", "Henry Ruggs Drivers Ed..."],
+      "Jorge Velasco": ["Vamos Equipo!", "Plug in Tune Out"],
+      "Zach Gentry": ["Joe Biden's Hands", "Mountain Big scoot"],
+      "Collin Thomas": []
+    }
+  },
+
+  "championship_droughts": [
+    { "name": "Aarush Jambunathan", "status": "never won!", "seasons": 5 },
+    { "name": "Ethan Connell", "status": "never won!", "seasons": 5 },
+    { "name": "Nishok Chitvel", "status": "never won!", "seasons": 5 },
+    { "name": "Dylan Morse", "status": "4 seasons ago (2021)" },
+    { "name": "Collin Thomas", "status": "never won!", "seasons": 3 },
+    { "name": "Junul Smith", "status": "3 seasons ago (2022)" }
+  ],
+
+  "playoff_appearance_streaks": [
+    { "name": "Zach Gentry", "streak": 4, "seasons": "2021-2024" },
+    { "name": "Junul Smith", "streak": 3, "seasons": "2021-2023" },
+    { "name": "Colin McAulay", "streak": 2, "seasons": "2024-2025", "active": true },
+    { "name": "Jonathan Walberg", "streak": 2, "seasons": "2024-2025", "active": true },
+    { "name": "Collin Thomas", "streak": 2, "seasons": "2024-2025", "active": true },
+    { "name": "Ethan Connell", "streak": 2, "seasons": "2023-2024" },
+    { "name": "John Dressel", "streak": 2, "seasons": "2022-2023" },
+    { "name": "Jorge Velasco", "streak": 2, "seasons": "2022-2023" }
+  ],
+
+  "top_trades": [
+    { "rank": 1, "year": 2021, "week": 2, "winner": "Joe Biden's Hands", "value": 187.48, "loser": "MAC JONES", "players": "A.J. Brown, Stefon Diggs, etc." },
+    { "rank": 2, "year": 2021, "week": 5, "winner": "Turn Your Head And Goff", "value": 182.81, "loser": "Team Cafferty", "players": "Josh Allen trade" },
+    { "rank": 3, "year": 2021, "week": 2, "winner": "Mountain Big scoot", "value": 181.92, "loser": "Annadale Shinramen", "players": "Aaron Jones trade" }
+  ],
+
+  "season_chumpions": [
+    { "year": 2025, "last_place": "Aarush Jambunathan", "in_season_last": "Zach Gentry", "lowest_scorer": "Ethan Connell", "worst_all_around": "Ethan Connell" },
+    { "year": 2024, "last_place": "Dylan Morse", "in_season_last": "Nishok Chitvel", "lowest_scorer": "Nishok Chitvel", "worst_all_around": "Nishok Chitvel" },
+    { "year": 2023, "last_place": "Collin Thomas", "in_season_last": "Colin McAulay", "lowest_scorer": "Aarush Jambunathan", "worst_all_around": "Aarush Jambunathan" },
+    { "year": 2022, "last_place": "Dylan Morse", "in_season_last": "Ethan Connell", "lowest_scorer": "Dylan Morse", "worst_all_around": "Aarush Jambunathan" },
+    { "year": 2021, "last_place": "Jorge Velasco", "in_season_last": "Aarush Jambunathan", "lowest_scorer": "Aarush Jambunathan", "worst_all_around": "Aarush Jambunathan" }
+  ],
+
+  "playoff_participation": {
+    "note": "Icons from grid: Champion/Runner-Up/3rd/Playoff/Missed by member by year",
+    "Junul Smith": { "2021": "champion", "2022": "playoff", "2023": "playoff", "2024": "missed", "2025": "playoff" },
+    "Zach Gentry": { "2021": "runner_up", "2022": "runner_up", "2023": "third", "2024": "champion", "2025": "missed" },
+    "Colin McAulay": { "2021": "playoff", "2022": "missed", "2023": "missed", "2024": "runner_up", "2025": "champion" },
+    "Dylan Morse": { "2021": "champion", "2022": "missed", "2023": "runner_up", "2024": "missed", "2025": "third" },
+    "Ethan Connell": { "2021": "playoff", "2022": "missed", "2023": "playoff", "2024": "playoff", "2025": "missed" },
+    "Collin Thomas": { "2023": "missed", "2024": "playoff", "2025": "playoff" },
+    "Jonathan Walberg": { "2024": "third", "2025": "runner_up" },
+    "Jorge Velasco": { "2021": "missed", "2022": "runner_up", "2023": "champion", "2024": "missed", "2025": "missed" },
+    "Nishok Chitvel": { "2021": "missed", "2022": "playoff", "2023": "missed", "2024": "missed", "2025": "playoff" },
+    "Aarush Jambunathan": { "2021": "missed", "2022": "missed", "2023": "missed", "2024": "playoff", "2025": "missed" }
+  }
+}
