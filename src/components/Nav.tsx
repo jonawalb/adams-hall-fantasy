@@ -88,6 +88,7 @@ const GROUPS: Group[] = [
         title: "History",
         items: [
           { href: "/history", label: "Season by season" },
+          { href: "/analytics", label: "Analytics" },
         ],
       },
     ],
