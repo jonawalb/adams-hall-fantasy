@@ -200,9 +200,13 @@ export default function SouthStar({ board = "south-star" }: BoardProps) {
                     posted by {p.poster.display_name}
                   </p>
                 )}
-                {!isOpen && (
-                  <p className="mt-3 line-clamp-2 text-base leading-relaxed text-cream-dim">{paragraphs[0]}</p>
-                )}
+                {!isOpen && (() => {
+                  const words = p.body.split(/\s+/);
+                  const preview = words.length > 90
+                    ? words.slice(0, 90).join(" ") + "…"
+                    : p.body;
+                  return <p className="mt-3 text-base leading-relaxed text-cream-dim">{preview}</p>;
+                })()}
               </button>
               {isOpen && (
                 <div className="mt-4 max-w-2xl space-y-4 text-lg leading-relaxed">
@@ -213,7 +217,7 @@ export default function SouthStar({ board = "south-star" }: BoardProps) {
               )}
               <div className="mt-4 flex items-center gap-4 text-xs text-cream-dim">
                 <button type="button" onClick={() => setOpen(isOpen ? null : p.id)} className="hover:text-gold">
-                  {isOpen ? "Collapse" : "Read the whole thing"}
+                  {isOpen ? "Collapse" : "Click here to read more you bitch"}
                 </button>
                 {p.author === myId && (
                   <button type="button" onClick={() => remove(p)} className="hover:text-blood">
