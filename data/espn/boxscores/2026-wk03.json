@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 3,
- "archivedAt": "2026-09-22T16:15:29.214Z",
+ "archivedAt": "2026-09-23T10:36:13.743Z",
  "matchups": [
   {
    "id": 11,
@@ -162,7 +162,7 @@
       "playerId": 4612826,
       "name": "Ladd McConkey",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -190,7 +190,7 @@
       "playerId": 4248528,
       "name": "Christian Watson",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "WR",
       "points": 0
      },
      {
@@ -229,13 +229,6 @@
       "points": 0
      },
      {
-      "playerId": 4574716,
-      "name": "Harrison Mevis",
-      "pos": "K",
-      "slot": "K",
-      "points": 0
-     },
-     {
       "playerId": -16021,
       "name": "Eagles D/ST",
       "pos": "D/ST",
@@ -247,6 +240,13 @@
       "name": "Jared Goff",
       "pos": "QB",
       "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 4571557,
+      "name": "Spencer Shrader",
+      "pos": "K",
+      "slot": "K",
       "points": 0
      }
     ]
@@ -367,17 +367,17 @@
       "points": 0
      },
      {
-      "playerId": -16024,
-      "name": "Chargers D/ST",
-      "pos": "D/ST",
-      "slot": "D/ST",
-      "points": 0
-     },
-     {
       "playerId": 5083315,
       "name": "Kenyon Sadiq",
       "pos": "TE",
       "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": -16016,
+      "name": "Vikings D/ST",
+      "pos": "D/ST",
+      "slot": "D/ST",
       "points": 0
      }
     ]
@@ -464,13 +464,6 @@
       "points": 0
      },
      {
-      "playerId": 4689936,
-      "name": "Jake Bates",
-      "pos": "K",
-      "slot": "K",
-      "points": 0
-     },
-     {
       "playerId": 3116165,
       "name": "Chris Godwin Jr.",
       "pos": "WR",
@@ -485,13 +478,6 @@
       "points": 0
      },
      {
-      "playerId": -16027,
-      "name": "Buccaneers D/ST",
-      "pos": "D/ST",
-      "slot": "D/ST",
-      "points": 0
-     },
-     {
       "playerId": 4696044,
       "name": "Kaelon Black",
       "pos": "RB",
@@ -499,10 +485,24 @@
       "points": 0
      },
      {
-      "playerId": 4869645,
-      "name": "Caleb Douglas",
+      "playerId": 4360939,
+      "name": "Rashod Bateman",
       "pos": "WR",
       "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": -16009,
+      "name": "Packers D/ST",
+      "pos": "D/ST",
+      "slot": "D/ST",
+      "points": 0
+     },
+     {
+      "playerId": 4360234,
+      "name": "Evan McPherson",
+      "pos": "K",
+      "slot": "K",
       "points": 0
      }
     ]
@@ -746,6 +746,13 @@
       "pos": "TE",
       "slot": "BE",
       "points": 0
+     },
+     {
+      "playerId": 4373678,
+      "name": "Khalil Shakir",
+      "pos": "WR",
+      "slot": "BE",
+      "points": 0
      }
     ]
    }
@@ -865,16 +872,16 @@
       "points": 0
      },
      {
-      "playerId": 4429086,
-      "name": "Michael Mayer",
-      "pos": "TE",
+      "playerId": 4695883,
+      "name": "Jalen Coker",
+      "pos": "WR",
       "slot": "BE",
       "points": 0
      },
      {
-      "playerId": 4695883,
-      "name": "Jalen Coker",
-      "pos": "WR",
+      "playerId": 4685720,
+      "name": "Bryce Young",
+      "pos": "QB",
       "slot": "BE",
       "points": 0
      }
@@ -976,13 +983,6 @@
       "points": 0
      },
      {
-      "playerId": -16008,
-      "name": "Lions D/ST",
-      "pos": "D/ST",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 4373626,
       "name": "Tyler Allgeier",
       "pos": "RB",
@@ -1000,6 +1000,13 @@
       "playerId": 4569559,
       "name": "Devaughn Vele",
       "pos": "WR",
+      "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 4429013,
+      "name": "Tank Bigsby",
+      "pos": "RB",
       "slot": "BE",
       "points": 0
      }
@@ -1107,13 +1114,6 @@
       "points": 0
      },
      {
-      "playerId": 17372,
-      "name": "Chris Boswell",
-      "pos": "K",
-      "slot": "K",
-      "points": 0
-     },
-     {
       "playerId": 4385690,
       "name": "Dalton Kincaid",
       "pos": "TE",
@@ -1132,6 +1132,13 @@
       "name": "Rams D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
+      "points": 0
+     },
+     {
+      "playerId": 4832800,
+      "name": "Denzel Boston",
+      "pos": "WR",
+      "slot": "BE",
       "points": 0
      }
     ]
