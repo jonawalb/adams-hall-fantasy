@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 4,
  "poll": "AP Top 25",
- "fetchedAt": "2026-09-23T10:36:09.983Z",
+ "fetchedAt": "2026-09-24T10:54:56.497Z",
  "rankings": [
   {
    "rank": 1,
@@ -353,7 +353,7 @@
    "venue": "Lincoln Financial Field",
    "broadcast": "ESPN",
    "spread": "ARMY -3",
-   "overUnder": 48.5,
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "TEM",
@@ -389,8 +389,8 @@
    "detail": "9/25 - 7:00 PM EDT",
    "venue": "SHI Stadium",
    "broadcast": "BTN",
-   "spread": null,
-   "overUnder": null,
+   "spread": "RUTG -41.5",
+   "overUnder": 56.5,
    "headline": null,
    "home": {
     "abbr": "RUTG",
@@ -500,7 +500,7 @@
    "detail": "9/25 - 10:30 PM EDT",
    "venue": "California Memorial Stadium",
    "broadcast": "ESPN",
-   "spread": "CAL -1.5",
+   "spread": "CLEM -1.5",
    "overUnder": 50.5,
    "headline": null,
    "home": {
@@ -537,7 +537,7 @@
    "detail": "9/26 - 12:00 PM EDT",
    "venue": "Neyland Stadium",
    "broadcast": "ABC",
-   "spread": "TEX -4.5",
+   "spread": "TEX -4",
    "overUnder": 55.5,
    "headline": null,
    "home": {
@@ -574,8 +574,8 @@
    "detail": "9/26 - 12:00 PM EDT",
    "venue": "Ohio Stadium",
    "broadcast": "FOX",
-   "spread": "OSU -27.5",
-   "overUnder": 54.5,
+   "spread": "OSU -26.5",
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "OSU",
@@ -648,8 +648,8 @@
    "detail": "9/26 - 12:00 PM EDT",
    "venue": "L&N Federal Credit Union Stadium",
    "broadcast": "ESPN",
-   "spread": "LOU -12.5",
-   "overUnder": 58.5,
+   "spread": "LOU -13.5",
+   "overUnder": 57.5,
    "headline": null,
    "home": {
     "abbr": "LOU",
@@ -722,8 +722,8 @@
    "detail": "9/26 - 12:00 PM EDT",
    "venue": "Acrisure Stadium",
    "broadcast": "ACCNX",
-   "spread": null,
-   "overUnder": null,
+   "spread": "PITT -52.5",
+   "overUnder": 62.5,
    "headline": null,
    "home": {
     "abbr": "PITT",
@@ -760,7 +760,7 @@
    "venue": "Alumni Stadium (Chestnut Hill, MA)",
    "broadcast": "ACC Network",
    "spread": "VT -14",
-   "overUnder": 48.5,
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "BC",
@@ -797,7 +797,7 @@
    "venue": "Glass Bowl",
    "broadcast": "CBSSN",
    "spread": "TOL -3",
-   "overUnder": 52.5,
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "TOL",
@@ -908,7 +908,7 @@
    "venue": "Zoeller Field at Dix Stadium",
    "broadcast": "ESPN+",
    "spread": "KENT -3.5",
-   "overUnder": 51.5,
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "KENT",
@@ -981,8 +981,8 @@
    "detail": "9/26 - 1:00 PM EDT",
    "venue": "Rynearson Stadium",
    "broadcast": "ESPN+",
-   "spread": null,
-   "overUnder": null,
+   "spread": "EMU -25.5",
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "EMU",
@@ -1129,8 +1129,8 @@
    "detail": "9/26 - 3:00 PM EDT",
    "venue": "Doak Campbell Stadium",
    "broadcast": "ACC Network",
-   "spread": null,
-   "overUnder": null,
+   "spread": "FSU -44.5",
+   "overUnder": 60.5,
    "headline": null,
    "home": {
     "abbr": "FSU",
@@ -1388,8 +1388,8 @@
    "detail": "9/26 - 3:30 PM EDT",
    "venue": "Wallace Wade Stadium",
    "broadcast": "ACCNX",
-   "spread": null,
-   "overUnder": null,
+   "spread": "DUKE -43.5",
+   "overUnder": 61.5,
    "headline": null,
    "home": {
     "abbr": "DUKE",
@@ -1536,8 +1536,8 @@
    "detail": "9/26 - 3:30 PM EDT",
    "venue": "Broadview Stadium",
    "broadcast": "ESPN+",
-   "spread": null,
-   "overUnder": null,
+   "spread": "BUF -28.5",
+   "overUnder": 44.5,
    "headline": null,
    "home": {
     "abbr": "BUFF",
@@ -1573,8 +1573,8 @@
    "detail": "9/26 - 3:30 PM EDT",
    "venue": "Peden Stadium",
    "broadcast": "ESPN+",
-   "spread": null,
-   "overUnder": null,
+   "spread": "OHIO -34.5",
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "OHIO",
@@ -1610,8 +1610,8 @@
    "detail": "9/26 - 3:30 PM EDT",
    "venue": "Joan C. Edwards Stadium",
    "broadcast": "ESPN+",
-   "spread": null,
-   "overUnder": null,
+   "spread": "MRSH -23.5",
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "MRSH",
@@ -1684,8 +1684,8 @@
    "detail": "9/26 - 4:00 PM EDT",
    "venue": "Dowdy-Ficklen Stadium",
    "broadcast": "ESPN+",
-   "spread": null,
-   "overUnder": null,
+   "spread": "ECU -34.5",
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "ECU",
@@ -1722,7 +1722,7 @@
    "venue": "Jordan-Hare Stadium",
    "broadcast": "SEC Network",
    "spread": "AUB -9.5",
-   "overUnder": 54.5,
+   "overUnder": 55.5,
    "headline": null,
    "home": {
     "abbr": "AUB",
@@ -1906,8 +1906,8 @@
    "detail": "9/26 - 6:00 PM EDT",
    "venue": "UFCU Stadium",
    "broadcast": "USA Net",
-   "spread": null,
-   "overUnder": null,
+   "spread": "TXST -29.5",
+   "overUnder": 63.5,
    "headline": null,
    "home": {
     "abbr": "TXST",
@@ -1943,8 +1943,8 @@
    "detail": "9/26 - 6:00 PM EDT",
    "venue": "Pitbull Stadium",
    "broadcast": "ESPN+",
-   "spread": null,
-   "overUnder": null,
+   "spread": "FIU -35.5",
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "FIU",
@@ -2018,7 +2018,7 @@
    "venue": "Hard Rock Stadium",
    "broadcast": "CW",
    "spread": "MIA -41.5",
-   "overUnder": 53.5,
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "MIA",
@@ -2276,8 +2276,8 @@
    "detail": "9/26 - 7:00 PM EDT",
    "venue": "Houchens Industries-L.T. Smith Stadium",
    "broadcast": "ESPN+",
-   "spread": null,
-   "overUnder": null,
+   "spread": "WKU -38.5",
+   "overUnder": 56.5,
    "headline": null,
    "home": {
     "abbr": "WKU",
@@ -2498,8 +2498,8 @@
    "detail": "9/26 - 7:30 PM EDT",
    "venue": "DATCU Stadium",
    "broadcast": "ESPN+",
-   "spread": null,
-   "overUnder": null,
+   "spread": "UNT -37.5",
+   "overUnder": 58.5,
    "headline": null,
    "home": {
     "abbr": "UNT",
@@ -2757,7 +2757,7 @@
    "detail": "9/26 - 9:00 PM EDT",
    "venue": "Hornet Stadium",
    "broadcast": "ESPN+",
-   "spread": "MASS -4.5",
+   "spread": "MASS -4",
    "overUnder": 48.5,
    "headline": null,
    "home": {
