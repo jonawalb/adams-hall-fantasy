@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 4,
  "poll": "AP Top 25",
- "fetchedAt": "2026-09-25T09:10:58.557Z",
+ "fetchedAt": "2026-09-25T10:57:11.450Z",
  "rankings": [
   {
    "rank": 1,
@@ -2202,7 +2202,7 @@
    "detail": "9/26 - 7:00 PM EDT",
    "venue": "Yulman Stadium",
    "broadcast": "ESPN+",
-   "spread": "TULN -17.5",
+   "spread": "TULN -18.5",
    "overUnder": 52.5,
    "headline": null,
    "home": {
