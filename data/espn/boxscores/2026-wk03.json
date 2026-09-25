@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 3,
- "archivedAt": "2026-09-24T10:54:59.463Z",
+ "archivedAt": "2026-09-25T09:11:01.570Z",
  "matchups": [
   {
    "id": 11,
@@ -16,7 +16,7 @@
       "playerId": 4426515,
       "name": "Puka Nacua",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -59,7 +59,7 @@
       "name": "Kyle Pitts Sr.",
       "pos": "TE",
       "slot": "TE",
-      "points": 0
+      "points": 1.5
      },
      {
       "playerId": 4035687,
@@ -107,7 +107,7 @@
       "playerId": 4361432,
       "name": "Romeo Doubs",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0
      },
      {
@@ -122,7 +122,7 @@
       "name": "Brian Robinson Jr.",
       "pos": "RB",
       "slot": "BE",
-      "points": 0
+      "points": 11
      }
     ]
    },
@@ -191,7 +191,7 @@
       "name": "Christian Watson",
       "pos": "WR",
       "slot": "WR",
-      "points": 0
+      "points": 22.6
      },
      {
       "playerId": 4432773,
@@ -225,7 +225,7 @@
       "playerId": -16021,
       "name": "Eagles D/ST",
       "pos": "D/ST",
-      "slot": "BE",
+      "slot": "D/ST",
       "points": 0
      },
      {
@@ -246,7 +246,7 @@
       "playerId": -16004,
       "name": "Bengals D/ST",
       "pos": "D/ST",
-      "slot": "D/ST",
+      "slot": "BE",
       "points": 0
      }
     ]
@@ -492,17 +492,17 @@
       "points": 0
      },
      {
-      "playerId": -16009,
-      "name": "Packers D/ST",
-      "pos": "D/ST",
-      "slot": "D/ST",
-      "points": 0
-     },
-     {
       "playerId": 4360234,
       "name": "Evan McPherson",
       "pos": "K",
       "slot": "K",
+      "points": 0
+     },
+     {
+      "playerId": -16029,
+      "name": "Panthers D/ST",
+      "pos": "D/ST",
+      "slot": "D/ST",
       "points": 0
      }
     ]
@@ -535,7 +535,7 @@
       "playerId": 4870808,
       "name": "Jeremiyah Love",
       "pos": "RB",
-      "slot": "FLEX",
+      "slot": "RB",
       "points": 0
      },
      {
@@ -577,7 +577,7 @@
       "playerId": 3042519,
       "name": "Aaron Jones Sr.",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -654,7 +654,7 @@
       "name": "Drake London",
       "pos": "WR",
       "slot": "WR",
-      "points": 0
+      "points": 28.400000000000002
      },
      {
       "playerId": 4685702,
@@ -771,7 +771,7 @@
       "name": "Bijan Robinson",
       "pos": "RB",
       "slot": "RB",
-      "points": 0
+      "points": 35.300000000000004
      },
      {
       "playerId": 4428331,
@@ -784,7 +784,7 @@
       "playerId": 4430737,
       "name": "Kyren Williams",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -798,7 +798,7 @@
       "playerId": 4696981,
       "name": "Cam Skattebo",
       "pos": "RB",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -806,7 +806,7 @@
       "name": "Tucker Kraft",
       "pos": "TE",
       "slot": "TE",
-      "points": 0
+      "points": 6.6
      },
      {
       "playerId": 4689114,
@@ -1033,7 +1033,7 @@
       "playerId": 4890973,
       "name": "Ashton Jeanty",
       "pos": "RB",
-      "slot": "FLEX",
+      "slot": "RB",
       "points": 0
      },
      {
@@ -1047,7 +1047,7 @@
       "playerId": 4361579,
       "name": "Javonte Williams",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -1107,13 +1107,6 @@
       "points": 0
      },
      {
-      "playerId": 4429023,
-      "name": "MarShawn Lloyd",
-      "pos": "RB",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 4385690,
       "name": "Dalton Kincaid",
       "pos": "TE",
@@ -1140,6 +1133,13 @@
       "pos": "WR",
       "slot": "BE",
       "points": 0
+     },
+     {
+      "playerId": 4869461,
+      "name": "Trey Smack",
+      "pos": "K",
+      "slot": "K",
+      "points": 1
      }
     ]
    },
@@ -1208,7 +1208,7 @@
       "name": "Matthew Golden",
       "pos": "WR",
       "slot": "FLEX",
-      "points": 0
+      "points": 21
      },
      {
       "playerId": 4241985,
@@ -1250,7 +1250,7 @@
       "name": "Chris Brooks",
       "pos": "RB",
       "slot": "BE",
-      "points": 0
+      "points": 1.4
      },
      {
       "playerId": -16017,
