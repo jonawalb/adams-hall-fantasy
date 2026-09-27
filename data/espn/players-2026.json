@@ -471,7 +471,7 @@
   "id": 2976592,
   "name": "Sterling Shepard",
   "pos": "WR",
-  "proTeamId": 0
+  "proTeamId": 20
  },
  "2977187": {
   "id": 2977187,
@@ -1497,7 +1497,7 @@
   "id": 3929785,
   "name": "Nick Westbrook-Ikhine",
   "pos": "WR",
-  "proTeamId": 0
+  "proTeamId": 11
  },
  "3929914": {
   "id": 3929914,
@@ -2013,7 +2013,7 @@
   "id": 4212909,
   "name": "David Moore",
   "pos": "WR",
-  "proTeamId": 0
+  "proTeamId": 29
  },
  "4239086": {
   "id": 4239086,
@@ -2109,7 +2109,7 @@
   "id": 4240657,
   "name": "Michael Carter",
   "pos": "RB",
-  "proTeamId": 0
+  "proTeamId": 10
  },
  "4240703": {
   "id": 4240703,
@@ -2397,7 +2397,7 @@
   "id": 4243322,
   "name": "Jake Haener",
   "pos": "QB",
-  "proTeamId": 0
+  "proTeamId": 19
  },
  "4243331": {
   "id": 4243331,
@@ -3687,7 +3687,7 @@
   "id": 4426990,
   "name": "Jalen Moreno-Cropper",
   "pos": "WR",
-  "proTeamId": 0
+  "proTeamId": 18
  },
  "4427095": {
   "id": 4427095,
@@ -3771,7 +3771,7 @@
   "id": 4428119,
   "name": "Lew Nichols",
   "pos": "RB",
-  "proTeamId": 0
+  "proTeamId": 23
  },
  "4428209": {
   "id": 4428209,
