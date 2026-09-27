@@ -4043,6 +4043,12 @@
   "pos": "RB",
   "proTeamId": 2
  },
+ "4429811": {
+  "id": 4429811,
+  "name": "Patrick Herbert",
+  "pos": "TE",
+  "proTeamId": 24
+ },
  "4429835": {
   "id": 4429835,
   "name": "George Holani",
@@ -4131,7 +4137,7 @@
   "id": 4430723,
   "name": "Jared Wiley",
   "pos": "TE",
-  "proTeamId": 0
+  "proTeamId": 12
  },
  "4430737": {
   "id": 4430737,
@@ -4533,7 +4539,7 @@
   "id": 4567747,
   "name": "Garrett Nussmeier",
   "pos": "QB",
-  "proTeamId": 0
+  "proTeamId": 12
  },
  "4567750": {
   "id": 4567750,
@@ -4960,6 +4966,12 @@
   "name": "Jonathon Brooks",
   "pos": "RB",
   "proTeamId": 29
+ },
+ "4682509": {
+  "id": 4682509,
+  "name": "Malik McClain",
+  "pos": "WR",
+  "proTeamId": 20
  },
  "4682648": {
   "id": 4682648,
@@ -5495,6 +5507,12 @@
   "pos": "WR",
   "proTeamId": 0
  },
+ "4709392": {
+  "id": 4709392,
+  "name": "Anthony Tyus III",
+  "pos": "RB",
+  "proTeamId": 29
+ },
  "4710341": {
   "id": 4710341,
   "name": "Jarquez Hunter",
@@ -5854,6 +5872,12 @@
   "name": "Ashton Jeanty",
   "pos": "RB",
   "proTeamId": 13
+ },
+ "4892576": {
+  "id": 4892576,
+  "name": "Jamaal Pritchett",
+  "pos": "WR",
+  "proTeamId": 20
  },
  "4911851": {
   "id": 4911851,
