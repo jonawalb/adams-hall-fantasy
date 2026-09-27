@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 3,
- "archivedAt": "2026-09-26T10:37:47.455Z",
+ "archivedAt": "2026-09-27T11:10:54.596Z",
  "matchups": [
   {
    "id": 11,
@@ -328,14 +328,14 @@
       "playerId": 4038815,
       "name": "Rico Dowdle",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "IR",
       "points": 0
      },
      {
       "playerId": 4568490,
       "name": "RJ Harvey",
       "pos": "RB",
-      "slot": "IR",
+      "slot": "BE",
       "points": 0
      },
      {
