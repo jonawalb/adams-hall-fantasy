@@ -195,7 +195,9 @@ export default function MatchupPickem({ season, weeks, currentWeek, owners }: Pr
                         )}
                         <span className="min-w-0">
                           <span className="font-head block truncate text-base font-semibold leading-tight">{side.name}</span>
-                          <span className="block text-[0.65rem] uppercase tracking-wider text-cream-dim">{side.owner}</span>
+                          <span className="block text-[0.65rem] uppercase tracking-wider text-cream-dim">
+                            {side.owner} · <span className="font-mono-num normal-case tracking-normal">{side.record}</span>
+                          </span>
                         </span>
                         {m.winnerTeamId ? (
                           <span className={`font-mono-num ml-auto text-base ${won ? "text-gold-bright" : "text-cream-dim"}`}>{side.points.toFixed(1)}</span>
