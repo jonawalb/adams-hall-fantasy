@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 5,
  "poll": "AP Top 25",
- "fetchedAt": "2026-09-28T08:28:44.254Z",
+ "fetchedAt": "2026-09-28T12:37:15.909Z",
  "rankings": [
   {
    "rank": 1,
@@ -316,7 +316,7 @@
    "venue": "Aggie Memorial Stadium",
    "broadcast": "CBSSN",
    "spread": "NMSU -2.5",
-   "overUnder": 53.5,
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "NMSU",
@@ -389,7 +389,7 @@
    "detail": "10/2 - 7:00 PM EDT",
    "venue": "Lane Stadium",
    "broadcast": "ESPN",
-   "spread": "VT -4",
+   "spread": "VT -3.5",
    "overUnder": 52.5,
    "headline": null,
    "home": {
@@ -574,7 +574,7 @@
    "detail": "10/3 - 12:00 PM EDT",
    "venue": "TDECU Stadium",
    "broadcast": "ESPN2",
-   "spread": "HOU -11.5",
+   "spread": "HOU -10.5",
    "overUnder": 51.5,
    "headline": null,
    "home": {
@@ -796,7 +796,7 @@
    "detail": "10/3 - 12:00 PM EDT",
    "venue": "Huntington Bank Stadium",
    "broadcast": "FOX",
-   "spread": "MICH -5.5",
+   "spread": "MICH -6",
    "overUnder": 43.5,
    "headline": null,
    "home": {
@@ -834,7 +834,7 @@
    "venue": "Falcon Stadium",
    "broadcast": "CBS",
    "spread": "AF -2.5",
-   "overUnder": 47.5,
+   "overUnder": 46.5,
    "headline": null,
    "home": {
     "abbr": "AFA",
@@ -944,7 +944,7 @@
    "detail": "10/3 - 1:00 PM EDT",
    "venue": "Broadview Stadium",
    "broadcast": "ESPN+",
-   "spread": "WMU -14",
+   "spread": "WMU -13.5",
    "overUnder": 47.5,
    "headline": null,
    "home": {
@@ -1463,7 +1463,7 @@
    "venue": "Yager Stadium",
    "broadcast": "ESPN+",
    "spread": "M-OH -14.5",
-   "overUnder": 45.5,
+   "overUnder": 46.5,
    "headline": null,
    "home": {
     "abbr": "M-OH",
