@@ -59,6 +59,33 @@ export interface Member {
   espn_owner_id?: string | null;
 }
 
+/** Each NFL team's record (by abbr) from all completed games before `week`. */
+export function recordsBefore(slate: Slate, week: number): Map<string, string> {
+  const tally = new Map<string, { w: number; l: number; t: number }>();
+  const get = (abbr: string) => tally.get(abbr) ?? tally.set(abbr, { w: 0, l: 0, t: 0 }).get(abbr)!;
+  for (const [wk, ws] of Object.entries(slate.weeks)) {
+    if (Number(wk) >= week) continue;
+    for (const g of ws.games) {
+      if (!g.completed) continue;
+      const home = get(g.home.abbr);
+      const away = get(g.away.abbr);
+      if (g.winner === "home") {
+        home.w++;
+        away.l++;
+      } else if (g.winner === "away") {
+        away.w++;
+        home.l++;
+      } else {
+        home.t++;
+        away.t++;
+      }
+    }
+  }
+  const out = new Map<string, string>();
+  for (const [abbr, r] of tally) out.set(abbr, r.t ? `${r.w}-${r.l}-${r.t}` : `${r.w}-${r.l}`);
+  return out;
+}
+
 export function hasKickedOff(game: Game, now: Date = new Date()): boolean {
   return new Date(game.date).getTime() <= now.getTime();
 }

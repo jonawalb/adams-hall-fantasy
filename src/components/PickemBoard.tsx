@@ -11,6 +11,7 @@ import {
   Slate,
   formatKickoff,
   hasKickedOff,
+  recordsBefore,
 } from "@/lib/pickem";
 import PickemLeaderboard from "@/components/PickemLeaderboard";
 import GambleYouWuss, { Owner } from "@/components/StillToPick";
@@ -31,6 +32,7 @@ export default function PickemBoard({ slate, owners }: { slate: Slate; owners: O
   const [week, setWeek] = useState(slate.currentWeek);
   const games = useMemo(() => slate.weeks[week]?.games ?? [], [slate.weeks, week]);
   const isCurrent = week === slate.currentWeek;
+  const records = useMemo(() => recordsBefore(slate, week), [slate, week]);
 
   const [picks, setPicks] = useState<PickRow[]>([]);
   const [serverCounts, setServerCounts] = useState<Map<string, number> | null>(null);
@@ -230,7 +232,9 @@ export default function PickemBoard({ slate, owners }: { slate: Slate; owners: O
                         )}
                       </span>
                       <span className="mt-1 flex items-center justify-between text-[0.65rem] uppercase tracking-wider text-cream-dim">
-                        <span>{side}</span>
+                        <span>
+                          {side} · <span className="font-mono-num normal-case tracking-normal">{records.get(t.abbr) ?? "0-0"}</span>
+                        </span>
                         {g.odds?.moneyline[side] && (
                           <span className="font-mono-num text-xs normal-case tracking-normal">{g.odds.moneyline[side]}</span>
                         )}

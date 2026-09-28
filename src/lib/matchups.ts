@@ -10,6 +10,8 @@ export interface SideInfo {
   ownerId: string;
   logo: string | null;
   points: number;
+  /** Regular-season record going into this week, e.g. "2-1". */
+  record: string;
 }
 
 export interface PickemMatchup {
@@ -29,6 +31,17 @@ export interface PickemWeek {
 
 export function pickemWeeks(season: Season, slate: Slate | null): PickemWeek[] {
   const weeks = [...new Set(season.games.map((g) => g.week))].sort((a, b) => a - b);
+  const recordBefore = (teamId: number, week: number) => {
+    let w = 0, l = 0, t = 0;
+    for (const g of season.games) {
+      if (g.week >= week || g.tier !== "NONE" || g.winner === "UNDECIDED") continue;
+      if (g.homeId !== teamId && g.awayId !== teamId) continue;
+      if (g.winner === "TIE") t++;
+      else if ((g.winner === "HOME") === (g.homeId === teamId)) w++;
+      else l++;
+    }
+    return t ? `${w}-${l}-${t}` : `${w}-${l}`;
+  };
   return weeks.map((week) => {
     const nfl = slate?.weeks[String(week)]?.games ?? [];
     const lockAt = nfl.length ? nfl.map((g) => g.date).sort()[0] : null;
@@ -44,6 +57,7 @@ export function pickemWeeks(season: Season, slate: Slate | null): PickemWeek[] {
           ownerId: t.ownerId,
           logo: t.logo,
           points: Math.round(pts * 10) / 10,
+          record: recordBefore(t.id, week),
         });
         return {
           id: `${season.year}-${week}-${g.homeId}-${g.awayId}`,
