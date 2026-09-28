@@ -1494,23 +1494,23 @@
      "id": "401872962",
      "date": "2026-09-28T00:20Z",
      "name": "LAR @ DEN",
-     "state": "in",
-     "completed": false,
-     "winner": null,
-     "detail": "11:54 - 2nd",
+     "state": "post",
+     "completed": true,
+     "winner": "home",
+     "detail": "Final",
      "home": {
       "abbr": "DEN",
       "name": "Denver Broncos",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
       "color": "0a2343",
-      "score": 0
+      "score": 30
      },
      "away": {
       "abbr": "LAR",
       "name": "Los Angeles Rams",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
       "color": "003594",
-      "score": 10
+      "score": 26
      },
      "odds": {
       "provider": "Draft Kings",
@@ -1546,16 +1546,16 @@
      },
      "odds": {
       "provider": "DraftKings",
-      "details": "PHI -4.5",
+      "details": "PHI -3.5",
       "overUnder": 41.5,
       "moneyline": {
-       "home": "+170",
-       "away": "-205"
+       "home": "+160",
+       "away": "-192"
       }
      }
     }
    ]
   }
  },
- "fetchedAt": "2026-09-28T01:16:22.739Z"
+ "fetchedAt": "2026-09-28T08:28:43.664Z"
 }
