@@ -93,7 +93,7 @@
   "id": 15683,
   "name": "Justin Tucker",
   "pos": "K",
-  "proTeamId": 0
+  "proTeamId": 33
  },
  "15795": {
   "id": 15795,
@@ -117,7 +117,7 @@
   "id": 15835,
   "name": "Zach Ertz",
   "pos": "TE",
-  "proTeamId": 0
+  "proTeamId": 21
  },
  "15847": {
   "id": 15847,
@@ -213,7 +213,7 @@
   "id": 16799,
   "name": "Allen Robinson",
   "pos": "WR",
-  "proTeamId": 0
+  "proTeamId": 8
  },
  "16800": {
   "id": 16800,
@@ -2397,7 +2397,7 @@
   "id": 4243322,
   "name": "Jake Haener",
   "pos": "QB",
-  "proTeamId": 19
+  "proTeamId": 0
  },
  "4243331": {
   "id": 4243331,
@@ -4449,7 +4449,7 @@
   "id": 4433970,
   "name": "J.J. McCarthy",
   "pos": "QB",
-  "proTeamId": 16
+  "proTeamId": 19
  },
  "4433971": {
   "id": 4433971,
@@ -5957,6 +5957,12 @@
   "pos": "RB",
   "proTeamId": 18
  },
+ "5082269": {
+  "id": 5082269,
+  "name": "Dean Connors",
+  "pos": "RB",
+  "proTeamId": 14
+ },
  "5082424": {
   "id": 5082424,
   "name": "Dominic Zvada",
@@ -6088,6 +6094,12 @@
   "name": "Ted Hurst III",
   "pos": "WR",
   "proTeamId": 27
+ },
+ "5225419": {
+  "id": 5225419,
+  "name": "Kolbe Katsis",
+  "pos": "WR",
+  "proTeamId": 7
  },
  "5344782": {
   "id": 5344782,
