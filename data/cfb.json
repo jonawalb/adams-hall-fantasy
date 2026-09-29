@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 5,
  "poll": "AP Top 25",
- "fetchedAt": "2026-09-29T11:56:47.810Z",
+ "fetchedAt": "2026-09-29T17:36:38.220Z",
  "rankings": [
   {
    "rank": 1,
@@ -427,7 +427,7 @@
    "venue": "Delaware Stadium",
    "broadcast": "CBSSN",
    "spread": "LIB -7",
-   "overUnder": 49.5,
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "DEL",
@@ -463,7 +463,7 @@
    "detail": "10/2 - 8:00 PM EDT",
    "venue": "Ryan Field",
    "broadcast": "FOX",
-   "spread": "PSU -2.5",
+   "spread": "PSU -3",
    "overUnder": 45.5,
    "headline": null,
    "home": {
@@ -649,7 +649,7 @@
    "venue": "David Booth Kansas Memorial Stadium",
    "broadcast": "ESPNU",
    "spread": "KU -18.5",
-   "overUnder": 50.5,
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "KU",
@@ -722,7 +722,7 @@
    "detail": "10/3 - 12:00 PM EDT",
    "venue": "Allegacy Federal Credit Union Stadium",
    "broadcast": "ACC Network",
-   "spread": "WAKE -13.5",
+   "spread": "WAKE -12.5",
    "overUnder": 53.5,
    "headline": null,
    "home": {
@@ -833,8 +833,8 @@
    "detail": "10/3 - 12:00 PM EDT",
    "venue": "Falcon Stadium",
    "broadcast": "CBS",
-   "spread": "AF -3.5",
-   "overUnder": 46.5,
+   "spread": "AF -3",
+   "overUnder": 45.5,
    "headline": null,
    "home": {
     "abbr": "AFA",
@@ -870,7 +870,7 @@
    "detail": "10/3 - 12:30 PM EDT",
    "venue": "Camp Randall Stadium",
    "broadcast": "BTN",
-   "spread": "WIS -10.5",
+   "spread": "WIS -10",
    "overUnder": 43.5,
    "headline": null,
    "home": {
@@ -982,7 +982,7 @@
    "venue": "Scheumann Stadium",
    "broadcast": "ESPN+",
    "spread": "TOL -19.5",
-   "overUnder": 51.5,
+   "overUnder": 52.5,
    "headline": null,
    "home": {
     "abbr": "BALL",
@@ -1166,7 +1166,7 @@
    "detail": "10/3 - 3:30 PM EDT",
    "venue": "Carter-Finley Stadium",
    "broadcast": "ACC Network",
-   "spread": "LOU -5.5",
+   "spread": "LOU -4",
    "overUnder": 58.5,
    "headline": null,
    "home": {
@@ -1241,7 +1241,7 @@
    "venue": "Jerry Richardson Stadium",
    "broadcast": "ESPN+",
    "spread": "MEM -20.5",
-   "overUnder": 54.5,
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "CLT",
@@ -1352,7 +1352,7 @@
    "venue": "Kelly/Shorts Stadium",
    "broadcast": "ESPN+",
    "spread": "CMU -6.5",
-   "overUnder": 46.5,
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "CMU",
@@ -1388,7 +1388,7 @@
    "detail": "10/3 - 3:30 PM EDT",
    "venue": "Warren McGuirk Alumni Stadium",
    "broadcast": "ESPN+",
-   "spread": "MASS -6",
+   "spread": "MASS -6.5",
    "overUnder": 48.5,
    "headline": null,
    "home": {
@@ -1463,7 +1463,7 @@
    "venue": "Yager Stadium",
    "broadcast": "ESPN+",
    "spread": "M-OH -13.5",
-   "overUnder": 42.5,
+   "overUnder": 43.5,
    "headline": null,
    "home": {
     "abbr": "M-OH",
@@ -1500,7 +1500,7 @@
    "venue": "Center Parc Stadium",
    "broadcast": "ESPN+",
    "spread": "GAST -1.5",
-   "overUnder": 50.5,
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "GAST",
@@ -1722,7 +1722,7 @@
    "venue": "Canvas Stadium",
    "broadcast": "USA Net",
    "spread": "ORST -6",
-   "overUnder": 60.5,
+   "overUnder": 62.5,
    "headline": null,
    "home": {
     "abbr": "CSU",
@@ -1796,7 +1796,7 @@
    "venue": "Amon G. Carter Stadium",
    "broadcast": "ESPN",
    "spread": "BYU -6.5",
-   "overUnder": 48.5,
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "TCU",
@@ -1833,7 +1833,7 @@
    "venue": "Kyle Field",
    "broadcast": "ESPN2",
    "spread": "TA&M -14",
-   "overUnder": 51.5,
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "TA&M",
@@ -1870,7 +1870,7 @@
    "venue": "Rice Stadium",
    "broadcast": "ESPN+",
    "spread": "UTSA -11.5",
-   "overUnder": 54.5,
+   "overUnder": 55.5,
    "headline": null,
    "home": {
     "abbr": "RICE",
@@ -1944,7 +1944,7 @@
    "venue": "Hancock Whitney Stadium",
    "broadcast": "ESPN+",
    "spread": "USA -14",
-   "overUnder": 56.5,
+   "overUnder": 57.5,
    "headline": null,
    "home": {
     "abbr": "USA",
@@ -1981,7 +1981,7 @@
    "venue": "Memorial Stadium (Clemson, SC)",
    "broadcast": "ABC",
    "spread": "MIA -16.5",
-   "overUnder": 48.5,
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "CLEM",
@@ -2055,7 +2055,7 @@
    "venue": "Los Angeles Memorial Coliseum",
    "broadcast": "NBC",
    "spread": "USC -9.5",
-   "overUnder": 57.5,
+   "overUnder": 58.5,
    "headline": null,
    "home": {
     "abbr": "USC",
@@ -2091,7 +2091,7 @@
    "detail": "10/3 - 7:30 PM EDT",
    "venue": "Albertsons Stadium",
    "broadcast": "CBSSN",
-   "spread": "BOIS -19.5",
+   "spread": "BOIS -20.5",
    "overUnder": 51.5,
    "headline": null,
    "home": {
@@ -2129,7 +2129,7 @@
    "venue": "Raymond James Stadium",
    "broadcast": "ESPNU",
    "spread": "USF -6",
-   "overUnder": 49.5,
+   "overUnder": 48.5,
    "headline": null,
    "home": {
     "abbr": "USF",
@@ -2240,7 +2240,7 @@
    "venue": "SHI Stadium",
    "broadcast": "BTN",
    "spread": "IU -24.5",
-   "overUnder": 56.5,
+   "overUnder": 55.5,
    "headline": null,
    "home": {
     "abbr": "RUTG",
@@ -2277,7 +2277,7 @@
    "venue": "Our Lady of Lourdes Stadium",
    "broadcast": "ESPN+",
    "spread": "UL -6.5",
-   "overUnder": 46.5,
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "UL",
@@ -2314,7 +2314,7 @@
    "venue": "Martin Stadium",
    "broadcast": "USA Net",
    "spread": "WSU -2.5",
-   "overUnder": 46.5,
+   "overUnder": 45.5,
    "headline": null,
    "home": {
     "abbr": "WSU",
