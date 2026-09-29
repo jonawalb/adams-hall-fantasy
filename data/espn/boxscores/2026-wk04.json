@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 4,
- "archivedAt": "2026-09-29T11:56:51.275Z",
+ "archivedAt": "2026-09-29T17:36:40.896Z",
  "matchups": [
   {
    "id": 16,
@@ -791,35 +791,35 @@
       "playerId": 4430737,
       "name": "Kyren Williams",
       "pos": "RB",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0
      },
      {
       "playerId": 4567750,
       "name": "Emeka Egbuka",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
       "playerId": 4696981,
       "name": "Cam Skattebo",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0
      },
      {
       "playerId": 4572680,
       "name": "Tucker Kraft",
       "pos": "TE",
-      "slot": "TE",
+      "slot": "BE",
       "points": 0
      },
      {
       "playerId": 16737,
       "name": "Mike Evans",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0
      },
      {
@@ -882,7 +882,7 @@
       "playerId": 3117256,
       "name": "Dalton Schultz",
       "pos": "TE",
-      "slot": "BE",
+      "slot": "TE",
       "points": 0
      }
     ]
