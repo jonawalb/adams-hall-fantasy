@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 5,
  "poll": "AP Top 25",
- "fetchedAt": "2026-09-29T10:24:00.631Z",
+ "fetchedAt": "2026-09-29T11:56:47.810Z",
  "rankings": [
   {
    "rank": 1,
@@ -648,7 +648,7 @@
    "detail": "10/3 - 12:00 PM EDT",
    "venue": "David Booth Kansas Memorial Stadium",
    "broadcast": "ESPNU",
-   "spread": "KU -19.5",
+   "spread": "KU -18.5",
    "overUnder": 50.5,
    "headline": null,
    "home": {
@@ -1055,7 +1055,7 @@
    "detail": "10/3 - 3:30 PM EDT",
    "venue": "Memorial Stadium",
    "broadcast": "ABC",
-   "spread": "FLA -4.5",
+   "spread": "FLA -5.5",
    "overUnder": 56.5,
    "headline": null,
    "home": {
