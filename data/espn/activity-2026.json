@@ -13857,5 +13857,439 @@
   "targetId": 3,
   "totalMessageCount": 2,
   "type": "ACTIVITY_TRANSACTIONS"
+ },
+ {
+  "author": "NightlyLeagueUpdateTaskProcessor",
+  "creationInfo": {
+   "clientAddress": null,
+   "date": 1790665239936,
+   "platform": "lm-processor",
+   "source": "NightlyLeagueUpdateTaskProcessor"
+  },
+  "date": 1790665239936,
+  "dateEdited": 1790665239936,
+  "id": "3a072792-b0df-441f-8475-7687093fb5e4",
+  "isDeleted": false,
+  "isEdited": true,
+  "lastUpdateInfo": {
+   "clientAddress": null,
+   "date": 1790665239936,
+   "platform": "lm-processor",
+   "source": "NightlyLeagueUpdateTaskProcessor"
+  },
+  "messages": [
+   {
+    "author": "NightlyLeagueUpdateTaskProcessor",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1790665239936,
+     "platform": "lm-processor",
+     "source": "NightlyLeagueUpdateTaskProcessor"
+    },
+    "date": 1790665239936,
+    "for": 8,
+    "from": 20,
+    "id": "a24cf3be-e6bb-446c-a5c7-ca14b7054404",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 188,
+    "targetId": 3040151,
+    "to": 6,
+    "topicId": "3a072792-b0df-441f-8475-7687093fb5e4"
+   },
+   {
+    "author": "NightlyLeagueUpdateTaskProcessor",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1790665239936,
+     "platform": "lm-processor",
+     "source": "NightlyLeagueUpdateTaskProcessor"
+    },
+    "date": 1790665239936,
+    "for": 8,
+    "from": 6,
+    "id": "a2ed46ba-5766-4c32-954b-4e06d4527c46",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 188,
+    "targetId": 4385690,
+    "to": 20,
+    "topicId": "3a072792-b0df-441f-8475-7687093fb5e4"
+   }
+  ],
+  "targetId": 0,
+  "totalMessageCount": 2,
+  "type": "ACTIVITY_TRANSACTIONS"
+ },
+ {
+  "author": "NightlyLeagueUpdateTaskProcessor",
+  "creationInfo": {
+   "clientAddress": null,
+   "date": 1790665239936,
+   "platform": "lm-processor",
+   "source": "NightlyLeagueUpdateTaskProcessor"
+  },
+  "date": 1790665239936,
+  "dateEdited": 1790665239936,
+  "id": "4ecd984e-f1aa-418d-b636-c6950f4074e2",
+  "isDeleted": false,
+  "isEdited": true,
+  "lastUpdateInfo": {
+   "clientAddress": null,
+   "date": 1790665239936,
+   "platform": "lm-processor",
+   "source": "NightlyLeagueUpdateTaskProcessor"
+  },
+  "messages": [
+   {
+    "author": "NightlyLeagueUpdateTaskProcessor",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1790665239936,
+     "platform": "lm-processor",
+     "source": "NightlyLeagueUpdateTaskProcessor"
+    },
+    "date": 1790665239936,
+    "for": 12,
+    "from": 23,
+    "id": "c76c94b9-2c21-40ed-80e8-a5569e6c9bd7",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 188,
+    "targetId": 4688813,
+    "to": 20,
+    "topicId": "4ecd984e-f1aa-418d-b636-c6950f4074e2"
+   },
+   {
+    "author": "NightlyLeagueUpdateTaskProcessor",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1790665239936,
+     "platform": "lm-processor",
+     "source": "NightlyLeagueUpdateTaskProcessor"
+    },
+    "date": 1790665239936,
+    "for": 12,
+    "from": 20,
+    "id": "7170ba6d-e187-4d6d-b0db-5930460f7853",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 188,
+    "targetId": 4360761,
+    "to": 23,
+    "topicId": "4ecd984e-f1aa-418d-b636-c6950f4074e2"
+   }
+  ],
+  "targetId": 0,
+  "totalMessageCount": 2,
+  "type": "ACTIVITY_TRANSACTIONS"
+ },
+ {
+  "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+  "creationInfo": {
+   "clientAddress": null,
+   "date": 1790610794480,
+   "platform": "espn-fantasy-app-ios",
+   "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+  },
+  "date": 1790610794480,
+  "dateEdited": 1790610922443,
+  "id": "6fedfcea-1c1f-3c98-b866-ed006e293190",
+  "isDeleted": false,
+  "isEdited": true,
+  "lastUpdateInfo": {
+   "clientAddress": null,
+   "date": 1790610922443,
+   "platform": "espn-fantasy-app-ios",
+   "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+  },
+  "messages": [
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "Bhayshul Tuten 1 yard touchdown run",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1790610922443,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1790610922443,
+    "for": 9,
+    "id": "98016253-dc66-4ec7-ae1e-ae6e5d064ca1",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 278,
+    "subject": "+6.1 Points",
+    "topicId": "6fedfcea-1c1f-3c98-b866-ed006e293190"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "Thank you trevor lawrence",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1790610922443,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1790610922443,
+    "for": 9,
+    "id": "2be86f7b-4d19-4820-bb4b-12fe282457f6",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 280,
+    "topicId": "6fedfcea-1c1f-3c98-b866-ed006e293190"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "https://g.espncdn.com/lm-static/ffl/player-animations/2026/30_4882093_gen_4.mp4?buildNumber=undefined&version=43",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1790610922443,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1790610922443,
+    "for": 9,
+    "id": "3ef9e751-e536-4cf6-9340-3e7fc6627b79",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 279,
+    "topicId": "6fedfcea-1c1f-3c98-b866-ed006e293190"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "Whitney's bitch ass in the Shough chair",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1790610897191,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1790610897191,
+    "for": 9,
+    "id": "60f0ebe8-c315-44e5-8808-f77c7b124c72",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 280,
+    "topicId": "6fedfcea-1c1f-3c98-b866-ed006e293190"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "Tyler Shough 2 yard touchdown pass",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1790610897191,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1790610897191,
+    "for": 9,
+    "id": "7eff6e62-01b9-4f23-881a-8c601f7a9b9e",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 278,
+    "subject": "+4.1 Points",
+    "topicId": "6fedfcea-1c1f-3c98-b866-ed006e293190"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "https://g.espncdn.com/lm-static/ffl/player-animations/2026/18_4360689_gen_3.mp4?buildNumber=undefined&version=43",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1790610897191,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1790610897191,
+    "for": 9,
+    "id": "d731cc0d-bc4f-431e-bfe1-c6e807a0272f",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 279,
+    "topicId": "6fedfcea-1c1f-3c98-b866-ed006e293190"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "https://g.espncdn.com/lm-static/ffl/player-animations/2026/18_4360689_gen_2.mp4?buildNumber=undefined&version=43",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1790610830615,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1790610830615,
+    "for": 9,
+    "id": "9b78a3df-f246-459c-aaa2-1c591678c38a",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 279,
+    "topicId": "6fedfcea-1c1f-3c98-b866-ed006e293190"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "Tyler Shough 3 yard touchdown pass",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1790610830615,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1790610830615,
+    "for": 9,
+    "id": "99a8e7df-c3da-4a85-8143-ba5649b881db",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 278,
+    "subject": "+4.1 Points",
+    "topicId": "6fedfcea-1c1f-3c98-b866-ed006e293190"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "What does this mean for Chucky's legacy in the Shough chair",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1790610830615,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1790610830615,
+    "for": 9,
+    "id": "cfb3eafc-eadd-44ac-9dd0-48a26bf6a719",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 280,
+    "topicId": "6fedfcea-1c1f-3c98-b866-ed006e293190"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "Tyler Shough 1 yard touchdown pass",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1790610811012,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1790610811012,
+    "for": 9,
+    "id": "781c42f2-f9e6-4c9e-b99b-edeeea6106ac",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 278,
+    "subject": "+4 Points",
+    "topicId": "6fedfcea-1c1f-3c98-b866-ed006e293190"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "Junul Dale in the Shough chair",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1790610811012,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1790610811012,
+    "for": 9,
+    "id": "17b3c76a-f8d4-496c-956a-3133665c6ce3",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 280,
+    "topicId": "6fedfcea-1c1f-3c98-b866-ed006e293190"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "https://g.espncdn.com/lm-static/ffl/player-animations/2026/18_4360689_gen_1.mp4?buildNumber=undefined&version=43",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1790610811012,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1790610811012,
+    "for": 9,
+    "id": "9ffb3efe-5f19-4a1c-a490-e106722a6b96",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 279,
+    "topicId": "6fedfcea-1c1f-3c98-b866-ed006e293190"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "Dutch Miller in the Shough chair",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1790610794480,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1790610794480,
+    "for": 9,
+    "id": "1dd9fa93-c03a-4885-998f-109c37418326",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 280,
+    "topicId": "6fedfcea-1c1f-3c98-b866-ed006e293190"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "https://g.espncdn.com/lm-static/ffl/player-animations/2026/18_4360689_gen_10.mp4?buildNumber=undefined&version=43",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1790610794480,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1790610794480,
+    "for": 9,
+    "id": "830338f8-5f7c-4c48-9f87-7b299013abab",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 279,
+    "topicId": "6fedfcea-1c1f-3c98-b866-ed006e293190"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "Tyler Shough 16 yard touchdown pass",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1790610794480,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1790610794480,
+    "for": 9,
+    "id": "346b3cbb-0151-4581-a77b-ccacfe1d50ac",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 278,
+    "subject": "+4.6 Points",
+    "topicId": "6fedfcea-1c1f-3c98-b866-ed006e293190"
+   }
+  ],
+  "subject": "DM",
+  "totalMessageCount": 15,
+  "type": "CHAT_DIRECT_MESSAGE",
+  "viewableBy": [
+   "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+   "{294E9BB0-3CB9-4B62-BE44-BD0420CAD9C4}"
+  ]
  }
 ]
