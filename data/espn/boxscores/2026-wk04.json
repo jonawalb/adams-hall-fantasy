@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 4,
- "archivedAt": "2026-09-29T17:36:40.896Z",
+ "archivedAt": "2026-09-30T11:44:58.784Z",
  "matchups": [
   {
    "id": 16,
@@ -293,7 +293,7 @@
       "playerId": 4372016,
       "name": "Jaylen Waddle",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -321,7 +321,7 @@
       "playerId": 5083076,
       "name": "Harold Fannin Jr.",
       "pos": "TE",
-      "slot": "BE",
+      "slot": "TE",
       "points": 0
      },
      {
@@ -349,7 +349,7 @@
       "playerId": 4361050,
       "name": "Isaiah Likely",
       "pos": "TE",
-      "slot": "TE",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -377,7 +377,7 @@
       "playerId": 4569559,
       "name": "Devaughn Vele",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0
      },
      {
@@ -518,13 +518,6 @@
     "points": 0,
     "lineup": [
      {
-      "playerId": 4429160,
-      "name": "De'Von Achane",
-      "pos": "RB",
-      "slot": "RB",
-      "points": 0
-     },
-     {
       "playerId": 4262921,
       "name": "Justin Jefferson",
       "pos": "WR",
@@ -616,13 +609,6 @@
       "points": 0
      },
      {
-      "playerId": 3149687,
-      "name": "Chris Brooks",
-      "pos": "RB",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": -16017,
       "name": "Patriots D/ST",
       "pos": "D/ST",
@@ -633,6 +619,20 @@
       "playerId": 4428850,
       "name": "Dontayvion Wicks",
       "pos": "WR",
+      "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 4685247,
+      "name": "Braelon Allen",
+      "pos": "RB",
+      "slot": "RB",
+      "points": 0
+     },
+     {
+      "playerId": 4682745,
+      "name": "Jaylen Wright",
+      "pos": "RB",
       "slot": "BE",
       "points": 0
      }
@@ -755,9 +755,9 @@
       "points": 0
      },
      {
-      "playerId": -16004,
-      "name": "Bengals D/ST",
-      "pos": "D/ST",
+      "playerId": 4596334,
+      "name": "Keaton Mitchell",
+      "pos": "RB",
       "slot": "BE",
       "points": 0
      }
@@ -858,13 +858,6 @@
       "points": 0
      },
      {
-      "playerId": -16003,
-      "name": "Bears D/ST",
-      "pos": "D/ST",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 4695883,
       "name": "Jalen Coker",
       "pos": "WR",
@@ -883,6 +876,13 @@
       "name": "Dalton Schultz",
       "pos": "TE",
       "slot": "TE",
+      "points": 0
+     },
+     {
+      "playerId": 4711533,
+      "name": "Ollie Gordon II",
+      "pos": "RB",
+      "slot": "BE",
       "points": 0
      }
     ]
@@ -1121,13 +1121,6 @@
       "points": 0
      },
      {
-      "playerId": -16014,
-      "name": "Rams D/ST",
-      "pos": "D/ST",
-      "slot": "D/ST",
-      "points": 0
-     },
-     {
       "playerId": 4832800,
       "name": "Denzel Boston",
       "pos": "WR",
@@ -1139,6 +1132,13 @@
       "name": "Trey Smack",
       "pos": "K",
       "slot": "K",
+      "points": 0
+     },
+     {
+      "playerId": -16002,
+      "name": "Bills D/ST",
+      "pos": "D/ST",
+      "slot": "D/ST",
       "points": 0
      }
     ]
