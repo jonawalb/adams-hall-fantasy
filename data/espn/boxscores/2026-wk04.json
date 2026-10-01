@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 4,
- "archivedAt": "2026-09-30T11:44:58.784Z",
+ "archivedAt": "2026-10-01T12:13:42.529Z",
  "matchups": [
   {
    "id": 16,
@@ -125,8 +125,8 @@
       "points": 0
      },
      {
-      "playerId": -16029,
-      "name": "Panthers D/ST",
+      "playerId": -16005,
+      "name": "Browns D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
       "points": 0
@@ -148,7 +148,7 @@
       "playerId": 4567048,
       "name": "Kenneth Walker III",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -162,7 +162,7 @@
       "playerId": 4685702,
       "name": "Quinshon Judkins",
       "pos": "RB",
-      "slot": "FLEX",
+      "slot": "RB",
       "points": 0
      },
      {
@@ -204,7 +204,7 @@
       "playerId": 4360310,
       "name": "Trevor Lawrence",
       "pos": "QB",
-      "slot": "BE",
+      "slot": "QB",
       "points": 0
      },
      {
@@ -239,7 +239,7 @@
       "playerId": 2577417,
       "name": "Dak Prescott",
       "pos": "QB",
-      "slot": "QB",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -279,7 +279,7 @@
       "playerId": 4362238,
       "name": "Chase Brown",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -381,8 +381,8 @@
       "points": 0
      },
      {
-      "playerId": 4429013,
-      "name": "Tank Bigsby",
+      "playerId": 4599739,
+      "name": "Kendre Miller",
       "pos": "RB",
       "slot": "BE",
       "points": 0
@@ -734,13 +734,6 @@
       "points": 0
      },
      {
-      "playerId": -16021,
-      "name": "Eagles D/ST",
-      "pos": "D/ST",
-      "slot": "D/ST",
-      "points": 0
-     },
-     {
       "playerId": 3046779,
       "name": "Jared Goff",
       "pos": "QB",
@@ -759,6 +752,13 @@
       "name": "Keaton Mitchell",
       "pos": "RB",
       "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": -16009,
+      "name": "Packers D/ST",
+      "pos": "D/ST",
+      "slot": "D/ST",
       "points": 0
      }
     ]
@@ -819,7 +819,7 @@
       "playerId": 16737,
       "name": "Mike Evans",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -861,7 +861,7 @@
       "playerId": 4695883,
       "name": "Jalen Coker",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0
      },
      {
@@ -882,6 +882,13 @@
       "playerId": 4711533,
       "name": "Ollie Gordon II",
       "pos": "RB",
+      "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 3116406,
+      "name": "Tyreek Hill",
+      "pos": "WR",
       "slot": "BE",
       "points": 0
      }
@@ -969,20 +976,6 @@
       "points": 0
      },
      {
-      "playerId": 4362249,
-      "name": "Jayden Reed",
-      "pos": "WR",
-      "slot": "BE",
-      "points": 0
-     },
-     {
-      "playerId": 4683062,
-      "name": "Xavier Worthy",
-      "pos": "WR",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 3054850,
       "name": "Alvin Kamara",
       "pos": "RB",
@@ -1008,6 +1001,20 @@
       "name": "Vikings D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
+      "points": 0
+     },
+     {
+      "playerId": 15818,
+      "name": "Keenan Allen",
+      "pos": "WR",
+      "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 2973405,
+      "name": "Kalif Raymond",
+      "pos": "WR",
+      "slot": "BE",
       "points": 0
      }
     ]
