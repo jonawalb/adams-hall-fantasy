@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 5,
  "poll": "AP Top 25",
- "fetchedAt": "2026-10-01T12:13:40.297Z",
+ "fetchedAt": "2026-10-02T10:07:58.719Z",
  "rankings": [
   {
    "rank": 1,
@@ -310,14 +310,14 @@
    "id": "401871049",
    "date": "2026-10-02T00:00Z",
    "name": "WKU @ NMSU",
-   "state": "pre",
-   "completed": false,
-   "detail": "10/1 - 8:00 PM EDT",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Aggie Memorial Stadium",
    "broadcast": "CBSSN",
-   "spread": "NMSU -2.5",
-   "overUnder": 57.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Jones has 155 yards rushing and a TD, Peters adds pick-6, New Mexico State beats Western Kentucky",
    "home": {
     "abbr": "NMSU",
     "name": "New Mexico State Aggies",
@@ -325,10 +325,10 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/166.png",
     "color": "7e141b",
     "rank": null,
-    "score": 0,
-    "record": "1-3",
+    "score": 34,
+    "record": "2-3",
     "conferenceId": "12",
-    "winner": false
+    "winner": true
    },
    "away": {
     "abbr": "WKU",
@@ -337,8 +337,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/98.png",
     "color": "e13a3e",
     "rank": null,
-    "score": 0,
-    "record": "1-3",
+    "score": 13,
+    "record": "1-4",
     "conferenceId": "12",
     "winner": false
    }
@@ -347,14 +347,14 @@
    "id": "401862786",
    "date": "2026-10-02T01:00Z",
    "name": "UNT @ TLSA",
-   "state": "pre",
-   "completed": false,
-   "detail": "10/1 - 9:00 PM EDT",
+   "state": "post",
+   "completed": true,
+   "detail": "Final/OT",
    "venue": "H. A. Chapman Stadium",
    "broadcast": "ESPN",
-   "spread": "UNT -1.5",
-   "overUnder": 57.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Tayven Jackson throws 4 TD passes, runs for TD in OT as UNT beats Tulsa 45-44",
    "home": {
     "abbr": "TLSA",
     "name": "Tulsa Golden Hurricane",
@@ -362,8 +362,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/202.png",
     "color": "003595",
     "rank": null,
-    "score": 0,
-    "record": "3-1",
+    "score": 44,
+    "record": "3-2",
     "conferenceId": "151",
     "winner": false
    },
@@ -374,10 +374,10 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png",
     "color": "068f33",
     "rank": null,
-    "score": 0,
-    "record": "2-2",
+    "score": 45,
+    "record": "3-2",
     "conferenceId": "151",
-    "winner": false
+    "winner": true
    }
   },
   {
@@ -389,7 +389,7 @@
    "detail": "10/2 - 7:00 PM EDT",
    "venue": "Lane Stadium",
    "broadcast": "ESPN",
-   "spread": "VT -3",
+   "spread": "VT -2.5",
    "overUnder": 54.5,
    "headline": null,
    "home": {
@@ -426,8 +426,8 @@
    "detail": "10/2 - 7:00 PM EDT",
    "venue": "Delaware Stadium",
    "broadcast": "CBSSN",
-   "spread": "LIB -7.5",
-   "overUnder": 50.5,
+   "spread": "LIB -6.5",
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "DEL",
@@ -492,6 +492,43 @@
    }
   },
   {
+   "id": "401862787",
+   "date": "2026-10-03T15:00Z",
+   "name": "MEM @ CLT",
+   "state": "pre",
+   "completed": false,
+   "detail": "10/3 - 11:00 AM EDT",
+   "venue": "Jerry Richardson Stadium",
+   "broadcast": "ESPN+",
+   "spread": "MEM -20.5",
+   "overUnder": 52.5,
+   "headline": null,
+   "home": {
+    "abbr": "CLT",
+    "name": "Charlotte 49ers",
+    "short": "Charlotte",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2429.png",
+    "color": "005035",
+    "rank": null,
+    "score": 0,
+    "record": "0-4",
+    "conferenceId": "151",
+    "winner": false
+   },
+   "away": {
+    "abbr": "MEM",
+    "name": "Memphis Tigers",
+    "short": "Memphis",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
+    "color": "004991",
+    "rank": null,
+    "score": 0,
+    "record": "3-1",
+    "conferenceId": "151",
+    "winner": false
+   }
+  },
+  {
    "id": "401858250",
    "date": "2026-10-03T16:00Z",
    "name": "ND @ UNC",
@@ -500,8 +537,8 @@
    "detail": "10/3 - 12:00 PM EDT",
    "venue": "Kenan Stadium",
    "broadcast": "ESPN",
-   "spread": "ND -21",
-   "overUnder": 47.5,
+   "spread": "ND -21.5",
+   "overUnder": 46.5,
    "headline": null,
    "home": {
     "abbr": "UNC",
@@ -537,8 +574,8 @@
    "detail": "10/3 - 12:00 PM EDT",
    "venue": "Davis Wade Stadium",
    "broadcast": "ABC",
-   "spread": "ALA -5.5",
-   "overUnder": 59.5,
+   "spread": "ALA -6",
+   "overUnder": 60.5,
    "headline": null,
    "home": {
     "abbr": "MSST",
@@ -575,7 +612,7 @@
    "venue": "TDECU Stadium",
    "broadcast": "ESPN2",
    "spread": "HOU -11.5",
-   "overUnder": 51.5,
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "HOU",
@@ -611,7 +648,7 @@
    "detail": "10/3 - 12:00 PM EDT",
    "venue": "Gerald J. Ford Stadium",
    "broadcast": "CW",
-   "spread": "SMU -21",
+   "spread": "SMU -21.5",
    "overUnder": 55.5,
    "headline": null,
    "home": {
@@ -648,8 +685,8 @@
    "detail": "10/3 - 12:00 PM EDT",
    "venue": "David Booth Kansas Memorial Stadium",
    "broadcast": "ESPNU",
-   "spread": "KU -18.5",
-   "overUnder": 49.5,
+   "spread": "KU -19.5",
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "KU",
@@ -722,7 +759,7 @@
    "detail": "10/3 - 12:00 PM EDT",
    "venue": "Allegacy Federal Credit Union Stadium",
    "broadcast": "ACC Network",
-   "spread": "WAKE -13.5",
+   "spread": "WAKE -14",
    "overUnder": 53.5,
    "headline": null,
    "home": {
@@ -759,7 +796,7 @@
    "detail": "10/3 - 12:00 PM EDT",
    "venue": "Pratt & Whitney Stadium",
    "broadcast": "CBSSN",
-   "spread": "SYR -6.5",
+   "spread": "SYR -7",
    "overUnder": 50.5,
    "headline": null,
    "home": {
@@ -834,7 +871,7 @@
    "venue": "Falcon Stadium",
    "broadcast": "CBS",
    "spread": "AF -3.5",
-   "overUnder": 45.5,
+   "overUnder": 46.5,
    "headline": null,
    "home": {
     "abbr": "AFA",
@@ -981,7 +1018,7 @@
    "detail": "10/3 - 2:00 PM EDT",
    "venue": "Scheumann Stadium",
    "broadcast": "ESPN+",
-   "spread": "TOL -19.5",
+   "spread": "TOL -20.5",
    "overUnder": 52.5,
    "headline": null,
    "home": {
@@ -1093,7 +1130,7 @@
    "venue": "Neyland Stadium",
    "broadcast": "ESPN",
    "spread": "TENN -7",
-   "overUnder": 54.5,
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "TENN",
@@ -1232,43 +1269,6 @@
    }
   },
   {
-   "id": "401862787",
-   "date": "2026-10-03T19:30Z",
-   "name": "MEM @ CLT",
-   "state": "pre",
-   "completed": false,
-   "detail": "10/3 - 3:30 PM EDT",
-   "venue": "Jerry Richardson Stadium",
-   "broadcast": "ESPN+",
-   "spread": "MEM -20.5",
-   "overUnder": 52.5,
-   "headline": null,
-   "home": {
-    "abbr": "CLT",
-    "name": "Charlotte 49ers",
-    "short": "Charlotte",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2429.png",
-    "color": "005035",
-    "rank": null,
-    "score": 0,
-    "record": "0-4",
-    "conferenceId": "151",
-    "winner": false
-   },
-   "away": {
-    "abbr": "MEM",
-    "name": "Memphis Tigers",
-    "short": "Memphis",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
-    "color": "004991",
-    "rank": null,
-    "score": 0,
-    "record": "3-1",
-    "conferenceId": "151",
-    "winner": false
-   }
-  },
-  {
    "id": "401862793",
    "date": "2026-10-03T19:30Z",
    "name": "SAM @ UAB",
@@ -1278,7 +1278,7 @@
    "venue": "Protective Stadium",
    "broadcast": "ESPN+",
    "spread": "UAB -30.5",
-   "overUnder": 50.5,
+   "overUnder": 52.5,
    "headline": null,
    "home": {
     "abbr": "UAB",
@@ -1315,7 +1315,7 @@
    "venue": "Fargodome",
    "broadcast": "CW",
    "spread": "NDSU -17.5",
-   "overUnder": 45.5,
+   "overUnder": 44.5,
    "headline": null,
    "home": {
     "abbr": "NDSU",
@@ -1388,7 +1388,7 @@
    "detail": "10/3 - 3:30 PM EDT",
    "venue": "Warren McGuirk Alumni Stadium",
    "broadcast": "ESPN+",
-   "spread": "MASS -6.5",
+   "spread": "MASS -6",
    "overUnder": 48.5,
    "headline": null,
    "home": {
@@ -1536,7 +1536,7 @@
    "detail": "10/3 - 3:45 PM EDT",
    "venue": "Bridgeforth Stadium",
    "broadcast": "ESPNU",
-   "spread": "JMU -19.5",
+   "spread": "JMU -18.5",
    "overUnder": 56.5,
    "headline": null,
    "home": {
@@ -1611,7 +1611,7 @@
    "venue": "University Stadium (NM)",
    "broadcast": "MW+",
    "spread": "UNM -22.5",
-   "overUnder": 48.5,
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "UNM",
@@ -1648,7 +1648,7 @@
    "venue": "Williams-Brice Stadium",
    "broadcast": "SEC Network",
    "spread": "SC -3",
-   "overUnder": 53.5,
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "SC",
@@ -1685,7 +1685,7 @@
    "venue": "Gies Memorial Stadium",
    "broadcast": "BTN",
    "spread": "ILL -10",
-   "overUnder": 61.5,
+   "overUnder": 62.5,
    "headline": null,
    "home": {
     "abbr": "ILL",
@@ -1721,8 +1721,8 @@
    "detail": "10/3 - 6:00 PM EDT",
    "venue": "Canvas Stadium",
    "broadcast": "USA Net",
-   "spread": "ORST -6",
-   "overUnder": 61.5,
+   "spread": "ORST -6.5",
+   "overUnder": 62.5,
    "headline": null,
    "home": {
     "abbr": "CSU",
@@ -1758,8 +1758,8 @@
    "detail": "10/3 - 6:00 PM EDT",
    "venue": "Flagler Credit Union Stadium",
    "broadcast": "ESPN+",
-   "spread": "FAU -43.5",
-   "overUnder": 60.5,
+   "spread": "FAU -44.5",
+   "overUnder": 61.5,
    "headline": null,
    "home": {
     "abbr": "FAU",
@@ -1867,10 +1867,10 @@
    "state": "pre",
    "completed": false,
    "detail": "10/3 - 7:00 PM EDT",
-   "venue": "Rice Stadium",
+   "venue": "First Community Stadium",
    "broadcast": "ESPN+",
-   "spread": "UTSA -11.5",
-   "overUnder": 56.5,
+   "spread": "UTSA -12.5",
+   "overUnder": 55.5,
    "headline": null,
    "home": {
     "abbr": "RICE",
@@ -1906,8 +1906,8 @@
    "detail": "10/3 - 7:00 PM EDT",
    "venue": "Brooks Stadium (SC)",
    "broadcast": "ESPN+",
-   "spread": "GASO -2.5",
-   "overUnder": 54.5,
+   "spread": "GASO -1.5",
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "CCU",
@@ -2017,7 +2017,7 @@
    "detail": "10/3 - 7:30 PM EDT",
    "venue": "Folsom Field",
    "broadcast": "FOX",
-   "spread": "TTU -12.5",
+   "spread": "TTU -13.5",
    "overUnder": 50.5,
    "headline": null,
    "home": {
@@ -2054,7 +2054,7 @@
    "detail": "10/3 - 7:30 PM EDT",
    "venue": "Los Angeles Memorial Coliseum",
    "broadcast": "NBC",
-   "spread": "USC -9.5",
+   "spread": "USC -8.5",
    "overUnder": 58.5,
    "headline": null,
    "home": {
@@ -2091,7 +2091,7 @@
    "detail": "10/3 - 7:30 PM EDT",
    "venue": "Albertsons Stadium",
    "broadcast": "CBSSN",
-   "spread": "BOIS -20.5",
+   "spread": "BOIS -18.5",
    "overUnder": 51.5,
    "headline": null,
    "home": {
@@ -2165,7 +2165,7 @@
    "detail": "10/3 - 7:30 PM EDT",
    "venue": "Joe Aillet Stadium",
    "broadcast": "ESPN+",
-   "spread": "ARMY -2.5",
+   "spread": "ARMY -1.5",
    "overUnder": 47.5,
    "headline": null,
    "home": {
@@ -2203,7 +2203,7 @@
    "venue": "Tiger Stadium (LA)",
    "broadcast": "SEC Network",
    "spread": "LSU -53.5",
-   "overUnder": 60.5,
+   "overUnder": 62.5,
    "headline": null,
    "home": {
     "abbr": "LSU",
@@ -2239,7 +2239,7 @@
    "detail": "10/3 - 8:00 PM EDT",
    "venue": "SHI Stadium",
    "broadcast": "BTN",
-   "spread": "IU -23.5",
+   "spread": "IU -24.5",
    "overUnder": 56.5,
    "headline": null,
    "home": {
@@ -2350,7 +2350,7 @@
    "detail": "10/3 - 10:30 PM EDT",
    "venue": "Mountain America Stadium",
    "broadcast": "ESPN",
-   "spread": "ASU -4",
+   "spread": "ASU -3.5",
    "overUnder": 49.5,
    "headline": null,
    "home": {
@@ -2387,8 +2387,8 @@
    "detail": "10/3 - 10:30 PM EDT",
    "venue": "Snapdragon Stadium",
    "broadcast": "CW",
-   "spread": "TXST -7",
-   "overUnder": 59.5,
+   "spread": "TXST -8.5",
+   "overUnder": 57.5,
    "headline": null,
    "home": {
     "abbr": "SDSU",
@@ -2425,7 +2425,7 @@
    "venue": "Casino Del Sol Stadium",
    "broadcast": "FOX",
    "spread": "ARIZ -6.5",
-   "overUnder": 55.5,
+   "overUnder": 56.5,
    "headline": null,
    "home": {
     "abbr": "ARIZ",
@@ -2462,7 +2462,7 @@
    "venue": "Clarence T.C. Ching Athletics Complex",
    "broadcast": "MW+",
    "spread": "HAW -3",
-   "overUnder": 51.5,
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "HAW",
