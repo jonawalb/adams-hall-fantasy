@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 5,
  "poll": "AP Top 25",
- "fetchedAt": "2026-10-02T10:07:58.719Z",
+ "fetchedAt": "2026-10-02T11:43:03.942Z",
  "rankings": [
   {
    "rank": 1,
@@ -871,7 +871,7 @@
    "venue": "Falcon Stadium",
    "broadcast": "CBS",
    "spread": "AF -3.5",
-   "overUnder": 46.5,
+   "overUnder": 45.5,
    "headline": null,
    "home": {
     "abbr": "AFA",
@@ -2202,8 +2202,8 @@
    "detail": "10/3 - 7:45 PM EDT",
    "venue": "Tiger Stadium (LA)",
    "broadcast": "SEC Network",
-   "spread": "LSU -53.5",
-   "overUnder": 62.5,
+   "spread": "LSU -52.5",
+   "overUnder": 61.5,
    "headline": null,
    "home": {
     "abbr": "LSU",
