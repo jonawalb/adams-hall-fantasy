@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 5,
  "poll": "AP Top 25",
- "fetchedAt": "2026-10-02T11:43:03.942Z",
+ "fetchedAt": "2026-10-03T10:56:32.962Z",
  "rankings": [
   {
    "rank": 1,
@@ -384,14 +384,14 @@
    "id": "401858245",
    "date": "2026-10-02T23:00Z",
    "name": "PITT @ VT",
-   "state": "pre",
-   "completed": false,
-   "detail": "10/2 - 7:00 PM EDT",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Lane Stadium",
    "broadcast": "ESPN",
-   "spread": "VT -2.5",
-   "overUnder": 54.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Pittsburgh rallies from 14-point deficit, remains unbeaten with 35-33 victory over Virginia Tech",
    "home": {
     "abbr": "VT",
     "name": "Virginia Tech Hokies",
@@ -399,8 +399,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/259.png",
     "color": "6a2c3e",
     "rank": null,
-    "score": 0,
-    "record": "4-0",
+    "score": 33,
+    "record": "4-1",
     "conferenceId": "1",
     "winner": false
    },
@@ -411,24 +411,24 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/221.png",
     "color": "003594",
     "rank": null,
-    "score": 0,
-    "record": "4-0",
+    "score": 35,
+    "record": "5-0",
     "conferenceId": "1",
-    "winner": false
+    "winner": true
    }
   },
   {
    "id": "401871050",
    "date": "2026-10-02T23:00Z",
    "name": "LIB @ DEL",
-   "state": "pre",
-   "completed": false,
-   "detail": "10/2 - 7:00 PM EDT",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Delaware Stadium",
    "broadcast": "CBSSN",
-   "spread": "LIB -6.5",
-   "overUnder": 49.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Kam Davis propels Liberty to 30-14 victory over Delaware in Conference USA opener",
    "home": {
     "abbr": "DEL",
     "name": "Delaware Blue Hens",
@@ -436,8 +436,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/48.png",
     "color": "00539f",
     "rank": null,
-    "score": 0,
-    "record": "2-2",
+    "score": 14,
+    "record": "2-3",
     "conferenceId": "12",
     "winner": false
    },
@@ -448,24 +448,24 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
     "color": "0a254e",
     "rank": null,
-    "score": 0,
-    "record": "3-1",
+    "score": 30,
+    "record": "4-1",
     "conferenceId": "12",
-    "winner": false
+    "winner": true
    }
   },
   {
    "id": "401858476",
    "date": "2026-10-03T00:00Z",
    "name": "PSU @ NU",
-   "state": "pre",
-   "completed": false,
-   "detail": "10/2 - 8:00 PM EDT",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Ryan Field",
    "broadcast": "FOX",
-   "spread": "PSU -2.5",
-   "overUnder": 45.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Caleb Komolafe stars as Northwestern rushes past Penn State 34-13 in 1st game at Ryan Field",
    "home": {
     "abbr": "NU",
     "name": "Northwestern Wildcats",
@@ -473,10 +473,10 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/77.png",
     "color": "492f92",
     "rank": null,
-    "score": 0,
-    "record": "2-1",
+    "score": 34,
+    "record": "3-1",
     "conferenceId": "5",
-    "winner": false
+    "winner": true
    },
    "away": {
     "abbr": "PSU",
@@ -485,8 +485,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/213.png",
     "color": "061440",
     "rank": null,
-    "score": 0,
-    "record": "3-1",
+    "score": 13,
+    "record": "3-2",
     "conferenceId": "5",
     "winner": false
    }
@@ -537,7 +537,7 @@
    "detail": "10/3 - 12:00 PM EDT",
    "venue": "Kenan Stadium",
    "broadcast": "ESPN",
-   "spread": "ND -21.5",
+   "spread": "ND -21",
    "overUnder": 46.5,
    "headline": null,
    "home": {
@@ -574,8 +574,8 @@
    "detail": "10/3 - 12:00 PM EDT",
    "venue": "Davis Wade Stadium",
    "broadcast": "ABC",
-   "spread": "ALA -6",
-   "overUnder": 60.5,
+   "spread": "ALA -5.5",
+   "overUnder": 61.5,
    "headline": null,
    "home": {
     "abbr": "MSST",
@@ -611,7 +611,7 @@
    "detail": "10/3 - 12:00 PM EDT",
    "venue": "TDECU Stadium",
    "broadcast": "ESPN2",
-   "spread": "HOU -11.5",
+   "spread": "HOU -10.5",
    "overUnder": 50.5,
    "headline": null,
    "home": {
@@ -648,7 +648,7 @@
    "detail": "10/3 - 12:00 PM EDT",
    "venue": "Gerald J. Ford Stadium",
    "broadcast": "CW",
-   "spread": "SMU -21.5",
+   "spread": "SMU -21",
    "overUnder": 55.5,
    "headline": null,
    "home": {
@@ -685,8 +685,8 @@
    "detail": "10/3 - 12:00 PM EDT",
    "venue": "David Booth Kansas Memorial Stadium",
    "broadcast": "ESPNU",
-   "spread": "KU -19.5",
-   "overUnder": 50.5,
+   "spread": "KU -20.5",
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "KU",
@@ -759,7 +759,7 @@
    "detail": "10/3 - 12:00 PM EDT",
    "venue": "Allegacy Federal Credit Union Stadium",
    "broadcast": "ACC Network",
-   "spread": "WAKE -14",
+   "spread": "WAKE -14.5",
    "overUnder": 53.5,
    "headline": null,
    "home": {
@@ -796,7 +796,7 @@
    "detail": "10/3 - 12:00 PM EDT",
    "venue": "Pratt & Whitney Stadium",
    "broadcast": "CBSSN",
-   "spread": "SYR -7",
+   "spread": "SYR -6.5",
    "overUnder": 50.5,
    "headline": null,
    "home": {
@@ -833,7 +833,7 @@
    "detail": "10/3 - 12:00 PM EDT",
    "venue": "Huntington Bank Stadium",
    "broadcast": "FOX",
-   "spread": "MICH -5.5",
+   "spread": "MICH -6",
    "overUnder": 43.5,
    "headline": null,
    "home": {
@@ -870,7 +870,7 @@
    "detail": "10/3 - 12:00 PM EDT",
    "venue": "Falcon Stadium",
    "broadcast": "CBS",
-   "spread": "AF -3.5",
+   "spread": "AF -3",
    "overUnder": 45.5,
    "headline": null,
    "home": {
@@ -907,7 +907,7 @@
    "detail": "10/3 - 12:30 PM EDT",
    "venue": "Camp Randall Stadium",
    "broadcast": "BTN",
-   "spread": "WIS -10",
+   "spread": "WIS -8.5",
    "overUnder": 43.5,
    "headline": null,
    "home": {
@@ -981,8 +981,8 @@
    "detail": "10/3 - 1:00 PM EDT",
    "venue": "Broadview Stadium",
    "broadcast": "ESPN+",
-   "spread": "WMU -14",
-   "overUnder": 46.5,
+   "spread": "WMU -12.5",
+   "overUnder": 45.5,
    "headline": null,
    "home": {
     "abbr": "BUFF",
@@ -1018,8 +1018,8 @@
    "detail": "10/3 - 2:00 PM EDT",
    "venue": "Scheumann Stadium",
    "broadcast": "ESPN+",
-   "spread": "TOL -20.5",
-   "overUnder": 52.5,
+   "spread": "TOL -21",
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "BALL",
@@ -1129,7 +1129,7 @@
    "detail": "10/3 - 3:30 PM EDT",
    "venue": "Neyland Stadium",
    "broadcast": "ESPN",
-   "spread": "TENN -7",
+   "spread": "TENN -6.5",
    "overUnder": 53.5,
    "headline": null,
    "home": {
@@ -1167,7 +1167,7 @@
    "venue": "Allegiant Stadium",
    "broadcast": "CBSSN",
    "spread": "UNLV -2.5",
-   "overUnder": 53.5,
+   "overUnder": 52.5,
    "headline": null,
    "home": {
     "abbr": "UNLV",
@@ -1203,8 +1203,8 @@
    "detail": "10/3 - 3:30 PM EDT",
    "venue": "Carter-Finley Stadium",
    "broadcast": "ACC Network",
-   "spread": "LOU -3.5",
-   "overUnder": 58.5,
+   "spread": "LOU -3",
+   "overUnder": 57.5,
    "headline": null,
    "home": {
     "abbr": "NCSU",
@@ -1240,7 +1240,7 @@
    "detail": "10/3 - 3:30 PM EDT",
    "venue": "Doak Campbell Stadium",
    "broadcast": "ESPN2",
-   "spread": "UVA -2.5",
+   "spread": "UVA -1.5",
    "overUnder": 51.5,
    "headline": null,
    "home": {
@@ -1278,7 +1278,7 @@
    "venue": "Protective Stadium",
    "broadcast": "ESPN+",
    "spread": "UAB -30.5",
-   "overUnder": 52.5,
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "UAB",
@@ -1314,7 +1314,7 @@
    "detail": "10/3 - 3:30 PM EDT",
    "venue": "Fargodome",
    "broadcast": "CW",
-   "spread": "NDSU -17.5",
+   "spread": "NDSU -16.5",
    "overUnder": 44.5,
    "headline": null,
    "home": {
@@ -1352,7 +1352,7 @@
    "venue": "Kelly/Shorts Stadium",
    "broadcast": "ESPN+",
    "spread": "CMU -6.5",
-   "overUnder": 46.5,
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "CMU",
@@ -1388,7 +1388,7 @@
    "detail": "10/3 - 3:30 PM EDT",
    "venue": "Warren McGuirk Alumni Stadium",
    "broadcast": "ESPN+",
-   "spread": "MASS -6",
+   "spread": "MASS -5.5",
    "overUnder": 48.5,
    "headline": null,
    "home": {
@@ -1462,8 +1462,8 @@
    "detail": "10/3 - 3:30 PM EDT",
    "venue": "Yager Stadium",
    "broadcast": "ESPN+",
-   "spread": "M-OH -13.5",
-   "overUnder": 43.5,
+   "spread": "M-OH -12.5",
+   "overUnder": 42.5,
    "headline": null,
    "home": {
     "abbr": "M-OH",
@@ -1537,7 +1537,7 @@
    "venue": "Bridgeforth Stadium",
    "broadcast": "ESPNU",
    "spread": "JMU -18.5",
-   "overUnder": 56.5,
+   "overUnder": 55.5,
    "headline": null,
    "home": {
     "abbr": "JMU",
@@ -1610,7 +1610,7 @@
    "detail": "10/3 - 4:00 PM EDT",
    "venue": "University Stadium (NM)",
    "broadcast": "MW+",
-   "spread": "UNM -22.5",
+   "spread": "UNM -23.5",
    "overUnder": 47.5,
    "headline": null,
    "home": {
@@ -1647,8 +1647,8 @@
    "detail": "10/3 - 4:15 PM EDT",
    "venue": "Williams-Brice Stadium",
    "broadcast": "SEC Network",
-   "spread": "SC -3",
-   "overUnder": 54.5,
+   "spread": "SC -2.5",
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "SC",
@@ -1684,7 +1684,7 @@
    "detail": "10/3 - 4:15 PM EDT",
    "venue": "Gies Memorial Stadium",
    "broadcast": "BTN",
-   "spread": "ILL -10",
+   "spread": "ILL -10.5",
    "overUnder": 62.5,
    "headline": null,
    "home": {
@@ -1795,8 +1795,8 @@
    "detail": "10/3 - 7:00 PM EDT",
    "venue": "Amon G. Carter Stadium",
    "broadcast": "ESPN",
-   "spread": "BYU -6.5",
-   "overUnder": 47.5,
+   "spread": "BYU -6",
+   "overUnder": 48.5,
    "headline": null,
    "home": {
     "abbr": "TCU",
@@ -1906,7 +1906,7 @@
    "detail": "10/3 - 7:00 PM EDT",
    "venue": "Brooks Stadium (SC)",
    "broadcast": "ESPN+",
-   "spread": "GASO -1.5",
+   "spread": "GASO -2.5",
    "overUnder": 53.5,
    "headline": null,
    "home": {
@@ -1980,7 +1980,7 @@
    "detail": "10/3 - 7:30 PM EDT",
    "venue": "Memorial Stadium (Clemson, SC)",
    "broadcast": "ABC",
-   "spread": "MIA -16.5",
+   "spread": "MIA -15.5",
    "overUnder": 47.5,
    "headline": null,
    "home": {
@@ -2018,7 +2018,7 @@
    "venue": "Folsom Field",
    "broadcast": "FOX",
    "spread": "TTU -13.5",
-   "overUnder": 50.5,
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "COLO",
@@ -2091,7 +2091,7 @@
    "detail": "10/3 - 7:30 PM EDT",
    "venue": "Albertsons Stadium",
    "broadcast": "CBSSN",
-   "spread": "BOIS -18.5",
+   "spread": "BOIS -19.5",
    "overUnder": 51.5,
    "headline": null,
    "home": {
@@ -2128,7 +2128,7 @@
    "detail": "10/3 - 7:30 PM EDT",
    "venue": "Raymond James Stadium",
    "broadcast": "ESPNU",
-   "spread": "USF -6.5",
+   "spread": "USF -6",
    "overUnder": 48.5,
    "headline": null,
    "home": {
@@ -2166,7 +2166,7 @@
    "venue": "Joe Aillet Stadium",
    "broadcast": "ESPN+",
    "spread": "ARMY -1.5",
-   "overUnder": 47.5,
+   "overUnder": 46.5,
    "headline": null,
    "home": {
     "abbr": "LT",
@@ -2277,7 +2277,7 @@
    "venue": "Our Lady of Lourdes Stadium",
    "broadcast": "ESPN+",
    "spread": "UL -6.5",
-   "overUnder": 47.5,
+   "overUnder": 48.5,
    "headline": null,
    "home": {
     "abbr": "UL",
@@ -2351,7 +2351,7 @@
    "venue": "Mountain America Stadium",
    "broadcast": "ESPN",
    "spread": "ASU -3.5",
-   "overUnder": 49.5,
+   "overUnder": 48.5,
    "headline": null,
    "home": {
     "abbr": "ASU",
@@ -2387,7 +2387,7 @@
    "detail": "10/3 - 10:30 PM EDT",
    "venue": "Snapdragon Stadium",
    "broadcast": "CW",
-   "spread": "TXST -8.5",
+   "spread": "TXST -9.5",
    "overUnder": 57.5,
    "headline": null,
    "home": {
@@ -2425,7 +2425,7 @@
    "venue": "Casino Del Sol Stadium",
    "broadcast": "FOX",
    "spread": "ARIZ -6.5",
-   "overUnder": 56.5,
+   "overUnder": 55.5,
    "headline": null,
    "home": {
     "abbr": "ARIZ",
