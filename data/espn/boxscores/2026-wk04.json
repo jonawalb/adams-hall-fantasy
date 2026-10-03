@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 4,
- "archivedAt": "2026-10-02T11:43:07.469Z",
+ "archivedAt": "2026-10-03T10:56:36.263Z",
  "matchups": [
   {
    "id": 16,
@@ -30,14 +30,14 @@
       "playerId": 4595348,
       "name": "Malik Nabers",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0
      },
      {
       "playerId": 4241478,
       "name": "DeVonta Smith",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -90,13 +90,6 @@
       "points": 0
      },
      {
-      "playerId": 3116165,
-      "name": "Chris Godwin Jr.",
-      "pos": "WR",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 3929645,
       "name": "Juwan Johnson",
       "pos": "TE",
@@ -107,13 +100,6 @@
       "playerId": 4696044,
       "name": "Kaelon Black",
       "pos": "RB",
-      "slot": "BE",
-      "points": 0
-     },
-     {
-      "playerId": 4360939,
-      "name": "Rashod Bateman",
-      "pos": "WR",
       "slot": "BE",
       "points": 0
      },
@@ -130,6 +116,20 @@
       "pos": "D/ST",
       "slot": "D/ST",
       "points": 8
+     },
+     {
+      "playerId": 3916433,
+      "name": "Jakobi Meyers",
+      "pos": "WR",
+      "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 4887558,
+      "name": "Emanuel Wilson",
+      "pos": "RB",
+      "slot": "BE",
+      "points": 0
      }
     ]
    },
@@ -276,13 +276,6 @@
       "points": 0
      },
      {
-      "playerId": 4362238,
-      "name": "Chase Brown",
-      "pos": "RB",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 4047646,
       "name": "A.J. Brown",
       "pos": "WR",
@@ -293,7 +286,7 @@
       "playerId": 4372016,
       "name": "Jaylen Waddle",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0
      },
      {
@@ -346,13 +339,6 @@
       "points": 0
      },
      {
-      "playerId": 4361050,
-      "name": "Isaiah Likely",
-      "pos": "TE",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 3917792,
       "name": "Daniel Jones",
       "pos": "QB",
@@ -370,7 +356,7 @@
       "playerId": 4569559,
       "name": "Devaughn Vele",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -385,6 +371,13 @@
       "name": "Rams D/ST",
       "pos": "D/ST",
       "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 4241416,
+      "name": "Chuba Hubbard",
+      "pos": "RB",
+      "slot": "RB",
       "points": 0
      }
     ]
@@ -528,7 +521,7 @@
       "playerId": 4262921,
       "name": "Justin Jefferson",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -549,7 +542,7 @@
       "playerId": 4723086,
       "name": "Colston Loveland",
       "pos": "TE",
-      "slot": "TE",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -577,7 +570,7 @@
       "playerId": 4701936,
       "name": "Matthew Golden",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "WR",
       "points": 0
      },
      {
@@ -605,7 +598,7 @@
       "playerId": 4036133,
       "name": "T.J. Hockenson",
       "pos": "TE",
-      "slot": "BE",
+      "slot": "TE",
       "points": 0
      },
      {
@@ -626,7 +619,7 @@
       "playerId": 4428850,
       "name": "Dontayvion Wicks",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -830,20 +823,6 @@
       "points": 0
      },
      {
-      "playerId": 4241416,
-      "name": "Chuba Hubbard",
-      "pos": "RB",
-      "slot": "RB",
-      "points": 0
-     },
-     {
-      "playerId": 4429096,
-      "name": "Blake Corum",
-      "pos": "RB",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 4686361,
       "name": "Cam Little",
       "pos": "K",
@@ -896,6 +875,20 @@
       "playerId": 3116406,
       "name": "Tyreek Hill",
       "pos": "WR",
+      "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 4362238,
+      "name": "Chase Brown",
+      "pos": "RB",
+      "slot": "RB",
+      "points": 0
+     },
+     {
+      "playerId": 4361050,
+      "name": "Isaiah Likely",
+      "pos": "TE",
       "slot": "BE",
       "points": 0
      }
@@ -1054,7 +1047,7 @@
       "playerId": 4258173,
       "name": "Nico Collins",
       "pos": "WR",
-      "slot": "IR",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -1089,7 +1082,7 @@
       "playerId": 4685512,
       "name": "Jadarian Price",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "IR",
       "points": 0
      },
      {
