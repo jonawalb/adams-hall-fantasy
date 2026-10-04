@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 4,
- "archivedAt": "2026-10-03T10:56:36.263Z",
+ "archivedAt": "2026-10-04T11:38:53.635Z",
  "matchups": [
   {
    "id": 16,
@@ -378,6 +378,13 @@
       "name": "Chuba Hubbard",
       "pos": "RB",
       "slot": "RB",
+      "points": 0
+     },
+     {
+      "playerId": 3116385,
+      "name": "Joe Mixon",
+      "pos": "RB",
+      "slot": "BE",
       "points": 0
      }
     ]
