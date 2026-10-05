@@ -19062,5 +19062,71 @@
   "targetId": 4,
   "totalMessageCount": 2,
   "type": "ACTIVITY_TRANSACTIONS"
+ },
+ {
+  "author": "{DD52DE43-FADF-409D-809E-6E6707F0216F}",
+  "creationInfo": {
+   "clientAddress": null,
+   "date": 1791157644710,
+   "platform": "espn-fantasy-app-ios",
+   "source": "{DD52DE43-FADF-409D-809E-6E6707F0216F}"
+  },
+  "date": 1791157644710,
+  "dateEdited": 1791157644710,
+  "id": "5735d020-6f19-340d-8aa0-c455ea828492",
+  "isDeleted": false,
+  "isEdited": true,
+  "lastUpdateInfo": {
+   "clientAddress": null,
+   "date": 1791157644710,
+   "platform": "espn-fantasy-app-ios",
+   "source": "{DD52DE43-FADF-409D-809E-6E6707F0216F}"
+  },
+  "messages": [
+   {
+    "author": "{DD52DE43-FADF-409D-809E-6E6707F0216F}",
+    "content": "https://g.espncdn.com/lm-static/ffl/player-animations/2026/25_4361741_3040151_gen_1.mp4?buildNumber=undefined&version=44",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1791157644710,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{DD52DE43-FADF-409D-809E-6E6707F0216F}"
+    },
+    "date": 1791157644710,
+    "for": 2,
+    "id": "ef2e6fe3-27a9-41ec-9b07-90f5cea76773",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 279,
+    "topicId": "5735d020-6f19-340d-8aa0-c455ea828492"
+   },
+   {
+    "author": "{DD52DE43-FADF-409D-809E-6E6707F0216F}",
+    "content": "George Kittle 56 yard touchdown pass from Brock Purdy",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1791157644710,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{DD52DE43-FADF-409D-809E-6E6707F0216F}"
+    },
+    "date": 1791157644710,
+    "for": 2,
+    "id": "81ef81b3-4749-43f6-97dd-13f4a2a1f870",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 278,
+    "subject": "+18.8 Points",
+    "topicId": "5735d020-6f19-340d-8aa0-c455ea828492"
+   }
+  ],
+  "subject": "DM",
+  "totalMessageCount": 2,
+  "type": "CHAT_DIRECT_MESSAGE",
+  "viewableBy": [
+   "{671FD9E7-237D-4D4E-9B4E-F8873DE729CA}",
+   "{DD52DE43-FADF-409D-809E-6E6707F0216F}"
+  ]
  }
 ]

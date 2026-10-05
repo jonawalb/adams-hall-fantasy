@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 4,
- "archivedAt": "2026-10-04T22:35:49.918Z",
+ "archivedAt": "2026-10-05T01:22:19.138Z",
  "matchups": [
   {
    "id": 16,
@@ -101,7 +101,7 @@
       "name": "Kaelon Black",
       "pos": "RB",
       "slot": "BE",
-      "points": 1
+      "points": 1.3
      },
      {
       "playerId": 4360234,
@@ -129,7 +129,7 @@
       "name": "Emanuel Wilson",
       "pos": "RB",
       "slot": "BE",
-      "points": 22.1
+      "points": 27
      }
     ]
    },
@@ -149,7 +149,7 @@
       "name": "Kenneth Walker III",
       "pos": "RB",
       "slot": "FLEX",
-      "points": 8.3
+      "points": 30.9
      },
      {
       "playerId": 4426502,
@@ -219,14 +219,14 @@
       "name": "Jason Myers",
       "pos": "K",
       "slot": "K",
-      "points": 3
+      "points": 6
      },
      {
       "playerId": -16026,
       "name": "Seahawks D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
-      "points": 15
+      "points": 12
      },
      {
       "playerId": 4870653,
@@ -287,7 +287,7 @@
       "name": "Jaylen Waddle",
       "pos": "WR",
       "slot": "BE",
-      "points": 4.7
+      "points": 14.5
      },
      {
       "playerId": 4882093,
@@ -350,7 +350,7 @@
       "name": "Chiefs D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
-      "points": 5
+      "points": 1
      },
      {
       "playerId": 4569559,
@@ -378,7 +378,7 @@
       "name": "Chuba Hubbard",
       "pos": "RB",
       "slot": "RB",
-      "points": 0
+      "points": 9.899999999999999
      },
      {
       "playerId": 3116385,
@@ -454,7 +454,7 @@
       "name": "Broncos D/ST",
       "pos": "D/ST",
       "slot": "BE",
-      "points": 7
+      "points": 1
      },
      {
       "playerId": 4371733,
@@ -468,7 +468,7 @@
       "name": "Justin Herbert",
       "pos": "QB",
       "slot": "BE",
-      "points": 2.24
+      "points": 9.56
      },
      {
       "playerId": 2971573,
@@ -496,7 +496,7 @@
       "name": "Sam Darnold",
       "pos": "QB",
       "slot": "QB",
-      "points": 13
+      "points": 13.32
      },
      {
       "playerId": 2576925,
@@ -585,14 +585,14 @@
       "name": "J.K. Dobbins",
       "pos": "RB",
       "slot": "BE",
-      "points": 3.1
+      "points": 7.2
      },
      {
       "playerId": 4362081,
       "name": "Cameron Dicker",
       "pos": "K",
       "slot": "K",
-      "points": 7
+      "points": 12
      },
      {
       "playerId": -16023,
@@ -606,14 +606,14 @@
       "name": "T.J. Hockenson",
       "pos": "TE",
       "slot": "TE",
-      "points": 18.4
+      "points": 24.9
      },
      {
       "playerId": 3139477,
       "name": "Patrick Mahomes",
       "pos": "QB",
       "slot": "QB",
-      "points": 10.34
+      "points": 17
      },
      {
       "playerId": -16017,
@@ -654,28 +654,28 @@
       "name": "Jahmyr Gibbs",
       "pos": "RB",
       "slot": "RB",
-      "points": 0
+      "points": 4.1000000000000005
      },
      {
       "playerId": 4685382,
       "name": "Omarion Hampton",
       "pos": "RB",
       "slot": "RB",
-      "points": 4
+      "points": 13.3
      },
      {
       "playerId": 4432665,
       "name": "Brock Bowers",
       "pos": "TE",
       "slot": "TE",
-      "points": 8.5
+      "points": 20.6
      },
      {
       "playerId": 4685472,
       "name": "Tetairoa McMillan",
       "pos": "WR",
       "slot": "WR",
-      "points": 0
+      "points": 23
      },
      {
       "playerId": 4612826,
@@ -696,14 +696,14 @@
       "name": "Jameson Williams",
       "pos": "WR",
       "slot": "BE",
-      "points": 0
+      "points": 1.6
      },
      {
       "playerId": 4426338,
       "name": "Bo Nix",
       "pos": "QB",
       "slot": "BE",
-      "points": 5.16
+      "points": 13.56
      },
      {
       "playerId": 4248528,
@@ -745,7 +745,7 @@
       "name": "Jared Goff",
       "pos": "QB",
       "slot": "QB",
-      "points": 0
+      "points": 1.96
      },
      {
       "playerId": 4571557,
@@ -759,7 +759,7 @@
       "name": "Keaton Mitchell",
       "pos": "RB",
       "slot": "BE",
-      "points": 4.4
+      "points": 11.3
      },
      {
       "playerId": -16009,
@@ -827,7 +827,7 @@
       "name": "Mike Evans",
       "pos": "WR",
       "slot": "BE",
-      "points": 8
+      "points": 12.600000000000001
      },
      {
       "playerId": 4686361,
@@ -841,7 +841,7 @@
       "name": "49ers D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
-      "points": 9
+      "points": 5
      },
      {
       "playerId": 4366031,
@@ -862,7 +862,7 @@
       "name": "Bryce Young",
       "pos": "QB",
       "slot": "QB",
-      "points": 0
+      "points": 10.34
      },
      {
       "playerId": 3117256,
@@ -876,7 +876,7 @@
       "name": "Ollie Gordon II",
       "pos": "RB",
       "slot": "BE",
-      "points": 17.8
+      "points": 18
      },
      {
       "playerId": 3116406,
@@ -910,7 +910,7 @@
       "name": "Christian McCaffrey",
       "pos": "RB",
       "slot": "RB",
-      "points": 6.300000000000001
+      "points": 16
      },
      {
       "playerId": 3043078,
@@ -980,7 +980,7 @@
       "name": "RJ Harvey",
       "pos": "RB",
       "slot": "BE",
-      "points": 9.6
+      "points": 19.3
      },
      {
       "playerId": 3054850,
@@ -994,7 +994,7 @@
       "name": "Harrison Butker",
       "pos": "K",
       "slot": "K",
-      "points": 4
+      "points": 6
      },
      {
       "playerId": 5083315,
@@ -1048,7 +1048,7 @@
       "name": "Ashton Jeanty",
       "pos": "RB",
       "slot": "RB",
-      "points": 9.9
+      "points": 18.6
      },
      {
       "playerId": 4258173,
@@ -1111,7 +1111,7 @@
       "name": "George Kittle",
       "pos": "TE",
       "slot": "TE",
-      "points": 4.4
+      "points": 17
      },
      {
       "playerId": 4575131,
@@ -1132,7 +1132,7 @@
       "name": "Brock Purdy",
       "pos": "QB",
       "slot": "QB",
-      "points": 11.02
+      "points": 19.62
      },
      {
       "playerId": 4832800,
@@ -1166,7 +1166,7 @@
       "name": "Amon-Ra St. Brown",
       "pos": "WR",
       "slot": "WR",
-      "points": 0
+      "points": 4.300000000000001
      },
      {
       "playerId": 3929630,
@@ -1201,7 +1201,7 @@
       "name": "Sam LaPorta",
       "pos": "TE",
       "slot": "BE",
-      "points": 0
+      "points": 4.6
      },
      {
       "playerId": 3915511,
@@ -1222,7 +1222,7 @@
       "name": "Aaron Jones Sr.",
       "pos": "RB",
       "slot": "RB",
-      "points": 13.6
+      "points": 16.8
      },
      {
       "playerId": -16034,
@@ -1243,28 +1243,28 @@
       "name": "Jordan Addison",
       "pos": "WR",
       "slot": "BE",
-      "points": 5.4
+      "points": 9.1
      },
      {
       "playerId": 3126486,
       "name": "Deebo Samuel Sr.",
       "pos": "WR",
       "slot": "BE",
-      "points": 16.2
+      "points": 18
      },
      {
       "playerId": 4567104,
       "name": "Will Reichard",
       "pos": "K",
       "slot": "BE",
-      "points": 16
+      "points": 19
      },
      {
       "playerId": 4034949,
       "name": "Eddy Pineiro",
       "pos": "K",
       "slot": "K",
-      "points": 3
+      "points": 5
      },
      {
       "playerId": -16033,
