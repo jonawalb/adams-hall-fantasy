@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 4,
- "archivedAt": "2026-10-05T01:22:19.138Z",
+ "archivedAt": "2026-10-05T08:43:10.300Z",
  "matchups": [
   {
    "id": 16,
@@ -378,7 +378,7 @@
       "name": "Chuba Hubbard",
       "pos": "RB",
       "slot": "RB",
-      "points": 9.899999999999999
+      "points": 25.900000000000002
      },
      {
       "playerId": 3116385,
@@ -503,7 +503,7 @@
       "name": "Darren Waller",
       "pos": "TE",
       "slot": "TE",
-      "points": 0
+      "points": 6.6
      },
      {
       "playerId": -16003,
@@ -654,7 +654,7 @@
       "name": "Jahmyr Gibbs",
       "pos": "RB",
       "slot": "RB",
-      "points": 4.1000000000000005
+      "points": 17.700000000000003
      },
      {
       "playerId": 4685382,
@@ -675,7 +675,7 @@
       "name": "Tetairoa McMillan",
       "pos": "WR",
       "slot": "WR",
-      "points": 23
+      "points": 45.2
      },
      {
       "playerId": 4612826,
@@ -696,7 +696,7 @@
       "name": "Jameson Williams",
       "pos": "WR",
       "slot": "BE",
-      "points": 1.6
+      "points": 16.200000000000003
      },
      {
       "playerId": 4426338,
@@ -745,7 +745,7 @@
       "name": "Jared Goff",
       "pos": "QB",
       "slot": "QB",
-      "points": 1.96
+      "points": 20.48
      },
      {
       "playerId": 4571557,
@@ -862,7 +862,7 @@
       "name": "Bryce Young",
       "pos": "QB",
       "slot": "QB",
-      "points": 10.34
+      "points": 21.46
      },
      {
       "playerId": 3117256,
@@ -1166,7 +1166,7 @@
       "name": "Amon-Ra St. Brown",
       "pos": "WR",
       "slot": "WR",
-      "points": 4.300000000000001
+      "points": 15.5
      },
      {
       "playerId": 3929630,
@@ -1201,7 +1201,7 @@
       "name": "Sam LaPorta",
       "pos": "TE",
       "slot": "BE",
-      "points": 4.6
+      "points": 22.4
      },
      {
       "playerId": 3915511,
