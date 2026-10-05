@@ -2063,17 +2063,17 @@
       "score": 0
      },
      "odds": {
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "details": "NO -1.5",
       "overUnder": 47.5,
       "moneyline": {
-       "home": "-125",
-       "away": "+105"
+       "home": "-120",
+       "away": "+100"
       }
      }
     }
    ]
   }
  },
- "fetchedAt": "2026-10-05T08:43:07.648Z"
+ "fetchedAt": "2026-10-05T13:17:55.076Z"
 }

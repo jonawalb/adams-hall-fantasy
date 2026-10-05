@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 6,
  "poll": "AP Top 25",
- "fetchedAt": "2026-10-05T08:43:08.076Z",
+ "fetchedAt": "2026-10-05T13:17:55.685Z",
  "rankings": [
   {
    "rank": 1,
@@ -649,7 +649,7 @@
    "venue": "Maverik Stadium",
    "broadcast": "CW",
    "spread": "USU -4",
-   "overUnder": 42.5,
+   "overUnder": 43.5,
    "headline": null,
    "home": {
     "abbr": "USU",
@@ -870,8 +870,8 @@
    "detail": "10/10 - 12:00 PM EDT",
    "venue": "Acrisure Stadium",
    "broadcast": "ESPN",
-   "spread": "PITT -4",
-   "overUnder": 46.5,
+   "spread": "PITT -4.5",
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "PITT",
@@ -981,7 +981,7 @@
    "detail": "10/10 - 12:00 PM EDT",
    "venue": "Michie Stadium",
    "broadcast": "CBSSN",
-   "spread": "ARMY -3.5",
+   "spread": "ARMY -3",
    "overUnder": 46.5,
    "headline": null,
    "home": {
@@ -1203,7 +1203,7 @@
    "detail": "10/10 - 3:30 PM EDT",
    "venue": "Cotton Bowl",
    "broadcast": "ABC",
-   "spread": "TEX -7.5",
+   "spread": "TEX -8.5",
    "overUnder": 39.5,
    "headline": null,
    "home": {
@@ -1721,7 +1721,7 @@
    "detail": "10/10 - 3:45 PM EDT",
    "venue": "Lincoln Financial Field",
    "broadcast": "ESPNU",
-   "spread": "TEM -3.5",
+   "spread": "TEM -4.5",
    "overUnder": 54.5,
    "headline": null,
    "home": {
@@ -2017,7 +2017,7 @@
    "detail": "10/10 - 7:00 PM EDT",
    "venue": "Allegiant Stadium",
    "broadcast": "CW",
-   "spread": "NDSU -3.5",
+   "spread": "NDSU -3",
    "overUnder": 49.5,
    "headline": null,
    "home": {
@@ -2350,7 +2350,7 @@
    "detail": "10/10 - 9:30 PM EDT",
    "venue": "Mountain America Stadium",
    "broadcast": "FS1",
-   "spread": "ASU -21.5",
+   "spread": "ASU -21",
    "overUnder": 51.5,
    "headline": null,
    "home": {
