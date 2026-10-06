@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 5,
- "archivedAt": "2026-10-06T11:00:12.625Z",
+ "archivedAt": "2026-10-06T12:34:50.411Z",
  "matchups": [
   {
    "id": 21,
@@ -30,7 +30,7 @@
       "playerId": 4372016,
       "name": "Jaylen Waddle",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0
      },
      {
@@ -65,14 +65,14 @@
       "playerId": 4608686,
       "name": "Kyle Monangai",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "RB",
       "points": 0
      },
      {
       "playerId": 4688813,
       "name": "Josh Downs",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -93,7 +93,7 @@
       "playerId": -16012,
       "name": "Chiefs D/ST",
       "pos": "D/ST",
-      "slot": "D/ST",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -114,14 +114,14 @@
       "playerId": -16014,
       "name": "Rams D/ST",
       "pos": "D/ST",
-      "slot": "BE",
+      "slot": "D/ST",
       "points": 0
      },
      {
       "playerId": 4241416,
       "name": "Chuba Hubbard",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -141,7 +141,7 @@
       "playerId": 4262921,
       "name": "Justin Jefferson",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0
      },
      {
@@ -169,7 +169,7 @@
       "playerId": 4040715,
       "name": "Jalen Hurts",
       "pos": "QB",
-      "slot": "BE",
+      "slot": "QB",
       "points": 0
      },
      {
@@ -190,14 +190,14 @@
       "playerId": 4701936,
       "name": "Matthew Golden",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "FLEX",
       "points": 0
      },
      {
       "playerId": 4241985,
       "name": "J.K. Dobbins",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "RB",
       "points": 0
      },
      {
@@ -225,7 +225,7 @@
       "playerId": 3139477,
       "name": "Patrick Mahomes",
       "pos": "QB",
-      "slot": "QB",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -239,14 +239,14 @@
       "playerId": 4428850,
       "name": "Dontayvion Wicks",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0
      },
      {
       "playerId": 4685247,
       "name": "Braelon Allen",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -937,28 +937,28 @@
       "playerId": 3121422,
       "name": "Terry McLaurin",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
       "playerId": 3915416,
       "name": "DJ Moore",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0
      },
      {
       "playerId": 4047650,
       "name": "DK Metcalf",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0
      },
      {
       "playerId": 3916148,
       "name": "Tony Pollard",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0
      },
      {

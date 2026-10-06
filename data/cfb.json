@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 6,
  "poll": "AP Top 25",
- "fetchedAt": "2026-10-06T11:00:07.593Z",
+ "fetchedAt": "2026-10-06T12:34:45.651Z",
  "rankings": [
   {
    "rank": 1,
@@ -1425,7 +1425,7 @@
    "detail": "10/10 - 3:30 PM EDT",
    "venue": "California Memorial Stadium",
    "broadcast": "ACC Network",
-   "spread": "VT -8.5",
+   "spread": "VT -9.5",
    "overUnder": 53.5,
    "headline": null,
    "home": {
@@ -1981,7 +1981,7 @@
    "venue": "Sun Bowl",
    "broadcast": "FS1",
    "spread": "NEV -8.5",
-   "overUnder": 48.5,
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "UTEP",
