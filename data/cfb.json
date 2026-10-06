@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 6,
  "poll": "AP Top 25",
- "fetchedAt": "2026-10-05T13:17:55.685Z",
+ "fetchedAt": "2026-10-06T11:00:07.593Z",
  "rankings": [
   {
    "rank": 1,
@@ -316,7 +316,7 @@
    "venue": "Veterans Memorial Stadium (AL)",
    "broadcast": "ESPN2",
    "spread": "TROY -10.5",
-   "overUnder": 49.5,
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "TROY",
@@ -389,7 +389,7 @@
    "detail": "10/7 - 7:30 PM EDT",
    "venue": "Pitbull Stadium",
    "broadcast": "ESPN2",
-   "spread": "FIU -5.5",
+   "spread": "FIU -6",
    "overUnder": 46.5,
    "headline": null,
    "home": {
@@ -464,7 +464,7 @@
    "venue": "Houchens Industries-L.T. Smith Stadium",
    "broadcast": "CBSSN",
    "spread": "WKU -2.5",
-   "overUnder": 55.5,
+   "overUnder": 56.5,
    "headline": null,
    "home": {
     "abbr": "WKU",
@@ -501,7 +501,7 @@
    "venue": "Alamodome",
    "broadcast": "ESPN",
    "spread": "UTSA -7",
-   "overUnder": 52.5,
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "UTSA",
@@ -574,8 +574,8 @@
    "detail": "10/9 - 7:00 PM EDT",
    "venue": "L&N Federal Credit Union Stadium",
    "broadcast": "ESPN",
-   "spread": "LOU -4.5",
-   "overUnder": 59.5,
+   "spread": "LOU -3.5",
+   "overUnder": 58.5,
    "headline": null,
    "home": {
     "abbr": "LOU",
@@ -611,7 +611,7 @@
    "detail": "10/9 - 9:00 PM EDT",
    "venue": "Husky Stadium",
    "broadcast": null,
-   "spread": "WASH -2.5",
+   "spread": "WASH -3",
    "overUnder": 41.5,
    "headline": null,
    "home": {
@@ -648,7 +648,7 @@
    "detail": "10/9 - 9:00 PM EDT",
    "venue": "Maverik Stadium",
    "broadcast": "CW",
-   "spread": "USU -4",
+   "spread": "USU -5.5",
    "overUnder": 43.5,
    "headline": null,
    "home": {
@@ -685,7 +685,7 @@
    "detail": "10/9 - 9:00 PM EDT",
    "venue": "CEFCU Stadium",
    "broadcast": "CBSSN",
-   "spread": "SJSU -7",
+   "spread": "SJSU -6.5",
    "overUnder": 43.5,
    "headline": null,
    "home": {
@@ -723,7 +723,7 @@
    "venue": "LaVell Edwards Stadium",
    "broadcast": "ESPN",
    "spread": "BYU -10.5",
-   "overUnder": 48.5,
+   "overUnder": 46.5,
    "headline": null,
    "home": {
     "abbr": "BYU",
@@ -758,9 +758,9 @@
    "completed": false,
    "detail": "10/10 - 12:00 PM EDT",
    "venue": "Memorial Stadium (Lincoln, NE)",
-   "broadcast": "FOX",
+   "broadcast": "Fox",
    "spread": "IU -7",
-   "overUnder": 52.5,
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "NEB",
@@ -833,8 +833,8 @@
    "detail": "10/10 - 12:00 PM EDT",
    "venue": "Boone Pickens Stadium",
    "broadcast": "ESPN2",
-   "spread": "OKST -10",
-   "overUnder": 53.5,
+   "spread": "OKST -9.5",
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "OKST",
@@ -870,7 +870,7 @@
    "detail": "10/10 - 12:00 PM EDT",
    "venue": "Acrisure Stadium",
    "broadcast": "ESPN",
-   "spread": "PITT -4.5",
+   "spread": "PITT -4",
    "overUnder": 47.5,
    "headline": null,
    "home": {
@@ -907,8 +907,8 @@
    "detail": "10/10 - 12:00 PM EDT",
    "venue": "Milan Puskar Stadium",
    "broadcast": "TNT",
-   "spread": "ARIZ -3",
-   "overUnder": 60.5,
+   "spread": "ARIZ -3.5",
+   "overUnder": 61.5,
    "headline": null,
    "home": {
     "abbr": "WVU",
@@ -944,8 +944,8 @@
    "detail": "10/10 - 12:00 PM EDT",
    "venue": "Carter-Finley Stadium",
    "broadcast": "CW",
-   "spread": "WAKE -3.5",
-   "overUnder": 60.5,
+   "spread": "WAKE -4",
+   "overUnder": 59.5,
    "headline": null,
    "home": {
     "abbr": "NCSU",
@@ -982,7 +982,7 @@
    "venue": "Michie Stadium",
    "broadcast": "CBSSN",
    "spread": "ARMY -3",
-   "overUnder": 46.5,
+   "overUnder": 48.5,
    "headline": null,
    "home": {
     "abbr": "ARMY",
@@ -1018,8 +1018,8 @@
    "detail": "10/10 - 12:00 PM EDT",
    "venue": "Doyt L. Perry Stadium",
    "broadcast": "ESPN+",
-   "spread": "BGSU -7.5",
-   "overUnder": 42.5,
+   "spread": "BGSU -7",
+   "overUnder": 44.5,
    "headline": null,
    "home": {
     "abbr": "BGSU",
@@ -1092,7 +1092,7 @@
    "detail": "10/10 - 12:45 PM EDT",
    "venue": "Ben Hill Griffin Stadium",
    "broadcast": "SEC Network",
-   "spread": "FLA -14",
+   "spread": "FLA -12.5",
    "overUnder": 62.5,
    "headline": null,
    "home": {
@@ -1129,7 +1129,7 @@
    "detail": "10/10 - 1:00 PM EDT",
    "venue": "Kidd Brewer Stadium",
    "broadcast": "ESPN+",
-   "spread": "APP -10",
+   "spread": "APP -9.5",
    "overUnder": 50.5,
    "headline": null,
    "home": {
@@ -1167,7 +1167,7 @@
    "venue": "Warren McGuirk Alumni Stadium",
    "broadcast": "ESPN+",
    "spread": "M-OH -2.5",
-   "overUnder": 47.5,
+   "overUnder": 46.5,
    "headline": null,
    "home": {
     "abbr": "MASS",
@@ -1278,7 +1278,7 @@
    "venue": "FirstBank Stadium",
    "broadcast": "ESPN",
    "spread": "MISS -10",
-   "overUnder": 59.5,
+   "overUnder": 58.5,
    "headline": null,
    "home": {
     "abbr": "VAN",
@@ -1350,7 +1350,7 @@
    "completed": false,
    "detail": "10/10 - 3:30 PM EDT",
    "venue": "Bill Snyder Family Stadium",
-   "broadcast": "FOX",
+   "broadcast": "Fox",
    "spread": "KSU -2.5",
    "overUnder": 55.5,
    "headline": null,
@@ -1425,7 +1425,7 @@
    "detail": "10/10 - 3:30 PM EDT",
    "venue": "California Memorial Stadium",
    "broadcast": "ACC Network",
-   "spread": "VT -9.5",
+   "spread": "VT -8.5",
    "overUnder": 53.5,
    "headline": null,
    "home": {
@@ -1462,7 +1462,7 @@
    "detail": "10/10 - 3:30 PM EDT",
    "venue": "Spartan Stadium",
    "broadcast": "FS1",
-   "spread": "ILL -3.5",
+   "spread": "ILL -2.5",
    "overUnder": 49.5,
    "headline": null,
    "home": {
@@ -1499,8 +1499,8 @@
    "detail": "10/10 - 3:30 PM EDT",
    "venue": "DATCU Stadium",
    "broadcast": "ESPN+",
-   "spread": "UNT -27.5",
-   "overUnder": 59.5,
+   "spread": "UNT -28.5",
+   "overUnder": 57.5,
    "headline": null,
    "home": {
     "abbr": "UNT",
@@ -1537,7 +1537,7 @@
    "venue": "Navy-Marine Corps Memorial Stadium",
    "broadcast": "CBSSN",
    "spread": "NAVY -2.5",
-   "overUnder": 49.5,
+   "overUnder": 48.5,
    "headline": null,
    "home": {
     "abbr": "NAVY",
@@ -1573,8 +1573,8 @@
    "detail": "10/10 - 3:30 PM EDT",
    "venue": "InfoCision Stadium",
    "broadcast": "ESPN+",
-   "spread": "EMU -6.5",
-   "overUnder": 50.5,
+   "spread": "EMU -7",
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "AKR",
@@ -1610,7 +1610,7 @@
    "detail": "10/10 - 3:30 PM EDT",
    "venue": "Glass Bowl",
    "broadcast": "ESPN+",
-   "spread": "TOL -19.5",
+   "spread": "TOL -20.5",
    "overUnder": 54.5,
    "headline": null,
    "home": {
@@ -1647,7 +1647,7 @@
    "detail": "10/10 - 3:30 PM EDT",
    "venue": "Peden Stadium",
    "broadcast": "ESPN+",
-   "spread": "OHIO -3.5",
+   "spread": "OHIO -3",
    "overUnder": 46.5,
    "headline": null,
    "home": {
@@ -1721,7 +1721,7 @@
    "detail": "10/10 - 3:45 PM EDT",
    "venue": "Lincoln Financial Field",
    "broadcast": "ESPNU",
-   "spread": "TEM -4.5",
+   "spread": "TEM -3.5",
    "overUnder": 54.5,
    "headline": null,
    "home": {
@@ -1759,7 +1759,7 @@
    "venue": "Dowdy-Ficklen Stadium",
    "broadcast": "ESPN+",
    "spread": "ECU -10",
-   "overUnder": 49.5,
+   "overUnder": 48.5,
    "headline": null,
    "home": {
     "abbr": "ECU",
@@ -1833,7 +1833,7 @@
    "venue": "Donald W. Reynolds Razorback Stadium",
    "broadcast": "SEC Network",
    "spread": "TENN -13.5",
-   "overUnder": 50.5,
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "ARK",
@@ -1870,7 +1870,7 @@
    "venue": "Reser Stadium",
    "broadcast": "USA Net",
    "spread": "ORST -14",
-   "overUnder": 56.5,
+   "overUnder": 55.5,
    "headline": null,
    "home": {
     "abbr": "ORST",
@@ -1906,7 +1906,7 @@
    "detail": "10/10 - 7:00 PM EDT",
    "venue": "Kroger Field",
    "broadcast": "ESPN",
-   "spread": "LSU -10",
+   "spread": "LSU -8.5",
    "overUnder": 54.5,
    "headline": null,
    "home": {
@@ -1943,8 +1943,8 @@
    "detail": "10/10 - 7:00 PM EDT",
    "venue": "Simmons Bank Liberty Stadium",
    "broadcast": "ESPN2",
-   "spread": "MEM -14.5",
-   "overUnder": 58.5,
+   "spread": "MEM -14",
+   "overUnder": 57.5,
    "headline": null,
    "home": {
     "abbr": "MEM",
@@ -1980,8 +1980,8 @@
    "detail": "10/10 - 7:00 PM EDT",
    "venue": "Sun Bowl",
    "broadcast": "FS1",
-   "spread": "NEV -9.5",
-   "overUnder": 49.5,
+   "spread": "NEV -8.5",
+   "overUnder": 48.5,
    "headline": null,
    "home": {
     "abbr": "UTEP",
@@ -2018,7 +2018,7 @@
    "venue": "Allegiant Stadium",
    "broadcast": "CW",
    "spread": "NDSU -3",
-   "overUnder": 49.5,
+   "overUnder": 48.5,
    "headline": null,
    "home": {
     "abbr": "UNLV",
@@ -2055,7 +2055,7 @@
    "venue": "Joan C. Edwards Stadium",
    "broadcast": "ESPN+",
    "spread": "MRSH -3",
-   "overUnder": 57.5,
+   "overUnder": 58.5,
    "headline": null,
    "home": {
     "abbr": "MRSH",
@@ -2202,8 +2202,8 @@
    "detail": "10/10 - 7:30 PM EDT",
    "venue": "Huskie Stadium",
    "broadcast": "CBSSN",
-   "spread": "AF -10",
-   "overUnder": 47.5,
+   "spread": "AF -7.5",
+   "overUnder": 46.5,
    "headline": null,
    "home": {
     "abbr": "NIU",
@@ -2239,8 +2239,8 @@
    "detail": "10/10 - 7:30 PM EDT",
    "venue": "Allen E. Paulson Stadium",
    "broadcast": "ESPNU",
-   "spread": "JMU -8.5",
-   "overUnder": 53.5,
+   "spread": "JMU -7.5",
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "GASO",
@@ -2276,7 +2276,7 @@
    "detail": "10/10 - 7:30 PM EDT",
    "venue": "Joe Aillet Stadium",
    "broadcast": "ESPN+",
-   "spread": "LT -2.5",
+   "spread": "LT -3",
    "overUnder": 48.5,
    "headline": null,
    "home": {
@@ -2314,7 +2314,7 @@
    "venue": "Ross-Ade Stadium",
    "broadcast": "BTN",
    "spread": "MINN -2.5",
-   "overUnder": 51.5,
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "PUR",
@@ -2350,7 +2350,7 @@
    "detail": "10/10 - 9:30 PM EDT",
    "venue": "Mountain America Stadium",
    "broadcast": "FS1",
-   "spread": "ASU -21",
+   "spread": "ASU -20.5",
    "overUnder": 51.5,
    "headline": null,
    "home": {
@@ -2424,7 +2424,7 @@
    "detail": "10/10 - 10:30 PM EDT",
    "venue": "Valley Children's Stadium",
    "broadcast": "CW",
-   "spread": "BOIS -5.5",
+   "spread": "BOIS -6.5",
    "overUnder": 48.5,
    "headline": null,
    "home": {
@@ -2610,7 +2610,7 @@
    "completed": true,
    "detail": "Final",
    "venue": "Ryan Field",
-   "broadcast": "FOX",
+   "broadcast": "Fox",
    "spread": null,
    "overUnder": null,
    "headline": "Caleb Komolafe stars as Northwestern rushes past Penn State 34-13 in 1st game at Ryan Field",
@@ -2980,7 +2980,7 @@
    "completed": true,
    "detail": "Final",
    "venue": "Huntington Bank Stadium",
-   "broadcast": "FOX",
+   "broadcast": "Fox",
    "spread": null,
    "overUnder": null,
    "headline": null,
@@ -4164,7 +4164,7 @@
    "completed": true,
    "detail": "Final",
    "venue": "Folsom Field",
-   "broadcast": "FOX",
+   "broadcast": "Fox",
    "spread": null,
    "overUnder": null,
    "headline": "No. 12 Texas Tech capitalizes on 4 interceptions in a 29-7 win over Colorado and moves to 5-0",
@@ -4571,7 +4571,7 @@
    "completed": true,
    "detail": "Final",
    "venue": "Casino Del Sol Stadium",
-   "broadcast": "FOX",
+   "broadcast": "Fox",
    "spread": null,
    "overUnder": null,
    "headline": null,

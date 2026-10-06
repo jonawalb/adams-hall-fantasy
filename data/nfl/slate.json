@@ -2044,23 +2044,23 @@
      "id": "401872979",
      "date": "2026-10-06T00:15Z",
      "name": "ATL @ NO",
-     "state": "pre",
-     "completed": false,
-     "winner": null,
-     "detail": "10/5 - 8:15 PM EDT",
+     "state": "post",
+     "completed": true,
+     "winner": "away",
+     "detail": "Final",
      "home": {
       "abbr": "NO",
       "name": "New Orleans Saints",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
       "color": "d3bc8d",
-      "score": 0
+      "score": 24
      },
      "away": {
       "abbr": "ATL",
       "name": "Atlanta Falcons",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
       "color": "a71930",
-      "score": 0
+      "score": 45
      },
      "odds": {
       "provider": "Draft Kings",
@@ -2075,5 +2075,5 @@
    ]
   }
  },
- "fetchedAt": "2026-10-05T13:17:55.076Z"
+ "fetchedAt": "2026-10-06T11:00:07.093Z"
 }
