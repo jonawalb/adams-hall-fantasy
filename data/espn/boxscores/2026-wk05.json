@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 5,
- "archivedAt": "2026-10-06T12:34:50.411Z",
+ "archivedAt": "2026-10-06T17:54:42.927Z",
  "matchups": [
   {
    "id": 21,
@@ -404,14 +404,14 @@
       "playerId": 4428331,
       "name": "Rashee Rice",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
       "playerId": 4430737,
       "name": "Kyren Williams",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -425,7 +425,7 @@
       "playerId": 4696981,
       "name": "Cam Skattebo",
       "pos": "RB",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -439,7 +439,7 @@
       "playerId": 16737,
       "name": "Mike Evans",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0
      },
      {
@@ -481,7 +481,7 @@
       "playerId": 3117256,
       "name": "Dalton Schultz",
       "pos": "TE",
-      "slot": "TE",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -509,7 +509,7 @@
       "playerId": 4361050,
       "name": "Isaiah Likely",
       "pos": "TE",
-      "slot": "BE",
+      "slot": "TE",
       "points": 0
      }
     ]
@@ -958,7 +958,7 @@
       "playerId": 3916148,
       "name": "Tony Pollard",
       "pos": "RB",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -979,7 +979,7 @@
       "playerId": 4568490,
       "name": "RJ Harvey",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -1061,14 +1061,14 @@
       "playerId": 4685472,
       "name": "Tetairoa McMillan",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
       "playerId": 4612826,
       "name": "Ladd McConkey",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "WR",
       "points": 0
      },
      {

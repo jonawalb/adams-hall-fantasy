@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 6,
  "poll": "AP Top 25",
- "fetchedAt": "2026-10-06T12:34:45.651Z",
+ "fetchedAt": "2026-10-06T17:54:36.060Z",
  "rankings": [
   {
    "rank": 1,
@@ -315,8 +315,8 @@
    "detail": "10/6 - 8:00 PM EDT",
    "venue": "Veterans Memorial Stadium (AL)",
    "broadcast": "ESPN2",
-   "spread": "TROY -10.5",
-   "overUnder": 50.5,
+   "spread": "TROY -10",
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "TROY",
@@ -353,7 +353,7 @@
    "venue": "Walens Family Field at Fifth Third Stadium",
    "broadcast": "CBSSN",
    "spread": "JXST -3",
-   "overUnder": 50.5,
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "KENN",
@@ -389,7 +389,7 @@
    "detail": "10/7 - 7:30 PM EDT",
    "venue": "Pitbull Stadium",
    "broadcast": "ESPN2",
-   "spread": "FIU -6",
+   "spread": "FIU -6.5",
    "overUnder": 46.5,
    "headline": null,
    "home": {
@@ -538,7 +538,7 @@
    "venue": "Centennial Bank Stadium",
    "broadcast": "ESPN2",
    "spread": "ARST -1.5",
-   "overUnder": 57.5,
+   "overUnder": 58.5,
    "headline": null,
    "home": {
     "abbr": "ARST",
@@ -575,7 +575,7 @@
    "venue": "L&N Federal Credit Union Stadium",
    "broadcast": "ESPN",
    "spread": "LOU -3.5",
-   "overUnder": 58.5,
+   "overUnder": 59.5,
    "headline": null,
    "home": {
     "abbr": "LOU",
@@ -685,7 +685,7 @@
    "detail": "10/9 - 9:00 PM EDT",
    "venue": "CEFCU Stadium",
    "broadcast": "CBSSN",
-   "spread": "SJSU -6.5",
+   "spread": "SJSU -6",
    "overUnder": 43.5,
    "headline": null,
    "home": {
@@ -759,7 +759,7 @@
    "detail": "10/10 - 12:00 PM EDT",
    "venue": "Memorial Stadium (Lincoln, NE)",
    "broadcast": "Fox",
-   "spread": "IU -7",
+   "spread": "IU -7.5",
    "overUnder": 51.5,
    "headline": null,
    "home": {
@@ -833,8 +833,8 @@
    "detail": "10/10 - 12:00 PM EDT",
    "venue": "Boone Pickens Stadium",
    "broadcast": "ESPN2",
-   "spread": "OKST -9.5",
-   "overUnder": 54.5,
+   "spread": "OKST -8.5",
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "OKST",
@@ -870,7 +870,7 @@
    "detail": "10/10 - 12:00 PM EDT",
    "venue": "Acrisure Stadium",
    "broadcast": "ESPN",
-   "spread": "PITT -4",
+   "spread": "PITT -3.5",
    "overUnder": 47.5,
    "headline": null,
    "home": {
@@ -907,7 +907,7 @@
    "detail": "10/10 - 12:00 PM EDT",
    "venue": "Milan Puskar Stadium",
    "broadcast": "TNT",
-   "spread": "ARIZ -3.5",
+   "spread": "ARIZ -3",
    "overUnder": 61.5,
    "headline": null,
    "home": {
@@ -1018,7 +1018,7 @@
    "detail": "10/10 - 12:00 PM EDT",
    "venue": "Doyt L. Perry Stadium",
    "broadcast": "ESPN+",
-   "spread": "BGSU -7",
+   "spread": "BGSU -7.5",
    "overUnder": 44.5,
    "headline": null,
    "home": {
@@ -1093,7 +1093,7 @@
    "venue": "Ben Hill Griffin Stadium",
    "broadcast": "SEC Network",
    "spread": "FLA -12.5",
-   "overUnder": 62.5,
+   "overUnder": 61.5,
    "headline": null,
    "home": {
     "abbr": "FLA",
@@ -1130,7 +1130,7 @@
    "venue": "Kidd Brewer Stadium",
    "broadcast": "ESPN+",
    "spread": "APP -9.5",
-   "overUnder": 50.5,
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "APP",
@@ -1240,8 +1240,8 @@
    "detail": "10/10 - 3:30 PM EDT",
    "venue": "Notre Dame Stadium",
    "broadcast": "NBC",
-   "spread": "ND -37.5",
-   "overUnder": 53.5,
+   "spread": "ND -38.5",
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "ND",
@@ -1315,7 +1315,7 @@
    "venue": "Autzen Stadium",
    "broadcast": "CBS",
    "spread": "ORE -11.5",
-   "overUnder": 59.5,
+   "overUnder": 58.5,
    "headline": null,
    "home": {
     "abbr": "ORE",
@@ -1389,7 +1389,7 @@
    "venue": "Bobby Dodd Stadium",
    "broadcast": "ESPN2",
    "spread": "DUKE -7",
-   "overUnder": 49.5,
+   "overUnder": 48.5,
    "headline": null,
    "home": {
     "abbr": "GT",
@@ -1463,7 +1463,7 @@
    "venue": "Spartan Stadium",
    "broadcast": "FS1",
    "spread": "ILL -2.5",
-   "overUnder": 49.5,
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "MSU",
@@ -1759,7 +1759,7 @@
    "venue": "Dowdy-Ficklen Stadium",
    "broadcast": "ESPN+",
    "spread": "ECU -10",
-   "overUnder": 48.5,
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "ECU",
@@ -1869,8 +1869,8 @@
    "detail": "10/10 - 6:00 PM EDT",
    "venue": "Reser Stadium",
    "broadcast": "USA Net",
-   "spread": "ORST -14",
-   "overUnder": 55.5,
+   "spread": "ORST -14.5",
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "ORST",
@@ -1907,7 +1907,7 @@
    "venue": "Kroger Field",
    "broadcast": "ESPN",
    "spread": "LSU -8.5",
-   "overUnder": 54.5,
+   "overUnder": 52.5,
    "headline": null,
    "home": {
     "abbr": "UK",
@@ -1980,7 +1980,7 @@
    "detail": "10/10 - 7:00 PM EDT",
    "venue": "Sun Bowl",
    "broadcast": "FS1",
-   "spread": "NEV -8.5",
+   "spread": "NEV -9.5",
    "overUnder": 49.5,
    "headline": null,
    "home": {
@@ -2018,7 +2018,7 @@
    "venue": "Allegiant Stadium",
    "broadcast": "CW",
    "spread": "NDSU -3",
-   "overUnder": 48.5,
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "UNLV",
@@ -2092,7 +2092,7 @@
    "venue": "Bryant-Denny Stadium",
    "broadcast": "ABC",
    "spread": "ALA -1.5",
-   "overUnder": 55.5,
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "ALA",
@@ -2166,7 +2166,7 @@
    "venue": "Scott Stadium",
    "broadcast": "ACC Network",
    "spread": "UVA -9.5",
-   "overUnder": 50.5,
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "UVA",
@@ -2277,7 +2277,7 @@
    "venue": "Joe Aillet Stadium",
    "broadcast": "ESPN+",
    "spread": "LT -3",
-   "overUnder": 48.5,
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "LT",
@@ -2351,7 +2351,7 @@
    "venue": "Mountain America Stadium",
    "broadcast": "FS1",
    "spread": "ASU -20.5",
-   "overUnder": 51.5,
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "ASU",
@@ -2388,7 +2388,7 @@
    "venue": "Rice-Eccles Stadium",
    "broadcast": "ESPN",
    "spread": null,
-   "overUnder": 52.5,
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "UTAH",
