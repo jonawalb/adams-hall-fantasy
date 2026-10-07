@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 5,
- "archivedAt": "2026-10-06T17:54:42.927Z",
+ "archivedAt": "2026-10-07T12:28:08.135Z",
  "matchups": [
   {
    "id": 21,
@@ -83,30 +83,9 @@
       "points": 0
      },
      {
-      "playerId": 3917792,
-      "name": "Daniel Jones",
-      "pos": "QB",
-      "slot": "BE",
-      "points": 0
-     },
-     {
-      "playerId": -16012,
-      "name": "Chiefs D/ST",
-      "pos": "D/ST",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 4569559,
       "name": "Devaughn Vele",
       "pos": "WR",
-      "slot": "BE",
-      "points": 0
-     },
-     {
-      "playerId": 4599739,
-      "name": "Kendre Miller",
-      "pos": "RB",
       "slot": "BE",
       "points": 0
      },
@@ -125,8 +104,22 @@
       "points": 0
      },
      {
-      "playerId": 3116385,
-      "name": "Joe Mixon",
+      "playerId": 4431452,
+      "name": "Drake Maye",
+      "pos": "QB",
+      "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 3122840,
+      "name": "Deshaun Watson",
+      "pos": "QB",
+      "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 4429096,
+      "name": "Blake Corum",
       "pos": "RB",
       "slot": "BE",
       "points": 0
@@ -300,14 +293,14 @@
       "playerId": 4596448,
       "name": "Bucky Irving",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "BE",
       "points": 0
      },
      {
       "playerId": 3916387,
       "name": "Lamar Jackson",
       "pos": "QB",
-      "slot": "QB",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -321,7 +314,7 @@
       "playerId": 4871023,
       "name": "Carnell Tate",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -353,24 +346,10 @@
       "points": 0
      },
      {
-      "playerId": 4696044,
-      "name": "Kaelon Black",
-      "pos": "RB",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 4360234,
       "name": "Evan McPherson",
       "pos": "K",
       "slot": "K",
-      "points": 0
-     },
-     {
-      "playerId": -16005,
-      "name": "Browns D/ST",
-      "pos": "D/ST",
-      "slot": "D/ST",
       "points": 0
      },
      {
@@ -385,6 +364,20 @@
       "name": "Emanuel Wilson",
       "pos": "RB",
       "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": -16030,
+      "name": "Jaguars D/ST",
+      "pos": "D/ST",
+      "slot": "D/ST",
+      "points": 0
+     },
+     {
+      "playerId": 2969939,
+      "name": "Jameis Winston",
+      "pos": "QB",
+      "slot": "QB",
       "points": 0
      }
     ]
@@ -478,13 +471,6 @@
       "points": 0
      },
      {
-      "playerId": 3117256,
-      "name": "Dalton Schultz",
-      "pos": "TE",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 4711533,
       "name": "Ollie Gordon II",
       "pos": "RB",
@@ -510,6 +496,13 @@
       "name": "Isaiah Likely",
       "pos": "TE",
       "slot": "TE",
+      "points": 0
+     },
+     {
+      "playerId": 3917315,
+      "name": "Kyler Murray",
+      "pos": "QB",
+      "slot": "BE",
       "points": 0
      }
     ]
@@ -755,17 +748,17 @@
       "points": 0
      },
      {
-      "playerId": -16002,
-      "name": "Bills D/ST",
-      "pos": "D/ST",
-      "slot": "D/ST",
-      "points": 0
-     },
-     {
       "playerId": 4697745,
       "name": "Tyler Loop",
       "pos": "K",
       "slot": "K",
+      "points": 0
+     },
+     {
+      "playerId": -16006,
+      "name": "Cowboys D/ST",
+      "pos": "D/ST",
+      "slot": "D/ST",
       "points": 0
      }
     ]
@@ -990,13 +983,6 @@
       "points": 0
      },
      {
-      "playerId": 3055899,
-      "name": "Harrison Butker",
-      "pos": "K",
-      "slot": "K",
-      "points": 0
-     },
-     {
       "playerId": 5083315,
       "name": "Kenyon Sadiq",
       "pos": "TE",
@@ -1022,6 +1008,13 @@
       "name": "Kalif Raymond",
       "pos": "WR",
       "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 4689936,
+      "name": "Jake Bates",
+      "pos": "K",
+      "slot": "K",
       "points": 0
      }
     ]
@@ -1082,7 +1075,7 @@
       "playerId": 4426388,
       "name": "Jameson Williams",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -1149,8 +1142,8 @@
       "points": 0
      },
      {
-      "playerId": -16009,
-      "name": "Packers D/ST",
+      "playerId": -16004,
+      "name": "Bengals D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
       "points": 0
