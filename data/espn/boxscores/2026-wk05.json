@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 5,
- "archivedAt": "2026-10-07T12:28:08.135Z",
+ "archivedAt": "2026-10-08T12:37:37.113Z",
  "matchups": [
   {
    "id": 21,
@@ -190,7 +190,7 @@
       "playerId": 4241985,
       "name": "J.K. Dobbins",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -239,7 +239,7 @@
       "playerId": 4685247,
       "name": "Braelon Allen",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "RB",
       "points": 0
      },
      {
@@ -349,7 +349,7 @@
       "playerId": 4360234,
       "name": "Evan McPherson",
       "pos": "K",
-      "slot": "K",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -370,14 +370,14 @@
       "playerId": -16030,
       "name": "Jaguars D/ST",
       "pos": "D/ST",
-      "slot": "D/ST",
+      "slot": "BE",
       "points": 0
      },
      {
       "playerId": 2969939,
       "name": "Jameis Winston",
       "pos": "QB",
-      "slot": "QB",
+      "slot": "BE",
       "points": 0
      }
     ]
@@ -443,13 +443,6 @@
       "points": 0
      },
      {
-      "playerId": -16025,
-      "name": "49ers D/ST",
-      "pos": "D/ST",
-      "slot": "D/ST",
-      "points": 0
-     },
-     {
       "playerId": 4366031,
       "name": "Tank Dell",
       "pos": "WR",
@@ -467,7 +460,7 @@
       "playerId": 4685720,
       "name": "Bryce Young",
       "pos": "QB",
-      "slot": "QB",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -502,7 +495,14 @@
       "playerId": 3917315,
       "name": "Kyler Murray",
       "pos": "QB",
-      "slot": "BE",
+      "slot": "QB",
+      "points": 0
+     },
+     {
+      "playerId": -16020,
+      "name": "Jets D/ST",
+      "pos": "D/ST",
+      "slot": "D/ST",
       "points": 0
      }
     ]
@@ -535,7 +535,7 @@
       "playerId": 4426502,
       "name": "Drake London",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -556,14 +556,14 @@
       "playerId": 4426348,
       "name": "Jayden Daniels",
       "pos": "QB",
-      "slot": "BE",
+      "slot": "QB",
       "points": 0
      },
      {
       "playerId": 4431299,
       "name": "Rome Odunze",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "WR",
       "points": 0
      },
      {
@@ -584,7 +584,7 @@
       "playerId": 4360310,
       "name": "Trevor Lawrence",
       "pos": "QB",
-      "slot": "QB",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -809,13 +809,6 @@
       "points": 0
      },
      {
-      "playerId": 4360248,
-      "name": "Kyle Pitts Sr.",
-      "pos": "TE",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 4035687,
       "name": "Michael Pittman Jr.",
       "pos": "WR",
@@ -840,7 +833,7 @@
       "playerId": 4371733,
       "name": "Kenny Gainwell",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -868,7 +861,7 @@
       "playerId": 4241474,
       "name": "Brian Robinson Jr.",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "RB",
       "points": 0
      },
      {
@@ -882,7 +875,7 @@
       "playerId": 2576925,
       "name": "Darren Waller",
       "pos": "TE",
-      "slot": "TE",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -890,6 +883,13 @@
       "name": "Bears D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
+      "points": 0
+     },
+     {
+      "playerId": 4430539,
+      "name": "Brenton Strange",
+      "pos": "TE",
+      "slot": "TE",
       "points": 0
      }
     ]
@@ -951,7 +951,7 @@
       "playerId": 3916148,
       "name": "Tony Pollard",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -972,7 +972,7 @@
       "playerId": 4568490,
       "name": "RJ Harvey",
       "pos": "RB",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -1075,7 +1075,7 @@
       "playerId": 4426388,
       "name": "Jameson Williams",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -1090,13 +1090,6 @@
       "name": "Christian Watson",
       "pos": "WR",
       "slot": "WR",
-      "points": 0
-     },
-     {
-      "playerId": 4432773,
-      "name": "Brian Thomas Jr.",
-      "pos": "WR",
-      "slot": "BE",
       "points": 0
      },
      {
@@ -1147,6 +1140,13 @@
       "pos": "D/ST",
       "slot": "D/ST",
       "points": 0
+     },
+     {
+      "playerId": 4431545,
+      "name": "Will Shipley",
+      "pos": "RB",
+      "slot": "BE",
+      "points": 0
      }
     ]
    },
@@ -1165,7 +1165,7 @@
       "playerId": 3929630,
       "name": "Saquon Barkley",
       "pos": "RB",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -1193,7 +1193,7 @@
       "playerId": 4430027,
       "name": "Sam LaPorta",
       "pos": "TE",
-      "slot": "BE",
+      "slot": "TE",
       "points": 0
      },
      {
@@ -1228,7 +1228,7 @@
       "playerId": 15847,
       "name": "Travis Kelce",
       "pos": "TE",
-      "slot": "TE",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -1242,7 +1242,7 @@
       "playerId": 3126486,
       "name": "Deebo Samuel Sr.",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0
      },
      {

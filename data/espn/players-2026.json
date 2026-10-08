@@ -333,7 +333,7 @@
   "id": 2576399,
   "name": "Nick Vannett",
   "pos": "TE",
-  "proTeamId": 0
+  "proTeamId": 33
  },
  "2576414": {
   "id": 2576414,
@@ -2709,7 +2709,7 @@
   "id": 4360238,
   "name": "Dameon Pierce",
   "pos": "RB",
-  "proTeamId": 0
+  "proTeamId": 21
  },
  "4360248": {
   "id": 4360248,
@@ -5511,7 +5511,7 @@
   "id": 4709392,
   "name": "Anthony Tyus III",
   "pos": "RB",
-  "proTeamId": 29
+  "proTeamId": 0
  },
  "4710341": {
   "id": 4710341,
@@ -6058,6 +6058,12 @@
   "name": "Malik Benson",
   "pos": "WR",
   "proTeamId": 13
+ },
+ "5151317": {
+  "id": 5151317,
+  "name": "Robert Henry Jr.",
+  "pos": "RB",
+  "proTeamId": 26
  },
  "5155825": {
   "id": 5155825,
