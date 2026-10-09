@@ -2082,23 +2082,23 @@
      "id": "401872980",
      "date": "2026-10-09T00:15Z",
      "name": "TB @ DAL",
-     "state": "pre",
-     "completed": false,
-     "winner": null,
-     "detail": "10/8 - 8:15 PM EDT",
+     "state": "post",
+     "completed": true,
+     "winner": "away",
+     "detail": "Final",
      "home": {
       "abbr": "DAL",
       "name": "Dallas Cowboys",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
       "color": "002a5c",
-      "score": 0
+      "score": 16
      },
      "away": {
       "abbr": "TB",
       "name": "Tampa Bay Buccaneers",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
       "color": "bd1c36",
-      "score": 0
+      "score": 24
      },
      "odds": {
       "provider": "DraftKings",
@@ -2133,12 +2133,12 @@
       "score": 0
      },
      "odds": {
-      "provider": null,
-      "details": "JAX -7",
+      "provider": "DraftKings",
+      "details": "JAX -7.5",
       "overUnder": 41.5,
       "moneyline": {
-       "home": "-360",
-       "away": "+285"
+       "home": "-380",
+       "away": "+300"
       }
      }
     },
@@ -2169,8 +2169,8 @@
       "details": "CHI -1.5",
       "overUnder": 45.5,
       "moneyline": {
-       "home": "+110",
-       "away": "-130"
+       "home": "+100",
+       "away": "-120"
       }
      }
     },
@@ -2199,7 +2199,7 @@
      "odds": {
       "provider": null,
       "details": "HOU -7.5",
-      "overUnder": 38.5,
+      "overUnder": 37.5,
       "moneyline": {
        "home": "+330",
        "away": "-425"
@@ -2233,8 +2233,8 @@
       "details": "CIN -6.5",
       "overUnder": 42.5,
       "moneyline": {
-       "home": "+245",
-       "away": "-305"
+       "home": "+260",
+       "away": "-325"
       }
      }
     },
@@ -2294,11 +2294,11 @@
      },
      "odds": {
       "provider": null,
-      "details": "MIN -1.5",
-      "overUnder": 42.5,
+      "details": "MIN -2.5",
+      "overUnder": 41.5,
       "moneyline": {
-       "home": "+114",
-       "away": "-135"
+       "home": "+120",
+       "away": "-142"
       }
      }
     },
@@ -2326,11 +2326,11 @@
      },
      "odds": {
       "provider": null,
-      "details": "NYJ -1.5",
+      "details": "NYJ -2.5",
       "overUnder": 39.5,
       "moneyline": {
-       "home": "-125",
-       "away": "+105"
+       "home": "-135",
+       "away": "+114"
       }
      }
     },
@@ -2361,8 +2361,8 @@
       "details": "PIT -2.5",
       "overUnder": 44.5,
       "moneyline": {
-       "home": "-142",
-       "away": "+120"
+       "home": "-148",
+       "away": "+124"
       }
      }
     },
@@ -2393,8 +2393,8 @@
       "details": "WSH -3.5",
       "overUnder": 42.5,
       "moneyline": {
-       "home": "-180",
-       "away": "+150"
+       "home": "-192",
+       "away": "+160"
       }
      }
     },
@@ -2425,8 +2425,8 @@
       "details": "DEN -3.5",
       "overUnder": 41.5,
       "moneyline": {
-       "home": "+154",
-       "away": "-185"
+       "home": "+145",
+       "away": "-175"
       }
      }
     },
@@ -2457,8 +2457,8 @@
       "details": "DET -5.5",
       "overUnder": 54.5,
       "moneyline": {
-       "home": "+210",
-       "away": "-258"
+       "home": "+215",
+       "away": "-265"
       }
      }
     },
@@ -2518,11 +2518,11 @@
      },
      "odds": {
       "provider": null,
-      "details": "ATL -3.5",
+      "details": "ATL -3",
       "overUnder": 43.5,
       "moneyline": {
-       "home": "-175",
-       "away": "+145"
+       "home": "-170",
+       "away": "+142"
       }
      }
     },
@@ -2553,13 +2553,13 @@
       "details": "LAR -3",
       "overUnder": 54.5,
       "moneyline": {
-       "home": "-162",
-       "away": "+136"
+       "home": "-175",
+       "away": "+145"
       }
      }
     }
    ]
   }
  },
- "fetchedAt": "2026-10-08T12:37:33.237Z"
+ "fetchedAt": "2026-10-09T10:59:54.242Z"
 }

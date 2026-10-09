@@ -1041,7 +1041,7 @@
   "id": 3127306,
   "name": "Dante Pettis",
   "pos": "WR",
-  "proTeamId": 25
+  "proTeamId": 0
  },
  "3127310": {
   "id": 3127310,
@@ -2541,7 +2541,7 @@
   "id": 4249836,
   "name": "Pierre Strong Jr.",
   "pos": "RB",
-  "proTeamId": 0
+  "proTeamId": 9
  },
  "4250360": {
   "id": 4250360,
@@ -3093,7 +3093,7 @@
   "id": 4362478,
   "name": "Emari Demercado",
   "pos": "RB",
-  "proTeamId": 6
+  "proTeamId": 0
  },
  "4362489": {
   "id": 4362489,
@@ -5073,7 +5073,7 @@
   "id": 4685246,
   "name": "Kaytron Allen",
   "pos": "RB",
-  "proTeamId": 28
+  "proTeamId": 0
  },
  "4685247": {
   "id": 4685247,
