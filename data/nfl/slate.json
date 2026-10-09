@@ -2133,7 +2133,7 @@
       "score": 0
      },
      "odds": {
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "details": "JAX -7.5",
       "overUnder": 41.5,
       "moneyline": {
@@ -2561,5 +2561,5 @@
    ]
   }
  },
- "fetchedAt": "2026-10-09T10:59:54.242Z"
+ "fetchedAt": "2026-10-09T12:25:06.993Z"
 }
