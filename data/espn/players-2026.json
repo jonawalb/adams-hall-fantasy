@@ -57,7 +57,7 @@
   "id": 14012,
   "name": "Andy Dalton",
   "pos": "QB",
-  "proTeamId": 21
+  "proTeamId": 0
  },
  "14163": {
   "id": 14163,
@@ -1833,7 +1833,7 @@
   "id": 4039057,
   "name": "Lil'Jordan Humphrey",
   "pos": "WR",
-  "proTeamId": 0
+  "proTeamId": 7
  },
  "4039160": {
   "id": 4039160,
@@ -5073,7 +5073,7 @@
   "id": 4685246,
   "name": "Kaytron Allen",
   "pos": "RB",
-  "proTeamId": 0
+  "proTeamId": 16
  },
  "4685247": {
   "id": 4685247,
@@ -5547,7 +5547,7 @@
   "id": 4714365,
   "name": "Carson Steele",
   "pos": "RB",
-  "proTeamId": 0
+  "proTeamId": 21
  },
  "4714379": {
   "id": 4714379,

@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 5,
- "archivedAt": "2026-10-09T12:25:12.041Z",
+ "archivedAt": "2026-10-10T11:44:01.422Z",
  "matchups": [
   {
    "id": 21,
@@ -65,7 +65,7 @@
       "playerId": 4608686,
       "name": "Kyle Monangai",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -122,6 +122,13 @@
       "name": "Blake Corum",
       "pos": "RB",
       "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 4819231,
+      "name": "Kaleb Johnson",
+      "pos": "RB",
+      "slot": "RB",
       "points": 0
      }
     ]
@@ -353,13 +360,6 @@
       "points": 0
      },
      {
-      "playerId": 3916433,
-      "name": "Jakobi Meyers",
-      "pos": "WR",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 4887558,
       "name": "Emanuel Wilson",
       "pos": "RB",
@@ -378,6 +378,13 @@
       "name": "Jameis Winston",
       "pos": "QB",
       "slot": "QB",
+      "points": 0
+     },
+     {
+      "playerId": 4686658,
+      "name": "Mike Washington Jr.",
+      "pos": "RB",
+      "slot": "BE",
       "points": 0
      }
     ]
