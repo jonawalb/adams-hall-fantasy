@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 5,
- "archivedAt": "2026-10-10T11:44:01.422Z",
+ "archivedAt": "2026-10-11T11:56:39.243Z",
  "matchups": [
   {
    "id": 21,
@@ -321,7 +321,7 @@
       "playerId": 4871023,
       "name": "Carnell Tate",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -363,7 +363,7 @@
       "playerId": 4887558,
       "name": "Emanuel Wilson",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -681,7 +681,7 @@
       "playerId": 4429615,
       "name": "Zay Flowers",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -709,7 +709,7 @@
       "playerId": 4432620,
       "name": "Parker Washington",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0
      },
      {

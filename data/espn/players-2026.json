@@ -183,7 +183,7 @@
   "id": 16733,
   "name": "Odell Beckham Jr.",
   "pos": "WR",
-  "proTeamId": 19
+  "proTeamId": 16
  },
  "16737": {
   "id": 16737,
@@ -1509,7 +1509,7 @@
   "id": 3930066,
   "name": "Van Jefferson",
   "pos": "WR",
-  "proTeamId": 0
+  "proTeamId": 28
  },
  "3930086": {
   "id": 3930086,
@@ -1587,7 +1587,7 @@
   "id": 4034862,
   "name": "Jack Stoll",
   "pos": "TE",
-  "proTeamId": 0
+  "proTeamId": 25
  },
  "4034946": {
   "id": 4034946,
@@ -2085,7 +2085,7 @@
   "id": 4240577,
   "name": "Brandon Smith",
   "pos": "WR",
-  "proTeamId": 0
+  "proTeamId": 23
  },
  "4240600": {
   "id": 4240600,
@@ -2481,7 +2481,7 @@
   "id": 4248425,
   "name": "Carlos Washington Jr.",
   "pos": "RB",
-  "proTeamId": 0
+  "proTeamId": 15
  },
  "4248528": {
   "id": 4248528,
@@ -2577,7 +2577,7 @@
   "id": 4257364,
   "name": "Zavier Scott",
   "pos": "RB",
-  "proTeamId": 0
+  "proTeamId": 3
  },
  "4258173": {
   "id": 4258173,
@@ -2781,7 +2781,7 @@
   "id": 4360637,
   "name": "Jeshaun Jones",
   "pos": "WR",
-  "proTeamId": 0
+  "proTeamId": 16
  },
  "4360689": {
   "id": 4360689,
@@ -3243,7 +3243,7 @@
   "id": 4369863,
   "name": "Cedric Tillman",
   "pos": "WR",
-  "proTeamId": 0
+  "proTeamId": 18
  },
  "4369886": {
   "id": 4369886,
@@ -3339,7 +3339,7 @@
   "id": 4372758,
   "name": "Kevin Austin Jr.",
   "pos": "WR",
-  "proTeamId": 18
+  "proTeamId": 0
  },
  "4372780": {
   "id": 4372780,
@@ -3411,7 +3411,7 @@
   "id": 4374187,
   "name": "Deven Thompkins",
   "pos": "WR",
-  "proTeamId": 0
+  "proTeamId": 13
  },
  "4374302": {
   "id": 4374302,
@@ -3645,7 +3645,7 @@
   "id": 4426535,
   "name": "Theo Wease Jr.",
   "pos": "WR",
-  "proTeamId": 0
+  "proTeamId": 24
  },
  "4426553": {
   "id": 4426553,
@@ -3945,7 +3945,7 @@
   "id": 4429121,
   "name": "Kalel Mullings",
   "pos": "RB",
-  "proTeamId": 0
+  "proTeamId": 10
  },
  "4429148": {
   "id": 4429148,
@@ -3993,7 +3993,7 @@
   "id": 4429435,
   "name": "Brady Cook",
   "pos": "QB",
-  "proTeamId": 15
+  "proTeamId": 0
  },
  "4429466": {
   "id": 4429466,
@@ -4665,7 +4665,7 @@
   "id": 4570296,
   "name": "Dalen Cambre",
   "pos": "WR",
-  "proTeamId": 0
+  "proTeamId": 19
  },
  "4570409": {
   "id": 4570409,
@@ -5073,7 +5073,7 @@
   "id": 4685246,
   "name": "Kaytron Allen",
   "pos": "RB",
-  "proTeamId": 16
+  "proTeamId": 15
  },
  "4685247": {
   "id": 4685247,
@@ -5883,7 +5883,7 @@
   "id": 4892576,
   "name": "Jamaal Pritchett",
   "pos": "WR",
-  "proTeamId": 20
+  "proTeamId": 0
  },
  "4911851": {
   "id": 4911851,
