@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 7,
  "poll": "AP Top 25",
- "fetchedAt": "2026-10-12T08:53:58.223Z",
+ "fetchedAt": "2026-10-12T14:07:55.981Z",
  "rankings": [
   {
    "rank": 1,
@@ -353,7 +353,7 @@
    "venue": "AmFirst Stadium",
    "broadcast": "ESPNU",
    "spread": "JXST -3",
-   "overUnder": 43.5,
+   "overUnder": 42.5,
    "headline": null,
    "home": {
     "abbr": "JXST",
@@ -427,7 +427,7 @@
    "venue": "Elliott T. Bowers Stadium",
    "broadcast": "ESPN",
    "spread": "WKU -1.5",
-   "overUnder": 52.5,
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "SHSU",
@@ -759,7 +759,7 @@
    "detail": "10/17 - 12:00 PM EDT",
    "venue": "Tiger Stadium (LA)",
    "broadcast": "ESPN",
-   "spread": "LSU -11.5",
+   "spread": "LSU -12.5",
    "overUnder": 58.5,
    "headline": null,
    "home": {
@@ -1019,7 +1019,7 @@
    "venue": "Michie Stadium",
    "broadcast": "CBSSN",
    "spread": "ARMY -2.5",
-   "overUnder": 56.5,
+   "overUnder": 55.5,
    "headline": null,
    "home": {
     "abbr": "ARMY",
@@ -1055,7 +1055,7 @@
    "detail": "10/17 - 12:00 PM EDT",
    "venue": "Doyt L. Perry Stadium",
    "broadcast": "ESPN+",
-   "spread": "BGSU -7.5",
+   "spread": "BGSU -6.5",
    "overUnder": 44.5,
    "headline": null,
    "home": {
@@ -1092,7 +1092,7 @@
    "detail": "10/17 - 12:00 PM EDT",
    "venue": "Bridgeforth Stadium",
    "broadcast": "ESPNU",
-   "spread": "JMU -11.5",
+   "spread": "JMU -12.5",
    "overUnder": 58.5,
    "headline": null,
    "home": {
@@ -1425,7 +1425,7 @@
    "detail": "10/17 - 3:30 PM EDT",
    "venue": "Galaxy Stadium",
    "broadcast": "Fox",
-   "spread": "TTU -14",
+   "spread": "TTU -14.5",
    "overUnder": 48.5,
    "headline": null,
    "home": {
@@ -1462,7 +1462,7 @@
    "detail": "10/17 - 3:30 PM EDT",
    "venue": "Lane Stadium",
    "broadcast": "ACC Network",
-   "spread": "VT -9.5",
+   "spread": "VT -10",
    "overUnder": 55.5,
    "headline": null,
    "home": {
@@ -1684,7 +1684,7 @@
    "detail": "10/17 - 3:30 PM EDT",
    "venue": "Yager Stadium",
    "broadcast": "ESPN+",
-   "spread": "M-OH -10",
+   "spread": "M-OH -9.5",
    "overUnder": 46.5,
    "headline": null,
    "home": {
@@ -1721,8 +1721,8 @@
    "detail": "10/17 - 4:30 PM EDT",
    "venue": "First Community Stadium",
    "broadcast": "ESPN+",
-   "spread": "TLSA -4.5",
-   "overUnder": 45.5,
+   "spread": "TLSA -4",
+   "overUnder": 46.5,
    "headline": null,
    "home": {
     "abbr": "RICE",
@@ -1795,7 +1795,7 @@
    "detail": "10/17 - 6:00 PM EDT",
    "venue": "Reser Stadium",
    "broadcast": "USA Net",
-   "spread": "ORST -18.5",
+   "spread": "ORST -17.5",
    "overUnder": 53.5,
    "headline": null,
    "home": {
@@ -2054,7 +2054,7 @@
    "detail": "10/17 - 7:30 PM EDT",
    "venue": "LaVell Edwards Stadium",
    "broadcast": "ABC",
-   "spread": "ND -10.5",
+   "spread": "ND -10",
    "overUnder": 47.5,
    "headline": null,
    "home": {
@@ -2128,7 +2128,7 @@
    "detail": "10/17 - 7:30 PM EDT",
    "venue": "Memorial Stadium (Norman, OK)",
    "broadcast": "SEC Network",
-   "spread": "OU -7",
+   "spread": "OU -6.5",
    "overUnder": 43.5,
    "headline": null,
    "home": {
@@ -2239,7 +2239,7 @@
    "detail": "10/17 - 7:30 PM EDT",
    "venue": "JMA Wireless Dome",
    "broadcast": "ACC Network",
-   "spread": "LOU -13.5",
+   "spread": "LOU -14.5",
    "overUnder": 56.5,
    "headline": null,
    "home": {
@@ -2498,7 +2498,7 @@
    "detail": "10/17 - 10:30 PM EDT",
    "venue": "Snapdragon Stadium",
    "broadcast": "CBSSN",
-   "spread": "FRES -8.5",
+   "spread": "FRES -7.5",
    "overUnder": 45.5,
    "headline": null,
    "home": {
@@ -2535,7 +2535,7 @@
    "detail": "10/17 - 10:30 PM EDT",
    "venue": "Clarence T.C. Ching Athletics Complex",
    "broadcast": "FS1",
-   "spread": "UNM -14.5",
+   "spread": "UNM -14",
    "overUnder": 45.5,
    "headline": null,
    "home": {
