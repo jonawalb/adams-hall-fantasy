@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 5,
- "archivedAt": "2026-10-11T23:17:50.705Z",
+ "archivedAt": "2026-10-12T08:54:04.158Z",
  "matchups": [
   {
    "id": 21,
@@ -17,7 +17,7 @@
       "name": "Jaxon Smith-Njigba",
       "pos": "WR",
       "slot": "WR",
-      "points": 18.3
+      "points": 22.8
      },
      {
       "playerId": 4047646,
@@ -364,7 +364,7 @@
       "name": "Emanuel Wilson",
       "pos": "RB",
       "slot": "FLEX",
-      "points": 12.9
+      "points": 13.200000000000001
      },
      {
       "playerId": -16030,
@@ -398,7 +398,7 @@
       "name": "Bijan Robinson",
       "pos": "RB",
       "slot": "RB",
-      "points": 0
+      "points": 15.8
      },
      {
       "playerId": 4428331,
@@ -543,7 +543,7 @@
       "name": "Drake London",
       "pos": "WR",
       "slot": "FLEX",
-      "points": 0
+      "points": 18.8
      },
      {
       "playerId": 4685702,
@@ -606,7 +606,7 @@
       "name": "Jason Myers",
       "pos": "K",
       "slot": "K",
-      "points": 19
+      "points": 23
      },
      {
       "playerId": -16026,
@@ -634,7 +634,7 @@
       "name": "Mark Andrews",
       "pos": "TE",
       "slot": "BE",
-      "points": 0
+      "points": 4.800000000000001
      },
      {
       "playerId": 4373678,
@@ -682,7 +682,7 @@
       "name": "Zay Flowers",
       "pos": "WR",
       "slot": "BE",
-      "points": 0
+      "points": 14.600000000000001
      },
      {
       "playerId": 4239993,
@@ -745,7 +745,7 @@
       "name": "Brock Purdy",
       "pos": "QB",
       "slot": "QB",
-      "points": 16.080000000000002
+      "points": 16.16
      },
      {
       "playerId": 4832800,
@@ -759,7 +759,7 @@
       "name": "Tyler Loop",
       "pos": "K",
       "slot": "K",
-      "points": 0
+      "points": 14
      },
      {
       "playerId": -16006,
@@ -869,14 +869,14 @@
       "name": "Brian Robinson Jr.",
       "pos": "RB",
       "slot": "RB",
-      "points": 0
+      "points": 1.6
      },
      {
       "playerId": 3912547,
       "name": "Sam Darnold",
       "pos": "QB",
       "slot": "QB",
-      "points": 5.5
+      "points": 8.3
      },
      {
       "playerId": 2576925,
@@ -910,21 +910,21 @@
       "name": "Christian McCaffrey",
       "pos": "RB",
       "slot": "RB",
-      "points": 12.5
+      "points": 17.3
      },
      {
       "playerId": 3043078,
       "name": "Derrick Henry",
       "pos": "RB",
       "slot": "RB",
-      "points": 0
+      "points": 21.000000000000004
      },
      {
       "playerId": 4361307,
       "name": "Trey McBride",
       "pos": "TE",
       "slot": "TE",
-      "points": 13.7
+      "points": 21.6
      },
      {
       "playerId": 4569618,
@@ -1264,14 +1264,14 @@
       "name": "Eddy Pineiro",
       "pos": "K",
       "slot": "BE",
-      "points": 2
+      "points": 6
      },
      {
       "playerId": -16033,
       "name": "Ravens D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
-      "points": 0
+      "points": 5
      }
     ]
    }
