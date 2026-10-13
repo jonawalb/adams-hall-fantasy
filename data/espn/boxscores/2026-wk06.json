@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 6,
- "archivedAt": "2026-10-13T11:24:20.097Z",
+ "archivedAt": "2026-10-13T13:20:19.739Z",
  "matchups": [
   {
    "id": 26,
@@ -1033,7 +1033,7 @@
       "playerId": 4262921,
       "name": "Justin Jefferson",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -1054,14 +1054,14 @@
       "playerId": 4723086,
       "name": "Colston Loveland",
       "pos": "TE",
-      "slot": "BE",
+      "slot": "TE",
       "points": 0
      },
      {
       "playerId": 4040715,
       "name": "Jalen Hurts",
       "pos": "QB",
-      "slot": "QB",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -1082,14 +1082,14 @@
       "playerId": 4701936,
       "name": "Matthew Golden",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "WR",
       "points": 0
      },
      {
       "playerId": 4241985,
       "name": "J.K. Dobbins",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "RB",
       "points": 0
      },
      {
@@ -1110,14 +1110,14 @@
       "playerId": 4036133,
       "name": "T.J. Hockenson",
       "pos": "TE",
-      "slot": "TE",
+      "slot": "BE",
       "points": 0
      },
      {
       "playerId": 3139477,
       "name": "Patrick Mahomes",
       "pos": "QB",
-      "slot": "BE",
+      "slot": "QB",
       "points": 0
      },
      {
@@ -1131,14 +1131,14 @@
       "playerId": 4428850,
       "name": "Dontayvion Wicks",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0
      },
      {
       "playerId": 4685247,
       "name": "Braelon Allen",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "BE",
       "points": 0
      },
      {

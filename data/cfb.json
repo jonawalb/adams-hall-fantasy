@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 7,
  "poll": "AP Top 25",
- "fetchedAt": "2026-10-13T11:24:16.246Z",
+ "fetchedAt": "2026-10-13T13:20:16.414Z",
  "rankings": [
   {
    "rank": 1,
@@ -500,7 +500,7 @@
    "detail": "10/15 - 7:30 PM EDT",
    "venue": "S.B. Ballard Stadium",
    "broadcast": "ESPN2",
-   "spread": "GASO -4",
+   "spread": "GASO -3.5",
    "overUnder": 47.5,
    "headline": null,
    "home": {
@@ -2092,7 +2092,7 @@
    "venue": "Rose Bowl",
    "broadcast": "NBC",
    "spread": "UCLA -2.5",
-   "overUnder": 44.5,
+   "overUnder": 43.5,
    "headline": null,
    "home": {
     "abbr": "UCLA",
@@ -2351,7 +2351,7 @@
    "venue": "Sun Bowl",
    "broadcast": "MW+",
    "spread": "SJSU -7.5",
-   "overUnder": 47.5,
+   "overUnder": 46.5,
    "headline": null,
    "home": {
     "abbr": "UTEP",
