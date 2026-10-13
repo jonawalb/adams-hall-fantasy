@@ -951,7 +951,7 @@
   "id": 3122168,
   "name": "Trent Sherfield",
   "pos": "WR",
-  "proTeamId": 0
+  "proTeamId": 2
  },
  "3122840": {
   "id": 3122840,
@@ -4125,7 +4125,7 @@
   "id": 4430681,
   "name": "Jared Wayne",
   "pos": "WR",
-  "proTeamId": 34
+  "proTeamId": 0
  },
  "4430684": {
   "id": 4430684,
@@ -4395,7 +4395,7 @@
   "id": 4432708,
   "name": "Marvin Harrison Jr.",
   "pos": "WR",
-  "proTeamId": 22
+  "proTeamId": 34
  },
  "4432710": {
   "id": 4432710,

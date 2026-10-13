@@ -2530,23 +2530,23 @@
      "id": "401872994",
      "date": "2026-10-13T00:15Z",
      "name": "BUF @ LAR",
-     "state": "pre",
-     "completed": false,
-     "winner": null,
-     "detail": "10/12 - 8:15 PM EDT",
+     "state": "post",
+     "completed": true,
+     "winner": "away",
+     "detail": "Final/OT",
      "home": {
       "abbr": "LAR",
       "name": "Los Angeles Rams",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
       "color": "003594",
-      "score": 0
+      "score": 34
      },
      "away": {
       "abbr": "BUF",
       "name": "Buffalo Bills",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
       "color": "00338d",
-      "score": 0
+      "score": 37
      },
      "odds": {
       "provider": "DraftKings",
@@ -2561,5 +2561,5 @@
    ]
   }
  },
- "fetchedAt": "2026-10-12T14:07:55.524Z"
+ "fetchedAt": "2026-10-13T11:24:15.841Z"
 }
