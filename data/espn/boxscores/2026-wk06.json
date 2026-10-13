@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 6,
- "archivedAt": "2026-10-13T13:20:19.739Z",
+ "archivedAt": "2026-10-13T18:51:53.475Z",
  "matchups": [
   {
    "id": 26,
@@ -272,14 +272,14 @@
       "playerId": 4374302,
       "name": "Amon-Ra St. Brown",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
       "playerId": 3929630,
       "name": "Saquon Barkley",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "RB",
       "points": 0
      },
      {
@@ -307,7 +307,7 @@
       "playerId": 4430027,
       "name": "Sam LaPorta",
       "pos": "TE",
-      "slot": "TE",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -321,14 +321,14 @@
       "playerId": 3128429,
       "name": "Courtland Sutton",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0
      },
      {
       "playerId": 3042519,
       "name": "Aaron Jones Sr.",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -342,7 +342,7 @@
       "playerId": 15847,
       "name": "Travis Kelce",
       "pos": "TE",
-      "slot": "BE",
+      "slot": "TE",
       "points": 0
      },
      {
@@ -356,21 +356,21 @@
       "playerId": 3126486,
       "name": "Deebo Samuel Sr.",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "IR",
       "points": 0
      },
      {
       "playerId": 4567104,
       "name": "Will Reichard",
       "pos": "K",
-      "slot": "K",
+      "slot": "BE",
       "points": 0
      },
      {
       "playerId": 4034949,
       "name": "Eddy Pineiro",
       "pos": "K",
-      "slot": "BE",
+      "slot": "K",
       "points": 0
      },
      {
@@ -916,7 +916,7 @@
       "playerId": 4372016,
       "name": "Jaylen Waddle",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0
      },
      {
@@ -958,7 +958,7 @@
       "playerId": 4688813,
       "name": "Josh Downs",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -1186,7 +1186,7 @@
       "playerId": 4696981,
       "name": "Cam Skattebo",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "RB",
       "points": 0
      },
      {
@@ -1228,7 +1228,7 @@
       "playerId": 4685720,
       "name": "Bryce Young",
       "pos": "QB",
-      "slot": "BE",
+      "slot": "QB",
       "points": 0
      },
      {
@@ -1249,7 +1249,7 @@
       "playerId": 4362238,
       "name": "Chase Brown",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -1263,7 +1263,7 @@
       "playerId": 3917315,
       "name": "Kyler Murray",
       "pos": "QB",
-      "slot": "QB",
+      "slot": "BE",
       "points": 0
      },
      {
