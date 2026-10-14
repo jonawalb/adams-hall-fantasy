@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 6,
- "archivedAt": "2026-10-13T18:51:53.475Z",
+ "archivedAt": "2026-10-14T10:59:38.834Z",
  "matchups": [
   {
    "id": 26,
@@ -125,8 +125,8 @@
       "points": 0
      },
      {
-      "playerId": -16006,
-      "name": "Cowboys D/ST",
+      "playerId": -16011,
+      "name": "Colts D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
       "points": 0
@@ -201,13 +201,6 @@
       "points": 0
      },
      {
-      "playerId": 4038815,
-      "name": "Rico Dowdle",
-      "pos": "RB",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 4568490,
       "name": "RJ Harvey",
       "pos": "RB",
@@ -250,8 +243,15 @@
       "points": 0
      },
      {
-      "playerId": 4689936,
-      "name": "Jake Bates",
+      "playerId": -16025,
+      "name": "49ers D/ST",
+      "pos": "D/ST",
+      "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 4249087,
+      "name": "Matt Gay",
       "pos": "K",
       "slot": "K",
       "points": 0
@@ -378,6 +378,13 @@
       "name": "Ravens D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
+      "points": 0
+     },
+     {
+      "playerId": 4685261,
+      "name": "Germie Bernard",
+      "pos": "WR",
+      "slot": "WR",
       "points": 0
      }
     ]
@@ -567,13 +574,6 @@
       "points": 0
      },
      {
-      "playerId": 4426338,
-      "name": "Bo Nix",
-      "pos": "QB",
-      "slot": "QB",
-      "points": 0
-     },
-     {
       "playerId": 4248528,
       "name": "Christian Watson",
       "pos": "WR",
@@ -634,6 +634,13 @@
       "name": "Will Shipley",
       "pos": "RB",
       "slot": "RB",
+      "points": 0
+     },
+     {
+      "playerId": 4036378,
+      "name": "Jordan Love",
+      "pos": "QB",
+      "slot": "QB",
       "points": 0
      }
     ]
@@ -741,13 +748,6 @@
       "points": 0
      },
      {
-      "playerId": -16030,
-      "name": "Jaguars D/ST",
-      "pos": "D/ST",
-      "slot": "D/ST",
-      "points": 0
-     },
-     {
       "playerId": 2969939,
       "name": "Jameis Winston",
       "pos": "QB",
@@ -755,9 +755,16 @@
       "points": 0
      },
      {
-      "playerId": 4686658,
-      "name": "Mike Washington Jr.",
-      "pos": "RB",
+      "playerId": -16012,
+      "name": "Chiefs D/ST",
+      "pos": "D/ST",
+      "slot": "D/ST",
+      "points": 0
+     },
+     {
+      "playerId": 17372,
+      "name": "Chris Boswell",
+      "pos": "K",
       "slot": "BE",
       "points": 0
      }
@@ -997,13 +1004,6 @@
       "points": 0
      },
      {
-      "playerId": 3122840,
-      "name": "Deshaun Watson",
-      "pos": "QB",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 4429096,
       "name": "Blake Corum",
       "pos": "RB",
@@ -1011,9 +1011,9 @@
       "points": 0
      },
      {
-      "playerId": 4819231,
-      "name": "Kaleb Johnson",
-      "pos": "RB",
+      "playerId": 4361411,
+      "name": "Pat Freiermuth",
+      "pos": "TE",
       "slot": "BE",
       "points": 0
      }
@@ -1142,8 +1142,8 @@
       "points": 0
      },
      {
-      "playerId": 4682745,
-      "name": "Jaylen Wright",
+      "playerId": 4429059,
+      "name": "Woody Marks",
       "pos": "RB",
       "slot": "BE",
       "points": 0

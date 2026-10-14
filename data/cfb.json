@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 7,
  "poll": "AP Top 25",
- "fetchedAt": "2026-10-13T18:51:50.253Z",
+ "fetchedAt": "2026-10-14T10:59:34.780Z",
  "rankings": [
   {
    "rank": 1,
@@ -310,14 +310,14 @@
    "id": "401871067",
    "date": "2026-10-13T23:00Z",
    "name": "DEL @ MTSU",
-   "state": "pre",
-   "completed": false,
-   "detail": "10/13 - 7:00 PM EDT",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Johnny \"Red\" Floyd Stadium",
    "broadcast": "CBSSN",
-   "spread": "DEL -1.5",
-   "overUnder": 48.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Ryan Gagliano's 4 TDs power Middle Tennessee past Delaware 33-30 in Conference USA showdown",
    "home": {
     "abbr": "MTSU",
     "name": "Middle Tennessee Blue Raiders",
@@ -325,10 +325,10 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2393.png",
     "color": "036eb7",
     "rank": null,
-    "score": 0,
-    "record": "2-3",
+    "score": 33,
+    "record": "3-3",
     "conferenceId": "12",
-    "winner": false
+    "winner": true
    },
    "away": {
     "abbr": "DEL",
@@ -337,8 +337,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/48.png",
     "color": "00539f",
     "rank": null,
-    "score": 0,
-    "record": "2-3",
+    "score": 30,
+    "record": "2-4",
     "conferenceId": "12",
     "winner": false
    }
@@ -347,14 +347,14 @@
    "id": "401871053",
    "date": "2026-10-14T00:00Z",
    "name": "FIU @ JXST",
-   "state": "pre",
-   "completed": false,
-   "detail": "10/13 - 8:00 PM EDT",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "AmFirst Stadium",
    "broadcast": "ESPNU",
-   "spread": "JXST -3",
-   "overUnder": 43.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Garrison Rippa nails go-ahead field goal to help Jacksonville State edge FIU 27-24",
    "home": {
     "abbr": "JXST",
     "name": "Jacksonville State Gamecocks",
@@ -362,10 +362,10 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
     "color": "cc0000",
     "rank": null,
-    "score": 0,
-    "record": "4-2",
+    "score": 27,
+    "record": "5-2",
     "conferenceId": "12",
-    "winner": false
+    "winner": true
    },
    "away": {
     "abbr": "FIU",
@@ -374,8 +374,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png",
     "color": "091f3f",
     "rank": null,
-    "score": 0,
-    "record": "3-2",
+    "score": 24,
+    "record": "3-3",
     "conferenceId": "12",
     "winner": false
    }
@@ -427,7 +427,7 @@
    "venue": "Elliott T. Bowers Stadium",
    "broadcast": "ESPN",
    "spread": "WKU -1.5",
-   "overUnder": 53.5,
+   "overUnder": 52.5,
    "headline": null,
    "home": {
     "abbr": "SHSU",
@@ -538,7 +538,7 @@
    "venue": "UFCU Stadium",
    "broadcast": "CBSSN",
    "spread": "TXST -14",
-   "overUnder": 70.5,
+   "overUnder": 69.5,
    "headline": null,
    "home": {
     "abbr": "TXST",
@@ -612,7 +612,7 @@
    "venue": "Ross-Ade Stadium",
    "broadcast": "Fox",
    "spread": "PUR -3.5",
-   "overUnder": 52.5,
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "PUR",
@@ -1721,7 +1721,7 @@
    "detail": "10/17 - 4:30 PM EDT",
    "venue": "First Community Stadium",
    "broadcast": "ESPN+",
-   "spread": "TLSA -4",
+   "spread": "TLSA -4.5",
    "overUnder": 46.5,
    "headline": null,
    "home": {
@@ -1832,7 +1832,7 @@
    "detail": "10/17 - 7:00 PM EDT",
    "venue": "Hard Rock Stadium",
    "broadcast": "ESPN",
-   "spread": "MIA -21",
+   "spread": "MIA -21.5",
    "overUnder": 55.5,
    "headline": null,
    "home": {
@@ -1980,7 +1980,7 @@
    "detail": "10/17 - 7:00 PM EDT",
    "venue": "Fargodome",
    "broadcast": "CBSSN",
-   "spread": "NDSU -15.5",
+   "spread": "NDSU -14.5",
    "overUnder": 42.5,
    "headline": null,
    "home": {
@@ -2054,7 +2054,7 @@
    "detail": "10/17 - 7:30 PM EDT",
    "venue": "LaVell Edwards Stadium",
    "broadcast": "ABC",
-   "spread": "ND -10",
+   "spread": "ND -10.5",
    "overUnder": 46.5,
    "headline": null,
    "home": {
@@ -2536,7 +2536,7 @@
    "venue": "Clarence T.C. Ching Athletics Complex",
    "broadcast": "FS1",
    "spread": "UNM -14.5",
-   "overUnder": 45.5,
+   "overUnder": 44.5,
    "headline": null,
    "home": {
     "abbr": "HAW",

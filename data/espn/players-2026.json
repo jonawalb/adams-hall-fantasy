@@ -345,7 +345,7 @@
   "id": 2576581,
   "name": "Chris Moore",
   "pos": "WR",
-  "proTeamId": 33
+  "proTeamId": 0
  },
  "2576716": {
   "id": 2576716,
@@ -411,7 +411,7 @@
   "id": 2971281,
   "name": "Pharaoh Brown",
   "pos": "TE",
-  "proTeamId": 0
+  "proTeamId": 11
  },
  "2971573": {
   "id": 2971573,
@@ -1245,7 +1245,7 @@
   "id": 3914151,
   "name": "Josiah Deguara",
   "pos": "TE",
-  "proTeamId": 21
+  "proTeamId": 0
  },
  "3914307": {
   "id": 3914307,
@@ -1695,7 +1695,7 @@
   "id": 4035693,
   "name": "Velus Jones Jr.",
   "pos": "RB",
-  "proTeamId": 26
+  "proTeamId": 0
  },
  "4035776": {
   "id": 4035776,
@@ -2649,7 +2649,7 @@
   "id": 4259619,
   "name": "Blake Grupe",
   "pos": "K",
-  "proTeamId": 0
+  "proTeamId": 14
  },
  "4260394": {
   "id": 4260394,
@@ -3093,7 +3093,7 @@
   "id": 4362478,
   "name": "Emari Demercado",
   "pos": "RB",
-  "proTeamId": 0
+  "proTeamId": 6
  },
  "4362489": {
   "id": 4362489,
@@ -3237,7 +3237,7 @@
   "id": 4369466,
   "name": "Ryan Miller",
   "pos": "WR",
-  "proTeamId": 15
+  "proTeamId": 0
  },
  "4369863": {
   "id": 4369863,
@@ -4125,7 +4125,7 @@
   "id": 4430681,
   "name": "Jared Wayne",
   "pos": "WR",
-  "proTeamId": 0
+  "proTeamId": 15
  },
  "4430684": {
   "id": 4430684,
@@ -4635,7 +4635,7 @@
   "id": 4569682,
   "name": "Audric Estime",
   "pos": "RB",
-  "proTeamId": 0
+  "proTeamId": 5
  },
  "4569923": {
   "id": 4569923,
@@ -4737,7 +4737,7 @@
   "id": 4574716,
   "name": "Harrison Mevis",
   "pos": "K",
-  "proTeamId": 14
+  "proTeamId": 0
  },
  "4575131": {
   "id": 4575131,
