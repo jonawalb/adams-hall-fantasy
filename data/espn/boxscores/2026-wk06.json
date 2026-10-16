@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 6,
- "archivedAt": "2026-10-15T10:41:49.834Z",
+ "archivedAt": "2026-10-16T08:35:11.334Z",
  "matchups": [
   {
    "id": 26,
@@ -205,7 +205,7 @@
       "name": "RJ Harvey",
       "pos": "RB",
       "slot": "BE",
-      "points": 0
+      "points": 14.6
      },
      {
       "playerId": 3054850,
@@ -322,7 +322,7 @@
       "name": "Courtland Sutton",
       "pos": "WR",
       "slot": "FLEX",
-      "points": 0
+      "points": 3.9000000000000004
      },
      {
       "playerId": 3042519,
@@ -468,7 +468,7 @@
       "name": "Sam Darnold",
       "pos": "QB",
       "slot": "BE",
-      "points": 0
+      "points": 11.020000000000001
      },
      {
       "playerId": 2576925,
@@ -688,7 +688,7 @@
       "playerId": 3916387,
       "name": "Lamar Jackson",
       "pos": "QB",
-      "slot": "QB",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -745,20 +745,13 @@
       "name": "Emanuel Wilson",
       "pos": "RB",
       "slot": "RB",
-      "points": 0
+      "points": 5.2
      },
      {
       "playerId": 2969939,
       "name": "Jameis Winston",
       "pos": "QB",
-      "slot": "BE",
-      "points": 0
-     },
-     {
-      "playerId": -16012,
-      "name": "Chiefs D/ST",
-      "pos": "D/ST",
-      "slot": "D/ST",
+      "slot": "QB",
       "points": 0
      },
      {
@@ -766,6 +759,13 @@
       "name": "Chris Boswell",
       "pos": "K",
       "slot": "K",
+      "points": 0
+     },
+     {
+      "playerId": -16029,
+      "name": "Panthers D/ST",
+      "pos": "D/ST",
+      "slot": "D/ST",
       "points": 0
      }
     ]
@@ -862,14 +862,14 @@
       "name": "Jason Myers",
       "pos": "K",
       "slot": "K",
-      "points": 0
+      "points": 7
      },
      {
       "playerId": -16026,
       "name": "Seahawks D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
-      "points": 0
+      "points": 6
      },
      {
       "playerId": 4870653,
@@ -910,7 +910,7 @@
       "name": "Jaxon Smith-Njigba",
       "pos": "WR",
       "slot": "WR",
-      "points": 0
+      "points": 25.4
      },
      {
       "playerId": 4047646,
@@ -924,7 +924,7 @@
       "name": "Jaylen Waddle",
       "pos": "WR",
       "slot": "WR",
-      "points": 0
+      "points": 6.4
      },
      {
       "playerId": 4882093,
@@ -1096,8 +1096,8 @@
       "playerId": 4241985,
       "name": "J.K. Dobbins",
       "pos": "RB",
-      "slot": "RB",
-      "points": 0
+      "slot": "BE",
+      "points": 13.600000000000001
      },
      {
       "playerId": 4362081,
@@ -1145,7 +1145,7 @@
       "playerId": 4685247,
       "name": "Braelon Allen",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "RB",
       "points": 0
      },
      {
@@ -1172,14 +1172,14 @@
       "playerId": 4428331,
       "name": "Rashee Rice",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
       "playerId": 4430737,
       "name": "Kyren Williams",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -1193,7 +1193,7 @@
       "playerId": 4696981,
       "name": "Cam Skattebo",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "RB",
       "points": 0
      },
      {
@@ -1207,7 +1207,7 @@
       "playerId": 16737,
       "name": "Mike Evans",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "WR",
       "points": 0
      },
      {
