@@ -675,7 +675,7 @@
   "id": 3051738,
   "name": "Marquez Valdes-Scantling",
   "pos": "WR",
-  "proTeamId": 24
+  "proTeamId": 0
  },
  "3051876": {
   "id": 3051876,
@@ -885,7 +885,7 @@
   "id": 3118892,
   "name": "Justin Watson",
   "pos": "WR",
-  "proTeamId": 0
+  "proTeamId": 12
  },
  "3119195": {
   "id": 3119195,
@@ -1635,7 +1635,7 @@
   "id": 4035198,
   "name": "Brandon Johnson",
   "pos": "WR",
-  "proTeamId": 0
+  "proTeamId": 23
  },
  "4035222": {
   "id": 4035222,
@@ -4059,7 +4059,7 @@
   "id": 4429939,
   "name": "Jawhar Jordan",
   "pos": "RB",
-  "proTeamId": 0
+  "proTeamId": 34
  },
  "4429955": {
   "id": 4429955,
@@ -4623,7 +4623,7 @@
   "id": 4569609,
   "name": "Evan Hull",
   "pos": "RB",
-  "proTeamId": 0
+  "proTeamId": 22
  },
  "4569618": {
   "id": 4569618,
@@ -4761,7 +4761,7 @@
   "id": 4578436,
   "name": "Coleman Owen",
   "pos": "WR",
-  "proTeamId": 0
+  "proTeamId": 9
  },
  "4586312": {
   "id": 4586312,
@@ -5097,7 +5097,7 @@
   "id": 4685279,
   "name": "Jaydon Blue",
   "pos": "RB",
-  "proTeamId": 0
+  "proTeamId": 21
  },
  "4685307": {
   "id": 4685307,
@@ -5511,7 +5511,7 @@
   "id": 4709392,
   "name": "Anthony Tyus III",
   "pos": "RB",
-  "proTeamId": 0
+  "proTeamId": 29
  },
  "4710341": {
   "id": 4710341,

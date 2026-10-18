@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 6,
- "archivedAt": "2026-10-17T09:59:24.683Z",
+ "archivedAt": "2026-10-18T10:12:57.284Z",
  "matchups": [
   {
    "id": 26,
@@ -612,7 +612,7 @@
       "playerId": -16004,
       "name": "Bengals D/ST",
       "pos": "D/ST",
-      "slot": "D/ST",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -640,7 +640,7 @@
       "playerId": -16012,
       "name": "Chiefs D/ST",
       "pos": "D/ST",
-      "slot": "BE",
+      "slot": "D/ST",
       "points": 0
      }
     ]
@@ -762,8 +762,8 @@
       "points": 0
      },
      {
-      "playerId": -16029,
-      "name": "Panthers D/ST",
+      "playerId": -16014,
+      "name": "Rams D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
       "points": 0
@@ -916,7 +916,7 @@
       "playerId": 4047646,
       "name": "A.J. Brown",
       "pos": "WR",
-      "slot": "IR",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -930,7 +930,7 @@
       "playerId": 4882093,
       "name": "Bhayshul Tuten",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -958,7 +958,7 @@
       "playerId": 4608686,
       "name": "Kyle Monangai",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "IR",
       "points": 0
      },
      {
@@ -1014,7 +1014,7 @@
       "playerId": 4373626,
       "name": "Tyler Allgeier",
       "pos": "RB",
-      "slot": "FLEX",
+      "slot": "RB",
       "points": 0
      }
     ]
@@ -1260,17 +1260,17 @@
       "points": 0
      },
      {
-      "playerId": 3917315,
-      "name": "Kyler Murray",
-      "pos": "QB",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": -16020,
       "name": "Jets D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
+      "points": 0
+     },
+     {
+      "playerId": 16731,
+      "name": "Brandin Cooks",
+      "pos": "WR",
+      "slot": "BE",
       "points": 0
      }
     ]
