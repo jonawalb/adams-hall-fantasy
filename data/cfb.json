@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 8,
  "poll": "AP Top 25",
- "fetchedAt": "2026-10-19T07:32:01.729Z",
+ "fetchedAt": "2026-10-19T11:48:50.028Z",
  "rankings": [
   {
    "rank": 1,
@@ -871,7 +871,7 @@
    "venue": "Jordan-Hare Stadium",
    "broadcast": "ABC",
    "spread": "LSU -8.5",
-   "overUnder": 49.5,
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "AUB",
@@ -1203,7 +1203,7 @@
    "detail": "10/24 - 3:00 PM EDT",
    "venue": "Gies Memorial Stadium",
    "broadcast": "BTN",
-   "spread": "ORE -10",
+   "spread": "ORE -9.5",
    "overUnder": 51.5,
    "headline": null,
    "home": {
@@ -1425,7 +1425,7 @@
    "detail": "10/24 - 3:30 PM EDT",
    "venue": "Davis Wade Stadium",
    "broadcast": "SEC Network",
-   "spread": "OU -3",
+   "spread": "OU -3.5",
    "overUnder": 46.5,
    "headline": null,
    "home": {
@@ -1574,7 +1574,7 @@
    "venue": "Scheumann Stadium",
    "broadcast": "ESPN+",
    "spread": "BALL -11.5",
-   "overUnder": 50.5,
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "BALL",

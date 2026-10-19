@@ -3003,17 +3003,17 @@
       "score": 0
      },
      "odds": {
-      "provider": "Draft Kings",
+      "provider": "DraftKings",
       "details": "SF -7.5",
-      "overUnder": 52.5,
+      "overUnder": 51.5,
       "moneyline": {
-       "home": "-440",
-       "away": "+340"
+       "home": "-410",
+       "away": "+320"
       }
      }
     }
    ]
   }
  },
- "fetchedAt": "2026-10-19T07:32:01.343Z"
+ "fetchedAt": "2026-10-19T11:48:49.587Z"
 }
