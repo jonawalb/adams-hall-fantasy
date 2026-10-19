@@ -2952,23 +2952,23 @@
      "id": "401873007",
      "date": "2026-10-19T00:20Z",
      "name": "DAL @ GB",
-     "state": "in",
-     "completed": false,
-     "winner": null,
-     "detail": "7:47 - 1st",
+     "state": "post",
+     "completed": true,
+     "winner": "home",
+     "detail": "Final",
      "home": {
       "abbr": "GB",
       "name": "Green Bay Packers",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
       "color": "204e32",
-      "score": 0
+      "score": 23
      },
      "away": {
       "abbr": "DAL",
       "name": "Dallas Cowboys",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
       "color": "002a5c",
-      "score": 0
+      "score": 13
      },
      "odds": {
       "provider": "DraftKings",
@@ -3007,13 +3007,13 @@
       "details": "SF -7.5",
       "overUnder": 52.5,
       "moneyline": {
-       "home": "-455",
-       "away": "+350"
+       "home": "-440",
+       "away": "+340"
       }
      }
     }
    ]
   }
  },
- "fetchedAt": "2026-10-19T00:34:59.414Z"
+ "fetchedAt": "2026-10-19T07:32:01.343Z"
 }

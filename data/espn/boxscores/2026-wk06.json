@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 6,
- "archivedAt": "2026-10-19T00:35:03.008Z",
+ "archivedAt": "2026-10-19T07:32:04.448Z",
  "matchups": [
   {
    "id": 26,
@@ -38,7 +38,7 @@
       "name": "Javonte Williams",
       "pos": "RB",
       "slot": "FLEX",
-      "points": 2
+      "points": 13.000000000000002
      },
      {
       "playerId": 4429615,
@@ -412,7 +412,7 @@
       "name": "George Pickens",
       "pos": "WR",
       "slot": "WR",
-      "points": 0
+      "points": 13.3
      },
      {
       "playerId": 4239996,
@@ -496,7 +496,7 @@
       "name": "MarShawn Lloyd",
       "pos": "RB",
       "slot": "RB",
-      "points": -0.5
+      "points": 1
      },
      {
       "playerId": 8439,
@@ -578,7 +578,7 @@
       "name": "Christian Watson",
       "pos": "WR",
       "slot": "WR",
-      "points": 3.7
+      "points": 9.4
      },
      {
       "playerId": 4426385,
@@ -620,7 +620,7 @@
       "name": "Jordan Love",
       "pos": "QB",
       "slot": "QB",
-      "points": 1.96
+      "points": 20.240000000000002
      },
      {
       "playerId": 4599739,
@@ -654,7 +654,7 @@
       "name": "CeeDee Lamb",
       "pos": "WR",
       "slot": "WR",
-      "points": 0
+      "points": 16
      },
      {
       "playerId": 4379399,
@@ -883,7 +883,7 @@
       "name": "Dak Prescott",
       "pos": "QB",
       "slot": "BE",
-      "points": 0.36
+      "points": 11.02
      },
      {
       "playerId": 3116365,
@@ -945,7 +945,7 @@
       "name": "Brandon Aubrey",
       "pos": "K",
       "slot": "K",
-      "points": 0
+      "points": 1
      },
      {
       "playerId": 5083076,
@@ -1083,7 +1083,7 @@
       "name": "Matthew Golden",
       "pos": "WR",
       "slot": "WR",
-      "points": 0
+      "points": 22.4
      },
      {
       "playerId": 4241985,
@@ -1194,7 +1194,7 @@
       "name": "Tucker Kraft",
       "pos": "TE",
       "slot": "BE",
-      "points": 0
+      "points": 8.7
      },
      {
       "playerId": 16737,
