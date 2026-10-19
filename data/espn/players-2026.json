@@ -3191,6 +3191,12 @@
   "pos": "WR",
   "proTeamId": 34
  },
+ "4366910": {
+  "id": 4366910,
+  "name": "Shawn Bowman",
+  "pos": "TE",
+  "proTeamId": 22
+ },
  "4366963": {
   "id": 4366963,
   "name": "Dylan Laube",
@@ -6040,6 +6046,12 @@
   "name": "Colbie Young",
   "pos": "WR",
   "proTeamId": 4
+ },
+ "5093923": {
+  "id": 5093923,
+  "name": "Andrew Armstrong",
+  "pos": "WR",
+  "proTeamId": 12
  },
  "5097554": {
   "id": 5097554,
