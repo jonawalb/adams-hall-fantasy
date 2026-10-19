@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-19T11:48:53.017Z",
+ "fetchedAt": "2026-10-19T15:24:48.254Z",
  "players": {
   "Tyler Allgeier": "ARI",
   "Carson Beck": "ARI",
@@ -88,6 +88,7 @@
   "Matthew Bergeron": "ATL",
   "Chris Blair": "ATL",
   "Zachariah Branch": "ATL",
+  "Andy Dalton": "ATL",
   "Jahan Dotson": "ATL",
   "Kyle Hinton": "ATL",
   "Austin Hooper": "ATL",
@@ -103,7 +104,6 @@
   "Kyle Pitts Sr.": "ATL",
   "Bijan Robinson": "ATL",
   "Brian Robinson Jr.": "ATL",
-  "Cooper Rush": "ATL",
   "Jack Strand": "ATL",
   "Tua Tagovailoa": "ATL",
   "Jawaan Taylor": "ATL",
@@ -491,7 +491,6 @@
   "Mike Gesicki": "CIN",
   "Tee Higgins": "CIN",
   "Myles Hinton": "CIN",
-  "Tanner Hudson": "CIN",
   "Josh Johnson": "CIN",
   "Ted Karras": "CIN",
   "Connor Lew": "CIN",
@@ -535,6 +534,7 @@
   "William Wagner": "CIN",
   "Swayze Bozeman": "CIN",
   "Jalen Davis": "CIN",
+  "Tanner Hudson": "CIN",
   "Andrei Iosivas": "CIN",
   "Brian Parker II": "CIN",
   "Ja'Sir Taylor": "CIN",
