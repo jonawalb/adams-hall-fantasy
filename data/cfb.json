@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 8,
  "poll": "AP Top 25",
- "fetchedAt": "2026-10-20T10:47:37.344Z",
+ "fetchedAt": "2026-10-20T16:20:37.710Z",
  "rankings": [
   {
    "rank": 1,
@@ -316,7 +316,7 @@
    "venue": "Pitbull Stadium",
    "broadcast": "CBSSN",
    "spread": "FIU -10",
-   "overUnder": 45.5,
+   "overUnder": 46.5,
    "headline": null,
    "home": {
     "abbr": "FIU",
@@ -352,7 +352,7 @@
    "detail": "10/20 - 7:00 PM EDT",
    "venue": "Delaware Stadium",
    "broadcast": "ESPNU",
-   "spread": "DEL -3",
+   "spread": "DEL -2.5",
    "overUnder": 52.5,
    "headline": null,
    "home": {
@@ -389,8 +389,8 @@
    "detail": "10/20 - 7:30 PM EDT",
    "venue": "Joan C. Edwards Stadium",
    "broadcast": "ESPN2",
-   "spread": "USA -3",
-   "overUnder": 65.5,
+   "spread": "USA -2.5",
+   "overUnder": 66.5,
    "headline": null,
    "home": {
     "abbr": "MRSH",
@@ -500,8 +500,8 @@
    "detail": "10/22 - 7:00 PM EDT",
    "venue": "Walens Family Field at Fifth Third Stadium",
    "broadcast": "CBSSN",
-   "spread": "LIB -10.5",
-   "overUnder": 49.5,
+   "spread": "LIB -10",
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "KENN",
@@ -537,7 +537,7 @@
    "detail": "10/22 - 7:30 PM EDT",
    "venue": "Simmons Bank Liberty Stadium",
    "broadcast": "ESPN2",
-   "spread": "MEM -10.5",
+   "spread": "MEM -10",
    "overUnder": 54.5,
    "headline": null,
    "home": {
@@ -649,7 +649,7 @@
    "venue": "H. A. Chapman Stadium",
    "broadcast": "ESPN2",
    "spread": "TLSA -1.5",
-   "overUnder": 53.5,
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "TLSA",
@@ -722,7 +722,7 @@
    "detail": "10/23 - 10:30 PM EDT",
    "venue": "Stanford Stadium",
    "broadcast": "ESPN",
-   "spread": "NCSU -7",
+   "spread": "NCSU -6.5",
    "overUnder": 55.5,
    "headline": null,
    "home": {
@@ -871,7 +871,7 @@
    "venue": "Jordan-Hare Stadium",
    "broadcast": "ABC",
    "spread": "LSU -7.5",
-   "overUnder": 50.5,
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "AUB",
@@ -908,7 +908,7 @@
    "venue": "Gerald J. Ford Stadium",
    "broadcast": "CW",
    "spread": "SMU -19.5",
-   "overUnder": 53.5,
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "SMU",
@@ -981,7 +981,7 @@
    "detail": "10/24 - 12:00 PM EDT",
    "venue": "Amon G. Carter Stadium",
    "broadcast": "ESPN2",
-   "spread": "TCU -8.5",
+   "spread": "TCU -9.5",
    "overUnder": 56.5,
    "headline": null,
    "home": {
@@ -1869,7 +1869,7 @@
    "detail": "10/24 - 6:00 PM EDT",
    "venue": "Martin Stadium",
    "broadcast": "USA Net",
-   "spread": "BOIS -13.5",
+   "spread": "BOIS -12.5",
    "overUnder": 51.5,
    "headline": null,
    "home": {
