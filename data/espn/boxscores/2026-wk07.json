@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 7,
- "archivedAt": "2026-10-20T09:06:48.576Z",
+ "archivedAt": "2026-10-20T10:47:40.148Z",
  "matchups": [
   {
    "id": 31,
@@ -1158,14 +1158,14 @@
       "playerId": 4262921,
       "name": "Justin Jefferson",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0
      },
      {
       "playerId": 4047365,
       "name": "Josh Jacobs",
       "pos": "RB",
-      "slot": "IR",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -1193,7 +1193,7 @@
       "playerId": 4360078,
       "name": "Alec Pierce",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "IR",
       "points": 0
      },
      {
@@ -1207,14 +1207,14 @@
       "playerId": 4701936,
       "name": "Matthew Golden",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "FLEX",
       "points": 0
      },
      {
       "playerId": 4241985,
       "name": "J.K. Dobbins",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "RB",
       "points": 0
      },
      {
@@ -1263,14 +1263,14 @@
       "playerId": 4685247,
       "name": "Braelon Allen",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "BE",
       "points": 0
      },
      {
       "playerId": 4429059,
       "name": "Woody Marks",
       "pos": "RB",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0
      }
     ]
