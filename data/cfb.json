@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 8,
  "poll": "AP Top 25",
- "fetchedAt": "2026-10-19T15:24:46.081Z",
+ "fetchedAt": "2026-10-20T09:06:45.528Z",
  "rankings": [
   {
    "rank": 1,
@@ -390,7 +390,7 @@
    "venue": "Joan C. Edwards Stadium",
    "broadcast": "ESPN2",
    "spread": "USA -3",
-   "overUnder": 64.5,
+   "overUnder": 65.5,
    "headline": null,
    "home": {
     "abbr": "MRSH",
@@ -427,7 +427,7 @@
    "venue": "Elliott T. Bowers Stadium",
    "broadcast": "ESPN2",
    "spread": "NMSU -3",
-   "overUnder": 45.5,
+   "overUnder": 44.5,
    "headline": null,
    "home": {
     "abbr": "SHSU",
@@ -685,7 +685,7 @@
    "detail": "10/23 - 9:00 PM EDT",
    "venue": "War Memorial Stadium",
    "broadcast": "CW",
-   "spread": "AF -5.5",
+   "spread": "AF -4.5",
    "overUnder": 45.5,
    "headline": null,
    "home": {
@@ -760,7 +760,7 @@
    "venue": "Hard Rock Stadium",
    "broadcast": "ESPN",
    "spread": "MIA -20.5",
-   "overUnder": 51.5,
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "MIA",
@@ -870,7 +870,7 @@
    "detail": "10/24 - 12:00 PM EDT",
    "venue": "Jordan-Hare Stadium",
    "broadcast": "ABC",
-   "spread": "LSU -8.5",
+   "spread": "LSU -7.5",
    "overUnder": 50.5,
    "headline": null,
    "home": {
@@ -907,7 +907,7 @@
    "detail": "10/24 - 12:00 PM EDT",
    "venue": "Gerald J. Ford Stadium",
    "broadcast": "CW",
-   "spread": "SMU -18.5",
+   "spread": "SMU -19.5",
    "overUnder": 53.5,
    "headline": null,
    "home": {
@@ -1018,8 +1018,8 @@
    "detail": "10/24 - 12:00 PM EDT",
    "venue": "Flagler Credit Union Stadium",
    "broadcast": "ESPNU",
-   "spread": "FAU -10",
-   "overUnder": 54.5,
+   "spread": "FAU -7.5",
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "FAU",
@@ -1167,7 +1167,7 @@
    "venue": "Kelly/Shorts Stadium",
    "broadcast": "ESPN+",
    "spread": "M-OH -2.5",
-   "overUnder": 42.5,
+   "overUnder": 40.5,
    "headline": null,
    "home": {
     "abbr": "CMU",
@@ -1351,7 +1351,7 @@
    "detail": "10/24 - 3:30 PM EDT",
    "venue": "Bryant-Denny Stadium",
    "broadcast": "ABC",
-   "spread": "ALA -14.5",
+   "spread": "ALA -14",
    "overUnder": 50.5,
    "headline": null,
    "home": {
@@ -1426,7 +1426,7 @@
    "venue": "Davis Wade Stadium",
    "broadcast": "SEC Network",
    "spread": "OU -4",
-   "overUnder": 45.5,
+   "overUnder": 44.5,
    "headline": null,
    "home": {
     "abbr": "MSST",
@@ -1499,7 +1499,7 @@
    "detail": "10/24 - 3:30 PM EDT",
    "venue": "Navy-Marine Corps Memorial Stadium",
    "broadcast": "CBSSN",
-   "spread": "UNT -1.5",
+   "spread": "UNT -2.5",
    "overUnder": 61.5,
    "headline": null,
    "home": {
@@ -1537,7 +1537,7 @@
    "venue": "Huskie Stadium",
    "broadcast": "MW+",
    "spread": "HAW -4.5",
-   "overUnder": 46.5,
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "NIU",
@@ -1573,7 +1573,7 @@
    "detail": "10/24 - 3:30 PM EDT",
    "venue": "Scheumann Stadium",
    "broadcast": "ESPN+",
-   "spread": "BALL -14",
+   "spread": "BALL -14.5",
    "overUnder": 51.5,
    "headline": null,
    "home": {
@@ -1648,7 +1648,7 @@
    "venue": "Mountain America Stadium",
    "broadcast": "ESPN2",
    "spread": "KSU -3.5",
-   "overUnder": 57.5,
+   "overUnder": 56.5,
    "headline": null,
    "home": {
     "abbr": "ASU",
@@ -1684,8 +1684,8 @@
    "detail": "10/24 - 4:00 PM EDT",
    "venue": "Peden Stadium",
    "broadcast": "ESPNU",
-   "spread": "OHIO -11.5",
-   "overUnder": 49.5,
+   "spread": "OHIO -12.5",
+   "overUnder": 48.5,
    "headline": null,
    "home": {
     "abbr": "OHIO",
@@ -1758,8 +1758,8 @@
    "detail": "10/24 - 5:00 PM EDT",
    "venue": "Mackay Stadium",
    "broadcast": "MW+",
-   "spread": "NEV -5.5",
-   "overUnder": 45.5,
+   "spread": "NEV -4.5",
+   "overUnder": 46.5,
    "headline": null,
    "home": {
     "abbr": "NEV",
@@ -1832,7 +1832,7 @@
    "detail": "10/24 - 5:00 PM EDT",
    "venue": "Joe Aillet Stadium",
    "broadcast": "ESPN+",
-   "spread": "LT -11.5",
+   "spread": "LT -12.5",
    "overUnder": 46.5,
    "headline": null,
    "home": {
@@ -1906,8 +1906,8 @@
    "detail": "10/24 - 6:30 PM EDT",
    "venue": "Canvas Stadium",
    "broadcast": "CW",
-   "spread": "SDSU -2.5",
-   "overUnder": 60.5,
+   "spread": "SDSU -1.5",
+   "overUnder": 63.5,
    "headline": null,
    "home": {
     "abbr": "CSU",
@@ -2054,8 +2054,8 @@
    "detail": "10/24 - 7:30 PM EDT",
    "venue": "DKR-Texas Memorial Stadium",
    "broadcast": "ABC",
-   "spread": "TEX -3.5",
-   "overUnder": 52.5,
+   "spread": "TEX -3",
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "TEX",
@@ -2091,8 +2091,8 @@
    "detail": "10/24 - 7:30 PM EDT",
    "venue": "Kroger Field",
    "broadcast": "SEC Network",
-   "spread": "UK -11.5",
-   "overUnder": 50.5,
+   "spread": "UK -10.5",
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "UK",
@@ -2166,7 +2166,7 @@
    "venue": "Casino Del Sol Stadium",
    "broadcast": "ESPN2",
    "spread": "ARIZ -10",
-   "overUnder": 51.5,
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "ARIZ",
@@ -2202,7 +2202,7 @@
    "detail": "10/24 - 7:30 PM EDT",
    "venue": "Kenan Stadium",
    "broadcast": "ACC Network",
-   "spread": "UNC -8.5",
+   "spread": "UNC -7.5",
    "overUnder": 46.5,
    "headline": null,
    "home": {
@@ -2240,7 +2240,7 @@
    "venue": "UFCU Stadium",
    "broadcast": "CBSSN",
    "spread": "TXST -12.5",
-   "overUnder": 59.5,
+   "overUnder": 60.5,
    "headline": null,
    "home": {
     "abbr": "TXST",
