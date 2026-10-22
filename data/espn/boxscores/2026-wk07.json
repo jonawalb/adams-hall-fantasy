@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 7,
- "archivedAt": "2026-10-21T10:59:27.420Z",
+ "archivedAt": "2026-10-22T10:58:15.936Z",
  "matchups": [
   {
    "id": 31,
@@ -307,14 +307,14 @@
       "playerId": 3916387,
       "name": "Lamar Jackson",
       "pos": "QB",
-      "slot": "BE",
+      "slot": "QB",
       "points": 0
      },
      {
       "playerId": 4035538,
       "name": "David Montgomery",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "RB",
       "points": 0
      },
      {
@@ -353,27 +353,6 @@
       "points": 0
      },
      {
-      "playerId": 4360234,
-      "name": "Evan McPherson",
-      "pos": "K",
-      "slot": "BE",
-      "points": 0
-     },
-     {
-      "playerId": 4887558,
-      "name": "Emanuel Wilson",
-      "pos": "RB",
-      "slot": "BE",
-      "points": 0
-     },
-     {
-      "playerId": 2969939,
-      "name": "Jameis Winston",
-      "pos": "QB",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 17372,
       "name": "Chris Boswell",
       "pos": "K",
@@ -384,7 +363,28 @@
       "playerId": -16014,
       "name": "Rams D/ST",
       "pos": "D/ST",
+      "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 4360248,
+      "name": "Kyle Pitts Sr.",
+      "pos": "TE",
+      "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": -16029,
+      "name": "Panthers D/ST",
+      "pos": "D/ST",
       "slot": "D/ST",
+      "points": 0
+     },
+     {
+      "playerId": 4433970,
+      "name": "J.J. McCarthy",
+      "pos": "QB",
+      "slot": "BE",
       "points": 0
      }
     ]
@@ -584,7 +584,7 @@
       "playerId": 4360689,
       "name": "Tyler Shough",
       "pos": "QB",
-      "slot": "QB",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -605,14 +605,14 @@
       "playerId": 4431452,
       "name": "Drake Maye",
       "pos": "QB",
-      "slot": "BE",
+      "slot": "QB",
       "points": 0
      },
      {
       "playerId": 4429096,
       "name": "Blake Corum",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "RB",
       "points": 0
      },
      {
@@ -623,17 +623,17 @@
       "points": 0
      },
      {
-      "playerId": 4373626,
-      "name": "Tyler Allgeier",
-      "pos": "RB",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": -16005,
       "name": "Browns D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
+      "points": 0
+     },
+     {
+      "playerId": 4360516,
+      "name": "Tyrone Tracy Jr.",
+      "pos": "RB",
+      "slot": "BE",
       "points": 0
      }
     ]
@@ -798,7 +798,7 @@
       "playerId": 4567750,
       "name": "Emeka Egbuka",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0
      },
      {
@@ -819,14 +819,14 @@
       "playerId": 16737,
       "name": "Mike Evans",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
       "playerId": 4686361,
       "name": "Cam Little",
       "pos": "K",
-      "slot": "K",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -889,7 +889,7 @@
       "playerId": 4568263,
       "name": "Ryan Fitzgerald",
       "pos": "K",
-      "slot": "BE",
+      "slot": "K",
       "points": 0
      }
     ]
@@ -902,14 +902,14 @@
       "playerId": 4362628,
       "name": "Ja'Marr Chase",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "WR",
       "points": 0
      },
      {
       "playerId": 4567048,
       "name": "Kenneth Walker III",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -923,14 +923,14 @@
       "playerId": 4685702,
       "name": "Quinshon Judkins",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "RB",
       "points": 0
      },
      {
       "playerId": 4431459,
       "name": "Tyler Warren",
       "pos": "TE",
-      "slot": "TE",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -944,7 +944,7 @@
       "playerId": 4431299,
       "name": "Rome Odunze",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -1007,7 +1007,7 @@
       "playerId": 3116365,
       "name": "Mark Andrews",
       "pos": "TE",
-      "slot": "BE",
+      "slot": "TE",
       "points": 0
      },
      {
@@ -1058,13 +1058,6 @@
       "points": 0
      },
      {
-      "playerId": 3121422,
-      "name": "Terry McLaurin",
-      "pos": "WR",
-      "slot": "IR",
-      "points": 0
-     },
-     {
       "playerId": 3915416,
       "name": "DJ Moore",
       "pos": "WR",
@@ -1107,13 +1100,6 @@
       "points": 0
      },
      {
-      "playerId": 5083315,
-      "name": "Kenyon Sadiq",
-      "pos": "TE",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": -16016,
       "name": "Vikings D/ST",
       "pos": "D/ST",
@@ -1145,6 +1131,13 @@
       "playerId": 4683062,
       "name": "Xavier Worthy",
       "pos": "WR",
+      "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 4696044,
+      "name": "Kaelon Black",
+      "pos": "RB",
       "slot": "BE",
       "points": 0
      }
@@ -1211,17 +1204,10 @@
       "points": 0
      },
      {
-      "playerId": 4362081,
-      "name": "Cameron Dicker",
-      "pos": "K",
-      "slot": "K",
-      "points": 0
-     },
-     {
       "playerId": -16023,
       "name": "Steelers D/ST",
       "pos": "D/ST",
-      "slot": "D/ST",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -1235,20 +1221,13 @@
       "playerId": 3139477,
       "name": "Patrick Mahomes",
       "pos": "QB",
-      "slot": "QB",
+      "slot": "BE",
       "points": 0
      },
      {
       "playerId": -16017,
       "name": "Patriots D/ST",
       "pos": "D/ST",
-      "slot": "BE",
-      "points": 0
-     },
-     {
-      "playerId": 4428850,
-      "name": "Dontayvion Wicks",
-      "pos": "WR",
       "slot": "BE",
       "points": 0
      },
@@ -1270,7 +1249,21 @@
       "playerId": 4432577,
       "name": "C.J. Stroud",
       "pos": "QB",
-      "slot": "BE",
+      "slot": "QB",
+      "points": 0
+     },
+     {
+      "playerId": 5082424,
+      "name": "Dominic Zvada",
+      "pos": "K",
+      "slot": "K",
+      "points": 0
+     },
+     {
+      "playerId": -16010,
+      "name": "Titans D/ST",
+      "pos": "D/ST",
+      "slot": "D/ST",
       "points": 0
      }
     ]
