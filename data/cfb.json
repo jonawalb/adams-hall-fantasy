@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 8,
  "poll": "AP Top 25",
- "fetchedAt": "2026-10-23T08:55:39.469Z",
+ "fetchedAt": "2026-10-23T10:51:18.245Z",
  "rankings": [
   {
    "rank": 1,
@@ -1203,7 +1203,7 @@
    "detail": "10/24 - 3:00 PM EDT",
    "venue": "Gies Memorial Stadium",
    "broadcast": "BTN",
-   "spread": "ORE -8.5",
+   "spread": "ORE -9.5",
    "overUnder": 50.5,
    "headline": null,
    "home": {
@@ -2018,7 +2018,7 @@
    "venue": "Centennial Bank Stadium",
    "broadcast": "ESPN+",
    "spread": "GAST -2.5",
-   "overUnder": 58.5,
+   "overUnder": 57.5,
    "headline": null,
    "home": {
     "abbr": "ARST",

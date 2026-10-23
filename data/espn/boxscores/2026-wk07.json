@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 7,
- "archivedAt": "2026-10-23T08:55:44.120Z",
+ "archivedAt": "2026-10-23T10:51:21.912Z",
  "matchups": [
   {
    "id": 31,
@@ -432,7 +432,7 @@
       "playerId": 4430027,
       "name": "Sam LaPorta",
       "pos": "TE",
-      "slot": "BE",
+      "slot": "TE",
       "points": 0
      },
      {
@@ -446,7 +446,7 @@
       "playerId": 3128429,
       "name": "Courtland Sutton",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -467,7 +467,7 @@
       "playerId": 15847,
       "name": "Travis Kelce",
       "pos": "TE",
-      "slot": "TE",
+      "slot": "FLEX",
       "points": 0
      },
      {
