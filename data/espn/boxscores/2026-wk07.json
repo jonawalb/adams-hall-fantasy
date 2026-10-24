@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 7,
- "archivedAt": "2026-10-23T10:51:21.912Z",
+ "archivedAt": "2026-10-24T10:06:06.830Z",
  "matchups": [
   {
    "id": 31,
@@ -293,7 +293,7 @@
       "playerId": 4241478,
       "name": "DeVonta Smith",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -321,7 +321,7 @@
       "playerId": 4871023,
       "name": "Carnell Tate",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -630,15 +630,15 @@
       "points": 0
      },
      {
-      "playerId": 4360516,
-      "name": "Tyrone Tracy Jr.",
+      "playerId": 4427728,
+      "name": "Bam Knight",
       "pos": "RB",
       "slot": "BE",
       "points": 0
      },
      {
-      "playerId": 4427728,
-      "name": "Bam Knight",
+      "playerId": 4887558,
+      "name": "Emanuel Wilson",
       "pos": "RB",
       "slot": "BE",
       "points": 0
@@ -709,7 +709,7 @@
       "playerId": 4426385,
       "name": "Zach Charbonnet",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "IR",
       "points": 0
      },
      {
@@ -744,7 +744,7 @@
       "playerId": 4599739,
       "name": "Kendre Miller",
       "pos": "RB",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -798,7 +798,7 @@
       "playerId": 4567750,
       "name": "Emeka Egbuka",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -858,13 +858,6 @@
       "points": 0
      },
      {
-      "playerId": 3116406,
-      "name": "Tyreek Hill",
-      "pos": "WR",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 4362238,
       "name": "Chase Brown",
       "pos": "RB",
@@ -890,6 +883,13 @@
       "name": "Ryan Fitzgerald",
       "pos": "K",
       "slot": "K",
+      "points": 0
+     },
+     {
+      "playerId": 4429205,
+      "name": "Jordan Addison",
+      "pos": "WR",
+      "slot": "WR",
       "points": 0
      }
     ]

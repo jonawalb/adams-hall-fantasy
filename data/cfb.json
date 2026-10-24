@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 8,
  "poll": "AP Top 25",
- "fetchedAt": "2026-10-23T10:51:18.245Z",
+ "fetchedAt": "2026-10-24T10:06:03.712Z",
  "rankings": [
   {
    "rank": 1,
@@ -569,14 +569,14 @@
    "id": "401858271",
    "date": "2026-10-23T23:00Z",
    "name": "DUKE @ UVA",
-   "state": "pre",
-   "completed": false,
-   "detail": "10/23 - 7:00 PM EDT",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Scott Stadium",
    "broadcast": "ESPN",
-   "spread": "UVA -2.5",
-   "overUnder": 46.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Duke uses trick-play TD pass from Nate Sheppard to pull out 19-16 victory over Virginia",
    "home": {
     "abbr": "UVA",
     "name": "Virginia Cavaliers",
@@ -584,8 +584,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
     "color": "232d4b",
     "rank": null,
-    "score": 0,
-    "record": "4-3",
+    "score": 16,
+    "record": "4-4",
     "conferenceId": "1",
     "winner": false
    },
@@ -596,24 +596,24 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
     "color": "00539b",
     "rank": null,
-    "score": 0,
-    "record": "4-2",
+    "score": 19,
+    "record": "5-2",
     "conferenceId": "1",
-    "winner": false
+    "winner": true
    }
   },
   {
    "id": "401861965",
    "date": "2026-10-23T23:00Z",
    "name": "MASS @ CONN",
-   "state": "pre",
-   "completed": false,
-   "detail": "10/23 - 7:00 PM EDT",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Pratt & Whitney Stadium",
    "broadcast": "CBSSN",
-   "spread": "CONN -14.5",
-   "overUnder": 50.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Kalieb Osborne, Shamar Porter guide UConn to 35-16 victory over UMass",
    "home": {
     "abbr": "CONN",
     "name": "UConn Huskies",
@@ -621,10 +621,10 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
     "color": "0c2340",
     "rank": null,
-    "score": 0,
-    "record": "3-3",
+    "score": 35,
+    "record": "4-3",
     "conferenceId": "18",
-    "winner": false
+    "winner": true
    },
    "away": {
     "abbr": "MASS",
@@ -633,8 +633,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/113.png",
     "color": "881c1c",
     "rank": null,
-    "score": 0,
-    "record": "4-3",
+    "score": 16,
+    "record": "4-4",
     "conferenceId": "15",
     "winner": false
    }
@@ -643,14 +643,14 @@
    "id": "401862808",
    "date": "2026-10-24T00:30Z",
    "name": "ARMY @ TLSA",
-   "state": "pre",
-   "completed": false,
-   "detail": "10/23 - 8:30 PM EDT",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "H. A. Chapman Stadium",
    "broadcast": "ESPN2",
-   "spread": "TLSA -1.5",
-   "overUnder": 54.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Dawson Jones' 50-yard FG on final play lifts Army over Tulsa 38-35",
    "home": {
     "abbr": "TLSA",
     "name": "Tulsa Golden Hurricane",
@@ -658,8 +658,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/202.png",
     "color": "003595",
     "rank": null,
-    "score": 0,
-    "record": "4-3",
+    "score": 35,
+    "record": "4-4",
     "conferenceId": "151",
     "winner": false
    },
@@ -670,24 +670,24 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
     "color": "000000",
     "rank": null,
-    "score": 0,
-    "record": "4-2",
+    "score": 38,
+    "record": "5-2",
     "conferenceId": "151",
-    "winner": false
+    "winner": true
    }
   },
   {
    "id": "401864525",
    "date": "2026-10-24T01:00Z",
    "name": "AFA @ WYO",
-   "state": "pre",
-   "completed": false,
-   "detail": "10/23 - 9:00 PM EDT",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "War Memorial Stadium",
    "broadcast": "CW",
-   "spread": "AF -5.5",
-   "overUnder": 44.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Tyler Hughes throws 2 TD passes, runs for score in Wyoming's 28-14 victory over Air Force",
    "home": {
     "abbr": "WYO",
     "name": "Wyoming Cowboys",
@@ -695,10 +695,10 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2751.png",
     "color": "492f24",
     "rank": null,
-    "score": 0,
-    "record": "4-3",
+    "score": 28,
+    "record": "5-3",
     "conferenceId": "17",
-    "winner": false
+    "winner": true
    },
    "away": {
     "abbr": "AFA",
@@ -707,8 +707,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
     "color": "003594",
     "rank": null,
-    "score": 0,
-    "record": "5-1",
+    "score": 14,
+    "record": "5-2",
     "conferenceId": "17",
     "winner": false
    }
@@ -717,14 +717,14 @@
    "id": "401858272",
    "date": "2026-10-24T02:30Z",
    "name": "NCSU @ STAN",
-   "state": "pre",
-   "completed": false,
-   "detail": "10/23 - 10:30 PM EDT",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Stanford Stadium",
    "broadcast": "ESPN",
-   "spread": "NCSU -6.5",
-   "overUnder": 55.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Davis Warren's 4 TD passes lead Stanford to a 31-28 win over NC State",
    "home": {
     "abbr": "STAN",
     "name": "Stanford Cardinal",
@@ -732,10 +732,10 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
     "color": "8c1515",
     "rank": null,
-    "score": 0,
-    "record": "3-4",
+    "score": 31,
+    "record": "4-4",
     "conferenceId": "1",
-    "winner": false
+    "winner": true
    },
    "away": {
     "abbr": "NCSU",
@@ -744,8 +744,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
     "color": "cc0000",
     "rank": null,
-    "score": 0,
-    "record": "3-3",
+    "score": 28,
+    "record": "3-4",
     "conferenceId": "1",
     "winner": false
    }
@@ -759,7 +759,7 @@
    "detail": "10/24 - 12:00 PM EDT",
    "venue": "Hard Rock Stadium",
    "broadcast": "ESPN",
-   "spread": "MIA -19.5",
+   "spread": "MIA -20.5",
    "overUnder": 48.5,
    "headline": null,
    "home": {
@@ -834,7 +834,7 @@
    "venue": "Nippert Stadium",
    "broadcast": "FS1",
    "spread": "TTU -11.5",
-   "overUnder": 56.5,
+   "overUnder": 57.5,
    "headline": null,
    "home": {
     "abbr": "CIN",
@@ -944,8 +944,8 @@
    "detail": "10/24 - 12:00 PM EDT",
    "venue": "Ryan Field",
    "broadcast": "Peacock",
-   "spread": "NU -16.5",
-   "overUnder": 58.5,
+   "spread": "NU -15.5",
+   "overUnder": 59.5,
    "headline": null,
    "home": {
     "abbr": "NU",
@@ -1019,7 +1019,7 @@
    "venue": "Flagler Credit Union Stadium",
    "broadcast": "ESPNU",
    "spread": "FAU -8.5",
-   "overUnder": 52.5,
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "FAU",
@@ -1092,7 +1092,7 @@
    "detail": "10/24 - 1:00 PM EDT",
    "venue": "David Booth Kansas Memorial Stadium",
    "broadcast": "TNT",
-   "spread": "BAY -2.5",
+   "spread": "BAY -1.5",
    "overUnder": 53.5,
    "headline": null,
    "home": {
@@ -1166,8 +1166,8 @@
    "detail": "10/24 - 1:00 PM EDT",
    "venue": "Kelly/Shorts Stadium",
    "broadcast": "ESPN+",
-   "spread": "M-OH -3",
-   "overUnder": 39.5,
+   "spread": "M-OH -3.5",
+   "overUnder": 40.5,
    "headline": null,
    "home": {
     "abbr": "CMU",
@@ -1203,8 +1203,8 @@
    "detail": "10/24 - 3:00 PM EDT",
    "venue": "Gies Memorial Stadium",
    "broadcast": "BTN",
-   "spread": "ORE -9.5",
-   "overUnder": 50.5,
+   "spread": "ORE -10",
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "ILL",
@@ -1240,7 +1240,7 @@
    "detail": "10/24 - 3:30 PM EDT",
    "venue": "Acrisure Bounce House",
    "broadcast": "Fox",
-   "spread": "BYU -7",
+   "spread": "BYU -7.5",
    "overUnder": 43.5,
    "headline": null,
    "home": {
@@ -1278,7 +1278,7 @@
    "venue": "Rose Bowl",
    "broadcast": "CBS",
    "spread": "UCLA -15.5",
-   "overUnder": 43.5,
+   "overUnder": 44.5,
    "headline": null,
    "home": {
     "abbr": "UCLA",
@@ -1388,7 +1388,7 @@
    "detail": "10/24 - 3:30 PM EDT",
    "venue": "Huntington Bank Stadium",
    "broadcast": "FS1",
-   "spread": "IOWA -7",
+   "spread": "IOWA -7.5",
    "overUnder": 40.5,
    "headline": null,
    "home": {
@@ -1425,8 +1425,8 @@
    "detail": "10/24 - 3:30 PM EDT",
    "venue": "Davis Wade Stadium",
    "broadcast": "SEC Network",
-   "spread": "OU -3",
-   "overUnder": 46.5,
+   "spread": "OU -2.5",
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "MSST",
@@ -1462,7 +1462,7 @@
    "detail": "10/24 - 3:30 PM EDT",
    "venue": "Bobby Dodd Stadium",
    "broadcast": "ACC Network",
-   "spread": "GT -5.5",
+   "spread": "GT -6",
    "overUnder": 50.5,
    "headline": null,
    "home": {
@@ -1499,7 +1499,7 @@
    "detail": "10/24 - 3:30 PM EDT",
    "venue": "Navy-Marine Corps Memorial Stadium",
    "broadcast": "CBSSN",
-   "spread": "UNT -2.5",
+   "spread": "UNT -3",
    "overUnder": 62.5,
    "headline": null,
    "home": {
@@ -1536,8 +1536,8 @@
    "detail": "10/24 - 3:30 PM EDT",
    "venue": "Huskie Stadium",
    "broadcast": "MW+",
-   "spread": "HAW -4.5",
-   "overUnder": 47.5,
+   "spread": "HAW -3.5",
+   "overUnder": 48.5,
    "headline": null,
    "home": {
     "abbr": "NIU",
@@ -1647,8 +1647,8 @@
    "detail": "10/24 - 3:45 PM EDT",
    "venue": "Mountain America Stadium",
    "broadcast": "ESPN2",
-   "spread": "KSU -2.5",
-   "overUnder": 55.5,
+   "spread": "KSU -1.5",
+   "overUnder": 52.5,
    "headline": null,
    "home": {
     "abbr": "ASU",
@@ -1684,7 +1684,7 @@
    "detail": "10/24 - 4:00 PM EDT",
    "venue": "Peden Stadium",
    "broadcast": "ESPNU",
-   "spread": "OHIO -11.5",
+   "spread": "OHIO -10",
    "overUnder": 48.5,
    "headline": null,
    "home": {
@@ -1721,8 +1721,8 @@
    "detail": "10/24 - 4:00 PM EDT",
    "venue": "Veterans Memorial Stadium (AL)",
    "broadcast": "ESPN+",
-   "spread": "TROY -13.5",
-   "overUnder": 50.5,
+   "spread": "TROY -11.5",
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "TROY",
@@ -1833,7 +1833,7 @@
    "venue": "Joe Aillet Stadium",
    "broadcast": "ESPN+",
    "spread": "LT -13.5",
-   "overUnder": 45.5,
+   "overUnder": 44.5,
    "headline": null,
    "home": {
     "abbr": "LT",
@@ -1869,7 +1869,7 @@
    "detail": "10/24 - 6:00 PM EDT",
    "venue": "Martin Stadium",
    "broadcast": "USA Net",
-   "spread": "BOIS -13.5",
+   "spread": "BOIS -14.5",
    "overUnder": 53.5,
    "headline": null,
    "home": {
@@ -1907,7 +1907,7 @@
    "venue": "Canvas Stadium",
    "broadcast": "CW",
    "spread": "SDSU -1.5",
-   "overUnder": 62.5,
+   "overUnder": 59.5,
    "headline": null,
    "home": {
     "abbr": "CSU",
@@ -1981,7 +1981,7 @@
    "venue": "Memorial Stadium (Clemson, SC)",
    "broadcast": "ESPN",
    "spread": "CLEM -2.5",
-   "overUnder": 49.5,
+   "overUnder": 48.5,
    "headline": null,
    "home": {
     "abbr": "CLEM",
@@ -2018,7 +2018,7 @@
    "venue": "Centennial Bank Stadium",
    "broadcast": "ESPN+",
    "spread": "GAST -2.5",
-   "overUnder": 57.5,
+   "overUnder": 58.5,
    "headline": null,
    "home": {
     "abbr": "ARST",
@@ -2054,7 +2054,7 @@
    "detail": "10/24 - 7:30 PM EDT",
    "venue": "DKR-Texas Memorial Stadium",
    "broadcast": "ABC",
-   "spread": "TEX -3.5",
+   "spread": "TEX -3",
    "overUnder": 53.5,
    "headline": null,
    "home": {
@@ -2129,7 +2129,7 @@
    "venue": "Camp Randall Stadium",
    "broadcast": "NBC",
    "spread": "USC -3",
-   "overUnder": 50.5,
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "WIS",
@@ -2165,7 +2165,7 @@
    "detail": "10/24 - 7:30 PM EDT",
    "venue": "Casino Del Sol Stadium",
    "broadcast": "ESPN2",
-   "spread": "ARIZ -10",
+   "spread": "ARIZ -10.5",
    "overUnder": 51.5,
    "headline": null,
    "home": {
@@ -2203,7 +2203,7 @@
    "venue": "Kenan Stadium",
    "broadcast": "ACC Network",
    "spread": "UNC -9.5",
-   "overUnder": 46.5,
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "UNC",
@@ -2240,7 +2240,7 @@
    "venue": "UFCU Stadium",
    "broadcast": "CBSSN",
    "spread": "TXST -13.5",
-   "overUnder": 61.5,
+   "overUnder": 60.5,
    "headline": null,
    "home": {
     "abbr": "TXST",
@@ -2351,7 +2351,7 @@
    "venue": "Rice-Eccles Stadium",
    "broadcast": "ESPN",
    "spread": "UTAH -6.5",
-   "overUnder": 56.5,
+   "overUnder": 57.5,
    "headline": null,
    "home": {
     "abbr": "UTAH",

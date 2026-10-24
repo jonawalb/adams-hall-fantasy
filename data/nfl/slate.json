@@ -3073,12 +3073,12 @@
       "score": 0
      },
      "odds": {
-      "provider": "Draft Kings",
+      "provider": "DraftKings",
       "details": "PIT -3",
       "overUnder": 44.5,
       "moneyline": {
-       "home": "+145",
-       "away": "-175"
+       "home": "+136",
+       "away": "-162"
       }
      }
     },
@@ -3138,8 +3138,8 @@
      },
      "odds": {
       "provider": null,
-      "details": "CLE -1.5",
-      "overUnder": 37.5,
+      "details": "CLE -2.5",
+      "overUnder": 36.5,
       "moneyline": {
        "home": "+110",
        "away": "-130"
@@ -3173,8 +3173,8 @@
       "details": "MIN -6.5",
       "overUnder": 41.5,
       "moneyline": {
-       "home": "-278",
-       "away": "+225"
+       "home": "-290",
+       "away": "+235"
       }
      }
     },
@@ -3237,8 +3237,8 @@
       "details": "CAR -3",
       "overUnder": 44.5,
       "moneyline": {
-       "home": "-162",
-       "away": "+136"
+       "home": "-155",
+       "away": "+130"
       }
      }
     },
@@ -3266,11 +3266,11 @@
      },
      "odds": {
       "provider": null,
-      "details": "BAL -1.5",
+      "details": "CIN -1.5",
       "overUnder": 48.5,
       "moneyline": {
-       "home": "-118",
-       "away": "-102"
+       "home": "-105",
+       "away": "-115"
       }
      }
     },
@@ -3301,8 +3301,8 @@
       "details": "HOU -10.5",
       "overUnder": 42.5,
       "moneyline": {
-       "home": "-520",
-       "away": "+390"
+       "home": "-500",
+       "away": "+380"
       }
      }
     },
@@ -3365,8 +3365,8 @@
       "details": "DET -3",
       "overUnder": 53.5,
       "moneyline": {
-       "home": "-170",
-       "away": "+142"
+       "home": "-180",
+       "away": "+150"
       }
      }
     },
@@ -3394,11 +3394,11 @@
      },
      "odds": {
       "provider": null,
-      "details": "LAR -3.5",
+      "details": "LAR -3",
       "overUnder": 48.5,
       "moneyline": {
-       "home": "+160",
-       "away": "-192"
+       "home": "+145",
+       "away": "-175"
       }
      }
     },
@@ -3429,8 +3429,8 @@
       "details": "SEA -3",
       "overUnder": 42.5,
       "moneyline": {
-       "home": "-142",
-       "away": "+120"
+       "home": "-148",
+       "away": "+124"
       }
      }
     },
@@ -3469,5 +3469,5 @@
    ]
   }
  },
- "fetchedAt": "2026-10-23T10:51:17.815Z"
+ "fetchedAt": "2026-10-24T10:06:03.288Z"
 }
