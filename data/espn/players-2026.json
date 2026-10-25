@@ -561,7 +561,7 @@
   "id": 3043234,
   "name": "Zane Gonzalez",
   "pos": "K",
-  "proTeamId": 0
+  "proTeamId": 15
  },
  "3043275": {
   "id": 3043275,
@@ -1341,7 +1341,7 @@
   "id": 3916566,
   "name": "K.J. Osborn",
   "pos": "WR",
-  "proTeamId": 0
+  "proTeamId": 10
  },
  "3916587": {
   "id": 3916587,
@@ -1707,7 +1707,7 @@
   "id": 4035886,
   "name": "Khalil Herbert",
   "pos": "RB",
-  "proTeamId": 0
+  "proTeamId": 1
  },
  "4036026": {
   "id": 4036026,
@@ -5367,7 +5367,7 @@
   "id": 4692590,
   "name": "Jalin Hyatt",
   "pos": "WR",
-  "proTeamId": 0
+  "proTeamId": 19
  },
  "4692835": {
   "id": 4692835,

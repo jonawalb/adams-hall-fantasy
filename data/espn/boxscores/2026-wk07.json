@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 7,
- "archivedAt": "2026-10-24T10:06:06.830Z",
+ "archivedAt": "2026-10-25T10:31:17.559Z",
  "matchups": [
   {
    "id": 31,
@@ -169,14 +169,14 @@
       "playerId": 4429615,
       "name": "Zay Flowers",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "FLEX",
       "points": 0
      },
      {
       "playerId": 4239993,
       "name": "Tee Higgins",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "WR",
       "points": 0
      },
      {
@@ -307,7 +307,7 @@
       "playerId": 3916387,
       "name": "Lamar Jackson",
       "pos": "QB",
-      "slot": "QB",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -377,7 +377,7 @@
       "playerId": 4433970,
       "name": "J.J. McCarthy",
       "pos": "QB",
-      "slot": "BE",
+      "slot": "QB",
       "points": 0
      },
      {
@@ -692,13 +692,6 @@
       "points": 4.3
      },
      {
-      "playerId": 4426388,
-      "name": "Jameson Williams",
-      "pos": "WR",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 4248528,
       "name": "Christian Watson",
       "pos": "WR",
@@ -759,6 +752,13 @@
       "name": "Chiefs D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
+      "points": 0
+     },
+     {
+      "playerId": 4711533,
+      "name": "Ollie Gordon II",
+      "pos": "RB",
+      "slot": "RB",
       "points": 0
      }
     ]
@@ -851,13 +851,6 @@
       "points": 0
      },
      {
-      "playerId": 4711533,
-      "name": "Ollie Gordon II",
-      "pos": "RB",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 4362238,
       "name": "Chase Brown",
       "pos": "RB",
@@ -888,6 +881,13 @@
      {
       "playerId": 4429205,
       "name": "Jordan Addison",
+      "pos": "WR",
+      "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 4426388,
+      "name": "Jameson Williams",
       "pos": "WR",
       "slot": "WR",
       "points": 0
