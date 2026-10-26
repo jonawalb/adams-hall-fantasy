@@ -53,17 +53,33 @@
    "source": "{63997D52-0196-4BC4-B322-161E7342C352}"
   },
   "date": 1692632484456,
-  "dateEdited": 1792789094190,
+  "dateEdited": 1792968739681,
   "id": "fe4a54bf-0800-33f3-a06e-f0d44c44f4a0",
   "isDeleted": false,
   "isEdited": true,
   "lastUpdateInfo": {
    "clientAddress": null,
-   "date": 1792789094190,
+   "date": 1792968739681,
    "platform": null,
    "source": "LM"
   },
   "messages": [
+   {
+    "author": "LM",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1792968739681,
+     "platform": null,
+     "source": "LM"
+    },
+    "date": 1792968739681,
+    "id": "174f550f-a812-4a3d-9492-d8beab5a1e15",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 265,
+    "topicId": "fe4a54bf-0800-33f3-a06e-f0d44c44f4a0"
+   },
    {
     "author": "LM",
     "creationInfo": {
@@ -2267,7 +2283,7 @@
     "topicId": "fe4a54bf-0800-33f3-a06e-f0d44c44f4a0"
    }
   ],
-  "totalMessageCount": 136,
+  "totalMessageCount": 137,
   "type": "CHAT_ALL_MEMBERS"
  },
  {
@@ -37585,6 +37601,51 @@
   ],
   "targetId": 7,
   "totalMessageCount": 2,
+  "type": "ACTIVITY_TRANSACTIONS"
+ },
+ {
+  "author": "{671FD9E7-237D-4D4E-9B4E-F8873DE729CA}",
+  "creationInfo": {
+   "clientAddress": null,
+   "date": 1792968739672,
+   "platform": "espn-fantasy-app-ios",
+   "source": "{671FD9E7-237D-4D4E-9B4E-F8873DE729CA}"
+  },
+  "date": 1792968739672,
+  "dateEdited": 1792968739672,
+  "id": "614cb7a3-5369-45d3-964d-58bcc8bc0103",
+  "isDeleted": false,
+  "isEdited": true,
+  "lastUpdateInfo": {
+   "clientAddress": null,
+   "date": 1792968739672,
+   "platform": "espn-fantasy-app-ios",
+   "source": "{671FD9E7-237D-4D4E-9B4E-F8873DE729CA}"
+  },
+  "messages": [
+   {
+    "author": "{671FD9E7-237D-4D4E-9B4E-F8873DE729CA}",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1792968739672,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{671FD9E7-237D-4D4E-9B4E-F8873DE729CA}"
+    },
+    "date": 1792968739672,
+    "for": 2,
+    "from": 20,
+    "id": "15cfce92-bb5e-4ac1-9813-22d496be67c6",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 239,
+    "targetId": 4241457,
+    "to": -1,
+    "topicId": "614cb7a3-5369-45d3-964d-58bcc8bc0103"
+   }
+  ],
+  "targetId": 7,
+  "totalMessageCount": 1,
   "type": "ACTIVITY_TRANSACTIONS"
  }
 ]

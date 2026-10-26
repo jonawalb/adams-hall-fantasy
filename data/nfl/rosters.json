@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-25T22:09:06.171Z",
+ "fetchedAt": "2026-10-26T00:50:07.895Z",
  "players": {
   "Tyler Allgeier": "ARI",
   "Carson Beck": "ARI",
@@ -1242,6 +1242,7 @@
   "Jaden Hicks": "KC",
   "Chris Jones": "KC",
   "George Karlaftis": "KC",
+  "Cooper McDonald": "KC",
   "Xavier Nwankpa": "KC",
   "Jack Pyburn": "KC",
   "Chris Roland-Wallace": "KC",
@@ -1259,7 +1260,6 @@
   "Ethan Downs": "KC",
   "John Michael Gyllenborg": "KC",
   "Jimmy Holiday": "KC",
-  "Cooper McDonald": "KC",
   "Omarr Norman-Lott": "KC",
   "Josh Simmons": "KC",
   "Brashard Smith": "KC",
@@ -2153,6 +2153,7 @@
   "Julius Welschof": "PIT",
   "Jacoby Windmon": "PIT",
   "AJ Barner": "SEA",
+  "Anthony Bradford": "SEA",
   "Zach Charbonnet": "SEA",
   "Irv Charles": "SEA",
   "Charles Cross": "SEA",
@@ -2212,7 +2213,6 @@
   "Chris Stoll": "SEA",
   "Elijah Arroyo": "SEA",
   "Jake Bobo": "SEA",
-  "Anthony Bradford": "SEA",
   "Bud Clark": "SEA",
   "Julian Neal": "SEA",
   "Robbie Ouzts": "SEA",
