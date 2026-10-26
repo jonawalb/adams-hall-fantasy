@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 9,
  "poll": "AP Top 25",
- "fetchedAt": "2026-10-26T07:36:49.748Z",
+ "fetchedAt": "2026-10-26T12:04:06.834Z",
  "rankings": [
   {
    "rank": 1,
@@ -649,7 +649,7 @@
    "venue": "Gillette Stadium",
    "broadcast": "ABC",
    "spread": "ND -29.5",
-   "overUnder": 53.5,
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "NAVY",
@@ -1241,7 +1241,7 @@
    "venue": "Hancock Whitney Stadium",
    "broadcast": "ESPN+",
    "spread": "LT -5.5",
-   "overUnder": 56.5,
+   "overUnder": 57.5,
    "headline": null,
    "home": {
     "abbr": "USA",
@@ -2055,7 +2055,7 @@
    "venue": "Los Angeles Memorial Coliseum",
    "broadcast": "NBC",
    "spread": "OSU -7",
-   "overUnder": 50.5,
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "USC",
@@ -2092,7 +2092,7 @@
    "venue": "DKR-Texas Memorial Stadium",
    "broadcast": "ESPN",
    "spread": "TEX -21",
-   "overUnder": 50.5,
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "TEX",

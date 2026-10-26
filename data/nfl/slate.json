@@ -3457,7 +3457,7 @@
       "score": 0
      },
      "odds": {
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "details": "DAL -4.5",
       "overUnder": 43.5,
       "moneyline": {
@@ -3469,5 +3469,5 @@
    ]
   }
  },
- "fetchedAt": "2026-10-26T07:36:49.374Z"
+ "fetchedAt": "2026-10-26T12:04:06.425Z"
 }
