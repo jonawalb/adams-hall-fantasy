@@ -37647,5 +37647,384 @@
   "targetId": 7,
   "totalMessageCount": 1,
   "type": "ACTIVITY_TRANSACTIONS"
+ },
+ {
+  "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+  "creationInfo": {
+   "clientAddress": null,
+   "date": 1792985179982,
+   "platform": "espn-fantasy-app-ios",
+   "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+  },
+  "date": 1792985179982,
+  "dateEdited": 1792985208751,
+  "id": "21617bd0-e912-3c1e-abe0-f2d3d7e2faf4",
+  "isDeleted": false,
+  "isEdited": true,
+  "lastUpdateInfo": {
+   "clientAddress": null,
+   "date": 1792985208751,
+   "platform": "espn-fantasy-app-ios",
+   "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+  },
+  "messages": [
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "Drake Maye 48 yard touchdown pass",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1792985208751,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1792985208751,
+    "for": 10,
+    "id": "034c22ba-de17-4886-9f75-f050bbc77a28",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 278,
+    "subject": "+5.9 Points",
+    "topicId": "21617bd0-e912-3c1e-abe0-f2d3d7e2faf4"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "Shrey again",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1792985208751,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1792985208751,
+    "for": 10,
+    "id": "6f11914e-debb-49ed-be67-6d1596481b46",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 280,
+    "topicId": "21617bd0-e912-3c1e-abe0-f2d3d7e2faf4"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "https://g.espncdn.com/lm-static/ffl/player-animations/2026/17_4431452_sig_1.mp4?buildNumber=undefined&version=44",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1792985208751,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1792985208751,
+    "for": 10,
+    "id": "f4284c0c-a92e-4976-831b-51f3453178eb",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 279,
+    "topicId": "21617bd0-e912-3c1e-abe0-f2d3d7e2faf4"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "Shreya",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1792985196563,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1792985196563,
+    "for": 10,
+    "id": "a519435b-06de-4713-9bf8-aae4d1c5bbbb",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 280,
+    "topicId": "21617bd0-e912-3c1e-abe0-f2d3d7e2faf4"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "Drake Maye 30 yard touchdown pass",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1792985196563,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1792985196563,
+    "for": 10,
+    "id": "6d2270e7-114d-4559-a158-b16e17278074",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 278,
+    "subject": "+5.2 Points",
+    "topicId": "21617bd0-e912-3c1e-abe0-f2d3d7e2faf4"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "https://g.espncdn.com/lm-static/ffl/player-animations/2026/17_4431452_sig_2.mp4?buildNumber=undefined&version=44",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1792985196563,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1792985196563,
+    "for": 10,
+    "id": "064f31a4-9803-43a7-b739-54e7f9fe9ecf",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 279,
+    "topicId": "21617bd0-e912-3c1e-abe0-f2d3d7e2faf4"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "Blake Corum 4 yard touchdown run",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1792985188502,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1792985188502,
+    "for": 10,
+    "id": "0746d8f7-a3e1-4e50-aa48-d455b79cbc0d",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 278,
+    "subject": "+6.4 Points",
+    "topicId": "21617bd0-e912-3c1e-abe0-f2d3d7e2faf4"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "https://g.espncdn.com/lm-static/ffl/player-animations/2026/14_4429096_gen_5.mp4?buildNumber=undefined&version=44",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1792985188502,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1792985188502,
+    "for": 10,
+    "id": "9a445b08-3467-422e-bd65-ced20b3af4d0",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 279,
+    "topicId": "21617bd0-e912-3c1e-abe0-f2d3d7e2faf4"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "Tits and ass",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1792985188502,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1792985188502,
+    "for": 10,
+    "id": "3c2cef38-f779-4875-9681-0a4813e4e3ac",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 280,
+    "topicId": "21617bd0-e912-3c1e-abe0-f2d3d7e2faf4"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "Bitch ass boy",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1792985179982,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1792985179982,
+    "for": 10,
+    "id": "7db6af78-0677-48d3-99f0-81860e6fecc7",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 280,
+    "topicId": "21617bd0-e912-3c1e-abe0-f2d3d7e2faf4"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "Jaxon Smith-Njigba 28 yard touchdown reception",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1792985179982,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1792985179982,
+    "for": 10,
+    "id": "19d18942-1f22-408a-99ab-ca42c0f0126a",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 278,
+    "subject": "+9.8 Points",
+    "topicId": "21617bd0-e912-3c1e-abe0-f2d3d7e2faf4"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "https://g.espncdn.com/lm-static/ffl/player-animations/2026/26_4430878_sig_2.mp4?buildNumber=undefined&version=44",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1792985179982,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1792985179982,
+    "for": 10,
+    "id": "400ba63c-e6f1-4387-acca-d576c0c317da",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 279,
+    "topicId": "21617bd0-e912-3c1e-abe0-f2d3d7e2faf4"
+   }
+  ],
+  "subject": "DM",
+  "totalMessageCount": 12,
+  "type": "CHAT_DIRECT_MESSAGE",
+  "viewableBy": [
+   "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+   "{C2489537-0A8B-4E67-9914-7A2C71341A12}"
+  ]
+ },
+ {
+  "author": "{75AC5FD8-6722-43E4-B41D-B5D51FD8E9E7}",
+  "creationInfo": {
+   "clientAddress": null,
+   "date": 1792985060049,
+   "platform": "espn-fantasy-app-ios",
+   "source": "{75AC5FD8-6722-43E4-B41D-B5D51FD8E9E7}"
+  },
+  "date": 1792985060049,
+  "dateEdited": 1792985060049,
+  "id": "bac7e3b3-2cc8-4def-8e03-dd09bb4605f9",
+  "isDeleted": false,
+  "isEdited": true,
+  "lastUpdateInfo": {
+   "clientAddress": null,
+   "date": 1792985060049,
+   "platform": "espn-fantasy-app-ios",
+   "source": "{75AC5FD8-6722-43E4-B41D-B5D51FD8E9E7}"
+  },
+  "messages": [
+   {
+    "author": "{75AC5FD8-6722-43E4-B41D-B5D51FD8E9E7}",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1792985060049,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{75AC5FD8-6722-43E4-B41D-B5D51FD8E9E7}"
+    },
+    "date": 1792985060049,
+    "for": 4,
+    "from": 0,
+    "id": "c0950c3e-7ab9-470a-9bb7-05f5c813ef69",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 188,
+    "targetId": 4426348,
+    "to": 20,
+    "topicId": "bac7e3b3-2cc8-4def-8e03-dd09bb4605f9"
+   },
+   {
+    "author": "{75AC5FD8-6722-43E4-B41D-B5D51FD8E9E7}",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1792985060049,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{75AC5FD8-6722-43E4-B41D-B5D51FD8E9E7}"
+    },
+    "date": 1792985060049,
+    "for": 4,
+    "from": 20,
+    "id": "4b6a6978-7979-4ca4-83e1-4f90b8f79bd8",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 188,
+    "targetId": 2577417,
+    "to": 0,
+    "topicId": "bac7e3b3-2cc8-4def-8e03-dd09bb4605f9"
+   }
+  ],
+  "targetId": 7,
+  "totalMessageCount": 2,
+  "type": "ACTIVITY_TRANSACTIONS"
+ },
+ {
+  "author": "{75AC5FD8-6722-43E4-B41D-B5D51FD8E9E7}",
+  "creationInfo": {
+   "clientAddress": null,
+   "date": 1792985054729,
+   "platform": "espn-fantasy-app-ios",
+   "source": "{75AC5FD8-6722-43E4-B41D-B5D51FD8E9E7}"
+  },
+  "date": 1792985054729,
+  "dateEdited": 1792985054729,
+  "id": "5bce6b16-7f47-4c77-b094-c2ba5cc55192",
+  "isDeleted": false,
+  "isEdited": true,
+  "lastUpdateInfo": {
+   "clientAddress": null,
+   "date": 1792985054729,
+   "platform": "espn-fantasy-app-ios",
+   "source": "{75AC5FD8-6722-43E4-B41D-B5D51FD8E9E7}"
+  },
+  "messages": [
+   {
+    "author": "{75AC5FD8-6722-43E4-B41D-B5D51FD8E9E7}",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1792985054729,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{75AC5FD8-6722-43E4-B41D-B5D51FD8E9E7}"
+    },
+    "date": 1792985054729,
+    "for": 4,
+    "from": 20,
+    "id": "ccca9334-f6b7-4a88-865d-3d90bfbf0a86",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 188,
+    "targetId": 4426348,
+    "to": 0,
+    "topicId": "5bce6b16-7f47-4c77-b094-c2ba5cc55192"
+   },
+   {
+    "author": "{75AC5FD8-6722-43E4-B41D-B5D51FD8E9E7}",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1792985054729,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{75AC5FD8-6722-43E4-B41D-B5D51FD8E9E7}"
+    },
+    "date": 1792985054729,
+    "for": 4,
+    "from": 0,
+    "id": "b66298f9-cd59-4f01-b2de-d52927ab72ae",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 188,
+    "targetId": 2577417,
+    "to": 20,
+    "topicId": "5bce6b16-7f47-4c77-b094-c2ba5cc55192"
+   }
+  ],
+  "targetId": 7,
+  "totalMessageCount": 2,
+  "type": "ACTIVITY_TRANSACTIONS"
  }
 ]

@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 7,
- "archivedAt": "2026-10-26T00:50:09.025Z",
+ "archivedAt": "2026-10-26T07:36:52.295Z",
  "matchups": [
   {
    "id": 31,
@@ -87,7 +87,7 @@
       "name": "Sam Darnold",
       "pos": "QB",
       "slot": "BE",
-      "points": 0.92
+      "points": 13.98
      },
      {
       "playerId": 4430539,
@@ -468,7 +468,7 @@
       "name": "Travis Kelce",
       "pos": "TE",
       "slot": "FLEX",
-      "points": 0
+      "points": 8.4
      },
      {
       "playerId": 3126486,
@@ -522,7 +522,7 @@
       "name": "Jaxon Smith-Njigba",
       "pos": "WR",
       "slot": "WR",
-      "points": 2.4
+      "points": 31.3
      },
      {
       "playerId": 4047646,
@@ -634,7 +634,7 @@
       "name": "Emanuel Wilson",
       "pos": "RB",
       "slot": "BE",
-      "points": 1.2000000000000002
+      "points": 18.5
      }
     ]
    },
@@ -745,7 +745,7 @@
       "name": "Chiefs D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
-      "points": 10
+      "points": -1
      },
      {
       "playerId": 4711533,
@@ -903,7 +903,7 @@
       "name": "Kenneth Walker III",
       "pos": "RB",
       "slot": "FLEX",
-      "points": 3.3000000000000003
+      "points": 9.7
      },
      {
       "playerId": 4426502,
@@ -973,14 +973,14 @@
       "name": "Jason Myers",
       "pos": "K",
       "slot": "K",
-      "points": 0
+      "points": 8
      },
      {
       "playerId": -16026,
       "name": "Seahawks D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
-      "points": 10
+      "points": 9
      },
      {
       "playerId": 4870653,
@@ -1125,7 +1125,7 @@
       "name": "Xavier Worthy",
       "pos": "WR",
       "slot": "FLEX",
-      "points": 1.2
+      "points": 4.1
      },
      {
       "playerId": 4696044,
@@ -1215,7 +1215,7 @@
       "name": "Patrick Mahomes",
       "pos": "QB",
       "slot": "BE",
-      "points": 2.32
+      "points": 6.000000000000001
      },
      {
       "playerId": -16017,
