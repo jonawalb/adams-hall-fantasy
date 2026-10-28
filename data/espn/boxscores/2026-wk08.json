@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 8,
- "archivedAt": "2026-10-27T17:28:48.969Z",
+ "archivedAt": "2026-10-28T11:56:56.014Z",
  "matchups": [
   {
    "id": 36,
@@ -215,13 +215,6 @@
       "points": 0
      },
      {
-      "playerId": 3929645,
-      "name": "Juwan Johnson",
-      "pos": "TE",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 17372,
       "name": "Chris Boswell",
       "pos": "K",
@@ -236,13 +229,6 @@
       "points": 0
      },
      {
-      "playerId": -16029,
-      "name": "Panthers D/ST",
-      "pos": "D/ST",
-      "slot": "D/ST",
-      "points": 0
-     },
-     {
       "playerId": 4433970,
       "name": "J.J. McCarthy",
       "pos": "QB",
@@ -252,6 +238,20 @@
      {
       "playerId": 4426386,
       "name": "Roschon Johnson",
+      "pos": "RB",
+      "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": -16030,
+      "name": "Jaguars D/ST",
+      "pos": "D/ST",
+      "slot": "D/ST",
+      "points": 0
+     },
+     {
+      "playerId": 4686468,
+      "name": "Seth McGowan",
       "pos": "RB",
       "slot": "BE",
       "points": 0
@@ -377,6 +377,13 @@
       "playerId": 4722893,
       "name": "Jaleel McLaughlin",
       "pos": "RB",
+      "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 3116165,
+      "name": "Chris Godwin Jr.",
+      "pos": "WR",
       "slot": "BE",
       "points": 0
      }
@@ -602,13 +609,6 @@
       "points": 0
      },
      {
-      "playerId": 4599739,
-      "name": "Kendre Miller",
-      "pos": "RB",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 4360238,
       "name": "Dameon Pierce",
       "pos": "RB",
@@ -619,7 +619,7 @@
       "playerId": -16012,
       "name": "Chiefs D/ST",
       "pos": "D/ST",
-      "slot": "BE",
+      "slot": "D/ST",
       "points": 0
      },
      {
@@ -627,6 +627,20 @@
       "name": "Ollie Gordon II",
       "pos": "RB",
       "slot": "RB",
+      "points": 0
+     },
+     {
+      "playerId": 4040761,
+      "name": "Devin Singletary",
+      "pos": "RB",
+      "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": -16004,
+      "name": "Bengals D/ST",
+      "pos": "D/ST",
+      "slot": "BE",
       "points": 0
      }
     ]
@@ -727,13 +741,6 @@
       "points": 0
      },
      {
-      "playerId": -16020,
-      "name": "Jets D/ST",
-      "pos": "D/ST",
-      "slot": "D/ST",
-      "points": 0
-     },
-     {
       "playerId": 4568263,
       "name": "Ryan Fitzgerald",
       "pos": "K",
@@ -745,6 +752,13 @@
       "name": "Jameson Williams",
       "pos": "WR",
       "slot": "WR",
+      "points": 0
+     },
+     {
+      "playerId": -16014,
+      "name": "Rams D/ST",
+      "pos": "D/ST",
+      "slot": "D/ST",
       "points": 0
      }
     ]
@@ -1082,7 +1096,7 @@
       "playerId": 3139477,
       "name": "Patrick Mahomes",
       "pos": "QB",
-      "slot": "QB",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -1114,17 +1128,17 @@
       "points": 0
      },
      {
-      "playerId": 5082424,
-      "name": "Dominic Zvada",
+      "playerId": 3150744,
+      "name": "Chase McLaughlin",
       "pos": "K",
       "slot": "K",
       "points": 0
      },
      {
-      "playerId": -16010,
-      "name": "Titans D/ST",
-      "pos": "D/ST",
-      "slot": "BE",
+      "playerId": 3917315,
+      "name": "Kyler Murray",
+      "pos": "QB",
+      "slot": "QB",
       "points": 0
      }
     ]
@@ -1144,7 +1158,7 @@
       "playerId": 4427366,
       "name": "Breece Hall",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -1190,27 +1204,6 @@
       "points": 0
      },
      {
-      "playerId": 4361432,
-      "name": "Romeo Doubs",
-      "pos": "WR",
-      "slot": "FLEX",
-      "points": 0
-     },
-     {
-      "playerId": 4241474,
-      "name": "Brian Robinson Jr.",
-      "pos": "RB",
-      "slot": "BE",
-      "points": 0
-     },
-     {
-      "playerId": 3912547,
-      "name": "Sam Darnold",
-      "pos": "QB",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 4430539,
       "name": "Brenton Strange",
       "pos": "TE",
@@ -1228,7 +1221,7 @@
       "playerId": 4429023,
       "name": "MarShawn Lloyd",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -1246,8 +1239,29 @@
       "points": 0
      },
      {
-      "playerId": 4429086,
-      "name": "Michael Mayer",
+      "playerId": 4723820,
+      "name": "Omar Cooper Jr.",
+      "pos": "WR",
+      "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 3917232,
+      "name": "Tyler Bass",
+      "pos": "K",
+      "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 4038815,
+      "name": "Rico Dowdle",
+      "pos": "RB",
+      "slot": "RB",
+      "points": 0
+     },
+     {
+      "playerId": 3046439,
+      "name": "Hunter Henry",
       "pos": "TE",
       "slot": "TE",
       "points": 0
