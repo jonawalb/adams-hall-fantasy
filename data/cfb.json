@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 9,
  "poll": "AP Top 25",
- "fetchedAt": "2026-10-30T10:32:09.718Z",
+ "fetchedAt": "2026-10-30T11:58:06.053Z",
  "rankings": [
   {
    "rank": 1,
@@ -1832,7 +1832,7 @@
    "detail": "10/31 - 4:15 PM EDT",
    "venue": "Beaver Stadium",
    "broadcast": "BTN",
-   "spread": "PSU -10",
+   "spread": "PSU -10.5",
    "overUnder": 54.5,
    "headline": null,
    "home": {
