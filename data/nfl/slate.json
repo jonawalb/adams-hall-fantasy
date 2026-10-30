@@ -3476,23 +3476,23 @@
      "id": "401873023",
      "date": "2026-10-30T00:15Z",
      "name": "CAR @ GB",
-     "state": "pre",
-     "completed": false,
-     "winner": null,
-     "detail": "10/29 - 8:15 PM EDT",
+     "state": "post",
+     "completed": true,
+     "winner": "home",
+     "detail": "Final",
      "home": {
       "abbr": "GB",
       "name": "Green Bay Packers",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
       "color": "204e32",
-      "score": 0
+      "score": 27
      },
      "away": {
       "abbr": "CAR",
       "name": "Carolina Panthers",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
       "color": "0085ca",
-      "score": 0
+      "score": 19
      },
      "odds": {
       "provider": "DraftKings",
@@ -3527,7 +3527,7 @@
       "score": 0
      },
      "odds": {
-      "provider": null,
+      "provider": "DraftKings",
       "details": "BUF -3",
       "overUnder": 54.5,
       "moneyline": {
@@ -3560,11 +3560,11 @@
      },
      "odds": {
       "provider": null,
-      "details": "CIN -10",
+      "details": "CIN -12.5",
       "overUnder": 46.5,
       "moneyline": {
-       "home": "-500",
-       "away": "+380"
+       "home": "-675",
+       "away": "+490"
       }
      }
     },
@@ -3595,8 +3595,8 @@
       "details": "DAL -7",
       "overUnder": 54.5,
       "moneyline": {
-       "home": "-325",
-       "away": "+260"
+       "home": "-310",
+       "away": "+250"
       }
      }
     },
@@ -3659,8 +3659,8 @@
       "details": "NYJ -1.5",
       "overUnder": 45.5,
       "moneyline": {
-       "home": "-125",
-       "away": "+105"
+       "home": "-122",
+       "away": "+102"
       }
      }
     },
@@ -3723,7 +3723,7 @@
       "details": "TB -2.5",
       "overUnder": 44.5,
       "moneyline": {
-       "home": "-142",
+       "home": "OFF",
        "away": "+120"
       }
      }
@@ -3755,8 +3755,8 @@
       "details": "JAX -10",
       "overUnder": 46.5,
       "moneyline": {
-       "home": "-485",
-       "away": "+370"
+       "home": "-500",
+       "away": "+380"
       }
      }
     },
@@ -3787,8 +3787,8 @@
       "details": "LAR -6.5",
       "overUnder": 45.5,
       "moneyline": {
-       "home": "-285",
-       "away": "+230"
+       "home": "-270",
+       "away": "+220"
       }
      }
     },
@@ -3851,8 +3851,8 @@
       "details": "NE -7",
       "overUnder": 43.5,
       "moneyline": {
-       "home": "+250",
-       "away": "-310"
+       "home": "+260",
+       "away": "-325"
       }
      }
     },
@@ -3883,8 +3883,8 @@
       "details": "WSH -6",
       "overUnder": 40.5,
       "moneyline": {
-       "home": "-230",
-       "away": "+190"
+       "home": "-258",
+       "away": "+210"
       }
      }
     },
@@ -3915,13 +3915,13 @@
       "details": "SEA -3",
       "overUnder": 46.5,
       "moneyline": {
-       "home": "-166",
-       "away": "+140"
+       "home": "-170",
+       "away": "+142"
       }
      }
     }
    ]
   }
  },
- "fetchedAt": "2026-10-29T12:05:55.717Z"
+ "fetchedAt": "2026-10-30T10:32:09.009Z"
 }

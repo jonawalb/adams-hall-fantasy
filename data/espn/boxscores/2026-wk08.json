@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 8,
- "archivedAt": "2026-10-29T12:06:02.085Z",
+ "archivedAt": "2026-10-30T10:32:14.756Z",
  "matchups": [
   {
    "id": 36,
@@ -286,14 +286,14 @@
       "playerId": 4870808,
       "name": "Jeremiyah Love",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0
      },
      {
       "playerId": 3918298,
       "name": "Josh Allen",
       "pos": "QB",
-      "slot": "BE",
+      "slot": "QB",
       "points": 0
      },
      {
@@ -314,7 +314,7 @@
       "playerId": 3915511,
       "name": "Joe Burrow",
       "pos": "QB",
-      "slot": "QB",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -335,14 +335,14 @@
       "playerId": -16034,
       "name": "Texans D/ST",
       "pos": "D/ST",
-      "slot": "D/ST",
+      "slot": "BE",
       "points": 0
      },
      {
       "playerId": 15847,
       "name": "Travis Kelce",
       "pos": "TE",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -357,13 +357,6 @@
       "name": "Will Reichard",
       "pos": "K",
       "slot": "K",
-      "points": 0
-     },
-     {
-      "playerId": -16033,
-      "name": "Ravens D/ST",
-      "pos": "D/ST",
-      "slot": "BE",
       "points": 0
      },
      {
@@ -386,6 +379,13 @@
       "pos": "WR",
       "slot": "BE",
       "points": 0
+     },
+     {
+      "playerId": -16028,
+      "name": "Commanders D/ST",
+      "pos": "D/ST",
+      "slot": "D/ST",
+      "points": 0
      }
     ]
    },
@@ -404,7 +404,7 @@
       "playerId": 4047646,
       "name": "A.J. Brown",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -425,7 +425,7 @@
       "playerId": 4360761,
       "name": "Michael Wilson",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0
      },
      {
@@ -468,7 +468,7 @@
       "name": "Chuba Hubbard",
       "pos": "RB",
       "slot": "RB",
-      "points": 0
+      "points": 24.900000000000002
      },
      {
       "playerId": 4431452,
@@ -543,13 +543,13 @@
       "name": "Tetairoa McMillan",
       "pos": "WR",
       "slot": "WR",
-      "points": 0
+      "points": 11.8
      },
      {
       "playerId": 4612826,
       "name": "Ladd McConkey",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -564,7 +564,7 @@
       "name": "Christian Watson",
       "pos": "WR",
       "slot": "WR",
-      "points": 0
+      "points": 17.3
      },
      {
       "playerId": 4426385,
@@ -599,7 +599,7 @@
       "name": "Jordan Love",
       "pos": "QB",
       "slot": "BE",
-      "points": 0
+      "points": 21.52
      },
      {
       "playerId": -16012,
@@ -675,7 +675,7 @@
       "name": "Tucker Kraft",
       "pos": "TE",
       "slot": "TE",
-      "points": 0
+      "points": 17.3
      },
      {
       "playerId": 16737,
@@ -703,14 +703,14 @@
       "name": "Jalen Coker",
       "pos": "WR",
       "slot": "WR",
-      "points": 0
+      "points": 9.6
      },
      {
       "playerId": 4685720,
       "name": "Bryce Young",
       "pos": "QB",
       "slot": "QB",
-      "points": 0
+      "points": 10.36
      },
      {
       "playerId": 4362238,
@@ -731,7 +731,7 @@
       "name": "Ryan Fitzgerald",
       "pos": "K",
       "slot": "BE",
-      "points": 0
+      "points": 9
      },
      {
       "playerId": 4426388,
@@ -1020,7 +1020,7 @@
       "name": "Josh Jacobs",
       "pos": "RB",
       "slot": "RB",
-      "points": 0
+      "points": 23.2
      },
      {
       "playerId": 4361370,
@@ -1055,7 +1055,7 @@
       "name": "Matthew Golden",
       "pos": "WR",
       "slot": "WR",
-      "points": 0
+      "points": 20.9
      },
      {
       "playerId": 4241985,
@@ -1208,7 +1208,7 @@
       "name": "MarShawn Lloyd",
       "pos": "RB",
       "slot": "BE",
-      "points": 0
+      "points": 2.6
      },
      {
       "playerId": 8439,
@@ -1246,8 +1246,8 @@
       "points": 0
      },
      {
-      "playerId": -16001,
-      "name": "Falcons D/ST",
+      "playerId": -16005,
+      "name": "Browns D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
       "points": 0
