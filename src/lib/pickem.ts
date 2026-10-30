@@ -86,8 +86,18 @@ export function recordsBefore(slate: Slate, week: number): Map<string, string> {
   return out;
 }
 
+// One-off commissioner extensions: game id -> lock time (overrides kickoff for locking).
+// 2026 Week 8: picks reopened until 9 PM ET Thu Oct 29 for Nishok.
+export const LOCK_EXTENSIONS: Record<string, string> = {
+  "401873023": "2026-10-30T01:00Z",
+};
+
+export function lockTime(game: Game): string {
+  return LOCK_EXTENSIONS[game.id] ?? game.date;
+}
+
 export function hasKickedOff(game: Game, now: Date = new Date()): boolean {
-  return new Date(game.date).getTime() <= now.getTime();
+  return new Date(lockTime(game)).getTime() <= now.getTime();
 }
 
 /** Correct picks for one member across the given games. */

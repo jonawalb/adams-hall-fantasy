@@ -11,6 +11,7 @@ import {
   Slate,
   formatKickoff,
   hasKickedOff,
+  lockTime,
   recordsBefore,
 } from "@/lib/pickem";
 import PickemLeaderboard from "@/components/PickemLeaderboard";
@@ -100,7 +101,10 @@ export default function PickemBoard({ slate, owners }: { slate: Slate; owners: O
       week,
       game_id,
       pick,
-      kickoff: games.find((g) => g.id === game_id)?.date ?? new Date().toISOString(),
+      kickoff: (() => {
+        const g = games.find((x) => x.id === game_id);
+        return g ? lockTime(g) : new Date().toISOString();
+      })(),
     }));
     const merged: PickRow[] = rows.map(({ member_id, season, week: w, game_id, pick }) => ({ member_id, season, week: w, game_id, pick }));
     const apply = () => {

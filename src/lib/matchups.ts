@@ -1,7 +1,7 @@
 // Build-time data for Matchup Pick'Em: the league schedule by week, with
 // results where decided and the lock time (first NFL kickoff that week).
 import { Season, teamById } from "./espn";
-import type { Slate } from "./pickem";
+import { lockTime, type Slate } from "./pickem";
 
 export interface SideInfo {
   teamId: number;
@@ -44,7 +44,7 @@ export function pickemWeeks(season: Season, slate: Slate | null): PickemWeek[] {
   };
   return weeks.map((week) => {
     const nfl = slate?.weeks[String(week)]?.games ?? [];
-    const lockAt = nfl.length ? nfl.map((g) => g.date).sort()[0] : null;
+    const lockAt = nfl.length ? nfl.map(lockTime).sort()[0] : null;
     const matchups = season.games
       .filter((g) => g.week === week)
       .map((g) => {
