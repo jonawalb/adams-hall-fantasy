@@ -3527,12 +3527,12 @@
       "score": 0
      },
      "odds": {
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "details": "BUF -3",
       "overUnder": 54.5,
       "moneyline": {
-       "home": "-175",
-       "away": "+145"
+       "home": "-170",
+       "away": "+142"
       }
      }
     },
@@ -3595,8 +3595,8 @@
       "details": "DAL -7",
       "overUnder": 54.5,
       "moneyline": {
-       "home": "-310",
-       "away": "+250"
+       "home": "-305",
+       "away": "+245"
       }
      }
     },
@@ -3721,10 +3721,10 @@
      "odds": {
       "provider": null,
       "details": "TB -2.5",
-      "overUnder": 44.5,
+      "overUnder": 43.5,
       "moneyline": {
-       "home": "OFF",
-       "away": "+120"
+       "home": "-135",
+       "away": "+114"
       }
      }
     },
@@ -3787,8 +3787,8 @@
       "details": "LAR -6.5",
       "overUnder": 45.5,
       "moneyline": {
-       "home": "-270",
-       "away": "+220"
+       "home": "-278",
+       "away": "+225"
       }
      }
     },
@@ -3880,11 +3880,11 @@
      },
      "odds": {
       "provider": null,
-      "details": "WSH -6",
+      "details": "WSH -5.5",
       "overUnder": 40.5,
       "moneyline": {
-       "home": "-258",
-       "away": "+210"
+       "home": "-250",
+       "away": "+205"
       }
      }
     },
@@ -3923,5 +3923,5 @@
    ]
   }
  },
- "fetchedAt": "2026-10-30T11:58:05.652Z"
+ "fetchedAt": "2026-10-31T11:32:31.099Z"
 }
