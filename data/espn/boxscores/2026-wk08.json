@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 8,
- "archivedAt": "2026-10-31T11:32:34.482Z",
+ "archivedAt": "2026-11-01T12:30:41.759Z",
  "matchups": [
   {
    "id": 36,
@@ -250,8 +250,8 @@
       "points": 0
      },
      {
-      "playerId": 4869645,
-      "name": "Caleb Douglas",
+      "playerId": 4427095,
+      "name": "DeMario Douglas",
       "pos": "WR",
       "slot": "WR",
       "points": 0
@@ -653,7 +653,7 @@
       "playerId": 4428331,
       "name": "Rashee Rice",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0
      },
      {
@@ -744,7 +744,7 @@
       "playerId": 4426388,
       "name": "Jameson Williams",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
