@@ -43087,17 +43087,72 @@
    "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
   },
   "date": 1793571072915,
-  "dateEdited": 1793571072915,
+  "dateEdited": 1793582608229,
   "id": "02d44612-896f-3303-ab7f-e55aa832e54f",
   "isDeleted": false,
   "isEdited": true,
   "lastUpdateInfo": {
    "clientAddress": null,
-   "date": 1793571072915,
+   "date": 1793582608229,
    "platform": "espn-fantasy-app-ios",
    "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
   },
   "messages": [
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "https://g.espncdn.com/lm-static/ffl/player-animations/2026/17_4431452_gen_halloween_3.mp4?buildNumber=undefined&version=45",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1793582608229,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1793582608229,
+    "for": 2,
+    "id": "d201f7b3-2b4e-463d-bbc3-439c835e8999",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 279,
+    "topicId": "02d44612-896f-3303-ab7f-e55aa832e54f"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "Get fucked pussy",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1793582608229,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1793582608229,
+    "for": 2,
+    "id": "2fea8ed3-29c8-4b65-8819-84fbe488eac2",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 280,
+    "topicId": "02d44612-896f-3303-ab7f-e55aa832e54f"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "Drake Maye 48 yard touchdown pass",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1793582608229,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1793582608229,
+    "for": 2,
+    "id": "0a5d3662-db8e-4d31-9b41-8c73abd51d07",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 278,
+    "subject": "+5.9 Points",
+    "topicId": "02d44612-896f-3303-ab7f-e55aa832e54f"
+   },
    {
     "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
     "content": "Michael Wilson 13 yard touchdown reception",
@@ -43155,7 +43210,7 @@
    }
   ],
   "subject": "DM",
-  "totalMessageCount": 3,
+  "totalMessageCount": 6,
   "type": "CHAT_DIRECT_MESSAGE",
   "viewableBy": [
    "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
