@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 10,
  "poll": "AP Top 25",
- "fetchedAt": "2026-11-02T09:08:35.884Z",
+ "fetchedAt": "2026-11-02T14:30:25.125Z",
  "rankings": [
   {
    "rank": 1,
@@ -796,7 +796,7 @@
    "detail": "11/7 - 12:00 PM EST",
    "venue": "Huntington Bank Stadium",
    "broadcast": "Fox",
-   "spread": "UCLA -6.5",
+   "spread": "UCLA -5.5",
    "overUnder": 39.5,
    "headline": null,
    "home": {
@@ -833,7 +833,7 @@
    "detail": "11/7 - 12:00 PM EST",
    "venue": "Memorial Stadium",
    "broadcast": "ESPN",
-   "spread": "TEX -3",
+   "spread": "TEX -2.5",
    "overUnder": 43.5,
    "headline": null,
    "home": {
@@ -1018,8 +1018,8 @@
    "detail": "11/7 - 12:00 PM EST",
    "venue": "Yulman Stadium",
    "broadcast": "ESPNU",
-   "spread": "TLSA -1.5",
-   "overUnder": 50.5,
+   "spread": "TULN -1.5",
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "TULN",
@@ -1352,7 +1352,7 @@
    "venue": "Walens Family Field at Fifth Third Stadium",
    "broadcast": "ESPN+",
    "spread": "DEL -2.5",
-   "overUnder": 55.5,
+   "overUnder": 56.5,
    "headline": null,
    "home": {
     "abbr": "KENN",
@@ -1388,7 +1388,7 @@
    "detail": "11/7 - 3:30 PM EST",
    "venue": "Tiger Stadium (LA)",
    "broadcast": "ABC",
-   "spread": "LSU -5.5",
+   "spread": "LSU -6",
    "overUnder": 52.5,
    "headline": null,
    "home": {
@@ -1685,7 +1685,7 @@
    "venue": "Johnny \"Red\" Floyd Stadium",
    "broadcast": "ESPN+",
    "spread": "MTSU -1.5",
-   "overUnder": 53.5,
+   "overUnder": 52.5,
    "headline": null,
    "home": {
     "abbr": "MTSU",
@@ -1869,7 +1869,7 @@
    "detail": "11/7 - 4:00 PM EST",
    "venue": "Veterans Memorial Stadium (AL)",
    "broadcast": "ESPN+",
-   "spread": "LT -5.5",
+   "spread": "LT -4.5",
    "overUnder": 47.5,
    "headline": null,
    "home": {
@@ -2351,7 +2351,7 @@
    "venue": "Michie Stadium",
    "broadcast": "CBS",
    "spread": "ARMY -3.5",
-   "overUnder": 47.5,
+   "overUnder": 46.5,
    "headline": null,
    "home": {
     "abbr": "ARMY",
@@ -2499,7 +2499,7 @@
    "venue": "Maverik Stadium",
    "broadcast": "USA Net",
    "spread": "FRES -2.5",
-   "overUnder": 42.5,
+   "overUnder": 41.5,
    "headline": null,
    "home": {
     "abbr": "USU",
