@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 10,
  "poll": "AP Top 25",
- "fetchedAt": "2026-11-03T13:26:55.420Z",
+ "fetchedAt": "2026-11-03T19:02:27.170Z",
  "rankings": [
   {
    "rank": 1,
@@ -315,7 +315,7 @@
    "detail": "11/3 - 7:00 PM EST",
    "venue": "InfoCision Stadium",
    "broadcast": "ESPN2",
-   "spread": "OHIO -14",
+   "spread": "OHIO -13.5",
    "overUnder": 51.5,
    "headline": null,
    "home": {
@@ -575,7 +575,7 @@
    "venue": "Gerald J. Ford Stadium",
    "broadcast": "ESPN",
    "spread": "SMU -6",
-   "overUnder": 55.5,
+   "overUnder": 56.5,
    "headline": null,
    "home": {
     "abbr": "SMU",
@@ -649,7 +649,7 @@
    "venue": "Gies Memorial Stadium",
    "broadcast": "Fox",
    "spread": "NEB -4.5",
-   "overUnder": 49.5,
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "ILL",
@@ -722,8 +722,8 @@
    "detail": "11/6 - 10:15 PM EST",
    "venue": "Casino Del Sol Stadium",
    "broadcast": "ESPN",
-   "spread": "ARIZ -8.5",
-   "overUnder": 42.5,
+   "spread": "ARIZ -9.5",
+   "overUnder": 43.5,
    "headline": null,
    "home": {
     "abbr": "ARIZ",
@@ -834,7 +834,7 @@
    "venue": "Memorial Stadium",
    "broadcast": "ESPN",
    "spread": "TEX -2.5",
-   "overUnder": 43.5,
+   "overUnder": 42.5,
    "headline": null,
    "home": {
     "abbr": "MIZ",
@@ -869,7 +869,7 @@
    "completed": false,
    "detail": "11/7 - 12:00 PM EST",
    "venue": "McLane Stadium",
-   "broadcast": null,
+   "broadcast": "FS1",
    "spread": "BAY -10",
    "overUnder": 50.5,
    "headline": null,
@@ -944,8 +944,8 @@
    "detail": "11/7 - 12:00 PM EST",
    "venue": "Alumni Stadium (Chestnut Hill, MA)",
    "broadcast": "ACC Network",
-   "spread": "FSU -7",
-   "overUnder": 51.5,
+   "spread": "FSU -6.5",
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "BC",
@@ -1166,8 +1166,8 @@
    "detail": "11/7 - 1:00 PM EST",
    "venue": "Bill Snyder Family Stadium",
    "broadcast": "TNT",
-   "spread": "OKST -4",
-   "overUnder": 61.5,
+   "spread": null,
+   "overUnder": null,
    "headline": null,
    "home": {
     "abbr": "KSU",
@@ -1351,8 +1351,8 @@
    "detail": "11/7 - 3:00 PM EST",
    "venue": "Walens Family Field at Fifth Third Stadium",
    "broadcast": "ESPN+",
-   "spread": "DEL -2.5",
-   "overUnder": 55.5,
+   "spread": "DEL -1.5",
+   "overUnder": 56.5,
    "headline": null,
    "home": {
     "abbr": "KENN",
@@ -2128,7 +2128,7 @@
    "detail": "11/7 - 7:30 PM EST",
    "venue": "Notre Dame Stadium",
    "broadcast": "NBC",
-   "spread": "ND -5.5",
+   "spread": "ND -6",
    "overUnder": 57.5,
    "headline": null,
    "home": {
@@ -2240,7 +2240,7 @@
    "venue": "Mountain America Stadium",
    "broadcast": "ESPN2",
    "spread": "ASU -3",
-   "overUnder": 49.5,
+   "overUnder": 48.5,
    "headline": null,
    "home": {
     "abbr": "ASU",
@@ -2388,7 +2388,7 @@
    "venue": "Ben Hill Griffin Stadium",
    "broadcast": "SEC Network",
    "spread": "FLA -6",
-   "overUnder": 45.5,
+   "overUnder": 44.5,
    "headline": null,
    "home": {
     "abbr": "FLA",
@@ -2425,7 +2425,7 @@
    "venue": "Aggie Memorial Stadium",
    "broadcast": "ESPNU",
    "spread": "LIB -16.5",
-   "overUnder": 45.5,
+   "overUnder": 46.5,
    "headline": null,
    "home": {
     "abbr": "NMSU",
@@ -2461,8 +2461,8 @@
    "detail": "11/7 - 9:30 PM EST",
    "venue": "Galaxy Stadium",
    "broadcast": "ESPN",
-   "spread": "TTU -16.5",
-   "overUnder": 65.5,
+   "spread": "TTU -17.5",
+   "overUnder": 64.5,
    "headline": null,
    "home": {
     "abbr": "TTU",
@@ -2536,7 +2536,7 @@
    "venue": "Sun Bowl",
    "broadcast": "FS1",
    "spread": "HAW -9.5",
-   "overUnder": 48.5,
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "UTEP",

@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 9,
- "archivedAt": "2026-11-03T13:27:02.014Z",
+ "archivedAt": "2026-11-03T19:02:29.969Z",
  "matchups": [
   {
    "id": 41,
@@ -272,7 +272,7 @@
       "playerId": 4428331,
       "name": "Rashee Rice",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -307,7 +307,7 @@
       "playerId": 16737,
       "name": "Mike Evans",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0
      },
      {
@@ -328,7 +328,7 @@
       "playerId": 4695883,
       "name": "Jalen Coker",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -363,7 +363,7 @@
       "playerId": 4426388,
       "name": "Jameson Williams",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0
      },
      {
@@ -446,7 +446,7 @@
       "playerId": 3121023,
       "name": "Dallas Goedert",
       "pos": "TE",
-      "slot": "TE",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -460,21 +460,21 @@
       "playerId": 17372,
       "name": "Chris Boswell",
       "pos": "K",
-      "slot": "K",
+      "slot": "BE",
       "points": 0
      },
      {
       "playerId": 4360248,
       "name": "Kyle Pitts Sr.",
       "pos": "TE",
-      "slot": "BE",
+      "slot": "TE",
       "points": 0
      },
      {
       "playerId": 4433970,
       "name": "J.J. McCarthy",
       "pos": "QB",
-      "slot": "QB",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -528,7 +528,7 @@
       "playerId": 4870808,
       "name": "Jeremiyah Love",
       "pos": "RB",
-      "slot": "FLEX",
+      "slot": "IR",
       "points": 0
      },
      {
@@ -563,7 +563,7 @@
       "playerId": 3128429,
       "name": "Courtland Sutton",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0
      },
      {
@@ -591,7 +591,7 @@
       "playerId": 3126486,
       "name": "Deebo Samuel Sr.",
       "pos": "WR",
-      "slot": "IR",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -605,7 +605,7 @@
       "playerId": 4685261,
       "name": "Germie Bernard",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
