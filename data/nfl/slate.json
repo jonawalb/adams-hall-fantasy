@@ -3892,23 +3892,23 @@
      "id": "401873036",
      "date": "2026-11-03T01:15Z",
      "name": "CHI @ SEA",
-     "state": "pre",
-     "completed": false,
-     "winner": null,
-     "detail": "11/2 - 8:15 PM EST",
+     "state": "post",
+     "completed": true,
+     "winner": "away",
+     "detail": "Final",
      "home": {
       "abbr": "SEA",
       "name": "Seattle Seahawks",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
       "color": "002a5c",
-      "score": 0
+      "score": 17
      },
      "away": {
       "abbr": "CHI",
       "name": "Chicago Bears",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
       "color": "0b1c3a",
-      "score": 0
+      "score": 34
      },
      "odds": {
       "provider": "DraftKings",
@@ -3923,5 +3923,5 @@
    ]
   }
  },
- "fetchedAt": "2026-11-02T14:30:24.789Z"
+ "fetchedAt": "2026-11-03T11:37:15.682Z"
 }
