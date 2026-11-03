@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 9,
- "archivedAt": "2026-11-03T11:37:19.160Z",
+ "archivedAt": "2026-11-03T13:27:02.014Z",
  "matchups": [
   {
    "id": 41,
@@ -176,7 +176,7 @@
       "playerId": 4685278,
       "name": "Luther Burden III",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -232,7 +232,7 @@
       "playerId": 4702555,
       "name": "Jonah Coleman",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -770,7 +770,7 @@
       "playerId": 3117251,
       "name": "Christian McCaffrey",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "RB",
       "points": 0
      },
      {
@@ -798,21 +798,21 @@
       "playerId": 3915416,
       "name": "DJ Moore",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0
      },
      {
       "playerId": 4047650,
       "name": "DK Metcalf",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
       "playerId": 3916148,
       "name": "Tony Pollard",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -847,7 +847,7 @@
       "playerId": 15818,
       "name": "Keenan Allen",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -861,7 +861,7 @@
       "playerId": 4428718,
       "name": "Tre Tucker",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0
      },
      {
