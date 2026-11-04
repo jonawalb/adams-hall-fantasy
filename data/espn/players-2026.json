@@ -693,7 +693,7 @@
   "id": 3051909,
   "name": "Daniel Carlson",
   "pos": "K",
-  "proTeamId": 18
+  "proTeamId": 0
  },
  "3051926": {
   "id": 3051926,
@@ -1425,7 +1425,7 @@
   "id": 3919510,
   "name": "Alex Bachman",
   "pos": "WR",
-  "proTeamId": 14
+  "proTeamId": 0
  },
  "3921690": {
   "id": 3921690,
@@ -3801,7 +3801,7 @@
   "id": 4428512,
   "name": "Kedon Slovis",
   "pos": "QB",
-  "proTeamId": 0
+  "proTeamId": 33
  },
  "4428532": {
   "id": 4428532,
@@ -4641,7 +4641,7 @@
   "id": 4569682,
   "name": "Audric Estime",
   "pos": "RB",
-  "proTeamId": 5
+  "proTeamId": 18
  },
  "4569923": {
   "id": 4569923,
@@ -6081,7 +6081,7 @@
   "id": 5151317,
   "name": "Robert Henry Jr.",
   "pos": "RB",
-  "proTeamId": 26
+  "proTeamId": 28
  },
  "5155825": {
   "id": 5155825,

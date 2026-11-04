@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 9,
- "archivedAt": "2026-11-03T19:02:29.969Z",
+ "archivedAt": "2026-11-04T13:38:32.236Z",
  "matchups": [
   {
    "id": 41,
@@ -183,7 +183,7 @@
       "playerId": 4685512,
       "name": "Jadarian Price",
       "pos": "RB",
-      "slot": "IR",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -236,17 +236,10 @@
       "points": 0
      },
      {
-      "playerId": -16001,
-      "name": "Falcons D/ST",
+      "playerId": -16007,
+      "name": "Broncos D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
-      "points": 0
-     },
-     {
-      "playerId": 4363538,
-      "name": "Chad Ryland",
-      "pos": "K",
-      "slot": "K",
       "points": 0
      }
     ]
@@ -474,7 +467,7 @@
       "playerId": 4433970,
       "name": "J.J. McCarthy",
       "pos": "QB",
-      "slot": "BE",
+      "slot": "QB",
       "points": 0
      },
      {
@@ -485,17 +478,17 @@
       "points": 0
      },
      {
-      "playerId": 4686468,
-      "name": "Seth McGowan",
-      "pos": "RB",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 4427095,
       "name": "DeMario Douglas",
       "pos": "WR",
       "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 4689936,
+      "name": "Jake Bates",
+      "pos": "K",
+      "slot": "K",
       "points": 0
      }
     ]
@@ -609,13 +602,6 @@
       "points": 0
      },
      {
-      "playerId": 4722893,
-      "name": "Jaleel McLaughlin",
-      "pos": "RB",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 3116165,
       "name": "Chris Godwin Jr.",
       "pos": "WR",
@@ -627,6 +613,13 @@
       "name": "Commanders D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
+      "points": 0
+     },
+     {
+      "playerId": 4373626,
+      "name": "Tyler Allgeier",
+      "pos": "RB",
+      "slot": "BE",
       "points": 0
      }
     ]
@@ -713,13 +706,6 @@
       "points": 0
      },
      {
-      "playerId": -16017,
-      "name": "Patriots D/ST",
-      "pos": "D/ST",
-      "slot": "D/ST",
-      "points": 0
-     },
-     {
       "playerId": 4685247,
       "name": "Braelon Allen",
       "pos": "RB",
@@ -752,6 +738,13 @@
       "name": "Kyler Murray",
       "pos": "QB",
       "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": -16003,
+      "name": "Bears D/ST",
+      "pos": "D/ST",
+      "slot": "D/ST",
       "points": 0
      }
     ]
