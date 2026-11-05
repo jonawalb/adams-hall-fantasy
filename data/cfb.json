@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 10,
  "poll": "AP Top 25",
- "fetchedAt": "2026-11-04T13:38:27.809Z",
+ "fetchedAt": "2026-11-05T13:50:57.965Z",
  "rankings": [
   {
    "rank": 1,
@@ -384,14 +384,14 @@
    "id": "401866455",
    "date": "2026-11-05T00:00Z",
    "name": "BALL @ MASS",
-   "state": "pre",
-   "completed": false,
-   "detail": "11/4 - 7:00 PM EST",
+   "state": "post",
+   "completed": true,
+   "detail": "Final/OT",
    "venue": "Warren McGuirk Alumni Stadium",
    "broadcast": "ESPNU",
-   "spread": "MASS -3.5",
-   "overUnder": 49.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Watson's 13-yard TD run in OT lifts UMass over Ball State 31-30",
    "home": {
     "abbr": "MASS",
     "name": "Massachusetts Minutemen",
@@ -399,10 +399,10 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/113.png",
     "color": "881c1c",
     "rank": null,
-    "score": 0,
-    "record": "4-4",
+    "score": 31,
+    "record": "5-4",
     "conferenceId": "15",
-    "winner": false
+    "winner": true
    },
    "away": {
     "abbr": "BALL",
@@ -411,8 +411,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2050.png",
     "color": "ba0c2f",
     "rank": null,
-    "score": 0,
-    "record": "3-5",
+    "score": 30,
+    "record": "3-6",
     "conferenceId": "15",
     "winner": false
    }
@@ -421,14 +421,14 @@
    "id": "401866457",
    "date": "2026-11-05T00:00Z",
    "name": "TOL @ SAC",
-   "state": "pre",
-   "completed": false,
-   "detail": "11/4 - 7:00 PM EST",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Hornet Stadium",
    "broadcast": "CBSSN",
-   "spread": "TOL -25.5",
-   "overUnder": 52.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Miller, Ison lead ground game and Toledo slips past Sacramento State 20-17",
    "home": {
     "abbr": "SAC",
     "name": "Sacramento State Hornets",
@@ -436,8 +436,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/16.png",
     "color": "00573C",
     "rank": null,
-    "score": 0,
-    "record": "2-7",
+    "score": 17,
+    "record": "2-8",
     "conferenceId": "15",
     "winner": false
    },
@@ -448,24 +448,24 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png",
     "color": "0b2240",
     "rank": null,
-    "score": 0,
-    "record": "6-2",
+    "score": 20,
+    "record": "7-2",
     "conferenceId": "15",
-    "winner": false
+    "winner": true
    }
   },
   {
    "id": "401866456",
    "date": "2026-11-05T00:30Z",
    "name": "CMU VS EMU",
-   "state": "pre",
-   "completed": false,
-   "detail": "11/4 - 7:30 PM EST",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Ford Field",
    "broadcast": "ESPN2",
-   "spread": "EMU -1.5",
-   "overUnder": 44.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Nick Woodford scores 3 times and Central Michigan defeats Eastern Michigan 35-7 in Detroit",
    "home": {
     "abbr": "EMU",
     "name": "Eastern Michigan Eagles",
@@ -473,8 +473,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png",
     "color": "006938",
     "rank": null,
-    "score": 0,
-    "record": "4-5",
+    "score": 7,
+    "record": "4-6",
     "conferenceId": "15",
     "winner": false
    },
@@ -485,10 +485,10 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2117.png",
     "color": "4c0027",
     "rank": null,
-    "score": 0,
-    "record": "3-5",
+    "score": 35,
+    "record": "4-5",
     "conferenceId": "15",
-    "winner": false
+    "winner": true
    }
   },
   {
@@ -500,7 +500,7 @@
    "detail": "11/5 - 7:30 PM EST",
    "venue": "Flagler Credit Union Stadium",
    "broadcast": "ESPN",
-   "spread": "UTSA -7",
+   "spread": "UTSA -6.5",
    "overUnder": 72.5,
    "headline": null,
    "home": {
@@ -574,7 +574,7 @@
    "detail": "11/6 - 7:00 PM EST",
    "venue": "Gerald J. Ford Stadium",
    "broadcast": "ESPN",
-   "spread": "SMU -6",
+   "spread": "SMU -6.5",
    "overUnder": 56.5,
    "headline": null,
    "home": {
@@ -649,7 +649,7 @@
    "venue": "Gies Memorial Stadium",
    "broadcast": "Fox",
    "spread": "NEB -4.5",
-   "overUnder": 50.5,
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "ILL",
@@ -685,8 +685,8 @@
    "detail": "11/6 - 9:00 PM EST",
    "venue": "Mackay Stadium",
    "broadcast": "CBSSN",
-   "spread": "UNM -9.5",
-   "overUnder": 37.5,
+   "spread": "UNM -10",
+   "overUnder": 36.5,
    "headline": null,
    "home": {
     "abbr": "NEV",
@@ -722,8 +722,8 @@
    "detail": "11/6 - 10:15 PM EST",
    "venue": "Casino Del Sol Stadium",
    "broadcast": "ESPN",
-   "spread": "ARIZ -9.5",
-   "overUnder": 43.5,
+   "spread": "ARIZ -7.5",
+   "overUnder": 45.5,
    "headline": null,
    "home": {
     "abbr": "ARIZ",
@@ -759,7 +759,7 @@
    "detail": "11/7 - 12:00 PM EST",
    "venue": "Rice-Eccles Stadium",
    "broadcast": "ABC",
-   "spread": "UTAH -5.5",
+   "spread": "UTAH -4.5",
    "overUnder": 48.5,
    "headline": null,
    "home": {
@@ -945,7 +945,7 @@
    "venue": "Alumni Stadium (Chestnut Hill, MA)",
    "broadcast": "ACC Network",
    "spread": "FSU -6.5",
-   "overUnder": 50.5,
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "BC",
@@ -1018,7 +1018,7 @@
    "detail": "11/7 - 12:00 PM EST",
    "venue": "Yulman Stadium",
    "broadcast": "ESPNU",
-   "spread": "TLSA -1.5",
+   "spread": "TLSA -2.5",
    "overUnder": 49.5,
    "headline": null,
    "home": {
@@ -1055,7 +1055,7 @@
    "detail": "11/7 - 12:30 PM EST",
    "venue": "Carter-Finley Stadium",
    "broadcast": "CW",
-   "spread": "DUKE -4.5",
+   "spread": "DUKE -4",
    "overUnder": 51.5,
    "headline": null,
    "home": {
@@ -1093,7 +1093,7 @@
    "venue": "Ross-Ade Stadium",
    "broadcast": "BTN",
    "spread": "PUR -6",
-   "overUnder": 57.5,
+   "overUnder": 56.5,
    "headline": null,
    "home": {
     "abbr": "PUR",
@@ -1129,8 +1129,8 @@
    "detail": "11/7 - 12:45 PM EST",
    "venue": "Jordan-Hare Stadium",
    "broadcast": "SEC Network",
-   "spread": "AUB -10.5",
-   "overUnder": 52.5,
+   "spread": "AUB -10",
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "AUB",
@@ -1166,8 +1166,8 @@
    "detail": "11/7 - 1:00 PM EST",
    "venue": "Bill Snyder Family Stadium",
    "broadcast": "TNT",
-   "spread": "OKST -4.5",
-   "overUnder": 61.5,
+   "spread": "OKST -6",
+   "overUnder": 62.5,
    "headline": null,
    "home": {
     "abbr": "KSU",
@@ -1203,8 +1203,8 @@
    "detail": "11/7 - 1:00 PM EST",
    "venue": "Brooks Stadium (SC)",
    "broadcast": "ESPN+",
-   "spread": "CCU -7",
-   "overUnder": 43.5,
+   "spread": "CCU -6.5",
+   "overUnder": 44.5,
    "headline": null,
    "home": {
     "abbr": "CCU",
@@ -1240,8 +1240,8 @@
    "detail": "11/7 - 2:30 PM EST",
    "venue": "Kidd Brewer Stadium",
    "broadcast": "ESPN+",
-   "spread": null,
-   "overUnder": null,
+   "spread": "APP -6",
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "APP",
@@ -1352,7 +1352,7 @@
    "venue": "Walens Family Field at Fifth Third Stadium",
    "broadcast": "ESPN+",
    "spread": "DEL -1.5",
-   "overUnder": 56.5,
+   "overUnder": 57.5,
    "headline": null,
    "home": {
     "abbr": "KENN",
@@ -1388,7 +1388,7 @@
    "detail": "11/7 - 3:30 PM EST",
    "venue": "Tiger Stadium (LA)",
    "broadcast": "ABC",
-   "spread": "LSU -5.5",
+   "spread": "LSU -6",
    "overUnder": 52.5,
    "headline": null,
    "home": {
@@ -1462,8 +1462,8 @@
    "detail": "11/7 - 3:30 PM EST",
    "venue": "Allegacy Federal Credit Union Stadium",
    "broadcast": "ACC Network",
-   "spread": null,
-   "overUnder": null,
+   "spread": "WAKE -47.5",
+   "overUnder": 59.5,
    "headline": null,
    "home": {
     "abbr": "WAKE",
@@ -1499,7 +1499,7 @@
    "detail": "11/7 - 3:30 PM EST",
    "venue": "TDECU Stadium",
    "broadcast": "Fox",
-   "spread": "HOU -11.5",
+   "spread": "HOU -10.5",
    "overUnder": 62.5,
    "headline": null,
    "home": {
@@ -1685,7 +1685,7 @@
    "venue": "Johnny \"Red\" Floyd Stadium",
    "broadcast": "ESPN+",
    "spread": "WKU -1.5",
-   "overUnder": 52.5,
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "MTSU",
@@ -1722,7 +1722,7 @@
    "venue": "David Booth Kansas Memorial Stadium",
    "broadcast": "ESPN2",
    "spread": "KU -2.5",
-   "overUnder": 48.5,
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "KU",
@@ -1795,7 +1795,7 @@
    "detail": "11/7 - 4:00 PM EST",
    "venue": "CEFCU Stadium",
    "broadcast": "MW+",
-   "spread": "SJSU -10.5",
+   "spread": "SJSU -10",
    "overUnder": 51.5,
    "headline": null,
    "home": {
@@ -1869,7 +1869,7 @@
    "detail": "11/7 - 4:00 PM EST",
    "venue": "Veterans Memorial Stadium (AL)",
    "broadcast": "ESPN+",
-   "spread": "LT -4.5",
+   "spread": "LT -5.5",
    "overUnder": 47.5,
    "headline": null,
    "home": {
@@ -1943,7 +1943,7 @@
    "detail": "11/7 - 4:15 PM EST",
    "venue": "Camp Randall Stadium",
    "broadcast": "BTN",
-   "spread": "WIS -16.5",
+   "spread": "WIS -17.5",
    "overUnder": 45.5,
    "headline": null,
    "home": {
@@ -1980,7 +1980,7 @@
    "detail": "11/7 - 5:00 PM EST",
    "venue": "Our Lady of Lourdes Stadium",
    "broadcast": "ESPN+",
-   "spread": "UL -8.5",
+   "spread": "UL -7.5",
    "overUnder": 57.5,
    "headline": null,
    "home": {
@@ -2091,8 +2091,8 @@
    "detail": "11/7 - 7:00 PM EST",
    "venue": "AmFirst Stadium",
    "broadcast": "CBSSN",
-   "spread": "JXST -16.5",
-   "overUnder": 48.5,
+   "spread": "JXST -17.5",
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "JXST",
@@ -2128,8 +2128,8 @@
    "detail": "11/7 - 7:30 PM EST",
    "venue": "Notre Dame Stadium",
    "broadcast": "NBC",
-   "spread": "ND -5.5",
-   "overUnder": 57.5,
+   "spread": "ND -7.5",
+   "overUnder": 55.5,
    "headline": null,
    "home": {
     "abbr": "ND",
@@ -2387,8 +2387,8 @@
    "detail": "11/7 - 7:45 PM EST",
    "venue": "Ben Hill Griffin Stadium",
    "broadcast": "SEC Network",
-   "spread": "FLA -6",
-   "overUnder": 44.5,
+   "spread": "FLA -6.5",
+   "overUnder": 45.5,
    "headline": null,
    "home": {
     "abbr": "FLA",
@@ -2461,8 +2461,8 @@
    "detail": "11/7 - 9:30 PM EST",
    "venue": "Galaxy Stadium",
    "broadcast": "ESPN",
-   "spread": "TTU -17.5",
-   "overUnder": 64.5,
+   "spread": "TTU -16.5",
+   "overUnder": 65.5,
    "headline": null,
    "home": {
     "abbr": "TTU",
@@ -2573,7 +2573,7 @@
    "venue": "Reser Stadium",
    "broadcast": "CW",
    "spread": "ORST -6.5",
-   "overUnder": 72.5,
+   "overUnder": 71.5,
    "headline": null,
    "home": {
     "abbr": "ORST",
