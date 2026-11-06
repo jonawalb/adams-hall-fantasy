@@ -4078,11 +4078,11 @@
      },
      "odds": {
       "provider": null,
-      "details": "DET -7",
+      "details": "DET -6.5",
       "overUnder": 50.5,
       "moneyline": {
-       "home": "+270",
-       "away": "-340"
+       "home": "+260",
+       "away": "-325"
       }
      }
     },
@@ -4401,13 +4401,13 @@
       "details": "BUF -3",
       "overUnder": 44.5,
       "moneyline": {
-       "home": "+145",
-       "away": "-175"
+       "home": "+150",
+       "away": "-180"
       }
      }
     }
    ]
   }
  },
- "fetchedAt": "2026-11-06T11:41:08.231Z"
+ "fetchedAt": "2026-11-06T13:36:24.484Z"
 }

@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 10,
  "poll": "AP Top 25",
- "fetchedAt": "2026-11-06T11:41:08.522Z",
+ "fetchedAt": "2026-11-06T13:36:24.968Z",
  "rankings": [
   {
    "rank": 1,
@@ -1426,7 +1426,7 @@
    "venue": "Ohio Stadium",
    "broadcast": "CBS",
    "spread": "OSU -7.5",
-   "overUnder": 46.5,
+   "overUnder": 45.5,
    "headline": null,
    "home": {
     "abbr": "OSU",
@@ -2092,7 +2092,7 @@
    "venue": "AmFirst Stadium",
    "broadcast": "CBSSN",
    "spread": "JXST -17.5",
-   "overUnder": 47.5,
+   "overUnder": 48.5,
    "headline": null,
    "home": {
     "abbr": "JXST",
