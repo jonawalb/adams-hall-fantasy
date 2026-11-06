@@ -2259,7 +2259,7 @@
   "id": 4241983,
   "name": "Cody White",
   "pos": "WR",
-  "proTeamId": 0
+  "proTeamId": 13
  },
  "4241985": {
   "id": 4241985,
@@ -2397,7 +2397,7 @@
   "id": 4243322,
   "name": "Jake Haener",
   "pos": "QB",
-  "proTeamId": 19
+  "proTeamId": 0
  },
  "4243331": {
   "id": 4243331,
@@ -3291,7 +3291,7 @@
   "id": 4372066,
   "name": "Jake Moody",
   "pos": "K",
-  "proTeamId": 0
+  "proTeamId": 33
  },
  "4372070": {
   "id": 4372070,
@@ -5199,7 +5199,7 @@
   "id": 4685540,
   "name": "Carsen Ryan",
   "pos": "TE",
-  "proTeamId": 5
+  "proTeamId": 0
  },
  "4685553": {
   "id": 4685553,
@@ -6087,7 +6087,7 @@
   "id": 5155825,
   "name": "Carter Runyon",
   "pos": "TE",
-  "proTeamId": 13
+  "proTeamId": 0
  },
  "5159802": {
   "id": 5159802,
