@@ -29,6 +29,13 @@ export interface PickemWeek {
   matchups: PickemMatchup[];
 }
 
+// One-off commissioner extensions for Matchup Pick'Em only ("season-week" -> lock time).
+// NFL Pick'Em locks are unaffected.
+// 2026 Week 9: reopened until 9 PM ET Thu Nov 5.
+const MATCHUP_LOCK_OVERRIDES: Record<string, string> = {
+  "2026-9": "2026-11-06T02:00Z",
+};
+
 export function pickemWeeks(season: Season, slate: Slate | null): PickemWeek[] {
   const weeks = [...new Set(season.games.map((g) => g.week))].sort((a, b) => a - b);
   const recordBefore = (teamId: number, week: number) => {
@@ -44,7 +51,8 @@ export function pickemWeeks(season: Season, slate: Slate | null): PickemWeek[] {
   };
   return weeks.map((week) => {
     const nfl = slate?.weeks[String(week)]?.games ?? [];
-    const lockAt = nfl.length ? nfl.map(lockTime).sort()[0] : null;
+    const lockAt =
+      MATCHUP_LOCK_OVERRIDES[`${season.year}-${week}`] ?? (nfl.length ? nfl.map(lockTime).sort()[0] : null);
     const matchups = season.games
       .filter((g) => g.week === week)
       .map((g) => {
