@@ -387,7 +387,7 @@
   "id": 2578570,
   "name": "Jacoby Brissett",
   "pos": "QB",
-  "proTeamId": 22
+  "proTeamId": 33
  },
  "2579604": {
   "id": 2579604,
@@ -5362,6 +5362,12 @@
   "name": "Robbie Ouzts",
   "pos": "RB",
   "proTeamId": 26
+ },
+ "4691889": {
+  "id": 4691889,
+  "name": "Greg Desrosiers Jr.",
+  "pos": "RB",
+  "proTeamId": 19
  },
  "4692022": {
   "id": 4692022,

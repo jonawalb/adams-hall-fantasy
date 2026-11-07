@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 9,
- "archivedAt": "2026-11-06T13:36:29.675Z",
+ "archivedAt": "2026-11-07T12:16:26.567Z",
  "matchups": [
   {
    "id": 41,
@@ -44,7 +44,7 @@
       "playerId": 4360761,
       "name": "Michael Wilson",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0
      },
      {
@@ -1068,7 +1068,7 @@
       "playerId": 4432710,
       "name": "TreVeyon Henderson",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "IR",
       "points": 0
      },
      {
@@ -1082,7 +1082,7 @@
       "playerId": 4426385,
       "name": "Zach Charbonnet",
       "pos": "RB",
-      "slot": "IR",
+      "slot": "BE",
       "points": 0
      },
      {
