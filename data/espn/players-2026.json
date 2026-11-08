@@ -627,7 +627,7 @@
   "id": 3047876,
   "name": "KhaDarel Hodge",
   "pos": "WR",
-  "proTeamId": 0
+  "proTeamId": 25
  },
  "3049698": {
   "id": 3049698,
@@ -2385,7 +2385,7 @@
   "id": 4243315,
   "name": "Salvon Ahmed",
   "pos": "RB",
-  "proTeamId": 0
+  "proTeamId": 3
  },
  "4243319": {
   "id": 4243319,
@@ -3009,7 +3009,7 @@
   "id": 4361777,
   "name": "Zamir White",
   "pos": "RB",
-  "proTeamId": 0
+  "proTeamId": 18
  },
  "4361778": {
   "id": 4361778,
@@ -3195,7 +3195,7 @@
   "id": 4366910,
   "name": "Shawn Bowman",
   "pos": "TE",
-  "proTeamId": 0
+  "proTeamId": 22
  },
  "4366963": {
   "id": 4366963,
@@ -3273,7 +3273,7 @@
   "id": 4372019,
   "name": "Jerome Ford",
   "pos": "RB",
-  "proTeamId": 0
+  "proTeamId": 22
  },
  "4372026": {
   "id": 4372026,
@@ -4005,7 +4005,7 @@
   "id": 4429466,
   "name": "Drake Dabney",
   "pos": "TE",
-  "proTeamId": 0
+  "proTeamId": 9
  },
  "4429501": {
   "id": 4429501,
@@ -4137,7 +4137,7 @@
   "id": 4430684,
   "name": "Treyton Welch",
   "pos": "TE",
-  "proTeamId": 18
+  "proTeamId": 0
  },
  "4430723": {
   "id": 4430723,
@@ -4341,7 +4341,7 @@
   "id": 4431562,
   "name": "Phil Mafah",
   "pos": "RB",
-  "proTeamId": 0
+  "proTeamId": 19
  },
  "4431574": {
   "id": 4431574,
@@ -4641,7 +4641,7 @@
   "id": 4569682,
   "name": "Audric Estime",
   "pos": "RB",
-  "proTeamId": 0
+  "proTeamId": 18
  },
  "4569923": {
   "id": 4569923,
@@ -4857,7 +4857,7 @@
   "id": 4599739,
   "name": "Kendre Miller",
   "pos": "RB",
-  "proTeamId": 18
+  "proTeamId": 0
  },
  "4600597": {
   "id": 4600597,
@@ -5199,7 +5199,7 @@
   "id": 4685540,
   "name": "Carsen Ryan",
   "pos": "TE",
-  "proTeamId": 0
+  "proTeamId": 5
  },
  "4685553": {
   "id": 4685553,
@@ -6123,7 +6123,7 @@
   "id": 5208518,
   "name": "Charlie Smyth",
   "pos": "K",
-  "proTeamId": 0
+  "proTeamId": 18
  },
  "5220680": {
   "id": 5220680,

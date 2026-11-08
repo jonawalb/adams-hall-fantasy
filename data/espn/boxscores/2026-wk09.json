@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 9,
- "archivedAt": "2026-11-07T12:16:26.567Z",
+ "archivedAt": "2026-11-08T12:36:32.530Z",
  "matchups": [
   {
    "id": 41,
@@ -229,13 +229,6 @@
       "points": 0
      },
      {
-      "playerId": 4832800,
-      "name": "Denzel Boston",
-      "pos": "WR",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 4702555,
       "name": "Jonah Coleman",
       "pos": "RB",
@@ -247,6 +240,13 @@
       "name": "Broncos D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
+      "points": 0
+     },
+     {
+      "playerId": 2971573,
+      "name": "Ka'imi Fairbairn",
+      "pos": "K",
+      "slot": "K",
       "points": 0
      }
     ]
@@ -1061,7 +1061,7 @@
       "playerId": 4612826,
       "name": "Ladd McConkey",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -1089,7 +1089,7 @@
       "playerId": 4870795,
       "name": "Makai Lemon",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0
      },
      {
