@@ -4379,6 +4379,12 @@
   "pos": "TE",
   "proTeamId": 9
  },
+ "4432545": {
+  "id": 4432545,
+  "name": "Jabari Small",
+  "pos": "RB",
+  "proTeamId": 8
+ },
  "4432577": {
   "id": 4432577,
   "name": "C.J. Stroud",
@@ -5003,6 +5009,12 @@
   "pos": "WR",
   "proTeamId": 12
  },
+ "4683111": {
+  "id": 4683111,
+  "name": "Jaden Bradley",
+  "pos": "WR",
+  "proTeamId": 28
+ },
  "4683151": {
   "id": 4683151,
   "name": "Deion Burks",
@@ -5134,6 +5146,12 @@
   "name": "Jordan James",
   "pos": "RB",
   "proTeamId": 25
+ },
+ "4685409": {
+  "id": 4685409,
+  "name": "Jordan Hudson",
+  "pos": "WR",
+  "proTeamId": 6
  },
  "4685413": {
   "id": 4685413,
