@@ -3887,6 +3887,12 @@
   "pos": "RB",
   "proTeamId": 21
  },
+ "4429020": {
+  "id": 4429020,
+  "name": "DJ Uiagalelei",
+  "pos": "QB",
+  "proTeamId": 24
+ },
  "4429022": {
   "id": 4429022,
   "name": "Kayshon Boutte",
@@ -5506,6 +5512,12 @@
   "name": "Barion Brown",
   "pos": "WR",
   "proTeamId": 18
+ },
+ "4699354": {
+  "id": 4699354,
+  "name": "Harrison Wallace III",
+  "pos": "WR",
+  "proTeamId": 22
  },
  "4700712": {
   "id": 4700712,
