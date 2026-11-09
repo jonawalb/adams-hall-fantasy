@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 11,
  "poll": "AP Top 25",
- "fetchedAt": "2026-11-09T09:27:53.545Z",
+ "fetchedAt": "2026-11-09T14:54:26.811Z",
  "rankings": [
   {
    "rank": 1,
@@ -315,7 +315,7 @@
    "detail": "11/10 - 7:00 PM EST",
    "venue": "InfoCision Stadium",
    "broadcast": "CBSSN",
-   "spread": "WMU -14.5",
+   "spread": "WMU -14",
    "overUnder": 47.5,
    "headline": null,
    "home": {
@@ -353,7 +353,7 @@
    "venue": "Doyt L. Perry Stadium",
    "broadcast": "ESPNU",
    "spread": "BGSU -6",
-   "overUnder": 45.5,
+   "overUnder": 44.5,
    "headline": null,
    "home": {
     "abbr": "BGSU",
@@ -537,7 +537,7 @@
    "detail": "11/12 - 8:00 PM EST",
    "venue": "Raymond James Stadium",
    "broadcast": "ESPN",
-   "spread": "MEM -5.5",
+   "spread": "MEM -4.5",
    "overUnder": 48.5,
    "headline": null,
    "home": {
@@ -612,7 +612,7 @@
    "venue": "Acrisure Stadium",
    "broadcast": "ESPN",
    "spread": "PITT -3.5",
-   "overUnder": 53.5,
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "PITT",
@@ -685,7 +685,7 @@
    "detail": "11/13 - 10:15 PM EST",
    "venue": "Folsom Field",
    "broadcast": "ESPN",
-   "spread": "HOU -10.5",
+   "spread": "HOU -10",
    "overUnder": 50.5,
    "headline": null,
    "home": {
@@ -759,7 +759,7 @@
    "detail": "11/14 - 12:00 PM EST",
    "venue": "Ohio Stadium",
    "broadcast": "Fox",
-   "spread": "OSU -11.5",
+   "spread": "OSU -12.5",
    "overUnder": 47.5,
    "headline": null,
    "home": {
@@ -834,7 +834,7 @@
    "venue": "Jack Trice Stadium",
    "broadcast": "TNT",
    "spread": "ISU -2.5",
-   "overUnder": 60.5,
+   "overUnder": 61.5,
    "headline": null,
    "home": {
     "abbr": "ISU",
@@ -981,7 +981,7 @@
    "detail": "11/14 - 12:00 PM EST",
    "venue": "Pratt & Whitney Stadium",
    "broadcast": "CBSSN",
-   "spread": "JMU -3.5",
+   "spread": "JMU -4",
    "overUnder": 57.5,
    "headline": null,
    "home": {
@@ -1056,7 +1056,7 @@
    "venue": "SHI Stadium",
    "broadcast": "BTN",
    "spread": "NEB -13.5",
-   "overUnder": 52.5,
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "RUTG",
@@ -1462,7 +1462,7 @@
    "detail": "11/14 - 3:30 PM EST",
    "venue": "Sanford Stadium",
    "broadcast": "ABC",
-   "spread": "UGA -14.5",
+   "spread": "UGA -15.5",
    "overUnder": 47.5,
    "headline": null,
    "home": {
@@ -1573,7 +1573,7 @@
    "detail": "11/14 - 3:30 PM EST",
    "venue": "Notre Dame Stadium",
    "broadcast": "NBC",
-   "spread": "ND -30.5",
+   "spread": "ND -29.5",
    "overUnder": 52.5,
    "headline": null,
    "home": {
@@ -2165,7 +2165,7 @@
    "detail": "11/14 - 6:15 PM EST",
    "venue": "Kroger Field",
    "broadcast": "ESPN",
-   "spread": "UK -3",
+   "spread": "UK -3.5",
    "overUnder": 51.5,
    "headline": null,
    "home": {
