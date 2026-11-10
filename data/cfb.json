@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 11,
  "poll": "AP Top 25",
- "fetchedAt": "2026-11-09T14:54:26.811Z",
+ "fetchedAt": "2026-11-10T12:05:44.519Z",
  "rankings": [
   {
    "rank": 1,
@@ -316,7 +316,7 @@
    "venue": "InfoCision Stadium",
    "broadcast": "CBSSN",
    "spread": "WMU -14",
-   "overUnder": 47.5,
+   "overUnder": 48.5,
    "headline": null,
    "home": {
     "abbr": "AKR",
@@ -352,7 +352,7 @@
    "detail": "11/10 - 7:00 PM EST",
    "venue": "Doyt L. Perry Stadium",
    "broadcast": "ESPNU",
-   "spread": "BGSU -6",
+   "spread": "BGSU -5.5",
    "overUnder": 44.5,
    "headline": null,
    "home": {
@@ -390,7 +390,7 @@
    "venue": "Yager Stadium",
    "broadcast": "ESPN2",
    "spread": "OHIO -1.5",
-   "overUnder": 48.5,
+   "overUnder": 46.5,
    "headline": null,
    "home": {
     "abbr": "M-OH",
@@ -463,7 +463,7 @@
    "detail": "11/11 - 7:30 PM EST",
    "venue": "Kelly/Shorts Stadium",
    "broadcast": "ESPNU",
-   "spread": "CMU -17.5",
+   "spread": "CMU -18.5",
    "overUnder": 43.5,
    "headline": null,
    "home": {
@@ -537,8 +537,8 @@
    "detail": "11/12 - 8:00 PM EST",
    "venue": "Raymond James Stadium",
    "broadcast": "ESPN",
-   "spread": "MEM -4.5",
-   "overUnder": 48.5,
+   "spread": "MEM -4",
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "USF",
@@ -575,7 +575,7 @@
    "venue": "Malone Stadium",
    "broadcast": "ESPN2",
    "spread": "UL -11.5",
-   "overUnder": 48.5,
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "ULM",
@@ -649,7 +649,7 @@
    "venue": "Rose Bowl",
    "broadcast": "Fox",
    "spread": "UCLA -10",
-   "overUnder": 46.5,
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "UCLA",
@@ -685,7 +685,7 @@
    "detail": "11/13 - 10:15 PM EST",
    "venue": "Folsom Field",
    "broadcast": "ESPN",
-   "spread": "HOU -10",
+   "spread": "HOU -10.5",
    "overUnder": 50.5,
    "headline": null,
    "home": {
@@ -760,7 +760,7 @@
    "venue": "Ohio Stadium",
    "broadcast": "Fox",
    "spread": "OSU -12.5",
-   "overUnder": 47.5,
+   "overUnder": 46.5,
    "headline": null,
    "home": {
     "abbr": "OSU",
@@ -833,8 +833,8 @@
    "detail": "11/14 - 12:00 PM EST",
    "venue": "Jack Trice Stadium",
    "broadcast": "TNT",
-   "spread": "ISU -2.5",
-   "overUnder": 61.5,
+   "spread": "ISU -3",
+   "overUnder": 60.5,
    "headline": null,
    "home": {
     "abbr": "ISU",
@@ -870,7 +870,7 @@
    "detail": "11/14 - 12:00 PM EST",
    "venue": "Davis Wade Stadium",
    "broadcast": "ESPN2",
-   "spread": "AUB -3",
+   "spread": "AUB -2.5",
    "overUnder": 50.5,
    "headline": null,
    "home": {
@@ -908,7 +908,7 @@
    "venue": "Carter-Finley Stadium",
    "broadcast": "ACC Network",
    "spread": "SYR -3",
-   "overUnder": 54.5,
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "NCSU",
@@ -1056,7 +1056,7 @@
    "venue": "SHI Stadium",
    "broadcast": "BTN",
    "spread": "NEB -13.5",
-   "overUnder": 53.5,
+   "overUnder": 52.5,
    "headline": null,
    "home": {
     "abbr": "RUTG",
@@ -1092,8 +1092,8 @@
    "detail": "11/14 - 12:45 PM EST",
    "venue": "FirstBank Stadium",
    "broadcast": "SEC Network",
-   "spread": "ALA -17.5",
-   "overUnder": 52.5,
+   "spread": "ALA -15.5",
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "VAN",
@@ -1240,8 +1240,8 @@
    "detail": "11/14 - 2:00 PM EST",
    "venue": "Amon G. Carter Stadium",
    "broadcast": "ESPNU",
-   "spread": "TCU -9.5",
-   "overUnder": 46.5,
+   "spread": "TCU -10",
+   "overUnder": 45.5,
    "headline": null,
    "home": {
     "abbr": "TCU",
@@ -1277,7 +1277,7 @@
    "detail": "11/14 - 2:00 PM EST",
    "venue": "First Community Stadium",
    "broadcast": "ESPN+",
-   "spread": "RICE -3",
+   "spread": "RICE -2.5",
    "overUnder": 48.5,
    "headline": null,
    "home": {
@@ -1314,8 +1314,8 @@
    "detail": "11/14 - 2:00 PM EST",
    "venue": "Elliott T. Bowers Stadium",
    "broadcast": "ESPN+",
-   "spread": "KENN -8.5",
-   "overUnder": 47.5,
+   "spread": "KENN -7.5",
+   "overUnder": 46.5,
    "headline": null,
    "home": {
     "abbr": "SHSU",
@@ -1352,7 +1352,7 @@
    "venue": "Kyle Field",
    "broadcast": "ESPN",
    "spread": "TENN -2.5",
-   "overUnder": 42.5,
+   "overUnder": 43.5,
    "headline": null,
    "home": {
     "abbr": "TA&M",
@@ -1389,7 +1389,7 @@
    "venue": "Robert W. Plaster Stadium",
    "broadcast": "ESPN+",
    "spread": "MOST -1.5",
-   "overUnder": 49.5,
+   "overUnder": 48.5,
    "headline": null,
    "home": {
     "abbr": "MOST",
@@ -1610,8 +1610,8 @@
    "detail": "11/14 - 3:30 PM EST",
    "venue": "Autzen Stadium",
    "broadcast": "FS1",
-   "spread": "ORE -10.5",
-   "overUnder": 39.5,
+   "spread": "ORE -11.5",
+   "overUnder": 38.5,
    "headline": null,
    "home": {
     "abbr": "ORE",
@@ -1647,7 +1647,7 @@
    "detail": "11/14 - 3:30 PM EST",
    "venue": "Acrisure Bounce House",
    "broadcast": "ESPN2",
-   "spread": "UCF -3",
+   "spread": "UCF -3.5",
    "overUnder": 48.5,
    "headline": null,
    "home": {
@@ -1684,7 +1684,7 @@
    "detail": "11/14 - 3:30 PM EST",
    "venue": "Scott Stadium",
    "broadcast": "ACC Network",
-   "spread": "UVA -12.5",
+   "spread": "UVA -10",
    "overUnder": 47.5,
    "headline": null,
    "home": {
@@ -1759,7 +1759,7 @@
    "venue": "Huskie Stadium",
    "broadcast": "MW+",
    "spread": "NEV -7",
-   "overUnder": 46.5,
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "NIU",
@@ -1869,7 +1869,7 @@
    "detail": "11/14 - 3:30 PM EST",
    "venue": "Williams Stadium (VA)",
    "broadcast": "CBSSN",
-   "spread": "LIB -21.5",
+   "spread": "LIB -20.5",
    "overUnder": 53.5,
    "headline": null,
    "home": {
@@ -1906,8 +1906,8 @@
    "detail": "11/14 - 4:00 PM EST",
    "venue": "UFCU Stadium",
    "broadcast": "CW",
-   "spread": "TXST -9.5",
-   "overUnder": 60.5,
+   "spread": "TXST -10",
+   "overUnder": 59.5,
    "headline": null,
    "home": {
     "abbr": "TXST",
@@ -1944,7 +1944,7 @@
    "venue": "Memorial Stadium (Norman, OK)",
    "broadcast": "SEC Network",
    "spread": "MISS -1.5",
-   "overUnder": 49.5,
+   "overUnder": 48.5,
    "headline": null,
    "home": {
     "abbr": "OU",
@@ -1980,7 +1980,7 @@
    "detail": "11/14 - 4:15 PM EST",
    "venue": "Spartan Stadium",
    "broadcast": "BTN",
-   "spread": "WASH -4",
+   "spread": "WASH -3",
    "overUnder": 43.5,
    "headline": null,
    "home": {
@@ -2018,7 +2018,7 @@
    "venue": "Joe Aillet Stadium",
    "broadcast": "ESPN+",
    "spread": "LT -17.5",
-   "overUnder": 55.5,
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "LT",
@@ -2055,7 +2055,7 @@
    "venue": "Milan Puskar Stadium",
    "broadcast": "ESPNU",
    "spread": "WVU -3",
-   "overUnder": 66.5,
+   "overUnder": 67.5,
    "headline": null,
    "home": {
     "abbr": "WVU",
@@ -2091,8 +2091,8 @@
    "detail": "11/14 - 6:00 PM EST",
    "venue": "Albertsons Stadium",
    "broadcast": "USA Net",
-   "spread": "BOIS -10.5",
-   "overUnder": 66.5,
+   "spread": "BOIS -13.5",
+   "overUnder": 65.5,
    "headline": null,
    "home": {
     "abbr": "BOIS",
@@ -2166,7 +2166,7 @@
    "venue": "Kroger Field",
    "broadcast": "ESPN",
    "spread": "UK -3.5",
-   "overUnder": 51.5,
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "UK",
@@ -2202,8 +2202,8 @@
    "detail": "11/14 - 7:00 PM EST",
    "venue": "Kenan Stadium",
    "broadcast": "ESPN2",
-   "spread": "LOU -3",
-   "overUnder": 60.5,
+   "spread": "LOU -3.5",
+   "overUnder": 59.5,
    "headline": null,
    "home": {
     "abbr": "UNC",
@@ -2240,7 +2240,7 @@
    "venue": "Beaver Stadium",
    "broadcast": "FS1",
    "spread": "PSU -9.5",
-   "overUnder": 43.5,
+   "overUnder": 41.5,
    "headline": null,
    "home": {
     "abbr": "PSU",
@@ -2276,7 +2276,7 @@
    "detail": "11/14 - 7:00 PM EST",
    "venue": "Falcon Stadium",
    "broadcast": "CBSSN",
-   "spread": "AF -11.5",
+   "spread": "AF -12.5",
    "overUnder": 47.5,
    "headline": null,
    "home": {
@@ -2313,7 +2313,7 @@
    "detail": "11/14 - 7:00 PM EST",
    "venue": "Hancock Whitney Stadium",
    "broadcast": "ESPN+",
-   "spread": "USA -2.5",
+   "spread": "USA -3",
    "overUnder": 55.5,
    "headline": null,
    "home": {
@@ -2351,7 +2351,7 @@
    "venue": "Casino Del Sol Stadium",
    "broadcast": "Fox",
    "spread": "UTAH -2.5",
-   "overUnder": 53.5,
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "ARIZ",
@@ -2388,7 +2388,7 @@
    "venue": "Tiger Stadium (LA)",
    "broadcast": "ABC",
    "spread": "LSU -3.5",
-   "overUnder": 45.5,
+   "overUnder": 46.5,
    "headline": null,
    "home": {
     "abbr": "LSU",
@@ -2424,7 +2424,7 @@
    "detail": "11/14 - 7:30 PM EST",
    "venue": "Kinnick Stadium",
    "broadcast": "NBC",
-   "spread": "IOWA -17.5",
+   "spread": "IOWA -16.5",
    "overUnder": 47.5,
    "headline": null,
    "home": {
@@ -2462,7 +2462,7 @@
    "venue": "Lane Stadium",
    "broadcast": "ACC Network",
    "spread": "VT -15.5",
-   "overUnder": 59.5,
+   "overUnder": 58.5,
    "headline": null,
    "home": {
     "abbr": "VT",
@@ -2498,7 +2498,7 @@
    "detail": "11/14 - 7:30 PM EST",
    "venue": "University Stadium (NM)",
    "broadcast": "CW",
-   "spread": "UNM -14.5",
+   "spread": "UNM -14",
    "overUnder": 46.5,
    "headline": null,
    "home": {
@@ -2572,7 +2572,7 @@
    "detail": "11/14 - 9:00 PM EST",
    "venue": "Alamodome",
    "broadcast": "ESPNU",
-   "spread": "UNT -1.5",
+   "spread": "UNT -2.5",
    "overUnder": 77.5,
    "headline": null,
    "home": {
@@ -2646,8 +2646,8 @@
    "detail": "11/14 - 9:30 PM EST",
    "venue": "Snapdragon Stadium",
    "broadcast": "USA Net",
-   "spread": "USU -1.5",
-   "overUnder": 41.5,
+   "spread": "USU -2.5",
+   "overUnder": 42.5,
    "headline": null,
    "home": {
     "abbr": "SDSU",
@@ -2683,8 +2683,8 @@
    "detail": "11/14 - 10:00 PM EST",
    "venue": "Sun Bowl",
    "broadcast": "FS1",
-   "spread": "WYO -9.5",
-   "overUnder": 40.5,
+   "spread": "WYO -7.5",
+   "overUnder": 39.5,
    "headline": null,
    "home": {
     "abbr": "UTEP",
@@ -3723,7 +3723,7 @@
    "broadcast": "ESPN+",
    "spread": null,
    "overUnder": null,
-   "headline": "Pereira throws 3 TDs, Owens has pick-6 as Georgia Southern tops App State for first time in 13 tries",
+   "headline": "Pereira throws 3 TDs, Owens has pick-6 as Georgia State tops App State for first time in 13 tries",
    "home": {
     "abbr": "APP",
     "name": "App State Mountaineers",

@@ -32117,5 +32117,42 @@
   "status": "EXECUTED",
   "teamId": 8,
   "type": "FUTURE_ROSTER"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
+  "id": "c65e8a29-0f7a-4df9-9f1b-7497b912673a",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "items": [
+   {
+    "fromLineupSlotId": 20,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": -16012,
+    "toLineupSlotId": 16,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   },
+   {
+    "fromLineupSlotId": 16,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": -16004,
+    "toLineupSlotId": 20,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   }
+  ],
+  "memberId": "{C2489537-0A8B-4E67-9914-7A2C71341A12}",
+  "proposedDate": 1794306436254,
+  "rating": 0,
+  "scoringPeriodId": 10,
+  "status": "EXECUTED",
+  "teamId": 10,
+  "type": "ROSTER"
  }
 ]
