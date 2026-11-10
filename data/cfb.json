@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 11,
  "poll": "AP Top 25",
- "fetchedAt": "2026-11-10T12:05:44.519Z",
+ "fetchedAt": "2026-11-10T14:06:47.073Z",
  "rankings": [
   {
    "rank": 1,
@@ -353,7 +353,7 @@
    "venue": "Doyt L. Perry Stadium",
    "broadcast": "ESPNU",
    "spread": "BGSU -5.5",
-   "overUnder": 44.5,
+   "overUnder": 43.5,
    "headline": null,
    "home": {
     "abbr": "BGSU",
@@ -2573,7 +2573,7 @@
    "venue": "Alamodome",
    "broadcast": "ESPNU",
    "spread": "UNT -2.5",
-   "overUnder": 77.5,
+   "overUnder": 76.5,
    "headline": null,
    "home": {
     "abbr": "UTSA",
