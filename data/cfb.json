@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 11,
  "poll": "AP Top 25",
- "fetchedAt": "2026-11-11T13:23:52.846Z",
+ "fetchedAt": "2026-11-12T14:28:32.940Z",
  "rankings": [
   {
    "rank": 1,
@@ -421,14 +421,14 @@
    "id": "401866461",
    "date": "2026-11-12T00:30Z",
    "name": "BUFF @ BALL",
-   "state": "pre",
-   "completed": false,
-   "detail": "11/11 - 7:30 PM EST",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Scheumann Stadium",
    "broadcast": "ESPN2",
-   "spread": "BUF -1.5",
-   "overUnder": 50.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Burch becomes 12th Buffalo player with 1,000 rushing yards in 28-7 win over Ball State",
    "home": {
     "abbr": "BALL",
     "name": "Ball State Cardinals",
@@ -436,8 +436,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2050.png",
     "color": "ba0c2f",
     "rank": null,
-    "score": 0,
-    "record": "3-6",
+    "score": 7,
+    "record": "3-7",
     "conferenceId": "15",
     "winner": false
    },
@@ -448,23 +448,23 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png",
     "color": "005bbb",
     "rank": null,
-    "score": 0,
-    "record": "6-3",
+    "score": 28,
+    "record": "7-3",
     "conferenceId": "15",
-    "winner": false
+    "winner": true
    }
   },
   {
    "id": "401866462",
    "date": "2026-11-12T00:30Z",
    "name": "SAC @ CMU",
-   "state": "pre",
-   "completed": false,
-   "detail": "11/11 - 7:30 PM EST",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Kelly/Shorts Stadium",
    "broadcast": "ESPNU",
-   "spread": "CMU -18.5",
-   "overUnder": 44.5,
+   "spread": null,
+   "overUnder": null,
    "headline": null,
    "home": {
     "abbr": "CMU",
@@ -473,10 +473,10 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2117.png",
     "color": "4c0027",
     "rank": null,
-    "score": 0,
-    "record": "4-5",
+    "score": 28,
+    "record": "5-5",
     "conferenceId": "15",
-    "winner": false
+    "winner": true
    },
    "away": {
     "abbr": "SAC",
@@ -485,8 +485,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/16.png",
     "color": "00573C",
     "rank": null,
-    "score": 0,
-    "record": "2-8",
+    "score": 7,
+    "record": "2-9",
     "conferenceId": "15",
     "winner": false
    }
@@ -495,14 +495,14 @@
    "id": "401866463",
    "date": "2026-11-12T00:30Z",
    "name": "MASS @ TOL",
-   "state": "pre",
-   "completed": false,
-   "detail": "11/11 - 7:30 PM EST",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Glass Bowl",
    "broadcast": "CBSSN",
-   "spread": "TOL -14",
-   "overUnder": 51.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Long-distance touchdowns spark Toledo in 24-0 win over UMass",
    "home": {
     "abbr": "TOL",
     "name": "Toledo Rockets",
@@ -510,10 +510,10 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png",
     "color": "0b2240",
     "rank": null,
-    "score": 0,
-    "record": "7-2",
+    "score": 24,
+    "record": "8-2",
     "conferenceId": "15",
-    "winner": false
+    "winner": true
    },
    "away": {
     "abbr": "MASS",
@@ -523,7 +523,7 @@
     "color": "881c1c",
     "rank": null,
     "score": 0,
-    "record": "5-4",
+    "record": "5-5",
     "conferenceId": "15",
     "winner": false
    }
@@ -538,7 +538,7 @@
    "venue": "Raymond James Stadium",
    "broadcast": "ESPN",
    "spread": "MEM -3.5",
-   "overUnder": 49.5,
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "USF",
@@ -574,8 +574,8 @@
    "detail": "11/12 - 9:00 PM EST",
    "venue": "Malone Stadium",
    "broadcast": "ESPN2",
-   "spread": "UL -10.5",
-   "overUnder": 49.5,
+   "spread": "UL -10",
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "ULM",
@@ -796,8 +796,8 @@
    "detail": "11/14 - 12:00 PM EST",
    "venue": "Ohio Stadium",
    "broadcast": "Fox",
-   "spread": "OSU -12.5",
-   "overUnder": 45.5,
+   "spread": "OSU -14",
+   "overUnder": 44.5,
    "headline": null,
    "home": {
     "abbr": "OSU",
@@ -945,7 +945,7 @@
    "venue": "SECU Stadium",
    "broadcast": "FS1",
    "spread": "WIS -8.5",
-   "overUnder": 43.5,
+   "overUnder": 42.5,
    "headline": null,
    "home": {
     "abbr": "MD",
@@ -1055,8 +1055,8 @@
    "detail": "11/14 - 12:30 PM EST",
    "venue": "SHI Stadium",
    "broadcast": "BTN",
-   "spread": "NEB -13.5",
-   "overUnder": 52.5,
+   "spread": "NEB -14.5",
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "RUTG",
@@ -1092,7 +1092,7 @@
    "detail": "11/14 - 12:45 PM EST",
    "venue": "FirstBank Stadium",
    "broadcast": "SEC Network",
-   "spread": "ALA -15.5",
+   "spread": "ALA -17.5",
    "overUnder": 50.5,
    "headline": null,
    "home": {
@@ -1130,7 +1130,7 @@
    "venue": "Jerry Richardson Stadium",
    "broadcast": "ESPN+",
    "spread": "ECU -11.5",
-   "overUnder": 44.5,
+   "overUnder": 45.5,
    "headline": null,
    "home": {
     "abbr": "CLT",
@@ -1204,7 +1204,7 @@
    "venue": "Brooks Stadium (SC)",
    "broadcast": "ESPN+",
    "spread": "CCU -1.5",
-   "overUnder": 50.5,
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "CCU",
@@ -1240,7 +1240,7 @@
    "detail": "11/14 - 2:00 PM EST",
    "venue": "Amon G. Carter Stadium",
    "broadcast": "ESPNU",
-   "spread": "TCU -10",
+   "spread": "TCU -10.5",
    "overUnder": 45.5,
    "headline": null,
    "home": {
@@ -1278,7 +1278,7 @@
    "venue": "First Community Stadium",
    "broadcast": "ESPN+",
    "spread": "RICE -2.5",
-   "overUnder": 48.5,
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "RICE",
@@ -1389,7 +1389,7 @@
    "venue": "Robert W. Plaster Stadium",
    "broadcast": "ESPN+",
    "spread": "MOST -1.5",
-   "overUnder": 48.5,
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "MOST",
@@ -1536,7 +1536,7 @@
    "detail": "11/14 - 3:30 PM EST",
    "venue": "Memorial Stadium (Bloomington, IN)",
    "broadcast": "CBS",
-   "spread": "IU -7.5",
+   "spread": "IU -10",
    "overUnder": 50.5,
    "headline": null,
    "home": {
@@ -1574,7 +1574,7 @@
    "venue": "LaVell Edwards Stadium",
    "broadcast": "Fox",
    "spread": "BYU -7.5",
-   "overUnder": 49.5,
+   "overUnder": 48.5,
    "headline": null,
    "home": {
     "abbr": "BYU",
@@ -1685,7 +1685,7 @@
    "venue": "Scott Stadium",
    "broadcast": "ACC Network",
    "spread": "UVA -10",
-   "overUnder": 47.5,
+   "overUnder": 46.5,
    "headline": null,
    "home": {
     "abbr": "UVA",
@@ -1721,7 +1721,7 @@
    "detail": "11/14 - 3:30 PM EST",
    "venue": "H. A. Chapman Stadium",
    "broadcast": "ESPN+",
-   "spread": "TLSA -5.5",
+   "spread": "TLSA -6",
    "overUnder": 74.5,
    "headline": null,
    "home": {
@@ -1795,7 +1795,7 @@
    "detail": "11/14 - 3:30 PM EST",
    "venue": "Center Parc Stadium",
    "broadcast": "ESPN+",
-   "spread": "GASO -5.5",
+   "spread": "GASO -6",
    "overUnder": 56.5,
    "headline": null,
    "home": {
@@ -1869,7 +1869,7 @@
    "detail": "11/14 - 3:30 PM EST",
    "venue": "Williams Stadium (VA)",
    "broadcast": "CBSSN",
-   "spread": "LIB -20.5",
+   "spread": "LIB -21",
    "overUnder": 53.5,
    "headline": null,
    "home": {
@@ -1906,7 +1906,7 @@
    "detail": "11/14 - 4:00 PM EST",
    "venue": "UFCU Stadium",
    "broadcast": "CW",
-   "spread": "TXST -10",
+   "spread": "TXST -9.5",
    "overUnder": 59.5,
    "headline": null,
    "home": {
@@ -1943,7 +1943,7 @@
    "detail": "11/14 - 4:15 PM EST",
    "venue": "Memorial Stadium (Norman, OK)",
    "broadcast": "SEC Network",
-   "spread": "MISS -1.5",
+   "spread": "OU -1.5",
    "overUnder": 49.5,
    "headline": null,
    "home": {
@@ -1981,7 +1981,7 @@
    "venue": "Spartan Stadium",
    "broadcast": "BTN",
    "spread": "WASH -3.5",
-   "overUnder": 43.5,
+   "overUnder": 42.5,
    "headline": null,
    "home": {
     "abbr": "MSU",
@@ -2018,7 +2018,7 @@
    "venue": "Joe Aillet Stadium",
    "broadcast": "ESPN+",
    "spread": "LT -17.5",
-   "overUnder": 55.5,
+   "overUnder": 56.5,
    "headline": null,
    "home": {
     "abbr": "LT",
@@ -2091,7 +2091,7 @@
    "detail": "11/14 - 6:00 PM EST",
    "venue": "Albertsons Stadium",
    "broadcast": "USA Net",
-   "spread": "BOIS -13.5",
+   "spread": "BOIS -15.5",
    "overUnder": 65.5,
    "headline": null,
    "home": {
@@ -2129,7 +2129,7 @@
    "venue": "Joan C. Edwards Stadium",
    "broadcast": "ESPN+",
    "spread": "APP -1.5",
-   "overUnder": 53.5,
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "MRSH",
@@ -2203,7 +2203,7 @@
    "venue": "Kenan Stadium",
    "broadcast": "ESPN2",
    "spread": "LOU -3.5",
-   "overUnder": 59.5,
+   "overUnder": 60.5,
    "headline": null,
    "home": {
     "abbr": "UNC",
@@ -2424,7 +2424,7 @@
    "detail": "11/14 - 7:30 PM EST",
    "venue": "Kinnick Stadium",
    "broadcast": "NBC",
-   "spread": "IOWA -16.5",
+   "spread": "IOWA -17.5",
    "overUnder": 47.5,
    "headline": null,
    "home": {
@@ -2535,7 +2535,7 @@
    "detail": "11/14 - 7:45 PM EST",
    "venue": "Donald W. Reynolds Razorback Stadium",
    "broadcast": "SEC Network",
-   "spread": "SC -7.5",
+   "spread": "SC -7",
    "overUnder": 51.5,
    "headline": null,
    "home": {
@@ -2573,7 +2573,7 @@
    "venue": "Alamodome",
    "broadcast": "ESPNU",
    "spread": "UNT -2.5",
-   "overUnder": 75.5,
+   "overUnder": 76.5,
    "headline": null,
    "home": {
     "abbr": "UTSA",
@@ -2721,7 +2721,7 @@
    "venue": "Martin Stadium",
    "broadcast": "CBSSN",
    "spread": "WSU -9.5",
-   "overUnder": 67.5,
+   "overUnder": 66.5,
    "headline": null,
    "home": {
     "abbr": "WSU",

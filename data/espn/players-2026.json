@@ -21,7 +21,7 @@
   "id": 10621,
   "name": "Nick Folk",
   "pos": "K",
-  "proTeamId": 1
+  "proTeamId": 0
  },
  "11122": {
   "id": 11122,
@@ -93,7 +93,7 @@
   "id": 15683,
   "name": "Justin Tucker",
   "pos": "K",
-  "proTeamId": 33
+  "proTeamId": 12
  },
  "15795": {
   "id": 15795,
@@ -3339,7 +3339,7 @@
   "id": 4372716,
   "name": "Nikko Remigio",
   "pos": "WR",
-  "proTeamId": 12
+  "proTeamId": 0
  },
  "4372758": {
   "id": 4372758,

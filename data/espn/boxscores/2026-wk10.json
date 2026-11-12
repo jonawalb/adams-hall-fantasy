@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 10,
- "archivedAt": "2026-11-11T13:23:55.756Z",
+ "archivedAt": "2026-11-12T14:28:36.097Z",
  "matchups": [
   {
    "id": 46,
@@ -741,13 +741,6 @@
       "points": 0
      },
      {
-      "playerId": 4040761,
-      "name": "Devin Singletary",
-      "pos": "RB",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": -16004,
       "name": "Bengals D/ST",
       "pos": "D/ST",
@@ -758,6 +751,13 @@
       "playerId": 4429086,
       "name": "Michael Mayer",
       "pos": "TE",
+      "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 5081397,
+      "name": "Dylan Sampson",
+      "pos": "RB",
       "slot": "BE",
       "points": 0
      }
@@ -847,7 +847,7 @@
       "playerId": 4723820,
       "name": "Omar Cooper Jr.",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -868,21 +868,21 @@
       "playerId": 3046439,
       "name": "Hunter Henry",
       "pos": "TE",
-      "slot": "BE",
+      "slot": "TE",
       "points": 0
      },
      {
       "playerId": 4831959,
       "name": "Eli Raridon",
       "pos": "TE",
-      "slot": "TE",
+      "slot": "BE",
       "points": 0
      },
      {
       "playerId": 4832800,
       "name": "Denzel Boston",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0
      },
      {
