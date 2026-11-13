@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 11,
  "poll": "AP Top 25",
- "fetchedAt": "2026-11-13T11:41:58.749Z",
+ "fetchedAt": "2026-11-13T13:46:10.123Z",
  "rankings": [
   {
    "rank": 1,
@@ -685,7 +685,7 @@
    "detail": "11/13 - 10:15 PM EST",
    "venue": "Folsom Field",
    "broadcast": "ESPN",
-   "spread": "HOU -9.5",
+   "spread": "HOU -8.5",
    "overUnder": 51.5,
    "headline": null,
    "home": {

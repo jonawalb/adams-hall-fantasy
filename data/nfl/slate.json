@@ -4565,7 +4565,7 @@
      "odds": {
       "provider": null,
       "details": "GB -3",
-      "overUnder": 42.5,
+      "overUnder": 41.5,
       "moneyline": {
        "home": "-155",
        "away": "+130"
@@ -4863,5 +4863,5 @@
    ]
   }
  },
- "fetchedAt": "2026-11-13T11:41:58.307Z"
+ "fetchedAt": "2026-11-13T13:46:09.409Z"
 }
