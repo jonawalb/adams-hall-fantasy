@@ -501,7 +501,7 @@
   "id": 2983509,
   "name": "Dare Ogunbowale",
   "pos": "RB",
-  "proTeamId": 34
+  "proTeamId": 0
  },
  "2985659": {
   "id": 2985659,
@@ -2145,7 +2145,7 @@
   "id": 4241372,
   "name": "Hollywood Brown",
   "pos": "WR",
-  "proTeamId": 21
+  "proTeamId": 0
  },
  "4241374": {
   "id": 4241374,
@@ -4251,7 +4251,7 @@
   "id": 4431342,
   "name": "Brennan Presley",
   "pos": "WR",
-  "proTeamId": 0
+  "proTeamId": 14
  },
  "4431346": {
   "id": 4431346,
@@ -5493,7 +5493,7 @@
   "id": 4698191,
   "name": "Chris Collier",
   "pos": "RB",
-  "proTeamId": 13
+  "proTeamId": 0
  },
  "4698253": {
   "id": 4698253,

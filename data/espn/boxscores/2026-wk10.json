@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 10,
- "archivedAt": "2026-11-13T13:46:16.429Z",
+ "archivedAt": "2026-11-14T12:50:40.214Z",
  "matchups": [
   {
    "id": 46,
@@ -450,13 +450,6 @@
       "points": 0
      },
      {
-      "playerId": 4569559,
-      "name": "Devaughn Vele",
-      "pos": "WR",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 4241416,
       "name": "Chuba Hubbard",
       "pos": "RB",
@@ -510,6 +503,13 @@
       "name": "Jakobi Meyers",
       "pos": "WR",
       "slot": "WR",
+      "points": 0
+     },
+     {
+      "playerId": 4832955,
+      "name": "Emmett Johnson",
+      "pos": "RB",
+      "slot": "BE",
       "points": 0
      }
     ]
@@ -951,7 +951,7 @@
       "playerId": 4871023,
       "name": "Carnell Tate",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -1000,7 +1000,7 @@
       "playerId": 4688813,
       "name": "Josh Downs",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0
      },
      {
