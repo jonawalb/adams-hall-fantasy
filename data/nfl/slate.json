@@ -4448,23 +4448,23 @@
      "id": "401873053",
      "date": "2026-11-15T14:30Z",
      "name": "NE VS DET",
-     "state": "pre",
-     "completed": false,
-     "winner": null,
-     "detail": "11/15 - 9:30 AM EST",
+     "state": "post",
+     "completed": true,
+     "winner": "home",
+     "detail": "Final",
      "home": {
       "abbr": "DET",
       "name": "Detroit Lions",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
       "color": "0076b6",
-      "score": 0
+      "score": 35
      },
      "away": {
       "abbr": "NE",
       "name": "New England Patriots",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
       "color": "002a5c",
-      "score": 0
+      "score": 10
      },
      "odds": {
       "provider": "Draft Kings",
@@ -4480,23 +4480,23 @@
      "id": "401873058",
      "date": "2026-11-15T18:00Z",
      "name": "KC @ ATL",
-     "state": "pre",
-     "completed": false,
-     "winner": null,
-     "detail": "11/15 - 1:00 PM EST",
+     "state": "post",
+     "completed": true,
+     "winner": "away",
+     "detail": "Final",
      "home": {
       "abbr": "ATL",
       "name": "Atlanta Falcons",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
       "color": "a71930",
-      "score": 0
+      "score": 13
      },
      "away": {
       "abbr": "KC",
       "name": "Kansas City Chiefs",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
       "color": "e31837",
-      "score": 0
+      "score": 35
      },
      "odds": {
       "provider": null,
@@ -4512,23 +4512,23 @@
      "id": "401873056",
      "date": "2026-11-15T18:00Z",
      "name": "HOU @ CLE",
-     "state": "pre",
-     "completed": false,
-     "winner": null,
-     "detail": "11/15 - 1:00 PM EST",
+     "state": "post",
+     "completed": true,
+     "winner": "home",
+     "detail": "Final",
      "home": {
       "abbr": "CLE",
       "name": "Cleveland Browns",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
       "color": "472a08",
-      "score": 0
+      "score": 27
      },
      "away": {
       "abbr": "HOU",
       "name": "Houston Texans",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
       "color": "021018",
-      "score": 0
+      "score": 24
      },
      "odds": {
       "provider": null,
@@ -4544,23 +4544,23 @@
      "id": "401873060",
      "date": "2026-11-15T18:00Z",
      "name": "MIN @ GB",
-     "state": "pre",
-     "completed": false,
-     "winner": null,
-     "detail": "11/15 - 1:00 PM EST",
+     "state": "post",
+     "completed": true,
+     "winner": "away",
+     "detail": "Final",
      "home": {
       "abbr": "GB",
       "name": "Green Bay Packers",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
       "color": "204e32",
-      "score": 0
+      "score": 10
      },
      "away": {
       "abbr": "MIN",
       "name": "Minnesota Vikings",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
       "color": "4f2683",
-      "score": 0
+      "score": 30
      },
      "odds": {
       "provider": null,
@@ -4576,23 +4576,23 @@
      "id": "401873057",
      "date": "2026-11-15T18:00Z",
      "name": "JAX @ TEN",
-     "state": "pre",
-     "completed": false,
-     "winner": null,
-     "detail": "11/15 - 1:00 PM EST",
+     "state": "post",
+     "completed": true,
+     "winner": "away",
+     "detail": "Final",
      "home": {
       "abbr": "TEN",
       "name": "Tennessee Titans",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
       "color": "4495d2",
-      "score": 0
+      "score": 23
      },
      "away": {
       "abbr": "JAX",
       "name": "Jacksonville Jaguars",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
       "color": "007487",
-      "score": 0
+      "score": 40
      },
      "odds": {
       "provider": null,
@@ -4608,23 +4608,23 @@
      "id": "401873059",
      "date": "2026-11-15T18:00Z",
      "name": "MIA @ IND",
-     "state": "pre",
-     "completed": false,
-     "winner": null,
-     "detail": "11/15 - 1:00 PM EST",
+     "state": "post",
+     "completed": true,
+     "winner": "home",
+     "detail": "Final",
      "home": {
       "abbr": "IND",
       "name": "Indianapolis Colts",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
       "color": "003b75",
-      "score": 0
+      "score": 24
      },
      "away": {
       "abbr": "MIA",
       "name": "Miami Dolphins",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
       "color": "008e97",
-      "score": 0
+      "score": 22
      },
      "odds": {
       "provider": null,
@@ -4640,23 +4640,23 @@
      "id": "401873055",
      "date": "2026-11-15T18:00Z",
      "name": "CAR @ NO",
-     "state": "pre",
-     "completed": false,
-     "winner": null,
-     "detail": "11/15 - 1:00 PM EST",
+     "state": "post",
+     "completed": true,
+     "winner": "away",
+     "detail": "Final",
      "home": {
       "abbr": "NO",
       "name": "New Orleans Saints",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
       "color": "d3bc8d",
-      "score": 0
+      "score": 17
      },
      "away": {
       "abbr": "CAR",
       "name": "Carolina Panthers",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
       "color": "0085ca",
-      "score": 0
+      "score": 20
      },
      "odds": {
       "provider": null,
@@ -4672,23 +4672,23 @@
      "id": "401873054",
      "date": "2026-11-15T18:00Z",
      "name": "BUF @ NYJ",
-     "state": "pre",
-     "completed": false,
-     "winner": null,
-     "detail": "11/15 - 1:00 PM EST",
+     "state": "post",
+     "completed": true,
+     "winner": "away",
+     "detail": "Final",
      "home": {
       "abbr": "NYJ",
       "name": "New York Jets",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
       "color": "115740",
-      "score": 0
+      "score": 12
      },
      "away": {
       "abbr": "BUF",
       "name": "Buffalo Bills",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
       "color": "00338d",
-      "score": 0
+      "score": 31
      },
      "odds": {
       "provider": null,
@@ -4704,23 +4704,23 @@
      "id": "401873062",
      "date": "2026-11-15T21:05Z",
      "name": "SEA @ LV",
-     "state": "pre",
+     "state": "in",
      "completed": false,
      "winner": null,
-     "detail": "11/15 - 4:05 PM EST",
+     "detail": "5:28 - 4th",
      "home": {
       "abbr": "LV",
       "name": "Las Vegas Raiders",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
       "color": "000000",
-      "score": 0
+      "score": 10
      },
      "away": {
       "abbr": "SEA",
       "name": "Seattle Seahawks",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
       "color": "002a5c",
-      "score": 0
+      "score": 21
      },
      "odds": {
       "provider": null,
@@ -4736,23 +4736,23 @@
      "id": "401873061",
      "date": "2026-11-15T21:05Z",
      "name": "LAR @ ARI",
-     "state": "pre",
+     "state": "in",
      "completed": false,
      "winner": null,
-     "detail": "11/15 - 4:05 PM EST",
+     "detail": "5:43 - 4th",
      "home": {
       "abbr": "ARI",
       "name": "Arizona Cardinals",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
       "color": "a40227",
-      "score": 0
+      "score": 6
      },
      "away": {
       "abbr": "LAR",
       "name": "Los Angeles Rams",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
       "color": "003594",
-      "score": 0
+      "score": 34
      },
      "odds": {
       "provider": null,
@@ -4768,23 +4768,23 @@
      "id": "401873063",
      "date": "2026-11-15T21:25Z",
      "name": "SF @ DAL",
-     "state": "pre",
+     "state": "in",
      "completed": false,
      "winner": null,
-     "detail": "11/15 - 4:25 PM EST",
+     "detail": "3:36 - 3rd",
      "home": {
       "abbr": "DAL",
       "name": "Dallas Cowboys",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
       "color": "002a5c",
-      "score": 0
+      "score": 19
      },
      "away": {
       "abbr": "SF",
       "name": "San Francisco 49ers",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
       "color": "aa0000",
-      "score": 0
+      "score": 31
      },
      "odds": {
       "provider": null,
@@ -4819,12 +4819,12 @@
       "score": 0
      },
      "odds": {
-      "provider": null,
+      "provider": "Draft Kings",
       "details": "CIN -3.5",
       "overUnder": 49.5,
       "moneyline": {
-       "home": "-185",
-       "away": "+154"
+       "home": "-192",
+       "away": "+160"
       }
      }
     },
@@ -4863,5 +4863,5 @@
    ]
   }
  },
- "fetchedAt": "2026-11-15T13:17:06.676Z"
+ "fetchedAt": "2026-11-15T23:38:35.504Z"
 }

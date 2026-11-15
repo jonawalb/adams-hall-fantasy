@@ -10822,17 +10822,33 @@
    "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
   },
   "date": 1789945324743,
-  "dateEdited": 1790789804306,
+  "dateEdited": 1794785813476,
   "id": "df46cb9e-0569-3a9f-9eb1-669523cb26a4",
   "isDeleted": false,
   "isEdited": true,
   "lastUpdateInfo": {
    "clientAddress": null,
-   "date": 1790789804306,
+   "date": 1794785813476,
    "platform": null,
    "source": "LM"
   },
   "messages": [
+   {
+    "author": "LM",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1794785813476,
+     "platform": null,
+     "source": "LM"
+    },
+    "date": 1794785813476,
+    "id": "fa5c6b3a-9405-48c8-8244-04daec2cb267",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 271,
+    "topicId": "df46cb9e-0569-3a9f-9eb1-669523cb26a4"
+   },
    {
     "author": "LM",
     "creationInfo": {
@@ -11193,7 +11209,7 @@
    }
   ],
   "subject": "DM",
-  "totalMessageCount": 20,
+  "totalMessageCount": 21,
   "type": "CHAT_DIRECT_MESSAGE",
   "viewableBy": [
    "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
@@ -32901,17 +32917,109 @@
    "source": "{3AEDC062-A4DB-4A7D-9F19-C255055B2C61}"
   },
   "date": 1792503987030,
-  "dateEdited": 1793989038220,
+  "dateEdited": 1794779731893,
   "id": "92126f89-9c7a-3f0d-95ed-236e5e89cb88",
   "isDeleted": false,
   "isEdited": true,
   "lastUpdateInfo": {
    "clientAddress": null,
-   "date": 1793989038220,
-   "platform": "chat",
+   "date": 1794779731893,
+   "platform": "espn-fantasy-app-ios",
    "source": "{3AEDC062-A4DB-4A7D-9F19-C255055B2C61}"
   },
   "messages": [
+   {
+    "author": "{3AEDC062-A4DB-4A7D-9F19-C255055B2C61}",
+    "content": "https://g.espncdn.com/lm-static/ffl/player-animations/2026/10_3916148_gen_4.mp4?buildNumber=undefined&version=47",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1794779731893,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3AEDC062-A4DB-4A7D-9F19-C255055B2C61}"
+    },
+    "date": 1794779731893,
+    "for": 12,
+    "id": "870bedba-fee1-42a8-974d-41de32edf646",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 279,
+    "topicId": "92126f89-9c7a-3f0d-95ed-236e5e89cb88"
+   },
+   {
+    "author": "{3AEDC062-A4DB-4A7D-9F19-C255055B2C61}",
+    "content": "Tony Pollard 32 yard touchdown reception",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1794779731893,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3AEDC062-A4DB-4A7D-9F19-C255055B2C61}"
+    },
+    "date": 1794779731893,
+    "for": 12,
+    "id": "9d1e599a-29e8-4e7c-b8ea-d0173beede39",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 278,
+    "subject": "+10.2 Points",
+    "topicId": "92126f89-9c7a-3f0d-95ed-236e5e89cb88"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "https://g.espncdn.com/lm-static/ffl/player-animations/2026/18_4360689_sig_2.mp4?buildNumber=undefined&version=47",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1794777252552,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1794777252552,
+    "for": 7,
+    "id": "f6ccc0de-aab5-413e-b79c-b5cd0a49f9a9",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 279,
+    "topicId": "92126f89-9c7a-3f0d-95ed-236e5e89cb88"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "Tyler Shough 4 yard touchdown pass",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1794777252552,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1794777252552,
+    "for": 7,
+    "id": "0af1a54c-fb38-41a9-9f28-306ab47188dd",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 278,
+    "subject": "+4.2 Points",
+    "topicId": "92126f89-9c7a-3f0d-95ed-236e5e89cb88"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "content": "Fuck you pussy",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1794777252552,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1794777252552,
+    "for": 7,
+    "id": "49530931-05fe-4bef-95c4-c6b4c63a99d0",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 280,
+    "topicId": "92126f89-9c7a-3f0d-95ed-236e5e89cb88"
+   },
    {
     "author": "{3AEDC062-A4DB-4A7D-9F19-C255055B2C61}",
     "content": "This looks good rn for you",
@@ -32946,7 +33054,7 @@
     "topicId": "92126f89-9c7a-3f0d-95ed-236e5e89cb88"
    }
   ],
-  "totalMessageCount": 2,
+  "totalMessageCount": 7,
   "type": "CHAT_DIRECT_MESSAGE",
   "viewableBy": [
    "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
@@ -53307,6 +53415,482 @@
   ],
   "targetId": 10,
   "totalMessageCount": 1,
+  "type": "ACTIVITY_TRANSACTIONS"
+ },
+ {
+  "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+  "creationInfo": {
+   "clientAddress": null,
+   "date": 1794785813470,
+   "platform": "espn-fantasy-app-ios",
+   "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+  },
+  "date": 1794785813470,
+  "dateEdited": 1794785813470,
+  "id": "0df47c12-6470-4665-8f3e-0faeef8d74ba",
+  "isDeleted": false,
+  "isEdited": true,
+  "lastUpdateInfo": {
+   "clientAddress": null,
+   "date": 1794785813470,
+   "platform": "espn-fantasy-app-ios",
+   "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+  },
+  "messages": [
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1794785813470,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1794785813470,
+    "from": 1,
+    "id": "bfd7f47b-b531-4ccc-9a18-2457d4257039",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 230,
+    "targetId": 4241389,
+    "to": 12,
+    "topicId": "0df47c12-6470-4665-8f3e-0faeef8d74ba"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1794785813470,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1794785813470,
+    "from": 12,
+    "id": "a0e30512-0fac-4eb4-a212-1a1e88ad7d5a",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 230,
+    "targetId": 4047646,
+    "to": 1,
+    "topicId": "0df47c12-6470-4665-8f3e-0faeef8d74ba"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1794785813470,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1794785813470,
+    "from": 12,
+    "id": "016300c5-4af7-42fa-8e61-e6d6ea963c01",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 230,
+    "targetId": 5083076,
+    "to": 1,
+    "topicId": "0df47c12-6470-4665-8f3e-0faeef8d74ba"
+   }
+  ],
+  "targetId": "fc211ebc-3258-481c-beae-26549bd5d139",
+  "totalMessageCount": 3,
+  "type": "ACTIVITY_TRANSACTIONS",
+  "viewableBy": [
+   "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+   "{63997D52-0196-4BC4-B322-161E7342C352}"
+  ]
+ },
+ {
+  "author": "{DD52DE43-FADF-409D-809E-6E6707F0216F}",
+  "creationInfo": {
+   "clientAddress": null,
+   "date": 1794764190069,
+   "platform": "espn-fantasy-app-ios",
+   "source": "{DD52DE43-FADF-409D-809E-6E6707F0216F}"
+  },
+  "date": 1794764190069,
+  "dateEdited": 1794764190069,
+  "id": "27e5011c-bf4c-4cc9-b7e6-ebd85ca9975e",
+  "isDeleted": false,
+  "isEdited": true,
+  "lastUpdateInfo": {
+   "clientAddress": null,
+   "date": 1794764190069,
+   "platform": "espn-fantasy-app-ios",
+   "source": "{DD52DE43-FADF-409D-809E-6E6707F0216F}"
+  },
+  "messages": [
+   {
+    "author": "{DD52DE43-FADF-409D-809E-6E6707F0216F}",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1794764190069,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{DD52DE43-FADF-409D-809E-6E6707F0216F}"
+    },
+    "date": 1794764190069,
+    "for": 8,
+    "from": 4,
+    "id": "b2344e5d-ca60-4309-84cc-89f718a0b4b9",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 188,
+    "targetId": 4429615,
+    "to": 23,
+    "topicId": "27e5011c-bf4c-4cc9-b7e6-ebd85ca9975e"
+   },
+   {
+    "author": "{DD52DE43-FADF-409D-809E-6E6707F0216F}",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1794764190069,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{DD52DE43-FADF-409D-809E-6E6707F0216F}"
+    },
+    "date": 1794764190069,
+    "for": 8,
+    "from": 23,
+    "id": "f75baec7-8a4e-4dbc-a07c-6de259e12d6b",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 188,
+    "targetId": 4239993,
+    "to": 4,
+    "topicId": "27e5011c-bf4c-4cc9-b7e6-ebd85ca9975e"
+   }
+  ],
+  "targetId": 10,
+  "totalMessageCount": 2,
+  "type": "ACTIVITY_TRANSACTIONS"
+ },
+ {
+  "author": "{DD52DE43-FADF-409D-809E-6E6707F0216F}",
+  "creationInfo": {
+   "clientAddress": null,
+   "date": 1794764184427,
+   "platform": "espn-fantasy-app-ios",
+   "source": "{DD52DE43-FADF-409D-809E-6E6707F0216F}"
+  },
+  "date": 1794764184427,
+  "dateEdited": 1794764184427,
+  "id": "1cc533a1-e57f-4da1-a897-7107ff5fd238",
+  "isDeleted": false,
+  "isEdited": true,
+  "lastUpdateInfo": {
+   "clientAddress": null,
+   "date": 1794764184427,
+   "platform": "espn-fantasy-app-ios",
+   "source": "{DD52DE43-FADF-409D-809E-6E6707F0216F}"
+  },
+  "messages": [
+   {
+    "author": "{DD52DE43-FADF-409D-809E-6E6707F0216F}",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1794764184427,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{DD52DE43-FADF-409D-809E-6E6707F0216F}"
+    },
+    "date": 1794764184427,
+    "for": 8,
+    "from": 4,
+    "id": "cbc6c8f5-1ffa-4835-a851-92343780a812",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 188,
+    "targetId": 4239993,
+    "to": 23,
+    "topicId": "1cc533a1-e57f-4da1-a897-7107ff5fd238"
+   },
+   {
+    "author": "{DD52DE43-FADF-409D-809E-6E6707F0216F}",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1794764184427,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{DD52DE43-FADF-409D-809E-6E6707F0216F}"
+    },
+    "date": 1794764184427,
+    "for": 8,
+    "from": 23,
+    "id": "958d58f9-a349-42e9-9604-2dd765d1fd00",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 188,
+    "targetId": 4429615,
+    "to": 4,
+    "topicId": "1cc533a1-e57f-4da1-a897-7107ff5fd238"
+   }
+  ],
+  "targetId": 10,
+  "totalMessageCount": 2,
+  "type": "ACTIVITY_TRANSACTIONS"
+ },
+ {
+  "author": "{DD52DE43-FADF-409D-809E-6E6707F0216F}",
+  "creationInfo": {
+   "clientAddress": null,
+   "date": 1794763973311,
+   "platform": "espn-fantasy-app-ios",
+   "source": "{DD52DE43-FADF-409D-809E-6E6707F0216F}"
+  },
+  "date": 1794763973311,
+  "dateEdited": 1794763973311,
+  "id": "4347890e-1357-4e75-927d-848bc034ccbc",
+  "isDeleted": false,
+  "isEdited": true,
+  "lastUpdateInfo": {
+   "clientAddress": null,
+   "date": 1794763973311,
+   "platform": "espn-fantasy-app-ios",
+   "source": "{DD52DE43-FADF-409D-809E-6E6707F0216F}"
+  },
+  "messages": [
+   {
+    "author": "{DD52DE43-FADF-409D-809E-6E6707F0216F}",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1794763973311,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{DD52DE43-FADF-409D-809E-6E6707F0216F}"
+    },
+    "date": 1794763973311,
+    "for": 8,
+    "from": 20,
+    "id": "eed0e1de-8b4a-49f4-b088-d0c406fc50ee",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 188,
+    "targetId": 4429615,
+    "to": 23,
+    "topicId": "4347890e-1357-4e75-927d-848bc034ccbc"
+   },
+   {
+    "author": "{DD52DE43-FADF-409D-809E-6E6707F0216F}",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1794763973311,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{DD52DE43-FADF-409D-809E-6E6707F0216F}"
+    },
+    "date": 1794763973311,
+    "for": 8,
+    "from": 23,
+    "id": "d810db47-20a7-4d82-a558-5a1e778b260e",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 188,
+    "targetId": 4258173,
+    "to": 20,
+    "topicId": "4347890e-1357-4e75-927d-848bc034ccbc"
+   }
+  ],
+  "targetId": 10,
+  "totalMessageCount": 2,
+  "type": "ACTIVITY_TRANSACTIONS"
+ },
+ {
+  "author": "{671FD9E7-237D-4D4E-9B4E-F8873DE729CA}",
+  "creationInfo": {
+   "clientAddress": null,
+   "date": 1794763135384,
+   "platform": "espn-fantasy-app-ios",
+   "source": "{671FD9E7-237D-4D4E-9B4E-F8873DE729CA}"
+  },
+  "date": 1794763135384,
+  "dateEdited": 1794763135384,
+  "id": "44b94f99-730c-4103-992c-3d107241f2c8",
+  "isDeleted": false,
+  "isEdited": true,
+  "lastUpdateInfo": {
+   "clientAddress": null,
+   "date": 1794763135384,
+   "platform": "espn-fantasy-app-ios",
+   "source": "{671FD9E7-237D-4D4E-9B4E-F8873DE729CA}"
+  },
+  "messages": [
+   {
+    "author": "{671FD9E7-237D-4D4E-9B4E-F8873DE729CA}",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1794763135384,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{671FD9E7-237D-4D4E-9B4E-F8873DE729CA}"
+    },
+    "date": 1794763135384,
+    "for": 2,
+    "from": 20,
+    "id": "bb05fbdc-17a9-4ac2-aee8-45f5ea7b37f1",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 188,
+    "targetId": 3126486,
+    "to": 4,
+    "topicId": "44b94f99-730c-4103-992c-3d107241f2c8"
+   },
+   {
+    "author": "{671FD9E7-237D-4D4E-9B4E-F8873DE729CA}",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1794763135384,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{671FD9E7-237D-4D4E-9B4E-F8873DE729CA}"
+    },
+    "date": 1794763135384,
+    "for": 2,
+    "from": 4,
+    "id": "c9e3ac30-5242-40f7-a4d3-2947673907cc",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 188,
+    "targetId": 4685261,
+    "to": 20,
+    "topicId": "44b94f99-730c-4103-992c-3d107241f2c8"
+   }
+  ],
+  "targetId": 10,
+  "totalMessageCount": 2,
+  "type": "ACTIVITY_TRANSACTIONS"
+ },
+ {
+  "author": "{671FD9E7-237D-4D4E-9B4E-F8873DE729CA}",
+  "creationInfo": {
+   "clientAddress": null,
+   "date": 1794763131277,
+   "platform": "espn-fantasy-app-ios",
+   "source": "{671FD9E7-237D-4D4E-9B4E-F8873DE729CA}"
+  },
+  "date": 1794763131277,
+  "dateEdited": 1794763131277,
+  "id": "c99aa19e-006f-48d6-b41a-4469e00e6a64",
+  "isDeleted": false,
+  "isEdited": true,
+  "lastUpdateInfo": {
+   "clientAddress": null,
+   "date": 1794763131277,
+   "platform": "espn-fantasy-app-ios",
+   "source": "{671FD9E7-237D-4D4E-9B4E-F8873DE729CA}"
+  },
+  "messages": [
+   {
+    "author": "{671FD9E7-237D-4D4E-9B4E-F8873DE729CA}",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1794763131277,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{671FD9E7-237D-4D4E-9B4E-F8873DE729CA}"
+    },
+    "date": 1794763131277,
+    "for": 2,
+    "from": 20,
+    "id": "b516d0be-1815-4b94-a667-a934e3a622fe",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 188,
+    "targetId": 4685261,
+    "to": 4,
+    "topicId": "c99aa19e-006f-48d6-b41a-4469e00e6a64"
+   },
+   {
+    "author": "{671FD9E7-237D-4D4E-9B4E-F8873DE729CA}",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1794763131277,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{671FD9E7-237D-4D4E-9B4E-F8873DE729CA}"
+    },
+    "date": 1794763131277,
+    "for": 2,
+    "from": 4,
+    "id": "b5757149-05cf-4253-9561-3dca1cf1cbbf",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 188,
+    "targetId": 4429205,
+    "to": 20,
+    "topicId": "c99aa19e-006f-48d6-b41a-4469e00e6a64"
+   }
+  ],
+  "targetId": 10,
+  "totalMessageCount": 2,
+  "type": "ACTIVITY_TRANSACTIONS"
+ },
+ {
+  "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+  "creationInfo": {
+   "clientAddress": null,
+   "date": 1794748746881,
+   "platform": "espn-fantasy-app-ios",
+   "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+  },
+  "date": 1794748746881,
+  "dateEdited": 1794748746881,
+  "id": "eccb5abf-525a-4302-824b-fad5e2f7b63a",
+  "isDeleted": false,
+  "isEdited": true,
+  "lastUpdateInfo": {
+   "clientAddress": null,
+   "date": 1794748746881,
+   "platform": "espn-fantasy-app-ios",
+   "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+  },
+  "messages": [
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1794748746881,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1794748746881,
+    "for": 12,
+    "from": 20,
+    "id": "09a4a9ca-7022-4239-81d7-f51a5e23e0c2",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 188,
+    "targetId": 4047646,
+    "to": 4,
+    "topicId": "eccb5abf-525a-4302-824b-fad5e2f7b63a"
+   },
+   {
+    "author": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}",
+    "creationInfo": {
+     "clientAddress": null,
+     "date": 1794748746881,
+     "platform": "espn-fantasy-app-ios",
+     "source": "{3C8B8C86-A5CE-4EDE-8B8C-86A5CE5EDE7F}"
+    },
+    "date": 1794748746881,
+    "for": 12,
+    "from": 4,
+    "id": "3c6e32dc-8b0f-493f-a581-e533d21428b9",
+    "isAlternateFormat": false,
+    "isDeleted": false,
+    "isEdited": false,
+    "messageTypeId": 188,
+    "targetId": 3916433,
+    "to": 20,
+    "topicId": "eccb5abf-525a-4302-824b-fad5e2f7b63a"
+   }
+  ],
+  "targetId": 10,
+  "totalMessageCount": 2,
   "type": "ACTIVITY_TRANSACTIONS"
  }
 ]
