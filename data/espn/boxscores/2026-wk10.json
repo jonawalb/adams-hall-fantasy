@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 10,
- "archivedAt": "2026-11-14T12:50:40.214Z",
+ "archivedAt": "2026-11-15T13:17:10.121Z",
  "matchups": [
   {
    "id": 46,
@@ -509,7 +509,7 @@
       "playerId": 4832955,
       "name": "Emmett Johnson",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "RB",
       "points": 0
      }
     ]
@@ -1068,7 +1068,7 @@
       "playerId": 4569173,
       "name": "Rhamondre Stevenson",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "RB",
       "points": 0
      },
      {
@@ -1089,7 +1089,7 @@
       "playerId": 4036133,
       "name": "T.J. Hockenson",
       "pos": "TE",
-      "slot": "TE",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -1121,13 +1121,6 @@
       "points": 0
      },
      {
-      "playerId": 3150744,
-      "name": "Chase McLaughlin",
-      "pos": "K",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 3124679,
       "name": "Jason Sanders",
       "pos": "K",
@@ -1145,7 +1138,14 @@
       "playerId": 4569682,
       "name": "Audric Estime",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 2576925,
+      "name": "Darren Waller",
+      "pos": "TE",
+      "slot": "TE",
       "points": 0
      }
     ]
@@ -1165,7 +1165,7 @@
       "playerId": 4567048,
       "name": "Kenneth Walker III",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -1179,7 +1179,7 @@
       "playerId": 4685702,
       "name": "Quinshon Judkins",
       "pos": "RB",
-      "slot": "FLEX",
+      "slot": "RB",
       "points": 0
      },
      {
@@ -1242,7 +1242,7 @@
       "playerId": 4870653,
       "name": "KC Concepcion",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0
      },
      {
