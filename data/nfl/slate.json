@@ -4704,16 +4704,16 @@
      "id": "401873062",
      "date": "2026-11-15T21:05Z",
      "name": "SEA @ LV",
-     "state": "in",
-     "completed": false,
-     "winner": null,
-     "detail": "5:28 - 4th",
+     "state": "post",
+     "completed": true,
+     "winner": "away",
+     "detail": "Final",
      "home": {
       "abbr": "LV",
       "name": "Las Vegas Raiders",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
       "color": "000000",
-      "score": 10
+      "score": 13
      },
      "away": {
       "abbr": "SEA",
@@ -4736,10 +4736,10 @@
      "id": "401873061",
      "date": "2026-11-15T21:05Z",
      "name": "LAR @ ARI",
-     "state": "in",
-     "completed": false,
-     "winner": null,
-     "detail": "5:43 - 4th",
+     "state": "post",
+     "completed": true,
+     "winner": "away",
+     "detail": "Final",
      "home": {
       "abbr": "ARI",
       "name": "Arizona Cardinals",
@@ -4768,23 +4768,23 @@
      "id": "401873063",
      "date": "2026-11-15T21:25Z",
      "name": "SF @ DAL",
-     "state": "in",
-     "completed": false,
-     "winner": null,
-     "detail": "3:36 - 3rd",
+     "state": "post",
+     "completed": true,
+     "winner": "away",
+     "detail": "Final",
      "home": {
       "abbr": "DAL",
       "name": "Dallas Cowboys",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
       "color": "002a5c",
-      "score": 19
+      "score": 40
      },
      "away": {
       "abbr": "SF",
       "name": "San Francisco 49ers",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
       "color": "aa0000",
-      "score": 31
+      "score": 46
      },
      "odds": {
       "provider": null,
@@ -4800,23 +4800,23 @@
      "id": "401873064",
      "date": "2026-11-16T01:20Z",
      "name": "PIT @ CIN",
-     "state": "pre",
-     "completed": false,
-     "winner": null,
-     "detail": "11/15 - 8:20 PM EST",
+     "state": "post",
+     "completed": true,
+     "winner": "home",
+     "detail": "Final",
      "home": {
       "abbr": "CIN",
       "name": "Cincinnati Bengals",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
       "color": "fb4f14",
-      "score": 0
+      "score": 38
      },
      "away": {
       "abbr": "PIT",
       "name": "Pittsburgh Steelers",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
       "color": "000000",
-      "score": 0
+      "score": 18
      },
      "odds": {
       "provider": "Draft Kings",
@@ -4851,7 +4851,7 @@
       "score": 0
      },
      "odds": {
-      "provider": null,
+      "provider": "Draft Kings",
       "details": "BAL -4.5",
       "overUnder": 38.5,
       "moneyline": {
@@ -4863,5 +4863,5 @@
    ]
   }
  },
- "fetchedAt": "2026-11-15T23:38:35.504Z"
+ "fetchedAt": "2026-11-16T09:17:47.850Z"
 }
