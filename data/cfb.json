@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 12,
  "poll": "AFCA Coaches Poll",
- "fetchedAt": "2026-11-16T09:17:49.523Z",
+ "fetchedAt": "2026-11-16T14:30:50.676Z",
  "rankings": [
   {
    "rank": 1,
@@ -352,7 +352,7 @@
    "detail": "11/17 - 7:00 PM EST",
    "venue": "Peden Stadium",
    "broadcast": "CBSSN",
-   "spread": "OHIO -10.5",
+   "spread": "OHIO -11.5",
    "overUnder": 49.5,
    "headline": null,
    "home": {
@@ -390,7 +390,7 @@
    "venue": "Zoeller Field at Dix Stadium",
    "broadcast": "ESPNU",
    "spread": "M-OH -9.5",
-   "overUnder": 46.5,
+   "overUnder": 45.5,
    "headline": null,
    "home": {
     "abbr": "KENT",
@@ -426,7 +426,7 @@
    "detail": "11/18 - 7:00 PM EST",
    "venue": "Warren McGuirk Alumni Stadium",
    "broadcast": "CBSSN",
-   "spread": "MASS -3",
+   "spread": "MASS -3.5",
    "overUnder": 46.5,
    "headline": null,
    "home": {
@@ -574,7 +574,7 @@
    "detail": "11/20 - 7:30 PM EST",
    "venue": "Wallace Wade Stadium",
    "broadcast": "ESPN",
-   "spread": "DUKE -11.5",
+   "spread": "DUKE -12.5",
    "overUnder": 43.5,
    "headline": null,
    "home": {
@@ -648,7 +648,7 @@
    "detail": "11/20 - 8:00 PM EST",
    "venue": "Spartan Stadium",
    "broadcast": "Fox",
-   "spread": "ORE -14",
+   "spread": "ORE -15.5",
    "overUnder": 44.5,
    "headline": null,
    "home": {
@@ -871,7 +871,7 @@
    "venue": "Memorial Stadium (Lincoln, NE)",
    "broadcast": "Fox",
    "spread": "OSU -2.5",
-   "overUnder": 43.5,
+   "overUnder": 42.5,
    "headline": null,
    "home": {
     "abbr": "NEB",
@@ -1055,7 +1055,7 @@
    "detail": "11/21 - 12:00 PM EST",
    "venue": "Ross-Ade Stadium",
    "broadcast": "NBC",
-   "spread": "WIS -6",
+   "spread": "WIS -5.5",
    "overUnder": 44.5,
    "headline": null,
    "home": {
@@ -1130,7 +1130,7 @@
    "venue": "Navy-Marine Corps Memorial Stadium",
    "broadcast": "ESPN2",
    "spread": "MEM -3.5",
-   "overUnder": null,
+   "overUnder": 67.5,
    "headline": null,
    "home": {
     "abbr": "NAVY",
@@ -1462,7 +1462,7 @@
    "detail": "11/21 - 2:00 PM EST",
    "venue": "Elliott T. Bowers Stadium",
    "broadcast": "ESPN+",
-   "spread": "MTSU -6.5",
+   "spread": "MTSU -5.5",
    "overUnder": 48.5,
    "headline": null,
    "home": {
@@ -1611,7 +1611,7 @@
    "venue": "Our Lady of Lourdes Stadium",
    "broadcast": "ESPN+",
    "spread": "UL -10.5",
-   "overUnder": 50.5,
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "UL",
@@ -1721,7 +1721,7 @@
    "detail": "11/21 - 3:30 PM EST",
    "venue": "Michigan Stadium",
    "broadcast": "CBS",
-   "spread": "UCLA -5.5",
+   "spread": "UCLA -4.5",
    "overUnder": 38.5,
    "headline": null,
    "home": {
@@ -1758,7 +1758,7 @@
    "detail": "11/21 - 3:30 PM EST",
    "venue": "DKR-Texas Memorial Stadium",
    "broadcast": "ESPN",
-   "spread": "TEX -21",
+   "spread": "TEX -20.5",
    "overUnder": 46.5,
    "headline": null,
    "home": {
@@ -1795,7 +1795,7 @@
    "detail": "11/21 - 3:30 PM EST",
    "venue": "Neyland Stadium",
    "broadcast": "ABC",
-   "spread": "TENN -1.5",
+   "spread": "LSU -1.5",
    "overUnder": 45.5,
    "headline": null,
    "home": {
@@ -2239,7 +2239,7 @@
    "detail": "11/21 - 6:00 PM EST",
    "venue": "UFCU Stadium",
    "broadcast": "USA Net",
-   "spread": "TXST -11.5",
+   "spread": "TXST -10.5",
    "overUnder": 60.5,
    "headline": null,
    "home": {
@@ -2388,7 +2388,7 @@
    "venue": "CEFCU Stadium",
    "broadcast": "CBSSN",
    "spread": "UNLV -6",
-   "overUnder": 46.5,
+   "overUnder": 45.5,
    "headline": null,
    "home": {
     "abbr": "SJSU",
@@ -2424,8 +2424,8 @@
    "detail": "11/21 - 7:00 PM EST",
    "venue": "Joe Aillet Stadium",
    "broadcast": "ESPN+",
-   "spread": "LT -14.5",
-   "overUnder": 53.5,
+   "spread": "LT -14",
+   "overUnder": 52.5,
    "headline": null,
    "home": {
     "abbr": "LT",
@@ -2610,7 +2610,7 @@
    "venue": "California Memorial Stadium",
    "broadcast": "ACC Network",
    "spread": "STAN -2.5",
-   "overUnder": 55.5,
+   "overUnder": 56.5,
    "headline": null,
    "home": {
     "abbr": "CAL",
