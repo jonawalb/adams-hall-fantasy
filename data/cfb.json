@@ -1,8 +1,8 @@
 {
  "season": 2026,
  "week": 12,
- "poll": "AFCA Coaches Poll",
- "fetchedAt": "2026-11-16T14:30:50.676Z",
+ "poll": "AP Top 25",
+ "fetchedAt": "2026-11-17T12:46:01.489Z",
  "rankings": [
   {
    "rank": 1,
@@ -13,7 +13,7 @@
    "abbr": "UGA",
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
    "record": "9-1",
-   "points": 1802,
+   "points": 1734,
    "firstPlaceVotes": 58
   },
   {
@@ -25,8 +25,8 @@
    "abbr": "UTAH",
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
    "record": "10-0",
-   "points": 1729,
-   "firstPlaceVotes": 11
+   "points": 1677,
+   "firstPlaceVotes": 10
   },
   {
    "rank": 3,
@@ -37,8 +37,8 @@
    "abbr": "ND",
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
    "record": "9-1",
-   "points": 1630,
-   "firstPlaceVotes": 1
+   "points": 1584,
+   "firstPlaceVotes": 2
   },
   {
    "rank": 4,
@@ -49,31 +49,31 @@
    "abbr": "UCLA",
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
    "record": "10-0",
-   "points": 1594,
+   "points": 1552,
    "firstPlaceVotes": 0
   },
   {
    "rank": 5,
    "previous": 5,
    "trend": "-",
-   "team": "Indiana",
-   "mascot": "Hoosiers",
-   "abbr": "IU",
-   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
-   "record": "9-1",
-   "points": 1540,
-   "firstPlaceVotes": 3
-  },
-  {
-   "rank": 6,
-   "previous": 6,
-   "trend": "-",
    "team": "Miami",
    "mascot": "Hurricanes",
    "abbr": "MIA",
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
    "record": "9-1",
-   "points": 1483,
+   "points": 1426,
+   "firstPlaceVotes": 0
+  },
+  {
+   "rank": 6,
+   "previous": 6,
+   "trend": "-",
+   "team": "Indiana",
+   "mascot": "Hoosiers",
+   "abbr": "IU",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
+   "record": "9-1",
+   "points": 1384,
    "firstPlaceVotes": 0
   },
   {
@@ -85,7 +85,7 @@
    "abbr": "ALA",
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
    "record": "8-2",
-   "points": 1364,
+   "points": 1297,
    "firstPlaceVotes": 0
   },
   {
@@ -97,7 +97,7 @@
    "abbr": "TEX",
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
    "record": "8-2",
-   "points": 1303,
+   "points": 1290,
    "firstPlaceVotes": 0
   },
   {
@@ -109,7 +109,7 @@
    "abbr": "TENN",
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
    "record": "8-2",
-   "points": 1209,
+   "points": 1179,
    "firstPlaceVotes": 0
   },
   {
@@ -121,7 +121,7 @@
    "abbr": "WAKE",
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
    "record": "9-1",
-   "points": 1172,
+   "points": 1134,
    "firstPlaceVotes": 0
   },
   {
@@ -133,7 +133,7 @@
    "abbr": "TTU",
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
    "record": "9-1",
-   "points": 1157,
+   "points": 1081,
    "firstPlaceVotes": 0
   },
   {
@@ -145,163 +145,163 @@
    "abbr": "BYU",
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
    "record": "8-2",
-   "points": 1057,
+   "points": 1038,
    "firstPlaceVotes": 0
   },
   {
    "rank": 13,
-   "previous": 15,
-   "trend": "+2",
+   "previous": 16,
+   "trend": "+3",
    "team": "Iowa",
    "mascot": "Hawkeyes",
    "abbr": "IOWA",
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
    "record": "8-2",
-   "points": 927,
+   "points": 861,
    "firstPlaceVotes": 0
   },
   {
    "rank": 14,
-   "previous": 19,
-   "trend": "+5",
+   "previous": 18,
+   "trend": "+4",
    "team": "Oregon",
    "mascot": "Ducks",
    "abbr": "ORE",
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
    "record": "7-3",
-   "points": 783,
+   "points": 820,
    "firstPlaceVotes": 0
   },
   {
    "rank": 15,
-   "previous": 18,
-   "trend": "+3",
+   "previous": 17,
+   "trend": "+2",
    "team": "Boise State",
    "mascot": "Broncos",
    "abbr": "BOIS",
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
    "record": "9-1",
-   "points": 714,
+   "points": 767,
    "firstPlaceVotes": 0
   },
   {
    "rank": 16,
-   "previous": 17,
-   "trend": "+1",
-   "team": "Ole Miss",
-   "mascot": "Rebels",
-   "abbr": "MISS",
-   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
-   "record": "6-3",
-   "points": 705,
-   "firstPlaceVotes": 0
-  },
-  {
-   "rank": 17,
-   "previous": 20,
-   "trend": "+3",
+   "previous": 21,
+   "trend": "+5",
    "team": "Ohio State",
    "mascot": "Buckeyes",
    "abbr": "OSU",
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
    "record": "7-3",
-   "points": 644,
+   "points": 661,
    "firstPlaceVotes": 0
   },
   {
-   "rank": 18,
+   "rank": 17,
    "previous": 13,
-   "trend": "-5",
+   "trend": "-4",
    "team": "Kentucky",
    "mascot": "Wildcats",
    "abbr": "UK",
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
    "record": "7-3",
-   "points": 592,
+   "points": 599,
    "firstPlaceVotes": 0
   },
   {
-   "rank": 19,
-   "previous": 14,
-   "trend": "-5",
+   "rank": 18,
+   "previous": 15,
+   "trend": "-3",
    "team": "USC",
    "mascot": "Trojans",
    "abbr": "USC",
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
    "record": "7-3",
-   "points": 534,
+   "points": 546,
    "firstPlaceVotes": 0
   },
   {
-   "rank": 20,
-   "previous": 21,
-   "trend": "+1",
+   "rank": 19,
+   "previous": 22,
+   "trend": "+3",
    "team": "Arizona",
    "mascot": "Wildcats",
    "abbr": "ARIZ",
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
    "record": "7-3",
-   "points": 399,
+   "points": 404,
    "firstPlaceVotes": 0
   },
   {
-   "rank": 21,
-   "previous": 16,
-   "trend": "-5",
+   "rank": 20,
+   "previous": 14,
+   "trend": "-6",
    "team": "Houston",
    "mascot": "Cougars",
    "abbr": "HOU",
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
    "record": "7-3",
-   "points": 312,
+   "points": 365,
+   "firstPlaceVotes": 0
+  },
+  {
+   "rank": 21,
+   "previous": null,
+   "trend": "+5",
+   "team": "Louisville",
+   "mascot": "Cardinals",
+   "abbr": "LOU",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+   "record": "7-3",
+   "points": 357,
    "firstPlaceVotes": 0
   },
   {
    "rank": 22,
    "previous": null,
    "trend": "+4",
-   "team": "Louisville",
-   "mascot": "Cardinals",
-   "abbr": "LOU",
-   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
-   "record": "7-3",
-   "points": 235,
+   "team": "Liberty",
+   "mascot": "Flames",
+   "abbr": "LIB",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+   "record": "9-1",
+   "points": 183,
    "firstPlaceVotes": 0
   },
   {
    "rank": 23,
-   "previous": 22,
-   "trend": "-1",
-   "team": "LSU",
-   "mascot": "Tigers",
-   "abbr": "LSU",
-   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
+   "previous": null,
+   "trend": "+3",
+   "team": "Florida",
+   "mascot": "Gators",
+   "abbr": "FLA",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
    "record": "6-4",
-   "points": 160,
+   "points": 173,
    "firstPlaceVotes": 0
   },
   {
    "rank": 24,
    "previous": null,
    "trend": "+2",
-   "team": "Duke",
-   "mascot": "Blue Devils",
-   "abbr": "DUKE",
-   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-   "record": "7-3",
-   "points": 123,
+   "team": "Memphis",
+   "mascot": "Tigers",
+   "abbr": "MEM",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
+   "record": "8-2",
+   "points": 138,
    "firstPlaceVotes": 0
   },
   {
    "rank": 25,
-   "previous": null,
-   "trend": "+1",
-   "team": "Florida",
-   "mascot": "Gators",
-   "abbr": "FLA",
-   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
+   "previous": 19,
+   "trend": "-6",
+   "team": "Ole Miss",
+   "mascot": "Rebels",
+   "abbr": "MISS",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
    "record": "6-4",
-   "points": 95,
+   "points": 103,
    "firstPlaceVotes": 0
   }
  ],
@@ -315,7 +315,7 @@
    "detail": "11/17 - 6:00 PM EST",
    "venue": "Waldo Stadium",
    "broadcast": "ESPN2",
-   "spread": "WMU -14.5",
+   "spread": "WMU -15.5",
    "overUnder": 46.5,
    "headline": null,
    "home": {
@@ -426,7 +426,7 @@
    "detail": "11/18 - 7:00 PM EST",
    "venue": "Warren McGuirk Alumni Stadium",
    "broadcast": "CBSSN",
-   "spread": "MASS -3.5",
+   "spread": "MASS -3",
    "overUnder": 46.5,
    "headline": null,
    "home": {
@@ -463,8 +463,8 @@
    "detail": "11/18 - 7:30 PM EST",
    "venue": "Broadview Stadium",
    "broadcast": "ESPNU",
-   "spread": "BUF -2.5",
-   "overUnder": 43.5,
+   "spread": "BUF -1.5",
+   "overUnder": 45.5,
    "headline": null,
    "home": {
     "abbr": "BUFF",
@@ -500,8 +500,8 @@
    "detail": "11/19 - 7:30 PM EST",
    "venue": "Lincoln Financial Field",
    "broadcast": "ESPN",
-   "spread": "TEM -3.5",
-   "overUnder": 48.5,
+   "spread": "TEM -3",
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "TEM",
@@ -538,7 +538,7 @@
    "venue": "Acrisure Bounce House",
    "broadcast": "FS1",
    "spread": "UCF -2.5",
-   "overUnder": 53.5,
+   "overUnder": 52.5,
    "headline": null,
    "home": {
     "abbr": "UCF",
@@ -574,8 +574,8 @@
    "detail": "11/20 - 7:30 PM EST",
    "venue": "Wallace Wade Stadium",
    "broadcast": "ESPN",
-   "spread": "DUKE -12.5",
-   "overUnder": 43.5,
+   "spread": "DUKE -13.5",
+   "overUnder": 40.5,
    "headline": null,
    "home": {
     "abbr": "DUKE",
@@ -611,7 +611,7 @@
    "detail": "11/20 - 7:30 PM EST",
    "venue": "Glass Bowl",
    "broadcast": "ESPN2",
-   "spread": "TOL -16.5",
+   "spread": "TOL -15.5",
    "overUnder": 48.5,
    "headline": null,
    "home": {
@@ -648,8 +648,8 @@
    "detail": "11/20 - 8:00 PM EST",
    "venue": "Spartan Stadium",
    "broadcast": "Fox",
-   "spread": "ORE -15.5",
-   "overUnder": 44.5,
+   "spread": "ORE -16.5",
+   "overUnder": 45.5,
    "headline": null,
    "home": {
     "abbr": "MSU",
@@ -686,7 +686,7 @@
    "venue": "Falcon Stadium",
    "broadcast": "CW",
    "spread": "AF -22.5",
-   "overUnder": 45.5,
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "AFA",
@@ -760,7 +760,7 @@
    "venue": "David Booth Kansas Memorial Stadium",
    "broadcast": "ABC",
    "spread": "BYU -5.5",
-   "overUnder": 48.5,
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "KU",
@@ -870,8 +870,8 @@
    "detail": "11/21 - 12:00 PM EST",
    "venue": "Memorial Stadium (Lincoln, NE)",
    "broadcast": "Fox",
-   "spread": "OSU -2.5",
-   "overUnder": 42.5,
+   "spread": "OSU -3",
+   "overUnder": 41.5,
    "headline": null,
    "home": {
     "abbr": "NEB",
@@ -944,8 +944,8 @@
    "detail": "11/21 - 12:00 PM EST",
    "venue": "Nippert Stadium",
    "broadcast": "ESPN+",
-   "spread": "CIN -3.5",
-   "overUnder": 60.5,
+   "spread": "CIN -3",
+   "overUnder": 58.5,
    "headline": null,
    "home": {
     "abbr": "CIN",
@@ -981,7 +981,7 @@
    "detail": "11/21 - 12:00 PM EST",
    "venue": "Alumni Stadium (Chestnut Hill, MA)",
    "broadcast": "ACC Network",
-   "spread": "SYR -3",
+   "spread": "SYR -2.5",
    "overUnder": 50.5,
    "headline": null,
    "home": {
@@ -1019,7 +1019,7 @@
    "venue": "Huntington Bank Stadium",
    "broadcast": "FS1",
    "spread": "NU -3",
-   "overUnder": 43.5,
+   "overUnder": 42.5,
    "headline": null,
    "home": {
     "abbr": "MINN",
@@ -1055,8 +1055,8 @@
    "detail": "11/21 - 12:00 PM EST",
    "venue": "Ross-Ade Stadium",
    "broadcast": "NBC",
-   "spread": "WIS -5.5",
-   "overUnder": 44.5,
+   "spread": "WIS -6",
+   "overUnder": 46.5,
    "headline": null,
    "home": {
     "abbr": "PUR",
@@ -1092,7 +1092,7 @@
    "detail": "11/21 - 12:00 PM EST",
    "venue": "Michie Stadium",
    "broadcast": "CBSSN",
-   "spread": "ARMY -4.5",
+   "spread": "ARMY -5.5",
    "overUnder": 44.5,
    "headline": null,
    "home": {
@@ -1130,7 +1130,7 @@
    "venue": "Navy-Marine Corps Memorial Stadium",
    "broadcast": "ESPN2",
    "spread": "MEM -3.5",
-   "overUnder": 67.5,
+   "overUnder": 66.5,
    "headline": null,
    "home": {
     "abbr": "NAVY",
@@ -1166,7 +1166,7 @@
    "detail": "11/21 - 12:00 PM EST",
    "venue": "Yulman Stadium",
    "broadcast": "ESPNU",
-   "spread": "UNT -7",
+   "spread": "UNT -6.5",
    "overUnder": 57.5,
    "headline": null,
    "home": {
@@ -1203,7 +1203,7 @@
    "detail": "11/21 - 12:30 PM EST",
    "venue": "Scott Stadium",
    "broadcast": "CW",
-   "spread": "UNC -1.5",
+   "spread": "UVA -1.5",
    "overUnder": 43.5,
    "headline": null,
    "home": {
@@ -1240,7 +1240,7 @@
    "detail": "11/21 - 1:00 PM EST",
    "venue": "Milan Puskar Stadium",
    "broadcast": "TNT",
-   "spread": "HOU -7",
+   "spread": "HOU -7.5",
    "overUnder": 70.5,
    "headline": null,
    "home": {
@@ -1314,7 +1314,7 @@
    "detail": "11/21 - 1:00 PM EST",
    "venue": "Williams Stadium (VA)",
    "broadcast": "ESPN+",
-   "spread": "LIB -16.5",
+   "spread": "LIB -17.5",
    "overUnder": 53.5,
    "headline": null,
    "home": {
@@ -1499,8 +1499,8 @@
    "detail": "11/21 - 2:30 PM EST",
    "venue": "Gies Memorial Stadium",
    "broadcast": "BTN",
-   "spread": "IOWA -6.5",
-   "overUnder": 42.5,
+   "spread": "IOWA -8.5",
+   "overUnder": 40.5,
    "headline": null,
    "home": {
     "abbr": "ILL",
@@ -1537,7 +1537,7 @@
    "venue": "Flagler Credit Union Stadium",
    "broadcast": "ESPN+",
    "spread": "USF -1.5",
-   "overUnder": 65.5,
+   "overUnder": 64.5,
    "headline": null,
    "home": {
     "abbr": "FAU",
@@ -1574,7 +1574,7 @@
    "venue": "Kidd Brewer Stadium",
    "broadcast": "ESPN+",
    "spread": "APP -14",
-   "overUnder": 50.5,
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "APP",
@@ -1647,7 +1647,7 @@
    "detail": "11/21 - 3:00 PM EST",
    "venue": "Aggie Memorial Stadium",
    "broadcast": "ESPN+",
-   "spread": "DEL -3",
+   "spread": "DEL -3.5",
    "overUnder": 53.5,
    "headline": null,
    "home": {
@@ -1721,8 +1721,8 @@
    "detail": "11/21 - 3:30 PM EST",
    "venue": "Michigan Stadium",
    "broadcast": "CBS",
-   "spread": "UCLA -4.5",
-   "overUnder": 38.5,
+   "spread": "UCLA -3.5",
+   "overUnder": 37.5,
    "headline": null,
    "home": {
     "abbr": "MICH",
@@ -1759,7 +1759,7 @@
    "venue": "DKR-Texas Memorial Stadium",
    "broadcast": "ESPN",
    "spread": "TEX -20.5",
-   "overUnder": 46.5,
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "TEX",
@@ -1796,7 +1796,7 @@
    "venue": "Neyland Stadium",
    "broadcast": "ABC",
    "spread": "LSU -1.5",
-   "overUnder": 45.5,
+   "overUnder": 46.5,
    "headline": null,
    "home": {
     "abbr": "TENN",
@@ -1944,7 +1944,7 @@
    "venue": "Doak Campbell Stadium",
    "broadcast": "ACC Network",
    "spread": "FSU -9.5",
-   "overUnder": 54.5,
+   "overUnder": 55.5,
    "headline": null,
    "home": {
     "abbr": "FSU",
@@ -2055,7 +2055,7 @@
    "venue": "Memorial Stadium (Norman, OK)",
    "broadcast": "ESPN2",
    "spread": "OU -7.5",
-   "overUnder": 39.5,
+   "overUnder": 38.5,
    "headline": null,
    "home": {
     "abbr": "OU",
@@ -2165,8 +2165,8 @@
    "detail": "11/21 - 4:00 PM EST",
    "venue": "Joan C. Edwards Stadium",
    "broadcast": "ESPN+",
-   "spread": "GAST -1.5",
-   "overUnder": 57.5,
+   "spread": "MRSH -1.5",
+   "overUnder": 56.5,
    "headline": null,
    "home": {
     "abbr": "MRSH",
@@ -2202,8 +2202,8 @@
    "detail": "11/21 - 4:00 PM EST",
    "venue": "M. M. Roberts Stadium",
    "broadcast": "ESPN+",
-   "spread": "USA -4.5",
-   "overUnder": 63.5,
+   "spread": "USA -3.5",
+   "overUnder": 65.5,
    "headline": null,
    "home": {
     "abbr": "USM",
@@ -2240,7 +2240,7 @@
    "venue": "UFCU Stadium",
    "broadcast": "USA Net",
    "spread": "TXST -10.5",
-   "overUnder": 60.5,
+   "overUnder": 61.5,
    "headline": null,
    "home": {
     "abbr": "TXST",
@@ -2314,7 +2314,7 @@
    "venue": "Hard Rock Stadium",
    "broadcast": "ESPN",
    "spread": "MIA -20.5",
-   "overUnder": 60.5,
+   "overUnder": 61.5,
    "headline": null,
    "home": {
     "abbr": "MIA",
@@ -2350,7 +2350,7 @@
    "detail": "11/21 - 7:00 PM EST",
    "venue": "Bill Snyder Family Stadium",
    "broadcast": "FS1",
-   "spread": "ARIZ -7.5",
+   "spread": "ARIZ -7",
    "overUnder": 52.5,
    "headline": null,
    "home": {
@@ -2387,8 +2387,8 @@
    "detail": "11/21 - 7:00 PM EST",
    "venue": "CEFCU Stadium",
    "broadcast": "CBSSN",
-   "spread": "UNLV -6",
-   "overUnder": 45.5,
+   "spread": "UNLV -7",
+   "overUnder": 46.5,
    "headline": null,
    "home": {
     "abbr": "SJSU",
@@ -2424,7 +2424,7 @@
    "detail": "11/21 - 7:00 PM EST",
    "venue": "Joe Aillet Stadium",
    "broadcast": "ESPN+",
-   "spread": "LT -14",
+   "spread": "LT -13.5",
    "overUnder": 52.5,
    "headline": null,
    "home": {
@@ -2462,7 +2462,7 @@
    "venue": "Williams-Brice Stadium",
    "broadcast": "ABC",
    "spread": "UGA -16.5",
-   "overUnder": 51.5,
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "SC",
@@ -2498,7 +2498,7 @@
    "detail": "11/21 - 7:30 PM EST",
    "venue": "Notre Dame Stadium",
    "broadcast": "NBC",
-   "spread": "ND -21",
+   "spread": "ND -20.5",
    "overUnder": 56.5,
    "headline": null,
    "home": {
@@ -2646,8 +2646,8 @@
    "detail": "11/21 - 7:30 PM EST",
    "venue": "Valley Children's Stadium",
    "broadcast": "CW",
-   "spread": "FRES -21",
-   "overUnder": 64.5,
+   "spread": "FRES -20.5",
+   "overUnder": 65.5,
    "headline": null,
    "home": {
     "abbr": "FRES",
@@ -2683,7 +2683,7 @@
    "detail": "11/21 - 8:00 PM EST",
    "venue": "Protective Stadium",
    "broadcast": "ESPNU",
-   "spread": "UTSA -5.5",
+   "spread": "UTSA -6.5",
    "overUnder": 52.5,
    "headline": null,
    "home": {
@@ -2720,7 +2720,7 @@
    "detail": "11/21 - 9:00 PM EST",
    "venue": "Amon G. Carter Stadium",
    "broadcast": "Fox",
-   "spread": "UTAH -6.5",
+   "spread": "UTAH -7",
    "overUnder": 46.5,
    "headline": null,
    "home": {
@@ -2758,7 +2758,7 @@
    "venue": "Albertsons Stadium",
    "broadcast": "USA Net",
    "spread": "BOIS -16.5",
-   "overUnder": 62.5,
+   "overUnder": 61.5,
    "headline": null,
    "home": {
     "abbr": "BOIS",

@@ -333,7 +333,7 @@
   "id": 2576399,
   "name": "Nick Vannett",
   "pos": "TE",
-  "proTeamId": 0
+  "proTeamId": 33
  },
  "2576414": {
   "id": 2576414,
@@ -345,7 +345,7 @@
   "id": 2576581,
   "name": "Chris Moore",
   "pos": "WR",
-  "proTeamId": 0
+  "proTeamId": 33
  },
  "2576716": {
   "id": 2576716,
@@ -561,7 +561,7 @@
   "id": 3043234,
   "name": "Zane Gonzalez",
   "pos": "K",
-  "proTeamId": 15
+  "proTeamId": 0
  },
  "3043275": {
   "id": 3043275,
@@ -1173,7 +1173,7 @@
   "id": 3871102,
   "name": "David Sills V",
   "pos": "WR",
-  "proTeamId": 27
+  "proTeamId": 0
  },
  "3886598": {
   "id": 3886598,
@@ -3717,7 +3717,7 @@
   "id": 4427278,
   "name": "Xavier Gipson",
   "pos": "WR",
-  "proTeamId": 0
+  "proTeamId": 19
  },
  "4427366": {
   "id": 4427366,
