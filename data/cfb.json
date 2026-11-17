@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 12,
  "poll": "AP Top 25",
- "fetchedAt": "2026-11-17T12:46:01.489Z",
+ "fetchedAt": "2026-11-17T15:21:06.154Z",
  "rankings": [
   {
    "rank": 1,
@@ -352,7 +352,7 @@
    "detail": "11/17 - 7:00 PM EST",
    "venue": "Peden Stadium",
    "broadcast": "CBSSN",
-   "spread": "OHIO -11.5",
+   "spread": "OHIO -10",
    "overUnder": 49.5,
    "headline": null,
    "home": {
@@ -390,7 +390,7 @@
    "venue": "Zoeller Field at Dix Stadium",
    "broadcast": "ESPNU",
    "spread": "M-OH -9.5",
-   "overUnder": 45.5,
+   "overUnder": 44.5,
    "headline": null,
    "home": {
     "abbr": "KENT",
@@ -574,7 +574,7 @@
    "detail": "11/20 - 7:30 PM EST",
    "venue": "Wallace Wade Stadium",
    "broadcast": "ESPN",
-   "spread": "DUKE -13.5",
+   "spread": "DUKE -12.5",
    "overUnder": 40.5,
    "headline": null,
    "home": {
@@ -1093,7 +1093,7 @@
    "venue": "Michie Stadium",
    "broadcast": "CBSSN",
    "spread": "ARMY -5.5",
-   "overUnder": 44.5,
+   "overUnder": 45.5,
    "headline": null,
    "home": {
     "abbr": "ARMY",
@@ -1648,7 +1648,7 @@
    "venue": "Aggie Memorial Stadium",
    "broadcast": "ESPN+",
    "spread": "DEL -3.5",
-   "overUnder": 53.5,
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "NMSU",
@@ -1944,7 +1944,7 @@
    "venue": "Doak Campbell Stadium",
    "broadcast": "ACC Network",
    "spread": "FSU -9.5",
-   "overUnder": 55.5,
+   "overUnder": 56.5,
    "headline": null,
    "home": {
     "abbr": "FSU",

@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 11,
- "archivedAt": "2026-11-17T12:46:06.465Z",
+ "archivedAt": "2026-11-17T15:21:12.124Z",
  "matchups": [
   {
    "id": 51,
@@ -397,7 +397,7 @@
       "playerId": 4426515,
       "name": "Puka Nacua",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "IR",
       "points": 0
      },
      {
@@ -418,14 +418,14 @@
       "playerId": 4239996,
       "name": "Travis Etienne Jr.",
       "pos": "RB",
-      "slot": "IR",
+      "slot": "BE",
       "points": 0
      },
      {
       "playerId": 4259545,
       "name": "D'Andre Swift",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "RB",
       "points": 0
      },
      {
@@ -446,7 +446,7 @@
       "playerId": 4430539,
       "name": "Brenton Strange",
       "pos": "TE",
-      "slot": "BE",
+      "slot": "TE",
       "points": 0
      },
      {
@@ -481,14 +481,14 @@
       "playerId": 4038815,
       "name": "Rico Dowdle",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "BE",
       "points": 0
      },
      {
       "playerId": 3046439,
       "name": "Hunter Henry",
       "pos": "TE",
-      "slot": "TE",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -819,7 +819,7 @@
       "playerId": 4608686,
       "name": "Kyle Monangai",
       "pos": "RB",
-      "slot": "IR",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -834,13 +834,6 @@
       "name": "Chuba Hubbard",
       "pos": "RB",
       "slot": "RB",
-      "points": 0
-     },
-     {
-      "playerId": 4431452,
-      "name": "Drake Maye",
-      "pos": "QB",
-      "slot": "BE",
       "points": 0
      },
      {
@@ -1047,14 +1040,14 @@
       "playerId": 4361370,
       "name": "Chris Olave",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "WR",
       "points": 0
      },
      {
       "playerId": 4723086,
       "name": "Colston Loveland",
       "pos": "TE",
-      "slot": "BE",
+      "slot": "TE",
       "points": 0
      },
      {
@@ -1068,28 +1061,28 @@
       "playerId": 4569173,
       "name": "Rhamondre Stevenson",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "BE",
       "points": 0
      },
      {
       "playerId": 4701936,
       "name": "Matthew Golden",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
       "playerId": -16023,
       "name": "Steelers D/ST",
       "pos": "D/ST",
-      "slot": "BE",
+      "slot": "D/ST",
       "points": 0
      },
      {
       "playerId": 4036133,
       "name": "T.J. Hockenson",
       "pos": "TE",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -1103,14 +1096,14 @@
       "playerId": 4685247,
       "name": "Braelon Allen",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "RB",
       "points": 0
      },
      {
       "playerId": 4429059,
       "name": "Woody Marks",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -1131,21 +1124,21 @@
       "playerId": -16033,
       "name": "Ravens D/ST",
       "pos": "D/ST",
-      "slot": "D/ST",
+      "slot": "BE",
       "points": 0
      },
      {
       "playerId": 4569682,
       "name": "Audric Estime",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "RB",
       "points": 0
      },
      {
       "playerId": 2576925,
       "name": "Darren Waller",
       "pos": "TE",
-      "slot": "TE",
+      "slot": "BE",
       "points": 0
      }
     ]
@@ -1172,7 +1165,7 @@
       "playerId": 4258173,
       "name": "Nico Collins",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -1214,7 +1207,7 @@
       "playerId": 4432620,
       "name": "Parker Washington",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0
      },
      {
