@@ -2571,7 +2571,7 @@
   "id": 4257188,
   "name": "Charlie Jones",
   "pos": "WR",
-  "proTeamId": 19
+  "proTeamId": 0
  },
  "4257364": {
   "id": 4257364,
@@ -4251,7 +4251,7 @@
   "id": 4431342,
   "name": "Brennan Presley",
   "pos": "WR",
-  "proTeamId": 14
+  "proTeamId": 0
  },
  "4431346": {
   "id": 4431346,
@@ -5121,7 +5121,7 @@
   "id": 4685279,
   "name": "Jaydon Blue",
   "pos": "RB",
-  "proTeamId": 0
+  "proTeamId": 21
  },
  "4685307": {
   "id": 4685307,
@@ -5223,7 +5223,7 @@
   "id": 4685540,
   "name": "Carsen Ryan",
   "pos": "TE",
-  "proTeamId": 5
+  "proTeamId": 0
  },
  "4685553": {
   "id": 4685553,

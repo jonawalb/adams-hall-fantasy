@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "currentWeek": 10,
+ "currentWeek": 11,
  "weeks": {
   "1": {
    "season": 2026,
@@ -4861,7 +4861,429 @@
      }
     }
    ]
+  },
+  "11": {
+   "season": 2026,
+   "week": 11,
+   "games": [
+    {
+     "id": "401873066",
+     "date": "2026-11-20T01:15Z",
+     "name": "IND @ HOU",
+     "state": "pre",
+     "completed": false,
+     "winner": null,
+     "detail": "11/19 - 8:15 PM EST",
+     "home": {
+      "abbr": "HOU",
+      "name": "Houston Texans",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+      "color": "021018",
+      "score": 0
+     },
+     "away": {
+      "abbr": "IND",
+      "name": "Indianapolis Colts",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+      "color": "003b75",
+      "score": 0
+     },
+     "odds": {
+      "provider": "DraftKings",
+      "details": "HOU -12.5",
+      "overUnder": 44.5,
+      "moneyline": {
+       "home": "-750",
+       "away": "+525"
+      }
+     }
+    },
+    {
+     "id": "401873070",
+     "date": "2026-11-22T18:00Z",
+     "name": "MIA @ BUF",
+     "state": "pre",
+     "completed": false,
+     "winner": null,
+     "detail": "11/22 - 1:00 PM EST",
+     "home": {
+      "abbr": "BUF",
+      "name": "Buffalo Bills",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
+      "color": "00338d",
+      "score": 0
+     },
+     "away": {
+      "abbr": "MIA",
+      "name": "Miami Dolphins",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
+      "color": "008e97",
+      "score": 0
+     },
+     "odds": {
+      "provider": null,
+      "details": "BUF -16.5",
+      "overUnder": 45.5,
+      "moneyline": {
+       "home": "-1450",
+       "away": "+850"
+      }
+     }
+    },
+    {
+     "id": "401873071",
+     "date": "2026-11-22T18:00Z",
+     "name": "NO @ CHI",
+     "state": "pre",
+     "completed": false,
+     "winner": null,
+     "detail": "11/22 - 1:00 PM EST",
+     "home": {
+      "abbr": "CHI",
+      "name": "Chicago Bears",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+      "color": "0b1c3a",
+      "score": 0
+     },
+     "away": {
+      "abbr": "NO",
+      "name": "New Orleans Saints",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+      "color": "d3bc8d",
+      "score": 0
+     },
+     "odds": {
+      "provider": null,
+      "details": "CHI -11.5",
+      "overUnder": 48.5,
+      "moneyline": {
+       "home": "-625",
+       "away": "+455"
+      }
+     }
+    },
+    {
+     "id": "401873073",
+     "date": "2026-11-22T18:00Z",
+     "name": "TEN @ DAL",
+     "state": "pre",
+     "completed": false,
+     "winner": null,
+     "detail": "11/22 - 1:00 PM EST",
+     "home": {
+      "abbr": "DAL",
+      "name": "Dallas Cowboys",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+      "color": "002a5c",
+      "score": 0
+     },
+     "away": {
+      "abbr": "TEN",
+      "name": "Tennessee Titans",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
+      "color": "4495d2",
+      "score": 0
+     },
+     "odds": {
+      "provider": null,
+      "details": "DAL -8.5",
+      "overUnder": 54.5,
+      "moneyline": {
+       "home": "-380",
+       "away": "+300"
+      }
+     }
+    },
+    {
+     "id": "401873072",
+     "date": "2026-11-22T18:00Z",
+     "name": "TB @ DET",
+     "state": "pre",
+     "completed": false,
+     "winner": null,
+     "detail": "11/22 - 1:00 PM EST",
+     "home": {
+      "abbr": "DET",
+      "name": "Detroit Lions",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
+      "color": "0076b6",
+      "score": 0
+     },
+     "away": {
+      "abbr": "TB",
+      "name": "Tampa Bay Buccaneers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+      "color": "bd1c36",
+      "score": 0
+     },
+     "odds": {
+      "provider": null,
+      "details": "DET -7",
+      "overUnder": 43.5,
+      "moneyline": {
+       "home": "-355",
+       "away": "+280"
+      }
+     }
+    },
+    {
+     "id": "401873067",
+     "date": "2026-11-22T18:00Z",
+     "name": "ARI @ KC",
+     "state": "pre",
+     "completed": false,
+     "winner": null,
+     "detail": "11/22 - 1:00 PM EST",
+     "home": {
+      "abbr": "KC",
+      "name": "Kansas City Chiefs",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+      "color": "e31837",
+      "score": 0
+     },
+     "away": {
+      "abbr": "ARI",
+      "name": "Arizona Cardinals",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+      "color": "a40227",
+      "score": 0
+     },
+     "odds": {
+      "provider": null,
+      "details": "KC -16.5",
+      "overUnder": 41.5,
+      "moneyline": {
+       "home": "-1600",
+       "away": "+900"
+      }
+     }
+    },
+    {
+     "id": "401873076",
+     "date": "2026-11-22T18:00Z",
+     "name": "PIT @ PHI",
+     "state": "pre",
+     "completed": false,
+     "winner": null,
+     "detail": "11/22 - 1:00 PM EST",
+     "home": {
+      "abbr": "PHI",
+      "name": "Philadelphia Eagles",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+      "color": "06424d",
+      "score": 0
+     },
+     "away": {
+      "abbr": "PIT",
+      "name": "Pittsburgh Steelers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+      "color": "000000",
+      "score": 0
+     },
+     "odds": {
+      "provider": null,
+      "details": "PIT -4.5",
+      "overUnder": 38.5,
+      "moneyline": {
+       "home": "+180",
+       "away": "-218"
+      }
+     }
+    },
+    {
+     "id": "401873068",
+     "date": "2026-11-22T18:00Z",
+     "name": "BAL @ CAR",
+     "state": "pre",
+     "completed": false,
+     "winner": null,
+     "detail": "11/22 - 1:00 PM EST",
+     "home": {
+      "abbr": "CAR",
+      "name": "Carolina Panthers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
+      "color": "0085ca",
+      "score": 0
+     },
+     "away": {
+      "abbr": "BAL",
+      "name": "Baltimore Ravens",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
+      "color": "29126f",
+      "score": 0
+     },
+     "odds": {
+      "provider": null,
+      "details": "CAR -2.5",
+      "overUnder": 44.5,
+      "moneyline": {
+       "home": "-142",
+       "away": "+120"
+      }
+     }
+    },
+    {
+     "id": "401873074",
+     "date": "2026-11-22T21:05Z",
+     "name": "NYJ @ LAC",
+     "state": "pre",
+     "completed": false,
+     "winner": null,
+     "detail": "11/22 - 4:05 PM EST",
+     "home": {
+      "abbr": "LAC",
+      "name": "Los Angeles Chargers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+      "color": "0080c6",
+      "score": 0
+     },
+     "away": {
+      "abbr": "NYJ",
+      "name": "New York Jets",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+      "color": "115740",
+      "score": 0
+     },
+     "odds": {
+      "provider": null,
+      "details": "LAC -3.5",
+      "overUnder": 41.5,
+      "moneyline": {
+       "home": "-185",
+       "away": "+154"
+      }
+     }
+    },
+    {
+     "id": "401873075",
+     "date": "2026-11-22T21:25Z",
+     "name": "LV @ DEN",
+     "state": "pre",
+     "completed": false,
+     "winner": null,
+     "detail": "11/22 - 4:25 PM EST",
+     "home": {
+      "abbr": "DEN",
+      "name": "Denver Broncos",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+      "color": "0a2343",
+      "score": 0
+     },
+     "away": {
+      "abbr": "LV",
+      "name": "Las Vegas Raiders",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+      "color": "000000",
+      "score": 0
+     },
+     "odds": {
+      "provider": null,
+      "details": "DEN -10",
+      "overUnder": 40.5,
+      "moneyline": {
+       "home": "-600",
+       "away": "+440"
+      }
+     }
+    },
+    {
+     "id": "401873069",
+     "date": "2026-11-22T21:25Z",
+     "name": "JAX @ NYG",
+     "state": "pre",
+     "completed": false,
+     "winner": null,
+     "detail": "11/22 - 4:25 PM EST",
+     "home": {
+      "abbr": "NYG",
+      "name": "New York Giants",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+      "color": "003c7f",
+      "score": 0
+     },
+     "away": {
+      "abbr": "JAX",
+      "name": "Jacksonville Jaguars",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+      "color": "007487",
+      "score": 0
+     },
+     "odds": {
+      "provider": null,
+      "details": "JAX -6",
+      "overUnder": 46.5,
+      "moneyline": {
+       "home": "+215",
+       "away": "-265"
+      }
+     }
+    },
+    {
+     "id": "401873077",
+     "date": "2026-11-23T01:20Z",
+     "name": "MIN VS SF",
+     "state": "pre",
+     "completed": false,
+     "winner": null,
+     "detail": "11/22 - 8:20 PM EST",
+     "home": {
+      "abbr": "SF",
+      "name": "San Francisco 49ers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
+      "color": "aa0000",
+      "score": 0
+     },
+     "away": {
+      "abbr": "MIN",
+      "name": "Minnesota Vikings",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+      "color": "4f2683",
+      "score": 0
+     },
+     "odds": {
+      "provider": null,
+      "details": "SF -3",
+      "overUnder": 45.5,
+      "moneyline": {
+       "home": "-162",
+       "away": "+136"
+      }
+     }
+    },
+    {
+     "id": "401873078",
+     "date": "2026-11-24T01:15Z",
+     "name": "CIN @ WSH",
+     "state": "pre",
+     "completed": false,
+     "winner": null,
+     "detail": "11/23 - 8:15 PM EST",
+     "home": {
+      "abbr": "WSH",
+      "name": "Washington Commanders",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+      "color": "5a1414",
+      "score": 0
+     },
+     "away": {
+      "abbr": "CIN",
+      "name": "Cincinnati Bengals",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+      "color": "fb4f14",
+      "score": 0
+     },
+     "odds": {
+      "provider": null,
+      "details": "CIN -6.5",
+      "overUnder": 54.5,
+      "moneyline": {
+       "home": "+240",
+       "away": "-298"
+      }
+     }
+    }
+   ]
   }
  },
- "fetchedAt": "2026-11-17T15:21:05.623Z"
+ "fetchedAt": "2026-11-18T14:56:32.732Z"
 }
