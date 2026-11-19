@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 11,
- "archivedAt": "2026-11-18T14:56:36.153Z",
+ "archivedAt": "2026-11-19T15:02:31.319Z",
  "matchups": [
   {
    "id": 51,
@@ -69,13 +69,6 @@
       "points": 0
      },
      {
-      "playerId": 4568490,
-      "name": "RJ Harvey",
-      "pos": "RB",
-      "slot": "IR",
-      "points": 0
-     },
-     {
       "playerId": 3054850,
       "name": "Alvin Kamara",
       "pos": "RB",
@@ -111,13 +104,6 @@
       "points": 0
      },
      {
-      "playerId": 4683062,
-      "name": "Xavier Worthy",
-      "pos": "WR",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 4696044,
       "name": "Kaelon Black",
       "pos": "RB",
@@ -129,6 +115,13 @@
       "name": "Bo Nix",
       "pos": "QB",
       "slot": "QB",
+      "points": 0
+     },
+     {
+      "playerId": 4575131,
+      "name": "Jacory Croskey-Merritt",
+      "pos": "RB",
+      "slot": "IR",
       "points": 0
      }
     ]
@@ -250,9 +243,9 @@
       "points": 0
      },
      {
-      "playerId": 5081397,
-      "name": "Dylan Sampson",
-      "pos": "RB",
+      "playerId": 4883647,
+      "name": "Elic Ayomanor",
+      "pos": "WR",
       "slot": "BE",
       "points": 0
      }
@@ -488,14 +481,14 @@
       "playerId": 4832800,
       "name": "Denzel Boston",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
       "playerId": 4686422,
       "name": "Xavier Hutchinson",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0
      },
      {
@@ -1151,7 +1144,7 @@
       "playerId": 4242335,
       "name": "Jonathan Taylor",
       "pos": "RB",
-      "slot": "FLEX",
+      "slot": "RB",
       "points": 0
      },
      {
@@ -1242,7 +1235,7 @@
       "playerId": 4702555,
       "name": "Jonah Coleman",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -1253,8 +1246,8 @@
       "points": 0
      },
      {
-      "playerId": -16029,
-      "name": "Panthers D/ST",
+      "playerId": -16008,
+      "name": "Lions D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
       "points": 0
