@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 12,
  "poll": "AP Top 25",
- "fetchedAt": "2026-11-20T12:19:07.362Z",
+ "fetchedAt": "2026-11-20T14:44:46.695Z",
  "rankings": [
   {
    "rank": 1,
@@ -537,8 +537,8 @@
    "detail": "11/20 - 6:00 PM EST",
    "venue": "Acrisure Bounce House",
    "broadcast": "FS1",
-   "spread": "UCF -1.5",
-   "overUnder": 47.5,
+   "spread": "ISU -1.5",
+   "overUnder": 48.5,
    "headline": null,
    "home": {
     "abbr": "UCF",
@@ -574,7 +574,7 @@
    "detail": "11/20 - 7:30 PM EST",
    "venue": "Wallace Wade Stadium",
    "broadcast": "ESPN",
-   "spread": "DUKE -13.5",
+   "spread": "DUKE -12.5",
    "overUnder": 41.5,
    "headline": null,
    "home": {
@@ -612,7 +612,7 @@
    "venue": "Glass Bowl",
    "broadcast": "ESPN2",
    "spread": "TOL -16.5",
-   "overUnder": 47.5,
+   "overUnder": 45.5,
    "headline": null,
    "home": {
     "abbr": "TOL",
@@ -722,7 +722,7 @@
    "detail": "11/20 - 9:00 PM EST",
    "venue": "War Memorial Stadium",
    "broadcast": "FS1",
-   "spread": "UNM -7.5",
+   "spread": "UNM -8.5",
    "overUnder": 37.5,
    "headline": null,
    "home": {
@@ -1573,7 +1573,7 @@
    "detail": "11/21 - 2:30 PM EST",
    "venue": "Kidd Brewer Stadium",
    "broadcast": "ESPN+",
-   "spread": "APP -13.5",
+   "spread": "APP -14",
    "overUnder": 49.5,
    "headline": null,
    "home": {
@@ -1980,7 +1980,7 @@
    "detail": "11/21 - 3:30 PM EST",
    "venue": "Beaver Stadium",
    "broadcast": "FS1",
-   "spread": "PSU -25.5",
+   "spread": "PSU -26.5",
    "overUnder": 49.5,
    "headline": null,
    "home": {
@@ -2351,7 +2351,7 @@
    "venue": "Bill Snyder Family Stadium",
    "broadcast": "FS1",
    "spread": "ARIZ -7.5",
-   "overUnder": 52.5,
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "KSU",
