@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 12,
  "poll": "AP Top 25",
- "fetchedAt": "2026-11-19T15:02:27.049Z",
+ "fetchedAt": "2026-11-20T12:19:07.362Z",
  "rankings": [
   {
    "rank": 1,
@@ -495,14 +495,14 @@
    "id": "401862830",
    "date": "2026-11-20T00:30Z",
    "name": "RICE @ TEM",
-   "state": "pre",
-   "completed": false,
-   "detail": "11/19 - 7:30 PM EST",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "venue": "Lincoln Financial Field",
    "broadcast": "ESPN",
-   "spread": "TEM -2.5",
-   "overUnder": 51.5,
-   "headline": null,
+   "spread": null,
+   "overUnder": null,
+   "headline": "Patrick Crayton and Jacurri Brown connect in waning seconds to lift Rice over Temple 31-27",
    "home": {
     "abbr": "TEM",
     "name": "Temple Owls",
@@ -510,8 +510,8 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/218.png",
     "color": "a41e35",
     "rank": null,
-    "score": 0,
-    "record": "2-8",
+    "score": 27,
+    "record": "2-9",
     "conferenceId": "151",
     "winner": false
    },
@@ -522,10 +522,10 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/242.png",
     "color": "00205b",
     "rank": null,
-    "score": 0,
-    "record": "1-9",
+    "score": 31,
+    "record": "2-9",
     "conferenceId": "151",
-    "winner": false
+    "winner": true
    }
   },
   {
@@ -537,8 +537,8 @@
    "detail": "11/20 - 6:00 PM EST",
    "venue": "Acrisure Bounce House",
    "broadcast": "FS1",
-   "spread": "UCF -2.5",
-   "overUnder": 48.5,
+   "spread": "UCF -1.5",
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "UCF",
@@ -575,7 +575,7 @@
    "venue": "Wallace Wade Stadium",
    "broadcast": "ESPN",
    "spread": "DUKE -13.5",
-   "overUnder": 40.5,
+   "overUnder": 41.5,
    "headline": null,
    "home": {
     "abbr": "DUKE",
@@ -612,7 +612,7 @@
    "venue": "Glass Bowl",
    "broadcast": "ESPN2",
    "spread": "TOL -16.5",
-   "overUnder": 48.5,
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "TOL",
@@ -648,7 +648,7 @@
    "detail": "11/20 - 8:00 PM EST",
    "venue": "Spartan Stadium",
    "broadcast": "Fox",
-   "spread": "ORE -16.5",
+   "spread": "ORE -17.5",
    "overUnder": 44.5,
    "headline": null,
    "home": {
@@ -685,7 +685,7 @@
    "detail": "11/20 - 8:00 PM EST",
    "venue": "Falcon Stadium",
    "broadcast": "CW",
-   "spread": "AF -22.5",
+   "spread": "AF -21.5",
    "overUnder": 47.5,
    "headline": null,
    "home": {
@@ -760,7 +760,7 @@
    "venue": "David Booth Kansas Memorial Stadium",
    "broadcast": "ABC",
    "spread": "BYU -5.5",
-   "overUnder": 47.5,
+   "overUnder": 46.5,
    "headline": null,
    "home": {
     "abbr": "KU",
@@ -833,7 +833,7 @@
    "detail": "11/21 - 12:00 PM EST",
    "venue": "Memorial Stadium (Lincoln, NE)",
    "broadcast": "Fox",
-   "spread": "OSU -3",
+   "spread": "OSU -3.5",
    "overUnder": 41.5,
    "headline": null,
    "home": {
@@ -871,7 +871,7 @@
    "venue": "Ben Hill Griffin Stadium",
    "broadcast": "SEC Network",
    "spread": "FLA -13.5",
-   "overUnder": 46.5,
+   "overUnder": 45.5,
    "headline": null,
    "home": {
     "abbr": "FLA",
@@ -945,7 +945,7 @@
    "venue": "Nippert Stadium",
    "broadcast": "ESPN+",
    "spread": "CIN -3",
-   "overUnder": 58.5,
+   "overUnder": 57.5,
    "headline": null,
    "home": {
     "abbr": "CIN",
@@ -982,7 +982,7 @@
    "venue": "Alumni Stadium (Chestnut Hill, MA)",
    "broadcast": "ACC Network",
    "spread": "SYR -2.5",
-   "overUnder": 50.5,
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "BC",
@@ -1093,7 +1093,7 @@
    "venue": "Michie Stadium",
    "broadcast": "CBSSN",
    "spread": "ARMY -6",
-   "overUnder": 45.5,
+   "overUnder": 46.5,
    "headline": null,
    "home": {
     "abbr": "ARMY",
@@ -1204,7 +1204,7 @@
    "venue": "Scott Stadium",
    "broadcast": "CW",
    "spread": "UVA -1.5",
-   "overUnder": 43.5,
+   "overUnder": 42.5,
    "headline": null,
    "home": {
     "abbr": "UVA",
@@ -1240,7 +1240,7 @@
    "detail": "11/21 - 1:00 PM EST",
    "venue": "Milan Puskar Stadium",
    "broadcast": "TNT",
-   "spread": "HOU -8.5",
+   "spread": "HOU -7.5",
    "overUnder": 70.5,
    "headline": null,
    "home": {
@@ -1389,7 +1389,7 @@
    "venue": "H. A. Chapman Stadium",
    "broadcast": "ESPN+",
    "spread": "TLSA -22.5",
-   "overUnder": 52.5,
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "TLSA",
@@ -1426,7 +1426,7 @@
    "venue": "AmFirst Stadium",
    "broadcast": "ESPN+",
    "spread": "JXST -10.5",
-   "overUnder": 53.5,
+   "overUnder": 52.5,
    "headline": null,
    "home": {
     "abbr": "JXST",
@@ -1462,7 +1462,7 @@
    "detail": "11/21 - 2:00 PM EST",
    "venue": "Elliott T. Bowers Stadium",
    "broadcast": "ESPN+",
-   "spread": "MTSU -5.5",
+   "spread": "MTSU -6",
    "overUnder": 48.5,
    "headline": null,
    "home": {
@@ -1573,8 +1573,8 @@
    "detail": "11/21 - 2:30 PM EST",
    "venue": "Kidd Brewer Stadium",
    "broadcast": "ESPN+",
-   "spread": "APP -14",
-   "overUnder": 50.5,
+   "spread": "APP -13.5",
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "APP",
@@ -1648,7 +1648,7 @@
    "venue": "Aggie Memorial Stadium",
    "broadcast": "ESPN+",
    "spread": "DEL -3",
-   "overUnder": 54.5,
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "NMSU",
@@ -1684,7 +1684,7 @@
    "detail": "11/21 - 3:00 PM EST",
    "venue": "Walens Family Field at Fifth Third Stadium",
    "broadcast": "ESPN+",
-   "spread": "KENN -3.5",
+   "spread": "KENN -3",
    "overUnder": 44.5,
    "headline": null,
    "home": {
@@ -1759,7 +1759,7 @@
    "venue": "DKR-Texas Memorial Stadium",
    "broadcast": "ESPN",
    "spread": "TEX -20.5",
-   "overUnder": 46.5,
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "TEX",
@@ -1796,7 +1796,7 @@
    "venue": "Husky Stadium",
    "broadcast": "Peacock",
    "spread": "IU -7.5",
-   "overUnder": 43.5,
+   "overUnder": 44.5,
    "headline": null,
    "home": {
     "abbr": "WASH",
@@ -1869,8 +1869,8 @@
    "detail": "11/21 - 3:30 PM EST",
    "venue": "McLane Stadium",
    "broadcast": "Fox",
-   "spread": "TTU -3.5",
-   "overUnder": 55.5,
+   "spread": "TTU -4.5",
+   "overUnder": 56.5,
    "headline": null,
    "home": {
     "abbr": "BAY",
@@ -1980,8 +1980,8 @@
    "detail": "11/21 - 3:30 PM EST",
    "venue": "Beaver Stadium",
    "broadcast": "FS1",
-   "spread": "PSU -24.5",
-   "overUnder": 50.5,
+   "spread": "PSU -25.5",
+   "overUnder": 49.5,
    "headline": null,
    "home": {
     "abbr": "PSU",
@@ -2092,7 +2092,7 @@
    "venue": "Fargodome",
    "broadcast": "CW",
    "spread": "NDSU -25.5",
-   "overUnder": 43.5,
+   "overUnder": 44.5,
    "headline": null,
    "home": {
     "abbr": "NDSU",
@@ -2239,8 +2239,8 @@
    "detail": "11/21 - 6:00 PM EST",
    "venue": "UFCU Stadium",
    "broadcast": "USA Net",
-   "spread": "TXST -11.5",
-   "overUnder": 61.5,
+   "spread": "TXST -13.5",
+   "overUnder": 62.5,
    "headline": null,
    "home": {
     "abbr": "TXST",
@@ -2277,7 +2277,7 @@
    "venue": "Los Angeles Memorial Coliseum",
    "broadcast": "BTN",
    "spread": "USC -17.5",
-   "overUnder": 58.5,
+   "overUnder": 57.5,
    "headline": null,
    "home": {
     "abbr": "USC",
@@ -2350,7 +2350,7 @@
    "detail": "11/21 - 7:00 PM EST",
    "venue": "Bill Snyder Family Stadium",
    "broadcast": "FS1",
-   "spread": "ARIZ -7",
+   "spread": "ARIZ -7.5",
    "overUnder": 52.5,
    "headline": null,
    "home": {
@@ -2387,8 +2387,8 @@
    "detail": "11/21 - 7:00 PM EST",
    "venue": "CEFCU Stadium",
    "broadcast": "CBSSN",
-   "spread": "UNLV -7",
-   "overUnder": 46.5,
+   "spread": "UNLV -6.5",
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "SJSU",
@@ -2424,7 +2424,7 @@
    "detail": "11/21 - 7:00 PM EST",
    "venue": "Joe Aillet Stadium",
    "broadcast": "ESPN+",
-   "spread": "LT -13.5",
+   "spread": "LT -14",
    "overUnder": 53.5,
    "headline": null,
    "home": {
@@ -2535,7 +2535,7 @@
    "detail": "11/21 - 7:30 PM EST",
    "venue": "Memorial Stadium",
    "broadcast": "SEC Network",
-   "spread": "MIZ -5.5",
+   "spread": "MIZ -4.5",
    "overUnder": 48.5,
    "headline": null,
    "home": {
@@ -2572,7 +2572,7 @@
    "detail": "11/21 - 7:30 PM EST",
    "venue": "L&N Federal Credit Union Stadium",
    "broadcast": "ESPN2",
-   "spread": "LOU -14",
+   "spread": "LOU -13.5",
    "overUnder": 50.5,
    "headline": null,
    "home": {
@@ -2646,7 +2646,7 @@
    "detail": "11/21 - 7:30 PM EST",
    "venue": "Valley Children's Stadium",
    "broadcast": "CW",
-   "spread": "FRES -20.5",
+   "spread": "FRES -19.5",
    "overUnder": 66.5,
    "headline": null,
    "home": {
@@ -2684,7 +2684,7 @@
    "venue": "Protective Stadium",
    "broadcast": "ESPNU",
    "spread": "UTSA -6.5",
-   "overUnder": 51.5,
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "UAB",
@@ -2720,7 +2720,7 @@
    "detail": "11/21 - 9:00 PM EST",
    "venue": "Amon G. Carter Stadium",
    "broadcast": "Fox",
-   "spread": "UTAH -7",
+   "spread": "UTAH -7.5",
    "overUnder": 46.5,
    "headline": null,
    "home": {
@@ -2831,7 +2831,7 @@
    "detail": "11/21 - 10:30 PM EST",
    "venue": "Reser Stadium",
    "broadcast": "CBSSN",
-   "spread": "ORST -9.5",
+   "spread": "ORST -8.5",
    "overUnder": 50.5,
    "headline": null,
    "home": {
@@ -2868,7 +2868,7 @@
    "detail": "11/21 - 10:30 PM EST",
    "venue": "Mackay Stadium",
    "broadcast": "FS1",
-   "spread": "NEV -4.5",
+   "spread": "NEV -5.5",
    "overUnder": 40.5,
    "headline": null,
    "home": {

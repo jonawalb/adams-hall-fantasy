@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 11,
- "archivedAt": "2026-11-19T15:02:31.319Z",
+ "archivedAt": "2026-11-20T12:19:17.986Z",
  "matchups": [
   {
    "id": 51,
@@ -123,6 +123,13 @@
       "pos": "RB",
       "slot": "IR",
       "points": 0
+     },
+     {
+      "playerId": 4683062,
+      "name": "Xavier Worthy",
+      "pos": "WR",
+      "slot": "BE",
+      "points": 0
      }
     ]
    },
@@ -205,7 +212,7 @@
       "name": "Spencer Shrader",
       "pos": "K",
       "slot": "K",
-      "points": 0
+      "points": 1
      },
      {
       "playerId": 4036378,
@@ -286,7 +293,7 @@
       "playerId": 4567750,
       "name": "Emeka Egbuka",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -307,7 +314,7 @@
       "playerId": 16737,
       "name": "Mike Evans",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -322,7 +329,7 @@
       "name": "Tank Dell",
       "pos": "WR",
       "slot": "BE",
-      "points": 0
+      "points": 5.7
      },
      {
       "playerId": 4695883,
@@ -489,7 +496,7 @@
       "name": "Xavier Hutchinson",
       "pos": "WR",
       "slot": "WR",
-      "points": 0
+      "points": 3.3
      },
      {
       "playerId": -16003,
@@ -528,7 +535,7 @@
       "playerId": 4567048,
       "name": "Kenneth Walker III",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -550,7 +557,7 @@
       "name": "Tyler Warren",
       "pos": "TE",
       "slot": "TE",
-      "points": 0
+      "points": 3.2
      },
      {
       "playerId": 4426348,
@@ -646,7 +653,7 @@
       "playerId": 3929630,
       "name": "Saquon Barkley",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "RB",
       "points": 0
      },
      {
@@ -689,7 +696,7 @@
       "name": "Texans D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
-      "points": 0
+      "points": 15
      },
      {
       "playerId": 15847,
@@ -723,14 +730,14 @@
       "playerId": 3116165,
       "name": "Chris Godwin Jr.",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0
      },
      {
       "playerId": 4373626,
       "name": "Tyler Allgeier",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -744,7 +751,7 @@
       "playerId": 4427095,
       "name": "DeMario Douglas",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -931,7 +938,7 @@
       "name": "David Montgomery",
       "pos": "RB",
       "slot": "BE",
-      "points": 0
+      "points": 15.400000000000002
      },
      {
       "playerId": 4871023,
@@ -1104,7 +1111,7 @@
       "name": "C.J. Stroud",
       "pos": "QB",
       "slot": "QB",
-      "points": 0
+      "points": 20.46
      },
      {
       "playerId": 3124679,
@@ -1145,7 +1152,7 @@
       "name": "Jonathan Taylor",
       "pos": "RB",
       "slot": "RB",
-      "points": 0
+      "points": 6.699999999999999
      },
      {
       "playerId": 4890973,
@@ -1159,7 +1166,7 @@
       "name": "Nico Collins",
       "pos": "WR",
       "slot": "BE",
-      "points": 0
+      "points": 14.8
      },
      {
       "playerId": 4361579,
@@ -1243,7 +1250,7 @@
       "name": "Ka'imi Fairbairn",
       "pos": "K",
       "slot": "K",
-      "points": 0
+      "points": 6
      },
      {
       "playerId": -16008,

@@ -4870,23 +4870,23 @@
      "id": "401873066",
      "date": "2026-11-20T01:15Z",
      "name": "IND @ HOU",
-     "state": "pre",
-     "completed": false,
-     "winner": null,
-     "detail": "11/19 - 8:15 PM EST",
+     "state": "post",
+     "completed": true,
+     "winner": "home",
+     "detail": "Final",
      "home": {
       "abbr": "HOU",
       "name": "Houston Texans",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
       "color": "021018",
-      "score": 0
+      "score": 26
      },
      "away": {
       "abbr": "IND",
       "name": "Indianapolis Colts",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
       "color": "003b75",
-      "score": 0
+      "score": 3
      },
      "odds": {
       "provider": "DraftKings",
@@ -4921,12 +4921,12 @@
       "score": 0
      },
      "odds": {
-      "provider": null,
+      "provider": "Draft Kings",
       "details": "BUF -16.5",
-      "overUnder": 45.5,
+      "overUnder": 44.5,
       "moneyline": {
-       "home": "-1450",
-       "away": "+850"
+       "home": "-1640",
+       "away": "+920"
       }
      }
     },
@@ -4957,8 +4957,8 @@
       "details": "CHI -11.5",
       "overUnder": 48.5,
       "moneyline": {
-       "home": "-625",
-       "away": "+455"
+       "home": "-596",
+       "away": "+444"
       }
      }
     },
@@ -4990,7 +4990,7 @@
       "overUnder": 54.5,
       "moneyline": {
        "home": "-380",
-       "away": "+300"
+       "away": "+302"
       }
      }
     },
@@ -5018,11 +5018,11 @@
      },
      "odds": {
       "provider": null,
-      "details": "DET -7",
-      "overUnder": 43.5,
+      "details": "DET -6",
+      "overUnder": 45.5,
       "moneyline": {
-       "home": "-340",
-       "away": "+270"
+       "home": "-257",
+       "away": "+212"
       }
      }
     },
@@ -5050,11 +5050,11 @@
      },
      "odds": {
       "provider": null,
-      "details": "KC -15.5",
+      "details": "KC -16.5",
       "overUnder": 40.5,
       "moneyline": {
-       "home": "-1350",
-       "away": "+800"
+       "home": "-1420",
+       "away": "+840"
       }
      }
     },
@@ -5082,11 +5082,11 @@
      },
      "odds": {
       "provider": null,
-      "details": "PIT -4.5",
-      "overUnder": 37.5,
+      "details": "PIT -3.5",
+      "overUnder": 38.5,
       "moneyline": {
-       "home": "+180",
-       "away": "-218"
+       "home": "+170",
+       "away": "-203"
       }
      }
     },
@@ -5114,11 +5114,11 @@
      },
      "odds": {
       "provider": null,
-      "details": "CAR -2.5",
+      "details": "CAR -3",
       "overUnder": 43.5,
       "moneyline": {
-       "home": "-135",
-       "away": "+114"
+       "home": "-147",
+       "away": "+125"
       }
      }
     },
@@ -5149,8 +5149,8 @@
       "details": "LAC -3",
       "overUnder": 41.5,
       "moneyline": {
-       "home": "-162",
-       "away": "+136"
+       "home": "-169",
+       "away": "+142"
       }
      }
     },
@@ -5178,11 +5178,11 @@
      },
      "odds": {
       "provider": null,
-      "details": "DEN -10",
+      "details": "DEN -10.5",
       "overUnder": 40.5,
       "moneyline": {
-       "home": "-625",
-       "away": "+455"
+       "home": "-620",
+       "away": "+456"
       }
      }
     },
@@ -5213,8 +5213,8 @@
       "details": "JAX -6",
       "overUnder": 46.5,
       "moneyline": {
-       "home": "+215",
-       "away": "-265"
+       "home": "+210",
+       "away": "-255"
       }
      }
     },
@@ -5242,11 +5242,11 @@
      },
      "odds": {
       "provider": null,
-      "details": "SF -3",
+      "details": "SF -3.5",
       "overUnder": 46.5,
       "moneyline": {
-       "home": "-165",
-       "away": "+138"
+       "home": "-172",
+       "away": "+145"
       }
      }
     },
@@ -5274,16 +5274,16 @@
      },
      "odds": {
       "provider": null,
-      "details": "CIN -6.5",
+      "details": "CIN -6",
       "overUnder": 53.5,
       "moneyline": {
-       "home": "+250",
-       "away": "-310"
+       "home": "+231",
+       "away": "-283"
       }
      }
     }
    ]
   }
  },
- "fetchedAt": "2026-11-19T15:02:26.632Z"
+ "fetchedAt": "2026-11-20T12:19:06.815Z"
 }
