@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 11,
- "archivedAt": "2026-11-20T14:44:50.551Z",
+ "archivedAt": "2026-11-21T14:00:48.130Z",
  "matchups": [
   {
    "id": 51,
@@ -293,7 +293,7 @@
       "playerId": 4567750,
       "name": "Emeka Egbuka",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -314,7 +314,7 @@
       "playerId": 16737,
       "name": "Mike Evans",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -535,7 +535,7 @@
       "playerId": 4567048,
       "name": "Kenneth Walker III",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "IR",
       "points": 0
      },
      {
@@ -634,6 +634,13 @@
       "name": "Pat Freiermuth",
       "pos": "TE",
       "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 4038441,
+      "name": "Justice Hill",
+      "pos": "RB",
+      "slot": "RB",
       "points": 0
      }
     ]
@@ -944,14 +951,14 @@
       "playerId": 4871023,
       "name": "Carnell Tate",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0
      },
      {
       "playerId": 4880281,
       "name": "Jordyn Tyson",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0
      },
      {

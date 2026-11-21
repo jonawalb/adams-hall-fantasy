@@ -4957,8 +4957,8 @@
       "details": "CHI -11.5",
       "overUnder": 48.5,
       "moneyline": {
-       "home": "-600",
-       "away": "+447"
+       "home": "-610",
+       "away": "+450"
       }
      }
     },
@@ -4986,11 +4986,11 @@
      },
      "odds": {
       "provider": null,
-      "details": "DAL -8.5",
+      "details": "DAL -7.5",
       "overUnder": 54.5,
       "moneyline": {
-       "home": "-381",
-       "away": "+303"
+       "home": "-377",
+       "away": "+300"
       }
      }
     },
@@ -5018,11 +5018,11 @@
      },
      "odds": {
       "provider": null,
-      "details": "DET -6",
+      "details": "DET -5.5",
       "overUnder": 45.5,
       "moneyline": {
-       "home": "-258",
-       "away": "+213"
+       "home": "-236",
+       "away": "+196"
       }
      }
     },
@@ -5053,8 +5053,8 @@
       "details": "KC -16.5",
       "overUnder": 40.5,
       "moneyline": {
-       "home": "-1400",
-       "away": "+830"
+       "home": "-1660",
+       "away": "+930"
       }
      }
     },
@@ -5083,10 +5083,10 @@
      "odds": {
       "provider": null,
       "details": "PIT -3.5",
-      "overUnder": 38.5,
+      "overUnder": 37.5,
       "moneyline": {
-       "home": "+166",
-       "away": "-198"
+       "home": "+165",
+       "away": "-197"
       }
      }
     },
@@ -5117,8 +5117,8 @@
       "details": "CAR -3",
       "overUnder": 43.5,
       "moneyline": {
-       "home": "-148",
-       "away": "+125"
+       "home": "-149",
+       "away": "+126"
       }
      }
     },
@@ -5147,10 +5147,10 @@
      "odds": {
       "provider": null,
       "details": "LAC -3",
-      "overUnder": 41.5,
+      "overUnder": 42.5,
       "moneyline": {
-       "home": "-169",
-       "away": "+142"
+       "home": "-171",
+       "away": "+144"
       }
      }
     },
@@ -5182,7 +5182,7 @@
       "overUnder": 40.5,
       "moneyline": {
        "home": "-620",
-       "away": "+455"
+       "away": "+454"
       }
      }
     },
@@ -5213,8 +5213,8 @@
       "details": "JAX -6",
       "overUnder": 46.5,
       "moneyline": {
-       "home": "+210",
-       "away": "-255"
+       "home": "+209",
+       "away": "-253"
       }
      }
     },
@@ -5242,7 +5242,7 @@
      },
      "odds": {
       "provider": null,
-      "details": "SF -3.5",
+      "details": "SF -3",
       "overUnder": 46.5,
       "moneyline": {
        "home": "-172",
@@ -5277,13 +5277,13 @@
       "details": "CIN -6",
       "overUnder": 53.5,
       "moneyline": {
-       "home": "+241",
-       "away": "-295"
+       "home": "+243",
+       "away": "-298"
       }
      }
     }
    ]
   }
  },
- "fetchedAt": "2026-11-20T14:44:46.208Z"
+ "fetchedAt": "2026-11-21T14:00:41.611Z"
 }
