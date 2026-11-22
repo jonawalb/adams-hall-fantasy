@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 11,
- "archivedAt": "2026-11-21T14:00:48.130Z",
+ "archivedAt": "2026-11-22T13:54:30.012Z",
  "matchups": [
   {
    "id": 51,
@@ -183,7 +183,7 @@
       "playerId": 4248528,
       "name": "Christian Watson",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -253,7 +253,7 @@
       "playerId": 4883647,
       "name": "Elic Ayomanor",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0
      }
     ]

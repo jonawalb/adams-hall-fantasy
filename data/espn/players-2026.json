@@ -177,7 +177,7 @@
   "id": 16731,
   "name": "Brandin Cooks",
   "pos": "WR",
-  "proTeamId": 25
+  "proTeamId": 0
  },
  "16733": {
   "id": 16733,
@@ -693,7 +693,7 @@
   "id": 3051909,
   "name": "Daniel Carlson",
   "pos": "K",
-  "proTeamId": 0
+  "proTeamId": 15
  },
  "3051926": {
   "id": 3051926,
@@ -2109,7 +2109,7 @@
   "id": 4240657,
   "name": "Michael Carter",
   "pos": "RB",
-  "proTeamId": 0
+  "proTeamId": 10
  },
  "4240703": {
   "id": 4240703,
@@ -3322,6 +3322,12 @@
   "name": "Payne Durham",
   "pos": "TE",
   "proTeamId": 27
+ },
+ "4372519": {
+  "id": 4372519,
+  "name": "Jashaun Corbin",
+  "pos": "RB",
+  "proTeamId": 6
  },
  "4372526": {
   "id": 4372526,
