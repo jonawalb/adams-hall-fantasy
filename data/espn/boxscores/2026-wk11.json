@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 11,
- "archivedAt": "2026-11-23T00:32:28.644Z",
+ "archivedAt": "2026-11-23T10:32:01.822Z",
  "matchups": [
   {
    "id": 51,
@@ -17,7 +17,7 @@
       "name": "Christian McCaffrey",
       "pos": "RB",
       "slot": "RB",
-      "points": 0
+      "points": 14.200000000000001
      },
      {
       "playerId": 3043078,
@@ -87,7 +87,7 @@
       "name": "Keenan Allen",
       "pos": "WR",
       "slot": "BE",
-      "points": 0
+      "points": 6.800000000000001
      },
      {
       "playerId": 4249087,
@@ -108,14 +108,14 @@
       "name": "Kaelon Black",
       "pos": "RB",
       "slot": "BE",
-      "points": 0
+      "points": 2.5
      },
      {
       "playerId": 4426338,
       "name": "Bo Nix",
       "pos": "QB",
       "slot": "QB",
-      "points": 11.7
+      "points": 11.5
      },
      {
       "playerId": 4575131,
@@ -301,7 +301,7 @@
       "name": "Cam Skattebo",
       "pos": "RB",
       "slot": "RB",
-      "points": 4.5
+      "points": 5.800000000000001
      },
      {
       "playerId": 4572680,
@@ -315,14 +315,14 @@
       "name": "Mike Evans",
       "pos": "WR",
       "slot": "FLEX",
-      "points": 0
+      "points": 22.9
      },
      {
       "playerId": 4686361,
       "name": "Cam Little",
       "pos": "K",
       "slot": "K",
-      "points": 10
+      "points": 13
      },
      {
       "playerId": 4366031,
@@ -385,7 +385,7 @@
       "name": "Broncos D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
-      "points": 2
+      "points": 12
      }
     ]
    },
@@ -447,7 +447,7 @@
       "name": "Kirk Cousins",
       "pos": "QB",
       "slot": "QB",
-      "points": 0
+      "points": 7.4
      },
      {
       "playerId": 8439,
@@ -585,7 +585,7 @@
       "name": "Trevor Lawrence",
       "pos": "QB",
       "slot": "BE",
-      "points": 10.66
+      "points": 12.74
      },
      {
       "playerId": -16026,
@@ -627,7 +627,7 @@
       "name": "49ers D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
-      "points": 0
+      "points": 14
      },
      {
       "playerId": 4361411,
@@ -696,7 +696,7 @@
       "name": "Aaron Jones Sr.",
       "pos": "RB",
       "slot": "RB",
-      "points": 0
+      "points": 11.3
      },
      {
       "playerId": -16034,
@@ -717,14 +717,14 @@
       "name": "Deebo Samuel Sr.",
       "pos": "WR",
       "slot": "WR",
-      "points": 0
+      "points": 7.7
      },
      {
       "playerId": 4567104,
       "name": "Will Reichard",
       "pos": "K",
       "slot": "K",
-      "points": 0
+      "points": 3
      },
      {
       "playerId": 4685261,
@@ -759,7 +759,7 @@
       "name": "J.J. McCarthy",
       "pos": "QB",
       "slot": "BE",
-      "points": 13.64
+      "points": 14.22
      },
      {
       "playerId": 5083754,
@@ -806,7 +806,7 @@
       "name": "Bhayshul Tuten",
       "pos": "RB",
       "slot": "FLEX",
-      "points": 7.5
+      "points": 8.3
      },
      {
       "playerId": 3953687,
@@ -869,7 +869,7 @@
       "name": "Jakobi Meyers",
       "pos": "WR",
       "slot": "BE",
-      "points": 9.2
+      "points": 12.5
      },
      {
       "playerId": 4832955,
@@ -917,7 +917,7 @@
       "name": "Malik Nabers",
       "pos": "WR",
       "slot": "WR",
-      "points": 16.7
+      "points": 18.5
      },
      {
       "playerId": 4241478,
@@ -1001,7 +1001,7 @@
       "name": "Chris Rodriguez Jr.",
       "pos": "RB",
       "slot": "BE",
-      "points": 2.8000000000000003
+      "points": 5.1000000000000005
      },
      {
       "playerId": 3128429,
@@ -1034,7 +1034,7 @@
       "name": "Justin Jefferson",
       "pos": "WR",
       "slot": "WR",
-      "points": 0
+      "points": 13.7
      },
      {
       "playerId": 4047365,
@@ -1090,7 +1090,7 @@
       "name": "T.J. Hockenson",
       "pos": "TE",
       "slot": "FLEX",
-      "points": 0
+      "points": 11.5
      },
      {
       "playerId": 3139477,
@@ -1215,7 +1215,7 @@
       "name": "Parker Washington",
       "pos": "WR",
       "slot": "WR",
-      "points": 15.700000000000001
+      "points": 18.3
      },
      {
       "playerId": 4431611,
@@ -1229,7 +1229,7 @@
       "name": "George Kittle",
       "pos": "TE",
       "slot": "TE",
-      "points": 0
+      "points": 18.4
      },
      {
       "playerId": 4385690,
@@ -1243,7 +1243,7 @@
       "name": "Brock Purdy",
       "pos": "QB",
       "slot": "BE",
-      "points": 0
+      "points": 22.200000000000003
      },
      {
       "playerId": 4702555,
