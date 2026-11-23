@@ -429,7 +429,7 @@
   "id": 2972515,
   "name": "Cooper Rush",
   "pos": "QB",
-  "proTeamId": 0
+  "proTeamId": 27
  },
  "2973405": {
   "id": 2973405,
@@ -5427,6 +5427,12 @@
   "id": 4693370,
   "name": "Riley Nowakowski",
   "pos": "RB",
+  "proTeamId": 23
+ },
+ "4694237": {
+  "id": 4694237,
+  "name": "Max Hurleman",
+  "pos": "WR",
   "proTeamId": 23
  },
  "4695193": {
