@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 13,
  "poll": "AP Top 25",
- "fetchedAt": "2026-11-23T10:31:59.626Z",
+ "fetchedAt": "2026-11-23T17:04:39.323Z",
  "rankings": [
   {
    "rank": 1,
@@ -352,7 +352,7 @@
    "detail": "11/24 - 7:00 PM EST",
    "venue": "Waldo Stadium",
    "broadcast": "ESPN2",
-   "spread": "WMU -7.5",
+   "spread": "WMU -6.5",
    "overUnder": 45.5,
    "headline": null,
    "home": {
@@ -389,8 +389,8 @@
    "detail": "11/26 - 8:00 PM EST",
    "venue": "Galaxy Stadium",
    "broadcast": "ESPN",
-   "spread": "TTU -12.5",
-   "overUnder": 46.5,
+   "spread": "TTU -13.5",
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "TTU",
@@ -537,8 +537,8 @@
    "detail": "11/27 - 12:00 PM EST",
    "venue": "InfoCision Stadium",
    "broadcast": "CBSSN",
-   "spread": null,
-   "overUnder": null,
+   "spread": "BUF -7.5",
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "AKR",
@@ -574,7 +574,7 @@
    "detail": "11/27 - 12:00 PM EST",
    "venue": "Peden Stadium",
    "broadcast": "ESPNU",
-   "spread": "TOL -3.5",
+   "spread": "TOL -3",
    "overUnder": 49.5,
    "headline": null,
    "home": {
@@ -611,7 +611,7 @@
    "detail": "11/27 - 3:00 PM EST",
    "venue": "Hancock Whitney Stadium",
    "broadcast": "ESPN+",
-   "spread": "USA -3",
+   "spread": "USA -3.5",
    "overUnder": 56.5,
    "headline": null,
    "home": {
@@ -648,7 +648,7 @@
    "detail": "11/27 - 3:30 PM EST",
    "venue": "Doak Campbell Stadium",
    "broadcast": "ABC",
-   "spread": "FLA -4.5",
+   "spread": "FLA -6",
    "overUnder": 52.5,
    "headline": null,
    "home": {
@@ -870,7 +870,7 @@
    "detail": "11/27 - 9:00 PM EST",
    "venue": "Rice-Eccles Stadium",
    "broadcast": "Fox",
-   "spread": "UTAH -21",
+   "spread": "UTAH -22.5",
    "overUnder": 68.5,
    "headline": null,
    "home": {
@@ -981,7 +981,7 @@
    "detail": "11/28 - 12:00 PM EST",
    "venue": "Ohio Stadium",
    "broadcast": "Fox",
-   "spread": "OSU -9.5",
+   "spread": "OSU -10",
    "overUnder": 38.5,
    "headline": null,
    "home": {
@@ -1056,7 +1056,7 @@
    "venue": "Kenan Stadium",
    "broadcast": "ACC Network",
    "spread": "UNC -5.5",
-   "overUnder": 54.5,
+   "overUnder": 55.5,
    "headline": null,
    "home": {
     "abbr": "UNC",
@@ -1093,7 +1093,7 @@
    "venue": "War Memorial Stadium",
    "broadcast": "FS1",
    "spread": "CONN -3",
-   "overUnder": 48.5,
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "WYO",
@@ -1277,8 +1277,8 @@
    "detail": "11/28 - 12:45 PM EST",
    "venue": "Donald W. Reynolds Razorback Stadium",
    "broadcast": "SEC Network",
-   "spread": "LSU -13.5",
-   "overUnder": 47.5,
+   "spread": "LSU -14.5",
+   "overUnder": 48.5,
    "headline": null,
    "home": {
     "abbr": "ARK",
@@ -1351,7 +1351,7 @@
    "detail": "11/28 - 1:00 PM EST",
    "venue": "Houchens Industries-L.T. Smith Stadium",
    "broadcast": "ESPN+",
-   "spread": "KENN -3",
+   "spread": "KENN -3.5",
    "overUnder": 54.5,
    "headline": null,
    "home": {
@@ -1499,7 +1499,7 @@
    "detail": "11/28 - 2:00 PM EST",
    "venue": "Jack Trice Stadium",
    "broadcast": "ESPN+",
-   "spread": "ISU -4",
+   "spread": "ISU -3.5",
    "overUnder": 54.5,
    "headline": null,
    "home": {
@@ -1573,7 +1573,7 @@
    "detail": "11/28 - 2:00 PM EST",
    "venue": "Bridgeforth Stadium",
    "broadcast": "ESPN+",
-   "spread": "JMU -15.5",
+   "spread": "JMU -16.5",
    "overUnder": 56.5,
    "headline": null,
    "home": {
@@ -1832,7 +1832,7 @@
    "detail": "11/28 - 3:00 PM EST",
    "venue": "Centennial Bank Stadium",
    "broadcast": "ESPN+",
-   "spread": "ARST -4",
+   "spread": "ARST -3.5",
    "overUnder": 46.5,
    "headline": null,
    "home": {
@@ -1906,7 +1906,7 @@
    "detail": "11/28 - 3:30 PM EST",
    "venue": "Rose Bowl",
    "broadcast": "CBS",
-   "spread": "USC -6.5",
+   "spread": "USC -7",
    "overUnder": 46.5,
    "headline": null,
    "home": {
@@ -1943,8 +1943,8 @@
    "detail": "11/28 - 3:30 PM EST",
    "venue": "LaVell Edwards Stadium",
    "broadcast": "Fox",
-   "spread": "BYU -14.5",
-   "overUnder": 55.5,
+   "spread": "BYU -15.5",
+   "overUnder": 56.5,
    "headline": null,
    "home": {
     "abbr": "BYU",
@@ -1980,8 +1980,8 @@
    "detail": "11/28 - 3:30 PM EST",
    "venue": "Allegacy Federal Credit Union Stadium",
    "broadcast": "ESPN",
-   "spread": "WAKE -14",
-   "overUnder": 55.5,
+   "spread": "WAKE -14.5",
+   "overUnder": 56.5,
    "headline": null,
    "home": {
     "abbr": "WAKE",
@@ -2017,7 +2017,7 @@
    "detail": "11/28 - 3:30 PM EST",
    "venue": "Stanford Stadium",
    "broadcast": "ACC Network",
-   "spread": "SMU -8.5",
+   "spread": "SMU -7.5",
    "overUnder": 60.5,
    "headline": null,
    "home": {
@@ -2351,7 +2351,7 @@
    "venue": "Canvas Stadium",
    "broadcast": "USA Net",
    "spread": "BOIS -21",
-   "overUnder": 76.5,
+   "overUnder": 77.5,
    "headline": null,
    "home": {
     "abbr": "CSU",
@@ -2424,7 +2424,7 @@
    "detail": "11/28 - 6:30 PM EST",
    "venue": "Martin Stadium",
    "broadcast": "CW",
-   "spread": "WSU -1.5",
+   "spread": "WSU -2.5",
    "overUnder": 45.5,
    "headline": null,
    "home": {
@@ -2498,7 +2498,7 @@
    "detail": "11/28 - 7:00 PM EST",
    "venue": "FirstBank Stadium",
    "broadcast": "ESPN",
-   "spread": "TENN -11.5",
+   "spread": "TENN -13.5",
    "overUnder": 43.5,
    "headline": null,
    "home": {
@@ -2572,7 +2572,7 @@
    "detail": "11/28 - 7:30 PM EST",
    "venue": "Autzen Stadium",
    "broadcast": "NBC",
-   "spread": "ORE -14",
+   "spread": "ORE -13.5",
    "overUnder": 49.5,
    "headline": null,
    "home": {
@@ -2646,7 +2646,7 @@
    "detail": "11/28 - 9:00 PM EST",
    "venue": "Casino Del Sol Stadium",
    "broadcast": "Fox",
-   "spread": "ARIZ -7.5",
+   "spread": "ARIZ -8.5",
    "overUnder": 54.5,
    "headline": null,
    "home": {
@@ -2683,7 +2683,7 @@
    "detail": "11/28 - 9:00 PM EST",
    "venue": "Allegiant Stadium",
    "broadcast": "CBSSN",
-   "spread": "UNLV -4.5",
+   "spread": "UNLV -5.5",
    "overUnder": 43.5,
    "headline": null,
    "home": {
@@ -2720,7 +2720,7 @@
    "detail": "11/28 - 9:30 PM EST",
    "venue": "TDECU Stadium",
    "broadcast": "ESPN2",
-   "spread": "HOU -6.5",
+   "spread": "HOU -5.5",
    "overUnder": 55.5,
    "headline": null,
    "home": {
@@ -2831,8 +2831,8 @@
    "detail": "11/28 - 11:00 PM EST",
    "venue": "Clarence T.C. Ching Athletics Complex",
    "broadcast": "MW+",
-   "spread": "HAW -13.5",
-   "overUnder": 38.5,
+   "spread": "HAW -14",
+   "overUnder": 39.5,
    "headline": null,
    "home": {
     "abbr": "HAW",
