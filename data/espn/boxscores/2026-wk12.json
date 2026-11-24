@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 12,
- "archivedAt": "2026-11-24T14:32:26.000Z",
+ "archivedAt": "2026-11-24T16:50:46.006Z",
  "matchups": [
   {
    "id": 56,
@@ -141,7 +141,7 @@
       "playerId": 4362628,
       "name": "Ja'Marr Chase",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "WR",
       "points": 0
      },
      {
@@ -155,21 +155,21 @@
       "playerId": 4426502,
       "name": "Drake London",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0
      },
      {
       "playerId": 4685702,
       "name": "Quinshon Judkins",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "RB",
       "points": 0
      },
      {
       "playerId": 4431459,
       "name": "Tyler Warren",
       "pos": "TE",
-      "slot": "TE",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -183,7 +183,7 @@
       "playerId": 4431299,
       "name": "Rome Odunze",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -197,7 +197,7 @@
       "playerId": 4360310,
       "name": "Trevor Lawrence",
       "pos": "QB",
-      "slot": "BE",
+      "slot": "QB",
       "points": 0
      },
      {
@@ -211,21 +211,21 @@
       "playerId": 4870653,
       "name": "KC Concepcion",
       "pos": "WR",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0
      },
      {
       "playerId": 2577417,
       "name": "Dak Prescott",
       "pos": "QB",
-      "slot": "QB",
+      "slot": "BE",
       "points": 0
      },
      {
       "playerId": 4373678,
       "name": "Khalil Shakir",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -246,14 +246,14 @@
       "playerId": 4361411,
       "name": "Pat Freiermuth",
       "pos": "TE",
-      "slot": "BE",
+      "slot": "TE",
       "points": 0
      },
      {
       "playerId": 4038441,
       "name": "Justice Hill",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "BE",
       "points": 0
      }
     ]

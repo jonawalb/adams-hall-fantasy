@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 13,
  "poll": "AP Top 25",
- "fetchedAt": "2026-11-24T14:32:22.176Z",
+ "fetchedAt": "2026-11-24T16:50:42.318Z",
  "rankings": [
   {
    "rank": 1,
@@ -796,7 +796,7 @@
    "detail": "11/27 - 7:30 PM EST",
    "venue": "Kyle Field",
    "broadcast": "ABC",
-   "spread": "TEX -11.5",
+   "spread": "TEX -10.5",
    "overUnder": 40.5,
    "headline": null,
    "home": {
@@ -1944,7 +1944,7 @@
    "venue": "LaVell Edwards Stadium",
    "broadcast": "Fox",
    "spread": "BYU -15.5",
-   "overUnder": 55.5,
+   "overUnder": 56.5,
    "headline": null,
    "home": {
     "abbr": "BYU",
@@ -2203,7 +2203,7 @@
    "venue": "Delaware Stadium",
    "broadcast": "CBSSN",
    "spread": "DEL -2.5",
-   "overUnder": 58.5,
+   "overUnder": 57.5,
    "headline": null,
    "home": {
     "abbr": "DEL",
@@ -2647,7 +2647,7 @@
    "venue": "Casino Del Sol Stadium",
    "broadcast": "Fox",
    "spread": "ARIZ -8.5",
-   "overUnder": 54.5,
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "ARIZ",
@@ -2831,7 +2831,7 @@
    "detail": "11/28 - 11:00 PM EST",
    "venue": "Clarence T.C. Ching Athletics Complex",
    "broadcast": "MW+",
-   "spread": "HAW -14",
+   "spread": "HAW -13.5",
    "overUnder": 39.5,
    "headline": null,
    "home": {
