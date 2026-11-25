@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 13,
  "poll": "AP Top 25",
- "fetchedAt": "2026-11-25T15:54:44.641Z",
+ "fetchedAt": "2026-11-25T16:38:51.015Z",
  "rankings": [
   {
    "rank": 1,
@@ -796,7 +796,7 @@
    "detail": "11/27 - 7:30 PM EST",
    "venue": "Kyle Field",
    "broadcast": "ABC",
-   "spread": "TEX -11.5",
+   "spread": "TEX -10.5",
    "overUnder": 40.5,
    "headline": null,
    "home": {
@@ -1056,7 +1056,7 @@
    "venue": "Kenan Stadium",
    "broadcast": "ACC Network",
    "spread": "UNC -5.5",
-   "overUnder": 54.5,
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "UNC",
@@ -1130,7 +1130,7 @@
    "venue": "Jerry Richardson Stadium",
    "broadcast": "ESPN+",
    "spread": "NAVY -16.5",
-   "overUnder": 55.5,
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "CLT",
@@ -1425,7 +1425,7 @@
    "detail": "11/28 - 1:00 PM EST",
    "venue": "S.B. Ballard Stadium",
    "broadcast": "ESPN+",
-   "spread": "ODU -5.5",
+   "spread": "ODU -6",
    "overUnder": 50.5,
    "headline": null,
    "home": {
@@ -1981,7 +1981,7 @@
    "venue": "LaVell Edwards Stadium",
    "broadcast": "Fox",
    "spread": "BYU -15.5",
-   "overUnder": 56.5,
+   "overUnder": 55.5,
    "headline": null,
    "home": {
     "abbr": "BYU",
@@ -2128,7 +2128,7 @@
    "detail": "11/28 - 3:30 PM EST",
    "venue": "Huskie Stadium",
    "broadcast": "MW+",
-   "spread": "NIU -4.5",
+   "spread": "NIU -4",
    "overUnder": 50.5,
    "headline": null,
    "home": {
@@ -2314,7 +2314,7 @@
    "venue": "SHI Stadium",
    "broadcast": "BTN",
    "spread": "MSU -3.5",
-   "overUnder": 47.5,
+   "overUnder": 46.5,
    "headline": null,
    "home": {
     "abbr": "RUTG",

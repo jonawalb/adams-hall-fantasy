@@ -5443,8 +5443,8 @@
       "details": "DEN -3.5",
       "overUnder": 36.5,
       "moneyline": {
-       "home": "+174",
-       "away": "-208"
+       "home": "+170",
+       "away": "-203"
       }
      }
     },
@@ -5507,8 +5507,8 @@
       "details": "NYG -6.5",
       "overUnder": 41.5,
       "moneyline": {
-       "home": "+270",
-       "away": "-336"
+       "home": "+269",
+       "away": "-335"
       }
      }
     },
@@ -5539,8 +5539,8 @@
       "details": "NYJ -3.5",
       "overUnder": 40.5,
       "moneyline": {
-       "home": "+165",
-       "away": "-197"
+       "home": "+169",
+       "away": "-202"
       }
      }
     },
@@ -5763,8 +5763,8 @@
       "details": "CLE -4.5",
       "overUnder": 40.5,
       "moneyline": {
-       "home": "-220",
-       "away": "+183"
+       "home": "-225",
+       "away": "+187"
       }
      }
     },
@@ -5803,5 +5803,5 @@
    ]
   }
  },
- "fetchedAt": "2026-11-25T15:54:44.329Z"
+ "fetchedAt": "2026-11-25T16:38:50.644Z"
 }

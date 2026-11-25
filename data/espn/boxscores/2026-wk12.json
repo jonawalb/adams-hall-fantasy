@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 12,
- "archivedAt": "2026-11-25T15:54:48.424Z",
+ "archivedAt": "2026-11-25T16:38:53.874Z",
  "matchups": [
   {
    "id": 56,
@@ -875,13 +875,6 @@
       "playerId": 4038941,
       "name": "Justin Herbert",
       "pos": "QB",
-      "slot": "QB",
-      "points": 0
-     },
-     {
-      "playerId": 4597500,
-      "name": "Adonai Mitchell",
-      "pos": "WR",
       "slot": "BE",
       "points": 0
      },
@@ -890,6 +883,13 @@
       "name": "Commanders D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
+      "points": 0
+     },
+     {
+      "playerId": 3116407,
+      "name": "Mason Rudolph",
+      "pos": "QB",
+      "slot": "QB",
       "points": 0
      }
     ]
