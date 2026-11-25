@@ -11,6 +11,9 @@ on:
     - cron: "0 20,23 * * 0"
     - cron: "0 2,5,8 * * 1"
     - cron: "0 4,7,12 * * 2"
+    # New week: ESPN flips the scoreboard Tue/Wed; GitHub drops many scheduled runs, so add slots
+    - cron: "0 12,20 * * 3"
+    - cron: "0 14 * * 4"
   workflow_dispatch:
 
 permissions:

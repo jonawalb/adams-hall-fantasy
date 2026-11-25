@@ -7,6 +7,7 @@ import type { PickemMatchup, PickemWeek } from "@/lib/matchups";
 import type { Member } from "@/lib/pickem";
 import GambleYouWuss, { Owner } from "@/components/StillToPick";
 import { ahflLine, isBitchBoy } from "@/lib/ahfl-odds";
+import { useWeekFirstKickoff } from "@/lib/nflLive";
 
 const PREVIEW_ID = "preview";
 const PREVIEW_MEMBERS: Member[] = [{ id: PREVIEW_ID, display_name: "You (preview)" }];
@@ -67,7 +68,10 @@ export default function MatchupPickem({ season, weeks, currentWeek, owners }: Pr
     for (const p of picks) if (p.week === wk.week) c.set(p.member_id, (c.get(p.member_id) ?? 0) + 1);
     return c;
   }, [picks, wk.week]);
-  const locked = Boolean(now && wk.lockAt && new Date(wk.lockAt) <= now);
+  // The build-time slate can lag a week behind ESPN; fetch the lock live so a
+  // week never sits "Open" with no lock (which let picks change after results).
+  const lockAt = useWeekFirstKickoff(season, wk.week, wk.lockAt);
+  const locked = Boolean(now && lockAt && new Date(lockAt) <= now);
   const nameOf = (id: string) => members.find((m) => m.id === id)?.display_name ?? "?";
   const first = (id: string) => nameOf(id).split(" ")[0];
 
@@ -80,6 +84,10 @@ export default function MatchupPickem({ season, weeks, currentWeek, owners }: Pr
 
   async function submit() {
     if (!myId || !draftCount) return;
+    if (supabase && !lockAt) {
+      setError("Still loading this week's NFL kickoff times. Try Submit again in a few seconds.");
+      return;
+    }
     const rows: Row[] = Object.entries(draft).map(([matchup_id, pick_team_id]) => ({ member_id: myId, season, week: wk.week, matchup_id, pick_team_id }));
     const apply = () => {
       setPicks((all) => [...all.filter((p) => !(p.member_id === myId && draft[p.matchup_id])), ...rows]);
@@ -90,7 +98,7 @@ export default function MatchupPickem({ season, weeks, currentWeek, owners }: Pr
     setSaving(true);
     const { error: err } = await supabase
       .from("matchup_picks")
-      .upsert(rows.map((r) => ({ ...r, lock_at: wk.lockAt })), { onConflict: "member_id,season,week,matchup_id" });
+      .upsert(rows.map((r) => ({ ...r, lock_at: lockAt })), { onConflict: "member_id,season,week,matchup_id" });
     setSaving(false);
     if (err) {
       setError(err.message.includes("policy") ? "This week has locked." : err.message);
@@ -162,7 +170,7 @@ export default function MatchupPickem({ season, weeks, currentWeek, owners }: Pr
           Week {wk.week}{wk.matchups[0]?.playoff ? " · Playoffs" : ""}
         </span>
         <span className="text-xs text-cream-dim">
-          {locked ? "Locked" : wk.lockAt ? `Locks ${fmtLock(wk.lockAt)} ET` : "Open"} · {picks.filter((p) => p.week === wk.week).length} picks in
+          {locked ? "Locked" : lockAt ? `Locks ${fmtLock(lockAt)} ET` : "Loading lock time…"} · {picks.filter((p) => p.week === wk.week).length} picks in
           {draftCount > 0 && <span className="ml-2 text-gold">· {draftCount} unsaved</span>}
         </span>
       </div>

@@ -16,12 +16,15 @@ import {
 } from "@/lib/pickem";
 import PickemLeaderboard from "@/components/PickemLeaderboard";
 import GambleYouWuss, { Owner } from "@/components/StillToPick";
+import { useLiveSlate } from "@/lib/nflLive";
 
 const PREVIEW_ID = "preview";
 const PREVIEW_MEMBERS: Member[] = [{ id: PREVIEW_ID, display_name: "You (preview)" }];
 const noopSubscribe = () => () => {};
 
-export default function PickemBoard({ slate, owners }: { slate: Slate; owners: Owner[] }) {
+export default function PickemBoard({ slate: baseSlate, owners }: { slate: Slate; owners: Owner[] }) {
+  // Build-time slate + live ESPN overlay: the new week appears the moment ESPN flips it.
+  const slate = useLiveSlate(baseSlate);
   const supabase = getSupabase();
   const user = useUser();
   const myId = supabase ? user?.id ?? null : PREVIEW_ID;
@@ -30,7 +33,8 @@ export default function PickemBoard({ slate, owners }: { slate: Slate; owners: O
     () => Object.keys(slate.weeks).map(Number).sort((a, b) => a - b),
     [slate.weeks],
   );
-  const [week, setWeek] = useState(slate.currentWeek);
+  const [chosenWeek, setWeek] = useState<number | null>(null);
+  const week = chosenWeek ?? slate.currentWeek;
   const games = useMemo(() => slate.weeks[week]?.games ?? [], [slate.weeks, week]);
   const isCurrent = week === slate.currentWeek;
   const records = useMemo(() => recordsBefore(slate, week), [slate, week]);
@@ -95,6 +99,19 @@ export default function PickemBoard({ slate, owners }: { slate: Slate; owners: O
 
   async function submit() {
     if (!myId || !draftCount) return;
+    // Drop picks on games that kicked off while they sat unsaved. Otherwise the
+    // whole batch fails RLS and the stale pick can never be cleared.
+    const stale = Object.keys(draft).filter((gid) => {
+      const g = games.find((x) => x.id === gid);
+      return !g || hasKickedOff(g);
+    });
+    if (stale.length) {
+      setDraft((d) => Object.fromEntries(Object.entries(d).filter(([gid]) => !stale.includes(gid))));
+      setError(
+        `${stale.length} pick${stale.length === 1 ? " was" : "s were"} on a game that already kicked off and ${stale.length === 1 ? "was" : "were"} dropped. Hit Submit again to save the rest.`,
+      );
+      return;
+    }
     const rows = Object.entries(draft).map(([game_id, pick]) => ({
       member_id: myId,
       season: slate.season,
