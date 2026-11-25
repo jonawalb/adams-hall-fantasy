@@ -429,7 +429,7 @@
   "id": 2972515,
   "name": "Cooper Rush",
   "pos": "QB",
-  "proTeamId": 27
+  "proTeamId": 0
  },
  "2973405": {
   "id": 2973405,
@@ -1245,7 +1245,7 @@
   "id": 3914151,
   "name": "Josiah Deguara",
   "pos": "TE",
-  "proTeamId": 24
+  "proTeamId": 0
  },
  "3914307": {
   "id": 3914307,
@@ -1815,7 +1815,7 @@
   "id": 4039034,
   "name": "Shane Buechele",
   "pos": "QB",
-  "proTeamId": 2
+  "proTeamId": 11
  },
  "4039043": {
   "id": 4039043,
@@ -3537,7 +3537,7 @@
   "id": 4421446,
   "name": "Craig Reynolds",
   "pos": "RB",
-  "proTeamId": 28
+  "proTeamId": 0
  },
  "4424106": {
   "id": 4424106,
@@ -3657,7 +3657,7 @@
   "id": 4426535,
   "name": "Theo Wease Jr.",
   "pos": "WR",
-  "proTeamId": 24
+  "proTeamId": 0
  },
  "4426553": {
   "id": 4426553,
@@ -3807,7 +3807,7 @@
   "id": 4428512,
   "name": "Kedon Slovis",
   "pos": "QB",
-  "proTeamId": 33
+  "proTeamId": 0
  },
  "4428532": {
   "id": 4428532,
@@ -5379,7 +5379,7 @@
   "id": 4690143,
   "name": "LaJohntay Wester",
   "pos": "WR",
-  "proTeamId": 33
+  "proTeamId": 0
  },
  "4690923": {
   "id": 4690923,

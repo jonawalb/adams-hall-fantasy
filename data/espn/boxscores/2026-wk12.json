@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 12,
- "archivedAt": "2026-11-24T16:50:46.006Z",
+ "archivedAt": "2026-11-25T15:54:48.424Z",
  "matchups": [
   {
    "id": 56,
@@ -381,8 +381,8 @@
       "points": 0
      },
      {
-      "playerId": 4869645,
-      "name": "Caleb Douglas",
+      "playerId": 5081432,
+      "name": "Antonio Williams",
       "pos": "WR",
       "slot": "BE",
       "points": 0
@@ -446,7 +446,7 @@
       "playerId": 12483,
       "name": "Matthew Stafford",
       "pos": "QB",
-      "slot": "QB",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -495,7 +495,7 @@
       "playerId": 4426338,
       "name": "Bo Nix",
       "pos": "QB",
-      "slot": "BE",
+      "slot": "QB",
       "points": 0
      },
      {
@@ -702,7 +702,7 @@
       "playerId": -16023,
       "name": "Steelers D/ST",
       "pos": "D/ST",
-      "slot": "D/ST",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -748,24 +748,24 @@
       "points": 0
      },
      {
-      "playerId": -16033,
-      "name": "Ravens D/ST",
-      "pos": "D/ST",
-      "slot": "BE",
-      "points": 0
-     },
-     {
-      "playerId": 2576925,
-      "name": "Darren Waller",
-      "pos": "TE",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 4371733,
       "name": "Kenny Gainwell",
       "pos": "RB",
+      "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 5081397,
+      "name": "Dylan Sampson",
+      "pos": "RB",
       "slot": "RB",
+      "points": 0
+     },
+     {
+      "playerId": -16019,
+      "name": "Giants D/ST",
+      "pos": "D/ST",
+      "slot": "D/ST",
       "points": 0
      }
     ]
@@ -830,13 +830,6 @@
       "points": 0
      },
      {
-      "playerId": 4360689,
-      "name": "Tyler Shough",
-      "pos": "QB",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 4241416,
       "name": "Chuba Hubbard",
       "pos": "RB",
@@ -861,7 +854,7 @@
       "playerId": -16002,
       "name": "Bills D/ST",
       "pos": "D/ST",
-      "slot": "D/ST",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -891,6 +884,13 @@
       "pos": "WR",
       "slot": "BE",
       "points": 0
+     },
+     {
+      "playerId": -16028,
+      "name": "Commanders D/ST",
+      "pos": "D/ST",
+      "slot": "D/ST",
+      "points": 0
      }
     ]
    },
@@ -902,21 +902,21 @@
       "playerId": 4430807,
       "name": "Bijan Robinson",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "RB",
       "points": 0
      },
      {
       "playerId": 4428331,
       "name": "Rashee Rice",
       "pos": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0
      },
      {
       "playerId": 4430737,
       "name": "Kyren Williams",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "RB",
       "points": 0
      },
      {
@@ -930,7 +930,7 @@
       "playerId": 4696981,
       "name": "Cam Skattebo",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -944,7 +944,7 @@
       "playerId": 16737,
       "name": "Mike Evans",
       "pos": "WR",
-      "slot": "FLEX",
+      "slot": "WR",
       "points": 0
      },
      {
@@ -962,24 +962,17 @@
       "points": 0
      },
      {
-      "playerId": 4695883,
-      "name": "Jalen Coker",
-      "pos": "WR",
-      "slot": "BE",
-      "points": 0
-     },
-     {
       "playerId": 4685720,
       "name": "Bryce Young",
       "pos": "QB",
-      "slot": "QB",
+      "slot": "BE",
       "points": 0
      },
      {
       "playerId": 4362238,
       "name": "Chase Brown",
       "pos": "RB",
-      "slot": "RB",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -1000,21 +993,21 @@
       "playerId": -16014,
       "name": "Rams D/ST",
       "pos": "D/ST",
-      "slot": "BE",
-      "points": 0
-     },
-     {
-      "playerId": 4360438,
-      "name": "Brandon Aiyuk",
-      "pos": "WR",
-      "slot": "IR",
+      "slot": "D/ST",
       "points": 0
      },
      {
       "playerId": -16007,
       "name": "Broncos D/ST",
       "pos": "D/ST",
-      "slot": "D/ST",
+      "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": 3122840,
+      "name": "Deshaun Watson",
+      "pos": "QB",
+      "slot": "QB",
       "points": 0
      }
     ]
@@ -1260,17 +1253,17 @@
       "points": 0
      },
      {
-      "playerId": -16008,
-      "name": "Lions D/ST",
-      "pos": "D/ST",
-      "slot": "D/ST",
-      "points": 0
-     },
-     {
       "playerId": -16009,
       "name": "Packers D/ST",
       "pos": "D/ST",
       "slot": "BE",
+      "points": 0
+     },
+     {
+      "playerId": -16024,
+      "name": "Chargers D/ST",
+      "pos": "D/ST",
+      "slot": "D/ST",
       "points": 0
      }
     ]
