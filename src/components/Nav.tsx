@@ -6,6 +6,7 @@ import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 import { getSupabase } from "@/lib/supabase";
 import NotificationBell from "@/components/NotificationBell";
+import { TURKEY_UNTIL } from "@/components/TurkeyStrip";
 
 // next/image with `unoptimized` uses src verbatim — prepend basePath ourselves.
 const CREST = `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/crest.png`;
@@ -24,7 +25,11 @@ interface Group {
   sections?: Section[];
 }
 
+// Thanksgiving week only: a top-level tab that drops off after the strip ends.
+const TURKEY_TAB: Group[] = Date.now() < Date.parse(TURKEY_UNTIL) ? [{ label: "🦃 Turkey Bowl", href: "/season/thanksgiving" }] : [];
+
 const GROUPS: Group[] = [
+  ...TURKEY_TAB,
   {
     label: "2026 Season",
     sections: [

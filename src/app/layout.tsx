@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import { Graduate, Barlow, Barlow_Condensed, IBM_Plex_Mono } from "next/font/google";
 import Nav from "@/components/Nav";
+import TurkeyStrip from "@/components/TurkeyStrip";
 import AuthGate from "@/components/AuthGate";
 import NotificationPrompt from "@/components/NotificationPrompt";
 import "./globals.css";
@@ -66,6 +67,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       >
         <AuthGate>
           <Nav />
+          <TurkeyStrip />
           <main className="mx-auto w-full max-w-6xl px-4 pb-24 pt-8 sm:px-6">{children}</main>
           <NotificationPrompt />
         </AuthGate>
