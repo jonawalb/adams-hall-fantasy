@@ -3,6 +3,8 @@ import { availableSeasons, loadSeason } from "@/lib/espn";
 import { careers } from "@/lib/brethren";
 import TuesdayTape from "@/components/TuesdayTape";
 import TuesdayRecap from "@/components/TuesdayRecap";
+import { TurkeyBanner } from "@/components/TurkeyBowl";
+import { TURKEY } from "@/lib/turkey";
 
 const f1 = (n: number) => n.toFixed(1);
 type Extra = { bio: string; photo: string };
@@ -13,8 +15,12 @@ export default function BrethrenPage() {
   const seasons = availableSeasons().map((y) => loadSeason(y)!);
   const lines = careers(seasons).sort((a, b) => a.firstSeason - b.firstSeason || a.name.localeCompare(b.name));
 
+  const current = seasons.find((s) => s.year === TURKEY.season);
+  const turkeyLive = Boolean(current && current.currentMatchupPeriod <= TURKEY.week + 1);
+
   return (
     <div className="space-y-12">
+      {turkeyLive && <TurkeyBanner />}
       <div className="grid gap-8 lg:grid-cols-2">
         <TuesdayTape />
         <TuesdayRecap />

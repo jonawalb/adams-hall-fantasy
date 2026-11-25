@@ -33,6 +33,7 @@ const GROUPS: Group[] = [
         items: [
           { href: "/pickem", label: "NFL Pick'Em" },
           { href: "/season/matchup-pickem", label: "Matchup Pick'Em" },
+          { href: "/season/thanksgiving", label: "🦃 Turkey Bowl" },
         ],
       },
       {

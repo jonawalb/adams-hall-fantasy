@@ -3,6 +3,8 @@ import { availableSeasons, loadSeason } from "@/lib/espn";
 import { pickemWeeks } from "@/lib/matchups";
 import type { Slate } from "@/lib/pickem";
 import MatchupPickem from "@/components/MatchupPickem";
+import { TurkeyBanner } from "@/components/TurkeyBowl";
+import { TURKEY } from "@/lib/turkey";
 
 export default function MatchupPickemPage() {
   const years = availableSeasons();
@@ -22,6 +24,7 @@ export default function MatchupPickemPage() {
           first NFL kickoff.
         </p>
       </header>
+      {season.year === TURKEY.season && season.currentMatchupPeriod <= TURKEY.week + 1 && <TurkeyBanner />}
       <MatchupPickem season={season.year} weeks={weeks} currentWeek={currentWeek} owners={owners} />
     </div>
   );
