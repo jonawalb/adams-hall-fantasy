@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 13,
  "poll": "AP Top 25",
- "fetchedAt": "2026-11-26T02:37:35.435Z",
+ "fetchedAt": "2026-11-26T16:11:31.567Z",
  "rankings": [
   {
    "rank": 1,
@@ -500,7 +500,7 @@
    "detail": "11/27 - 12:00 PM EST",
    "venue": "Alamodome",
    "broadcast": "ESPN",
-   "spread": "UTSA -1.5",
+   "spread": "TLSA -1.5",
    "overUnder": 57.5,
    "headline": null,
    "home": {
@@ -722,7 +722,7 @@
    "detail": "11/27 - 3:30 PM EST",
    "venue": "CEFCU Stadium",
    "broadcast": "CBSSN",
-   "spread": "NDSU -8.5",
+   "spread": "NDSU -7.5",
    "overUnder": 39.5,
    "headline": null,
    "home": {
@@ -796,7 +796,7 @@
    "detail": "11/27 - 7:30 PM EST",
    "venue": "Kyle Field",
    "broadcast": "ABC",
-   "spread": "TEX -10.5",
+   "spread": "TEX -11.5",
    "overUnder": 40.5,
    "headline": null,
    "home": {
@@ -833,7 +833,7 @@
    "detail": "11/27 - 7:30 PM EST",
    "venue": "Camp Randall Stadium",
    "broadcast": "NBC",
-   "spread": "WIS -7.5",
+   "spread": "WIS -8.5",
    "overUnder": 37.5,
    "headline": null,
    "home": {
@@ -908,7 +908,7 @@
    "venue": "JMA Wireless Dome",
    "broadcast": "ABC",
    "spread": "ND -25.5",
-   "overUnder": 53.5,
+   "overUnder": 52.5,
    "headline": null,
    "home": {
     "abbr": "SYR",
@@ -944,7 +944,7 @@
    "detail": "11/28 - 12:00 PM EST",
    "venue": "Hard Rock Stadium",
    "broadcast": "ESPN",
-   "spread": "MIA -25.5",
+   "spread": "MIA -24.5",
    "overUnder": 53.5,
    "headline": null,
    "home": {
@@ -1055,7 +1055,7 @@
    "detail": "11/28 - 12:00 PM EST",
    "venue": "Kenan Stadium",
    "broadcast": "ACC Network",
-   "spread": "UNC -5.5",
+   "spread": "UNC -6",
    "overUnder": 54.5,
    "headline": null,
    "home": {
@@ -1093,7 +1093,7 @@
    "venue": "War Memorial Stadium",
    "broadcast": "FS1",
    "spread": "CONN -3",
-   "overUnder": 44.5,
+   "overUnder": 45.5,
    "headline": null,
    "home": {
     "abbr": "WYO",
@@ -2017,7 +2017,7 @@
    "detail": "11/28 - 3:30 PM EST",
    "venue": "Stanford Stadium",
    "broadcast": "ACC Network",
-   "spread": "SMU -7.5",
+   "spread": "SMU -7",
    "overUnder": 61.5,
    "headline": null,
    "home": {
@@ -2572,8 +2572,8 @@
    "detail": "11/28 - 7:30 PM EST",
    "venue": "Autzen Stadium",
    "broadcast": "NBC",
-   "spread": "ORE -14",
-   "overUnder": 50.5,
+   "spread": "ORE -13.5",
+   "overUnder": 51.5,
    "headline": null,
    "home": {
     "abbr": "ORE",

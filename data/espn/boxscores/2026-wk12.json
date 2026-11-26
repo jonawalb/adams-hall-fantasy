@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 12,
- "archivedAt": "2026-11-26T02:37:38.986Z",
+ "archivedAt": "2026-11-26T16:11:35.140Z",
  "matchups": [
   {
    "id": 56,
@@ -447,7 +447,7 @@
       "name": "Matthew Stafford",
       "pos": "QB",
       "slot": "BE",
-      "points": 3.64
+      "points": 3.6000000000000005
      },
      {
       "playerId": 3054850,
@@ -606,7 +606,7 @@
       "name": "Jordan Love",
       "pos": "QB",
       "slot": "BE",
-      "points": 10.86
+      "points": 8.62
      },
      {
       "playerId": -16012,
@@ -841,7 +841,7 @@
       "name": "Blake Corum",
       "pos": "RB",
       "slot": "RB",
-      "points": 1.9000000000000001
+      "points": 28.500000000000004
      },
      {
       "playerId": 4360635,
@@ -917,7 +917,7 @@
       "name": "Kyren Williams",
       "pos": "RB",
       "slot": "RB",
-      "points": 13.1
+      "points": 16.5
      },
      {
       "playerId": 4567750,
@@ -938,7 +938,7 @@
       "name": "Tucker Kraft",
       "pos": "TE",
       "slot": "BE",
-      "points": 1.6
+      "points": 3.4000000000000004
      },
      {
       "playerId": 16737,
@@ -952,13 +952,6 @@
       "name": "Cam Little",
       "pos": "K",
       "slot": "K",
-      "points": 0
-     },
-     {
-      "playerId": 4366031,
-      "name": "Tank Dell",
-      "pos": "WR",
-      "slot": "BE",
       "points": 0
      },
      {
@@ -994,7 +987,7 @@
       "name": "Rams D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
-      "points": 8
+      "points": 12
      },
      {
       "playerId": -16007,
@@ -1008,6 +1001,13 @@
       "name": "Deshaun Watson",
       "pos": "QB",
       "slot": "QB",
+      "points": 0
+     },
+     {
+      "playerId": 4360438,
+      "name": "Brandon Aiyuk",
+      "pos": "WR",
+      "slot": "BE",
       "points": 0
      }
     ]
@@ -1257,7 +1257,7 @@
       "name": "Packers D/ST",
       "pos": "D/ST",
       "slot": "BE",
-      "points": 6
+      "points": 2
      },
      {
       "playerId": -16024,
