@@ -9,7 +9,7 @@
   "id": 8439,
   "name": "Aaron Rodgers",
   "pos": "QB",
-  "proTeamId": 23
+  "proTeamId": 0
  },
  "9614": {
   "id": 9614,
@@ -501,7 +501,7 @@
   "id": 2983509,
   "name": "Dare Ogunbowale",
   "pos": "RB",
-  "proTeamId": 34
+  "proTeamId": 0
  },
  "2985659": {
   "id": 2985659,
@@ -3807,7 +3807,7 @@
   "id": 4428512,
   "name": "Kedon Slovis",
   "pos": "QB",
-  "proTeamId": 0
+  "proTeamId": 22
  },
  "4428532": {
   "id": 4428532,
@@ -4257,7 +4257,7 @@
   "id": 4431342,
   "name": "Brennan Presley",
   "pos": "WR",
-  "proTeamId": 0
+  "proTeamId": 14
  },
  "4431346": {
   "id": 4431346,

@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 13,
  "poll": "AP Top 25",
- "fetchedAt": "2026-11-25T16:38:51.015Z",
+ "fetchedAt": "2026-11-26T02:37:35.435Z",
  "rankings": [
   {
    "rank": 1,
@@ -317,7 +317,7 @@
    "broadcast": "ESPN+",
    "spread": null,
    "overUnder": null,
-   "headline": "Blue on offense, Llewellyn on defense help carry Eastern Michigan to 14-12 win over Kent State",
+   "headline": "Blue on offense, Llewellyn on defense help carry Eastern Michigan to 17-12 win over Kent State",
    "home": {
     "abbr": "EMU",
     "name": "Eastern Michigan Eagles",
@@ -389,8 +389,8 @@
    "detail": "11/26 - 8:00 PM EST",
    "venue": "Galaxy Stadium",
    "broadcast": "ESPN",
-   "spread": "TTU -14",
-   "overUnder": 47.5,
+   "spread": "TTU -15.5",
+   "overUnder": 46.5,
    "headline": null,
    "home": {
     "abbr": "TTU",
@@ -501,7 +501,7 @@
    "venue": "Alamodome",
    "broadcast": "ESPN",
    "spread": "UTSA -1.5",
-   "overUnder": 58.5,
+   "overUnder": 57.5,
    "headline": null,
    "home": {
     "abbr": "UTSA",
@@ -648,7 +648,7 @@
    "detail": "11/27 - 3:30 PM EST",
    "venue": "Doak Campbell Stadium",
    "broadcast": "ABC",
-   "spread": "FLA -6",
+   "spread": "FLA -6.5",
    "overUnder": 53.5,
    "headline": null,
    "home": {
@@ -685,7 +685,7 @@
    "detail": "11/27 - 3:30 PM EST",
    "venue": "Simmons Bank Liberty Stadium",
    "broadcast": "ESPN",
-   "spread": "MEM -17.5",
+   "spread": "MEM -18.5",
    "overUnder": 66.5,
    "headline": null,
    "home": {
@@ -723,7 +723,7 @@
    "venue": "CEFCU Stadium",
    "broadcast": "CBSSN",
    "spread": "NDSU -8.5",
-   "overUnder": 40.5,
+   "overUnder": 39.5,
    "headline": null,
    "home": {
     "abbr": "SJSU",
@@ -870,7 +870,7 @@
    "detail": "11/27 - 9:00 PM EST",
    "venue": "Rice-Eccles Stadium",
    "broadcast": "Fox",
-   "spread": "UTAH -25.5",
+   "spread": "UTAH -26.5",
    "overUnder": 66.5,
    "headline": null,
    "home": {
@@ -1056,7 +1056,7 @@
    "venue": "Kenan Stadium",
    "broadcast": "ACC Network",
    "spread": "UNC -5.5",
-   "overUnder": 53.5,
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "UNC",
@@ -1240,7 +1240,7 @@
    "detail": "11/28 - 12:30 PM EST",
    "venue": "Ryan Field",
    "broadcast": "BTN",
-   "spread": "NU -3",
+   "spread": "NU -2.5",
    "overUnder": 50.5,
    "headline": null,
    "home": {
@@ -1537,7 +1537,7 @@
    "venue": "First Community Stadium",
    "broadcast": "ESPN+",
    "spread": "ARMY -6",
-   "overUnder": 48.5,
+   "overUnder": 47.5,
    "headline": null,
    "home": {
     "abbr": "RICE",
@@ -1943,7 +1943,7 @@
    "detail": "11/28 - 3:30 PM EST",
    "venue": "Rose Bowl",
    "broadcast": "CBS",
-   "spread": "USC -7",
+   "spread": "USC -6.5",
    "overUnder": 45.5,
    "headline": null,
    "home": {
@@ -1981,7 +1981,7 @@
    "venue": "LaVell Edwards Stadium",
    "broadcast": "Fox",
    "spread": "BYU -15.5",
-   "overUnder": 55.5,
+   "overUnder": 56.5,
    "headline": null,
    "home": {
     "abbr": "BYU",
@@ -2313,7 +2313,7 @@
    "detail": "11/28 - 4:15 PM EST",
    "venue": "SHI Stadium",
    "broadcast": "BTN",
-   "spread": "MSU -3.5",
+   "spread": "MSU -3",
    "overUnder": 46.5,
    "headline": null,
    "home": {
@@ -2462,7 +2462,7 @@
    "venue": "FirstBank Stadium",
    "broadcast": "ESPN",
    "spread": "TENN -13.5",
-   "overUnder": 43.5,
+   "overUnder": 42.5,
    "headline": null,
    "home": {
     "abbr": "VAN",
@@ -2498,7 +2498,7 @@
    "detail": "11/28 - 7:00 PM EST",
    "venue": "Memorial Stadium (Bloomington, IN)",
    "broadcast": "FS1",
-   "spread": "IU -22.5",
+   "spread": "IU -23.5",
    "overUnder": 52.5,
    "headline": null,
    "home": {
@@ -2535,7 +2535,7 @@
    "detail": "11/28 - 7:30 PM EST",
    "venue": "Bryant-Denny Stadium",
    "broadcast": "ABC",
-   "spread": "ALA -14.5",
+   "spread": "ALA -15.5",
    "overUnder": 49.5,
    "headline": null,
    "home": {

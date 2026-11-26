@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 12,
- "archivedAt": "2026-11-25T16:38:53.874Z",
+ "archivedAt": "2026-11-26T02:37:38.986Z",
  "matchups": [
   {
    "id": 56,
@@ -176,7 +176,7 @@
       "playerId": 4426348,
       "name": "Jayden Daniels",
       "pos": "QB",
-      "slot": "BE",
+      "slot": "QB",
       "points": 0
      },
      {
@@ -197,7 +197,7 @@
       "playerId": 4360310,
       "name": "Trevor Lawrence",
       "pos": "QB",
-      "slot": "QB",
+      "slot": "BE",
       "points": 0
      },
      {
@@ -447,7 +447,7 @@
       "name": "Matthew Stafford",
       "pos": "QB",
       "slot": "BE",
-      "points": 0
+      "points": 3.64
      },
      {
       "playerId": 3054850,
@@ -571,7 +571,7 @@
       "name": "Christian Watson",
       "pos": "WR",
       "slot": "WR",
-      "points": 0
+      "points": 16.5
      },
      {
       "playerId": 4426385,
@@ -606,7 +606,7 @@
       "name": "Jordan Love",
       "pos": "QB",
       "slot": "BE",
-      "points": 0
+      "points": 10.86
      },
      {
       "playerId": -16012,
@@ -696,7 +696,7 @@
       "name": "Matthew Golden",
       "pos": "WR",
       "slot": "WR",
-      "points": 0
+      "points": 4.9
      },
      {
       "playerId": -16023,
@@ -841,7 +841,7 @@
       "name": "Blake Corum",
       "pos": "RB",
       "slot": "RB",
-      "points": 0
+      "points": 1.9000000000000001
      },
      {
       "playerId": 4360635,
@@ -868,7 +868,7 @@
       "playerId": 4832955,
       "name": "Emmett Johnson",
       "pos": "RB",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0
      },
      {
@@ -917,7 +917,7 @@
       "name": "Kyren Williams",
       "pos": "RB",
       "slot": "RB",
-      "points": 0
+      "points": 13.1
      },
      {
       "playerId": 4567750,
@@ -938,7 +938,7 @@
       "name": "Tucker Kraft",
       "pos": "TE",
       "slot": "BE",
-      "points": 0
+      "points": 1.6
      },
      {
       "playerId": 16737,
@@ -994,7 +994,7 @@
       "name": "Rams D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
-      "points": 0
+      "points": 8
      },
      {
       "playerId": -16007,
@@ -1257,7 +1257,7 @@
       "name": "Packers D/ST",
       "pos": "D/ST",
       "slot": "BE",
-      "points": 0
+      "points": 6
      },
      {
       "playerId": -16024,
