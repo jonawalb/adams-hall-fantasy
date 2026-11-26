@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 13,
  "poll": "AP Top 25",
- "fetchedAt": "2026-11-26T16:11:31.567Z",
+ "fetchedAt": "2026-11-26T22:50:55.208Z",
  "rankings": [
   {
    "rank": 1,
@@ -389,7 +389,7 @@
    "detail": "11/26 - 8:00 PM EST",
    "venue": "Galaxy Stadium",
    "broadcast": "ESPN",
-   "spread": "TTU -15.5",
+   "spread": "TTU -14",
    "overUnder": 46.5,
    "headline": null,
    "home": {
@@ -426,7 +426,7 @@
    "detail": "11/27 - 12:00 PM EST",
    "venue": "Kinnick Stadium",
    "broadcast": "CBS",
-   "spread": "IOWA -4.5",
+   "spread": "IOWA -3.5",
    "overUnder": 40.5,
    "headline": null,
    "home": {
@@ -538,7 +538,7 @@
    "venue": "InfoCision Stadium",
    "broadcast": "CBSSN",
    "spread": "BUF -7.5",
-   "overUnder": 47.5,
+   "overUnder": 48.5,
    "headline": null,
    "home": {
     "abbr": "AKR",
@@ -722,7 +722,7 @@
    "detail": "11/27 - 3:30 PM EST",
    "venue": "CEFCU Stadium",
    "broadcast": "CBSSN",
-   "spread": "NDSU -7.5",
+   "spread": "NDSU -8.5",
    "overUnder": 39.5,
    "headline": null,
    "home": {
@@ -833,7 +833,7 @@
    "detail": "11/27 - 7:30 PM EST",
    "venue": "Camp Randall Stadium",
    "broadcast": "NBC",
-   "spread": "WIS -8.5",
+   "spread": "WIS -7.5",
    "overUnder": 37.5,
    "headline": null,
    "home": {
@@ -908,7 +908,7 @@
    "venue": "JMA Wireless Dome",
    "broadcast": "ABC",
    "spread": "ND -25.5",
-   "overUnder": 52.5,
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "SYR",
@@ -982,7 +982,7 @@
    "venue": "Kroger Field",
    "broadcast": "ESPN2",
    "spread": "LOU -3",
-   "overUnder": 54.5,
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "UK",
@@ -1018,7 +1018,7 @@
    "detail": "11/28 - 12:00 PM EST",
    "venue": "Ohio Stadium",
    "broadcast": "Fox",
-   "spread": "OSU -10.5",
+   "spread": "OSU -10",
    "overUnder": 37.5,
    "headline": null,
    "home": {
@@ -1204,7 +1204,7 @@
    "venue": "Allen E. Paulson Stadium",
    "broadcast": "ESPNU",
    "spread": "GASO -2.5",
-   "overUnder": 54.5,
+   "overUnder": 53.5,
    "headline": null,
    "home": {
     "abbr": "GASO",
@@ -1352,7 +1352,7 @@
    "venue": "Houchens Industries-L.T. Smith Stadium",
    "broadcast": "ESPN+",
    "spread": "KENN -3.5",
-   "overUnder": 53.5,
+   "overUnder": 54.5,
    "headline": null,
    "home": {
     "abbr": "WKU",
@@ -1536,7 +1536,7 @@
    "detail": "11/28 - 2:00 PM EST",
    "venue": "First Community Stadium",
    "broadcast": "ESPN+",
-   "spread": "ARMY -6",
+   "spread": "ARMY -5.5",
    "overUnder": 47.5,
    "headline": null,
    "home": {
@@ -1648,7 +1648,7 @@
    "venue": "Robert W. Plaster Stadium",
    "broadcast": "ESPN+",
    "spread": "LIB -17.5",
-   "overUnder": 53.5,
+   "overUnder": 52.5,
    "headline": null,
    "home": {
     "abbr": "MOST",
@@ -2128,7 +2128,7 @@
    "detail": "11/28 - 3:30 PM EST",
    "venue": "Huskie Stadium",
    "broadcast": "MW+",
-   "spread": "NIU -4",
+   "spread": "NIU -4.5",
    "overUnder": 50.5,
    "headline": null,
    "home": {
@@ -2573,7 +2573,7 @@
    "venue": "Autzen Stadium",
    "broadcast": "NBC",
    "spread": "ORE -13.5",
-   "overUnder": 51.5,
+   "overUnder": 50.5,
    "headline": null,
    "home": {
     "abbr": "ORE",
@@ -2646,7 +2646,7 @@
    "detail": "11/28 - 9:00 PM EST",
    "venue": "Casino Del Sol Stadium",
    "broadcast": "Fox",
-   "spread": "ARIZ -8.5",
+   "spread": "ARIZ -7.5",
    "overUnder": 53.5,
    "headline": null,
    "home": {

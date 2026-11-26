@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 12,
- "archivedAt": "2026-11-26T16:11:35.140Z",
+ "archivedAt": "2026-11-26T22:50:58.659Z",
  "matchups": [
   {
    "id": 56,
@@ -31,7 +31,7 @@
       "name": "George Pickens",
       "pos": "WR",
       "slot": "WR",
-      "points": 0
+      "points": 4.6
      },
      {
       "playerId": 4239996,
@@ -45,7 +45,7 @@
       "name": "D'Andre Swift",
       "pos": "RB",
       "slot": "RB",
-      "points": 0
+      "points": 29.200000000000003
      },
      {
       "playerId": 2976212,
@@ -122,7 +122,7 @@
       "name": "Bears D/ST",
       "pos": "D/ST",
       "slot": "D/ST",
-      "points": 0
+      "points": -4
      },
      {
       "playerId": 4688380,
@@ -184,7 +184,7 @@
       "name": "Rome Odunze",
       "pos": "WR",
       "slot": "BE",
-      "points": 0
+      "points": 26.700000000000003
      },
      {
       "playerId": 4569987,
@@ -219,7 +219,7 @@
       "name": "Dak Prescott",
       "pos": "QB",
       "slot": "BE",
-      "points": 0
+      "points": 8
      },
      {
       "playerId": 4373678,
@@ -273,7 +273,7 @@
       "name": "CeeDee Lamb",
       "pos": "WR",
       "slot": "WR",
-      "points": 0
+      "points": 3.8000000000000003
      },
      {
       "playerId": 4379399,
@@ -294,7 +294,7 @@
       "name": "DeVonta Smith",
       "pos": "WR",
       "slot": "FLEX",
-      "points": 0
+      "points": 7.5
      },
      {
       "playerId": 4596448,
@@ -336,7 +336,7 @@
       "name": "Dallas Goedert",
       "pos": "TE",
       "slot": "TE",
-      "points": 0
+      "points": 1.9
      },
      {
       "playerId": 17372,
@@ -502,13 +502,6 @@
       "playerId": 4575131,
       "name": "Jacory Croskey-Merritt",
       "pos": "RB",
-      "slot": "IR",
-      "points": 0
-     },
-     {
-      "playerId": 4683062,
-      "name": "Xavier Worthy",
-      "pos": "WR",
       "slot": "BE",
       "points": 0
      }
@@ -529,7 +522,7 @@
       "name": "Jahmyr Gibbs",
       "pos": "RB",
       "slot": "RB",
-      "points": 0
+      "points": 48.2
      },
      {
       "playerId": 4685382,
@@ -585,14 +578,14 @@
       "name": "Makai Lemon",
       "pos": "WR",
       "slot": "BE",
-      "points": 0
+      "points": 4.6
      },
      {
       "playerId": 3046779,
       "name": "Jared Goff",
       "pos": "QB",
       "slot": "QB",
-      "points": 0
+      "points": 15.82
      },
      {
       "playerId": 4571557,
@@ -675,7 +668,7 @@
       "name": "Colston Loveland",
       "pos": "TE",
       "slot": "BE",
-      "points": 0
+      "points": -0.5
      },
      {
       "playerId": 4360078,
@@ -813,7 +806,7 @@
       "name": "Brandon Aubrey",
       "pos": "K",
       "slot": "K",
-      "points": 0
+      "points": 2
      },
      {
       "playerId": 5083076,
@@ -827,7 +820,7 @@
       "name": "Kyle Monangai",
       "pos": "RB",
       "slot": "BE",
-      "points": 0
+      "points": 15.9
      },
      {
       "playerId": 4241416,
@@ -980,7 +973,7 @@
       "name": "Jameson Williams",
       "pos": "WR",
       "slot": "WR",
-      "points": 0
+      "points": 14
      },
      {
       "playerId": -16014,
@@ -1027,14 +1020,14 @@
       "name": "Amon-Ra St. Brown",
       "pos": "WR",
       "slot": "WR",
-      "points": 0
+      "points": 21.6
      },
      {
       "playerId": 3929630,
       "name": "Saquon Barkley",
       "pos": "RB",
       "slot": "RB",
-      "points": 0
+      "points": 0.7000000000000001
      },
      {
       "playerId": 4870808,
@@ -1062,7 +1055,7 @@
       "name": "Sam LaPorta",
       "pos": "TE",
       "slot": "BE",
-      "points": 0
+      "points": 14.4
      },
      {
       "playerId": 3042519,
@@ -1173,7 +1166,7 @@
       "name": "Javonte Williams",
       "pos": "RB",
       "slot": "RB",
-      "points": 0
+      "points": 11.600000000000001
      },
      {
       "playerId": 4429615,
@@ -1194,7 +1187,7 @@
       "name": "Luther Burden III",
       "pos": "WR",
       "slot": "BE",
-      "points": 0
+      "points": 7.5
      },
      {
       "playerId": 4685512,
@@ -1215,7 +1208,7 @@
       "name": "Caleb Williams",
       "pos": "QB",
       "slot": "QB",
-      "points": 0
+      "points": 25.3
      },
      {
       "playerId": 3040151,
