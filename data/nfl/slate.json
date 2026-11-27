@@ -5356,23 +5356,23 @@
      "id": "401873080",
      "date": "2026-11-26T21:30Z",
      "name": "PHI @ DAL",
-     "state": "in",
-     "completed": false,
-     "winner": null,
-     "detail": "8:09 - 2nd",
+     "state": "post",
+     "completed": true,
+     "winner": "away",
+     "detail": "Final",
      "home": {
       "abbr": "DAL",
       "name": "Dallas Cowboys",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
       "color": "002a5c",
-      "score": 14
+      "score": 38
      },
      "away": {
       "abbr": "PHI",
       "name": "Philadelphia Eagles",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
       "color": "06424d",
-      "score": 3
+      "score": 39
      },
      "odds": {
       "provider": null,
@@ -5388,23 +5388,23 @@
      "id": "401873082",
      "date": "2026-11-27T01:20Z",
      "name": "KC @ BUF",
-     "state": "pre",
-     "completed": false,
-     "winner": null,
-     "detail": "11/26 - 8:20 PM EST",
+     "state": "post",
+     "completed": true,
+     "winner": "home",
+     "detail": "Final",
      "home": {
       "abbr": "BUF",
       "name": "Buffalo Bills",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
       "color": "00338d",
-      "score": 0
+      "score": 13
      },
      "away": {
       "abbr": "KC",
       "name": "Kansas City Chiefs",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
       "color": "e31837",
-      "score": 0
+      "score": 10
      },
      "odds": {
       "provider": "DraftKings",
@@ -5439,12 +5439,12 @@
       "score": 0
      },
      "odds": {
-      "provider": null,
+      "provider": "Draft Kings",
       "details": "DEN -4.5",
-      "overUnder": 36.5,
+      "overUnder": 37.5,
       "moneyline": {
-       "home": "+209",
-       "away": "-254"
+       "home": "+201",
+       "away": "-243"
       }
      }
     },
@@ -5475,8 +5475,8 @@
       "details": "CIN -10",
       "overUnder": 49.5,
       "moneyline": {
-       "home": "-562",
-       "away": "+423"
+       "home": "-561",
+       "away": "+422"
       }
      }
     },
@@ -5507,8 +5507,8 @@
       "details": "NYG -6",
       "overUnder": 41.5,
       "moneyline": {
-       "home": "+235",
-       "away": "-286"
+       "home": "+233",
+       "away": "-283"
       }
      }
     },
@@ -5536,11 +5536,11 @@
      },
      "odds": {
       "provider": null,
-      "details": "NYJ -4.5",
+      "details": "NYJ -5.5",
       "overUnder": 39.5,
       "moneyline": {
-       "home": "+200",
-       "away": "-241"
+       "home": "+204",
+       "away": "-246"
       }
      }
     },
@@ -5571,8 +5571,8 @@
       "details": "MIN -7",
       "overUnder": 41.5,
       "moneyline": {
-       "home": "-310",
-       "away": "+252"
+       "home": "-311",
+       "away": "+253"
       }
      }
     },
@@ -5667,7 +5667,7 @@
       "details": "NE -2.5",
       "overUnder": 35.5,
       "moneyline": {
-       "home": "+116",
+       "home": "+115",
        "away": "-137"
       }
      }
@@ -5699,8 +5699,8 @@
       "details": "WSH -6.5",
       "overUnder": 41.5,
       "moneyline": {
-       "home": "+282",
-       "away": "-352"
+       "home": "+281",
+       "away": "-350"
       }
      }
     },
@@ -5732,7 +5732,7 @@
       "overUnder": 43.5,
       "moneyline": {
        "home": "-152",
-       "away": "+128"
+       "away": "+129"
       }
      }
     },
@@ -5761,7 +5761,7 @@
      "odds": {
       "provider": null,
       "details": "CLE -4.5",
-      "overUnder": 40.5,
+      "overUnder": 39.5,
       "moneyline": {
        "home": "-244",
        "away": "+201"
@@ -5803,5 +5803,5 @@
    ]
   }
  },
- "fetchedAt": "2026-11-26T22:50:54.292Z"
+ "fetchedAt": "2026-11-27T13:18:04.833Z"
 }

@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 12,
- "archivedAt": "2026-11-26T22:50:58.659Z",
+ "archivedAt": "2026-11-27T13:18:09.022Z",
  "matchups": [
   {
    "id": 56,
@@ -31,7 +31,7 @@
       "name": "George Pickens",
       "pos": "WR",
       "slot": "WR",
-      "points": 4.6
+      "points": 11.7
      },
      {
       "playerId": 4239996,
@@ -87,7 +87,7 @@
       "name": "Tyler Bass",
       "pos": "K",
       "slot": "K",
-      "points": 0
+      "points": 11
      },
      {
       "playerId": 4038815,
@@ -219,14 +219,14 @@
       "name": "Dak Prescott",
       "pos": "QB",
       "slot": "BE",
-      "points": 8
+      "points": 25.54
      },
      {
       "playerId": 4373678,
       "name": "Khalil Shakir",
       "pos": "WR",
       "slot": "BE",
-      "points": 0
+      "points": 6.300000000000001
      },
      {
       "playerId": 3150744,
@@ -273,14 +273,14 @@
       "name": "CeeDee Lamb",
       "pos": "WR",
       "slot": "WR",
-      "points": 3.8000000000000003
+      "points": 20.4
      },
      {
       "playerId": 4379399,
       "name": "James Cook III",
       "pos": "RB",
       "slot": "RB",
-      "points": 0
+      "points": 19.500000000000004
      },
      {
       "playerId": 4595348,
@@ -294,7 +294,7 @@
       "name": "DeVonta Smith",
       "pos": "WR",
       "slot": "FLEX",
-      "points": 7.5
+      "points": 43
      },
      {
       "playerId": 4596448,
@@ -357,7 +357,7 @@
       "name": "Josh Downs",
       "pos": "WR",
       "slot": "BE",
-      "points": 0
+      "points": 2.3
      },
      {
       "playerId": 3915511,
@@ -374,16 +374,16 @@
       "points": 0
      },
      {
-      "playerId": 3128429,
-      "name": "Courtland Sutton",
+      "playerId": 5081432,
+      "name": "Antonio Williams",
       "pos": "WR",
       "slot": "BE",
       "points": 0
      },
      {
-      "playerId": 5081432,
-      "name": "Antonio Williams",
-      "pos": "WR",
+      "playerId": 3116164,
+      "name": "Mike Gesicki",
+      "pos": "TE",
       "slot": "BE",
       "points": 0
      }
@@ -426,7 +426,7 @@
       "name": "DJ Moore",
       "pos": "WR",
       "slot": "WR",
-      "points": 0
+      "points": 3.5
      },
      {
       "playerId": 4047650,
@@ -578,7 +578,7 @@
       "name": "Makai Lemon",
       "pos": "WR",
       "slot": "BE",
-      "points": 4.6
+      "points": 16.1
      },
      {
       "playerId": 3046779,
@@ -606,7 +606,7 @@
       "name": "Chiefs D/ST",
       "pos": "D/ST",
       "slot": "BE",
-      "points": 0
+      "points": 11
      },
      {
       "playerId": 4711533,
@@ -710,7 +710,7 @@
       "name": "Patrick Mahomes",
       "pos": "QB",
       "slot": "BE",
-      "points": 0
+      "points": 7.16
      },
      {
       "playerId": 4685247,
@@ -806,7 +806,7 @@
       "name": "Brandon Aubrey",
       "pos": "K",
       "slot": "K",
-      "points": 2
+      "points": 9
      },
      {
       "playerId": 5083076,
@@ -848,7 +848,7 @@
       "name": "Bills D/ST",
       "pos": "D/ST",
       "slot": "BE",
-      "points": 0
+      "points": 6
      },
      {
       "playerId": 3916433,
@@ -862,7 +862,7 @@
       "name": "Emmett Johnson",
       "pos": "RB",
       "slot": "FLEX",
-      "points": 0
+      "points": 19.6
      },
      {
       "playerId": 4038941,
@@ -903,7 +903,7 @@
       "name": "Rashee Rice",
       "pos": "WR",
       "slot": "BE",
-      "points": 0
+      "points": 3.9000000000000004
      },
      {
       "playerId": 4430737,
@@ -1041,7 +1041,7 @@
       "name": "Josh Allen",
       "pos": "QB",
       "slot": "QB",
-      "points": 0
+      "points": 3.54
      },
      {
       "playerId": 16800,
@@ -1076,7 +1076,7 @@
       "name": "Travis Kelce",
       "pos": "TE",
       "slot": "TE",
-      "points": 0
+      "points": 11.100000000000001
      },
      {
       "playerId": 3126486,
@@ -1166,7 +1166,7 @@
       "name": "Javonte Williams",
       "pos": "RB",
       "slot": "RB",
-      "points": 11.600000000000001
+      "points": 33.300000000000004
      },
      {
       "playerId": 4429615,
@@ -1222,7 +1222,7 @@
       "name": "Dalton Kincaid",
       "pos": "TE",
       "slot": "IR",
-      "points": 0
+      "points": 3.3
      },
      {
       "playerId": 4361741,
