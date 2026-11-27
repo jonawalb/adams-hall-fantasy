@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "scoringPeriodId": 12,
- "archivedAt": "2026-11-27T13:18:09.022Z",
+ "archivedAt": "2026-11-27T15:58:11.583Z",
  "matchups": [
   {
    "id": 56,
@@ -630,8 +630,8 @@
       "points": 0
      },
      {
-      "playerId": 4883647,
-      "name": "Elic Ayomanor",
+      "playerId": 4432773,
+      "name": "Brian Thomas Jr.",
       "pos": "WR",
       "slot": "BE",
       "points": 0
